@@ -4,7 +4,7 @@ Entities are frozen plain objects discriminated by a `kind` field (`country | su
 
 Non-obvious choices:
 
-- **Subdivision type is ISO's own category as a kebab-case slug** (`state`, `autonomous-community`, `council-area`), not a small normalised enum. ISO uses around 200 categories across Countries; mapping them onto `state | province | county` loses meaning and invites endless disputes. Display labels ("State", "Bundesland") come from Locale packs.
+- **Subdivisions have no `type` field yet.** Subdivision type would be descriptive only ("Limburg, province of the Netherlands"); narrowing is done by `kinds` and `within`, and address-form labels ("State" or "Province" for a form field) are out of scope. No permissive Source carries it (ADR-0001), so rather than ship a half-sourced field, it is deferred; adding a field is a minor release (ADR-0006). When it is added, two decisions remain open: the Source, and whether values use ISO's own category names or a vocabulary of our own. The likely Source is a hand-maintained table mapping each Country's Wikidata classes to types. Across 368 (Country, ISO type) pairs, 288 have a Wikidata class that matches exactly; the remaining 79 need curating by hand. That table must be built from Wikidata, ISO's public browsing platform or national sources, never from `iso-codes`.
 - **Subdivisions have a Parent** that may be another Subdivision, because ISO nests some (Spanish provinces under autonomous communities).
 - **Historic countries list their Successors and are never auto-mapped to one**, because withdrawals are often one-to-many (Yugoslavia → RS, ME, …).
 - **Entities that ISO lists twice stay separate, joined by a Same-as link** (`PR` ↔ `US-PR`), rather than being merged, so each keeps its own codes and Parent.
