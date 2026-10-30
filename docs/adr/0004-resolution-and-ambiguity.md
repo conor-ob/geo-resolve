@@ -11,6 +11,7 @@ Loose Inputs are often ambiguous, and surfacing that is the main thing geo-resol
 - `kinds` filters which Kinds are considered at all.
 - `prefer` orders Kinds; when Candidates of several Kinds remain, the first preferred Kind with Candidates is kept.
 - `within` limits Subdivisions to one Country (or Parent), and lets a bare Subdivision code suffix match.
+- `locale` limits Name and Alias matching to one Locale. By default, Names match in every Locale loaded into the Resolver (see ADR-0009).
 
 ```ts
 resolve("Georgia");                             // null: Country GE and Subdivision US-GA
