@@ -90,11 +90,7 @@ One Entity that an Input could denote, when it could denote several.
 _Avoid_: result, hit
 
 **Ambiguous input**:
-An Input that still has more than one Candidate after the caller's stated preferences are applied, such as Georgia (a Country and a US Subdivision) with no preference given.
-
-**Preference**:
-The caller's statement of which Kinds or which Country an Input should resolve within, used to narrow Candidates. geo-resolve never narrows Candidates without one.
-_Avoid_: priority, precedence, default ranking
+An Input that still has more than one Candidate after the caller has narrowed the search, such as Georgia (a Country and a US Subdivision) when the caller hasn't said which Kind they mean. geo-resolve never picks between Candidates on the caller's behalf.
 
 **Resolver**:
 A configured view over a chosen set of Entities and Locales, against which Inputs are resolved.
