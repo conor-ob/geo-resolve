@@ -90,7 +90,11 @@ One Entity that an Input could denote, when it could denote several.
 _Avoid_: result, hit
 
 **Ambiguous input**:
-An Input with more than one Candidate that the resolution rules can't narrow to one, such as Limburg (a province in both Belgium and the Netherlands).
+An Input that still has more than one Candidate after the caller's stated preferences are applied, such as Georgia (a Country and a US Subdivision) with no preference given.
+
+**Preference**:
+The caller's statement of which Kinds or which Country an Input should resolve within, used to narrow Candidates. geo-resolve never narrows Candidates without one.
+_Avoid_: priority, precedence, default ranking
 
 **Resolver**:
 A configured view over a chosen set of Entities and Locales, against which Inputs are resolved.
