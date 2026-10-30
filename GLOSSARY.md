@@ -33,8 +33,8 @@ A former ISO 3166-1 entry that has been withdrawn and recorded in ISO 3166-3, su
 _Avoid_: former country, deprecated country, dead country
 
 **Successor**:
-A Country that took over all or part of a Historic country's territory when its code was withdrawn. A Historic country can have several.
-_Avoid_: replacement, new code
+An Entity that ISO names as replacing a Historic country when its code was withdrawn. It is usually a Country but can be another Historic country (Yugoslavia → Serbia and Montenegro), and a Historic country can have several.
+_Avoid_: replacement, new code, successor state (the political sense, which can differ)
 
 **Same-as link**:
 A connection between two Entities that ISO lists separately but that denote the same territory, such as the Country PR and the Subdivision US-PR. Both remain distinct Entities.
