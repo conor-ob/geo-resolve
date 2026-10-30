@@ -21,7 +21,7 @@ A currently assigned ISO 3166-2 entry: a principal administrative division of a 
 _Avoid_: region, province, admin area, state (these are Subdivision types, not the general term)
 
 **Subdivision type**:
-The category ISO assigns a Subdivision within its Country, such as state, autonomous community or council area, kept as ISO names it rather than mapped to a smaller shared set.
+The category ISO assigns a Subdivision within its Country, such as state, autonomous community or council area.
 _Avoid_: level, admin level
 
 **Parent**:
@@ -33,8 +33,8 @@ A former ISO 3166-1 entry that has been withdrawn and recorded in ISO 3166-3, su
 _Avoid_: former country, deprecated country, dead country
 
 **Successor**:
-A Country that took over all or part of a Historic country's territory when its code was withdrawn. A Historic country can have several.
-_Avoid_: replacement, new code
+An Entity that ISO names as replacing a Historic country when its code was withdrawn. It is usually a Country but can be another Historic country (Yugoslavia → Serbia and Montenegro), and a Historic country can have several.
+_Avoid_: replacement, new code, successor state (the political sense, which can differ)
 
 **Same-as link**:
 A connection between two Entities that ISO lists separately but that denote the same territory, such as the Country PR and the Subdivision US-PR. Both remain distinct Entities.
@@ -72,7 +72,7 @@ An additional label that should resolve to an Entity but is not its Name, such a
 _Avoid_: nickname, synonym
 
 **Locale**:
-A language (and optionally script or region) for which Names, Aliases and Subdivision type labels are available, identified by a CLDR locale identifier such as de or pt-BR.
+A language (and optionally script or region) for which Names and Aliases are available, identified by a CLDR locale identifier such as de or pt-BR.
 _Avoid_: language (when the variant matters)
 
 ## Resolution
@@ -114,5 +114,5 @@ _Avoid_: patch, overrides
 A separately importable bundle of Entities, such as all Subdivisions or one Country's Subdivisions.
 
 **Locale pack**:
-A separately importable bundle of Names, Aliases and Subdivision type labels for one Locale.
+A separately importable bundle of Names and Aliases for one Locale.
 _Avoid_: translation file, i18n bundle
