@@ -13,15 +13,15 @@ Loose Inputs are often ambiguous, and surfacing that is the main thing geo-resol
 - `locale` limits Name and Alias matching to one Locale. By default, Names match in every Locale loaded into the Resolver (see ADR-0009).
 
 ```ts
-resolve("Georgia");                             // null: Country GE and Subdivision US-GA
-resolve("Georgia", { kinds: ["country"] });     // Country GE
+resolve("Georgia"); // null: Country GE and Subdivision US-GA
+resolve("Georgia", { kinds: ["country"] }); // Country GE
 resolve("Georgia", { kinds: ["subdivision"] }); // Subdivision US-GA
 resolve("Limburg", { kinds: ["subdivision"] }); // null: BE-VLI and NL-LI
-resolve("Limburg", { within: "NL" });           // Subdivision NL-LI
-resolve("CA");                                  // Country CA: Subdivision codes only match in full (US-CA)
-resolve("CA", { within: "US" });                // Subdivision US-CA
-resolve("CS");                                  // null: Historic countries CSHH and CSXX
-resolve("CSXX");                                // Historic country Serbia and Montenegro
+resolve("Limburg", { within: "NL" }); // Subdivision NL-LI
+resolve("CA"); // Country CA: Subdivision codes only match in full (US-CA)
+resolve("CA", { within: "US" }); // Subdivision US-CA
+resolve("CS"); // null: Historic countries CSHH and CSXX
+resolve("CSXX"); // Historic country Serbia and Montenegro
 ```
 
 `within` takes an Entity `id` only: an Alpha-2 code (`"US"`) or a Subdivision code (`"ES-AN"`), never an Alpha-3 code, Numeric code or Name. It exists to remove ambiguity, so its own value must be unambiguous, which an `id` always is; accepting a loose Input would make `within: "Georgia"` ambiguous in turn. Callers holding a loose value resolve it first and pass `.id`. `within` keeps only Entities under the given one at any depth (`within: "ES"` finds provinces nested under autonomous communities) and so drops every other Country (`resolve("Georgia", { within: "US" })` is US-GA). Bare Subdivision code suffixes match relative to the Country (`"CA"` within `"US"` is US-CA). An `id` that doesn't exist, or that has been withdrawn, matches nothing and `resolve` returns `null` rather than throwing, so a data release that withdraws a code can't make callers' code start throwing (ADR-0007).
