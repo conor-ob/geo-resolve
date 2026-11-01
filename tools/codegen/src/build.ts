@@ -11,12 +11,12 @@ export interface BuildOptions {
   outDir: string;
 }
 
-const Alpha2 = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
+const Alpha2Schema = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
 
-const Country = z.strictObject({
+const CountrySchema = z.strictObject({
   kind: z.literal("country"),
-  id: Alpha2,
-  alpha2: Alpha2,
+  id: Alpha2Schema,
+  alpha2: Alpha2Schema,
   alpha3: z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code"),
   numeric: z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code"),
   name: z.string().min(1, "must not be empty"),
@@ -27,9 +27,9 @@ type Exactly<A, B> =
   (<T>() => T extends A ? 1 : 2) extends <T>() => T extends B ? 1 : 2 ? true : false;
 
 // The published Country type is the source of truth; this fails typechecking if the schema drifts from it.
-true satisfies Exactly<Readonly<z.infer<typeof Country>>, Country>;
+true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Country>;
 
-const RegionValidity = z.object({
+const RegionValiditySchema = z.object({
   supplementalData: z.object({
     idValidity: z.object({
       id: z.array(
@@ -39,7 +39,7 @@ const RegionValidity = z.object({
   }),
 });
 
-const CodeMappings = z.object({
+const CodeMappingsSchema = z.object({
   supplementalData: z.object({
     codeMappings: z.object({
       territoryCodes: z.array(
@@ -53,7 +53,7 @@ const CodeMappings = z.object({
   }),
 });
 
-const EnglishNames = z.object({
+const EnglishNamesSchema = z.object({
   ldml: z.object({
     localeDisplayNames: z.object({
       territories: z.object({
@@ -111,14 +111,14 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
   const validity = await readSnapshot(
     sourcesDir,
     "cldr/common/validity/region.xml",
-    RegionValidity,
+    RegionValiditySchema,
   );
   const mappings = await readSnapshot(
     sourcesDir,
     "cldr/common/supplemental/supplementalData.xml",
-    CodeMappings,
+    CodeMappingsSchema,
   );
-  const english = await readSnapshot(sourcesDir, "cldr/common/main/en.xml", EnglishNames);
+  const english = await readSnapshot(sourcesDir, "cldr/common/main/en.xml", EnglishNamesSchema);
 
   const codes = new Map(
     mappings.supplementalData.codeMappings.territoryCodes.map((row) => [row.type, row]),
@@ -144,7 +144,7 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
       numeric: codes.get(alpha2)?.numeric,
       name: names.get(alpha2),
     };
-    const parsed = Country.safeParse(record);
+    const parsed = CountrySchema.safeParse(record);
     if (parsed.success) countries.push(parsed.data);
     else problems.push(`Country ${alpha2}:\n${z.prettifyError(parsed.error)}`);
   }
