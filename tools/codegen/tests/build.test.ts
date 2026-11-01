@@ -16,10 +16,14 @@ const germanyAndAndorra: CldrFixture = {
   ],
 };
 
-async function buildCountries(fixture: CldrFixture): Promise<unknown> {
+async function emitCountries(fixture: CldrFixture): Promise<string> {
   const outDir = await outputDir();
   await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
-  return JSON.parse(await readFile(join(outDir, "countries.json"), "utf8"));
+  return readFile(join(outDir, "countries.json"), "utf8");
+}
+
+async function buildCountries(fixture: CldrFixture): Promise<unknown> {
+  return JSON.parse(await emitCountries(fixture));
 }
 
 test("emits a Countries Data pack sorted by id", async () => {
@@ -68,12 +72,7 @@ test("emits byte-identical output for the same Snapshots, whatever their order",
     codes: [...germanyAndAndorra.codes].reverse(),
     names: [...germanyAndAndorra.names].reverse(),
   };
-  const emit = async (fixture: CldrFixture) => {
-    const outDir = await outputDir();
-    await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
-    return readFile(join(outDir, "countries.json"), "utf8");
-  };
-  expect(await emit(reordered)).toBe(await emit(germanyAndAndorra));
+  expect(await emitCountries(reordered)).toBe(await emitCountries(germanyAndAndorra));
 });
 
 test("fails on a duplicate id", async () => {

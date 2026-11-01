@@ -10,10 +10,12 @@ export interface BuildOptions {
   outDir: string;
 }
 
+const Alpha2 = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
+
 const Country = z.strictObject({
   kind: z.literal("country"),
-  id: z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code"),
-  alpha2: z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code"),
+  id: Alpha2,
+  alpha2: Alpha2,
   alpha3: z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code"),
   numeric: z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code"),
   name: z.string().min(1, "must not be empty"),
@@ -121,13 +123,13 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
       .map((row) => [row.type, row["#text"]]),
   );
 
-  const regions = validity.supplementalData.idValidity.id
+  const regularCodes = validity.supplementalData.idValidity.id
     .filter((row) => row.type === "region" && row.idStatus === "regular")
     .flatMap((row) => expandCodes(row["#text"]));
 
   const problems: string[] = [];
   const countries: Country[] = [];
-  for (const alpha2 of regions.filter(isAssignedByIso)) {
+  for (const alpha2 of regularCodes.filter(isAssignedByIso)) {
     const record = {
       kind: "country",
       id: alpha2,

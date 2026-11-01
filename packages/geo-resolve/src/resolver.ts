@@ -1,7 +1,7 @@
 import { normalise } from "./normalise.ts";
 import type { Entity, Kind, ResolveOptions } from "./types.ts";
 
-export interface Resolver {
+interface Resolver {
   resolve: (input: string, options?: ResolveOptions) => Entity | null;
   resolveAll: (input: string, options?: ResolveOptions) => Entity[];
 }
