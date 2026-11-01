@@ -134,3 +134,78 @@ test("a Resolver keeps the Data packs it was created with", () => {
   data.push(subdivisions);
   expect(snapshot.resolve("Georgia")?.id).toBe("GE");
 });
+
+test('within: "NL" resolves "Limburg" to NL-LI', () => {
+  expect(resolver.resolve("Limburg", { within: "NL" })?.id).toBe("NL-LI");
+});
+
+test('within: "US" lets the bare suffix "CA" match US-CA', () => {
+  expect(resolver.resolve("CA", { within: "US" })?.id).toBe("US-CA");
+  expect(resolver.resolve("ca", { within: "US" })?.id).toBe("US-CA");
+});
+
+test('within: "ES" finds provinces nested under autonomous communities', () => {
+  expect(resolver.resolve("Almería", { within: "ES" })?.id).toBe("ES-AL");
+  expect(resolver.resolve("AL", { within: "ES" })?.id).toBe("ES-AL");
+});
+
+test("within a Subdivision narrows to its descendants", () => {
+  expect(resolver.resolve("Almería", { within: "ES-AN" })?.id).toBe("ES-AL");
+  expect(resolver.resolve("AL", { within: "ES-AN" })?.id).toBe("ES-AL");
+  expect(resolver.resolve("Almería", { within: "ES-CT" })).toBeNull();
+  expect(resolver.resolve("AL", { within: "ES-CT" })).toBeNull();
+});
+
+test('within: "US" resolves "Georgia" to US-GA, dropping every other Country', () => {
+  expect(resolver.resolve("Georgia", { within: "US" })?.id).toBe("US-GA");
+  expect(resolver.resolveAll("Georgia", { within: "US" }).map((entity) => entity.id)).toEqual([
+    "US-GA",
+  ]);
+});
+
+test.each(["ZZ", "XX-YY", "USA", "840", "United States", "us", "CS", "YU", ""])(
+  "within: %j is not a loaded id, so nothing matches and nothing throws",
+  (within) => {
+    expect(resolver.resolve("California", { within })).toBeNull();
+    expect(resolver.resolve("CA", { within })).toBeNull();
+    expect(resolver.resolveAll("Georgia", { within })).toEqual([]);
+  },
+);
+
+test("within includes the Entity it names", () => {
+  expect(resolver.resolve("Netherlands", { within: "NL" })?.id).toBe("NL");
+  expect(resolver.resolve("ES-AN", { within: "ES-AN" })?.id).toBe("ES-AN");
+});
+
+test("within composes with kinds", () => {
+  expect(resolver.resolve("Limburg", { within: "NL", kinds: ["subdivision"] })?.id).toBe("NL-LI");
+  expect(resolver.resolve("Limburg", { within: "NL", kinds: ["country"] })).toBeNull();
+  expect(resolver.resolve("Netherlands", { within: "NL", kinds: ["subdivision"] })).toBeNull();
+});
+
+test("every to* helper accepts within", () => {
+  expect(resolver.toSubdivisionCode("CA", { within: "US" })).toBe("US-CA");
+  expect(resolver.toName("CA", { within: "US" })).toBe("California");
+  expect(resolver.toAlpha2("CA", { within: "US" })).toBeNull();
+  expect(resolver.toAlpha2("Georgia", { within: "GE" })).toBe("GE");
+  expect(resolver.toAlpha3("Georgia", { within: "GE" })).toBe("GEO");
+  expect(resolver.toNumeric("Georgia", { within: "GE" })).toBe("268");
+});
+
+test("within works without the Country itself loaded", () => {
+  const us = createResolver({ data: [usSubdivisions] });
+  expect(us.resolve("CA", { within: "US" })?.id).toBe("US-CA");
+});
+
+test("within reaches a Subdivision whose intermediate Parent isn't loaded", () => {
+  const almeria = subdivisions.filter((subdivision) => subdivision.id === "ES-AL");
+  expect(createResolver({ data: [almeria] }).resolve("AL", { within: "ES" })?.id).toBe("ES-AL");
+});
+
+test("within terminates on Parents that loop in a hand-built pack", () => {
+  const looping: DataPack = [
+    { kind: "subdivision", id: "XX-A", code: "XX-A", country: "XX", parent: "XX-B", name: "A" },
+    { kind: "subdivision", id: "XX-B", code: "XX-B", country: "XX", parent: "XX-A", name: "B" },
+  ];
+  expect(createResolver({ data: [looping] }).resolve("A", { within: "XX-C" })).toBeNull();
+});
