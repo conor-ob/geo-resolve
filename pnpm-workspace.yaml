@@ -6,9 +6,11 @@ catalogMode: prefer
 
 catalog:
   "@types/node": ^22
+  fast-xml-parser: 5.11.2
   typescript: ^7.0.2
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
+  zod: 4.6.7
 overrides:
   vite@*: "catalog:"
 peerDependencyRules:

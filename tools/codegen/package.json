@@ -4,12 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "fetch": "node src/cli.ts fetch",
+    "build": "node src/cli.ts build",
     "typecheck": "tsc -p .",
     "test": "vp test run"
   },
   "devDependencies": {
     "@types/node": "catalog:",
+    "fast-xml-parser": "catalog:",
     "typescript": "catalog:",
-    "vite-plus": "catalog:"
+    "vite-plus": "catalog:",
+    "zod": "catalog:"
   }
 }

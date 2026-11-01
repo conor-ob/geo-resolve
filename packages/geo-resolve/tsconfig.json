@@ -1,7 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "types": ["node"]
+    "types": ["node"],
+    "paths": {
+      "geo-resolve": ["./src/index.ts"]
+    }
   },
   "include": ["src", "tests", "vite.config.ts"]
 }
