@@ -42,16 +42,22 @@ function matchKeys(entity: Entity): string[] {
       return [entity.id, entity.alpha2, entity.alpha3, entity.numeric, entity.name];
     case "subdivision":
       return [entity.id, entity.code, entity.name];
+    default:
+      // A Kind this version doesn't know, from a hand-built pack, never matches.
+      return [];
   }
 }
 
 /** Builds an independent Resolver over the Entities in `data`. Its index is built on first use and is private to it. */
 export function createResolver({ data }: ResolverOptions): Resolver {
+  // Later changes to the caller's array don't reach this Resolver.
+  const packs = [...data];
   let index: Map<string, Entity[]> | undefined;
 
   function buildIndex(): Map<string, Entity[]> {
     const built = new Map<string, Entity[]>();
-    for (const entity of new Set(data.flat())) {
+    for (const entity of new Set(packs.flat())) {
+      // Shipped Data packs are frozen already; hand-built ones aren't.
       const frozen = Object.freeze(entity);
       for (const key of new Set(matchKeys(frozen).map(normalise))) {
         const candidates = built.get(key) ?? [];

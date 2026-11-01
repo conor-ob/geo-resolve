@@ -1,5 +1,5 @@
 import { expect, test } from "vite-plus/test";
-import { createResolver, resolve } from "geo-resolve";
+import { createResolver, resolve, type DataPack } from "geo-resolve";
 import countries from "geo-resolve/data/countries";
 import subdivisions from "geo-resolve/data/subdivisions";
 import usSubdivisions from "geo-resolve/data/subdivisions/US";
@@ -126,4 +126,11 @@ test("the default entry still resolves Countries only", () => {
   expect(resolve("Georgia")?.id).toBe("GE");
   expect(resolve("US-CA")).toBeNull();
   expect(resolve("California")).toBeNull();
+});
+
+test("a Resolver keeps the Data packs it was created with", () => {
+  const data: DataPack[] = [countries];
+  const snapshot = createResolver({ data });
+  data.push(subdivisions);
+  expect(snapshot.resolve("Georgia")?.id).toBe("GE");
 });

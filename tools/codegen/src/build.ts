@@ -44,7 +44,8 @@ true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Country>;
 // No Source fills `codes` yet, so the schema rejects it until Code systems are built.
 true satisfies Exactly<Readonly<z.infer<typeof SubdivisionSchema>>, Omit<Subdivision, "codes">>;
 
-const RegionValiditySchema = z.object({
+/** A CLDR validity file, which lists codes of one type (regions, Subdivisions) by status. */
+const IdValiditySchema = z.object({
   supplementalData: z.object({
     idValidity: z.object({
       id: z.array(
@@ -89,8 +90,6 @@ function isAssignedByIso(code: string): boolean {
   if (["AC", "CP", "CQ", "DG", "EA", "IC", "TA", "AA", "ZZ"].includes(code)) return false;
   return !/^(Q[M-Z]|X[A-Z])$/.test(code);
 }
-
-const SubdivisionValiditySchema = RegionValiditySchema;
 
 /** An element with no children parses as `""`; this reads it as an element with none. */
 function element<T extends z.ZodType>(schema: T) {
@@ -156,8 +155,8 @@ function subdivisionCode(cldrCode: string): string {
   return `${cldrCode.slice(0, 2)}-${cldrCode.slice(2)}`.toUpperCase();
 }
 
-/** Turns a CLDR containment `type` into an Entity `id`: Countries are written as Alpha-2 codes, Subdivisions in lowercase. */
-function containerId(type: string): string {
+/** Turns a CLDR containment `type` into its Parent's Entity `id`: Countries are written as Alpha-2 codes, Subdivisions in lowercase. */
+function parentId(type: string): string {
   return /^[A-Z]{2}$/.test(type) ? type : subdivisionCode(type);
 }
 
@@ -170,7 +169,7 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
   const validity = await readSnapshot(
     sourcesDir,
     "cldr/common/validity/region.xml",
-    RegionValiditySchema,
+    IdValiditySchema,
   );
   const mappings = await readSnapshot(
     sourcesDir,
@@ -181,7 +180,7 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
   const subdivisionValidity = await readSnapshot(
     sourcesDir,
     "cldr/common/validity/subdivision.xml",
-    SubdivisionValiditySchema,
+    IdValiditySchema,
   );
   const containment = await readSnapshot(
     sourcesDir,
@@ -231,12 +230,12 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
     }
   }
 
-  // Containment also lists codes CLDR has deprecated in favour of a region (`uspr` for PR); only regular codes are Subdivisions.
+  // Containment also lists codes CLDR has deprecated in favour of a CLDR region (`uspr` for PR); only regular codes are Subdivisions.
   const parents = new Map<string, string>();
   for (const { type, contains } of containment.supplementalData.subdivisionContainment.subgroup) {
     for (const child of contains.split(/\s+/).filter(Boolean)) {
       const id = subdivisionCode(child);
-      const parent = containerId(type);
+      const parent = parentId(type);
       const existing = parents.get(id);
       if (existing !== undefined && existing !== parent)
         problems.push(`Subdivision ${id} has two Parents, ${existing} and ${parent}`);
@@ -254,14 +253,14 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
     .flatMap((row) => expandCodes(row["#text"]))
     .map(subdivisionCode);
   const countryIds = new Set(countries.map((country) => country.id));
-  const isSubdivision = new Set(subdivisionIds);
+  const knownSubdivisionIds = new Set(subdivisionIds);
 
   /** Follows Parents up to the Country at the top, or returns `undefined` when the chain breaks or loops. */
   function countryOf(id: string): string | undefined {
     const seen = new Set<string>();
     for (let current = parents.get(id); current !== undefined; current = parents.get(current)) {
       if (countryIds.has(current)) return current;
-      if (!isSubdivision.has(current)) {
+      if (!knownSubdivisionIds.has(current)) {
         problems.push(`Subdivision ${id} has a dangling Parent ${current}`);
         return undefined;
       }

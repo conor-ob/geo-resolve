@@ -181,7 +181,7 @@ test("CLDR containment becomes Parents, including provinces nested under autonom
 
 test.each([
   ["a Subdivision CLDR doesn't list as regular", [{ type: "esan", contains: ["esal"] }], "ES-AN"],
-  ["a region that isn't a Country", [{ type: "QO", contains: ["esal"] }], "QO"],
+  ["a CLDR region that isn't a Country", [{ type: "QO", contains: ["esal"] }], "QO"],
 ])("fails on a Parent that is %s", async (_, containment, parent) => {
   const dangling: CldrFixture = {
     ...spain,
@@ -231,4 +231,34 @@ test("emits one Subdivisions Data pack per Country, empty when it has none", asy
   const packs = await readdir(join(outDir, "subdivisions"));
   expect(packs.filter((file) => file.endsWith(".json"))).toEqual(["AD.json", "ES.json"]);
   expect(JSON.parse(await readFile(join(outDir, "subdivisions", "AD.json"), "utf8"))).toEqual([]);
+});
+
+test("fails on a Subdivision CLDR lists under two Parents", async () => {
+  const twice: CldrFixture = {
+    ...spain,
+    subdivisions: {
+      ...spain.subdivisions!,
+      containment: [...spain.subdivisions!.containment, { type: "ES", contains: ["esal"] }],
+    },
+  };
+  await expect(buildSubdivisions(twice, "ES")).rejects.toThrow(
+    "Subdivision ES-AL has two Parents, ES-AN and ES",
+  );
+});
+
+test("fails on Parents that form a cycle", async () => {
+  const cyclic: CldrFixture = {
+    ...spain,
+    subdivisions: {
+      regular: ["esal", "esan"],
+      containment: [
+        { type: "esan", contains: ["esal"] },
+        { type: "esal", contains: ["esan"] },
+      ],
+      names: spain.subdivisions!.names,
+    },
+  };
+  await expect(buildSubdivisions(cyclic, "ES")).rejects.toThrow(
+    "Subdivision ES-AL has Parents that form a cycle",
+  );
 });
