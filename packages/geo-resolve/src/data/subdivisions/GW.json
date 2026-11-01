@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GW-BA",
+    "code": "GW-BA",
+    "country": "GW",
+    "parent": "GW-L",
+    "name": "Bafatá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-BL",
+    "code": "GW-BL",
+    "country": "GW",
+    "parent": "GW-S",
+    "name": "Bolama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-BM",
+    "code": "GW-BM",
+    "country": "GW",
+    "parent": "GW-N",
+    "name": "Biombo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-BS",
+    "code": "GW-BS",
+    "country": "GW",
+    "parent": "GW",
+    "name": "Bissau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-CA",
+    "code": "GW-CA",
+    "country": "GW",
+    "parent": "GW-N",
+    "name": "Cacheu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-GA",
+    "code": "GW-GA",
+    "country": "GW",
+    "parent": "GW-L",
+    "name": "Gabú"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-L",
+    "code": "GW-L",
+    "country": "GW",
+    "parent": "GW",
+    "name": "Leste"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-N",
+    "code": "GW-N",
+    "country": "GW",
+    "parent": "GW",
+    "name": "Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-OI",
+    "code": "GW-OI",
+    "country": "GW",
+    "parent": "GW-N",
+    "name": "Oio"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-QU",
+    "code": "GW-QU",
+    "country": "GW",
+    "parent": "GW-S",
+    "name": "Quinara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-S",
+    "code": "GW-S",
+    "country": "GW",
+    "parent": "GW",
+    "name": "Sul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GW-TO",
+    "code": "GW-TO",
+    "country": "GW",
+    "parent": "GW-S",
+    "name": "Tombali"
+  }
+]

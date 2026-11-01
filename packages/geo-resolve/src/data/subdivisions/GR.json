@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GR-69",
+    "code": "GR-69",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Mount Athos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-A",
+    "code": "GR-A",
+    "country": "GR",
+    "parent": "GR",
+    "name": "East Macedonia and Thrace"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-B",
+    "code": "GR-B",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Central Macedonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-C",
+    "code": "GR-C",
+    "country": "GR",
+    "parent": "GR",
+    "name": "West Macedonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-D",
+    "code": "GR-D",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Epirus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-E",
+    "code": "GR-E",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Thessaly"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-F",
+    "code": "GR-F",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Ionian Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-G",
+    "code": "GR-G",
+    "country": "GR",
+    "parent": "GR",
+    "name": "West Greece"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-H",
+    "code": "GR-H",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Central Greece"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-I",
+    "code": "GR-I",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Attica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-J",
+    "code": "GR-J",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Peloponnese"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-K",
+    "code": "GR-K",
+    "country": "GR",
+    "parent": "GR",
+    "name": "North Aegean"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-L",
+    "code": "GR-L",
+    "country": "GR",
+    "parent": "GR",
+    "name": "South Aegean"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GR-M",
+    "code": "GR-M",
+    "country": "GR",
+    "parent": "GR",
+    "name": "Crete"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "DJ-AR",
+    "code": "DJ-AR",
+    "country": "DJ",
+    "parent": "DJ",
+    "name": "Arta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DJ-AS",
+    "code": "DJ-AS",
+    "country": "DJ",
+    "parent": "DJ",
+    "name": "Ali Sabieh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DJ-DI",
+    "code": "DJ-DI",
+    "country": "DJ",
+    "parent": "DJ",
+    "name": "Dikhil"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DJ-DJ",
+    "code": "DJ-DJ",
+    "country": "DJ",
+    "parent": "DJ",
+    "name": "Djibouti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DJ-OB",
+    "code": "DJ-OB",
+    "country": "DJ",
+    "parent": "DJ",
+    "name": "Obock"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DJ-TA",
+    "code": "DJ-TA",
+    "country": "DJ",
+    "parent": "DJ",
+    "name": "Tadjourah"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GH-AA",
+    "code": "GH-AA",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Greater Accra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-AF",
+    "code": "GH-AF",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Ahafo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-AH",
+    "code": "GH-AH",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Ashanti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-BE",
+    "code": "GH-BE",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Bono East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-BO",
+    "code": "GH-BO",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Bono"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-CP",
+    "code": "GH-CP",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-EP",
+    "code": "GH-EP",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-NE",
+    "code": "GH-NE",
+    "country": "GH",
+    "parent": "GH",
+    "name": "North East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-NP",
+    "code": "GH-NP",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-OT",
+    "code": "GH-OT",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Oti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-SV",
+    "code": "GH-SV",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Savannah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-TV",
+    "code": "GH-TV",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Volta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-UE",
+    "code": "GH-UE",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Upper East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-UW",
+    "code": "GH-UW",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Upper West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-WN",
+    "code": "GH-WN",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Western North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GH-WP",
+    "code": "GH-WP",
+    "country": "GH",
+    "parent": "GH",
+    "name": "Western"
+  }
+]

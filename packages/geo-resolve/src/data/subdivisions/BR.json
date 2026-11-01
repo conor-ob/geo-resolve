@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BR-AC",
+    "code": "BR-AC",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Acre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-AL",
+    "code": "BR-AL",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Alagoas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-AM",
+    "code": "BR-AM",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Amazonas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-AP",
+    "code": "BR-AP",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Amapá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-BA",
+    "code": "BR-BA",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Bahia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-CE",
+    "code": "BR-CE",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Ceará"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-DF",
+    "code": "BR-DF",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Federal District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-ES",
+    "code": "BR-ES",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Espírito Santo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-GO",
+    "code": "BR-GO",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Goiás"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-MA",
+    "code": "BR-MA",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Maranhão"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-MG",
+    "code": "BR-MG",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Minas Gerais"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-MS",
+    "code": "BR-MS",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Mato Grosso do Sul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-MT",
+    "code": "BR-MT",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Mato Grosso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-PA",
+    "code": "BR-PA",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Pará"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-PB",
+    "code": "BR-PB",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Paraíba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-PE",
+    "code": "BR-PE",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Pernambuco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-PI",
+    "code": "BR-PI",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Piauí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-PR",
+    "code": "BR-PR",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Paraná"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-RJ",
+    "code": "BR-RJ",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Rio de Janeiro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-RN",
+    "code": "BR-RN",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Rio Grande do Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-RO",
+    "code": "BR-RO",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Rondônia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-RR",
+    "code": "BR-RR",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Roraima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-RS",
+    "code": "BR-RS",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Rio Grande do Sul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-SC",
+    "code": "BR-SC",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Santa Catarina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-SE",
+    "code": "BR-SE",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Sergipe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-SP",
+    "code": "BR-SP",
+    "country": "BR",
+    "parent": "BR",
+    "name": "São Paulo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BR-TO",
+    "code": "BR-TO",
+    "country": "BR",
+    "parent": "BR",
+    "name": "Tocantins"
+  }
+]

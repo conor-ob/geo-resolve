@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ZA-EC",
+    "code": "ZA-EC",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Eastern Cape"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-FS",
+    "code": "ZA-FS",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Free State"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-GP",
+    "code": "ZA-GP",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Gauteng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-KZN",
+    "code": "ZA-KZN",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "KwaZulu-Natal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-LP",
+    "code": "ZA-LP",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Limpopo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-MP",
+    "code": "ZA-MP",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Mpumalanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-NC",
+    "code": "ZA-NC",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Northern Cape"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-NW",
+    "code": "ZA-NW",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "North West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZA-WC",
+    "code": "ZA-WC",
+    "country": "ZA",
+    "parent": "ZA",
+    "name": "Western Cape"
+  }
+]

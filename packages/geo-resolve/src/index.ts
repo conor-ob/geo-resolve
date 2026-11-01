@@ -1,10 +1,22 @@
-import countries from "./data/countries.json" with { type: "json" };
+import countries from "./data/countries.ts";
 import { createResolver } from "./resolver.ts";
-import type { Entity, ResolveOptions } from "./types.ts";
 
-export type { Country, Entity, Kind, KnownKind, ResolveOptions } from "./types.ts";
+export { createResolver } from "./resolver.ts";
+export type { Resolver, ResolverOptions } from "./resolver.ts";
+export type {
+  Codes,
+  Country,
+  DataPack,
+  Entity,
+  Kind,
+  KnownCodeSystem,
+  KnownKind,
+  ResolveOptions,
+  Subdivision,
+} from "./types.ts";
 
-const resolver = createResolver(countries as readonly Entity[]);
+// The default entry resolves Countries in English only; other Data packs are opt-in (ADR-0005).
+const resolver = createResolver({ data: [countries] });
 
 /** Resolves an Input to the single Entity it denotes, or `null` when there is none or it is ambiguous. */
 export const resolve = resolver.resolve;
@@ -13,21 +25,16 @@ export const resolve = resolver.resolve;
 export const resolveAll = resolver.resolveAll;
 
 /** Resolves an Input and returns its Alpha-2 code, or `null` when it doesn't resolve or has none. */
-export function toAlpha2(input: string, options?: ResolveOptions): string | null {
-  return resolve(input, options)?.alpha2 ?? null;
-}
+export const toAlpha2 = resolver.toAlpha2;
 
 /** Resolves an Input and returns its Alpha-3 code, or `null` when it doesn't resolve or has none. */
-export function toAlpha3(input: string, options?: ResolveOptions): string | null {
-  return resolve(input, options)?.alpha3 ?? null;
-}
+export const toAlpha3 = resolver.toAlpha3;
 
 /** Resolves an Input and returns its three-digit Numeric code, or `null` when it doesn't resolve or has none. */
-export function toNumeric(input: string, options?: ResolveOptions): string | null {
-  return resolve(input, options)?.numeric ?? null;
-}
+export const toNumeric = resolver.toNumeric;
+
+/** Resolves an Input and returns its Subdivision code, or `null` when it doesn't resolve or has none. */
+export const toSubdivisionCode = resolver.toSubdivisionCode;
 
 /** Resolves an Input and returns its English Name, or `null` when it doesn't resolve. */
-export function toName(input: string, options?: ResolveOptions): string | null {
-  return resolve(input, options)?.name ?? null;
-}
+export const toName = resolver.toName;

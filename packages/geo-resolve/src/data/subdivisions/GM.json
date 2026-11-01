@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GM-B",
+    "code": "GM-B",
+    "country": "GM",
+    "parent": "GM",
+    "name": "Banjul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GM-L",
+    "code": "GM-L",
+    "country": "GM",
+    "parent": "GM",
+    "name": "Lower River Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GM-M",
+    "code": "GM-M",
+    "country": "GM",
+    "parent": "GM",
+    "name": "Central River Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GM-N",
+    "code": "GM-N",
+    "country": "GM",
+    "parent": "GM",
+    "name": "North Bank Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GM-U",
+    "code": "GM-U",
+    "country": "GM",
+    "parent": "GM",
+    "name": "Upper River Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GM-W",
+    "code": "GM-W",
+    "country": "GM",
+    "parent": "GM",
+    "name": "West Coast Division"
+  }
+]

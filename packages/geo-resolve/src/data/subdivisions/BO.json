@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BO-B",
+    "code": "BO-B",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Beni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-C",
+    "code": "BO-C",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Cochabamba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-H",
+    "code": "BO-H",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Chuquisaca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-L",
+    "code": "BO-L",
+    "country": "BO",
+    "parent": "BO",
+    "name": "La Paz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-N",
+    "code": "BO-N",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Pando"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-O",
+    "code": "BO-O",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Oruro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-P",
+    "code": "BO-P",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Potosí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-S",
+    "code": "BO-S",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Santa Cruz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BO-T",
+    "code": "BO-T",
+    "country": "BO",
+    "parent": "BO",
+    "name": "Tarija"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "JO-AJ",
+    "code": "JO-AJ",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Ajloun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-AM",
+    "code": "JO-AM",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Amman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-AQ",
+    "code": "JO-AQ",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Aqaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-AT",
+    "code": "JO-AT",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Tafilah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-AZ",
+    "code": "JO-AZ",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Zarqa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-BA",
+    "code": "JO-BA",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Balqa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-IR",
+    "code": "JO-IR",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Irbid"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-JA",
+    "code": "JO-JA",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Jerash"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-KA",
+    "code": "JO-KA",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Karak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-MA",
+    "code": "JO-MA",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Mafraq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-MD",
+    "code": "JO-MD",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Madaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JO-MN",
+    "code": "JO-MN",
+    "country": "JO",
+    "parent": "JO",
+    "name": "Ma’an"
+  }
+]

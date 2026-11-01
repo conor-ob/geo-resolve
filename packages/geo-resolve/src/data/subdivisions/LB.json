@@ -1,0 +1,66 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LB-AK",
+    "code": "LB-AK",
+    "country": "LB",
+    "parent": "LB",
+    "name": "Akkar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-AS",
+    "code": "LB-AS",
+    "country": "LB",
+    "parent": "LB",
+    "name": "North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-BA",
+    "code": "LB-BA",
+    "country": "LB",
+    "parent": "LB",
+    "name": "Beirut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-BH",
+    "code": "LB-BH",
+    "country": "LB",
+    "parent": "LB",
+    "name": "Baalbek-Hermel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-BI",
+    "code": "LB-BI",
+    "country": "LB",
+    "parent": "LB",
+    "name": "Beqaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-JA",
+    "code": "LB-JA",
+    "country": "LB",
+    "parent": "LB",
+    "name": "South"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-JL",
+    "code": "LB-JL",
+    "country": "LB",
+    "parent": "LB",
+    "name": "Mount Lebanon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LB-NA",
+    "code": "LB-NA",
+    "country": "LB",
+    "parent": "LB",
+    "name": "Nabatieh"
+  }
+]

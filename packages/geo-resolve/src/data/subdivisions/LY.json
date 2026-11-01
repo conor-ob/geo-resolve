@@ -1,0 +1,178 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LY-BA",
+    "code": "LY-BA",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Benghazi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-BU",
+    "code": "LY-BU",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Butnan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-DR",
+    "code": "LY-DR",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Derna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-GT",
+    "code": "LY-GT",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Ghat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-JA",
+    "code": "LY-JA",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Jabal al Akhdar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-JG",
+    "code": "LY-JG",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Jabal al Gharbi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-JI",
+    "code": "LY-JI",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Jafara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-JU",
+    "code": "LY-JU",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Jufra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-KF",
+    "code": "LY-KF",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Kufra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-MB",
+    "code": "LY-MB",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Murqub"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-MI",
+    "code": "LY-MI",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Misrata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-MJ",
+    "code": "LY-MJ",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Marj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-MQ",
+    "code": "LY-MQ",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Murzuq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-NL",
+    "code": "LY-NL",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Nalut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-NQ",
+    "code": "LY-NQ",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Nuqat al Khams"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-SB",
+    "code": "LY-SB",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Sabha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-SR",
+    "code": "LY-SR",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Sirte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-TB",
+    "code": "LY-TB",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Tripoli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-WA",
+    "code": "LY-WA",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Al Wahat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-WD",
+    "code": "LY-WD",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Wadi al Hayaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-WS",
+    "code": "LY-WS",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Wadi al Shatii"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LY-ZA",
+    "code": "LY-ZA",
+    "country": "LY",
+    "parent": "LY",
+    "name": "Zawiya"
+  }
+]

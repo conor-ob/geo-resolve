@@ -1,0 +1,178 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "YE-AB",
+    "code": "YE-AB",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Abyan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-AD",
+    "code": "YE-AD",
+    "country": "YE",
+    "parent": "YE",
+    "name": "’Adan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-AM",
+    "code": "YE-AM",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Amran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-BA",
+    "code": "YE-BA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Al Bayda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-DA",
+    "code": "YE-DA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Dhale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-DH",
+    "code": "YE-DH",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Dhamar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-HD",
+    "code": "YE-HD",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Hadramaut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-HJ",
+    "code": "YE-HJ",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Hajjah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-HU",
+    "code": "YE-HU",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Al Hudaydah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-IB",
+    "code": "YE-IB",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Ibb"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-JA",
+    "code": "YE-JA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Al Jawf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-LA",
+    "code": "YE-LA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Lahij"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-MA",
+    "code": "YE-MA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Ma’rib"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-MR",
+    "code": "YE-MR",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Al Mahrah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-MW",
+    "code": "YE-MW",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Al Mahwit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-RA",
+    "code": "YE-RA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Raymah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-SA",
+    "code": "YE-SA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Amanat Al Asimah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-SD",
+    "code": "YE-SD",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Sa’dah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-SH",
+    "code": "YE-SH",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Shabwah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-SN",
+    "code": "YE-SN",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Sana’a"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-SU",
+    "code": "YE-SU",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Arkhabil Suqutra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "YE-TA",
+    "code": "YE-TA",
+    "country": "YE",
+    "parent": "YE",
+    "name": "Taiz"
+  }
+]

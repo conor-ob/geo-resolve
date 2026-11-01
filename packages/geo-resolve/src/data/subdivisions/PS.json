@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PS-BTH",
+    "code": "PS-BTH",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Bethlehem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-DEB",
+    "code": "PS-DEB",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Deir al-Balah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-GZA",
+    "code": "PS-GZA",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Gaza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-HBN",
+    "code": "PS-HBN",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Hebron"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-JEM",
+    "code": "PS-JEM",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Jerusalem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-JEN",
+    "code": "PS-JEN",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Jenin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-JRH",
+    "code": "PS-JRH",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Jericho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-KYS",
+    "code": "PS-KYS",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Khan Yunis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-NBS",
+    "code": "PS-NBS",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Nablus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-NGZ",
+    "code": "PS-NGZ",
+    "country": "PS",
+    "parent": "PS",
+    "name": "North Gaza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-QQA",
+    "code": "PS-QQA",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Qalqilya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-RBH",
+    "code": "PS-RBH",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Ramallah and al-Bireh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-RFH",
+    "code": "PS-RFH",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Rafah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-SLT",
+    "code": "PS-SLT",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Salfit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-TBS",
+    "code": "PS-TBS",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Tubas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PS-TKM",
+    "code": "PS-TKM",
+    "country": "PS",
+    "parent": "PS",
+    "name": "Tulkarm"
+  }
+]

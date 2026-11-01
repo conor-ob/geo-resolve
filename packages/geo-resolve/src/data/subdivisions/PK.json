@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PK-BA",
+    "code": "PK-BA",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Balochistan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PK-GB",
+    "code": "PK-GB",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Gilgit-Baltistan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PK-IS",
+    "code": "PK-IS",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Islamabad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PK-JK",
+    "code": "PK-JK",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Azad Kashmir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PK-KP",
+    "code": "PK-KP",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Khyber Pakhtunkhwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PK-PB",
+    "code": "PK-PB",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Punjab"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PK-SD",
+    "code": "PK-SD",
+    "country": "PK",
+    "parent": "PK",
+    "name": "Sindh"
+  }
+]

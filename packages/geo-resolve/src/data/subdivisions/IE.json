@@ -1,0 +1,242 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IE-C",
+    "code": "IE-C",
+    "country": "IE",
+    "parent": "IE",
+    "name": "Connacht"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-CE",
+    "code": "IE-CE",
+    "country": "IE",
+    "parent": "IE-M",
+    "name": "Clare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-CN",
+    "code": "IE-CN",
+    "country": "IE",
+    "parent": "IE-U",
+    "name": "Cavan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-CO",
+    "code": "IE-CO",
+    "country": "IE",
+    "parent": "IE-M",
+    "name": "Cork"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-CW",
+    "code": "IE-CW",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Carlow"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-D",
+    "code": "IE-D",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Dublin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-DL",
+    "code": "IE-DL",
+    "country": "IE",
+    "parent": "IE-U",
+    "name": "Donegal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-G",
+    "code": "IE-G",
+    "country": "IE",
+    "parent": "IE-C",
+    "name": "Galway"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-KE",
+    "code": "IE-KE",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Kildare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-KK",
+    "code": "IE-KK",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Kilkenny"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-KY",
+    "code": "IE-KY",
+    "country": "IE",
+    "parent": "IE-M",
+    "name": "Kerry"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-L",
+    "code": "IE-L",
+    "country": "IE",
+    "parent": "IE",
+    "name": "Leinster"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-LD",
+    "code": "IE-LD",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Longford"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-LH",
+    "code": "IE-LH",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Louth"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-LK",
+    "code": "IE-LK",
+    "country": "IE",
+    "parent": "IE-M",
+    "name": "Limerick"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-LM",
+    "code": "IE-LM",
+    "country": "IE",
+    "parent": "IE-C",
+    "name": "Leitrim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-LS",
+    "code": "IE-LS",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Laois"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-M",
+    "code": "IE-M",
+    "country": "IE",
+    "parent": "IE",
+    "name": "Munster"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-MH",
+    "code": "IE-MH",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Meath"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-MN",
+    "code": "IE-MN",
+    "country": "IE",
+    "parent": "IE-U",
+    "name": "Monaghan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-MO",
+    "code": "IE-MO",
+    "country": "IE",
+    "parent": "IE-C",
+    "name": "Mayo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-OY",
+    "code": "IE-OY",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Offaly"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-RN",
+    "code": "IE-RN",
+    "country": "IE",
+    "parent": "IE-C",
+    "name": "Roscommon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-SO",
+    "code": "IE-SO",
+    "country": "IE",
+    "parent": "IE-C",
+    "name": "Sligo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-TA",
+    "code": "IE-TA",
+    "country": "IE",
+    "parent": "IE-M",
+    "name": "Tipperary"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-U",
+    "code": "IE-U",
+    "country": "IE",
+    "parent": "IE",
+    "name": "Ulster"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-WD",
+    "code": "IE-WD",
+    "country": "IE",
+    "parent": "IE-M",
+    "name": "Waterford"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-WH",
+    "code": "IE-WH",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Westmeath"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-WW",
+    "code": "IE-WW",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Wicklow"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IE-WX",
+    "code": "IE-WX",
+    "country": "IE",
+    "parent": "IE-L",
+    "name": "Wexford"
+  }
+]

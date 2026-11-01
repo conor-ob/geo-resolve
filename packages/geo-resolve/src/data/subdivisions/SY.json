@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SY-DI",
+    "code": "SY-DI",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Damascus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-DR",
+    "code": "SY-DR",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Daraa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-DY",
+    "code": "SY-DY",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Deir ez-Zor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-HA",
+    "code": "SY-HA",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Al-Hasakah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-HI",
+    "code": "SY-HI",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Homs"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-HL",
+    "code": "SY-HL",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Aleppo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-HM",
+    "code": "SY-HM",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Hama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-ID",
+    "code": "SY-ID",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Idlib"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-LA",
+    "code": "SY-LA",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Latakia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-QU",
+    "code": "SY-QU",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Quneitra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-RA",
+    "code": "SY-RA",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Ar-Raqqah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-RD",
+    "code": "SY-RD",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Rif Dimashq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-SU",
+    "code": "SY-SU",
+    "country": "SY",
+    "parent": "SY",
+    "name": "As-Suwayda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SY-TA",
+    "code": "SY-TA",
+    "country": "SY",
+    "parent": "SY",
+    "name": "Tartus"
+  }
+]

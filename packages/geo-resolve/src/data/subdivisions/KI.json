@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KI-G",
+    "code": "KI-G",
+    "country": "KI",
+    "parent": "KI",
+    "name": "Gilbert Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KI-L",
+    "code": "KI-L",
+    "country": "KI",
+    "parent": "KI",
+    "name": "Line Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KI-P",
+    "code": "KI-P",
+    "country": "KI",
+    "parent": "KI",
+    "name": "Phoenix Islands"
+  }
+]

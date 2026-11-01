@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "RW-01",
+    "code": "RW-01",
+    "country": "RW",
+    "parent": "RW",
+    "name": "Kigali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RW-02",
+    "code": "RW-02",
+    "country": "RW",
+    "parent": "RW",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RW-03",
+    "code": "RW-03",
+    "country": "RW",
+    "parent": "RW",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RW-04",
+    "code": "RW-04",
+    "country": "RW",
+    "parent": "RW",
+    "name": "Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RW-05",
+    "code": "RW-05",
+    "country": "RW",
+    "parent": "RW",
+    "name": "Southern"
+  }
+]

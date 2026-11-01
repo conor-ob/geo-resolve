@@ -1,0 +1,154 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IQ-AN",
+    "code": "IQ-AN",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Al Anbar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-AR",
+    "code": "IQ-AR",
+    "country": "IQ",
+    "parent": "IQ-KR",
+    "name": "Erbil"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-BA",
+    "code": "IQ-BA",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Basra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-BB",
+    "code": "IQ-BB",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Babylon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-BG",
+    "code": "IQ-BG",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Baghdad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-DA",
+    "code": "IQ-DA",
+    "country": "IQ",
+    "parent": "IQ-KR",
+    "name": "Dohuk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-DI",
+    "code": "IQ-DI",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Diyala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-DQ",
+    "code": "IQ-DQ",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Dhi Qar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-KA",
+    "code": "IQ-KA",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Karbala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-KI",
+    "code": "IQ-KI",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Kirkuk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-KR",
+    "code": "IQ-KR",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Kurdistan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-MA",
+    "code": "IQ-MA",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Maysan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-MU",
+    "code": "IQ-MU",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Al Muthanna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-NA",
+    "code": "IQ-NA",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Najaf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-NI",
+    "code": "IQ-NI",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Nineveh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-QA",
+    "code": "IQ-QA",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Al-Qādisiyyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-SD",
+    "code": "IQ-SD",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Saladin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-SU",
+    "code": "IQ-SU",
+    "country": "IQ",
+    "parent": "IQ-KR",
+    "name": "Sulaymaniyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IQ-WA",
+    "code": "IQ-WA",
+    "country": "IQ",
+    "parent": "IQ",
+    "name": "Wasit"
+  }
+]

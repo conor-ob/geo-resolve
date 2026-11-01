@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BW-CE",
+    "code": "BW-CE",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-CH",
+    "code": "BW-CH",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Chobe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-FR",
+    "code": "BW-FR",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Francistown"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-GA",
+    "code": "BW-GA",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Gaborone"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-GH",
+    "code": "BW-GH",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Ghanzi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-JW",
+    "code": "BW-JW",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Jwaneng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-KG",
+    "code": "BW-KG",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Kgalagadi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-KL",
+    "code": "BW-KL",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Kgatleng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-KW",
+    "code": "BW-KW",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Kweneng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-LO",
+    "code": "BW-LO",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Lobatse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-NE",
+    "code": "BW-NE",
+    "country": "BW",
+    "parent": "BW",
+    "name": "North East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-NW",
+    "code": "BW-NW",
+    "country": "BW",
+    "parent": "BW",
+    "name": "North West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-SE",
+    "code": "BW-SE",
+    "country": "BW",
+    "parent": "BW",
+    "name": "South East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-SO",
+    "code": "BW-SO",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-SP",
+    "code": "BW-SP",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Selibe Phikwe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BW-ST",
+    "code": "BW-ST",
+    "country": "BW",
+    "parent": "BW",
+    "name": "Sowa Town"
+  }
+]

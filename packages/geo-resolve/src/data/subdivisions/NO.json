@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NO-03",
+    "code": "NO-03",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Oslo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-11",
+    "code": "NO-11",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Rogaland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-15",
+    "code": "NO-15",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Møre og Romsdal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-18",
+    "code": "NO-18",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Nordland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-21",
+    "code": "NO-21",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Svalbard"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-22",
+    "code": "NO-22",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Jan Mayen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-30",
+    "code": "NO-30",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Viken"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-34",
+    "code": "NO-34",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Innlandet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-38",
+    "code": "NO-38",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Vestfold og Telemark"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-42",
+    "code": "NO-42",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Agder"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-46",
+    "code": "NO-46",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Vestland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-50",
+    "code": "NO-50",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Trøndelag"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NO-54",
+    "code": "NO-54",
+    "country": "NO",
+    "parent": "NO",
+    "name": "Tromssan ja Finmarkun"
+  }
+]

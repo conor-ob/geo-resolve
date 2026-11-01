@@ -1,0 +1,66 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TV-FUN",
+    "code": "TV-FUN",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Funafuti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-NIT",
+    "code": "TV-NIT",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Niutao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-NKF",
+    "code": "TV-NKF",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Nukufetau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-NKL",
+    "code": "TV-NKL",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Nukulaelae"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-NMA",
+    "code": "TV-NMA",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Nanumea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-NMG",
+    "code": "TV-NMG",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Nanumanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-NUI",
+    "code": "TV-NUI",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Nui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TV-VAI",
+    "code": "TV-VAI",
+    "country": "TV",
+    "parent": "TV",
+    "name": "Vaitupu"
+  }
+]

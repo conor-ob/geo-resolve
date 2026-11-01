@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LI-01",
+    "code": "LI-01",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Balzers"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-02",
+    "code": "LI-02",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Eschen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-03",
+    "code": "LI-03",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Gamprin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-04",
+    "code": "LI-04",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Mauren"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-05",
+    "code": "LI-05",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Planken"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-06",
+    "code": "LI-06",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Ruggell"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-07",
+    "code": "LI-07",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Schaan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-08",
+    "code": "LI-08",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Schellenberg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-09",
+    "code": "LI-09",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Triesen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-10",
+    "code": "LI-10",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Triesenberg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LI-11",
+    "code": "LI-11",
+    "country": "LI",
+    "parent": "LI",
+    "name": "Vaduz"
+  }
+]

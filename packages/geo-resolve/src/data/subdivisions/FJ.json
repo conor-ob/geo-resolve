@@ -1,0 +1,154 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "FJ-01",
+    "code": "FJ-01",
+    "country": "FJ",
+    "parent": "FJ-W",
+    "name": "Ba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-02",
+    "code": "FJ-02",
+    "country": "FJ",
+    "parent": "FJ-N",
+    "name": "Bua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-03",
+    "code": "FJ-03",
+    "country": "FJ",
+    "parent": "FJ-N",
+    "name": "Cakaudrove"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-04",
+    "code": "FJ-04",
+    "country": "FJ",
+    "parent": "FJ-E",
+    "name": "Kadavu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-05",
+    "code": "FJ-05",
+    "country": "FJ",
+    "parent": "FJ-E",
+    "name": "Lau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-06",
+    "code": "FJ-06",
+    "country": "FJ",
+    "parent": "FJ-E",
+    "name": "Lomaiviti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-07",
+    "code": "FJ-07",
+    "country": "FJ",
+    "parent": "FJ-N",
+    "name": "Macuata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-08",
+    "code": "FJ-08",
+    "country": "FJ",
+    "parent": "FJ-W",
+    "name": "Nadroga-Navosa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-09",
+    "code": "FJ-09",
+    "country": "FJ",
+    "parent": "FJ-C",
+    "name": "Naitasiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-10",
+    "code": "FJ-10",
+    "country": "FJ",
+    "parent": "FJ-C",
+    "name": "Namosi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-11",
+    "code": "FJ-11",
+    "country": "FJ",
+    "parent": "FJ-W",
+    "name": "Ra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-12",
+    "code": "FJ-12",
+    "country": "FJ",
+    "parent": "FJ-C",
+    "name": "Rewa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-13",
+    "code": "FJ-13",
+    "country": "FJ",
+    "parent": "FJ-C",
+    "name": "Serua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-14",
+    "code": "FJ-14",
+    "country": "FJ",
+    "parent": "FJ-C",
+    "name": "Tailevu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-C",
+    "code": "FJ-C",
+    "country": "FJ",
+    "parent": "FJ",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-E",
+    "code": "FJ-E",
+    "country": "FJ",
+    "parent": "FJ",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-N",
+    "code": "FJ-N",
+    "country": "FJ",
+    "parent": "FJ",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-R",
+    "code": "FJ-R",
+    "country": "FJ",
+    "parent": "FJ",
+    "name": "Rotuma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FJ-W",
+    "code": "FJ-W",
+    "country": "FJ",
+    "parent": "FJ",
+    "name": "Western"
+  }
+]

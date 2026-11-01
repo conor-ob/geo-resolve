@@ -1,0 +1,178 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GT-01",
+    "code": "GT-01",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Guatemala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-02",
+    "code": "GT-02",
+    "country": "GT",
+    "parent": "GT",
+    "name": "El Progreso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-03",
+    "code": "GT-03",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Sacatepéquez"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-04",
+    "code": "GT-04",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Chimaltenango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-05",
+    "code": "GT-05",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Escuintla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-06",
+    "code": "GT-06",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Santa Rosa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-07",
+    "code": "GT-07",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Sololá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-08",
+    "code": "GT-08",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Totonicapán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-09",
+    "code": "GT-09",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Quetzaltenango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-10",
+    "code": "GT-10",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Suchitepéquez"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-11",
+    "code": "GT-11",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Retalhuleu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-12",
+    "code": "GT-12",
+    "country": "GT",
+    "parent": "GT",
+    "name": "San Marcos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-13",
+    "code": "GT-13",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Huehuetenango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-14",
+    "code": "GT-14",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Quiché"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-15",
+    "code": "GT-15",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Baja Verapaz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-16",
+    "code": "GT-16",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Alta Verapaz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-17",
+    "code": "GT-17",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Petén"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-18",
+    "code": "GT-18",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Izabal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-19",
+    "code": "GT-19",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Zacapa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-20",
+    "code": "GT-20",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Chiquimula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-21",
+    "code": "GT-21",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Jalapa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GT-22",
+    "code": "GT-22",
+    "country": "GT",
+    "parent": "GT",
+    "name": "Jutiapa"
+  }
+]

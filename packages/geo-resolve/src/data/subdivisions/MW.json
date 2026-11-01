@@ -1,0 +1,250 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MW-BA",
+    "code": "MW-BA",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Balaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-BL",
+    "code": "MW-BL",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Blantyre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-C",
+    "code": "MW-C",
+    "country": "MW",
+    "parent": "MW",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-CK",
+    "code": "MW-CK",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Chikwawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-CR",
+    "code": "MW-CR",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Chiradzulu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-CT",
+    "code": "MW-CT",
+    "country": "MW",
+    "parent": "MW-N",
+    "name": "Chitipa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-DE",
+    "code": "MW-DE",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Dedza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-DO",
+    "code": "MW-DO",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Dowa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-KR",
+    "code": "MW-KR",
+    "country": "MW",
+    "parent": "MW-N",
+    "name": "Karonga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-KS",
+    "code": "MW-KS",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Kasungu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-LI",
+    "code": "MW-LI",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Lilongwe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-LK",
+    "code": "MW-LK",
+    "country": "MW",
+    "parent": "MW-N",
+    "name": "Likoma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-MC",
+    "code": "MW-MC",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Mchinji"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-MG",
+    "code": "MW-MG",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Mangochi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-MH",
+    "code": "MW-MH",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Machinga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-MU",
+    "code": "MW-MU",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Mulanje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-MW",
+    "code": "MW-MW",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Mwanza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-MZ",
+    "code": "MW-MZ",
+    "country": "MW",
+    "parent": "MW-N",
+    "name": "Mzimba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-N",
+    "code": "MW-N",
+    "country": "MW",
+    "parent": "MW",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-NB",
+    "code": "MW-NB",
+    "country": "MW",
+    "parent": "MW-N",
+    "name": "Nkhata Bay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-NE",
+    "code": "MW-NE",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Neno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-NI",
+    "code": "MW-NI",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Ntchisi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-NK",
+    "code": "MW-NK",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Nkhotakota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-NS",
+    "code": "MW-NS",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Nsanje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-NU",
+    "code": "MW-NU",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Ntcheu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-PH",
+    "code": "MW-PH",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Phalombe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-RU",
+    "code": "MW-RU",
+    "country": "MW",
+    "parent": "MW-N",
+    "name": "Rumphi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-S",
+    "code": "MW-S",
+    "country": "MW",
+    "parent": "MW",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-SA",
+    "code": "MW-SA",
+    "country": "MW",
+    "parent": "MW-C",
+    "name": "Salima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-TH",
+    "code": "MW-TH",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Thyolo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MW-ZO",
+    "code": "MW-ZO",
+    "country": "MW",
+    "parent": "MW-S",
+    "name": "Zomba"
+  }
+]

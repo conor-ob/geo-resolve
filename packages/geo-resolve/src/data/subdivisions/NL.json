@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NL-BQ1",
+    "code": "NL-BQ1",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Bonaire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-BQ2",
+    "code": "NL-BQ2",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Saba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-BQ3",
+    "code": "NL-BQ3",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Sint Eustatius"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-DR",
+    "code": "NL-DR",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Drenthe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-FL",
+    "code": "NL-FL",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Flevoland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-FR",
+    "code": "NL-FR",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Friesland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-GE",
+    "code": "NL-GE",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Gelderland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-GR",
+    "code": "NL-GR",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Groningen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-LI",
+    "code": "NL-LI",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Limburg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-NB",
+    "code": "NL-NB",
+    "country": "NL",
+    "parent": "NL",
+    "name": "North Brabant"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-NH",
+    "code": "NL-NH",
+    "country": "NL",
+    "parent": "NL",
+    "name": "North Holland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-OV",
+    "code": "NL-OV",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Overijssel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-UT",
+    "code": "NL-UT",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Utrecht"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-ZE",
+    "code": "NL-ZE",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Zeeland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-ZH",
+    "code": "NL-ZH",
+    "country": "NL",
+    "parent": "NL",
+    "name": "South Holland"
+  }
+]

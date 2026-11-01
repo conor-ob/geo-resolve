@@ -1,0 +1,578 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IS-1",
+    "code": "IS-1",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Capital"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-2",
+    "code": "IS-2",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Southern Peninsula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-3",
+    "code": "IS-3",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-4",
+    "code": "IS-4",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Westfjords"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-5",
+    "code": "IS-5",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Northwestern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-6",
+    "code": "IS-6",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Northeastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-7",
+    "code": "IS-7",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-8",
+    "code": "IS-8",
+    "country": "IS",
+    "parent": "IS",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-AKN",
+    "code": "IS-AKN",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Akraneskaupstaður"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-AKU",
+    "code": "IS-AKU",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Akureyrarbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-ARN",
+    "code": "IS-ARN",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Árneshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-ASA",
+    "code": "IS-ASA",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Ásahreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-BLA",
+    "code": "IS-BLA",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Bláskógabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-BOG",
+    "code": "IS-BOG",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Borgarbyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-BOL",
+    "code": "IS-BOL",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Bolungarvíkurkaupstaður"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-DAB",
+    "code": "IS-DAB",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Dalabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-DAV",
+    "code": "IS-DAV",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Dalvíkurbyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-EOM",
+    "code": "IS-EOM",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Eyja- og Miklaholtshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-EYF",
+    "code": "IS-EYF",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Eyjafjarðarsveit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-FJD",
+    "code": "IS-FJD",
+    "country": "IS",
+    "parent": "IS-7",
+    "name": "Fjarðabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-FJL",
+    "code": "IS-FJL",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Fjallabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-FLA",
+    "code": "IS-FLA",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Flóahreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-FLR",
+    "code": "IS-FLR",
+    "country": "IS",
+    "parent": "IS-7",
+    "name": "Fljótsdalshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-GAR",
+    "code": "IS-GAR",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Garðabær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-GOG",
+    "code": "IS-GOG",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Grímsnes- og Grafningshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-GRN",
+    "code": "IS-GRN",
+    "country": "IS",
+    "parent": "IS-2",
+    "name": "Grindavíkurbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-GRU",
+    "code": "IS-GRU",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Grundarfjarðarbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-GRY",
+    "code": "IS-GRY",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Grýtubakkahreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HAF",
+    "code": "IS-HAF",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Hafnarfjarðarkaupstaður"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HRG",
+    "code": "IS-HRG",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Hörgársveit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HRU",
+    "code": "IS-HRU",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Hrunamannahreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HUG",
+    "code": "IS-HUG",
+    "country": "IS",
+    "parent": "IS-5",
+    "name": "Húnabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HUV",
+    "code": "IS-HUV",
+    "country": "IS",
+    "parent": "IS-5",
+    "name": "Húnaþing vestra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HVA",
+    "code": "IS-HVA",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Hvalfjarðarsveit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-HVE",
+    "code": "IS-HVE",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Hveragerðisbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-ISA",
+    "code": "IS-ISA",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Ísafjarðarbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-KAL",
+    "code": "IS-KAL",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Kaldrananeshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-KJO",
+    "code": "IS-KJO",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Kjósarhreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-KOP",
+    "code": "IS-KOP",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Kópavogsbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-LAN",
+    "code": "IS-LAN",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Langanesbyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-MOS",
+    "code": "IS-MOS",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Mosfellsbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-MUL",
+    "code": "IS-MUL",
+    "country": "IS",
+    "parent": "IS-7",
+    "name": "Múlaþing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-MYR",
+    "code": "IS-MYR",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Mýrdalshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-NOR",
+    "code": "IS-NOR",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Norðurþing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-RGE",
+    "code": "IS-RGE",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Rangárþing eystra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-RGY",
+    "code": "IS-RGY",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Rangárþing ytra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-RHH",
+    "code": "IS-RHH",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Reykhólahreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-RKN",
+    "code": "IS-RKN",
+    "country": "IS",
+    "parent": "IS-2",
+    "name": "Reykjanesbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-RKV",
+    "code": "IS-RKV",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Reykjavíkurborg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SBT",
+    "code": "IS-SBT",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Svalbarðsstrandarhreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SDN",
+    "code": "IS-SDN",
+    "country": "IS",
+    "parent": "IS-2",
+    "name": "Suðurnesjabær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SDV",
+    "code": "IS-SDV",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Súðavíkurhreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SEL",
+    "code": "IS-SEL",
+    "country": "IS",
+    "parent": "IS-1",
+    "name": "Seltjarnarnesbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SFA",
+    "code": "IS-SFA",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Sveitarfélagið Árborg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SHF",
+    "code": "IS-SHF",
+    "country": "IS",
+    "parent": "IS-7",
+    "name": "Sveitarfélagið Hornafjörður"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SKF",
+    "code": "IS-SKF",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Skaftárhreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SKG",
+    "code": "IS-SKG",
+    "country": "IS",
+    "parent": "IS-5",
+    "name": "Skagabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SKO",
+    "code": "IS-SKO",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Skorradalshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SKR",
+    "code": "IS-SKR",
+    "country": "IS",
+    "parent": "IS-5",
+    "name": "Skagafjörður"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SNF",
+    "code": "IS-SNF",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Snæfellsbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SOG",
+    "code": "IS-SOG",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Skeiða- og Gnúpverjahreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SOL",
+    "code": "IS-SOL",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Sveitarfélagið Ölfus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SSS",
+    "code": "IS-SSS",
+    "country": "IS",
+    "parent": "IS-5",
+    "name": "Sveitarfélagið Skagaströnd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-STR",
+    "code": "IS-STR",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Strandabyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-STY",
+    "code": "IS-STY",
+    "country": "IS",
+    "parent": "IS-3",
+    "name": "Stykkishólmsbær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-SVG",
+    "code": "IS-SVG",
+    "country": "IS",
+    "parent": "IS-2",
+    "name": "Sveitarfélagið Vogar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-TAL",
+    "code": "IS-TAL",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Tálknafjarðarhreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-THG",
+    "code": "IS-THG",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Þingeyjarsveit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-TJO",
+    "code": "IS-TJO",
+    "country": "IS",
+    "parent": "IS-6",
+    "name": "Tjörneshreppur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-VEM",
+    "code": "IS-VEM",
+    "country": "IS",
+    "parent": "IS-8",
+    "name": "Vestmannaeyjabær"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-VER",
+    "code": "IS-VER",
+    "country": "IS",
+    "parent": "IS-4",
+    "name": "Vesturbyggð"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IS-VOP",
+    "code": "IS-VOP",
+    "country": "IS",
+    "parent": "IS-7",
+    "name": "Vopnafjarðarhreppur"
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "RU-AD",
+    "code": "RU-AD",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Adygea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-AL",
+    "code": "RU-AL",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Altai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ALT",
+    "code": "RU-ALT",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Altai Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-AMU",
+    "code": "RU-AMU",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Amur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ARK",
+    "code": "RU-ARK",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Arkhangelsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-AST",
+    "code": "RU-AST",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Astrakhan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-BA",
+    "code": "RU-BA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Bashkortostan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-BEL",
+    "code": "RU-BEL",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Belgorod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-BRY",
+    "code": "RU-BRY",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Bryansk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-BU",
+    "code": "RU-BU",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Buryat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-CE",
+    "code": "RU-CE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Chechen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-CHE",
+    "code": "RU-CHE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Chelyabinsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-CHU",
+    "code": "RU-CHU",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Chukotka Okrug"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-CU",
+    "code": "RU-CU",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Chuvash"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-DA",
+    "code": "RU-DA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Dagestan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-IN",
+    "code": "RU-IN",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Ingushetia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-IRK",
+    "code": "RU-IRK",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Irkutsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-IVA",
+    "code": "RU-IVA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Ivanovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KAM",
+    "code": "RU-KAM",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kamchatka Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KB",
+    "code": "RU-KB",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kabardino-Balkar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KC",
+    "code": "RU-KC",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Karachay-Cherkess"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KDA",
+    "code": "RU-KDA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Krasnodar Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KEM",
+    "code": "RU-KEM",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kemerovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KGD",
+    "code": "RU-KGD",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kaliningrad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KGN",
+    "code": "RU-KGN",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kurgan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KHA",
+    "code": "RU-KHA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Khabarovsk Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KHM",
+    "code": "RU-KHM",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Khanty-Mansi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KIR",
+    "code": "RU-KIR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kirov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KK",
+    "code": "RU-KK",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Khakassia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KL",
+    "code": "RU-KL",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kalmykia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KLU",
+    "code": "RU-KLU",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kaluga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KO",
+    "code": "RU-KO",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Komi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KOS",
+    "code": "RU-KOS",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kostroma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KR",
+    "code": "RU-KR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Karelia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KRS",
+    "code": "RU-KRS",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Kursk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-KYA",
+    "code": "RU-KYA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Krasnoyarsk Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-LEN",
+    "code": "RU-LEN",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Leningrad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-LIP",
+    "code": "RU-LIP",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Lipetsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-MAG",
+    "code": "RU-MAG",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Magadan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ME",
+    "code": "RU-ME",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Mari El"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-MO",
+    "code": "RU-MO",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Mordovia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-MOS",
+    "code": "RU-MOS",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Moscow Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-MOW",
+    "code": "RU-MOW",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Moscow"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-MUR",
+    "code": "RU-MUR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Murmansk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-NEN",
+    "code": "RU-NEN",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Nenets"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-NGR",
+    "code": "RU-NGR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Novgorod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-NIZ",
+    "code": "RU-NIZ",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Nizhny Novgorod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-NVS",
+    "code": "RU-NVS",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Novosibirsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-OMS",
+    "code": "RU-OMS",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Omsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ORE",
+    "code": "RU-ORE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Orenburg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ORL",
+    "code": "RU-ORL",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Oryol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-PER",
+    "code": "RU-PER",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Perm Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-PNZ",
+    "code": "RU-PNZ",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Penza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-PRI",
+    "code": "RU-PRI",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Primorsky Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-PSK",
+    "code": "RU-PSK",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Pskov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ROS",
+    "code": "RU-ROS",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Rostov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-RYA",
+    "code": "RU-RYA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Ryazan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SA",
+    "code": "RU-SA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Sakha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SAK",
+    "code": "RU-SAK",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Sakhalin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SAM",
+    "code": "RU-SAM",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Samara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SAR",
+    "code": "RU-SAR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Saratov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SE",
+    "code": "RU-SE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "North Ossetia-Alania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SMO",
+    "code": "RU-SMO",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Smolensk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SPE",
+    "code": "RU-SPE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Saint Petersburg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-STA",
+    "code": "RU-STA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Stavropol Krai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-SVE",
+    "code": "RU-SVE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Sverdlovsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TA",
+    "code": "RU-TA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tatarstan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TAM",
+    "code": "RU-TAM",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tambov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TOM",
+    "code": "RU-TOM",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tomsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TUL",
+    "code": "RU-TUL",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TVE",
+    "code": "RU-TVE",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tver"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TY",
+    "code": "RU-TY",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tuva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-TYU",
+    "code": "RU-TYU",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Tyumen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-UD",
+    "code": "RU-UD",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Udmurt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ULY",
+    "code": "RU-ULY",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Ulyanovsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-VGG",
+    "code": "RU-VGG",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Volgograd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-VLA",
+    "code": "RU-VLA",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Vladimir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-VLG",
+    "code": "RU-VLG",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Vologda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-VOR",
+    "code": "RU-VOR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Voronezh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-YAN",
+    "code": "RU-YAN",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Yamalo-Nenets Okrug"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-YAR",
+    "code": "RU-YAR",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Yaroslavl"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-YEV",
+    "code": "RU-YEV",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Jewish"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RU-ZAB",
+    "code": "RU-ZAB",
+    "country": "RU",
+    "parent": "RU",
+    "name": "Zabaykalsky Krai"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ZM-01",
+    "code": "ZM-01",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-02",
+    "code": "ZM-02",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-03",
+    "code": "ZM-03",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-04",
+    "code": "ZM-04",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Luapula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-05",
+    "code": "ZM-05",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-06",
+    "code": "ZM-06",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "North-Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-07",
+    "code": "ZM-07",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-08",
+    "code": "ZM-08",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Copperbelt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-09",
+    "code": "ZM-09",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Lusaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZM-10",
+    "code": "ZM-10",
+    "country": "ZM",
+    "parent": "ZM",
+    "name": "Muchinga"
+  }
+]

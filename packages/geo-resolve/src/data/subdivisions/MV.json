@@ -1,0 +1,170 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MV-00",
+    "code": "MV-00",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Alif Dhaal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-01",
+    "code": "MV-01",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Addu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-02",
+    "code": "MV-02",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Alif Alif"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-03",
+    "code": "MV-03",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Lhaviyani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-04",
+    "code": "MV-04",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Vaavu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-05",
+    "code": "MV-05",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Laamu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-07",
+    "code": "MV-07",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Haa Alif"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-08",
+    "code": "MV-08",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Thaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-12",
+    "code": "MV-12",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Meemu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-13",
+    "code": "MV-13",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Raa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-14",
+    "code": "MV-14",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Faafu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-17",
+    "code": "MV-17",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Dhaalu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-20",
+    "code": "MV-20",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Baa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-23",
+    "code": "MV-23",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Haa Dhaalu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-24",
+    "code": "MV-24",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Shaviyani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-25",
+    "code": "MV-25",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Noonu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-26",
+    "code": "MV-26",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Kaafu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-27",
+    "code": "MV-27",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Gaafu Alif"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-28",
+    "code": "MV-28",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Gaafu Dhaalu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-29",
+    "code": "MV-29",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Gnaviyani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MV-MLE",
+    "code": "MV-MLE",
+    "country": "MV",
+    "parent": "MV",
+    "name": "Malé"
+  }
+]

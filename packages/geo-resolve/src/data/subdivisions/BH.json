@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BH-13",
+    "code": "BH-13",
+    "country": "BH",
+    "parent": "BH",
+    "name": "Capital"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BH-14",
+    "code": "BH-14",
+    "country": "BH",
+    "parent": "BH",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BH-15",
+    "code": "BH-15",
+    "country": "BH",
+    "parent": "BH",
+    "name": "Muharraq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BH-17",
+    "code": "BH-17",
+    "country": "BH",
+    "parent": "BH",
+    "name": "Northern"
+  }
+]

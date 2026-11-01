@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SC-01",
+    "code": "SC-01",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Anse aux Pins"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-02",
+    "code": "SC-02",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Anse Boileau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-03",
+    "code": "SC-03",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Anse Etoile"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-04",
+    "code": "SC-04",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Au Cap"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-05",
+    "code": "SC-05",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Anse Royale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-06",
+    "code": "SC-06",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Baie Lazare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-07",
+    "code": "SC-07",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Baie Sainte Anne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-08",
+    "code": "SC-08",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Beau Vallon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-09",
+    "code": "SC-09",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Bel Air"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-10",
+    "code": "SC-10",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Bel Ombre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-11",
+    "code": "SC-11",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Cascade"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-12",
+    "code": "SC-12",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Glacis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-13",
+    "code": "SC-13",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Grand’Anse Mahé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-14",
+    "code": "SC-14",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Grand’Anse Praslin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-15",
+    "code": "SC-15",
+    "country": "SC",
+    "parent": "SC",
+    "name": "La Digue"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-16",
+    "code": "SC-16",
+    "country": "SC",
+    "parent": "SC",
+    "name": "La Rivière Anglaise"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-17",
+    "code": "SC-17",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Mont Buxton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-18",
+    "code": "SC-18",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Mont Fleuri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-19",
+    "code": "SC-19",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Plaisance"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-20",
+    "code": "SC-20",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Pointe La Rue"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-21",
+    "code": "SC-21",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Port Glaud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-22",
+    "code": "SC-22",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Saint Louis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-23",
+    "code": "SC-23",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Takamaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-24",
+    "code": "SC-24",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Les Mamelles"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-25",
+    "code": "SC-25",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Roche Caiman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-26",
+    "code": "SC-26",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Ile Perseverance I"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SC-27",
+    "code": "SC-27",
+    "country": "SC",
+    "parent": "SC",
+    "name": "Ile Perseverance II"
+  }
+]

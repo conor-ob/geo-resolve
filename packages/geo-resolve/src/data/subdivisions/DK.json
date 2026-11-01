@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "DK-81",
+    "code": "DK-81",
+    "country": "DK",
+    "parent": "DK",
+    "name": "Northern Denmark"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DK-82",
+    "code": "DK-82",
+    "country": "DK",
+    "parent": "DK",
+    "name": "Central Denmark"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DK-83",
+    "code": "DK-83",
+    "country": "DK",
+    "parent": "DK",
+    "name": "Southern Denmark"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DK-84",
+    "code": "DK-84",
+    "country": "DK",
+    "parent": "DK",
+    "name": "Capital Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DK-85",
+    "code": "DK-85",
+    "country": "DK",
+    "parent": "DK",
+    "name": "Zealand"
+  }
+]

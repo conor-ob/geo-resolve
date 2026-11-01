@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CL-AI",
+    "code": "CL-AI",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Aysén"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-AN",
+    "code": "CL-AN",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Antofagasta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-AP",
+    "code": "CL-AP",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Arica y Parinacota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-AR",
+    "code": "CL-AR",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Araucanía"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-AT",
+    "code": "CL-AT",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Atacama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-BI",
+    "code": "CL-BI",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Bío Bío"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-CO",
+    "code": "CL-CO",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Coquimbo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-LI",
+    "code": "CL-LI",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Libertador General Bernardo O’Higgins"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-LL",
+    "code": "CL-LL",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Los Lagos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-LR",
+    "code": "CL-LR",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Los Ríos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-MA",
+    "code": "CL-MA",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Magallanes Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-ML",
+    "code": "CL-ML",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Maule"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-NB",
+    "code": "CL-NB",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Ñuble"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-RM",
+    "code": "CL-RM",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Santiago Metropolitan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-TA",
+    "code": "CL-TA",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Tarapacá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CL-VS",
+    "code": "CL-VS",
+    "country": "CL",
+    "parent": "CL",
+    "name": "Valparaíso"
+  }
+]

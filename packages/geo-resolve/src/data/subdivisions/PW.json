@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PW-002",
+    "code": "PW-002",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Aimeliik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-004",
+    "code": "PW-004",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Airai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-010",
+    "code": "PW-010",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Angaur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-050",
+    "code": "PW-050",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Hatohobei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-100",
+    "code": "PW-100",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Kayangel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-150",
+    "code": "PW-150",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Koror"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-212",
+    "code": "PW-212",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Melekeok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-214",
+    "code": "PW-214",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngaraard"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-218",
+    "code": "PW-218",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngarchelong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-222",
+    "code": "PW-222",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngardmau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-224",
+    "code": "PW-224",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngatpang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-226",
+    "code": "PW-226",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngchesar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-227",
+    "code": "PW-227",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngeremlengui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-228",
+    "code": "PW-228",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Ngiwal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-350",
+    "code": "PW-350",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Peleliu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PW-370",
+    "code": "PW-370",
+    "country": "PW",
+    "parent": "PW",
+    "name": "Sonsorol"
+  }
+]

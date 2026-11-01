@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MR-01",
+    "code": "MR-01",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Hodh Ech Chargui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-02",
+    "code": "MR-02",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Hodh El Gharbi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-03",
+    "code": "MR-03",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Assaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-04",
+    "code": "MR-04",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Gorgol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-05",
+    "code": "MR-05",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Brakna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-06",
+    "code": "MR-06",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Trarza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-07",
+    "code": "MR-07",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Adrar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-08",
+    "code": "MR-08",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Dakhlet Nouadhibou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-09",
+    "code": "MR-09",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Tagant"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-10",
+    "code": "MR-10",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Guidimaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-11",
+    "code": "MR-11",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Tiris Zemmour"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-12",
+    "code": "MR-12",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Inchiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-13",
+    "code": "MR-13",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Nouakchott Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-14",
+    "code": "MR-14",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Nouakchott Nord"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MR-15",
+    "code": "MR-15",
+    "country": "MR",
+    "parent": "MR",
+    "name": "Nouakchott Sud"
+  }
+]

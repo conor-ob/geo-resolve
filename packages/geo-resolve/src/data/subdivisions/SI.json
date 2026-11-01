@@ -1,0 +1,1698 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SI-001",
+    "code": "SI-001",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ajdovščina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-002",
+    "code": "SI-002",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Beltinci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-003",
+    "code": "SI-003",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Bled"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-004",
+    "code": "SI-004",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Bohinj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-005",
+    "code": "SI-005",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Borovnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-006",
+    "code": "SI-006",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Bovec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-007",
+    "code": "SI-007",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Brda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-008",
+    "code": "SI-008",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Brezovica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-009",
+    "code": "SI-009",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Brežice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-010",
+    "code": "SI-010",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Tišina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-011",
+    "code": "SI-011",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Celje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-012",
+    "code": "SI-012",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Cerklje na Gorenjskem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-013",
+    "code": "SI-013",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Cerknica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-014",
+    "code": "SI-014",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Cerkno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-015",
+    "code": "SI-015",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Črenšovci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-016",
+    "code": "SI-016",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Črna na Koroškem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-017",
+    "code": "SI-017",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Črnomelj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-018",
+    "code": "SI-018",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Destrnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-019",
+    "code": "SI-019",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Divača"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-020",
+    "code": "SI-020",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dobrepolje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-021",
+    "code": "SI-021",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dobrova–Polhov Gradec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-022",
+    "code": "SI-022",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dol pri Ljubljani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-023",
+    "code": "SI-023",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Domžale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-024",
+    "code": "SI-024",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dornava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-025",
+    "code": "SI-025",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dravograd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-026",
+    "code": "SI-026",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Duplek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-027",
+    "code": "SI-027",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Gorenja Vas–Poljane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-028",
+    "code": "SI-028",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Gorišnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-029",
+    "code": "SI-029",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Gornja Radgona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-030",
+    "code": "SI-030",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Gornji Grad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-031",
+    "code": "SI-031",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Gornji Petrovci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-032",
+    "code": "SI-032",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Grosuplje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-033",
+    "code": "SI-033",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šalovci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-034",
+    "code": "SI-034",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Hrastnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-035",
+    "code": "SI-035",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Hrpelje–Kozina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-036",
+    "code": "SI-036",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Idrija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-037",
+    "code": "SI-037",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ig"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-038",
+    "code": "SI-038",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ilirska Bistrica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-039",
+    "code": "SI-039",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ivančna Gorica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-040",
+    "code": "SI-040",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Izola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-041",
+    "code": "SI-041",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Jesenice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-042",
+    "code": "SI-042",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Juršinci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-043",
+    "code": "SI-043",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kamnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-044",
+    "code": "SI-044",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kanal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-045",
+    "code": "SI-045",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kidričevo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-046",
+    "code": "SI-046",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kobarid"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-047",
+    "code": "SI-047",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kobilje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-048",
+    "code": "SI-048",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kočevje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-049",
+    "code": "SI-049",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Komen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-050",
+    "code": "SI-050",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Koper"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-051",
+    "code": "SI-051",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kozje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-052",
+    "code": "SI-052",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kranj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-053",
+    "code": "SI-053",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kranjska Gora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-054",
+    "code": "SI-054",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Krško"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-055",
+    "code": "SI-055",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kungota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-056",
+    "code": "SI-056",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kuzma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-057",
+    "code": "SI-057",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Laško"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-058",
+    "code": "SI-058",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Lenart"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-059",
+    "code": "SI-059",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Lendava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-060",
+    "code": "SI-060",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Litija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-061",
+    "code": "SI-061",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ljubljana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-062",
+    "code": "SI-062",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ljubno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-063",
+    "code": "SI-063",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ljutomer"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-064",
+    "code": "SI-064",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Logatec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-065",
+    "code": "SI-065",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Loška Dolina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-066",
+    "code": "SI-066",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Loški Potok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-067",
+    "code": "SI-067",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Luče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-068",
+    "code": "SI-068",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Lukovica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-069",
+    "code": "SI-069",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Majšperk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-070",
+    "code": "SI-070",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Maribor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-071",
+    "code": "SI-071",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Medvode"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-072",
+    "code": "SI-072",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mengeš"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-073",
+    "code": "SI-073",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Metlika"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-074",
+    "code": "SI-074",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mežica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-075",
+    "code": "SI-075",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Miren–Kostanjevica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-076",
+    "code": "SI-076",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mislinja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-077",
+    "code": "SI-077",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Moravče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-078",
+    "code": "SI-078",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Moravske Toplice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-079",
+    "code": "SI-079",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mozirje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-080",
+    "code": "SI-080",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Murska Sobota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-081",
+    "code": "SI-081",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Muta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-082",
+    "code": "SI-082",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Naklo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-083",
+    "code": "SI-083",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Nazarje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-084",
+    "code": "SI-084",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Nova Gorica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-085",
+    "code": "SI-085",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Novo Mesto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-086",
+    "code": "SI-086",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Odranci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-087",
+    "code": "SI-087",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ormož"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-088",
+    "code": "SI-088",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Osilnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-089",
+    "code": "SI-089",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Pesnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-090",
+    "code": "SI-090",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Piran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-091",
+    "code": "SI-091",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Pivka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-092",
+    "code": "SI-092",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Podčetrtek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-093",
+    "code": "SI-093",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Podvelka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-094",
+    "code": "SI-094",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Postojna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-095",
+    "code": "SI-095",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Preddvor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-096",
+    "code": "SI-096",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ptuj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-097",
+    "code": "SI-097",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Puconci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-098",
+    "code": "SI-098",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Rače–Fram"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-099",
+    "code": "SI-099",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Radeče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-100",
+    "code": "SI-100",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Radenci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-101",
+    "code": "SI-101",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Radlje ob Dravi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-102",
+    "code": "SI-102",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Radovljica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-103",
+    "code": "SI-103",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ravne na Koroškem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-104",
+    "code": "SI-104",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ribnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-105",
+    "code": "SI-105",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Rogašovci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-106",
+    "code": "SI-106",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Rogaška Slatina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-107",
+    "code": "SI-107",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Rogatec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-108",
+    "code": "SI-108",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ruše"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-109",
+    "code": "SI-109",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Semič"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-110",
+    "code": "SI-110",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sevnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-111",
+    "code": "SI-111",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sežana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-112",
+    "code": "SI-112",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Slovenj Gradec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-113",
+    "code": "SI-113",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Slovenska Bistrica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-114",
+    "code": "SI-114",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Slovenske Konjice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-115",
+    "code": "SI-115",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Starše"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-116",
+    "code": "SI-116",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sveti Jurij"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-117",
+    "code": "SI-117",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šenčur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-118",
+    "code": "SI-118",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šentilj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-119",
+    "code": "SI-119",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šentjernej"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-120",
+    "code": "SI-120",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šentjur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-121",
+    "code": "SI-121",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Škocjan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-122",
+    "code": "SI-122",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Škofja Loka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-123",
+    "code": "SI-123",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Škofljica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-124",
+    "code": "SI-124",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šmarje pri Jelšah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-125",
+    "code": "SI-125",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šmartno ob Paki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-126",
+    "code": "SI-126",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šoštanj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-127",
+    "code": "SI-127",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Štore"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-128",
+    "code": "SI-128",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Tolmin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-129",
+    "code": "SI-129",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Trbovlje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-130",
+    "code": "SI-130",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Trebnje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-131",
+    "code": "SI-131",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Tržič"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-132",
+    "code": "SI-132",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Turnišče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-133",
+    "code": "SI-133",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Velenje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-134",
+    "code": "SI-134",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Velike Lašče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-135",
+    "code": "SI-135",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Videm"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-136",
+    "code": "SI-136",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vipava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-137",
+    "code": "SI-137",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vitanje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-138",
+    "code": "SI-138",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vodice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-139",
+    "code": "SI-139",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vojnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-140",
+    "code": "SI-140",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vrhnika"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-141",
+    "code": "SI-141",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vuzenica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-142",
+    "code": "SI-142",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Zagorje ob Savi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-143",
+    "code": "SI-143",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Zavrč"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-144",
+    "code": "SI-144",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Zreče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-146",
+    "code": "SI-146",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Železniki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-147",
+    "code": "SI-147",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Žiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-148",
+    "code": "SI-148",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Benedikt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-149",
+    "code": "SI-149",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Bistrica ob Sotli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-150",
+    "code": "SI-150",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Bloke"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-151",
+    "code": "SI-151",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Braslovče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-152",
+    "code": "SI-152",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Cankova"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-153",
+    "code": "SI-153",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Cerkvenjak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-154",
+    "code": "SI-154",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dobje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-155",
+    "code": "SI-155",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dobrna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-156",
+    "code": "SI-156",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dobrovnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-157",
+    "code": "SI-157",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Dolenjske Toplice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-158",
+    "code": "SI-158",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Grad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-159",
+    "code": "SI-159",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Hajdina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-160",
+    "code": "SI-160",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Hoče–Slivnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-161",
+    "code": "SI-161",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Hodoš"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-162",
+    "code": "SI-162",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Horjul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-163",
+    "code": "SI-163",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Jezersko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-164",
+    "code": "SI-164",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Komenda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-165",
+    "code": "SI-165",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kostel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-166",
+    "code": "SI-166",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Križevci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-167",
+    "code": "SI-167",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Lovrenc na Pohorju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-168",
+    "code": "SI-168",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Markovci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-169",
+    "code": "SI-169",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Miklavž na Dravskem Polju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-170",
+    "code": "SI-170",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mirna Peč"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-171",
+    "code": "SI-171",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Oplotnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-172",
+    "code": "SI-172",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Podlehnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-173",
+    "code": "SI-173",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Polzela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-174",
+    "code": "SI-174",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Prebold"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-175",
+    "code": "SI-175",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Prevalje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-176",
+    "code": "SI-176",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Razkrižje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-177",
+    "code": "SI-177",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ribnica na Pohorju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-178",
+    "code": "SI-178",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Selnica ob Dravi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-179",
+    "code": "SI-179",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sodražica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-180",
+    "code": "SI-180",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Solčava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-181",
+    "code": "SI-181",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sveta Ana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-182",
+    "code": "SI-182",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sveti Andraž v Slovenskih Goricah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-183",
+    "code": "SI-183",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šempeter–Vrtojba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-184",
+    "code": "SI-184",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Tabor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-185",
+    "code": "SI-185",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Trnovska Vas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-186",
+    "code": "SI-186",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Trzin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-187",
+    "code": "SI-187",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Velika Polana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-188",
+    "code": "SI-188",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Veržej"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-189",
+    "code": "SI-189",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Vransko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-190",
+    "code": "SI-190",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Žalec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-191",
+    "code": "SI-191",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Žetale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-192",
+    "code": "SI-192",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Žirovnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-193",
+    "code": "SI-193",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Žužemberk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-194",
+    "code": "SI-194",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šmartno pri Litiji"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-195",
+    "code": "SI-195",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Apače"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-196",
+    "code": "SI-196",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Cirkulane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-197",
+    "code": "SI-197",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Kostanjevica na Krki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-198",
+    "code": "SI-198",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Makole"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-199",
+    "code": "SI-199",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mokronog–Trebelno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-200",
+    "code": "SI-200",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Poljčane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-201",
+    "code": "SI-201",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Renče–Vogrsko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-202",
+    "code": "SI-202",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Središče ob Dravi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-203",
+    "code": "SI-203",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Straža"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-204",
+    "code": "SI-204",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sveta Trojica v Slovenskih Goricah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-205",
+    "code": "SI-205",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sveti Tomaž"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-206",
+    "code": "SI-206",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šmarješke Toplice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-207",
+    "code": "SI-207",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Gorje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-208",
+    "code": "SI-208",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Log–Dragomer"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-209",
+    "code": "SI-209",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Rečica ob Savinji"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-210",
+    "code": "SI-210",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Sveti Jurij v Slovenskih Goricah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-211",
+    "code": "SI-211",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Šentrupert"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-212",
+    "code": "SI-212",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Mirna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SI-213",
+    "code": "SI-213",
+    "country": "SI",
+    "parent": "SI",
+    "name": "Ankaran"
+  }
+]

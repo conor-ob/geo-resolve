@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CN-AH",
+    "code": "CN-AH",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Anhui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-BJ",
+    "code": "CN-BJ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Beijing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-CQ",
+    "code": "CN-CQ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Chongqing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-FJ",
+    "code": "CN-FJ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Fujian"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-GD",
+    "code": "CN-GD",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Guangdong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-GS",
+    "code": "CN-GS",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Gansu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-GX",
+    "code": "CN-GX",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Guangxi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-GZ",
+    "code": "CN-GZ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Guizhou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HA",
+    "code": "CN-HA",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Henan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HB",
+    "code": "CN-HB",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Hubei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HE",
+    "code": "CN-HE",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Hebei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HI",
+    "code": "CN-HI",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Hainan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HK",
+    "code": "CN-HK",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Hong Kong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HL",
+    "code": "CN-HL",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Heilongjiang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-HN",
+    "code": "CN-HN",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Hunan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-JL",
+    "code": "CN-JL",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Jilin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-JS",
+    "code": "CN-JS",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Jiangsu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-JX",
+    "code": "CN-JX",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Jiangxi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-LN",
+    "code": "CN-LN",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Liaoning"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-MO",
+    "code": "CN-MO",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Macau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-NM",
+    "code": "CN-NM",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Inner Mongolia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-NX",
+    "code": "CN-NX",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Ningxia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-QH",
+    "code": "CN-QH",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Qinghai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-SC",
+    "code": "CN-SC",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Sichuan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-SD",
+    "code": "CN-SD",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Shandong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-SH",
+    "code": "CN-SH",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Shanghai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-SN",
+    "code": "CN-SN",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Shaanxi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-SX",
+    "code": "CN-SX",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Shanxi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-TJ",
+    "code": "CN-TJ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Tianjin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-TW",
+    "code": "CN-TW",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Taiwan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-XJ",
+    "code": "CN-XJ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Xinjiang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-XZ",
+    "code": "CN-XZ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Tibet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-YN",
+    "code": "CN-YN",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Yunnan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CN-ZJ",
+    "code": "CN-ZJ",
+    "country": "CN",
+    "parent": "CN",
+    "name": "Zhejiang"
+  }
+]

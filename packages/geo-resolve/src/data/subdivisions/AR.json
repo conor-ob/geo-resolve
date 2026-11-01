@@ -1,0 +1,194 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AR-A",
+    "code": "AR-A",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Salta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-B",
+    "code": "AR-B",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Buenos Aires Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-C",
+    "code": "AR-C",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Buenos Aires"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-D",
+    "code": "AR-D",
+    "country": "AR",
+    "parent": "AR",
+    "name": "San Luis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-E",
+    "code": "AR-E",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Entre Ríos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-F",
+    "code": "AR-F",
+    "country": "AR",
+    "parent": "AR",
+    "name": "La Rioja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-G",
+    "code": "AR-G",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Santiago del Estero"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-H",
+    "code": "AR-H",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Chaco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-J",
+    "code": "AR-J",
+    "country": "AR",
+    "parent": "AR",
+    "name": "San Juan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-K",
+    "code": "AR-K",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Catamarca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-L",
+    "code": "AR-L",
+    "country": "AR",
+    "parent": "AR",
+    "name": "La Pampa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-M",
+    "code": "AR-M",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Mendoza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-N",
+    "code": "AR-N",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Misiones"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-P",
+    "code": "AR-P",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Formosa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-Q",
+    "code": "AR-Q",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Neuquén"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-R",
+    "code": "AR-R",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Río Negro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-S",
+    "code": "AR-S",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Santa Fe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-T",
+    "code": "AR-T",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Tucumán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-U",
+    "code": "AR-U",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Chubut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-V",
+    "code": "AR-V",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Tierra del Fuego"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-W",
+    "code": "AR-W",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Corrientes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-X",
+    "code": "AR-X",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Córdoba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-Y",
+    "code": "AR-Y",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Jujuy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AR-Z",
+    "code": "AR-Z",
+    "country": "AR",
+    "parent": "AR",
+    "name": "Santa Cruz"
+  }
+]

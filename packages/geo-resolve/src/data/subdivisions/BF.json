@@ -1,0 +1,466 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BF-01",
+    "code": "BF-01",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Boucle du Mouhoun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-02",
+    "code": "BF-02",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Cascades"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-03",
+    "code": "BF-03",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Centre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-04",
+    "code": "BF-04",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Centre-Est"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-05",
+    "code": "BF-05",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Centre-Nord"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-06",
+    "code": "BF-06",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Centre-Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-07",
+    "code": "BF-07",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Centre-Sud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-08",
+    "code": "BF-08",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Est"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-09",
+    "code": "BF-09",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Hauts-Bassins"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-10",
+    "code": "BF-10",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Nord"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-11",
+    "code": "BF-11",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Plateau-Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-12",
+    "code": "BF-12",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Sahel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-13",
+    "code": "BF-13",
+    "country": "BF",
+    "parent": "BF",
+    "name": "Sud-Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BAL",
+    "code": "BF-BAL",
+    "country": "BF",
+    "parent": "BF-01",
+    "name": "Balé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BAM",
+    "code": "BF-BAM",
+    "country": "BF",
+    "parent": "BF-05",
+    "name": "Bam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BAN",
+    "code": "BF-BAN",
+    "country": "BF",
+    "parent": "BF-01",
+    "name": "Banwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BAZ",
+    "code": "BF-BAZ",
+    "country": "BF",
+    "parent": "BF-07",
+    "name": "Bazèga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BGR",
+    "code": "BF-BGR",
+    "country": "BF",
+    "parent": "BF-13",
+    "name": "Bougouriba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BLG",
+    "code": "BF-BLG",
+    "country": "BF",
+    "parent": "BF-04",
+    "name": "Boulgou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-BLK",
+    "code": "BF-BLK",
+    "country": "BF",
+    "parent": "BF-06",
+    "name": "Boulkiemdé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-COM",
+    "code": "BF-COM",
+    "country": "BF",
+    "parent": "BF-02",
+    "name": "Comoé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-GAN",
+    "code": "BF-GAN",
+    "country": "BF",
+    "parent": "BF-11",
+    "name": "Ganzourgou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-GNA",
+    "code": "BF-GNA",
+    "country": "BF",
+    "parent": "BF-08",
+    "name": "Gnagna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-GOU",
+    "code": "BF-GOU",
+    "country": "BF",
+    "parent": "BF-08",
+    "name": "Gourma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-HOU",
+    "code": "BF-HOU",
+    "country": "BF",
+    "parent": "BF-09",
+    "name": "Houet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-IOB",
+    "code": "BF-IOB",
+    "country": "BF",
+    "parent": "BF-13",
+    "name": "Ioba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KAD",
+    "code": "BF-KAD",
+    "country": "BF",
+    "parent": "BF-03",
+    "name": "Kadiogo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KEN",
+    "code": "BF-KEN",
+    "country": "BF",
+    "parent": "BF-09",
+    "name": "Kénédougou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KMD",
+    "code": "BF-KMD",
+    "country": "BF",
+    "parent": "BF-08",
+    "name": "Komondjari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KMP",
+    "code": "BF-KMP",
+    "country": "BF",
+    "parent": "BF-08",
+    "name": "Kompienga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KOP",
+    "code": "BF-KOP",
+    "country": "BF",
+    "parent": "BF-04",
+    "name": "Koulpélogo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KOS",
+    "code": "BF-KOS",
+    "country": "BF",
+    "parent": "BF-01",
+    "name": "Kossi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KOT",
+    "code": "BF-KOT",
+    "country": "BF",
+    "parent": "BF-04",
+    "name": "Kouritenga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-KOW",
+    "code": "BF-KOW",
+    "country": "BF",
+    "parent": "BF-11",
+    "name": "Kourwéogo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-LER",
+    "code": "BF-LER",
+    "country": "BF",
+    "parent": "BF-02",
+    "name": "Léraba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-LOR",
+    "code": "BF-LOR",
+    "country": "BF",
+    "parent": "BF-10",
+    "name": "Loroum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-MOU",
+    "code": "BF-MOU",
+    "country": "BF",
+    "parent": "BF-01",
+    "name": "Mouhoun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-NAM",
+    "code": "BF-NAM",
+    "country": "BF",
+    "parent": "BF-05",
+    "name": "Namentenga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-NAO",
+    "code": "BF-NAO",
+    "country": "BF",
+    "parent": "BF-07",
+    "name": "Nahouri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-NAY",
+    "code": "BF-NAY",
+    "country": "BF",
+    "parent": "BF-01",
+    "name": "Nayala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-NOU",
+    "code": "BF-NOU",
+    "country": "BF",
+    "parent": "BF-13",
+    "name": "Noumbiel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-OUB",
+    "code": "BF-OUB",
+    "country": "BF",
+    "parent": "BF-11",
+    "name": "Oubritenga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-OUD",
+    "code": "BF-OUD",
+    "country": "BF",
+    "parent": "BF-12",
+    "name": "Oudalan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-PAS",
+    "code": "BF-PAS",
+    "country": "BF",
+    "parent": "BF-10",
+    "name": "Passoré"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-PON",
+    "code": "BF-PON",
+    "country": "BF",
+    "parent": "BF-13",
+    "name": "Poni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-SEN",
+    "code": "BF-SEN",
+    "country": "BF",
+    "parent": "BF-12",
+    "name": "Séno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-SIS",
+    "code": "BF-SIS",
+    "country": "BF",
+    "parent": "BF-06",
+    "name": "Sissili"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-SMT",
+    "code": "BF-SMT",
+    "country": "BF",
+    "parent": "BF-05",
+    "name": "Sanmatenga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-SNG",
+    "code": "BF-SNG",
+    "country": "BF",
+    "parent": "BF-06",
+    "name": "Sanguié"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-SOM",
+    "code": "BF-SOM",
+    "country": "BF",
+    "parent": "BF-12",
+    "name": "Soum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-SOR",
+    "code": "BF-SOR",
+    "country": "BF",
+    "parent": "BF-01",
+    "name": "Sourou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-TAP",
+    "code": "BF-TAP",
+    "country": "BF",
+    "parent": "BF-08",
+    "name": "Tapoa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-TUI",
+    "code": "BF-TUI",
+    "country": "BF",
+    "parent": "BF-09",
+    "name": "Tuy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-YAG",
+    "code": "BF-YAG",
+    "country": "BF",
+    "parent": "BF-12",
+    "name": "Yagha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-YAT",
+    "code": "BF-YAT",
+    "country": "BF",
+    "parent": "BF-10",
+    "name": "Yatenga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-ZIR",
+    "code": "BF-ZIR",
+    "country": "BF",
+    "parent": "BF-06",
+    "name": "Ziro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-ZON",
+    "code": "BF-ZON",
+    "country": "BF",
+    "parent": "BF-10",
+    "name": "Zondoma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BF-ZOU",
+    "code": "BF-ZOU",
+    "country": "BF",
+    "parent": "BF-07",
+    "name": "Zoundwéogo"
+  }
+]

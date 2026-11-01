@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KN-01",
+    "code": "KN-01",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Christ Church Nichola Town"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-02",
+    "code": "KN-02",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint Anne Sandy Point"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-03",
+    "code": "KN-03",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint George Basseterre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-04",
+    "code": "KN-04",
+    "country": "KN",
+    "parent": "KN-N",
+    "name": "Saint George Gingerland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-05",
+    "code": "KN-05",
+    "country": "KN",
+    "parent": "KN-N",
+    "name": "Saint James Windward"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-06",
+    "code": "KN-06",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint John Capisterre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-07",
+    "code": "KN-07",
+    "country": "KN",
+    "parent": "KN-N",
+    "name": "Saint John Figtree"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-08",
+    "code": "KN-08",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint Mary Cayon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-09",
+    "code": "KN-09",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint Paul Capisterre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-10",
+    "code": "KN-10",
+    "country": "KN",
+    "parent": "KN-N",
+    "name": "Saint Paul Charlestown"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-11",
+    "code": "KN-11",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint Peter Basseterre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-12",
+    "code": "KN-12",
+    "country": "KN",
+    "parent": "KN-N",
+    "name": "Saint Thomas Lowland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-13",
+    "code": "KN-13",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Saint Thomas Middle Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-15",
+    "code": "KN-15",
+    "country": "KN",
+    "parent": "KN-K",
+    "name": "Trinity Palmetto Point"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-K",
+    "code": "KN-K",
+    "country": "KN",
+    "parent": "KN",
+    "name": "Saint Kitts"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KN-N",
+    "code": "KN-N",
+    "country": "KN",
+    "parent": "KN",
+    "name": "Nevis"
+  }
+]

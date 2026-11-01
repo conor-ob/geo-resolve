@@ -1,0 +1,138 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KR-11",
+    "code": "KR-11",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Seoul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-26",
+    "code": "KR-26",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Busan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-27",
+    "code": "KR-27",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Daegu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-28",
+    "code": "KR-28",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Incheon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-29",
+    "code": "KR-29",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Gwangju City"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-30",
+    "code": "KR-30",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Daejeon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-31",
+    "code": "KR-31",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Ulsan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-41",
+    "code": "KR-41",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Gyeonggi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-42",
+    "code": "KR-42",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Gangwon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-43",
+    "code": "KR-43",
+    "country": "KR",
+    "parent": "KR",
+    "name": "North Chungcheong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-44",
+    "code": "KR-44",
+    "country": "KR",
+    "parent": "KR",
+    "name": "South Chungcheong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-45",
+    "code": "KR-45",
+    "country": "KR",
+    "parent": "KR",
+    "name": "North Jeolla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-46",
+    "code": "KR-46",
+    "country": "KR",
+    "parent": "KR",
+    "name": "South Jeolla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-47",
+    "code": "KR-47",
+    "country": "KR",
+    "parent": "KR",
+    "name": "North Gyeongsang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-48",
+    "code": "KR-48",
+    "country": "KR",
+    "parent": "KR",
+    "name": "South Gyeongsang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-49",
+    "code": "KR-49",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Jeju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KR-50",
+    "code": "KR-50",
+    "country": "KR",
+    "parent": "KR",
+    "name": "Sejong"
+  }
+]

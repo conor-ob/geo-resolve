@@ -1,0 +1,162 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KZ-10",
+    "code": "KZ-10",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Abay oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-11",
+    "code": "KZ-11",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Aqmola oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-15",
+    "code": "KZ-15",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Aqtöbe oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-19",
+    "code": "KZ-19",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Almaty oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-23",
+    "code": "KZ-23",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Atyraū oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-27",
+    "code": "KZ-27",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Batys Qazaqstan oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-31",
+    "code": "KZ-31",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Zhambyl oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-33",
+    "code": "KZ-33",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Zhetisū oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-35",
+    "code": "KZ-35",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Qaraghandy oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-39",
+    "code": "KZ-39",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Qostanay oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-43",
+    "code": "KZ-43",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Qyzylorda oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-47",
+    "code": "KZ-47",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Mangghystaū oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-55",
+    "code": "KZ-55",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Pavlodar oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-59",
+    "code": "KZ-59",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Soltüstik Qazaqstan oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-61",
+    "code": "KZ-61",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Türkistan oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-62",
+    "code": "KZ-62",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Ulytaū oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-63",
+    "code": "KZ-63",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Shyghys Qazaqstan oblysy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-71",
+    "code": "KZ-71",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Astana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-75",
+    "code": "KZ-75",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Almaty"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KZ-79",
+    "code": "KZ-79",
+    "country": "KZ",
+    "parent": "KZ",
+    "name": "Shymkent"
+  }
+]

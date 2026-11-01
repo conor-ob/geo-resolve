@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { expect, test } from "vite-plus/test";
 import { build } from "../src/build.ts";
@@ -115,4 +115,120 @@ test("fails on a malformed Alpha-2 code", async () => {
 test("fails on a Country with no English Name", async () => {
   const unnamed: CldrFixture = { ...germanyAndAndorra, names: [{ type: "AD", name: "Andorra" }] };
   await expect(buildCountries(unnamed)).rejects.toThrow(/Country DE[\s\S]*name/);
+});
+
+const spain: CldrFixture = {
+  regular: ["ES"],
+  codes: [{ type: "ES", numeric: "724", alpha3: "ESP" }],
+  names: [{ type: "ES", name: "Spain" }],
+  subdivisions: {
+    regular: ["esal", "esan", "esgr", "esmd"],
+    containment: [
+      { type: "ES", contains: ["esan", "esmd"] },
+      { type: "esan", contains: ["esal", "esgr"] },
+    ],
+    names: [
+      { type: "esal", name: "Almería" },
+      { type: "esan", name: "Andalusia" },
+      { type: "esgr", name: "Granada" },
+      { type: "esmd", name: "Madrid Province" },
+    ],
+  },
+};
+
+async function buildSubdivisions(fixture: CldrFixture, country: string): Promise<unknown> {
+  const outDir = await outputDir();
+  await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
+  return JSON.parse(await readFile(join(outDir, "subdivisions", `${country}.json`), "utf8"));
+}
+
+test("CLDR containment becomes Parents, including provinces nested under autonomous communities", async () => {
+  expect(await buildSubdivisions(spain, "ES")).toEqual([
+    {
+      kind: "subdivision",
+      id: "ES-AL",
+      code: "ES-AL",
+      country: "ES",
+      parent: "ES-AN",
+      name: "Almería",
+    },
+    {
+      kind: "subdivision",
+      id: "ES-AN",
+      code: "ES-AN",
+      country: "ES",
+      parent: "ES",
+      name: "Andalusia",
+    },
+    {
+      kind: "subdivision",
+      id: "ES-GR",
+      code: "ES-GR",
+      country: "ES",
+      parent: "ES-AN",
+      name: "Granada",
+    },
+    {
+      kind: "subdivision",
+      id: "ES-MD",
+      code: "ES-MD",
+      country: "ES",
+      parent: "ES",
+      name: "Madrid Province",
+    },
+  ]);
+});
+
+test.each([
+  ["a Subdivision CLDR doesn't list as regular", [{ type: "esan", contains: ["esal"] }], "ES-AN"],
+  ["a region that isn't a Country", [{ type: "QO", contains: ["esal"] }], "QO"],
+])("fails on a Parent that is %s", async (_, containment, parent) => {
+  const dangling: CldrFixture = {
+    ...spain,
+    subdivisions: {
+      regular: ["esal"],
+      deprecated: ["esan"],
+      containment,
+      names: [{ type: "esal", name: "Almería" }],
+    },
+  };
+  await expect(buildSubdivisions(dangling, "ES")).rejects.toThrow(
+    `Subdivision ES-AL has a dangling Parent ${parent}`,
+  );
+});
+
+test("fails on a Subdivision code that doesn't start with its Country's Alpha-2 code", async () => {
+  const misplaced: CldrFixture = {
+    ...spain,
+    subdivisions: {
+      regular: ["ptlis"],
+      containment: [{ type: "ES", contains: ["ptlis"] }],
+      names: [{ type: "ptlis", name: "Lisbon" }],
+    },
+  };
+  await expect(buildSubdivisions(misplaced, "ES")).rejects.toThrow(
+    "Subdivision PT-LIS doesn't start with its Country's Alpha-2 code ES",
+  );
+});
+
+test("fails on a Subdivision with no English Name", async () => {
+  const unnamed: CldrFixture = {
+    ...spain,
+    subdivisions: { ...spain.subdivisions!, names: [] },
+  };
+  await expect(buildSubdivisions(unnamed, "ES")).rejects.toThrow(/Subdivision ES-AL[\s\S]*name/);
+});
+
+test("emits one Subdivisions Data pack per Country, empty when it has none", async () => {
+  const outDir = await outputDir();
+  const fixture: CldrFixture = {
+    ...spain,
+    regular: ["AD", "ES"],
+    codes: [...spain.codes, { type: "AD", numeric: "020", alpha3: "AND" }],
+    names: [...spain.names, { type: "AD", name: "Andorra" }],
+  };
+  await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
+  const packs = await readdir(join(outDir, "subdivisions"));
+  expect(packs.filter((file) => file.endsWith(".json"))).toEqual(["AD.json", "ES.json"]);
+  expect(JSON.parse(await readFile(join(outDir, "subdivisions", "AD.json"), "utf8"))).toEqual([]);
 });

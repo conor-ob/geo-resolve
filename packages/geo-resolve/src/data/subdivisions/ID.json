@@ -1,0 +1,362 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ID-AC",
+    "code": "ID-AC",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Aceh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-BA",
+    "code": "ID-BA",
+    "country": "ID",
+    "parent": "ID-NU",
+    "name": "Bali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-BB",
+    "code": "ID-BB",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Bangka–Belitung Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-BE",
+    "code": "ID-BE",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Bengkulu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-BT",
+    "code": "ID-BT",
+    "country": "ID",
+    "parent": "ID-JW",
+    "name": "Banten"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-GO",
+    "code": "ID-GO",
+    "country": "ID",
+    "parent": "ID-SL",
+    "name": "Gorontalo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-JA",
+    "code": "ID-JA",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Jambi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-JB",
+    "code": "ID-JB",
+    "country": "ID",
+    "parent": "ID-JW",
+    "name": "West Java"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-JI",
+    "code": "ID-JI",
+    "country": "ID",
+    "parent": "ID-JW",
+    "name": "East Java"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-JK",
+    "code": "ID-JK",
+    "country": "ID",
+    "parent": "ID-JW",
+    "name": "Jakarta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-JT",
+    "code": "ID-JT",
+    "country": "ID",
+    "parent": "ID-JW",
+    "name": "Central Java"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-JW",
+    "code": "ID-JW",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Java"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KA",
+    "code": "ID-KA",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Kalimantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KB",
+    "code": "ID-KB",
+    "country": "ID",
+    "parent": "ID-KA",
+    "name": "West Kalimantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KI",
+    "code": "ID-KI",
+    "country": "ID",
+    "parent": "ID-KA",
+    "name": "East Kalimantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KR",
+    "code": "ID-KR",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Riau Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KS",
+    "code": "ID-KS",
+    "country": "ID",
+    "parent": "ID-KA",
+    "name": "South Kalimantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KT",
+    "code": "ID-KT",
+    "country": "ID",
+    "parent": "ID-KA",
+    "name": "Central Kalimantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-KU",
+    "code": "ID-KU",
+    "country": "ID",
+    "parent": "ID-KA",
+    "name": "North Kalimantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-LA",
+    "code": "ID-LA",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Lampung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-MA",
+    "code": "ID-MA",
+    "country": "ID",
+    "parent": "ID-ML",
+    "name": "Maluku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-ML",
+    "code": "ID-ML",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Maluku Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-MU",
+    "code": "ID-MU",
+    "country": "ID",
+    "parent": "ID-ML",
+    "name": "North Maluku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-NB",
+    "code": "ID-NB",
+    "country": "ID",
+    "parent": "ID-NU",
+    "name": "West Nusa Tenggara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-NT",
+    "code": "ID-NT",
+    "country": "ID",
+    "parent": "ID-NU",
+    "name": "East Nusa Tenggara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-NU",
+    "code": "ID-NU",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Lesser Sunda Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PA",
+    "code": "ID-PA",
+    "country": "ID",
+    "parent": "ID-PP",
+    "name": "Papua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PB",
+    "code": "ID-PB",
+    "country": "ID",
+    "parent": "ID-PP",
+    "name": "West Papua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PD",
+    "code": "ID-PD",
+    "country": "ID",
+    "parent": "ID-PP",
+    "name": "Papua Barat Daya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PE",
+    "code": "ID-PE",
+    "country": "ID",
+    "parent": "ID-PP",
+    "name": "Papua Pegunungan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PP",
+    "code": "ID-PP",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Papua Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PS",
+    "code": "ID-PS",
+    "country": "ID",
+    "parent": "ID-PP",
+    "name": "Papua Selatan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-PT",
+    "code": "ID-PT",
+    "country": "ID",
+    "parent": "ID-PP",
+    "name": "Papua Tengah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-RI",
+    "code": "ID-RI",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "Riau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SA",
+    "code": "ID-SA",
+    "country": "ID",
+    "parent": "ID-SL",
+    "name": "North Sulawesi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SB",
+    "code": "ID-SB",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "West Sumatra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SG",
+    "code": "ID-SG",
+    "country": "ID",
+    "parent": "ID-SL",
+    "name": "Southeast Sulawesi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SL",
+    "code": "ID-SL",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Sulawesi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SM",
+    "code": "ID-SM",
+    "country": "ID",
+    "parent": "ID",
+    "name": "Sumatra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SN",
+    "code": "ID-SN",
+    "country": "ID",
+    "parent": "ID-SL",
+    "name": "South Sulawesi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SR",
+    "code": "ID-SR",
+    "country": "ID",
+    "parent": "ID-SL",
+    "name": "West Sulawesi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SS",
+    "code": "ID-SS",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "South Sumatra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-ST",
+    "code": "ID-ST",
+    "country": "ID",
+    "parent": "ID-SL",
+    "name": "Central Sulawesi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-SU",
+    "code": "ID-SU",
+    "country": "ID",
+    "parent": "ID-SM",
+    "name": "North Sumatra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ID-YO",
+    "code": "ID-YO",
+    "country": "ID",
+    "parent": "ID-JW",
+    "name": "Yogyakarta"
+  }
+]

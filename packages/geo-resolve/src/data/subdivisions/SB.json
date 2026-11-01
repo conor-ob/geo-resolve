@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SB-CE",
+    "code": "SB-CE",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-CH",
+    "code": "SB-CH",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Choiseul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-CT",
+    "code": "SB-CT",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Honiara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-GU",
+    "code": "SB-GU",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Guadalcanal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-IS",
+    "code": "SB-IS",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Isabel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-MK",
+    "code": "SB-MK",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Makira-Ulawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-ML",
+    "code": "SB-ML",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Malaita"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-RB",
+    "code": "SB-RB",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Rennell and Bellona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-TE",
+    "code": "SB-TE",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Temotu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SB-WE",
+    "code": "SB-WE",
+    "country": "SB",
+    "parent": "SB",
+    "name": "Western"
+  }
+]

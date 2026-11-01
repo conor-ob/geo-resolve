@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BB-01",
+    "code": "BB-01",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Christ Church"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-02",
+    "code": "BB-02",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Andrew"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-03",
+    "code": "BB-03",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint George"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-04",
+    "code": "BB-04",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint James"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-05",
+    "code": "BB-05",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint John"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-06",
+    "code": "BB-06",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Joseph"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-07",
+    "code": "BB-07",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Lucy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-08",
+    "code": "BB-08",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Michael"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-09",
+    "code": "BB-09",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Peter"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-10",
+    "code": "BB-10",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Philip"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BB-11",
+    "code": "BB-11",
+    "country": "BB",
+    "parent": "BB",
+    "name": "Saint Thomas"
+  }
+]

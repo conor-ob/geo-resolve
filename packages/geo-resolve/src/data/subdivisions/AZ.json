@@ -1,0 +1,626 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AZ-ABS",
+    "code": "AZ-ABS",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Absheron"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-AGA",
+    "code": "AZ-AGA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Agstafa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-AGC",
+    "code": "AZ-AGC",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Aghjabadi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-AGM",
+    "code": "AZ-AGM",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Agdam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-AGS",
+    "code": "AZ-AGS",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Agdash"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-AGU",
+    "code": "AZ-AGU",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Agsu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-AST",
+    "code": "AZ-AST",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Astara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-BA",
+    "code": "AZ-BA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Baku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-BAB",
+    "code": "AZ-BAB",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Babek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-BAL",
+    "code": "AZ-BAL",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Balakan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-BAR",
+    "code": "AZ-BAR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Barda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-BEY",
+    "code": "AZ-BEY",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Beylagan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-BIL",
+    "code": "AZ-BIL",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Bilasuvar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-CAB",
+    "code": "AZ-CAB",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Jabrayil"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-CAL",
+    "code": "AZ-CAL",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Jalilabad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-CUL",
+    "code": "AZ-CUL",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Julfa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-DAS",
+    "code": "AZ-DAS",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Dashkasan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-FUZ",
+    "code": "AZ-FUZ",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Fizuli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-GA",
+    "code": "AZ-GA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Ganja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-GAD",
+    "code": "AZ-GAD",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Gadabay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-GOR",
+    "code": "AZ-GOR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Goranboy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-GOY",
+    "code": "AZ-GOY",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Goychay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-GYG",
+    "code": "AZ-GYG",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Goygol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-HAC",
+    "code": "AZ-HAC",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Hajigabul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-IMI",
+    "code": "AZ-IMI",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Imishli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-ISM",
+    "code": "AZ-ISM",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Ismailli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-KAL",
+    "code": "AZ-KAL",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Kalbajar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-KAN",
+    "code": "AZ-KAN",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Kangarli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-KUR",
+    "code": "AZ-KUR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Kurdamir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-LA",
+    "code": "AZ-LA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Lankaran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-LAC",
+    "code": "AZ-LAC",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Lachin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-LAN",
+    "code": "AZ-LAN",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Lankaran District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-LER",
+    "code": "AZ-LER",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Lerik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-MAS",
+    "code": "AZ-MAS",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Masally"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-MI",
+    "code": "AZ-MI",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Mingachevir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-NA",
+    "code": "AZ-NA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Naftalan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-NEF",
+    "code": "AZ-NEF",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Neftchala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-NV",
+    "code": "AZ-NV",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Nakhchivan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-NX",
+    "code": "AZ-NX",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Nakhchivan AR"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-OGU",
+    "code": "AZ-OGU",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Oghuz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-ORD",
+    "code": "AZ-ORD",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Ordubad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QAB",
+    "code": "AZ-QAB",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Qabala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QAX",
+    "code": "AZ-QAX",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Qakh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QAZ",
+    "code": "AZ-QAZ",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Qazakh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QBA",
+    "code": "AZ-QBA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Quba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QBI",
+    "code": "AZ-QBI",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Qubadli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QOB",
+    "code": "AZ-QOB",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Gobustan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-QUS",
+    "code": "AZ-QUS",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Qusar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SA",
+    "code": "AZ-SA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shaki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAB",
+    "code": "AZ-SAB",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Sabirabad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAD",
+    "code": "AZ-SAD",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Sadarak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAH",
+    "code": "AZ-SAH",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Shahbuz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAK",
+    "code": "AZ-SAK",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shaki District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAL",
+    "code": "AZ-SAL",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Salyan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAR",
+    "code": "AZ-SAR",
+    "country": "AZ",
+    "parent": "AZ-NX",
+    "name": "Sharur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SAT",
+    "code": "AZ-SAT",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Saatly"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SBN",
+    "code": "AZ-SBN",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shabran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SIY",
+    "code": "AZ-SIY",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Siazan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SKR",
+    "code": "AZ-SKR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shamkir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SM",
+    "code": "AZ-SM",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Sumqayit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SMI",
+    "code": "AZ-SMI",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shamakhi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SMX",
+    "code": "AZ-SMX",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Samukh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SR",
+    "code": "AZ-SR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shirvan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-SUS",
+    "code": "AZ-SUS",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Shusha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-TAR",
+    "code": "AZ-TAR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Tartar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-TOV",
+    "code": "AZ-TOV",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Tovuz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-UCA",
+    "code": "AZ-UCA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Ujar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-XA",
+    "code": "AZ-XA",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Stepanakert"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-XAC",
+    "code": "AZ-XAC",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Khachmaz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-XCI",
+    "code": "AZ-XCI",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Khojali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-XIZ",
+    "code": "AZ-XIZ",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Khizi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-XVD",
+    "code": "AZ-XVD",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Khojavend"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-YAR",
+    "code": "AZ-YAR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Yardymli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-YE",
+    "code": "AZ-YE",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Yevlakh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-YEV",
+    "code": "AZ-YEV",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Yevlakh District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-ZAN",
+    "code": "AZ-ZAN",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Zangilan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-ZAQ",
+    "code": "AZ-ZAQ",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Zaqatala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AZ-ZAR",
+    "code": "AZ-ZAR",
+    "country": "AZ",
+    "parent": "AZ",
+    "name": "Zardab"
+  }
+]

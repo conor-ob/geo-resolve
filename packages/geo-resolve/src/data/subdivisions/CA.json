@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CA-AB",
+    "code": "CA-AB",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Alberta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-BC",
+    "code": "CA-BC",
+    "country": "CA",
+    "parent": "CA",
+    "name": "British Columbia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-MB",
+    "code": "CA-MB",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Manitoba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-NB",
+    "code": "CA-NB",
+    "country": "CA",
+    "parent": "CA",
+    "name": "New Brunswick"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-NL",
+    "code": "CA-NL",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Newfoundland and Labrador"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-NS",
+    "code": "CA-NS",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Nova Scotia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-NT",
+    "code": "CA-NT",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Northwest Territories"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-NU",
+    "code": "CA-NU",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Nunavut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-ON",
+    "code": "CA-ON",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Ontario"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-PE",
+    "code": "CA-PE",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Prince Edward Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-QC",
+    "code": "CA-QC",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Quebec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-SK",
+    "code": "CA-SK",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Saskatchewan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CA-YT",
+    "code": "CA-YT",
+    "country": "CA",
+    "parent": "CA",
+    "name": "Yukon"
+  }
+]

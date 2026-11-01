@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MG-A",
+    "code": "MG-A",
+    "country": "MG",
+    "parent": "MG",
+    "name": "Toamasina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MG-D",
+    "code": "MG-D",
+    "country": "MG",
+    "parent": "MG",
+    "name": "Antsiranana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MG-F",
+    "code": "MG-F",
+    "country": "MG",
+    "parent": "MG",
+    "name": "Fianarantsoa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MG-M",
+    "code": "MG-M",
+    "country": "MG",
+    "parent": "MG",
+    "name": "Mahajanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MG-T",
+    "code": "MG-T",
+    "country": "MG",
+    "parent": "MG",
+    "name": "Antananarivo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MG-U",
+    "code": "MG-U",
+    "country": "MG",
+    "parent": "MG",
+    "name": "Toliara"
+  }
+]

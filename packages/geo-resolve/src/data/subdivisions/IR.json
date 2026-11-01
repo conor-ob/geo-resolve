@@ -1,0 +1,250 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IR-00",
+    "code": "IR-00",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Markazī"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-01",
+    "code": "IR-01",
+    "country": "IR",
+    "parent": "IR",
+    "name": "East Azerbaijan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-02",
+    "code": "IR-02",
+    "country": "IR",
+    "parent": "IR",
+    "name": "West Azarbaijan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-03",
+    "code": "IR-03",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Ardabil"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-04",
+    "code": "IR-04",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Isfahan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-05",
+    "code": "IR-05",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Ilam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-06",
+    "code": "IR-06",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Bushehr"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-07",
+    "code": "IR-07",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Tehran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-08",
+    "code": "IR-08",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Chaharmahal and Bakhtiari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-09",
+    "code": "IR-09",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Khorāsān-e Raẕavī"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-10",
+    "code": "IR-10",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Khuzestan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-11",
+    "code": "IR-11",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Zanjan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-12",
+    "code": "IR-12",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Semnan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-13",
+    "code": "IR-13",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Sistan and Baluchestan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-14",
+    "code": "IR-14",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Fars"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-15",
+    "code": "IR-15",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Kerman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-16",
+    "code": "IR-16",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Kurdistan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-17",
+    "code": "IR-17",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Kermanshah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-18",
+    "code": "IR-18",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Kohgiluyeh and Boyer-Ahmad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-19",
+    "code": "IR-19",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Gilan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-20",
+    "code": "IR-20",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Lorestan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-21",
+    "code": "IR-21",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Mazandaran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-22",
+    "code": "IR-22",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Markazi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-23",
+    "code": "IR-23",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Hormozgan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-24",
+    "code": "IR-24",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Hamadan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-25",
+    "code": "IR-25",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Yazd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-26",
+    "code": "IR-26",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Qom"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-27",
+    "code": "IR-27",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Golestan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-28",
+    "code": "IR-28",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Qazvin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-29",
+    "code": "IR-29",
+    "country": "IR",
+    "parent": "IR",
+    "name": "South Khorasan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IR-30",
+    "code": "IR-30",
+    "country": "IR",
+    "parent": "IR",
+    "name": "Razavi Khorasan"
+  }
+]

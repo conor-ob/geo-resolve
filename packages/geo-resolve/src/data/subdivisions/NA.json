@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NA-CA",
+    "code": "NA-CA",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Zambezi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-ER",
+    "code": "NA-ER",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Erongo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-HA",
+    "code": "NA-HA",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Hardap"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-KA",
+    "code": "NA-KA",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Karas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-KE",
+    "code": "NA-KE",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Kavango East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-KH",
+    "code": "NA-KH",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Khomas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-KU",
+    "code": "NA-KU",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Kunene"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-KW",
+    "code": "NA-KW",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Kavango West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-OD",
+    "code": "NA-OD",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Otjozondjupa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-OH",
+    "code": "NA-OH",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Omaheke"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-ON",
+    "code": "NA-ON",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Oshana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-OS",
+    "code": "NA-OS",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Omusati"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-OT",
+    "code": "NA-OT",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Oshikoto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NA-OW",
+    "code": "NA-OW",
+    "country": "NA",
+    "parent": "NA",
+    "name": "Ohangwena"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MU-AG",
+    "code": "MU-AG",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Agaléga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-BL",
+    "code": "MU-BL",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Rivière Noire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-CC",
+    "code": "MU-CC",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Cargados Carajos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-FL",
+    "code": "MU-FL",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Flacq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-GP",
+    "code": "MU-GP",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Grand Port"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-MO",
+    "code": "MU-MO",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Moka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-PA",
+    "code": "MU-PA",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Pamplemousses"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-PL",
+    "code": "MU-PL",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Port Louis District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-PW",
+    "code": "MU-PW",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Plaines Wilhems"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-RO",
+    "code": "MU-RO",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Rodrigues"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-RR",
+    "code": "MU-RR",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Rivière du Rempart"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MU-SA",
+    "code": "MU-SA",
+    "country": "MU",
+    "parent": "MU",
+    "name": "Savanne"
+  }
+]

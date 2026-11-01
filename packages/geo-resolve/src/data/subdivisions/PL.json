@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PL-02",
+    "code": "PL-02",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Lower Silesia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-04",
+    "code": "PL-04",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Kuyavia-Pomerania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-06",
+    "code": "PL-06",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Lublin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-08",
+    "code": "PL-08",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Lubusz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-10",
+    "code": "PL-10",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Łódź"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-12",
+    "code": "PL-12",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Lesser Poland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-14",
+    "code": "PL-14",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Mazovia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-16",
+    "code": "PL-16",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Opole"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-18",
+    "code": "PL-18",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Subcarpathia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-20",
+    "code": "PL-20",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Podlachia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-22",
+    "code": "PL-22",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Pomerania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-24",
+    "code": "PL-24",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Silesia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-26",
+    "code": "PL-26",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Holy Cross"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-28",
+    "code": "PL-28",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Warmia-Masuria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-30",
+    "code": "PL-30",
+    "country": "PL",
+    "parent": "PL",
+    "name": "Greater Poland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PL-32",
+    "code": "PL-32",
+    "country": "PL",
+    "parent": "PL",
+    "name": "West Pomerania"
+  }
+]

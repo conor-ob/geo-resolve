@@ -1,0 +1,226 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BG-01",
+    "code": "BG-01",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Blagoevgrad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-02",
+    "code": "BG-02",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Burgas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-03",
+    "code": "BG-03",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Varna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-04",
+    "code": "BG-04",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Veliko Tarnovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-05",
+    "code": "BG-05",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Vidin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-06",
+    "code": "BG-06",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Vratsa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-07",
+    "code": "BG-07",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Gabrovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-08",
+    "code": "BG-08",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Dobrich"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-09",
+    "code": "BG-09",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Kardzhali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-10",
+    "code": "BG-10",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Kyustendil"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-11",
+    "code": "BG-11",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Lovech"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-12",
+    "code": "BG-12",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Montana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-13",
+    "code": "BG-13",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Pazardzhik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-14",
+    "code": "BG-14",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Pernik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-15",
+    "code": "BG-15",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Pleven"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-16",
+    "code": "BG-16",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Plovdiv"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-17",
+    "code": "BG-17",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Razgrad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-18",
+    "code": "BG-18",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Ruse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-19",
+    "code": "BG-19",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Silistra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-20",
+    "code": "BG-20",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Sliven"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-21",
+    "code": "BG-21",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Smolyan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-22",
+    "code": "BG-22",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Sofia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-23",
+    "code": "BG-23",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Sofia District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-24",
+    "code": "BG-24",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Stara Zagora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-25",
+    "code": "BG-25",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Targovishte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-26",
+    "code": "BG-26",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Haskovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-27",
+    "code": "BG-27",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Shumen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BG-28",
+    "code": "BG-28",
+    "country": "BG",
+    "parent": "BG",
+    "name": "Yambol"
+  }
+]

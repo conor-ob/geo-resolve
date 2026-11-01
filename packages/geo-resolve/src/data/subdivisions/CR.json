@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CR-A",
+    "code": "CR-A",
+    "country": "CR",
+    "parent": "CR",
+    "name": "Alajuela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CR-C",
+    "code": "CR-C",
+    "country": "CR",
+    "parent": "CR",
+    "name": "Cartago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CR-G",
+    "code": "CR-G",
+    "country": "CR",
+    "parent": "CR",
+    "name": "Guanacaste"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CR-H",
+    "code": "CR-H",
+    "country": "CR",
+    "parent": "CR",
+    "name": "Heredia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CR-L",
+    "code": "CR-L",
+    "country": "CR",
+    "parent": "CR",
+    "name": "Limón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CR-P",
+    "code": "CR-P",
+    "country": "CR",
+    "parent": "CR",
+    "name": "Puntarenas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CR-SJ",
+    "code": "CR-SJ",
+    "country": "CR",
+    "parent": "CR",
+    "name": "San José"
+  }
+]

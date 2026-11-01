@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SL-E",
+    "code": "SL-E",
+    "country": "SL",
+    "parent": "SL",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SL-N",
+    "code": "SL-N",
+    "country": "SL",
+    "parent": "SL",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SL-NW",
+    "code": "SL-NW",
+    "country": "SL",
+    "parent": "SL",
+    "name": "North Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SL-S",
+    "code": "SL-S",
+    "country": "SL",
+    "parent": "SL",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SL-W",
+    "code": "SL-W",
+    "country": "SL",
+    "parent": "SL",
+    "name": "Western Area"
+  }
+]

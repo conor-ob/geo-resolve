@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PA-1",
+    "code": "PA-1",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Bocas del Toro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-10",
+    "code": "PA-10",
+    "country": "PA",
+    "parent": "PA",
+    "name": "West Panamá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-2",
+    "code": "PA-2",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Coclé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-3",
+    "code": "PA-3",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Colón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-4",
+    "code": "PA-4",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Chiriquí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-5",
+    "code": "PA-5",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Darién"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-6",
+    "code": "PA-6",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Herrera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-7",
+    "code": "PA-7",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Los Santos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-8",
+    "code": "PA-8",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Panamá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-9",
+    "code": "PA-9",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Veraguas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-EM",
+    "code": "PA-EM",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Emberá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-KY",
+    "code": "PA-KY",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Guna Yala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-NB",
+    "code": "PA-NB",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Ngöbe-Buglé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PA-NT",
+    "code": "PA-NT",
+    "country": "PA",
+    "parent": "PA",
+    "name": "Naso Tjër Di"
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "DZ-01",
+    "code": "DZ-01",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Adrar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-02",
+    "code": "DZ-02",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Chlef"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-03",
+    "code": "DZ-03",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Laghouat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-04",
+    "code": "DZ-04",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Oum El Bouaghi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-05",
+    "code": "DZ-05",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Batna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-06",
+    "code": "DZ-06",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Béjaïa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-07",
+    "code": "DZ-07",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Biskra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-08",
+    "code": "DZ-08",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Béchar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-09",
+    "code": "DZ-09",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Blida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-10",
+    "code": "DZ-10",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Bouira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-11",
+    "code": "DZ-11",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tamanghasset"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-12",
+    "code": "DZ-12",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tébessa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-13",
+    "code": "DZ-13",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tlemcen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-14",
+    "code": "DZ-14",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tiaret"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-15",
+    "code": "DZ-15",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tizi Ouzou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-16",
+    "code": "DZ-16",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Algiers"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-17",
+    "code": "DZ-17",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Djelfa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-18",
+    "code": "DZ-18",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Jijel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-19",
+    "code": "DZ-19",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Sétif"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-20",
+    "code": "DZ-20",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Saïda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-21",
+    "code": "DZ-21",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Skikda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-22",
+    "code": "DZ-22",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Sidi Bel Abbès"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-23",
+    "code": "DZ-23",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Annaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-24",
+    "code": "DZ-24",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Guelma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-25",
+    "code": "DZ-25",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Constantine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-26",
+    "code": "DZ-26",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Médéa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-27",
+    "code": "DZ-27",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Mostaganem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-28",
+    "code": "DZ-28",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "M’Sila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-29",
+    "code": "DZ-29",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Mascara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-30",
+    "code": "DZ-30",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Ouargla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-31",
+    "code": "DZ-31",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Oran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-32",
+    "code": "DZ-32",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "El Bayadh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-33",
+    "code": "DZ-33",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Illizi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-34",
+    "code": "DZ-34",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Bordj Bou Arréridj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-35",
+    "code": "DZ-35",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Boumerdès"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-36",
+    "code": "DZ-36",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "El Tarf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-37",
+    "code": "DZ-37",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tindouf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-38",
+    "code": "DZ-38",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tissemsilt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-39",
+    "code": "DZ-39",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "El Oued"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-40",
+    "code": "DZ-40",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Khenchela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-41",
+    "code": "DZ-41",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Souk Ahras"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-42",
+    "code": "DZ-42",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Tipasa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-43",
+    "code": "DZ-43",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Mila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-44",
+    "code": "DZ-44",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Aïn Defla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-45",
+    "code": "DZ-45",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Naama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-46",
+    "code": "DZ-46",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Aïn Témouchent"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-47",
+    "code": "DZ-47",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Ghardaïa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-48",
+    "code": "DZ-48",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Relizane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-49",
+    "code": "DZ-49",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Timimoun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-50",
+    "code": "DZ-50",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Bordj Badji Mokhtar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-51",
+    "code": "DZ-51",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Ouled Djellal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-52",
+    "code": "DZ-52",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Béni Abbès"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-53",
+    "code": "DZ-53",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "In Salah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-54",
+    "code": "DZ-54",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "In Guezzam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-55",
+    "code": "DZ-55",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Touggourt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-56",
+    "code": "DZ-56",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "Djanet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-57",
+    "code": "DZ-57",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "El Meghaier"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DZ-58",
+    "code": "DZ-58",
+    "country": "DZ",
+    "parent": "DZ",
+    "name": "El Meniaa"
+  }
+]

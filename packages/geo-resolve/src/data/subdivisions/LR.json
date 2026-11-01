@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LR-BG",
+    "code": "LR-BG",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Bong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-BM",
+    "code": "LR-BM",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Bomi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-CM",
+    "code": "LR-CM",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Grand Cape Mount"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-GB",
+    "code": "LR-GB",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Grand Bassa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-GG",
+    "code": "LR-GG",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Grand Gedeh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-GK",
+    "code": "LR-GK",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Grand Kru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-GP",
+    "code": "LR-GP",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Gbarpolu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-LO",
+    "code": "LR-LO",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Lofa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-MG",
+    "code": "LR-MG",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Margibi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-MO",
+    "code": "LR-MO",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Montserrado"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-MY",
+    "code": "LR-MY",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Maryland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-NI",
+    "code": "LR-NI",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Nimba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-RG",
+    "code": "LR-RG",
+    "country": "LR",
+    "parent": "LR",
+    "name": "River Gee"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-RI",
+    "code": "LR-RI",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Rivercess"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LR-SI",
+    "code": "LR-SI",
+    "country": "LR",
+    "parent": "LR",
+    "name": "Sinoe"
+  }
+]

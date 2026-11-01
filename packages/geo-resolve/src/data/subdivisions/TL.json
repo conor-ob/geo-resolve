@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TL-AL",
+    "code": "TL-AL",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Aileu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-AN",
+    "code": "TL-AN",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Ainaro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-BA",
+    "code": "TL-BA",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Baucau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-BO",
+    "code": "TL-BO",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Bobonaro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-CO",
+    "code": "TL-CO",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Cova Lima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-DI",
+    "code": "TL-DI",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Dili"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-ER",
+    "code": "TL-ER",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Ermera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-LA",
+    "code": "TL-LA",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Lautém"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-LI",
+    "code": "TL-LI",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Liquiçá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-MF",
+    "code": "TL-MF",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Manufahi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-MT",
+    "code": "TL-MT",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Manatuto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-OE",
+    "code": "TL-OE",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Oecusse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TL-VI",
+    "code": "TL-VI",
+    "country": "TL",
+    "parent": "TL",
+    "name": "Viqueque"
+  }
+]

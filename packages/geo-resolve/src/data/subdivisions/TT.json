@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TT-ARI",
+    "code": "TT-ARI",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Arima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-CHA",
+    "code": "TT-CHA",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Chaguanas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-CTT",
+    "code": "TT-CTT",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Couva-Tabaquite-Talparo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-DMN",
+    "code": "TT-DMN",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Diego Martin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-MRC",
+    "code": "TT-MRC",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Mayaro-Rio Claro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-PED",
+    "code": "TT-PED",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Penal-Debe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-POS",
+    "code": "TT-POS",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Port of Spain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-PRT",
+    "code": "TT-PRT",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Princes Town"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-PTF",
+    "code": "TT-PTF",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Point Fortin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-SFO",
+    "code": "TT-SFO",
+    "country": "TT",
+    "parent": "TT",
+    "name": "San Fernando"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-SGE",
+    "code": "TT-SGE",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Sangre Grande"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-SIP",
+    "code": "TT-SIP",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Siparia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-SJL",
+    "code": "TT-SJL",
+    "country": "TT",
+    "parent": "TT",
+    "name": "San Juan-Laventille"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-TOB",
+    "code": "TT-TOB",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Tobago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TT-TUP",
+    "code": "TT-TUP",
+    "country": "TT",
+    "parent": "TT",
+    "name": "Tunapuna-Piarco"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SO-AW",
+    "code": "SO-AW",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Awdal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-BK",
+    "code": "SO-BK",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Bakool"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-BN",
+    "code": "SO-BN",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Banaadir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-BR",
+    "code": "SO-BR",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Bari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-BY",
+    "code": "SO-BY",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Bay, Somalia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-GA",
+    "code": "SO-GA",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Galguduud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-GE",
+    "code": "SO-GE",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Gedo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-HI",
+    "code": "SO-HI",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Hiran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-JD",
+    "code": "SO-JD",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Middle Juba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-JH",
+    "code": "SO-JH",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Lower Juba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-MU",
+    "code": "SO-MU",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Mudug"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-NU",
+    "code": "SO-NU",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Nugal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-SA",
+    "code": "SO-SA",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Sanaag"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-SD",
+    "code": "SO-SD",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Middle Shebelle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-SH",
+    "code": "SO-SH",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Lower Shebelle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-SO",
+    "code": "SO-SO",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Sool"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-TO",
+    "code": "SO-TO",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Togdheer"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SO-WO",
+    "code": "SO-WO",
+    "country": "SO",
+    "parent": "SO",
+    "name": "Woqooyi Galbeed"
+  }
+]

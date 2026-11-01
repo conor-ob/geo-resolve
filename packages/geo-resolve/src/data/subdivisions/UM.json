@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "UM-67",
+    "code": "UM-67",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Johnston Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-71",
+    "code": "UM-71",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Midway Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-76",
+    "code": "UM-76",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Navassa Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-79",
+    "code": "UM-79",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Wake Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-81",
+    "code": "UM-81",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Baker Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-84",
+    "code": "UM-84",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Howland Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-86",
+    "code": "UM-86",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Jarvis Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-89",
+    "code": "UM-89",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Kingman Reef"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UM-95",
+    "code": "UM-95",
+    "country": "UM",
+    "parent": "UM",
+    "name": "Palmyra Atoll"
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TH-10",
+    "code": "TH-10",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Bangkok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-11",
+    "code": "TH-11",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Samut Prakan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-12",
+    "code": "TH-12",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nonthaburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-13",
+    "code": "TH-13",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Pathum Thani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-14",
+    "code": "TH-14",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phra Nakhon Si Ayutthaya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-15",
+    "code": "TH-15",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Ang Thong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-16",
+    "code": "TH-16",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Lopburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-17",
+    "code": "TH-17",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Sing Buri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-18",
+    "code": "TH-18",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chai Nat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-19",
+    "code": "TH-19",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Saraburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-20",
+    "code": "TH-20",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chon Buri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-21",
+    "code": "TH-21",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Rayong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-22",
+    "code": "TH-22",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chanthaburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-23",
+    "code": "TH-23",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Trat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-24",
+    "code": "TH-24",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chachoengsao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-25",
+    "code": "TH-25",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Prachin Buri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-26",
+    "code": "TH-26",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nakhon Nayok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-27",
+    "code": "TH-27",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Sa Kaeo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-30",
+    "code": "TH-30",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nakhon Ratchasima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-31",
+    "code": "TH-31",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Buri Ram"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-32",
+    "code": "TH-32",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Surin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-33",
+    "code": "TH-33",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Si Sa Ket"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-34",
+    "code": "TH-34",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Ubon Ratchathani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-35",
+    "code": "TH-35",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Yasothon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-36",
+    "code": "TH-36",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chaiyaphum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-37",
+    "code": "TH-37",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Amnat Charoen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-38",
+    "code": "TH-38",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Bueng Kan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-39",
+    "code": "TH-39",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nong Bua Lam Phu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-40",
+    "code": "TH-40",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Khon Kaen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-41",
+    "code": "TH-41",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Udon Thani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-42",
+    "code": "TH-42",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Loei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-43",
+    "code": "TH-43",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nong Khai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-44",
+    "code": "TH-44",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Maha Sarakham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-45",
+    "code": "TH-45",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Roi Et"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-46",
+    "code": "TH-46",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Kalasin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-47",
+    "code": "TH-47",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Sakon Nakhon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-48",
+    "code": "TH-48",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nakhon Phanom"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-49",
+    "code": "TH-49",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Mukdahan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-50",
+    "code": "TH-50",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chiang Mai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-51",
+    "code": "TH-51",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Lamphun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-52",
+    "code": "TH-52",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Lampang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-53",
+    "code": "TH-53",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Uttaradit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-54",
+    "code": "TH-54",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phrae"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-55",
+    "code": "TH-55",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-56",
+    "code": "TH-56",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phayao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-57",
+    "code": "TH-57",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chiang Rai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-58",
+    "code": "TH-58",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Mae Hong Son"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-60",
+    "code": "TH-60",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nakhon Sawan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-61",
+    "code": "TH-61",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Uthai Thani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-62",
+    "code": "TH-62",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Kamphaeng Phet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-63",
+    "code": "TH-63",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Tak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-64",
+    "code": "TH-64",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Sukhothai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-65",
+    "code": "TH-65",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phitsanulok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-66",
+    "code": "TH-66",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phichit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-67",
+    "code": "TH-67",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phetchabun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-70",
+    "code": "TH-70",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Ratchaburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-71",
+    "code": "TH-71",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Kanchanaburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-72",
+    "code": "TH-72",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Suphanburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-73",
+    "code": "TH-73",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nakhon Pathom"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-74",
+    "code": "TH-74",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Samut Sakhon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-75",
+    "code": "TH-75",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Samut Songkhram"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-76",
+    "code": "TH-76",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phetchaburi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-77",
+    "code": "TH-77",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Prachuap Khiri Khan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-80",
+    "code": "TH-80",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Nakhon Si Thammarat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-81",
+    "code": "TH-81",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Krabi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-82",
+    "code": "TH-82",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phang Nga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-83",
+    "code": "TH-83",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phuket"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-84",
+    "code": "TH-84",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Surat Thani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-85",
+    "code": "TH-85",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Ranong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-86",
+    "code": "TH-86",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Chumphon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-90",
+    "code": "TH-90",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Songkhla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-91",
+    "code": "TH-91",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Satun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-92",
+    "code": "TH-92",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Trang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-93",
+    "code": "TH-93",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Phatthalung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-94",
+    "code": "TH-94",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Pattani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-95",
+    "code": "TH-95",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Yala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-96",
+    "code": "TH-96",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Narathiwat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TH-S",
+    "code": "TH-S",
+    "country": "TH",
+    "parent": "TH",
+    "name": "Pattaya"
+  }
+]

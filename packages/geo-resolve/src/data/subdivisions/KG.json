@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KG-B",
+    "code": "KG-B",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Batken"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-C",
+    "code": "KG-C",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Chuy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-GB",
+    "code": "KG-GB",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Bishkek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-GO",
+    "code": "KG-GO",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Osh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-J",
+    "code": "KG-J",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Jalal-Abad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-N",
+    "code": "KG-N",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Naryn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-O",
+    "code": "KG-O",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Osh Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-T",
+    "code": "KG-T",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Talas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KG-Y",
+    "code": "KG-Y",
+    "country": "KG",
+    "parent": "KG",
+    "name": "Issyk-Kul"
+  }
+]

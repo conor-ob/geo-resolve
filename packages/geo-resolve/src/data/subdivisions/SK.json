@@ -1,0 +1,66 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SK-BC",
+    "code": "SK-BC",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Banská Bystrica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-BL",
+    "code": "SK-BL",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Bratislava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-KI",
+    "code": "SK-KI",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Košice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-NI",
+    "code": "SK-NI",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Nitra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-PV",
+    "code": "SK-PV",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Prešov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-TA",
+    "code": "SK-TA",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Trnava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-TC",
+    "code": "SK-TC",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Trenčín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SK-ZI",
+    "code": "SK-ZI",
+    "country": "SK",
+    "parent": "SK",
+    "name": "Žilina"
+  }
+]

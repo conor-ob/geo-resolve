@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KW-AH",
+    "code": "KW-AH",
+    "country": "KW",
+    "parent": "KW",
+    "name": "Al Ahmadi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KW-FA",
+    "code": "KW-FA",
+    "country": "KW",
+    "parent": "KW",
+    "name": "Al Farwaniyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KW-HA",
+    "code": "KW-HA",
+    "country": "KW",
+    "parent": "KW",
+    "name": "Hawalli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KW-JA",
+    "code": "KW-JA",
+    "country": "KW",
+    "parent": "KW",
+    "name": "Al Jahra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KW-KU",
+    "code": "KW-KU",
+    "country": "KW",
+    "parent": "KW",
+    "name": "Al Asimah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KW-MU",
+    "code": "KW-MU",
+    "country": "KW",
+    "parent": "KW",
+    "name": "Mubarak Al-Kabeer"
+  }
+]

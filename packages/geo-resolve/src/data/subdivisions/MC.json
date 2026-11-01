@@ -1,0 +1,138 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MC-CL",
+    "code": "MC-CL",
+    "country": "MC",
+    "parent": "MC",
+    "name": "La Colle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-CO",
+    "code": "MC-CO",
+    "country": "MC",
+    "parent": "MC",
+    "name": "La Condamine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-FO",
+    "code": "MC-FO",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Fontvieille"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-GA",
+    "code": "MC-GA",
+    "country": "MC",
+    "parent": "MC",
+    "name": "La Gare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-JE",
+    "code": "MC-JE",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Jardin Exotique de Monaco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-LA",
+    "code": "MC-LA",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Larvotto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-MA",
+    "code": "MC-MA",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Malbousquet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-MC",
+    "code": "MC-MC",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Monte Carlo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-MG",
+    "code": "MC-MG",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Moneghetti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-MO",
+    "code": "MC-MO",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Monaco-Ville"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-MU",
+    "code": "MC-MU",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Moulins"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-PH",
+    "code": "MC-PH",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Port Hercules"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-SD",
+    "code": "MC-SD",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Sainte-Dévote Chapel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-SO",
+    "code": "MC-SO",
+    "country": "MC",
+    "parent": "MC",
+    "name": "La Source"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-SP",
+    "code": "MC-SP",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Spélugues"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-SR",
+    "code": "MC-SR",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Saint Roman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MC-VR",
+    "code": "MC-VR",
+    "country": "MC",
+    "parent": "MC",
+    "name": "Vallon de la Rousse"
+  }
+]

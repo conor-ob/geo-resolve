@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BE-BRU",
+    "code": "BE-BRU",
+    "country": "BE",
+    "parent": "BE",
+    "name": "Brussels"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-VAN",
+    "code": "BE-VAN",
+    "country": "BE",
+    "parent": "BE-VLG",
+    "name": "Antwerp"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-VBR",
+    "code": "BE-VBR",
+    "country": "BE",
+    "parent": "BE-VLG",
+    "name": "Flemish Brabant"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-VLG",
+    "code": "BE-VLG",
+    "country": "BE",
+    "parent": "BE",
+    "name": "Flanders"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-VLI",
+    "code": "BE-VLI",
+    "country": "BE",
+    "parent": "BE-VLG",
+    "name": "Limburg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-VOV",
+    "code": "BE-VOV",
+    "country": "BE",
+    "parent": "BE-VLG",
+    "name": "East Flanders"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-VWV",
+    "code": "BE-VWV",
+    "country": "BE",
+    "parent": "BE-VLG",
+    "name": "West Flanders"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-WAL",
+    "code": "BE-WAL",
+    "country": "BE",
+    "parent": "BE",
+    "name": "Wallonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-WBR",
+    "code": "BE-WBR",
+    "country": "BE",
+    "parent": "BE-WAL",
+    "name": "Walloon Brabant"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-WHT",
+    "code": "BE-WHT",
+    "country": "BE",
+    "parent": "BE-WAL",
+    "name": "Hainaut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-WLG",
+    "code": "BE-WLG",
+    "country": "BE",
+    "parent": "BE-WAL",
+    "name": "Liège"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-WLX",
+    "code": "BE-WLX",
+    "country": "BE",
+    "parent": "BE-WAL",
+    "name": "Luxembourg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BE-WNA",
+    "code": "BE-WNA",
+    "country": "BE",
+    "parent": "BE-WAL",
+    "name": "Namur"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AL-01",
+    "code": "AL-01",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Berat County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-02",
+    "code": "AL-02",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Durrës County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-03",
+    "code": "AL-03",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Elbasan County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-04",
+    "code": "AL-04",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Fier County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-05",
+    "code": "AL-05",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Gjirokastër County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-06",
+    "code": "AL-06",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Korçë County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-07",
+    "code": "AL-07",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Kukës County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-08",
+    "code": "AL-08",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Lezhë County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-09",
+    "code": "AL-09",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Dibër County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-10",
+    "code": "AL-10",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Shkodër County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-11",
+    "code": "AL-11",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Tirana County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AL-12",
+    "code": "AL-12",
+    "country": "AL",
+    "parent": "AL",
+    "name": "Vlorë County"
+  }
+]

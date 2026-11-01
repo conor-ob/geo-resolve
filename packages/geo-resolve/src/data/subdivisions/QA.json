@@ -1,0 +1,66 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "QA-DA",
+    "code": "QA-DA",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Doha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-KH",
+    "code": "QA-KH",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Al Khor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-MS",
+    "code": "QA-MS",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Madinat ash Shamal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-RA",
+    "code": "QA-RA",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Al Rayyan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-SH",
+    "code": "QA-SH",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Ash Shīḩānīyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-US",
+    "code": "QA-US",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Umm Salal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-WA",
+    "code": "QA-WA",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Al Wakrah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "QA-ZA",
+    "code": "QA-ZA",
+    "country": "QA",
+    "parent": "QA",
+    "name": "Al Daayen"
+  }
+]

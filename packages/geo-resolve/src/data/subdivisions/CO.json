@@ -1,0 +1,266 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CO-AMA",
+    "code": "CO-AMA",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Amazonas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-ANT",
+    "code": "CO-ANT",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Antioquia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-ARA",
+    "code": "CO-ARA",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Arauca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-ATL",
+    "code": "CO-ATL",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Atlántico"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-BOL",
+    "code": "CO-BOL",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Bolívar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-BOY",
+    "code": "CO-BOY",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Boyacá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CAL",
+    "code": "CO-CAL",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Caldas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CAQ",
+    "code": "CO-CAQ",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Caquetá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CAS",
+    "code": "CO-CAS",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Casanare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CAU",
+    "code": "CO-CAU",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Cauca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CES",
+    "code": "CO-CES",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Cesar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CHO",
+    "code": "CO-CHO",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Chocó"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-COR",
+    "code": "CO-COR",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Córdoba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-CUN",
+    "code": "CO-CUN",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Cundinamarca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-DC",
+    "code": "CO-DC",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Capital District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-GUA",
+    "code": "CO-GUA",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Guainía"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-GUV",
+    "code": "CO-GUV",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Guaviare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-HUI",
+    "code": "CO-HUI",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Huila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-LAG",
+    "code": "CO-LAG",
+    "country": "CO",
+    "parent": "CO",
+    "name": "La Guajira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-MAG",
+    "code": "CO-MAG",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Magdalena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-MET",
+    "code": "CO-MET",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Meta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-NAR",
+    "code": "CO-NAR",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Nariño"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-NSA",
+    "code": "CO-NSA",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Norte de Santander"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-PUT",
+    "code": "CO-PUT",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Putumayo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-QUI",
+    "code": "CO-QUI",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Quindío"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-RIS",
+    "code": "CO-RIS",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Risaralda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-SAN",
+    "code": "CO-SAN",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Santander"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-SAP",
+    "code": "CO-SAP",
+    "country": "CO",
+    "parent": "CO",
+    "name": "San Andrés & Providencia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-SUC",
+    "code": "CO-SUC",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Sucre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-TOL",
+    "code": "CO-TOL",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Tolima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-VAC",
+    "code": "CO-VAC",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Valle del Cauca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-VAU",
+    "code": "CO-VAU",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Vaupés"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CO-VID",
+    "code": "CO-VID",
+    "country": "CO",
+    "parent": "CO",
+    "name": "Vichada"
+  }
+]

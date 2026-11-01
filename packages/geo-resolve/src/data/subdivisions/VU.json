@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "VU-MAP",
+    "code": "VU-MAP",
+    "country": "VU",
+    "parent": "VU",
+    "name": "Malampa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VU-PAM",
+    "code": "VU-PAM",
+    "country": "VU",
+    "parent": "VU",
+    "name": "Penama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VU-SAM",
+    "code": "VU-SAM",
+    "country": "VU",
+    "parent": "VU",
+    "name": "Sanma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VU-SEE",
+    "code": "VU-SEE",
+    "country": "VU",
+    "parent": "VU",
+    "name": "Shefa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VU-TAE",
+    "code": "VU-TAE",
+    "country": "VU",
+    "parent": "VU",
+    "name": "Tafea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VU-TOB",
+    "code": "VU-TOB",
+    "country": "VU",
+    "parent": "VU",
+    "name": "Torba"
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BS-AK",
+    "code": "BS-AK",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Acklins"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-BI",
+    "code": "BS-BI",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Bimini"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-BP",
+    "code": "BS-BP",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Black Point"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-BY",
+    "code": "BS-BY",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Berry Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-CE",
+    "code": "BS-CE",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Central Eleuthera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-CI",
+    "code": "BS-CI",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Cat Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-CK",
+    "code": "BS-CK",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Crooked Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-CO",
+    "code": "BS-CO",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Central Abaco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-CS",
+    "code": "BS-CS",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Central Andros"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-EG",
+    "code": "BS-EG",
+    "country": "BS",
+    "parent": "BS",
+    "name": "East Grand Bahama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-EX",
+    "code": "BS-EX",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Exuma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-FP",
+    "code": "BS-FP",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Freeport"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-GC",
+    "code": "BS-GC",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Grand Cay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-HI",
+    "code": "BS-HI",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Harbour Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-HT",
+    "code": "BS-HT",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Hope Town"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-IN",
+    "code": "BS-IN",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Inagua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-LI",
+    "code": "BS-LI",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Long Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-MC",
+    "code": "BS-MC",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Mangrove Cay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-MG",
+    "code": "BS-MG",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Mayaguana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-MI",
+    "code": "BS-MI",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Moore’s Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-NE",
+    "code": "BS-NE",
+    "country": "BS",
+    "parent": "BS",
+    "name": "North Eleuthera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-NO",
+    "code": "BS-NO",
+    "country": "BS",
+    "parent": "BS",
+    "name": "North Abaco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-NP",
+    "code": "BS-NP",
+    "country": "BS",
+    "parent": "BS",
+    "name": "New Providence"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-NS",
+    "code": "BS-NS",
+    "country": "BS",
+    "parent": "BS",
+    "name": "North Andros"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-RC",
+    "code": "BS-RC",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Rum Cay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-RI",
+    "code": "BS-RI",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Ragged Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-SA",
+    "code": "BS-SA",
+    "country": "BS",
+    "parent": "BS",
+    "name": "South Andros"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-SE",
+    "code": "BS-SE",
+    "country": "BS",
+    "parent": "BS",
+    "name": "South Eleuthera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-SO",
+    "code": "BS-SO",
+    "country": "BS",
+    "parent": "BS",
+    "name": "South Abaco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-SS",
+    "code": "BS-SS",
+    "country": "BS",
+    "parent": "BS",
+    "name": "San Salvador"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-SW",
+    "code": "BS-SW",
+    "country": "BS",
+    "parent": "BS",
+    "name": "Spanish Wells"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BS-WG",
+    "code": "BS-WG",
+    "country": "BS",
+    "parent": "BS",
+    "name": "West Grand Bahama"
+  }
+]

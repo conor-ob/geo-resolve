@@ -29,12 +29,27 @@
       "geo-resolve:source": "./src/index.ts",
       "default": "./dist/index.mjs"
     },
-    "./package.json": "./package.json"
+    "./data/countries": {
+      "geo-resolve:source": "./src/data/countries.ts",
+      "default": "./dist/data/countries.mjs"
+    },
+    "./data/subdivisions": {
+      "geo-resolve:source": "./src/data/subdivisions.ts",
+      "default": "./dist/data/subdivisions.mjs"
+    },
+    "./package.json": "./package.json",
+    "./data/subdivisions/*": {
+      "geo-resolve:source": "./src/data/subdivisions/*.ts",
+      "default": "./dist/data/subdivisions/*.mjs"
+    }
   },
   "publishConfig": {
     "exports": {
       ".": "./dist/index.mjs",
-      "./package.json": "./package.json"
+      "./data/countries": "./dist/data/countries.mjs",
+      "./data/subdivisions": "./dist/data/subdivisions.mjs",
+      "./package.json": "./package.json",
+      "./data/subdivisions/*": "./dist/data/subdivisions/*.mjs"
     },
     "access": "public"
   },

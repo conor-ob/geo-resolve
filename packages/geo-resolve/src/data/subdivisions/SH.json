@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SH-AC",
+    "code": "SH-AC",
+    "country": "SH",
+    "parent": "SH",
+    "name": "Ascension Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SH-HL",
+    "code": "SH-HL",
+    "country": "SH",
+    "parent": "SH",
+    "name": "Saint Helena"
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MH-ALK",
+    "code": "MH-ALK",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Ailuk Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-ALL",
+    "code": "MH-ALL",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Ailinglaplap Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-ARN",
+    "code": "MH-ARN",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Arno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-AUR",
+    "code": "MH-AUR",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Aur Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-EBO",
+    "code": "MH-EBO",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Ebon Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-ENI",
+    "code": "MH-ENI",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Enewetak Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-JAB",
+    "code": "MH-JAB",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Jabat Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-JAL",
+    "code": "MH-JAL",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Jaluit Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-KIL",
+    "code": "MH-KIL",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Kili Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-KWA",
+    "code": "MH-KWA",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Kwajalein"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-L",
+    "code": "MH-L",
+    "country": "MH",
+    "parent": "MH",
+    "name": "Ralik Chain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-LAE",
+    "code": "MH-LAE",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Lae Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-LIB",
+    "code": "MH-LIB",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Lib Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-LIK",
+    "code": "MH-LIK",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Likiep Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-MAJ",
+    "code": "MH-MAJ",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Majuro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-MAL",
+    "code": "MH-MAL",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Maloelap Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-MEJ",
+    "code": "MH-MEJ",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Mejit Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-MIL",
+    "code": "MH-MIL",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Mili Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-NMK",
+    "code": "MH-NMK",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Namdrik Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-NMU",
+    "code": "MH-NMU",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Namu Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-RON",
+    "code": "MH-RON",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Rongelap Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-T",
+    "code": "MH-T",
+    "country": "MH",
+    "parent": "MH",
+    "name": "Ratak Chain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-UJA",
+    "code": "MH-UJA",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Ujae Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-UTI",
+    "code": "MH-UTI",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Utirik Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-WTH",
+    "code": "MH-WTH",
+    "country": "MH",
+    "parent": "MH-L",
+    "name": "Wotho Atoll"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MH-WTJ",
+    "code": "MH-WTJ",
+    "country": "MH",
+    "parent": "MH-T",
+    "name": "Wotje Atoll"
+  }
+]

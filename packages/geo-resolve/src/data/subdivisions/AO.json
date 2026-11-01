@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AO-BGO",
+    "code": "AO-BGO",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Bengo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-BGU",
+    "code": "AO-BGU",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Benguela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-BIE",
+    "code": "AO-BIE",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Bié"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-CAB",
+    "code": "AO-CAB",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Cabinda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-CCU",
+    "code": "AO-CCU",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Cuando Cubango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-CNN",
+    "code": "AO-CNN",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Cunene"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-CNO",
+    "code": "AO-CNO",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Cuanza Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-CUS",
+    "code": "AO-CUS",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Cuanza Sul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-HUA",
+    "code": "AO-HUA",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Huambo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-HUI",
+    "code": "AO-HUI",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Huíla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-LNO",
+    "code": "AO-LNO",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Lunda Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-LSU",
+    "code": "AO-LSU",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Lunda Sul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-LUA",
+    "code": "AO-LUA",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Luanda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-MAL",
+    "code": "AO-MAL",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Malanje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-MOX",
+    "code": "AO-MOX",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Moxico"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-NAM",
+    "code": "AO-NAM",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Namibe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-UIG",
+    "code": "AO-UIG",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Uíge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AO-ZAI",
+    "code": "AO-ZAI",
+    "country": "AO",
+    "parent": "AO",
+    "name": "Zaire"
+  }
+]

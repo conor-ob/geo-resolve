@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SR-BR",
+    "code": "SR-BR",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Brokopondo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-CM",
+    "code": "SR-CM",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Commewijne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-CR",
+    "code": "SR-CR",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Coronie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-MA",
+    "code": "SR-MA",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Marowijne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-NI",
+    "code": "SR-NI",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Nickerie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-PM",
+    "code": "SR-PM",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Paramaribo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-PR",
+    "code": "SR-PR",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Para"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-SA",
+    "code": "SR-SA",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Saramacca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-SI",
+    "code": "SR-SI",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Sipaliwini"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SR-WA",
+    "code": "SR-WA",
+    "country": "SR",
+    "parent": "SR",
+    "name": "Wanica"
+  }
+]

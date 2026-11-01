@@ -1,0 +1,178 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PG-CPK",
+    "code": "PG-CPK",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Chimbu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-CPM",
+    "code": "PG-CPM",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-EBR",
+    "code": "PG-EBR",
+    "country": "PG",
+    "parent": "PG",
+    "name": "East New Britain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-EHG",
+    "code": "PG-EHG",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Eastern Highlands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-EPW",
+    "code": "PG-EPW",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Enga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-ESW",
+    "code": "PG-ESW",
+    "country": "PG",
+    "parent": "PG",
+    "name": "East Sepik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-GPK",
+    "code": "PG-GPK",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Gulf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-HLA",
+    "code": "PG-HLA",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Hela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-JWK",
+    "code": "PG-JWK",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Jiwaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-MBA",
+    "code": "PG-MBA",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Milne Bay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-MPL",
+    "code": "PG-MPL",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Morobe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-MPM",
+    "code": "PG-MPM",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Madang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-MRL",
+    "code": "PG-MRL",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Manus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-NCD",
+    "code": "PG-NCD",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Port Moresby"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-NIK",
+    "code": "PG-NIK",
+    "country": "PG",
+    "parent": "PG",
+    "name": "New Ireland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-NPP",
+    "code": "PG-NPP",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Oro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-NSB",
+    "code": "PG-NSB",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Bougainville"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-SAN",
+    "code": "PG-SAN",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Sandaun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-SHM",
+    "code": "PG-SHM",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Southern Highlands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-WBK",
+    "code": "PG-WBK",
+    "country": "PG",
+    "parent": "PG",
+    "name": "West New Britain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-WHM",
+    "code": "PG-WHM",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Western Highlands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PG-WPD",
+    "code": "PG-WPD",
+    "country": "PG",
+    "parent": "PG",
+    "name": "Western"
+  }
+]

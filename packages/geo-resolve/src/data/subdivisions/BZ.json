@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BZ-BZ",
+    "code": "BZ-BZ",
+    "country": "BZ",
+    "parent": "BZ",
+    "name": "Belize"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BZ-CY",
+    "code": "BZ-CY",
+    "country": "BZ",
+    "parent": "BZ",
+    "name": "Cayo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BZ-CZL",
+    "code": "BZ-CZL",
+    "country": "BZ",
+    "parent": "BZ",
+    "name": "Corozal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BZ-OW",
+    "code": "BZ-OW",
+    "country": "BZ",
+    "parent": "BZ",
+    "name": "Orange Walk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BZ-SC",
+    "code": "BZ-SC",
+    "country": "BZ",
+    "parent": "BZ",
+    "name": "Stann Creek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BZ-TOL",
+    "code": "BZ-TOL",
+    "country": "BZ",
+    "parent": "BZ",
+    "name": "Toledo"
+  }
+]

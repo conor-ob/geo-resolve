@@ -8,6 +8,9 @@ const CLDR_FILES = [
   "common/validity/region.xml",
   "common/supplemental/supplementalData.xml",
   "common/main/en.xml",
+  "common/validity/subdivision.xml",
+  "common/supplemental/subdivisions.xml",
+  "common/subdivisions/en.xml",
 ];
 
 /** Identifies the project to upstream servers by its repository URL only, never a personal address. */

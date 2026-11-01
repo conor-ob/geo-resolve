@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ET-AA",
+    "code": "ET-AA",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Addis Ababa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-AF",
+    "code": "ET-AF",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Afar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-AM",
+    "code": "ET-AM",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Amhara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-BE",
+    "code": "ET-BE",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Benishangul-Gumuz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-DD",
+    "code": "ET-DD",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Dire Dawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-GA",
+    "code": "ET-GA",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Gambela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-HA",
+    "code": "ET-HA",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Harari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-OR",
+    "code": "ET-OR",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Oromia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-SI",
+    "code": "ET-SI",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Sidama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-SN",
+    "code": "ET-SN",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Southern Nations, Nationalities, and Peoples"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-SO",
+    "code": "ET-SO",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Somali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-SW",
+    "code": "ET-SW",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Southwest Ethiopia Peoples"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ET-TI",
+    "code": "ET-TI",
+    "country": "ET",
+    "parent": "ET",
+    "name": "Tigray"
+  }
+]

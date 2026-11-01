@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "VC-01",
+    "code": "VC-01",
+    "country": "VC",
+    "parent": "VC",
+    "name": "Charlotte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VC-02",
+    "code": "VC-02",
+    "country": "VC",
+    "parent": "VC",
+    "name": "Saint Andrew"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VC-03",
+    "code": "VC-03",
+    "country": "VC",
+    "parent": "VC",
+    "name": "Saint David"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VC-04",
+    "code": "VC-04",
+    "country": "VC",
+    "parent": "VC",
+    "name": "Saint George"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VC-05",
+    "code": "VC-05",
+    "country": "VC",
+    "parent": "VC",
+    "name": "Saint Patrick"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VC-06",
+    "code": "VC-06",
+    "country": "VC",
+    "parent": "VC",
+    "name": "Grenadines"
+  }
+]

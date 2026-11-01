@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CI-AB",
+    "code": "CI-AB",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Abidjan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-BS",
+    "code": "CI-BS",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Bas-Sassandra²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-CM",
+    "code": "CI-CM",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Comoé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-DN",
+    "code": "CI-DN",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Denguélé²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-GD",
+    "code": "CI-GD",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Gôh-Djiboua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-LC",
+    "code": "CI-LC",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Lacs²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-LG",
+    "code": "CI-LG",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Lagunes²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-MG",
+    "code": "CI-MG",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Montagnes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-SM",
+    "code": "CI-SM",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Sassandra-Marahoué"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-SV",
+    "code": "CI-SV",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Savanes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-VB",
+    "code": "CI-VB",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Vallée du Bandama²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-WR",
+    "code": "CI-WR",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Woroba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-YM",
+    "code": "CI-YM",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Yamoussoukro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CI-ZZ",
+    "code": "CI-ZZ",
+    "country": "CI",
+    "parent": "CI",
+    "name": "Zanzan²"
+  }
+]

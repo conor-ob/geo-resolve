@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CU-01",
+    "code": "CU-01",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Pinar del Río"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-03",
+    "code": "CU-03",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Havana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-04",
+    "code": "CU-04",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Matanzas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-05",
+    "code": "CU-05",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Villa Clara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-06",
+    "code": "CU-06",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Cienfuegos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-07",
+    "code": "CU-07",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Sancti Spíritus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-08",
+    "code": "CU-08",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Ciego de Ávila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-09",
+    "code": "CU-09",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Camagüey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-10",
+    "code": "CU-10",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Las Tunas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-11",
+    "code": "CU-11",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Holguín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-12",
+    "code": "CU-12",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Granma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-13",
+    "code": "CU-13",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Santiago de Cuba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-14",
+    "code": "CU-14",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Guantánamo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-15",
+    "code": "CU-15",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Artemisa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-16",
+    "code": "CU-16",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Mayabeque"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CU-99",
+    "code": "CU-99",
+    "country": "CU",
+    "parent": "CU",
+    "name": "Isla de la Juventud"
+  }
+]

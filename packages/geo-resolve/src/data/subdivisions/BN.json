@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BN-BE",
+    "code": "BN-BE",
+    "country": "BN",
+    "parent": "BN",
+    "name": "Belait"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BN-BM",
+    "code": "BN-BM",
+    "country": "BN",
+    "parent": "BN",
+    "name": "Brunei-Muara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BN-TE",
+    "code": "BN-TE",
+    "country": "BN",
+    "parent": "BN",
+    "name": "Temburong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BN-TU",
+    "code": "BN-TU",
+    "country": "BN",
+    "parent": "BN",
+    "name": "Tutong"
+  }
+]

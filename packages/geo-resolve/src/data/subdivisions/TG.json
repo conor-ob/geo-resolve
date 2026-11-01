@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TG-C",
+    "code": "TG-C",
+    "country": "TG",
+    "parent": "TG",
+    "name": "Centrale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TG-K",
+    "code": "TG-K",
+    "country": "TG",
+    "parent": "TG",
+    "name": "Kara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TG-M",
+    "code": "TG-M",
+    "country": "TG",
+    "parent": "TG",
+    "name": "Maritime"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TG-P",
+    "code": "TG-P",
+    "country": "TG",
+    "parent": "TG",
+    "name": "Plateaux"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TG-S",
+    "code": "TG-S",
+    "country": "TG",
+    "parent": "TG",
+    "name": "Savanes"
+  }
+]

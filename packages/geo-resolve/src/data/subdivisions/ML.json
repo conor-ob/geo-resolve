@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ML-1",
+    "code": "ML-1",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Kayes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-10",
+    "code": "ML-10",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Taoudénit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-2",
+    "code": "ML-2",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Koulikoro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-3",
+    "code": "ML-3",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Sikasso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-4",
+    "code": "ML-4",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Ségou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-5",
+    "code": "ML-5",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Mopti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-6",
+    "code": "ML-6",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Tombouctou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-7",
+    "code": "ML-7",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Gao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-8",
+    "code": "ML-8",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Kidal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-9",
+    "code": "ML-9",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Ménaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ML-BKO",
+    "code": "ML-BKO",
+    "country": "ML",
+    "parent": "ML",
+    "name": "Bamako"
+  }
+]

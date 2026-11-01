@@ -1,0 +1,410 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "US-AK",
+    "code": "US-AK",
+    "country": "US",
+    "parent": "US",
+    "name": "Alaska"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-AL",
+    "code": "US-AL",
+    "country": "US",
+    "parent": "US",
+    "name": "Alabama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-AR",
+    "code": "US-AR",
+    "country": "US",
+    "parent": "US",
+    "name": "Arkansas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-AZ",
+    "code": "US-AZ",
+    "country": "US",
+    "parent": "US",
+    "name": "Arizona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-CA",
+    "code": "US-CA",
+    "country": "US",
+    "parent": "US",
+    "name": "California"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-CO",
+    "code": "US-CO",
+    "country": "US",
+    "parent": "US",
+    "name": "Colorado"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-CT",
+    "code": "US-CT",
+    "country": "US",
+    "parent": "US",
+    "name": "Connecticut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-DC",
+    "code": "US-DC",
+    "country": "US",
+    "parent": "US",
+    "name": "Washington DC"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-DE",
+    "code": "US-DE",
+    "country": "US",
+    "parent": "US",
+    "name": "Delaware"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-FL",
+    "code": "US-FL",
+    "country": "US",
+    "parent": "US",
+    "name": "Florida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-GA",
+    "code": "US-GA",
+    "country": "US",
+    "parent": "US",
+    "name": "Georgia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-HI",
+    "code": "US-HI",
+    "country": "US",
+    "parent": "US",
+    "name": "Hawaii"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-IA",
+    "code": "US-IA",
+    "country": "US",
+    "parent": "US",
+    "name": "Iowa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-ID",
+    "code": "US-ID",
+    "country": "US",
+    "parent": "US",
+    "name": "Idaho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-IL",
+    "code": "US-IL",
+    "country": "US",
+    "parent": "US",
+    "name": "Illinois"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-IN",
+    "code": "US-IN",
+    "country": "US",
+    "parent": "US",
+    "name": "Indiana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-KS",
+    "code": "US-KS",
+    "country": "US",
+    "parent": "US",
+    "name": "Kansas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-KY",
+    "code": "US-KY",
+    "country": "US",
+    "parent": "US",
+    "name": "Kentucky"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-LA",
+    "code": "US-LA",
+    "country": "US",
+    "parent": "US",
+    "name": "Louisiana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MA",
+    "code": "US-MA",
+    "country": "US",
+    "parent": "US",
+    "name": "Massachusetts"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MD",
+    "code": "US-MD",
+    "country": "US",
+    "parent": "US",
+    "name": "Maryland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-ME",
+    "code": "US-ME",
+    "country": "US",
+    "parent": "US",
+    "name": "Maine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MI",
+    "code": "US-MI",
+    "country": "US",
+    "parent": "US",
+    "name": "Michigan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MN",
+    "code": "US-MN",
+    "country": "US",
+    "parent": "US",
+    "name": "Minnesota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MO",
+    "code": "US-MO",
+    "country": "US",
+    "parent": "US",
+    "name": "Missouri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MS",
+    "code": "US-MS",
+    "country": "US",
+    "parent": "US",
+    "name": "Mississippi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-MT",
+    "code": "US-MT",
+    "country": "US",
+    "parent": "US",
+    "name": "Montana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NC",
+    "code": "US-NC",
+    "country": "US",
+    "parent": "US",
+    "name": "North Carolina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-ND",
+    "code": "US-ND",
+    "country": "US",
+    "parent": "US",
+    "name": "North Dakota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NE",
+    "code": "US-NE",
+    "country": "US",
+    "parent": "US",
+    "name": "Nebraska"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NH",
+    "code": "US-NH",
+    "country": "US",
+    "parent": "US",
+    "name": "New Hampshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NJ",
+    "code": "US-NJ",
+    "country": "US",
+    "parent": "US",
+    "name": "New Jersey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NM",
+    "code": "US-NM",
+    "country": "US",
+    "parent": "US",
+    "name": "New Mexico"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NV",
+    "code": "US-NV",
+    "country": "US",
+    "parent": "US",
+    "name": "Nevada"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-NY",
+    "code": "US-NY",
+    "country": "US",
+    "parent": "US",
+    "name": "New York"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-OH",
+    "code": "US-OH",
+    "country": "US",
+    "parent": "US",
+    "name": "Ohio"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-OK",
+    "code": "US-OK",
+    "country": "US",
+    "parent": "US",
+    "name": "Oklahoma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-OR",
+    "code": "US-OR",
+    "country": "US",
+    "parent": "US",
+    "name": "Oregon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-PA",
+    "code": "US-PA",
+    "country": "US",
+    "parent": "US",
+    "name": "Pennsylvania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-RI",
+    "code": "US-RI",
+    "country": "US",
+    "parent": "US",
+    "name": "Rhode Island"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-SC",
+    "code": "US-SC",
+    "country": "US",
+    "parent": "US",
+    "name": "South Carolina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-SD",
+    "code": "US-SD",
+    "country": "US",
+    "parent": "US",
+    "name": "South Dakota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-TN",
+    "code": "US-TN",
+    "country": "US",
+    "parent": "US",
+    "name": "Tennessee"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-TX",
+    "code": "US-TX",
+    "country": "US",
+    "parent": "US",
+    "name": "Texas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-UT",
+    "code": "US-UT",
+    "country": "US",
+    "parent": "US",
+    "name": "Utah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-VA",
+    "code": "US-VA",
+    "country": "US",
+    "parent": "US",
+    "name": "Virginia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-VT",
+    "code": "US-VT",
+    "country": "US",
+    "parent": "US",
+    "name": "Vermont"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-WA",
+    "code": "US-WA",
+    "country": "US",
+    "parent": "US",
+    "name": "Washington"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-WI",
+    "code": "US-WI",
+    "country": "US",
+    "parent": "US",
+    "name": "Wisconsin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-WV",
+    "code": "US-WV",
+    "country": "US",
+    "parent": "US",
+    "name": "West Virginia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-WY",
+    "code": "US-WY",
+    "country": "US",
+    "parent": "US",
+    "name": "Wyoming"
+  }
+]

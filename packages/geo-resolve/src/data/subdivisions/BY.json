@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BY-BR",
+    "code": "BY-BR",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Brest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BY-HM",
+    "code": "BY-HM",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Minsk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BY-HO",
+    "code": "BY-HO",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Homel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BY-HR",
+    "code": "BY-HR",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Hrodna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BY-MA",
+    "code": "BY-MA",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Magileu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BY-MI",
+    "code": "BY-MI",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Minsk Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BY-VI",
+    "code": "BY-VI",
+    "country": "BY",
+    "parent": "BY",
+    "name": "Vitebsk"
+  }
+]

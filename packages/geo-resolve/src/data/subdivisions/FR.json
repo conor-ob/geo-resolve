@@ -1,0 +1,930 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "FR-01",
+    "code": "FR-01",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Ain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-02",
+    "code": "FR-02",
+    "country": "FR",
+    "parent": "FR-HDF",
+    "name": "Aisne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-03",
+    "code": "FR-03",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Allier"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-04",
+    "code": "FR-04",
+    "country": "FR",
+    "parent": "FR-PAC",
+    "name": "Alpes-de-Haute-Provence"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-05",
+    "code": "FR-05",
+    "country": "FR",
+    "parent": "FR-PAC",
+    "name": "Hautes-Alpes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-06",
+    "code": "FR-06",
+    "country": "FR",
+    "parent": "FR-PAC",
+    "name": "Alpes-Maritimes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-07",
+    "code": "FR-07",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Ardèche"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-08",
+    "code": "FR-08",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Ardennes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-09",
+    "code": "FR-09",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Ariège"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-10",
+    "code": "FR-10",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Aube"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-11",
+    "code": "FR-11",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Aude"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-12",
+    "code": "FR-12",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Aveyron"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-13",
+    "code": "FR-13",
+    "country": "FR",
+    "parent": "FR-PAC",
+    "name": "Bouches-du-Rhône"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-14",
+    "code": "FR-14",
+    "country": "FR",
+    "parent": "FR-NOR",
+    "name": "Calvados"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-15",
+    "code": "FR-15",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Cantal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-16",
+    "code": "FR-16",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Charente"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-17",
+    "code": "FR-17",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Charente-Maritime"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-18",
+    "code": "FR-18",
+    "country": "FR",
+    "parent": "FR-CVL",
+    "name": "Cher"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-19",
+    "code": "FR-19",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Corrèze"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-20R",
+    "code": "FR-20R",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Corse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-21",
+    "code": "FR-21",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Côte-d’Or"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-22",
+    "code": "FR-22",
+    "country": "FR",
+    "parent": "FR-BRE",
+    "name": "Côtes-d’Armor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-23",
+    "code": "FR-23",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Creuse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-24",
+    "code": "FR-24",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Dordogne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-25",
+    "code": "FR-25",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Doubs"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-26",
+    "code": "FR-26",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Drôme"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-27",
+    "code": "FR-27",
+    "country": "FR",
+    "parent": "FR-NOR",
+    "name": "Eure"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-28",
+    "code": "FR-28",
+    "country": "FR",
+    "parent": "FR-CVL",
+    "name": "Eure-et-Loir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-29",
+    "code": "FR-29",
+    "country": "FR",
+    "parent": "FR-BRE",
+    "name": "Finistère"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-2A",
+    "code": "FR-2A",
+    "country": "FR",
+    "parent": "FR-20R",
+    "name": "Corse-du-Sud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-2B",
+    "code": "FR-2B",
+    "country": "FR",
+    "parent": "FR-20R",
+    "name": "Haute-Corse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-30",
+    "code": "FR-30",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Gard"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-31",
+    "code": "FR-31",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Haute-Garonne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-32",
+    "code": "FR-32",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Gers"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-33",
+    "code": "FR-33",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Gironde"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-34",
+    "code": "FR-34",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Hérault"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-35",
+    "code": "FR-35",
+    "country": "FR",
+    "parent": "FR-BRE",
+    "name": "Ille-et-Vilaine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-36",
+    "code": "FR-36",
+    "country": "FR",
+    "parent": "FR-CVL",
+    "name": "Indre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-37",
+    "code": "FR-37",
+    "country": "FR",
+    "parent": "FR-CVL",
+    "name": "Indre-et-Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-38",
+    "code": "FR-38",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Isère"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-39",
+    "code": "FR-39",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Jura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-40",
+    "code": "FR-40",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Landes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-41",
+    "code": "FR-41",
+    "country": "FR",
+    "parent": "FR-CVL",
+    "name": "Loir-et-Cher"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-42",
+    "code": "FR-42",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-43",
+    "code": "FR-43",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Haute-Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-44",
+    "code": "FR-44",
+    "country": "FR",
+    "parent": "FR-PDL",
+    "name": "Loire-Atlantique"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-45",
+    "code": "FR-45",
+    "country": "FR",
+    "parent": "FR-CVL",
+    "name": "Loiret"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-46",
+    "code": "FR-46",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Lot"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-47",
+    "code": "FR-47",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Lot-et-Garonne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-48",
+    "code": "FR-48",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Lozère"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-49",
+    "code": "FR-49",
+    "country": "FR",
+    "parent": "FR-PDL",
+    "name": "Maine-et-Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-50",
+    "code": "FR-50",
+    "country": "FR",
+    "parent": "FR-NOR",
+    "name": "Manche"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-51",
+    "code": "FR-51",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Marne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-52",
+    "code": "FR-52",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Haute-Marne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-53",
+    "code": "FR-53",
+    "country": "FR",
+    "parent": "FR-PDL",
+    "name": "Mayenne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-54",
+    "code": "FR-54",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Meurthe-et-Moselle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-55",
+    "code": "FR-55",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Meuse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-56",
+    "code": "FR-56",
+    "country": "FR",
+    "parent": "FR-BRE",
+    "name": "Morbihan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-57",
+    "code": "FR-57",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Moselle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-58",
+    "code": "FR-58",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Nièvre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-59",
+    "code": "FR-59",
+    "country": "FR",
+    "parent": "FR-HDF",
+    "name": "Nord"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-60",
+    "code": "FR-60",
+    "country": "FR",
+    "parent": "FR-HDF",
+    "name": "Oise"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-61",
+    "code": "FR-61",
+    "country": "FR",
+    "parent": "FR-NOR",
+    "name": "Orne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-62",
+    "code": "FR-62",
+    "country": "FR",
+    "parent": "FR-HDF",
+    "name": "Pas-de-Calais"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-63",
+    "code": "FR-63",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Puy-de-Dôme"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-64",
+    "code": "FR-64",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Pyrénées-Atlantiques"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-65",
+    "code": "FR-65",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Hautes-Pyrénées"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-66",
+    "code": "FR-66",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Pyrénées-Orientales"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-67",
+    "code": "FR-67",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Bas-Rhin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-68",
+    "code": "FR-68",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Haut-Rhin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-69",
+    "code": "FR-69",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Rhône"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-69M",
+    "code": "FR-69M",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Métropole de Lyon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-6AE",
+    "code": "FR-6AE",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Alsace"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-70",
+    "code": "FR-70",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Haute-Saône"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-71",
+    "code": "FR-71",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Saône-et-Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-72",
+    "code": "FR-72",
+    "country": "FR",
+    "parent": "FR-PDL",
+    "name": "Sarthe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-73",
+    "code": "FR-73",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Savoie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-74",
+    "code": "FR-74",
+    "country": "FR",
+    "parent": "FR-ARA",
+    "name": "Haute-Savoie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-75C",
+    "code": "FR-75C",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Paris"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-76",
+    "code": "FR-76",
+    "country": "FR",
+    "parent": "FR-NOR",
+    "name": "Seine-Maritime"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-77",
+    "code": "FR-77",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Seine-et-Marne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-78",
+    "code": "FR-78",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Yvelines"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-79",
+    "code": "FR-79",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Deux-Sèvres"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-80",
+    "code": "FR-80",
+    "country": "FR",
+    "parent": "FR-HDF",
+    "name": "Somme"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-81",
+    "code": "FR-81",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Tarn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-82",
+    "code": "FR-82",
+    "country": "FR",
+    "parent": "FR-OCC",
+    "name": "Tarn-et-Garonne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-83",
+    "code": "FR-83",
+    "country": "FR",
+    "parent": "FR-PAC",
+    "name": "Var"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-84",
+    "code": "FR-84",
+    "country": "FR",
+    "parent": "FR-PAC",
+    "name": "Vaucluse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-85",
+    "code": "FR-85",
+    "country": "FR",
+    "parent": "FR-PDL",
+    "name": "Vendée"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-86",
+    "code": "FR-86",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Vienne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-87",
+    "code": "FR-87",
+    "country": "FR",
+    "parent": "FR-NAQ",
+    "name": "Haute-Vienne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-88",
+    "code": "FR-88",
+    "country": "FR",
+    "parent": "FR-GES",
+    "name": "Vosges"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-89",
+    "code": "FR-89",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Yonne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-90",
+    "code": "FR-90",
+    "country": "FR",
+    "parent": "FR-BFC",
+    "name": "Territoire de Belfort"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-91",
+    "code": "FR-91",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Essonne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-92",
+    "code": "FR-92",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Hauts-de-Seine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-93",
+    "code": "FR-93",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Seine-Saint-Denis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-94",
+    "code": "FR-94",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Val-de-Marne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-95",
+    "code": "FR-95",
+    "country": "FR",
+    "parent": "FR-IDF",
+    "name": "Val-d’Oise"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-971",
+    "code": "FR-971",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Guadeloupe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-972",
+    "code": "FR-972",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Martinique"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-973",
+    "code": "FR-973",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Guyane (française)"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-974",
+    "code": "FR-974",
+    "country": "FR",
+    "parent": "FR",
+    "name": "La Réunion"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-976",
+    "code": "FR-976",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Mayotte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-ARA",
+    "code": "FR-ARA",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-BFC",
+    "code": "FR-BFC",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Burgundy-Franche-Comté"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-BRE",
+    "code": "FR-BRE",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Brittany"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-CVL",
+    "code": "FR-CVL",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Centre-Val de Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-GES",
+    "code": "FR-GES",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Grand-Est"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-HDF",
+    "code": "FR-HDF",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Hauts-de-France"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-IDF",
+    "code": "FR-IDF",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Île-de-France²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-NAQ",
+    "code": "FR-NAQ",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Nouvelle-Aquitaine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-NOR",
+    "code": "FR-NOR",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Normandie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-OCC",
+    "code": "FR-OCC",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Occitanie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-PAC",
+    "code": "FR-PAC",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Provence-Alpes-Côte-d’Azur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-PDL",
+    "code": "FR-PDL",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Pays-de-la-Loire"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KM-A",
+    "code": "KM-A",
+    "country": "KM",
+    "parent": "KM",
+    "name": "Anjouan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KM-G",
+    "code": "KM-G",
+    "country": "KM",
+    "parent": "KM",
+    "name": "Grande Comore"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KM-M",
+    "code": "KM-M",
+    "country": "KM",
+    "parent": "KM",
+    "name": "Mohéli"
+  }
+]

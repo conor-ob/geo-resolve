@@ -1,0 +1,378 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KE-01",
+    "code": "KE-01",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Baringo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-02",
+    "code": "KE-02",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Bomet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-03",
+    "code": "KE-03",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Bungoma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-04",
+    "code": "KE-04",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Busia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-05",
+    "code": "KE-05",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Elgeyo-Marakwet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-06",
+    "code": "KE-06",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Embu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-07",
+    "code": "KE-07",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Garissa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-08",
+    "code": "KE-08",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Homa Bay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-09",
+    "code": "KE-09",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Isiolo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-10",
+    "code": "KE-10",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kajiado"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-11",
+    "code": "KE-11",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kakamega"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-12",
+    "code": "KE-12",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kericho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-13",
+    "code": "KE-13",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kiambu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-14",
+    "code": "KE-14",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kilifi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-15",
+    "code": "KE-15",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kirinyaga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-16",
+    "code": "KE-16",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kisii"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-17",
+    "code": "KE-17",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kisumu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-18",
+    "code": "KE-18",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kitui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-19",
+    "code": "KE-19",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Kwale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-20",
+    "code": "KE-20",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Laikipia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-21",
+    "code": "KE-21",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Lamu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-22",
+    "code": "KE-22",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Machakos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-23",
+    "code": "KE-23",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Makueni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-24",
+    "code": "KE-24",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Mandera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-25",
+    "code": "KE-25",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Marsabit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-26",
+    "code": "KE-26",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Meru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-27",
+    "code": "KE-27",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Migori"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-28",
+    "code": "KE-28",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Mombasa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-29",
+    "code": "KE-29",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Murang’a"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-30",
+    "code": "KE-30",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Nairobi County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-31",
+    "code": "KE-31",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Nakuru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-32",
+    "code": "KE-32",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Nandi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-33",
+    "code": "KE-33",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Narok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-34",
+    "code": "KE-34",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Nyamira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-35",
+    "code": "KE-35",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Nyandarua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-36",
+    "code": "KE-36",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Nyeri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-37",
+    "code": "KE-37",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Samburu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-38",
+    "code": "KE-38",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Siaya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-39",
+    "code": "KE-39",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Taita-Taveta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-40",
+    "code": "KE-40",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Tana River"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-41",
+    "code": "KE-41",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Tharaka-Nithi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-42",
+    "code": "KE-42",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Trans Nzoia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-43",
+    "code": "KE-43",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Turkana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-44",
+    "code": "KE-44",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Uasin Gishu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-45",
+    "code": "KE-45",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Vihiga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-46",
+    "code": "KE-46",
+    "country": "KE",
+    "parent": "KE",
+    "name": "Wajir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KE-47",
+    "code": "KE-47",
+    "country": "KE",
+    "parent": "KE",
+    "name": "West Pokot"
+  }
+]

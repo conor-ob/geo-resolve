@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MY-01",
+    "code": "MY-01",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Johor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-02",
+    "code": "MY-02",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Kedah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-03",
+    "code": "MY-03",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Kelantan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-04",
+    "code": "MY-04",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Malacca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-05",
+    "code": "MY-05",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Negeri Sembilan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-06",
+    "code": "MY-06",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Pahang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-07",
+    "code": "MY-07",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Penang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-08",
+    "code": "MY-08",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Perak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-09",
+    "code": "MY-09",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Perlis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-10",
+    "code": "MY-10",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Selangor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-11",
+    "code": "MY-11",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Terengganu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-12",
+    "code": "MY-12",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Sabah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-13",
+    "code": "MY-13",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Sarawak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-14",
+    "code": "MY-14",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Kuala Lumpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-15",
+    "code": "MY-15",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Labuan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MY-16",
+    "code": "MY-16",
+    "country": "MY",
+    "parent": "MY",
+    "name": "Putrajaya"
+  }
+]

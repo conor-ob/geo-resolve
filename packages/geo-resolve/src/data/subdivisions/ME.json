@@ -1,0 +1,202 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ME-01",
+    "code": "ME-01",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Andrijevica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-02",
+    "code": "ME-02",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Bar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-03",
+    "code": "ME-03",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Berane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-04",
+    "code": "ME-04",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Bijelo Polje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-05",
+    "code": "ME-05",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Budva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-06",
+    "code": "ME-06",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Cetinje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-07",
+    "code": "ME-07",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Danilovgrad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-08",
+    "code": "ME-08",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Herceg Novi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-09",
+    "code": "ME-09",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Kolašin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-10",
+    "code": "ME-10",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Kotor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-11",
+    "code": "ME-11",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Mojkovac"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-12",
+    "code": "ME-12",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Nikšić"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-13",
+    "code": "ME-13",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Plav"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-14",
+    "code": "ME-14",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Pljevlja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-15",
+    "code": "ME-15",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Plužine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-16",
+    "code": "ME-16",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Podgorica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-17",
+    "code": "ME-17",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Rožaje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-18",
+    "code": "ME-18",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Šavnik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-19",
+    "code": "ME-19",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Tivat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-20",
+    "code": "ME-20",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Ulcinj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-21",
+    "code": "ME-21",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Žabljak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-22",
+    "code": "ME-22",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Gusinje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-23",
+    "code": "ME-23",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Petnjica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-24",
+    "code": "ME-24",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Tuzi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ME-25",
+    "code": "ME-25",
+    "country": "ME",
+    "parent": "ME",
+    "name": "Zeta"
+  }
+]

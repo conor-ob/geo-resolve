@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AF-BAL",
+    "code": "AF-BAL",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Balkh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-BAM",
+    "code": "AF-BAM",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Bamyan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-BDG",
+    "code": "AF-BDG",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Badghis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-BDS",
+    "code": "AF-BDS",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Badakhshan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-BGL",
+    "code": "AF-BGL",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Baghlan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-DAY",
+    "code": "AF-DAY",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Daykundi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-FRA",
+    "code": "AF-FRA",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Farah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-FYB",
+    "code": "AF-FYB",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Faryab"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-GHA",
+    "code": "AF-GHA",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Ghazni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-GHO",
+    "code": "AF-GHO",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Ghōr"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-HEL",
+    "code": "AF-HEL",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Helmand"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-HER",
+    "code": "AF-HER",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Herat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-JOW",
+    "code": "AF-JOW",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Jowzjan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-KAB",
+    "code": "AF-KAB",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Kabul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-KAN",
+    "code": "AF-KAN",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Kandahar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-KAP",
+    "code": "AF-KAP",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Kapisa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-KDZ",
+    "code": "AF-KDZ",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Kunduz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-KHO",
+    "code": "AF-KHO",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Khost"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-KNR",
+    "code": "AF-KNR",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Kunar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-LAG",
+    "code": "AF-LAG",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Laghman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-LOG",
+    "code": "AF-LOG",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Logar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-NAN",
+    "code": "AF-NAN",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Nangarhar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-NIM",
+    "code": "AF-NIM",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Nimruz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-NUR",
+    "code": "AF-NUR",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Nuristan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-PAN",
+    "code": "AF-PAN",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Panjshir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-PAR",
+    "code": "AF-PAR",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Parwan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-PIA",
+    "code": "AF-PIA",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Paktia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-PKA",
+    "code": "AF-PKA",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Paktika"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-SAM",
+    "code": "AF-SAM",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Samangan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-SAR",
+    "code": "AF-SAR",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Sar-e Pol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-TAK",
+    "code": "AF-TAK",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Takhar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-URU",
+    "code": "AF-URU",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Urozgan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-WAR",
+    "code": "AF-WAR",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Maidan Wardak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AF-ZAB",
+    "code": "AF-ZAB",
+    "country": "AF",
+    "parent": "AF",
+    "name": "Zabul"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SA-01",
+    "code": "SA-01",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Riyadh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-02",
+    "code": "SA-02",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Makkah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-03",
+    "code": "SA-03",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Al Madinah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-04",
+    "code": "SA-04",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-05",
+    "code": "SA-05",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Al-Qassim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-06",
+    "code": "SA-06",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Ha’il"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-07",
+    "code": "SA-07",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Tabuk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-08",
+    "code": "SA-08",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Northern Borders"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-09",
+    "code": "SA-09",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Jizan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-10",
+    "code": "SA-10",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Najran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-11",
+    "code": "SA-11",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Al Bahah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-12",
+    "code": "SA-12",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Al Jawf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SA-14",
+    "code": "SA-14",
+    "country": "SA",
+    "parent": "SA",
+    "name": "Asir"
+  }
+]

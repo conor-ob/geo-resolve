@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GQ-AN",
+    "code": "GQ-AN",
+    "country": "GQ",
+    "parent": "GQ-I",
+    "name": "Annobón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-BN",
+    "code": "GQ-BN",
+    "country": "GQ",
+    "parent": "GQ-I",
+    "name": "Bioko Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-BS",
+    "code": "GQ-BS",
+    "country": "GQ",
+    "parent": "GQ-I",
+    "name": "Bioko Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-C",
+    "code": "GQ-C",
+    "country": "GQ",
+    "parent": "GQ",
+    "name": "Río Muni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-CS",
+    "code": "GQ-CS",
+    "country": "GQ",
+    "parent": "GQ-C",
+    "name": "Centro Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-DJ",
+    "code": "GQ-DJ",
+    "country": "GQ",
+    "parent": "GQ-C",
+    "name": "Djibloho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-I",
+    "code": "GQ-I",
+    "country": "GQ",
+    "parent": "GQ",
+    "name": "Insular"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-KN",
+    "code": "GQ-KN",
+    "country": "GQ",
+    "parent": "GQ-C",
+    "name": "Kié-Ntem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-LI",
+    "code": "GQ-LI",
+    "country": "GQ",
+    "parent": "GQ-C",
+    "name": "Litoral"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GQ-WN",
+    "code": "GQ-WN",
+    "country": "GQ",
+    "parent": "GQ-C",
+    "name": "Wele-Nzas"
+  }
+]
