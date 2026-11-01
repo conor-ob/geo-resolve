@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
+import type { Country } from "geo-resolve";
 import { z } from "zod";
 
 export interface BuildOptions {
@@ -21,7 +22,12 @@ const Country = z.strictObject({
   name: z.string().min(1, "must not be empty"),
 });
 
-type Country = z.infer<typeof Country>;
+/** True only when `A` and `B` are identical, including which fields are optional. */
+type Exactly<A, B> =
+  (<T>() => T extends A ? 1 : 2) extends <T>() => T extends B ? 1 : 2 ? true : false;
+
+// The published Country type is the source of truth; this fails typechecking if the schema drifts from it.
+true satisfies Exactly<Readonly<z.infer<typeof Country>>, Country>;
 
 const RegionValidity = z.object({
   supplementalData: z.object({

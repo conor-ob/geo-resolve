@@ -2,9 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "types": ["node"],
-    "paths": {
-      "geo-resolve": ["./src/index.ts"]
-    }
+    "customConditions": ["geo-resolve:source"]
   },
   "include": ["src", "tests", "vite.config.ts"]
 }
