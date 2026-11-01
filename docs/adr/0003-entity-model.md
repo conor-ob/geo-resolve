@@ -1,6 +1,6 @@
 # Entity model
 
-Entities are frozen plain objects discriminated by a `kind` field (`country | subdivision | historic-country`), not classes and not a GraphQL-style `__typename`, which would leak a transport convention into the public API. Every Entity has an `id`: the Alpha-2 code for a Country, the Subdivision code for a Subdivision, and the Alpha-4 code for a Historic country. Alpha-4 is needed because ISO reassigns withdrawn Alpha-2 codes (`CS` was Czechoslovakia, then Serbia and Montenegro).
+Entities are frozen plain objects discriminated by a `kind` field (`country | subdivision | historic-country | territory`), not classes and not a GraphQL-style `__typename`, which would leak a transport convention into the public API. Every Entity has an `id`: the Alpha-2 code for a Country, the Subdivision code for a Subdivision, the Alpha-4 code for a Historic country, and the user-assigned code permissive Sources use for a Territory (ADR-0012). Alpha-4 is needed because ISO reassigns withdrawn Alpha-2 codes (`CS` was Czechoslovakia, then Serbia and Montenegro).
 
 Non-obvious choices:
 
@@ -11,4 +11,4 @@ Non-obvious choices:
 - **A Historic country's Name is its common short name** ("Yugoslavia", "Soviet Union"). ISO's formal names ("USSR, Union of Soviet Socialist Republics") are Aliases.
 - **Former codes of Countries that still exist are Aliases of the current Country** (`ROM` for Romania, which became `ROU` in 2002), not Historic countries. ISO 3166-3 only records withdrawn Countries, but old data still carries these codes. Only changes ISO documented are included, each citing its source.
 - **Entities that ISO lists twice stay separate, joined by a Same-as link** (`PR` ↔ `US-PR`), rather than being merged, so each keeps its own codes and Parent.
-- **Non-ISO codes live under `codes`** (`codes.ioc`, `codes.fifa`) and are named for their actual Code system, never stored under an ISO field name: a Subdivision code suffix is not an Alpha-3 code, and a FIFA code is not an IOC code.
+- **Non-ISO codes live under `codes`** (`codes.ioc`, `codes.fifa`) and are named for their actual Code system, never stored under an ISO field name: a Subdivision code suffix is not an Alpha-3 code, and a FIFA code is not an IOC code. A code sits on whichever Entity has the same territory, of any Kind: FIFA's ENG is on the Subdivision GB-ENG, and GB has no FIFA code (ADR-0012). A Code system's political name for an Entity ("Chinese Taipei" for TW) is an Alias of it.
