@@ -1,0 +1,47 @@
+{
+  "name": "geo-resolve",
+  "version": "0.0.0",
+  "description": "Resolve loose ISO 3166 references (codes, names, aliases) to the place they denote.",
+  "keywords": [
+    "country",
+    "geo",
+    "iso-3166",
+    "subdivision"
+  ],
+  "homepage": "https://github.com/conor-ob/geo-resolve#readme",
+  "bugs": {
+    "url": "https://github.com/conor-ob/geo-resolve/issues"
+  },
+  "license": "MIT",
+  "author": "Conor O'Brien",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conor-ob/geo-resolve.git",
+    "directory": "packages/geo-resolve"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "typecheck": "tsc -p .",
+    "test": "vp test run"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
