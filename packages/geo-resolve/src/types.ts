@@ -54,4 +54,9 @@ export type DataPack = readonly Entity[];
 export interface ResolveOptions {
   /** Only consider Entities of these Kinds. */
   readonly kinds?: readonly Kind[];
+  /**
+   * Only consider the Entity with this `id` (an Alpha-2 or Subdivision code) and those under it at any depth,
+   * and let a bare Subdivision code suffix (`"CA"` within `"US"`) match. An unknown or withdrawn `id` matches nothing.
+   */
+  readonly within?: string;
 }
