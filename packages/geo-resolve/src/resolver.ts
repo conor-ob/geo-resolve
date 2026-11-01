@@ -35,6 +35,12 @@ function byKindThenId(a: Entity, b: Entity): number {
   );
 }
 
+/** A Resolver's lookups: Candidates by normalised match key, and Entities by `id` for walking Parents. */
+interface Index {
+  readonly byKey: ReadonlyMap<string, Entity[]>;
+  readonly byId: ReadonlyMap<string, Entity>;
+}
+
 /** The codes and Name an Input can match an Entity by. A bare Subdivision code suffix is not one. */
 function matchKeys(entity: Entity): string[] {
   switch (entity.kind) {
@@ -52,30 +58,64 @@ function matchKeys(entity: Entity): string[] {
 export function createResolver({ data }: ResolverOptions): Resolver {
   // Later changes to the caller's array don't reach this Resolver.
   const packs = [...data];
-  let index: Map<string, Entity[]> | undefined;
+  let index: Index | undefined;
 
-  function buildIndex(): Map<string, Entity[]> {
-    const built = new Map<string, Entity[]>();
+  function buildIndex(): Index {
+    const byKey = new Map<string, Entity[]>();
+    const byId = new Map<string, Entity>();
     for (const entity of new Set(packs.flat())) {
       // Shipped Data packs are frozen already; hand-built ones aren't.
       const frozen = Object.freeze(entity);
+      byId.set(frozen.id, frozen);
       for (const key of new Set(matchKeys(frozen).map(normalise))) {
-        const candidates = built.get(key) ?? [];
+        const candidates = byKey.get(key) ?? [];
         candidates.push(frozen);
-        built.set(key, candidates);
+        byKey.set(key, candidates);
       }
     }
-    for (const candidates of built.values()) candidates.sort(byKindThenId);
-    return built;
+    for (const candidates of byKey.values()) candidates.sort(byKindThenId);
+    return { byKey, byId };
+  }
+
+  /** Whether `entity` is the Entity with this `id`, or sits under it at any depth, following Parents. */
+  function isWithin(entity: Entity, id: string, byId: ReadonlyMap<string, Entity>): boolean {
+    if (entity.id === id) return true;
+    if (entity.kind !== "subdivision") return false;
+    // The Country holds every Subdivision, even when an intermediate Parent isn't loaded.
+    if (entity.country === id) return true;
+    // Hand-built packs can loop their Parents, so stop at one already seen.
+    const seen = new Set<Entity>();
+    let current: Entity | undefined = entity;
+    while (current?.kind === "subdivision" && !seen.has(current)) {
+      if (current.parent === id) return true;
+      seen.add(current);
+      current = byId.get(current.parent);
+    }
+    return false;
   }
 
   function resolveAll(input: string, options: ResolveOptions = {}): Entity[] {
-    index ??= buildIndex();
-    const candidates = index.get(normalise(input)) ?? [];
-    const { kinds } = options;
-    return kinds === undefined
-      ? [...candidates]
-      : candidates.filter((entity) => kinds.includes(entity.kind));
+    const { byKey, byId } = (index ??= buildIndex());
+    const { kinds, within } = options;
+    const key = normalise(input);
+    const candidates = new Set(byKey.get(key));
+    if (within !== undefined) {
+      // A bare suffix ("CA") matches as the full Subdivision code in the Country of `within` ("US-CA").
+      const suffixCode = normalise(`${within.split("-")[0]}-${key}`);
+      for (const entity of byKey.get(suffixCode) ?? []) {
+        // The key may also be a Name; only the Subdivision code counts.
+        if (entity.kind === "subdivision" && normalise(entity.code) === suffixCode) {
+          candidates.add(entity);
+        }
+      }
+    }
+    return [...candidates]
+      .filter(
+        (entity) =>
+          (kinds === undefined || kinds.includes(entity.kind)) &&
+          (within === undefined || isWithin(entity, within, byId)),
+      )
+      .sort(byKindThenId);
   }
 
   function resolve(input: string, options?: ResolveOptions): Entity | null {
