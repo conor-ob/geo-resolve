@@ -1,0 +1,417 @@
+[
+  {
+    "kind": "historic-country",
+    "id": "AIDJ",
+    "alpha4": "AIDJ",
+    "alpha2": "AI",
+    "alpha3": "AFI",
+    "name": "French Afars and Issas",
+    "withdrawn": "1977",
+    "successors": [
+      "DJ"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "ANHH",
+    "alpha4": "ANHH",
+    "alpha2": "AN",
+    "alpha3": "ANT",
+    "numeric": "530",
+    "name": "Netherlands Antilles",
+    "withdrawn": "2010-12-15",
+    "successors": [
+      "BQ",
+      "CW",
+      "SX"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "BQAQ",
+    "alpha4": "BQAQ",
+    "alpha2": "BQ",
+    "alpha3": "ATB",
+    "name": "British Antarctic Territory",
+    "withdrawn": "1979",
+    "successors": [
+      "AQ"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "BUMM",
+    "alpha4": "BUMM",
+    "alpha2": "BU",
+    "alpha3": "BUR",
+    "numeric": "104",
+    "name": "Burma",
+    "withdrawn": "1989",
+    "successors": [
+      "MM"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "BYAA",
+    "alpha4": "BYAA",
+    "alpha2": "BY",
+    "alpha3": "BYS",
+    "numeric": "112",
+    "name": "Byelorussian SSR",
+    "withdrawn": "1992",
+    "successors": [
+      "BY"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "CSHH",
+    "alpha4": "CSHH",
+    "alpha2": "CS",
+    "alpha3": "CSK",
+    "numeric": "200",
+    "name": "Czechoslovakia",
+    "withdrawn": "1993",
+    "successors": [
+      "CZ",
+      "SK"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "CSXX",
+    "alpha4": "CSXX",
+    "alpha2": "CS",
+    "alpha3": "SCG",
+    "numeric": "891",
+    "name": "Serbia and Montenegro",
+    "withdrawn": "2006-09-26",
+    "successors": [
+      "ME",
+      "RS"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "CTKI",
+    "alpha4": "CTKI",
+    "alpha2": "CT",
+    "alpha3": "CTE",
+    "numeric": "128",
+    "name": "Canton and Enderbury Islands",
+    "withdrawn": "1984",
+    "successors": [
+      "KI"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "DDDE",
+    "alpha4": "DDDE",
+    "alpha2": "DD",
+    "alpha3": "DDR",
+    "numeric": "278",
+    "name": "East Germany",
+    "withdrawn": "1990",
+    "successors": [
+      "DE"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "DYBJ",
+    "alpha4": "DYBJ",
+    "alpha2": "DY",
+    "alpha3": "DHY",
+    "name": "Dahomey",
+    "withdrawn": "1977",
+    "successors": [
+      "BJ"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "FQHH",
+    "alpha4": "FQHH",
+    "alpha2": "FQ",
+    "alpha3": "ATF",
+    "name": "French Southern and Antarctic Territories",
+    "withdrawn": "1979",
+    "successors": [
+      "AQ",
+      "TF"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "FXFR",
+    "alpha4": "FXFR",
+    "alpha2": "FX",
+    "alpha3": "FXX",
+    "numeric": "249",
+    "name": "Metropolitan France",
+    "withdrawn": "1997",
+    "successors": [
+      "FR"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "GEHH",
+    "alpha4": "GEHH",
+    "alpha2": "GE",
+    "alpha3": "GEL",
+    "name": "Gilbert and Ellice Islands",
+    "withdrawn": "1979",
+    "successors": [
+      "KI",
+      "TV"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "HVBF",
+    "alpha4": "HVBF",
+    "alpha2": "HV",
+    "alpha3": "HVO",
+    "numeric": "854",
+    "name": "Upper Volta",
+    "withdrawn": "1984",
+    "successors": [
+      "BF"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "JTUM",
+    "alpha4": "JTUM",
+    "alpha2": "JT",
+    "alpha3": "JTN",
+    "numeric": "396",
+    "name": "Johnston Island",
+    "withdrawn": "1986",
+    "successors": [
+      "UM"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "MIUM",
+    "alpha4": "MIUM",
+    "alpha2": "MI",
+    "alpha3": "MID",
+    "numeric": "488",
+    "name": "Midway Islands",
+    "withdrawn": "1986",
+    "successors": [
+      "UM"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "NHVU",
+    "alpha4": "NHVU",
+    "alpha2": "NH",
+    "alpha3": "NHB",
+    "name": "New Hebrides",
+    "withdrawn": "1980",
+    "successors": [
+      "VU"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "NQAQ",
+    "alpha4": "NQAQ",
+    "alpha2": "NQ",
+    "alpha3": "ATN",
+    "numeric": "216",
+    "name": "Dronning Maud Land",
+    "withdrawn": "1983",
+    "successors": [
+      "AQ"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "NTHH",
+    "alpha4": "NTHH",
+    "alpha2": "NT",
+    "alpha3": "NTZ",
+    "numeric": "536",
+    "name": "Neutral Zone",
+    "withdrawn": "1993",
+    "successors": [
+      "IQ",
+      "SA"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "PCHH",
+    "alpha4": "PCHH",
+    "alpha2": "PC",
+    "alpha3": "PCI",
+    "numeric": "582",
+    "name": "Trust Territory of the Pacific Islands",
+    "withdrawn": "1986",
+    "successors": [
+      "FM",
+      "MH",
+      "MP",
+      "PW"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "PUUM",
+    "alpha4": "PUUM",
+    "alpha2": "PU",
+    "alpha3": "PUS",
+    "numeric": "849",
+    "name": "United States Miscellaneous Pacific Islands",
+    "withdrawn": "1986",
+    "successors": [
+      "UM"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "PZPA",
+    "alpha4": "PZPA",
+    "alpha2": "PZ",
+    "alpha3": "PCZ",
+    "name": "Panama Canal Zone",
+    "withdrawn": "1980",
+    "successors": [
+      "PA"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "RHZW",
+    "alpha4": "RHZW",
+    "alpha2": "RH",
+    "alpha3": "RHO",
+    "name": "Southern Rhodesia",
+    "withdrawn": "1980",
+    "successors": [
+      "ZW"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "SKIN",
+    "alpha4": "SKIN",
+    "alpha2": "SK",
+    "alpha3": "SKM",
+    "name": "Sikkim",
+    "withdrawn": "1975",
+    "successors": [
+      "IN"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "SUHH",
+    "alpha4": "SUHH",
+    "alpha2": "SU",
+    "alpha3": "SUN",
+    "numeric": "810",
+    "name": "Soviet Union",
+    "withdrawn": "1992",
+    "successors": [
+      "AM",
+      "AZ",
+      "EE",
+      "GE",
+      "KG",
+      "KZ",
+      "LT",
+      "LV",
+      "MD",
+      "RU",
+      "TJ",
+      "TM",
+      "UZ"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "TPTL",
+    "alpha4": "TPTL",
+    "alpha2": "TP",
+    "alpha3": "TMP",
+    "numeric": "626",
+    "name": "East Timor",
+    "withdrawn": "2002",
+    "successors": [
+      "TL"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "VDVN",
+    "alpha4": "VDVN",
+    "alpha2": "VD",
+    "alpha3": "VDR",
+    "name": "North Vietnam",
+    "withdrawn": "1977",
+    "successors": [
+      "VN"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "WKUM",
+    "alpha4": "WKUM",
+    "alpha2": "WK",
+    "alpha3": "WAK",
+    "numeric": "872",
+    "name": "Wake Island",
+    "withdrawn": "1986",
+    "successors": [
+      "UM"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "YDYE",
+    "alpha4": "YDYE",
+    "alpha2": "YD",
+    "alpha3": "YMD",
+    "numeric": "720",
+    "name": "South Yemen",
+    "withdrawn": "1990",
+    "successors": [
+      "YE"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "YUCS",
+    "alpha4": "YUCS",
+    "alpha2": "YU",
+    "alpha3": "YUG",
+    "numeric": "891",
+    "name": "Yugoslavia",
+    "withdrawn": "2003-07-23",
+    "successors": [
+      "CSXX"
+    ]
+  },
+  {
+    "kind": "historic-country",
+    "id": "ZRCD",
+    "alpha4": "ZRCD",
+    "alpha2": "ZR",
+    "alpha3": "ZAR",
+    "numeric": "180",
+    "name": "Zaire",
+    "withdrawn": "1997",
+    "successors": [
+      "CD"
+    ]
+  }
+]

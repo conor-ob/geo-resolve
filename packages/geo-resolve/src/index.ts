@@ -8,6 +8,7 @@ export type {
   Country,
   DataPack,
   Entity,
+  HistoricCountry,
   Kind,
   KnownCodeSystem,
   KnownKind,

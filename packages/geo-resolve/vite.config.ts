@@ -6,6 +6,7 @@ export default defineConfig({
     entry: [
       "src/index.ts",
       "src/data/countries.ts",
+      "src/data/historic-countries.ts",
       "src/data/subdivisions.ts",
       "src/data/subdivisions/*.ts",
     ],
