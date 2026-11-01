@@ -40,8 +40,8 @@ const SubdivisionSchema = z.strictObject({
 });
 
 // The published Entity types are the source of truth; these fail typechecking if a schema drifts from them.
-true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Country>;
-// No Source fills `codes` yet, so the schema rejects it until Code systems are built.
+// No Source fills `codes` yet, so the schemas reject it until Code systems are built.
+true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Omit<Country, "codes">>;
 true satisfies Exactly<Readonly<z.infer<typeof SubdivisionSchema>>, Omit<Subdivision, "codes">>;
 
 /** A CLDR validity file, which lists codes of one type (regions, Subdivisions) by status. */

@@ -17,6 +17,8 @@ export interface Country {
   readonly numeric: string;
   /** The English Name, such as `Germany`. */
   readonly name: string;
+  /** Codes in non-ISO Code systems, such as the IOC's `GER` for `DE`. */
+  readonly codes?: Codes;
 }
 
 /** The Code systems geo-resolve ships today. May grow in a minor release (ADR-0006). */
