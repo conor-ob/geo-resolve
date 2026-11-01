@@ -5,15 +5,15 @@ geo-resolve turns a loose reference to a place (a code, a name, an alias, in any
 ## Entities
 
 **Entity**:
-A geographic unit defined by the ISO 3166 family of standards: a Country, a Subdivision, or a Historic country.
+A geographic unit defined by the ISO 3166 family of standards (a Country, a Subdivision or a Historic country), or a Territory.
 _Avoid_: place, location, area, region (reserved for a future UN M49 kind)
 
 **Kind**:
-Which of the entity categories an Entity belongs to: country, subdivision or historic-country.
+Which of the entity categories an Entity belongs to: country, subdivision, historic-country or territory.
 _Avoid_: typename, entity type, category
 
 **Country**:
-A currently assigned ISO 3166-1 entry. Includes dependent territories such as Puerto Rico or Åland, which ISO lists as countries.
+A currently assigned ISO 3166-1 entry. Includes dependencies such as Puerto Rico or Åland, which ISO lists as countries.
 _Avoid_: nation, state, sovereign state
 
 **Subdivision**:
@@ -35,6 +35,10 @@ _Avoid_: former country, deprecated country, dead country
 **Successor**:
 An Entity that ISO names as replacing a Historic country when its code was withdrawn. It is usually a Country but can be another Historic country (Yugoslavia → Serbia and Montenegro), and a Historic country can have several.
 _Avoid_: replacement, new code, successor state (the political sense, which can differ)
+
+**Territory**:
+A country-level unit that ISO 3166 doesn't list but that at least two shipped Code systems treat as a peer of Countries, such as Kosovo (XK). It has no ISO codes and no Subdivisions.
+_Avoid_: partially recognised state, non-ISO country
 
 **Same-as link**:
 A connection between two Entities that ISO lists separately but that denote the same territory, such as the Country PR and the Subdivision US-PR. Both remain distinct Entities.
