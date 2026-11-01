@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SZ-HH",
+    "code": "SZ-HH",
+    "country": "SZ",
+    "parent": "SZ",
+    "name": "Hhohho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SZ-LU",
+    "code": "SZ-LU",
+    "country": "SZ",
+    "parent": "SZ",
+    "name": "Lubombo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SZ-MA",
+    "code": "SZ-MA",
+    "country": "SZ",
+    "parent": "SZ",
+    "name": "Manzini"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SZ-SH",
+    "code": "SZ-SH",
+    "country": "SZ",
+    "parent": "SZ",
+    "name": "Shiselweni"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "VN-01",
+    "code": "VN-01",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Lai Châu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-02",
+    "code": "VN-02",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Lào Cai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-03",
+    "code": "VN-03",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hà Giang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-04",
+    "code": "VN-04",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Cao Bằng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-05",
+    "code": "VN-05",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Sơn La"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-06",
+    "code": "VN-06",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Yên Bái"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-07",
+    "code": "VN-07",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Tuyên Quang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-09",
+    "code": "VN-09",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Lạng Sơn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-13",
+    "code": "VN-13",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Quảng Ninh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-14",
+    "code": "VN-14",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hòa Bình"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-18",
+    "code": "VN-18",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Ninh Bình"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-20",
+    "code": "VN-20",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Thái Bình"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-21",
+    "code": "VN-21",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Thanh Hóa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-22",
+    "code": "VN-22",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Nghệ An"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-23",
+    "code": "VN-23",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hà Tĩnh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-24",
+    "code": "VN-24",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Quảng Bình"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-25",
+    "code": "VN-25",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Quảng Trị"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-26",
+    "code": "VN-26",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Thừa Thiên–Huế"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-27",
+    "code": "VN-27",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Quảng Nam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-28",
+    "code": "VN-28",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Kon Tum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-29",
+    "code": "VN-29",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Quảng Ngãi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-30",
+    "code": "VN-30",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Gia Lai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-31",
+    "code": "VN-31",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bình Định"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-32",
+    "code": "VN-32",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Phú Yên"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-33",
+    "code": "VN-33",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Đắk Lắk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-34",
+    "code": "VN-34",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Khánh Hòa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-35",
+    "code": "VN-35",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Lâm Đồng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-36",
+    "code": "VN-36",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Ninh Thuận"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-37",
+    "code": "VN-37",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Tây Ninh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-39",
+    "code": "VN-39",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Đồng Nai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-40",
+    "code": "VN-40",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bình Thuận"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-41",
+    "code": "VN-41",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Long An"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-43",
+    "code": "VN-43",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bà Rịa–Vũng Tàu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-44",
+    "code": "VN-44",
+    "country": "VN",
+    "parent": "VN",
+    "name": "An Giang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-45",
+    "code": "VN-45",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Đồng Tháp"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-46",
+    "code": "VN-46",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Tiền Giang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-47",
+    "code": "VN-47",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Kiên Giang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-49",
+    "code": "VN-49",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Vĩnh Long"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-50",
+    "code": "VN-50",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bến Tre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-51",
+    "code": "VN-51",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Trà Vinh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-52",
+    "code": "VN-52",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Sóc Trăng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-53",
+    "code": "VN-53",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bắc Kạn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-54",
+    "code": "VN-54",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bắc Giang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-55",
+    "code": "VN-55",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bạc Liêu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-56",
+    "code": "VN-56",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bắc Ninh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-57",
+    "code": "VN-57",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bình Dương"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-58",
+    "code": "VN-58",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Bình Phước"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-59",
+    "code": "VN-59",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Cà Mau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-61",
+    "code": "VN-61",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hải Dương"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-63",
+    "code": "VN-63",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hà Nam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-66",
+    "code": "VN-66",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hưng Yên"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-67",
+    "code": "VN-67",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Nam Định"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-68",
+    "code": "VN-68",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Phú Thọ"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-69",
+    "code": "VN-69",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Thái Nguyên"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-70",
+    "code": "VN-70",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Vĩnh Phúc"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-71",
+    "code": "VN-71",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Điện Biên"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-72",
+    "code": "VN-72",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Đắk Nông"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-73",
+    "code": "VN-73",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hậu Giang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-CT",
+    "code": "VN-CT",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Can Tho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-DN",
+    "code": "VN-DN",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Da Nang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-HN",
+    "code": "VN-HN",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Hanoi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-HP",
+    "code": "VN-HP",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Haiphong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VN-SG",
+    "code": "VN-SG",
+    "country": "VN",
+    "parent": "VN",
+    "name": "Ho Chi Minh City"
+  }
+]

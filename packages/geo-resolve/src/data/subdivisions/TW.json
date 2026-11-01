@@ -1,0 +1,178 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TW-CHA",
+    "code": "TW-CHA",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Changhua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-CYI",
+    "code": "TW-CYI",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Chiayi County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-CYQ",
+    "code": "TW-CYQ",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Chiayi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-HSQ",
+    "code": "TW-HSQ",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Hsinchu County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-HSZ",
+    "code": "TW-HSZ",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Hsinchu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-HUA",
+    "code": "TW-HUA",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Hualien"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-ILA",
+    "code": "TW-ILA",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Yilan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-KEE",
+    "code": "TW-KEE",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Keelung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-KHH",
+    "code": "TW-KHH",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Kaohsiung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-KIN",
+    "code": "TW-KIN",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Kinmen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-LIE",
+    "code": "TW-LIE",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Lienchiang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-MIA",
+    "code": "TW-MIA",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Miaoli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-NAN",
+    "code": "TW-NAN",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Nantou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-NWT",
+    "code": "TW-NWT",
+    "country": "TW",
+    "parent": "TW",
+    "name": "New Taipei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-PEN",
+    "code": "TW-PEN",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Penghu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-PIF",
+    "code": "TW-PIF",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Pingtung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-TAO",
+    "code": "TW-TAO",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Taoyuan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-TNN",
+    "code": "TW-TNN",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Tainan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-TPE",
+    "code": "TW-TPE",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Taipei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-TTT",
+    "code": "TW-TTT",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Taitung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-TXG",
+    "code": "TW-TXG",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Taichung"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TW-YUN",
+    "code": "TW-YUN",
+    "country": "TW",
+    "parent": "TW",
+    "name": "Yunlin"
+  }
+]

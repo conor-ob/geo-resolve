@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GL-AV",
+    "code": "GL-AV",
+    "country": "GL",
+    "parent": "GL",
+    "name": "Avannaata Kommunia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GL-KU",
+    "code": "GL-KU",
+    "country": "GL",
+    "parent": "GL",
+    "name": "Kujalleq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GL-QE",
+    "code": "GL-QE",
+    "country": "GL",
+    "parent": "GL",
+    "name": "Qeqqata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GL-QT",
+    "code": "GL-QT",
+    "country": "GL",
+    "parent": "GL",
+    "name": "Kommune Qeqertalik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GL-SM",
+    "code": "GL-SM",
+    "country": "GL",
+    "parent": "GL",
+    "name": "Sermersooq"
+  }
+]

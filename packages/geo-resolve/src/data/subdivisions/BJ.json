@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BJ-AK",
+    "code": "BJ-AK",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Atakora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-AL",
+    "code": "BJ-AL",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Alibori"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-AQ",
+    "code": "BJ-AQ",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Atlantique"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-BO",
+    "code": "BJ-BO",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Borgou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-CO",
+    "code": "BJ-CO",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Collines"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-DO",
+    "code": "BJ-DO",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Donga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-KO",
+    "code": "BJ-KO",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Kouffo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-LI",
+    "code": "BJ-LI",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Littoral"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-MO",
+    "code": "BJ-MO",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Mono"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-OU",
+    "code": "BJ-OU",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Ouémé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-PL",
+    "code": "BJ-PL",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Plateau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BJ-ZO",
+    "code": "BJ-ZO",
+    "country": "BJ",
+    "parent": "BJ",
+    "name": "Zou"
+  }
+]

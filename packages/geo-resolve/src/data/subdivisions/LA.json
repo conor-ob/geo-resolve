@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LA-AT",
+    "code": "LA-AT",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Attapeu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-BK",
+    "code": "LA-BK",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Bokeo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-BL",
+    "code": "LA-BL",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Bolikhamsai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-CH",
+    "code": "LA-CH",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Champasak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-HO",
+    "code": "LA-HO",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Houaphanh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-KH",
+    "code": "LA-KH",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Khammouane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-LM",
+    "code": "LA-LM",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Luang Namtha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-LP",
+    "code": "LA-LP",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Luang Prabang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-OU",
+    "code": "LA-OU",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Oudomxay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-PH",
+    "code": "LA-PH",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Phongsaly"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-SL",
+    "code": "LA-SL",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Salavan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-SV",
+    "code": "LA-SV",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Savannakhet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-VI",
+    "code": "LA-VI",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Vientiane Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-VT",
+    "code": "LA-VT",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Vientiane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-XA",
+    "code": "LA-XA",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Sainyabuli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-XE",
+    "code": "LA-XE",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Sekong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-XI",
+    "code": "LA-XI",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Xiangkhouang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LA-XS",
+    "code": "LA-XS",
+    "country": "LA",
+    "parent": "LA",
+    "name": "Xaisomboun"
+  }
+]

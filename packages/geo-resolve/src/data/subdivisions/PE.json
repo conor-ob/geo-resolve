@@ -1,0 +1,210 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PE-AMA",
+    "code": "PE-AMA",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Amazonas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-ANC",
+    "code": "PE-ANC",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Ancash"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-APU",
+    "code": "PE-APU",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Apurímac"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-ARE",
+    "code": "PE-ARE",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Arequipa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-AYA",
+    "code": "PE-AYA",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Ayacucho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-CAJ",
+    "code": "PE-CAJ",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Cajamarca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-CAL",
+    "code": "PE-CAL",
+    "country": "PE",
+    "parent": "PE",
+    "name": "El Callao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-CUS",
+    "code": "PE-CUS",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Cusco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-HUC",
+    "code": "PE-HUC",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Huánuco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-HUV",
+    "code": "PE-HUV",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Huancavelica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-ICA",
+    "code": "PE-ICA",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Ica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-JUN",
+    "code": "PE-JUN",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Junín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-LAL",
+    "code": "PE-LAL",
+    "country": "PE",
+    "parent": "PE",
+    "name": "La Libertad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-LAM",
+    "code": "PE-LAM",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Lambayeque"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-LIM",
+    "code": "PE-LIM",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Lima Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-LMA",
+    "code": "PE-LMA",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Lima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-LOR",
+    "code": "PE-LOR",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Loreto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-MDD",
+    "code": "PE-MDD",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Madre de Dios"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-MOQ",
+    "code": "PE-MOQ",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Moquegua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-PAS",
+    "code": "PE-PAS",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Pasco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-PIU",
+    "code": "PE-PIU",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Piura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-PUN",
+    "code": "PE-PUN",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Puno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-SAM",
+    "code": "PE-SAM",
+    "country": "PE",
+    "parent": "PE",
+    "name": "San Martín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-TAC",
+    "code": "PE-TAC",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Tacna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-TUM",
+    "code": "PE-TUM",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Tumbes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PE-UCA",
+    "code": "PE-UCA",
+    "country": "PE",
+    "parent": "PE",
+    "name": "Ucayali"
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MD-AN",
+    "code": "MD-AN",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Anenii Noi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-BA",
+    "code": "MD-BA",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Bălţi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-BD",
+    "code": "MD-BD",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Bender"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-BR",
+    "code": "MD-BR",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Briceni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-BS",
+    "code": "MD-BS",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Basarabeasca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CA",
+    "code": "MD-CA",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Cahul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CL",
+    "code": "MD-CL",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Călărași"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CM",
+    "code": "MD-CM",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Cimișlia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CR",
+    "code": "MD-CR",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Criuleni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CS",
+    "code": "MD-CS",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Căușeni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CT",
+    "code": "MD-CT",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Cantemir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-CU",
+    "code": "MD-CU",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Chișinău"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-DO",
+    "code": "MD-DO",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Dondușeni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-DR",
+    "code": "MD-DR",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Drochia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-DU",
+    "code": "MD-DU",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Dubăsari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-ED",
+    "code": "MD-ED",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Edineț"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-FA",
+    "code": "MD-FA",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Fălești"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-FL",
+    "code": "MD-FL",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Florești"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-GA",
+    "code": "MD-GA",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Gagauzia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-GL",
+    "code": "MD-GL",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Glodeni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-HI",
+    "code": "MD-HI",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Hîncești"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-IA",
+    "code": "MD-IA",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Ialoveni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-LE",
+    "code": "MD-LE",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Leova"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-NI",
+    "code": "MD-NI",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Nisporeni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-OC",
+    "code": "MD-OC",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Ocniţa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-OR",
+    "code": "MD-OR",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Orhei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-RE",
+    "code": "MD-RE",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Rezina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-RI",
+    "code": "MD-RI",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Rîșcani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-SD",
+    "code": "MD-SD",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Șoldănești"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-SI",
+    "code": "MD-SI",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Sîngerei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-SN",
+    "code": "MD-SN",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Transnistria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-SO",
+    "code": "MD-SO",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Soroca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-ST",
+    "code": "MD-ST",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Strășeni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-SV",
+    "code": "MD-SV",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Ştefan Vodă"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-TA",
+    "code": "MD-TA",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Taraclia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-TE",
+    "code": "MD-TE",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Telenești"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MD-UN",
+    "code": "MD-UN",
+    "country": "MD",
+    "parent": "MD",
+    "name": "Ungheni"
+  }
+]

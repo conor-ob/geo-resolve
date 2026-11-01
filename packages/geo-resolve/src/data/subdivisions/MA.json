@@ -1,0 +1,698 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MA-01",
+    "code": "MA-01",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Tangier-Tétouan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-02",
+    "code": "MA-02",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Gharb-Chrarda-Béni Hssen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-03",
+    "code": "MA-03",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Taza-Al Hoceima-Taounate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-04",
+    "code": "MA-04",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Oriental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-05",
+    "code": "MA-05",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Fès-Boulemane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-06",
+    "code": "MA-06",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Meknès-Tafilalet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-07",
+    "code": "MA-07",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Rabat-Salé-Zemmour-Zaer"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-08",
+    "code": "MA-08",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Grand Casablanca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-09",
+    "code": "MA-09",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Chaouia-Ouardigha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-10",
+    "code": "MA-10",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Doukkala-Abda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-11",
+    "code": "MA-11",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Marrakesh-Tensift-El Haouz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-12",
+    "code": "MA-12",
+    "country": "MA",
+    "parent": "MA",
+    "name": "Tadla-Azilal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-AGD",
+    "code": "MA-AGD",
+    "country": "MA",
+    "parent": "MA-09",
+    "name": "Agadir-Ida Ou Tanane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-AOU",
+    "code": "MA-AOU",
+    "country": "MA",
+    "parent": "MA-12",
+    "name": "Aousserd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-ASZ",
+    "code": "MA-ASZ",
+    "country": "MA",
+    "parent": "MA-10",
+    "name": "Assa-Zag"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-AZI",
+    "code": "MA-AZI",
+    "country": "MA",
+    "parent": "MA-05",
+    "name": "Azilal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-BEM",
+    "code": "MA-BEM",
+    "country": "MA",
+    "parent": "MA-05",
+    "name": "Béni-Mellal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-BER",
+    "code": "MA-BER",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Berkane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-BES",
+    "code": "MA-BES",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Ben Slimane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-BOD",
+    "code": "MA-BOD",
+    "country": "MA",
+    "parent": "MA-11",
+    "name": "Boujdour"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-BOM",
+    "code": "MA-BOM",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Boulemane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-BRR",
+    "code": "MA-BRR",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Berrechid"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-CAS",
+    "code": "MA-CAS",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Casablanca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-CHE",
+    "code": "MA-CHE",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Chefchaouen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-CHI",
+    "code": "MA-CHI",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Chichaoua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-CHT",
+    "code": "MA-CHT",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Chtouka Aït Baha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-DRI",
+    "code": "MA-DRI",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Driouch"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-ERR",
+    "code": "MA-ERR",
+    "country": "MA",
+    "parent": "MA-08",
+    "name": "Errachidia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-ESI",
+    "code": "MA-ESI",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Essaouira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-ESM",
+    "code": "MA-ESM",
+    "country": "MA",
+    "parent": "MA-11",
+    "name": "Es Semara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-FAH",
+    "code": "MA-FAH",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Fahs-Beni Makada"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-FES",
+    "code": "MA-FES",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Fès-Dar-Dbibegh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-FIG",
+    "code": "MA-FIG",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Figuig"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-FQH",
+    "code": "MA-FQH",
+    "country": "MA",
+    "parent": "MA-05",
+    "name": "Fquih Ben Salah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-GUE",
+    "code": "MA-GUE",
+    "country": "MA",
+    "parent": "MA-10",
+    "name": "Guelmim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-GUF",
+    "code": "MA-GUF",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Guercif"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-HAJ",
+    "code": "MA-HAJ",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "El Hajeb"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-HAO",
+    "code": "MA-HAO",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Al Haouz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-HOC",
+    "code": "MA-HOC",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Al Hoceïma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-IFR",
+    "code": "MA-IFR",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Ifrane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-INE",
+    "code": "MA-INE",
+    "country": "MA",
+    "parent": "MA-09",
+    "name": "Inezgane-Aït Melloul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-JDI",
+    "code": "MA-JDI",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "El Jadida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-JRA",
+    "code": "MA-JRA",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Jerada"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-KEN",
+    "code": "MA-KEN",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Kénitra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-KES",
+    "code": "MA-KES",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Kelaat Sraghna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-KHE",
+    "code": "MA-KHE",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Khemisset"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-KHN",
+    "code": "MA-KHN",
+    "country": "MA",
+    "parent": "MA-05",
+    "name": "Khénifra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-KHO",
+    "code": "MA-KHO",
+    "country": "MA",
+    "parent": "MA-05",
+    "name": "Khouribga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-LAA",
+    "code": "MA-LAA",
+    "country": "MA",
+    "parent": "MA-11",
+    "name": "Laâyoune"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-LAR",
+    "code": "MA-LAR",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Larache"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MAR",
+    "code": "MA-MAR",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Marrakech"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MDF",
+    "code": "MA-MDF",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "M’diq-Fnideq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MED",
+    "code": "MA-MED",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Médiouna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MEK",
+    "code": "MA-MEK",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Meknès"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MID",
+    "code": "MA-MID",
+    "country": "MA",
+    "parent": "MA-08",
+    "name": "Midelt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MOH",
+    "code": "MA-MOH",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Mohammedia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-MOU",
+    "code": "MA-MOU",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Moulay Yacoub"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-NAD",
+    "code": "MA-NAD",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Nador"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-NOU",
+    "code": "MA-NOU",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Nouaceur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-OUA",
+    "code": "MA-OUA",
+    "country": "MA",
+    "parent": "MA-08",
+    "name": "Ouarzazate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-OUD",
+    "code": "MA-OUD",
+    "country": "MA",
+    "parent": "MA-12",
+    "name": "Oued Ed-Dahab"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-OUJ",
+    "code": "MA-OUJ",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Oujda-Angad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-OUZ",
+    "code": "MA-OUZ",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Ouezzane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-RAB",
+    "code": "MA-RAB",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Rabat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-REH",
+    "code": "MA-REH",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Rehamna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SAF",
+    "code": "MA-SAF",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Safi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SAL",
+    "code": "MA-SAL",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Salé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SEF",
+    "code": "MA-SEF",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Sefrou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SET",
+    "code": "MA-SET",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Settat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SIB",
+    "code": "MA-SIB",
+    "country": "MA",
+    "parent": "MA-06",
+    "name": "Sidi Bennour"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SIF",
+    "code": "MA-SIF",
+    "country": "MA",
+    "parent": "MA-10",
+    "name": "Sidi Ifni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SIK",
+    "code": "MA-SIK",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Sidi Kacem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SIL",
+    "code": "MA-SIL",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Sidi Slimane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-SKH",
+    "code": "MA-SKH",
+    "country": "MA",
+    "parent": "MA-04",
+    "name": "Skhirat-Témara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TAF",
+    "code": "MA-TAF",
+    "country": "MA",
+    "parent": "MA-11",
+    "name": "Tarfaya (EH-partial)"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TAI",
+    "code": "MA-TAI",
+    "country": "MA",
+    "parent": "MA-02",
+    "name": "Taourirt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TAO",
+    "code": "MA-TAO",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Taounate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TAR",
+    "code": "MA-TAR",
+    "country": "MA",
+    "parent": "MA-09",
+    "name": "Taroudant"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TAT",
+    "code": "MA-TAT",
+    "country": "MA",
+    "parent": "MA-09",
+    "name": "Tata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TAZ",
+    "code": "MA-TAZ",
+    "country": "MA",
+    "parent": "MA-03",
+    "name": "Taza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TET",
+    "code": "MA-TET",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Tétouan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TIN",
+    "code": "MA-TIN",
+    "country": "MA",
+    "parent": "MA-08",
+    "name": "Tinghir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TIZ",
+    "code": "MA-TIZ",
+    "country": "MA",
+    "parent": "MA-09",
+    "name": "Tiznit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TNG",
+    "code": "MA-TNG",
+    "country": "MA",
+    "parent": "MA-01",
+    "name": "Tangier-Assilah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-TNT",
+    "code": "MA-TNT",
+    "country": "MA",
+    "parent": "MA-10",
+    "name": "Tan-Tan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-YUS",
+    "code": "MA-YUS",
+    "country": "MA",
+    "parent": "MA-07",
+    "name": "Youssoufia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MA-ZAG",
+    "code": "MA-ZAG",
+    "country": "MA",
+    "parent": "MA-08",
+    "name": "Zagora"
+  }
+]

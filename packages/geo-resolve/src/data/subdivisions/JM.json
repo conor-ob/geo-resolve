@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "JM-01",
+    "code": "JM-01",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Kingston"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-02",
+    "code": "JM-02",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint Andrew"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-03",
+    "code": "JM-03",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint Thomas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-04",
+    "code": "JM-04",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Portland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-05",
+    "code": "JM-05",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint Mary"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-06",
+    "code": "JM-06",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint Ann"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-07",
+    "code": "JM-07",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Trelawny"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-08",
+    "code": "JM-08",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint James"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-09",
+    "code": "JM-09",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Hanover"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-10",
+    "code": "JM-10",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Westmoreland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-11",
+    "code": "JM-11",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint Elizabeth"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-12",
+    "code": "JM-12",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Manchester"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-13",
+    "code": "JM-13",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Clarendon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JM-14",
+    "code": "JM-14",
+    "country": "JM",
+    "parent": "JM",
+    "name": "Saint Catherine"
+  }
+]

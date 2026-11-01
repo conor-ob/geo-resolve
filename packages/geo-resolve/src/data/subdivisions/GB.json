@@ -1,0 +1,1770 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GB-ABC",
+    "code": "GB-ABC",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Armagh, Banbridge and Craigavon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ABD",
+    "code": "GB-ABD",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Aberdeenshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ABE",
+    "code": "GB-ABE",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Aberdeen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-AGB",
+    "code": "GB-AGB",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Argyll and Bute"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-AGY",
+    "code": "GB-AGY",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Anglesey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-AND",
+    "code": "GB-AND",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Ards and North Down"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ANN",
+    "code": "GB-ANN",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Antrim and Newtownabbey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ANS",
+    "code": "GB-ANS",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Angus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BAS",
+    "code": "GB-BAS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bath and North East Somerset"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BBD",
+    "code": "GB-BBD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Blackburn with Darwen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BCP",
+    "code": "GB-BCP",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bournemouth, Christchurch and Poole"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BDF",
+    "code": "GB-BDF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bedford"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BDG",
+    "code": "GB-BDG",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Barking and Dagenham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BEN",
+    "code": "GB-BEN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Brent"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BEX",
+    "code": "GB-BEX",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bexley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BFS",
+    "code": "GB-BFS",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Belfast"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BGE",
+    "code": "GB-BGE",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Bridgend"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BGW",
+    "code": "GB-BGW",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Blaenau Gwent"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BIR",
+    "code": "GB-BIR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Birmingham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BKM",
+    "code": "GB-BKM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Buckinghamshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BNE",
+    "code": "GB-BNE",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Barnet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BNH",
+    "code": "GB-BNH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Brighton and Hove"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BNS",
+    "code": "GB-BNS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Barnsley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BOL",
+    "code": "GB-BOL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bolton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BPL",
+    "code": "GB-BPL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Blackpool"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BRC",
+    "code": "GB-BRC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bracknell Forest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BRD",
+    "code": "GB-BRD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bradford"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BRY",
+    "code": "GB-BRY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bromley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BST",
+    "code": "GB-BST",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bristol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-BUR",
+    "code": "GB-BUR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Bury"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CAM",
+    "code": "GB-CAM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Cambridgeshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CAY",
+    "code": "GB-CAY",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Caerphilly"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CBF",
+    "code": "GB-CBF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Central Bedfordshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CCG",
+    "code": "GB-CCG",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Causeway Coast and Glens"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CGN",
+    "code": "GB-CGN",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Ceredigion"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CHE",
+    "code": "GB-CHE",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Cheshire East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CHW",
+    "code": "GB-CHW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Cheshire West and Chester"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CLD",
+    "code": "GB-CLD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Calderdale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CLK",
+    "code": "GB-CLK",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Clackmannanshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CMA",
+    "code": "GB-CMA",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Cumbria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CMD",
+    "code": "GB-CMD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Camden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CMN",
+    "code": "GB-CMN",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Carmarthenshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CON",
+    "code": "GB-CON",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Cornwall"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-COV",
+    "code": "GB-COV",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Coventry"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CRF",
+    "code": "GB-CRF",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Cardiff"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CRY",
+    "code": "GB-CRY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Croydon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-CWY",
+    "code": "GB-CWY",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Conwy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DAL",
+    "code": "GB-DAL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Darlington"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DBY",
+    "code": "GB-DBY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Derbyshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DEN",
+    "code": "GB-DEN",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Denbighshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DER",
+    "code": "GB-DER",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Derby"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DEV",
+    "code": "GB-DEV",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Devon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DGY",
+    "code": "GB-DGY",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Dumfries and Galloway"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DNC",
+    "code": "GB-DNC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Doncaster"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DND",
+    "code": "GB-DND",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Dundee"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DOR",
+    "code": "GB-DOR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Dorset"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DRS",
+    "code": "GB-DRS",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Derry and Strabane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DUD",
+    "code": "GB-DUD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Dudley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-DUR",
+    "code": "GB-DUR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Durham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-EAL",
+    "code": "GB-EAL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Ealing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-EAY",
+    "code": "GB-EAY",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "East Ayrshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-EDH",
+    "code": "GB-EDH",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Edinburgh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-EDU",
+    "code": "GB-EDU",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "East Dunbartonshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ELN",
+    "code": "GB-ELN",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "East Lothian"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ELS",
+    "code": "GB-ELS",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Outer Hebrides"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ENF",
+    "code": "GB-ENF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Enfield"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ENG",
+    "code": "GB-ENG",
+    "country": "GB",
+    "parent": "GB",
+    "name": "England"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ERW",
+    "code": "GB-ERW",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "East Renfrewshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ERY",
+    "code": "GB-ERY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "East Riding of Yorkshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ESS",
+    "code": "GB-ESS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Essex"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ESX",
+    "code": "GB-ESX",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "East Sussex"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-FAL",
+    "code": "GB-FAL",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Falkirk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-FIF",
+    "code": "GB-FIF",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Fife"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-FLN",
+    "code": "GB-FLN",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Flintshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-FMO",
+    "code": "GB-FMO",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Fermanagh and Omagh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-GAT",
+    "code": "GB-GAT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Gateshead"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-GLG",
+    "code": "GB-GLG",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Glasgow"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-GLS",
+    "code": "GB-GLS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Gloucestershire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-GRE",
+    "code": "GB-GRE",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Greenwich"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-GWN",
+    "code": "GB-GWN",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Gwynedd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HAL",
+    "code": "GB-HAL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Halton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HAM",
+    "code": "GB-HAM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hampshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HAV",
+    "code": "GB-HAV",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Havering"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HCK",
+    "code": "GB-HCK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hackney"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HEF",
+    "code": "GB-HEF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Herefordshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HIL",
+    "code": "GB-HIL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hillingdon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HLD",
+    "code": "GB-HLD",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Highland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HMF",
+    "code": "GB-HMF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hammersmith and Fulham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HNS",
+    "code": "GB-HNS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hounslow"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HPL",
+    "code": "GB-HPL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hartlepool"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HRT",
+    "code": "GB-HRT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Hertfordshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HRW",
+    "code": "GB-HRW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Harrow"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-HRY",
+    "code": "GB-HRY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Haringey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-IOS",
+    "code": "GB-IOS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Isles of Scilly"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-IOW",
+    "code": "GB-IOW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Isle of Wight"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ISL",
+    "code": "GB-ISL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Islington"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-IVC",
+    "code": "GB-IVC",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Inverclyde"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-KEC",
+    "code": "GB-KEC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Kensington and Chelsea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-KEN",
+    "code": "GB-KEN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Kent"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-KHL",
+    "code": "GB-KHL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Kingston upon Hull"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-KIR",
+    "code": "GB-KIR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Kirklees"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-KTT",
+    "code": "GB-KTT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Kingston upon Thames"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-KWL",
+    "code": "GB-KWL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Knowsley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LAN",
+    "code": "GB-LAN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Lancashire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LBC",
+    "code": "GB-LBC",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Lisburn and Castlereagh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LBH",
+    "code": "GB-LBH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Lambeth"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LCE",
+    "code": "GB-LCE",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Leicester"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LDS",
+    "code": "GB-LDS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Leeds"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LEC",
+    "code": "GB-LEC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Leicestershire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LEW",
+    "code": "GB-LEW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Lewisham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LIN",
+    "code": "GB-LIN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Lincolnshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LIV",
+    "code": "GB-LIV",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Liverpool"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LND",
+    "code": "GB-LND",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "London"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-LUT",
+    "code": "GB-LUT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Luton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MAN",
+    "code": "GB-MAN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Manchester"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MDB",
+    "code": "GB-MDB",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Middlesbrough"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MDW",
+    "code": "GB-MDW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Medway"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MEA",
+    "code": "GB-MEA",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Mid and East Antrim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MIK",
+    "code": "GB-MIK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Milton Keynes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MLN",
+    "code": "GB-MLN",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Midlothian"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MON",
+    "code": "GB-MON",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Monmouthshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MRT",
+    "code": "GB-MRT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Merton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MRY",
+    "code": "GB-MRY",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Moray"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MTY",
+    "code": "GB-MTY",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Merthyr Tydfil"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-MUL",
+    "code": "GB-MUL",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Mid Ulster"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NAY",
+    "code": "GB-NAY",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "North Ayrshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NBL",
+    "code": "GB-NBL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Northumberland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NEL",
+    "code": "GB-NEL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "North East Lincolnshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NET",
+    "code": "GB-NET",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Newcastle upon Tyne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NFK",
+    "code": "GB-NFK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Norfolk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NGM",
+    "code": "GB-NGM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Nottingham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NIR",
+    "code": "GB-NIR",
+    "country": "GB",
+    "parent": "GB",
+    "name": "Northern Ireland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NLK",
+    "code": "GB-NLK",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "North Lanarkshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NLN",
+    "code": "GB-NLN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "North Lincolnshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NMD",
+    "code": "GB-NMD",
+    "country": "GB",
+    "parent": "GB-NIR",
+    "name": "Newry, Mourne and Down"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NNH",
+    "code": "GB-NNH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "North Northamptonshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NSM",
+    "code": "GB-NSM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "North Somerset"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NTL",
+    "code": "GB-NTL",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Neath Port Talbot"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NTT",
+    "code": "GB-NTT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Nottinghamshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NTY",
+    "code": "GB-NTY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "North Tyneside"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NWM",
+    "code": "GB-NWM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Newham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NWP",
+    "code": "GB-NWP",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Newport"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-NYK",
+    "code": "GB-NYK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "North Yorkshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-OLD",
+    "code": "GB-OLD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Oldham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ORK",
+    "code": "GB-ORK",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Orkney Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-OXF",
+    "code": "GB-OXF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Oxfordshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-PEM",
+    "code": "GB-PEM",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Pembrokeshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-PKN",
+    "code": "GB-PKN",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Perth and Kinross"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-PLY",
+    "code": "GB-PLY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Plymouth"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-POR",
+    "code": "GB-POR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Portsmouth"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-POW",
+    "code": "GB-POW",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Powys"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-PTE",
+    "code": "GB-PTE",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Peter"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RCC",
+    "code": "GB-RCC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Redcar and Cleveland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RCH",
+    "code": "GB-RCH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Rochdale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RCT",
+    "code": "GB-RCT",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Rhondda Cynon Taf"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RDB",
+    "code": "GB-RDB",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Redbridge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RDG",
+    "code": "GB-RDG",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Reading"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RFW",
+    "code": "GB-RFW",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Renfrewshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RIC",
+    "code": "GB-RIC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Richmond upon Thames"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ROT",
+    "code": "GB-ROT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Rotherham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-RUT",
+    "code": "GB-RUT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Rutland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SAW",
+    "code": "GB-SAW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Sandwell"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SAY",
+    "code": "GB-SAY",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "South Ayrshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SCB",
+    "code": "GB-SCB",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Scottish Borders"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SCT",
+    "code": "GB-SCT",
+    "country": "GB",
+    "parent": "GB",
+    "name": "Scotland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SFK",
+    "code": "GB-SFK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Suffolk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SFT",
+    "code": "GB-SFT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Sefton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SGC",
+    "code": "GB-SGC",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "South Gloucestershire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SHF",
+    "code": "GB-SHF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Sheffield"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SHN",
+    "code": "GB-SHN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Saint Helens"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SHR",
+    "code": "GB-SHR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Shropshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SKP",
+    "code": "GB-SKP",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Stockport"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SLF",
+    "code": "GB-SLF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Salford"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SLG",
+    "code": "GB-SLG",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Slough"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SLK",
+    "code": "GB-SLK",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "South Lanarkshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SND",
+    "code": "GB-SND",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Sunderland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SOL",
+    "code": "GB-SOL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Solihull"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SOM",
+    "code": "GB-SOM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Somerset"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SOS",
+    "code": "GB-SOS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Southend-on-Sea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SRY",
+    "code": "GB-SRY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Surrey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STE",
+    "code": "GB-STE",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Stoke-on-Trent"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STG",
+    "code": "GB-STG",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Stirling"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STH",
+    "code": "GB-STH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Southampton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STN",
+    "code": "GB-STN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Sutton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STS",
+    "code": "GB-STS",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Staffordshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STT",
+    "code": "GB-STT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Stockton-on-Tees"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-STY",
+    "code": "GB-STY",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "South Tyneside"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SWA",
+    "code": "GB-SWA",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Swansea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SWD",
+    "code": "GB-SWD",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Swindon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-SWK",
+    "code": "GB-SWK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Southwark"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-TAM",
+    "code": "GB-TAM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Tameside"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-TFW",
+    "code": "GB-TFW",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Telford and Wrekin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-THR",
+    "code": "GB-THR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Thurrock"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-TOB",
+    "code": "GB-TOB",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Torbay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-TOF",
+    "code": "GB-TOF",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Torfaen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-TRF",
+    "code": "GB-TRF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Trafford"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-TWH",
+    "code": "GB-TWH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Tower Hamlets"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-VGL",
+    "code": "GB-VGL",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Vale of Glamorgan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WAR",
+    "code": "GB-WAR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Warwickshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WBK",
+    "code": "GB-WBK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "West Berkshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WDU",
+    "code": "GB-WDU",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "West Dunbartonshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WFT",
+    "code": "GB-WFT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Waltham Forest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WGN",
+    "code": "GB-WGN",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wigan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WIL",
+    "code": "GB-WIL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wiltshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WKF",
+    "code": "GB-WKF",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wakefield"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WLL",
+    "code": "GB-WLL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Walsall"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WLN",
+    "code": "GB-WLN",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "West Lothian"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WLS",
+    "code": "GB-WLS",
+    "country": "GB",
+    "parent": "GB",
+    "name": "Wales"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WLV",
+    "code": "GB-WLV",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wolverhampton"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WND",
+    "code": "GB-WND",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wandsworth"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WNH",
+    "code": "GB-WNH",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "West Northamptonshire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WNM",
+    "code": "GB-WNM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Windsor and Maidenhead"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WOK",
+    "code": "GB-WOK",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wokingham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WOR",
+    "code": "GB-WOR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Worcestershire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WRL",
+    "code": "GB-WRL",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Wirral"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WRT",
+    "code": "GB-WRT",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Warrington"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WRX",
+    "code": "GB-WRX",
+    "country": "GB",
+    "parent": "GB-WLS",
+    "name": "Wrexham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WSM",
+    "code": "GB-WSM",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "Westminster"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-WSX",
+    "code": "GB-WSX",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "West Sussex"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-YOR",
+    "code": "GB-YOR",
+    "country": "GB",
+    "parent": "GB-ENG",
+    "name": "York"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GB-ZET",
+    "code": "GB-ZET",
+    "country": "GB",
+    "parent": "GB-SCT",
+    "name": "Shetland"
+  }
+]

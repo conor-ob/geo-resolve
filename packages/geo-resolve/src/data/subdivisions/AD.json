@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AD-02",
+    "code": "AD-02",
+    "country": "AD",
+    "parent": "AD",
+    "name": "Canillo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AD-03",
+    "code": "AD-03",
+    "country": "AD",
+    "parent": "AD",
+    "name": "Encamp"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AD-04",
+    "code": "AD-04",
+    "country": "AD",
+    "parent": "AD",
+    "name": "La Massana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AD-05",
+    "code": "AD-05",
+    "country": "AD",
+    "parent": "AD",
+    "name": "Ordino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AD-06",
+    "code": "AD-06",
+    "country": "AD",
+    "parent": "AD",
+    "name": "Sant Julià de Lòria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AD-07",
+    "code": "AD-07",
+    "country": "AD",
+    "parent": "AD",
+    "name": "Andorra la Vella"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AD-08",
+    "code": "AD-08",
+    "country": "AD",
+    "parent": "AD",
+    "name": "Escaldes-Engordany"
+  }
+]

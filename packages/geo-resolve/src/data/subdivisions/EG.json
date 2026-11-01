@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "EG-ALX",
+    "code": "EG-ALX",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Alexandria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-ASN",
+    "code": "EG-ASN",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Aswan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-AST",
+    "code": "EG-AST",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Asyut"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-BA",
+    "code": "EG-BA",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Red Sea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-BH",
+    "code": "EG-BH",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Beheira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-BNS",
+    "code": "EG-BNS",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Beni Suef"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-C",
+    "code": "EG-C",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Cairo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-DK",
+    "code": "EG-DK",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Dakahlia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-DT",
+    "code": "EG-DT",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Damietta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-FYM",
+    "code": "EG-FYM",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Faiyum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-GH",
+    "code": "EG-GH",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Gharbia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-GZ",
+    "code": "EG-GZ",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Giza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-IS",
+    "code": "EG-IS",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Ismailia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-JS",
+    "code": "EG-JS",
+    "country": "EG",
+    "parent": "EG",
+    "name": "South Sinai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-KB",
+    "code": "EG-KB",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Qalyubia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-KFS",
+    "code": "EG-KFS",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Kafr el-Sheikh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-KN",
+    "code": "EG-KN",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Qena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-LX",
+    "code": "EG-LX",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Luxor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-MN",
+    "code": "EG-MN",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Minya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-MNF",
+    "code": "EG-MNF",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Monufia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-MT",
+    "code": "EG-MT",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Matrouh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-PTS",
+    "code": "EG-PTS",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Port Said"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-SHG",
+    "code": "EG-SHG",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Sohag"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-SHR",
+    "code": "EG-SHR",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Al Sharqia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-SIN",
+    "code": "EG-SIN",
+    "country": "EG",
+    "parent": "EG",
+    "name": "North Sinai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-SUZ",
+    "code": "EG-SUZ",
+    "country": "EG",
+    "parent": "EG",
+    "name": "Suez"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EG-WAD",
+    "code": "EG-WAD",
+    "country": "EG",
+    "parent": "EG",
+    "name": "New Valley"
+  }
+]

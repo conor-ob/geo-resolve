@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TJ-DU",
+    "code": "TJ-DU",
+    "country": "TJ",
+    "parent": "TJ",
+    "name": "Dushanbe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TJ-GB",
+    "code": "TJ-GB",
+    "country": "TJ",
+    "parent": "TJ",
+    "name": "Gorno-Badakhshan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TJ-KT",
+    "code": "TJ-KT",
+    "country": "TJ",
+    "parent": "TJ",
+    "name": "Khatlon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TJ-RA",
+    "code": "TJ-RA",
+    "country": "TJ",
+    "parent": "TJ",
+    "name": "Nohiyahoi Tobei Jumhurí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TJ-SU",
+    "code": "TJ-SU",
+    "country": "TJ",
+    "parent": "TJ",
+    "name": "Sughd"
+  }
+]

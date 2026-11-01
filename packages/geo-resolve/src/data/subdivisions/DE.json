@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "DE-BB",
+    "code": "DE-BB",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Brandenburg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-BE",
+    "code": "DE-BE",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Berlin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-BW",
+    "code": "DE-BW",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Baden-Württemberg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-BY",
+    "code": "DE-BY",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Bavaria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-HB",
+    "code": "DE-HB",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Bremen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-HE",
+    "code": "DE-HE",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Hesse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-HH",
+    "code": "DE-HH",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Hamburg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-MV",
+    "code": "DE-MV",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Mecklenburg-Vorpommern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-NI",
+    "code": "DE-NI",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Lower Saxony"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-NW",
+    "code": "DE-NW",
+    "country": "DE",
+    "parent": "DE",
+    "name": "North Rhine-Westphalia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-RP",
+    "code": "DE-RP",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Rhineland-Palatinate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-SH",
+    "code": "DE-SH",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Schleswig-Holstein"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-SL",
+    "code": "DE-SL",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Saarland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-SN",
+    "code": "DE-SN",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Saxony"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-ST",
+    "code": "DE-ST",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Saxony-Anhalt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DE-TH",
+    "code": "DE-TH",
+    "country": "DE",
+    "parent": "DE",
+    "name": "Thuringia"
+  }
+]

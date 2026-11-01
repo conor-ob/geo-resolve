@@ -1,0 +1,346 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LV-002",
+    "code": "LV-002",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Aizkraukle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-007",
+    "code": "LV-007",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Alūksne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-011",
+    "code": "LV-011",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ādaži"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-015",
+    "code": "LV-015",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Balvi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-016",
+    "code": "LV-016",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Bauska"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-022",
+    "code": "LV-022",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Cēsis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-026",
+    "code": "LV-026",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Dobele"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-033",
+    "code": "LV-033",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Gulbene"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-041",
+    "code": "LV-041",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Jelgava Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-042",
+    "code": "LV-042",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Jēkabpils Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-047",
+    "code": "LV-047",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Krāslava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-050",
+    "code": "LV-050",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Kuldīga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-052",
+    "code": "LV-052",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ķekava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-054",
+    "code": "LV-054",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Limbaži"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-056",
+    "code": "LV-056",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Līvāni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-058",
+    "code": "LV-058",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ludza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-059",
+    "code": "LV-059",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Madona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-062",
+    "code": "LV-062",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Mārupe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-067",
+    "code": "LV-067",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ogre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-068",
+    "code": "LV-068",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Olaine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-073",
+    "code": "LV-073",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Preiļi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-077",
+    "code": "LV-077",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Rēzekne Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-080",
+    "code": "LV-080",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ropaži"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-087",
+    "code": "LV-087",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Salaspils"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-088",
+    "code": "LV-088",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Saldus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-089",
+    "code": "LV-089",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Saulkrasti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-091",
+    "code": "LV-091",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Sigulda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-094",
+    "code": "LV-094",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Smiltene"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-097",
+    "code": "LV-097",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Talsi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-099",
+    "code": "LV-099",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Tukums"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-101",
+    "code": "LV-101",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Valka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-102",
+    "code": "LV-102",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Varakļāni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-106",
+    "code": "LV-106",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ventspils Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-111",
+    "code": "LV-111",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Augšdaugavas novads"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-112",
+    "code": "LV-112",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Dienvidkurzemes Novads"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-113",
+    "code": "LV-113",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Valmieras Novads"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-DGV",
+    "code": "LV-DGV",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Daugavpils"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-JEL",
+    "code": "LV-JEL",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Jelgava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-JUR",
+    "code": "LV-JUR",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Jūrmala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-LPX",
+    "code": "LV-LPX",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Liepāja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-REZ",
+    "code": "LV-REZ",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Rēzekne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-RIX",
+    "code": "LV-RIX",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Riga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LV-VEN",
+    "code": "LV-VEN",
+    "country": "LV",
+    "parent": "LV",
+    "name": "Ventspils"
+  }
+]

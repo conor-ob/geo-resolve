@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SS-BN",
+    "code": "SS-BN",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Northern Bahr el Ghazal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-BW",
+    "code": "SS-BW",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Western Bahr el Ghazal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-EC",
+    "code": "SS-EC",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Central Equatoria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-EE",
+    "code": "SS-EE",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Eastern Equatoria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-EW",
+    "code": "SS-EW",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Western Equatoria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-JG",
+    "code": "SS-JG",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Jonglei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-LK",
+    "code": "SS-LK",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Lakes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-NU",
+    "code": "SS-NU",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Upper Nile"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-UY",
+    "code": "SS-UY",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Unity"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SS-WR",
+    "code": "SS-WR",
+    "country": "SS",
+    "parent": "SS",
+    "name": "Warrap"
+  }
+]

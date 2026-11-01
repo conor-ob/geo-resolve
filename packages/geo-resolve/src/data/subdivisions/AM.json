@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AM-AG",
+    "code": "AM-AG",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Aragatsotn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-AR",
+    "code": "AM-AR",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Ararat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-AV",
+    "code": "AM-AV",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Armavir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-ER",
+    "code": "AM-ER",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Yerevan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-GR",
+    "code": "AM-GR",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Gegharkunik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-KT",
+    "code": "AM-KT",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Kotayk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-LO",
+    "code": "AM-LO",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Lori"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-SH",
+    "code": "AM-SH",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Shirak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-SU",
+    "code": "AM-SU",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Syunik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-TV",
+    "code": "AM-TV",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Tavush"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AM-VD",
+    "code": "AM-VD",
+    "country": "AM",
+    "parent": "AM",
+    "name": "Vayots Dzor"
+  }
+]

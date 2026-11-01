@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GY-BA",
+    "code": "GY-BA",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Barima-Waini"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-CU",
+    "code": "GY-CU",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Cuyuni-Mazaruni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-DE",
+    "code": "GY-DE",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Demerara-Mahaica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-EB",
+    "code": "GY-EB",
+    "country": "GY",
+    "parent": "GY",
+    "name": "East Berbice-Corentyne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-ES",
+    "code": "GY-ES",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Essequibo Islands-West Demerara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-MA",
+    "code": "GY-MA",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Mahaica-Berbice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-PM",
+    "code": "GY-PM",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Pomeroon-Supenaam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-PT",
+    "code": "GY-PT",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Potaro-Siparuni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-UD",
+    "code": "GY-UD",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Upper Demerara-Berbice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GY-UT",
+    "code": "GY-UT",
+    "country": "GY",
+    "parent": "GY",
+    "name": "Upper Takutu-Upper Essequibo"
+  }
+]

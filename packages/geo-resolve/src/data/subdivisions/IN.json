@@ -1,0 +1,290 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IN-AN",
+    "code": "IN-AN",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Andaman and Nicobar Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-AP",
+    "code": "IN-AP",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Andhra Pradesh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-AR",
+    "code": "IN-AR",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Arunachal Pradesh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-AS",
+    "code": "IN-AS",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Assam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-BR",
+    "code": "IN-BR",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Bihar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-CG",
+    "code": "IN-CG",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Chhattīsgarh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-CH",
+    "code": "IN-CH",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Chandigarh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-DH",
+    "code": "IN-DH",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Dādra and Nagar Haveli and Damān and Diu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-DL",
+    "code": "IN-DL",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Delhi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-GA",
+    "code": "IN-GA",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Goa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-GJ",
+    "code": "IN-GJ",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Gujarat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-HP",
+    "code": "IN-HP",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Himachal Pradesh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-HR",
+    "code": "IN-HR",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Haryana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-JH",
+    "code": "IN-JH",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Jharkhand"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-JK",
+    "code": "IN-JK",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Jammu and Kashmir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-KA",
+    "code": "IN-KA",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Karnataka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-KL",
+    "code": "IN-KL",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Kerala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-LA",
+    "code": "IN-LA",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Ladakh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-LD",
+    "code": "IN-LD",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Lakshadweep"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-MH",
+    "code": "IN-MH",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Maharashtra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-ML",
+    "code": "IN-ML",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Meghalaya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-MN",
+    "code": "IN-MN",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Manipur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-MP",
+    "code": "IN-MP",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Madhya Pradesh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-MZ",
+    "code": "IN-MZ",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Mizoram"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-NL",
+    "code": "IN-NL",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Nagaland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-OD",
+    "code": "IN-OD",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Odisha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-PB",
+    "code": "IN-PB",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Punjab"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-PY",
+    "code": "IN-PY",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Puducherry"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-RJ",
+    "code": "IN-RJ",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Rajasthan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-SK",
+    "code": "IN-SK",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Sikkim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-TN",
+    "code": "IN-TN",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Tamil Nadu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-TR",
+    "code": "IN-TR",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Tripura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-TS",
+    "code": "IN-TS",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Telangāna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-UK",
+    "code": "IN-UK",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Uttarākhand"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-UP",
+    "code": "IN-UP",
+    "country": "IN",
+    "parent": "IN",
+    "name": "Uttar Pradesh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IN-WB",
+    "code": "IN-WB",
+    "country": "IN",
+    "parent": "IN",
+    "name": "West Bengal"
+  }
+]

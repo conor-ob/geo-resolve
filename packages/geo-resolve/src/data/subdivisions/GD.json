@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GD-01",
+    "code": "GD-01",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Saint Andrew"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GD-02",
+    "code": "GD-02",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Saint David"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GD-03",
+    "code": "GD-03",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Saint George"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GD-04",
+    "code": "GD-04",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Saint John"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GD-05",
+    "code": "GD-05",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Saint Mark"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GD-06",
+    "code": "GD-06",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Saint Patrick"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GD-10",
+    "code": "GD-10",
+    "country": "GD",
+    "parent": "GD",
+    "name": "Carriacou and Petite Martinique"
+  }
+]

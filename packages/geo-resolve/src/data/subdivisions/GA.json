@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GA-1",
+    "code": "GA-1",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Estuaire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-2",
+    "code": "GA-2",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Haut-Ogooué"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-3",
+    "code": "GA-3",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Moyen-Ogooué"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-4",
+    "code": "GA-4",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Ngounié"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-5",
+    "code": "GA-5",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Nyanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-6",
+    "code": "GA-6",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Ogooué-Ivindo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-7",
+    "code": "GA-7",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Ogooué-Lolo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-8",
+    "code": "GA-8",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Ogooué-Maritime"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GA-9",
+    "code": "GA-9",
+    "country": "GA",
+    "parent": "GA",
+    "name": "Woleu-Ntem"
+  }
+]

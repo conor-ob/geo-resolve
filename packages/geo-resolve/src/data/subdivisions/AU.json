@@ -1,0 +1,66 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AU-ACT",
+    "code": "AU-ACT",
+    "country": "AU",
+    "parent": "AU",
+    "name": "Australian Capital Territory"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-NSW",
+    "code": "AU-NSW",
+    "country": "AU",
+    "parent": "AU",
+    "name": "New South Wales"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-NT",
+    "code": "AU-NT",
+    "country": "AU",
+    "parent": "AU",
+    "name": "Northern Territory"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-QLD",
+    "code": "AU-QLD",
+    "country": "AU",
+    "parent": "AU",
+    "name": "Queensland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-SA",
+    "code": "AU-SA",
+    "country": "AU",
+    "parent": "AU",
+    "name": "South Australia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-TAS",
+    "code": "AU-TAS",
+    "country": "AU",
+    "parent": "AU",
+    "name": "Tasmania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-VIC",
+    "code": "AU-VIC",
+    "country": "AU",
+    "parent": "AU",
+    "name": "Victoria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AU-WA",
+    "code": "AU-WA",
+    "country": "AU",
+    "parent": "AU",
+    "name": "Western Australia"
+  }
+]

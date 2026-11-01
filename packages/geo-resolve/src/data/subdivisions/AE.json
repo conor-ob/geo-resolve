@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "AE-AJ",
+    "code": "AE-AJ",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Ajman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AE-AZ",
+    "code": "AE-AZ",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Abu Dhabi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AE-DU",
+    "code": "AE-DU",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Dubai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AE-FU",
+    "code": "AE-FU",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Fujairah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AE-RK",
+    "code": "AE-RK",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Ras al-Khaimah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AE-SH",
+    "code": "AE-SH",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Sharjah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "AE-UQ",
+    "code": "AE-UQ",
+    "country": "AE",
+    "parent": "AE",
+    "name": "Umm al-Quwain"
+  }
+]

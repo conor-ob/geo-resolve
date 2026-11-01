@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "HT-AR",
+    "code": "HT-AR",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Artibonite"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-CE",
+    "code": "HT-CE",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Centre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-GA",
+    "code": "HT-GA",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Grand’Anse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-ND",
+    "code": "HT-ND",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Nord"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-NE",
+    "code": "HT-NE",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Nord-Est"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-NI",
+    "code": "HT-NI",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Nippes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-NO",
+    "code": "HT-NO",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Nord-Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-OU",
+    "code": "HT-OU",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-SD",
+    "code": "HT-SD",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Sud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HT-SE",
+    "code": "HT-SE",
+    "country": "HT",
+    "parent": "HT",
+    "name": "Sud-Est"
+  }
+]

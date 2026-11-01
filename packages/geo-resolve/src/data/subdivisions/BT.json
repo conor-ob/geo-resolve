@@ -1,0 +1,162 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BT-11",
+    "code": "BT-11",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Paro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-12",
+    "code": "BT-12",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Chukha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-13",
+    "code": "BT-13",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Haa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-14",
+    "code": "BT-14",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Samtse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-15",
+    "code": "BT-15",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Thimphu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-21",
+    "code": "BT-21",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Tsirang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-22",
+    "code": "BT-22",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Dagana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-23",
+    "code": "BT-23",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Punakha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-24",
+    "code": "BT-24",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Wangdue Phodrang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-31",
+    "code": "BT-31",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Sarpang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-32",
+    "code": "BT-32",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Trongsa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-33",
+    "code": "BT-33",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Bumthang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-34",
+    "code": "BT-34",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Zhemgang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-41",
+    "code": "BT-41",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Trashigang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-42",
+    "code": "BT-42",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Mongar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-43",
+    "code": "BT-43",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Pemagatshel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-44",
+    "code": "BT-44",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Lhuntse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-45",
+    "code": "BT-45",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Samdrup Jongkhar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-GA",
+    "code": "BT-GA",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Gasa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BT-TY",
+    "code": "BT-TY",
+    "country": "BT",
+    "parent": "BT",
+    "name": "Trashiyangtse"
+  }
+]

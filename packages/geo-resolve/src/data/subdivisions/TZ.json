@@ -1,0 +1,250 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TZ-01",
+    "code": "TZ-01",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Arusha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-02",
+    "code": "TZ-02",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Dar es Salaam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-03",
+    "code": "TZ-03",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Dodoma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-04",
+    "code": "TZ-04",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Iringa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-05",
+    "code": "TZ-05",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Kagera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-06",
+    "code": "TZ-06",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "North Pemba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-07",
+    "code": "TZ-07",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Zanzibar North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-08",
+    "code": "TZ-08",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Kigoma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-09",
+    "code": "TZ-09",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Kilimanjaro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-10",
+    "code": "TZ-10",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "South Pemba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-11",
+    "code": "TZ-11",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Zanzibar Central/South"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-12",
+    "code": "TZ-12",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Lindi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-13",
+    "code": "TZ-13",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Mara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-14",
+    "code": "TZ-14",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Mbeya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-15",
+    "code": "TZ-15",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Zanzibar Urban/West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-16",
+    "code": "TZ-16",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Morogoro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-17",
+    "code": "TZ-17",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Mtwara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-18",
+    "code": "TZ-18",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Mwanza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-19",
+    "code": "TZ-19",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Pwani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-20",
+    "code": "TZ-20",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Rukwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-21",
+    "code": "TZ-21",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Ruvuma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-22",
+    "code": "TZ-22",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Shinyanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-23",
+    "code": "TZ-23",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Singida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-24",
+    "code": "TZ-24",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Tabora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-25",
+    "code": "TZ-25",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Tanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-26",
+    "code": "TZ-26",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Manyara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-27",
+    "code": "TZ-27",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Geita"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-28",
+    "code": "TZ-28",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Katavi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-29",
+    "code": "TZ-29",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Njombe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-30",
+    "code": "TZ-30",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Simiyu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TZ-31",
+    "code": "TZ-31",
+    "country": "TZ",
+    "parent": "TZ",
+    "name": "Songwe"
+  }
+]

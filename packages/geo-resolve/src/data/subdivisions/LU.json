@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LU-CA",
+    "code": "LU-CA",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Capellen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-CL",
+    "code": "LU-CL",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Clervaux"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-DI",
+    "code": "LU-DI",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Diekirch"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-EC",
+    "code": "LU-EC",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Echternach"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-ES",
+    "code": "LU-ES",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Esch-sur-Alzette"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-GR",
+    "code": "LU-GR",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Grevenmacher"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-LU",
+    "code": "LU-LU",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Luxembourg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-ME",
+    "code": "LU-ME",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Mersch"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-RD",
+    "code": "LU-RD",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Redange"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-RM",
+    "code": "LU-RM",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Remich"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-VD",
+    "code": "LU-VD",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Vianden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LU-WI",
+    "code": "LU-WI",
+    "country": "LU",
+    "parent": "LU",
+    "name": "Wiltz"
+  }
+]

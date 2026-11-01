@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TM-A",
+    "code": "TM-A",
+    "country": "TM",
+    "parent": "TM",
+    "name": "Ahal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TM-B",
+    "code": "TM-B",
+    "country": "TM",
+    "parent": "TM",
+    "name": "Balkan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TM-D",
+    "code": "TM-D",
+    "country": "TM",
+    "parent": "TM",
+    "name": "Daşoguz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TM-L",
+    "code": "TM-L",
+    "country": "TM",
+    "parent": "TM",
+    "name": "Lebap"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TM-M",
+    "code": "TM-M",
+    "country": "TM",
+    "parent": "TM",
+    "name": "Mary"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TM-S",
+    "code": "TM-S",
+    "country": "TM",
+    "parent": "TM",
+    "name": "Aşgabat"
+  }
+]

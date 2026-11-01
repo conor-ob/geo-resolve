@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SN-DB",
+    "code": "SN-DB",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Diourbel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-DK",
+    "code": "SN-DK",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Dakar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-FK",
+    "code": "SN-FK",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Fatick"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-KA",
+    "code": "SN-KA",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Kaffrine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-KD",
+    "code": "SN-KD",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Kolda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-KE",
+    "code": "SN-KE",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Kédougou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-KL",
+    "code": "SN-KL",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Kaolack"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-LG",
+    "code": "SN-LG",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Louga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-MT",
+    "code": "SN-MT",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Matam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-SE",
+    "code": "SN-SE",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Sédhiou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-SL",
+    "code": "SN-SL",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Saint-Louis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-TC",
+    "code": "SN-TC",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Tambacounda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-TH",
+    "code": "SN-TH",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Thiès"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SN-ZG",
+    "code": "SN-ZG",
+    "country": "SN",
+    "parent": "SN",
+    "name": "Ziguinchor"
+  }
+]

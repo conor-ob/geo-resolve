@@ -1,0 +1,170 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SE-AB",
+    "code": "SE-AB",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Stockholm"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-AC",
+    "code": "SE-AC",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Västerbotten"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-BD",
+    "code": "SE-BD",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Norrbotten"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-C",
+    "code": "SE-C",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Uppsala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-D",
+    "code": "SE-D",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Södermanland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-E",
+    "code": "SE-E",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Östergötland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-F",
+    "code": "SE-F",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Jönköping"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-G",
+    "code": "SE-G",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Kronoberg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-H",
+    "code": "SE-H",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Kalmar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-I",
+    "code": "SE-I",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Gotland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-K",
+    "code": "SE-K",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Blekinge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-M",
+    "code": "SE-M",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Skåne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-N",
+    "code": "SE-N",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Halland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-O",
+    "code": "SE-O",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Västra Götaland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-S",
+    "code": "SE-S",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Värmland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-T",
+    "code": "SE-T",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Örebro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-U",
+    "code": "SE-U",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Västmanland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-W",
+    "code": "SE-W",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Dalarna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-X",
+    "code": "SE-X",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Gävleborg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-Y",
+    "code": "SE-Y",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Västernorrland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SE-Z",
+    "code": "SE-Z",
+    "country": "SE",
+    "parent": "SE",
+    "name": "Jämtland"
+  }
+]

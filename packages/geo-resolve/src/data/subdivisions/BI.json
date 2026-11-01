@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BI-BB",
+    "code": "BI-BB",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Bubanza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-BL",
+    "code": "BI-BL",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Bujumbura Rural"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-BM",
+    "code": "BI-BM",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Bujumbura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-BR",
+    "code": "BI-BR",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Bururi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-CA",
+    "code": "BI-CA",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Cankuzo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-CI",
+    "code": "BI-CI",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Cibitoke"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-GI",
+    "code": "BI-GI",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Gitega"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-KI",
+    "code": "BI-KI",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Kirundo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-KR",
+    "code": "BI-KR",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Karuzi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-KY",
+    "code": "BI-KY",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Kayanza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-MA",
+    "code": "BI-MA",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Makamba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-MU",
+    "code": "BI-MU",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Muramvya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-MW",
+    "code": "BI-MW",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Mwaro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-MY",
+    "code": "BI-MY",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Muyinga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-NG",
+    "code": "BI-NG",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Ngozi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-RM",
+    "code": "BI-RM",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Rumonge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-RT",
+    "code": "BI-RT",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Rutana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BI-RY",
+    "code": "BI-RY",
+    "country": "BI",
+    "parent": "BI",
+    "name": "Ruyigi"
+  }
+]

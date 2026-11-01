@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ER-AN",
+    "code": "ER-AN",
+    "country": "ER",
+    "parent": "ER",
+    "name": "Anseba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ER-DK",
+    "code": "ER-DK",
+    "country": "ER",
+    "parent": "ER",
+    "name": "Southern Red Sea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ER-DU",
+    "code": "ER-DU",
+    "country": "ER",
+    "parent": "ER",
+    "name": "Debub"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ER-GB",
+    "code": "ER-GB",
+    "country": "ER",
+    "parent": "ER",
+    "name": "Gash-Barka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ER-MA",
+    "code": "ER-MA",
+    "country": "ER",
+    "parent": "ER",
+    "name": "Maekel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ER-SK",
+    "code": "ER-SK",
+    "country": "ER",
+    "parent": "ER",
+    "name": "Northern Red Sea"
+  }
+]

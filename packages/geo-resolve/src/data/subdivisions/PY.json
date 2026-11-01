@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PY-1",
+    "code": "PY-1",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Concepción"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-10",
+    "code": "PY-10",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Alto Paraná"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-11",
+    "code": "PY-11",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-12",
+    "code": "PY-12",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Ñeembucú"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-13",
+    "code": "PY-13",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Amambay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-14",
+    "code": "PY-14",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Canindeyú"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-15",
+    "code": "PY-15",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Presidente Hayes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-16",
+    "code": "PY-16",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Alto Paraguay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-19",
+    "code": "PY-19",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Boquerón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-2",
+    "code": "PY-2",
+    "country": "PY",
+    "parent": "PY",
+    "name": "San Pedro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-3",
+    "code": "PY-3",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Cordillera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-4",
+    "code": "PY-4",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Guairá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-5",
+    "code": "PY-5",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Caaguazú"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-6",
+    "code": "PY-6",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Caazapá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-7",
+    "code": "PY-7",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Itapúa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-8",
+    "code": "PY-8",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Misiones"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-9",
+    "code": "PY-9",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Paraguarí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PY-ASU",
+    "code": "PY-ASU",
+    "country": "PY",
+    "parent": "PY",
+    "name": "Asunción"
+  }
+]

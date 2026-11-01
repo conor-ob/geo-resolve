@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NR-01",
+    "code": "NR-01",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Aiwo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-02",
+    "code": "NR-02",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Anabar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-03",
+    "code": "NR-03",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Anetan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-04",
+    "code": "NR-04",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Anibare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-05",
+    "code": "NR-05",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Baiti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-06",
+    "code": "NR-06",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Boe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-07",
+    "code": "NR-07",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Buada"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-08",
+    "code": "NR-08",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Denigomodu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-09",
+    "code": "NR-09",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Ewa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-10",
+    "code": "NR-10",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Ijuw"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-11",
+    "code": "NR-11",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Meneng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-12",
+    "code": "NR-12",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Nibok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-13",
+    "code": "NR-13",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Uaboe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NR-14",
+    "code": "NR-14",
+    "country": "NR",
+    "parent": "NR",
+    "name": "Yaren"
+  }
+]

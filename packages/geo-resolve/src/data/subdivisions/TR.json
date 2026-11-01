@@ -1,0 +1,650 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TR-01",
+    "code": "TR-01",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Adana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-02",
+    "code": "TR-02",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Adıyaman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-03",
+    "code": "TR-03",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Afyonkarahisar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-04",
+    "code": "TR-04",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Ağrı"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-05",
+    "code": "TR-05",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Amasya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-06",
+    "code": "TR-06",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Ankara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-07",
+    "code": "TR-07",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Antalya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-08",
+    "code": "TR-08",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Artvin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-09",
+    "code": "TR-09",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Aydın"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-10",
+    "code": "TR-10",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Balıkesir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-11",
+    "code": "TR-11",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bilecik"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-12",
+    "code": "TR-12",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bingöl"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-13",
+    "code": "TR-13",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bitlis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-14",
+    "code": "TR-14",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bolu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-15",
+    "code": "TR-15",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Burdur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-16",
+    "code": "TR-16",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bursa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-17",
+    "code": "TR-17",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Çanakkale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-18",
+    "code": "TR-18",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Çankırı"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-19",
+    "code": "TR-19",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Çorum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-20",
+    "code": "TR-20",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Denizli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-21",
+    "code": "TR-21",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Diyarbakır"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-22",
+    "code": "TR-22",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Edirne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-23",
+    "code": "TR-23",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Elazığ"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-24",
+    "code": "TR-24",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Erzincan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-25",
+    "code": "TR-25",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Erzurum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-26",
+    "code": "TR-26",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Eskişehir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-27",
+    "code": "TR-27",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Gaziantep"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-28",
+    "code": "TR-28",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Giresun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-29",
+    "code": "TR-29",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Gümüşhane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-30",
+    "code": "TR-30",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Hakkâri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-31",
+    "code": "TR-31",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Hatay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-32",
+    "code": "TR-32",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Isparta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-33",
+    "code": "TR-33",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Mersin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-34",
+    "code": "TR-34",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Istanbul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-35",
+    "code": "TR-35",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Izmir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-36",
+    "code": "TR-36",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kars"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-37",
+    "code": "TR-37",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kastamonu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-38",
+    "code": "TR-38",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kayseri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-39",
+    "code": "TR-39",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kırklareli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-40",
+    "code": "TR-40",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kırşehir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-41",
+    "code": "TR-41",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kocaeli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-42",
+    "code": "TR-42",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Konya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-43",
+    "code": "TR-43",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kütahya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-44",
+    "code": "TR-44",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Malatya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-45",
+    "code": "TR-45",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Manisa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-46",
+    "code": "TR-46",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kahramanmaraş"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-47",
+    "code": "TR-47",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Mardin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-48",
+    "code": "TR-48",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Muğla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-49",
+    "code": "TR-49",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Muş"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-50",
+    "code": "TR-50",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Nevşehir"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-51",
+    "code": "TR-51",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Niğde"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-52",
+    "code": "TR-52",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Ordu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-53",
+    "code": "TR-53",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Rize"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-54",
+    "code": "TR-54",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Sakarya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-55",
+    "code": "TR-55",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Samsun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-56",
+    "code": "TR-56",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Siirt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-57",
+    "code": "TR-57",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Sinop"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-58",
+    "code": "TR-58",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Sivas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-59",
+    "code": "TR-59",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Tekirdağ"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-60",
+    "code": "TR-60",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Tokat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-61",
+    "code": "TR-61",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Trabzon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-62",
+    "code": "TR-62",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Tunceli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-63",
+    "code": "TR-63",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Şanlıurfa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-64",
+    "code": "TR-64",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Uşak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-65",
+    "code": "TR-65",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Van"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-66",
+    "code": "TR-66",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Yozgat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-67",
+    "code": "TR-67",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Zonguldak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-68",
+    "code": "TR-68",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Aksaray"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-69",
+    "code": "TR-69",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bayburt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-70",
+    "code": "TR-70",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Karaman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-71",
+    "code": "TR-71",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kırıkkale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-72",
+    "code": "TR-72",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Batman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-73",
+    "code": "TR-73",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Şırnak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-74",
+    "code": "TR-74",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Bartın"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-75",
+    "code": "TR-75",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Ardahan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-76",
+    "code": "TR-76",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Iğdır"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-77",
+    "code": "TR-77",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Yalova"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-78",
+    "code": "TR-78",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Karabük"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-79",
+    "code": "TR-79",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Kilis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-80",
+    "code": "TR-80",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Osmaniye"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TR-81",
+    "code": "TR-81",
+    "country": "TR",
+    "parent": "TR",
+    "name": "Düzce"
+  }
+]

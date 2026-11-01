@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "OM-BJ",
+    "code": "OM-BJ",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Janub al Batinah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-BS",
+    "code": "OM-BS",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Shamal al Batinah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-BU",
+    "code": "OM-BU",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Al Buraimi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-DA",
+    "code": "OM-DA",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Ad Dakhiliyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-MA",
+    "code": "OM-MA",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Muscat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-MU",
+    "code": "OM-MU",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Musandam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-SJ",
+    "code": "OM-SJ",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Janub ash Sharqiyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-SS",
+    "code": "OM-SS",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Shamal ash Sharqiyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-WU",
+    "code": "OM-WU",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Al Wusta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-ZA",
+    "code": "OM-ZA",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Ad Dhahirah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "OM-ZU",
+    "code": "OM-ZU",
+    "country": "OM",
+    "parent": "OM",
+    "name": "Dhofar"
+  }
+]

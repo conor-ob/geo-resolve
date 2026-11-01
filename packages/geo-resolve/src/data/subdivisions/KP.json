@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KP-01",
+    "code": "KP-01",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Pyongyang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-02",
+    "code": "KP-02",
+    "country": "KP",
+    "parent": "KP",
+    "name": "South Pyongan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-03",
+    "code": "KP-03",
+    "country": "KP",
+    "parent": "KP",
+    "name": "North Pyongan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-04",
+    "code": "KP-04",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Chagang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-05",
+    "code": "KP-05",
+    "country": "KP",
+    "parent": "KP",
+    "name": "South Hwanghae"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-06",
+    "code": "KP-06",
+    "country": "KP",
+    "parent": "KP",
+    "name": "North Hwanghae"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-07",
+    "code": "KP-07",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Kangwon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-08",
+    "code": "KP-08",
+    "country": "KP",
+    "parent": "KP",
+    "name": "South Hamgyong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-09",
+    "code": "KP-09",
+    "country": "KP",
+    "parent": "KP",
+    "name": "North Hamgyong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-10",
+    "code": "KP-10",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Ryanggang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-13",
+    "code": "KP-13",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Rason"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-14",
+    "code": "KP-14",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Nampho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KP-15",
+    "code": "KP-15",
+    "country": "KP",
+    "parent": "KP",
+    "name": "Kaeseong"
+  }
+]

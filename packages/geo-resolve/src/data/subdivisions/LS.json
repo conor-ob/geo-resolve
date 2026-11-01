@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LS-A",
+    "code": "LS-A",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Maseru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-B",
+    "code": "LS-B",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Butha-Buthe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-C",
+    "code": "LS-C",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Leribe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-D",
+    "code": "LS-D",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Berea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-E",
+    "code": "LS-E",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Mafeteng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-F",
+    "code": "LS-F",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Mohale’s Hoek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-G",
+    "code": "LS-G",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Quthing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-H",
+    "code": "LS-H",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Qacha’s Nek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-J",
+    "code": "LS-J",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Mokhotlong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LS-K",
+    "code": "LS-K",
+    "country": "LS",
+    "parent": "LS",
+    "name": "Thaba-Tseka"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "FI-02",
+    "code": "FI-02",
+    "country": "FI",
+    "parent": "FI",
+    "name": "South Karelia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-03",
+    "code": "FI-03",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Southern Ostrobothnia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-04",
+    "code": "FI-04",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Southern Savonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-05",
+    "code": "FI-05",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Kainuu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-06",
+    "code": "FI-06",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Tavastia Proper"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-07",
+    "code": "FI-07",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Central Ostrobothnia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-08",
+    "code": "FI-08",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Central Finland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-09",
+    "code": "FI-09",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Kymenlaakso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-10",
+    "code": "FI-10",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Lapland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-11",
+    "code": "FI-11",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Pirkanmaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-12",
+    "code": "FI-12",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Ostrobothnia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-13",
+    "code": "FI-13",
+    "country": "FI",
+    "parent": "FI",
+    "name": "North Karelia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-14",
+    "code": "FI-14",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Northern Ostrobothnia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-15",
+    "code": "FI-15",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Northern Savonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-16",
+    "code": "FI-16",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Päijänne Tavastia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-17",
+    "code": "FI-17",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Satakunta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-18",
+    "code": "FI-18",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Uusimaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FI-19",
+    "code": "FI-19",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Southwest Finland"
+  }
+]

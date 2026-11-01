@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LC-01",
+    "code": "LC-01",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Anse la Raye"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-02",
+    "code": "LC-02",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Castries"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-03",
+    "code": "LC-03",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Choiseul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-05",
+    "code": "LC-05",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Dennery"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-06",
+    "code": "LC-06",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Gros Islet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-07",
+    "code": "LC-07",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Laborie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-08",
+    "code": "LC-08",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Micoud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-10",
+    "code": "LC-10",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Soufrière"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-11",
+    "code": "LC-11",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Vieux Fort"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LC-12",
+    "code": "LC-12",
+    "country": "LC",
+    "parent": "LC",
+    "name": "Canaries"
+  }
+]

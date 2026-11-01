@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MZ-A",
+    "code": "MZ-A",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Niassa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-B",
+    "code": "MZ-B",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Manica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-G",
+    "code": "MZ-G",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Gaza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-I",
+    "code": "MZ-I",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Inhambane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-L",
+    "code": "MZ-L",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Maputo Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-MPM",
+    "code": "MZ-MPM",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Maputo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-N",
+    "code": "MZ-N",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Nampula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-P",
+    "code": "MZ-P",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Cabo Delgado"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-Q",
+    "code": "MZ-Q",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Zambezia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-S",
+    "code": "MZ-S",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Sofala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MZ-T",
+    "code": "MZ-T",
+    "country": "MZ",
+    "parent": "MZ",
+    "name": "Tete"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BA-BIH",
+    "code": "BA-BIH",
+    "country": "BA",
+    "parent": "BA",
+    "name": "Federation of Bosnia and Herzegovina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BA-BRC",
+    "code": "BA-BRC",
+    "country": "BA",
+    "parent": "BA",
+    "name": "Brčko District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BA-SRP",
+    "code": "BA-SRP",
+    "country": "BA",
+    "parent": "BA",
+    "name": "Republika Srpska"
+  }
+]

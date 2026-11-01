@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "WS-AA",
+    "code": "WS-AA",
+    "country": "WS",
+    "parent": "WS",
+    "name": "A’ana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-AL",
+    "code": "WS-AL",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Aiga-i-le-Tai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-AT",
+    "code": "WS-AT",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Atua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-FA",
+    "code": "WS-FA",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Fa’asaleleaga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-GE",
+    "code": "WS-GE",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Gaga’emauga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-GI",
+    "code": "WS-GI",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Gaga’ifomauga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-PA",
+    "code": "WS-PA",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Palauli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-SA",
+    "code": "WS-SA",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Satupa’itea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-TU",
+    "code": "WS-TU",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Tuamasaga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-VF",
+    "code": "WS-VF",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Va’a-o-Fonoti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WS-VS",
+    "code": "WS-VS",
+    "country": "WS",
+    "parent": "WS",
+    "name": "Vaisigano"
+  }
+]

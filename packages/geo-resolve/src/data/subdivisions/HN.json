@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "HN-AT",
+    "code": "HN-AT",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Atlántida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-CH",
+    "code": "HN-CH",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Choluteca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-CL",
+    "code": "HN-CL",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Colón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-CM",
+    "code": "HN-CM",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Comayagua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-CP",
+    "code": "HN-CP",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Copán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-CR",
+    "code": "HN-CR",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Cortés"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-EP",
+    "code": "HN-EP",
+    "country": "HN",
+    "parent": "HN",
+    "name": "El Paraíso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-FM",
+    "code": "HN-FM",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Francisco Morazán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-GD",
+    "code": "HN-GD",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Gracias a Dios"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-IB",
+    "code": "HN-IB",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Bay Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-IN",
+    "code": "HN-IN",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Intibucá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-LE",
+    "code": "HN-LE",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Lempira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-LP",
+    "code": "HN-LP",
+    "country": "HN",
+    "parent": "HN",
+    "name": "La Paz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-OC",
+    "code": "HN-OC",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Ocotepeque"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-OL",
+    "code": "HN-OL",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Olancho"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-SB",
+    "code": "HN-SB",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Santa Bárbara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-VA",
+    "code": "HN-VA",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Valle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HN-YO",
+    "code": "HN-YO",
+    "country": "HN",
+    "parent": "HN",
+    "name": "Yoro"
+  }
+]

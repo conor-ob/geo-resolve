@@ -1,0 +1,210 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CD-BC",
+    "code": "CD-BC",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Bas-Congo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-BU",
+    "code": "CD-BU",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Bas-Uélé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-EQ",
+    "code": "CD-EQ",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Équateur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-HK",
+    "code": "CD-HK",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Haut-Katanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-HL",
+    "code": "CD-HL",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Haut-Lomami"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-HU",
+    "code": "CD-HU",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Haut-Uélé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-IT",
+    "code": "CD-IT",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Ituri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-KC",
+    "code": "CD-KC",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Kasaï Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-KE",
+    "code": "CD-KE",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Kasaï-Oriental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-KG",
+    "code": "CD-KG",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Kwango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-KL",
+    "code": "CD-KL",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Kwilu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-KN",
+    "code": "CD-KN",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Kinshasa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-KS",
+    "code": "CD-KS",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Kasaï"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-LO",
+    "code": "CD-LO",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Lomami"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-LU",
+    "code": "CD-LU",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Lualaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-MA",
+    "code": "CD-MA",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Maniema"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-MN",
+    "code": "CD-MN",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Mai-Ndombe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-MO",
+    "code": "CD-MO",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Mongala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-NK",
+    "code": "CD-NK",
+    "country": "CD",
+    "parent": "CD",
+    "name": "North Kivu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-NU",
+    "code": "CD-NU",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Nord-Ubangi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-SA",
+    "code": "CD-SA",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Sankuru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-SK",
+    "code": "CD-SK",
+    "country": "CD",
+    "parent": "CD",
+    "name": "South Kivu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-SU",
+    "code": "CD-SU",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Sud-Ubangi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-TA",
+    "code": "CD-TA",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Tanganyika"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-TO",
+    "code": "CD-TO",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Tshopo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CD-TU",
+    "code": "CD-TU",
+    "country": "CD",
+    "parent": "CD",
+    "name": "Tshuapa"
+  }
+]

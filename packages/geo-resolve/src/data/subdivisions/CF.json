@@ -1,0 +1,138 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CF-AC",
+    "code": "CF-AC",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Ouham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-BB",
+    "code": "CF-BB",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Bamingui-Bangoran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-BGF",
+    "code": "CF-BGF",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Bangui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-BK",
+    "code": "CF-BK",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Basse-Kotto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-HK",
+    "code": "CF-HK",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Haute-Kotto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-HM",
+    "code": "CF-HM",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Haut-Mbomou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-HS",
+    "code": "CF-HS",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Mambéré-Kadéï"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-KB",
+    "code": "CF-KB",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Nana-Grébizi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-KG",
+    "code": "CF-KG",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Kémo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-LB",
+    "code": "CF-LB",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Lobaye"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-MB",
+    "code": "CF-MB",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Mbomou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-MP",
+    "code": "CF-MP",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Ombella-M’Poko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-NM",
+    "code": "CF-NM",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Nana-Mambéré"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-OP",
+    "code": "CF-OP",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Ouham-Pendé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-SE",
+    "code": "CF-SE",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Sangha-Mbaéré"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-UK",
+    "code": "CF-UK",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Ouaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CF-VK",
+    "code": "CF-VK",
+    "country": "CF",
+    "parent": "CF",
+    "name": "Vakaga"
+  }
+]

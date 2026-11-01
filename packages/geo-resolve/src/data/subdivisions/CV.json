@@ -1,0 +1,194 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CV-B",
+    "code": "CV-B",
+    "country": "CV",
+    "parent": "CV",
+    "name": "Barlavento Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-BR",
+    "code": "CV-BR",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Brava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-BV",
+    "code": "CV-BV",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Boa Vista"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-CA",
+    "code": "CV-CA",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Santa Catarina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-CF",
+    "code": "CV-CF",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Santa Catarina do Fogo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-CR",
+    "code": "CV-CR",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Santa Cruz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-MA",
+    "code": "CV-MA",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Maio"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-MO",
+    "code": "CV-MO",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Mosteiros"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-PA",
+    "code": "CV-PA",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Paul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-PN",
+    "code": "CV-PN",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Porto Novo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-PR",
+    "code": "CV-PR",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Praia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-RB",
+    "code": "CV-RB",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Ribeira Brava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-RG",
+    "code": "CV-RG",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Ribeira Grande"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-RS",
+    "code": "CV-RS",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Ribeira Grande de Santiago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-S",
+    "code": "CV-S",
+    "country": "CV",
+    "parent": "CV",
+    "name": "Sotavento Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SD",
+    "code": "CV-SD",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "São Domingos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SF",
+    "code": "CV-SF",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "São Filipe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SL",
+    "code": "CV-SL",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Sal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SM",
+    "code": "CV-SM",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "São Miguel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SO",
+    "code": "CV-SO",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "São Lourenço dos Órgãos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SS",
+    "code": "CV-SS",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "São Salvador do Mundo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-SV",
+    "code": "CV-SV",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "São Vicente"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-TA",
+    "code": "CV-TA",
+    "country": "CV",
+    "parent": "CV-S",
+    "name": "Tarrafal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CV-TS",
+    "code": "CV-TS",
+    "country": "CV",
+    "parent": "CV-B",
+    "name": "Tarrafal de São Nicolau"
+  }
+]

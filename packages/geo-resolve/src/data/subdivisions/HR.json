@@ -1,0 +1,170 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "HR-01",
+    "code": "HR-01",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Zagreb County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-02",
+    "code": "HR-02",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Krapina-Zagorje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-03",
+    "code": "HR-03",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Sisak-Moslavina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-04",
+    "code": "HR-04",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Karlovac"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-05",
+    "code": "HR-05",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Varaždin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-06",
+    "code": "HR-06",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Koprivnica-Križevci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-07",
+    "code": "HR-07",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Bjelovar-Bilogora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-08",
+    "code": "HR-08",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Primorje-Gorski Kotar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-09",
+    "code": "HR-09",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Lika-Senj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-10",
+    "code": "HR-10",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Virovitica-Podravina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-11",
+    "code": "HR-11",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Požega-Slavonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-12",
+    "code": "HR-12",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Brod-Posavina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-13",
+    "code": "HR-13",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Zadar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-14",
+    "code": "HR-14",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Osijek-Baranja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-15",
+    "code": "HR-15",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Šibenik-Knin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-16",
+    "code": "HR-16",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Vukovar-Syrmia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-17",
+    "code": "HR-17",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Split-Dalmatia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-18",
+    "code": "HR-18",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Istria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-19",
+    "code": "HR-19",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Dubrovnik-Neretva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-20",
+    "code": "HR-20",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Međimurje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HR-21",
+    "code": "HR-21",
+    "country": "HR",
+    "parent": "HR",
+    "name": "Zagreb"
+  }
+]

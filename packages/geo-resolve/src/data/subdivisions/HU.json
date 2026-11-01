@@ -1,0 +1,346 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "HU-BA",
+    "code": "HU-BA",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Baranya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-BC",
+    "code": "HU-BC",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Békéscsaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-BE",
+    "code": "HU-BE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Békés"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-BK",
+    "code": "HU-BK",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Bács-Kiskun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-BU",
+    "code": "HU-BU",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Budapest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-BZ",
+    "code": "HU-BZ",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Borsod-Abaúj-Zemplén"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-CS",
+    "code": "HU-CS",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Csongrád"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-DE",
+    "code": "HU-DE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Debrecen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-DU",
+    "code": "HU-DU",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Dunaújváros"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-EG",
+    "code": "HU-EG",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Eger"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-ER",
+    "code": "HU-ER",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Érd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-FE",
+    "code": "HU-FE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Fejér"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-GS",
+    "code": "HU-GS",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Győr-Moson-Sopron"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-GY",
+    "code": "HU-GY",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Győr"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-HB",
+    "code": "HU-HB",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Hajdú-Bihar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-HE",
+    "code": "HU-HE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Heves"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-HV",
+    "code": "HU-HV",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Hódmezővásárhely"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-JN",
+    "code": "HU-JN",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Jász-Nagykun-Szolnok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-KE",
+    "code": "HU-KE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Komárom-Esztergom"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-KM",
+    "code": "HU-KM",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Kecskemét"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-KV",
+    "code": "HU-KV",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Kaposvár"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-MI",
+    "code": "HU-MI",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Miskolc"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-NK",
+    "code": "HU-NK",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Nagykanizsa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-NO",
+    "code": "HU-NO",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Nógrád"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-NY",
+    "code": "HU-NY",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Nyíregyháza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-PE",
+    "code": "HU-PE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Pest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-PS",
+    "code": "HU-PS",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Pécs"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SD",
+    "code": "HU-SD",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Szeged"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SF",
+    "code": "HU-SF",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Székesfehérvár"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SH",
+    "code": "HU-SH",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Szombathely"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SK",
+    "code": "HU-SK",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Szolnok"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SN",
+    "code": "HU-SN",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Sopron"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SO",
+    "code": "HU-SO",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Somogy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SS",
+    "code": "HU-SS",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Szekszárd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-ST",
+    "code": "HU-ST",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Salgótarján"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-SZ",
+    "code": "HU-SZ",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Szabolcs-Szatmár-Bereg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-TB",
+    "code": "HU-TB",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Tatabánya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-TO",
+    "code": "HU-TO",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Tolna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-VA",
+    "code": "HU-VA",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Vas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-VE",
+    "code": "HU-VE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Veszprém County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-VM",
+    "code": "HU-VM",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Veszprém"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-ZA",
+    "code": "HU-ZA",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Zala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "HU-ZE",
+    "code": "HU-ZE",
+    "country": "HU",
+    "parent": "HU",
+    "name": "Zalaegerszeg"
+  }
+]

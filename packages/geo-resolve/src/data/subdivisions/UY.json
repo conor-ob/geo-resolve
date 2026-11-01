@@ -1,0 +1,154 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "UY-AR",
+    "code": "UY-AR",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Artigas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-CA",
+    "code": "UY-CA",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Canelones"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-CL",
+    "code": "UY-CL",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Cerro Largo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-CO",
+    "code": "UY-CO",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Colonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-DU",
+    "code": "UY-DU",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Durazno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-FD",
+    "code": "UY-FD",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Florida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-FS",
+    "code": "UY-FS",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Flores"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-LA",
+    "code": "UY-LA",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Lavalleja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-MA",
+    "code": "UY-MA",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Maldonado"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-MO",
+    "code": "UY-MO",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Montevideo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-PA",
+    "code": "UY-PA",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Paysandú"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-RN",
+    "code": "UY-RN",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Río Negro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-RO",
+    "code": "UY-RO",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Rocha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-RV",
+    "code": "UY-RV",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Rivera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-SA",
+    "code": "UY-SA",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Salto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-SJ",
+    "code": "UY-SJ",
+    "country": "UY",
+    "parent": "UY",
+    "name": "San José"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-SO",
+    "code": "UY-SO",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Soriano"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-TA",
+    "code": "UY-TA",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Tacuarembó"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UY-TT",
+    "code": "UY-TT",
+    "country": "UY",
+    "parent": "UY",
+    "name": "Treinta y Tres"
+  }
+]

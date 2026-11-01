@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SD-DC",
+    "code": "SD-DC",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Central Darfur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-DE",
+    "code": "SD-DE",
+    "country": "SD",
+    "parent": "SD",
+    "name": "East Darfur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-DN",
+    "code": "SD-DN",
+    "country": "SD",
+    "parent": "SD",
+    "name": "North Darfur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-DS",
+    "code": "SD-DS",
+    "country": "SD",
+    "parent": "SD",
+    "name": "South Darfur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-DW",
+    "code": "SD-DW",
+    "country": "SD",
+    "parent": "SD",
+    "name": "West Darfur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-GD",
+    "code": "SD-GD",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Al Qadarif"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-GK",
+    "code": "SD-GK",
+    "country": "SD",
+    "parent": "SD",
+    "name": "West Kurdufan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-GZ",
+    "code": "SD-GZ",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Al Jazirah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-KA",
+    "code": "SD-KA",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Kassala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-KH",
+    "code": "SD-KH",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Khartoum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-KN",
+    "code": "SD-KN",
+    "country": "SD",
+    "parent": "SD",
+    "name": "North Kurdufan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-KS",
+    "code": "SD-KS",
+    "country": "SD",
+    "parent": "SD",
+    "name": "South Kurdufan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-NB",
+    "code": "SD-NB",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Blue Nile"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-NO",
+    "code": "SD-NO",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-NR",
+    "code": "SD-NR",
+    "country": "SD",
+    "parent": "SD",
+    "name": "River Nile"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-NW",
+    "code": "SD-NW",
+    "country": "SD",
+    "parent": "SD",
+    "name": "White Nile"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-RS",
+    "code": "SD-RS",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Red Sea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SD-SI",
+    "code": "SD-SI",
+    "country": "SD",
+    "parent": "SD",
+    "name": "Sennar"
+  }
+]

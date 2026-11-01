@@ -1,0 +1,338 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "DO-01",
+    "code": "DO-01",
+    "country": "DO",
+    "parent": "DO-40",
+    "name": "Distrito Nacional"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-02",
+    "code": "DO-02",
+    "country": "DO",
+    "parent": "DO-41",
+    "name": "Azua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-03",
+    "code": "DO-03",
+    "country": "DO",
+    "parent": "DO-38",
+    "name": "Baoruco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-04",
+    "code": "DO-04",
+    "country": "DO",
+    "parent": "DO-38",
+    "name": "Barahona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-05",
+    "code": "DO-05",
+    "country": "DO",
+    "parent": "DO-34",
+    "name": "Dajabón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-06",
+    "code": "DO-06",
+    "country": "DO",
+    "parent": "DO-33",
+    "name": "Duarte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-07",
+    "code": "DO-07",
+    "country": "DO",
+    "parent": "DO-37",
+    "name": "Elías Piña"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-08",
+    "code": "DO-08",
+    "country": "DO",
+    "parent": "DO-42",
+    "name": "El Seibo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-09",
+    "code": "DO-09",
+    "country": "DO",
+    "parent": "DO-35",
+    "name": "Espaillat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-10",
+    "code": "DO-10",
+    "country": "DO",
+    "parent": "DO-38",
+    "name": "Independencia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-11",
+    "code": "DO-11",
+    "country": "DO",
+    "parent": "DO-42",
+    "name": "La Altagracia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-12",
+    "code": "DO-12",
+    "country": "DO",
+    "parent": "DO-42",
+    "name": "La Romana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-13",
+    "code": "DO-13",
+    "country": "DO",
+    "parent": "DO-36",
+    "name": "La Vega"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-14",
+    "code": "DO-14",
+    "country": "DO",
+    "parent": "DO-33",
+    "name": "María Trinidad Sánchez"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-15",
+    "code": "DO-15",
+    "country": "DO",
+    "parent": "DO-34",
+    "name": "Monte Cristi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-16",
+    "code": "DO-16",
+    "country": "DO",
+    "parent": "DO-38",
+    "name": "Pedernales"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-17",
+    "code": "DO-17",
+    "country": "DO",
+    "parent": "DO-41",
+    "name": "Peravia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-18",
+    "code": "DO-18",
+    "country": "DO",
+    "parent": "DO-35",
+    "name": "Puerto Plata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-19",
+    "code": "DO-19",
+    "country": "DO",
+    "parent": "DO-33",
+    "name": "Hermanas Mirabal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-20",
+    "code": "DO-20",
+    "country": "DO",
+    "parent": "DO-33",
+    "name": "Samaná"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-21",
+    "code": "DO-21",
+    "country": "DO",
+    "parent": "DO-41",
+    "name": "San Cristóbal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-22",
+    "code": "DO-22",
+    "country": "DO",
+    "parent": "DO-37",
+    "name": "San Juan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-23",
+    "code": "DO-23",
+    "country": "DO",
+    "parent": "DO-39",
+    "name": "San Pedro de Macorís"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-24",
+    "code": "DO-24",
+    "country": "DO",
+    "parent": "DO-36",
+    "name": "Sánchez Ramírez"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-25",
+    "code": "DO-25",
+    "country": "DO",
+    "parent": "DO-35",
+    "name": "Santiago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-26",
+    "code": "DO-26",
+    "country": "DO",
+    "parent": "DO-34",
+    "name": "Santiago Rodríguez"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-27",
+    "code": "DO-27",
+    "country": "DO",
+    "parent": "DO-34",
+    "name": "Valverde"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-28",
+    "code": "DO-28",
+    "country": "DO",
+    "parent": "DO-36",
+    "name": "Monseñor Nouel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-29",
+    "code": "DO-29",
+    "country": "DO",
+    "parent": "DO-39",
+    "name": "Monte Plata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-30",
+    "code": "DO-30",
+    "country": "DO",
+    "parent": "DO-39",
+    "name": "Hato Mayor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-31",
+    "code": "DO-31",
+    "country": "DO",
+    "parent": "DO-41",
+    "name": "San José de Ocoa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-32",
+    "code": "DO-32",
+    "country": "DO",
+    "parent": "DO-40",
+    "name": "Santo Domingo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-33",
+    "code": "DO-33",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Cibao Nordeste"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-34",
+    "code": "DO-34",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Cibao Noroeste"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-35",
+    "code": "DO-35",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Cibao Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-36",
+    "code": "DO-36",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Cibao Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-37",
+    "code": "DO-37",
+    "country": "DO",
+    "parent": "DO",
+    "name": "El Valle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-38",
+    "code": "DO-38",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Enriquillo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-39",
+    "code": "DO-39",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Higüamo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-40",
+    "code": "DO-40",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Ozama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-41",
+    "code": "DO-41",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Valdesia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "DO-42",
+    "code": "DO-42",
+    "country": "DO",
+    "parent": "DO",
+    "name": "Yuma"
+  }
+]

@@ -1,0 +1,1010 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IT-21",
+    "code": "IT-21",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Piedmont"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-23",
+    "code": "IT-23",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Aosta Valley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-25",
+    "code": "IT-25",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Lombardy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-32",
+    "code": "IT-32",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Trentino-South Tyrol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-34",
+    "code": "IT-34",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Veneto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-36",
+    "code": "IT-36",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Friuli–Venezia Giulia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-42",
+    "code": "IT-42",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Liguria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-45",
+    "code": "IT-45",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Emilia-Romagna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-52",
+    "code": "IT-52",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Tuscany"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-55",
+    "code": "IT-55",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Umbria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-57",
+    "code": "IT-57",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Marche"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-62",
+    "code": "IT-62",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Lazio"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-65",
+    "code": "IT-65",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Abruzzo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-67",
+    "code": "IT-67",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Molise"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-72",
+    "code": "IT-72",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Campania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-75",
+    "code": "IT-75",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Apulia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-77",
+    "code": "IT-77",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Basilicata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-78",
+    "code": "IT-78",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Calabria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-82",
+    "code": "IT-82",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Sicily"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-88",
+    "code": "IT-88",
+    "country": "IT",
+    "parent": "IT",
+    "name": "Sardinia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AG",
+    "code": "IT-AG",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Agrigento"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AL",
+    "code": "IT-AL",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Alessandria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AN",
+    "code": "IT-AN",
+    "country": "IT",
+    "parent": "IT-57",
+    "name": "Ancona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AP",
+    "code": "IT-AP",
+    "country": "IT",
+    "parent": "IT-57",
+    "name": "Ascoli Piceno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AQ",
+    "code": "IT-AQ",
+    "country": "IT",
+    "parent": "IT-65",
+    "name": "L’Aquila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AR",
+    "code": "IT-AR",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Arezzo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AT",
+    "code": "IT-AT",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Asti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-AV",
+    "code": "IT-AV",
+    "country": "IT",
+    "parent": "IT-72",
+    "name": "Avellino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BA",
+    "code": "IT-BA",
+    "country": "IT",
+    "parent": "IT-75",
+    "name": "Bari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BG",
+    "code": "IT-BG",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Bergamo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BI",
+    "code": "IT-BI",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Biella"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BL",
+    "code": "IT-BL",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Belluno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BN",
+    "code": "IT-BN",
+    "country": "IT",
+    "parent": "IT-72",
+    "name": "Benevento"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BO",
+    "code": "IT-BO",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Bologna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BR",
+    "code": "IT-BR",
+    "country": "IT",
+    "parent": "IT-75",
+    "name": "Brindisi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BS",
+    "code": "IT-BS",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Brescia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BT",
+    "code": "IT-BT",
+    "country": "IT",
+    "parent": "IT-75",
+    "name": "Barletta-Andria-Trani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-BZ",
+    "code": "IT-BZ",
+    "country": "IT",
+    "parent": "IT-32",
+    "name": "South Tyrol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CA",
+    "code": "IT-CA",
+    "country": "IT",
+    "parent": "IT-88",
+    "name": "Cagliari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CB",
+    "code": "IT-CB",
+    "country": "IT",
+    "parent": "IT-67",
+    "name": "Campobasso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CE",
+    "code": "IT-CE",
+    "country": "IT",
+    "parent": "IT-72",
+    "name": "Caserta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CH",
+    "code": "IT-CH",
+    "country": "IT",
+    "parent": "IT-65",
+    "name": "Chieti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CL",
+    "code": "IT-CL",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Caltanissetta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CN",
+    "code": "IT-CN",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Cuneo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CO",
+    "code": "IT-CO",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Como"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CR",
+    "code": "IT-CR",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Cremona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CS",
+    "code": "IT-CS",
+    "country": "IT",
+    "parent": "IT-78",
+    "name": "Cosenza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CT",
+    "code": "IT-CT",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Catania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-CZ",
+    "code": "IT-CZ",
+    "country": "IT",
+    "parent": "IT-78",
+    "name": "Catanzaro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-EN",
+    "code": "IT-EN",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Enna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-FC",
+    "code": "IT-FC",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Forlì-Cesena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-FE",
+    "code": "IT-FE",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Ferrara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-FG",
+    "code": "IT-FG",
+    "country": "IT",
+    "parent": "IT-75",
+    "name": "Foggia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-FI",
+    "code": "IT-FI",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Florence"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-FM",
+    "code": "IT-FM",
+    "country": "IT",
+    "parent": "IT-57",
+    "name": "Fermo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-FR",
+    "code": "IT-FR",
+    "country": "IT",
+    "parent": "IT-62",
+    "name": "Frosinone"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-GE",
+    "code": "IT-GE",
+    "country": "IT",
+    "parent": "IT-42",
+    "name": "Genoa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-GO",
+    "code": "IT-GO",
+    "country": "IT",
+    "parent": "IT-36",
+    "name": "Gorizia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-GR",
+    "code": "IT-GR",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Grosseto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-IM",
+    "code": "IT-IM",
+    "country": "IT",
+    "parent": "IT-42",
+    "name": "Imperia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-IS",
+    "code": "IT-IS",
+    "country": "IT",
+    "parent": "IT-67",
+    "name": "Isernia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-KR",
+    "code": "IT-KR",
+    "country": "IT",
+    "parent": "IT-78",
+    "name": "Crotone"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-LC",
+    "code": "IT-LC",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Lecco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-LE",
+    "code": "IT-LE",
+    "country": "IT",
+    "parent": "IT-75",
+    "name": "Lecce"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-LI",
+    "code": "IT-LI",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Livorno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-LO",
+    "code": "IT-LO",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Lodi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-LT",
+    "code": "IT-LT",
+    "country": "IT",
+    "parent": "IT-62",
+    "name": "Latina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-LU",
+    "code": "IT-LU",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Lucca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MB",
+    "code": "IT-MB",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Monza and Brianza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MC",
+    "code": "IT-MC",
+    "country": "IT",
+    "parent": "IT-57",
+    "name": "Macerata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-ME",
+    "code": "IT-ME",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Messina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MI",
+    "code": "IT-MI",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Milan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MN",
+    "code": "IT-MN",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Mantua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MO",
+    "code": "IT-MO",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Modena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MS",
+    "code": "IT-MS",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Massa and Carrara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-MT",
+    "code": "IT-MT",
+    "country": "IT",
+    "parent": "IT-77",
+    "name": "Matera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-NA",
+    "code": "IT-NA",
+    "country": "IT",
+    "parent": "IT-72",
+    "name": "Naples"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-NO",
+    "code": "IT-NO",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Novara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-NU",
+    "code": "IT-NU",
+    "country": "IT",
+    "parent": "IT-88",
+    "name": "Nuoro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-OR",
+    "code": "IT-OR",
+    "country": "IT",
+    "parent": "IT-88",
+    "name": "Oristano"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PA",
+    "code": "IT-PA",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Palermo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PC",
+    "code": "IT-PC",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Piacenza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PD",
+    "code": "IT-PD",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Padua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PE",
+    "code": "IT-PE",
+    "country": "IT",
+    "parent": "IT-65",
+    "name": "Pescara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PG",
+    "code": "IT-PG",
+    "country": "IT",
+    "parent": "IT-55",
+    "name": "Perugia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PI",
+    "code": "IT-PI",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Pisa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PN",
+    "code": "IT-PN",
+    "country": "IT",
+    "parent": "IT-36",
+    "name": "Pordenone"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PO",
+    "code": "IT-PO",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Prato"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PR",
+    "code": "IT-PR",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Parma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PT",
+    "code": "IT-PT",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Pistoia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PU",
+    "code": "IT-PU",
+    "country": "IT",
+    "parent": "IT-57",
+    "name": "Pesaro and Urbino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PV",
+    "code": "IT-PV",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Pavia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-PZ",
+    "code": "IT-PZ",
+    "country": "IT",
+    "parent": "IT-77",
+    "name": "Potenza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RA",
+    "code": "IT-RA",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Ravenna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RC",
+    "code": "IT-RC",
+    "country": "IT",
+    "parent": "IT-78",
+    "name": "Reggio Calabria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RE",
+    "code": "IT-RE",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Reggio Emilia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RG",
+    "code": "IT-RG",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Ragusa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RI",
+    "code": "IT-RI",
+    "country": "IT",
+    "parent": "IT-62",
+    "name": "Rieti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RM",
+    "code": "IT-RM",
+    "country": "IT",
+    "parent": "IT-62",
+    "name": "Rome"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RN",
+    "code": "IT-RN",
+    "country": "IT",
+    "parent": "IT-45",
+    "name": "Rimini"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-RO",
+    "code": "IT-RO",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Rovigo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SA",
+    "code": "IT-SA",
+    "country": "IT",
+    "parent": "IT-72",
+    "name": "Salerno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SI",
+    "code": "IT-SI",
+    "country": "IT",
+    "parent": "IT-52",
+    "name": "Siena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SO",
+    "code": "IT-SO",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Sondrio"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SP",
+    "code": "IT-SP",
+    "country": "IT",
+    "parent": "IT-42",
+    "name": "La Spezia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SR",
+    "code": "IT-SR",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Syracuse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SS",
+    "code": "IT-SS",
+    "country": "IT",
+    "parent": "IT-88",
+    "name": "Sassari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SU",
+    "code": "IT-SU",
+    "country": "IT",
+    "parent": "IT-88",
+    "name": "Sud Sardegna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-SV",
+    "code": "IT-SV",
+    "country": "IT",
+    "parent": "IT-42",
+    "name": "Savona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TA",
+    "code": "IT-TA",
+    "country": "IT",
+    "parent": "IT-75",
+    "name": "Taranto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TE",
+    "code": "IT-TE",
+    "country": "IT",
+    "parent": "IT-65",
+    "name": "Teramo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TN",
+    "code": "IT-TN",
+    "country": "IT",
+    "parent": "IT-32",
+    "name": "Trentino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TO",
+    "code": "IT-TO",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Turin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TP",
+    "code": "IT-TP",
+    "country": "IT",
+    "parent": "IT-82",
+    "name": "Trapani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TR",
+    "code": "IT-TR",
+    "country": "IT",
+    "parent": "IT-55",
+    "name": "Terni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TS",
+    "code": "IT-TS",
+    "country": "IT",
+    "parent": "IT-36",
+    "name": "Trieste"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-TV",
+    "code": "IT-TV",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Treviso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-UD",
+    "code": "IT-UD",
+    "country": "IT",
+    "parent": "IT-36",
+    "name": "Udine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VA",
+    "code": "IT-VA",
+    "country": "IT",
+    "parent": "IT-25",
+    "name": "Varese"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VB",
+    "code": "IT-VB",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Verbano-Cusio-Ossola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VC",
+    "code": "IT-VC",
+    "country": "IT",
+    "parent": "IT-21",
+    "name": "Vercelli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VE",
+    "code": "IT-VE",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Venice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VI",
+    "code": "IT-VI",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Vicenza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VR",
+    "code": "IT-VR",
+    "country": "IT",
+    "parent": "IT-34",
+    "name": "Verona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VT",
+    "code": "IT-VT",
+    "country": "IT",
+    "parent": "IT-62",
+    "name": "Viterbo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IT-VV",
+    "code": "IT-VV",
+    "country": "IT",
+    "parent": "IT-78",
+    "name": "Vibo Valentia"
+  }
+]

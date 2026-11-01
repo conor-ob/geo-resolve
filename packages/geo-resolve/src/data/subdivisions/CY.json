@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CY-01",
+    "code": "CY-01",
+    "country": "CY",
+    "parent": "CY",
+    "name": "Nicosia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CY-02",
+    "code": "CY-02",
+    "country": "CY",
+    "parent": "CY",
+    "name": "Limassol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CY-03",
+    "code": "CY-03",
+    "country": "CY",
+    "parent": "CY",
+    "name": "Larnaca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CY-04",
+    "code": "CY-04",
+    "country": "CY",
+    "parent": "CY",
+    "name": "Famagusta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CY-05",
+    "code": "CY-05",
+    "country": "CY",
+    "parent": "CY",
+    "name": "Paphos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CY-06",
+    "code": "CY-06",
+    "country": "CY",
+    "parent": "CY",
+    "name": "Kyrenia"
+  }
+]

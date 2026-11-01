@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NP-P1",
+    "code": "NP-P1",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Province 1"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NP-P2",
+    "code": "NP-P2",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Province 2"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NP-P3",
+    "code": "NP-P3",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Province 3"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NP-P4",
+    "code": "NP-P4",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Gandaki²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NP-P5",
+    "code": "NP-P5",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Province 5"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NP-P6",
+    "code": "NP-P6",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Karnali²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NP-P7",
+    "code": "NP-P7",
+    "country": "NP",
+    "parent": "NP",
+    "name": "Province 7"
+  }
+]

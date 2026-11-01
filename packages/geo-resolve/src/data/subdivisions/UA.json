@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "UA-05",
+    "code": "UA-05",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Vinnychchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-07",
+    "code": "UA-07",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Volyn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-09",
+    "code": "UA-09",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Luhanshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-12",
+    "code": "UA-12",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Dnipropetrovshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-14",
+    "code": "UA-14",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Donechchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-18",
+    "code": "UA-18",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Zhytomyrshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-21",
+    "code": "UA-21",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Zakarpattia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-23",
+    "code": "UA-23",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Zaporizhzhya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-26",
+    "code": "UA-26",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Prykarpattia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-30",
+    "code": "UA-30",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Kyiv"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-32",
+    "code": "UA-32",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Kyivshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-35",
+    "code": "UA-35",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Kirovohradschyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-40",
+    "code": "UA-40",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Sevastopol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-43",
+    "code": "UA-43",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Crimea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-46",
+    "code": "UA-46",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Lvivshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-48",
+    "code": "UA-48",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Mykolayivschyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-51",
+    "code": "UA-51",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Odeshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-53",
+    "code": "UA-53",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Poltavshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-56",
+    "code": "UA-56",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Rivnenshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-59",
+    "code": "UA-59",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Sumshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-61",
+    "code": "UA-61",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Ternopilshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-63",
+    "code": "UA-63",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Kharkivshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-65",
+    "code": "UA-65",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Khersonshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-68",
+    "code": "UA-68",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Khmelnychchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-71",
+    "code": "UA-71",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Cherkashchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-74",
+    "code": "UA-74",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Chernihivshchyna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UA-77",
+    "code": "UA-77",
+    "country": "UA",
+    "parent": "UA",
+    "name": "Chernivtsi Oblast"
+  }
+]

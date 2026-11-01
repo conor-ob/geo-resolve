@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "WF-AL",
+    "code": "WF-AL",
+    "country": "WF",
+    "parent": "WF",
+    "name": "Alo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WF-SG",
+    "code": "WF-SG",
+    "country": "WF",
+    "parent": "WF",
+    "name": "Sigave"
+  },
+  {
+    "kind": "subdivision",
+    "id": "WF-UV",
+    "code": "WF-UV",
+    "country": "WF",
+    "parent": "WF",
+    "name": "Uvea"
+  }
+]

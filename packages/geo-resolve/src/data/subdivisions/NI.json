@@ -1,0 +1,138 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NI-AN",
+    "code": "NI-AN",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Atlántico Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-AS",
+    "code": "NI-AS",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Atlántico Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-BO",
+    "code": "NI-BO",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Boaco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-CA",
+    "code": "NI-CA",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Carazo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-CI",
+    "code": "NI-CI",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Chinandega"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-CO",
+    "code": "NI-CO",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Chontales"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-ES",
+    "code": "NI-ES",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Estelí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-GR",
+    "code": "NI-GR",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Granada"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-JI",
+    "code": "NI-JI",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Jinotega"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-LE",
+    "code": "NI-LE",
+    "country": "NI",
+    "parent": "NI",
+    "name": "León"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-MD",
+    "code": "NI-MD",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Madriz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-MN",
+    "code": "NI-MN",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Managua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-MS",
+    "code": "NI-MS",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Masaya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-MT",
+    "code": "NI-MT",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Matagalpa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-NS",
+    "code": "NI-NS",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Nueva Segovia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-RI",
+    "code": "NI-RI",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Rivas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NI-SJ",
+    "code": "NI-SJ",
+    "country": "NI",
+    "parent": "NI",
+    "name": "Río San Juan"
+  }
+]

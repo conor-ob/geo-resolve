@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GE-AB",
+    "code": "GE-AB",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Abkhazia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-AJ",
+    "code": "GE-AJ",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Adjara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-GU",
+    "code": "GE-GU",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Guria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-IM",
+    "code": "GE-IM",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Imereti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-KA",
+    "code": "GE-KA",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Kakheti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-KK",
+    "code": "GE-KK",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Kvemo Kartli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-MM",
+    "code": "GE-MM",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Mtskheta-Mtianeti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-RL",
+    "code": "GE-RL",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Racha-Lechkhumi and Kvemo Svaneti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-SJ",
+    "code": "GE-SJ",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Samtskhe-Javakheti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-SK",
+    "code": "GE-SK",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Shida Kartli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-SZ",
+    "code": "GE-SZ",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Samegrelo-Zemo Svaneti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GE-TB",
+    "code": "GE-TB",
+    "country": "GE",
+    "parent": "GE",
+    "name": "Tbilisi"
+  }
+]

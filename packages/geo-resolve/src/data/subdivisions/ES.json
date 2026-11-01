@@ -1,0 +1,554 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ES-A",
+    "code": "ES-A",
+    "country": "ES",
+    "parent": "ES-VC",
+    "name": "Alicante"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-AB",
+    "code": "ES-AB",
+    "country": "ES",
+    "parent": "ES-CM",
+    "name": "Albacete"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-AL",
+    "code": "ES-AL",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Almería"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-AN",
+    "code": "ES-AN",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Andalusia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-AR",
+    "code": "ES-AR",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Aragon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-AS",
+    "code": "ES-AS",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Asturias"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-AV",
+    "code": "ES-AV",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Ávila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-B",
+    "code": "ES-B",
+    "country": "ES",
+    "parent": "ES-CT",
+    "name": "Barcelona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-BA",
+    "code": "ES-BA",
+    "country": "ES",
+    "parent": "ES-EX",
+    "name": "Badajoz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-BI",
+    "code": "ES-BI",
+    "country": "ES",
+    "parent": "ES-PV",
+    "name": "Biscay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-BU",
+    "code": "ES-BU",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Burgos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-C",
+    "code": "ES-C",
+    "country": "ES",
+    "parent": "ES-GA",
+    "name": "A Coruña"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CA",
+    "code": "ES-CA",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Cádiz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CB",
+    "code": "ES-CB",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Cantabria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CC",
+    "code": "ES-CC",
+    "country": "ES",
+    "parent": "ES-EX",
+    "name": "Cáceres"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CE",
+    "code": "ES-CE",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Ceuta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CL",
+    "code": "ES-CL",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Castile and León"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CM",
+    "code": "ES-CM",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Castile-La Mancha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CN",
+    "code": "ES-CN",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Canary Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CO",
+    "code": "ES-CO",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Córdoba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CR",
+    "code": "ES-CR",
+    "country": "ES",
+    "parent": "ES-CM",
+    "name": "Ciudad Real"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CS",
+    "code": "ES-CS",
+    "country": "ES",
+    "parent": "ES-VC",
+    "name": "Castellón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CT",
+    "code": "ES-CT",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Catalonia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-CU",
+    "code": "ES-CU",
+    "country": "ES",
+    "parent": "ES-CM",
+    "name": "Cuenca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-EX",
+    "code": "ES-EX",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Extremadura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-GA",
+    "code": "ES-GA",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Galicia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-GC",
+    "code": "ES-GC",
+    "country": "ES",
+    "parent": "ES-CN",
+    "name": "Las Palmas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-GI",
+    "code": "ES-GI",
+    "country": "ES",
+    "parent": "ES-CT",
+    "name": "Girona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-GR",
+    "code": "ES-GR",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Granada"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-GU",
+    "code": "ES-GU",
+    "country": "ES",
+    "parent": "ES-CM",
+    "name": "Guadalajara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-H",
+    "code": "ES-H",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Huelva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-HU",
+    "code": "ES-HU",
+    "country": "ES",
+    "parent": "ES-AR",
+    "name": "Huesca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-IB",
+    "code": "ES-IB",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Balearic Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-J",
+    "code": "ES-J",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Jaén"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-L",
+    "code": "ES-L",
+    "country": "ES",
+    "parent": "ES-CT",
+    "name": "Lleida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-LE",
+    "code": "ES-LE",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "León"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-LO",
+    "code": "ES-LO",
+    "country": "ES",
+    "parent": "ES-RI",
+    "name": "La Rioja Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-LU",
+    "code": "ES-LU",
+    "country": "ES",
+    "parent": "ES-GA",
+    "name": "Lugo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-M",
+    "code": "ES-M",
+    "country": "ES",
+    "parent": "ES-MD",
+    "name": "Madrid Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-MA",
+    "code": "ES-MA",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Málaga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-MC",
+    "code": "ES-MC",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Murcia Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-MD",
+    "code": "ES-MD",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Madrid Autonomous Community"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-ML",
+    "code": "ES-ML",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Melilla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-MU",
+    "code": "ES-MU",
+    "country": "ES",
+    "parent": "ES-MC",
+    "name": "Murcia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-NA",
+    "code": "ES-NA",
+    "country": "ES",
+    "parent": "ES-NC",
+    "name": "Navarra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-NC",
+    "code": "ES-NC",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Navarra Chartered Community"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-O",
+    "code": "ES-O",
+    "country": "ES",
+    "parent": "ES-AS",
+    "name": "Asturias Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-OR",
+    "code": "ES-OR",
+    "country": "ES",
+    "parent": "ES-GA",
+    "name": "Ourense"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-P",
+    "code": "ES-P",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Palencia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-PM",
+    "code": "ES-PM",
+    "country": "ES",
+    "parent": "ES-IB",
+    "name": "Balears Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-PO",
+    "code": "ES-PO",
+    "country": "ES",
+    "parent": "ES-GA",
+    "name": "Pontevedra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-PV",
+    "code": "ES-PV",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Basque Country"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-RI",
+    "code": "ES-RI",
+    "country": "ES",
+    "parent": "ES",
+    "name": "La Rioja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-S",
+    "code": "ES-S",
+    "country": "ES",
+    "parent": "ES-CB",
+    "name": "Cantabria Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-SA",
+    "code": "ES-SA",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Salamanca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-SE",
+    "code": "ES-SE",
+    "country": "ES",
+    "parent": "ES-AN",
+    "name": "Seville"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-SG",
+    "code": "ES-SG",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Segovia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-SO",
+    "code": "ES-SO",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Soria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-SS",
+    "code": "ES-SS",
+    "country": "ES",
+    "parent": "ES-PV",
+    "name": "Gipuzkoa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-T",
+    "code": "ES-T",
+    "country": "ES",
+    "parent": "ES-CT",
+    "name": "Tarragona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-TE",
+    "code": "ES-TE",
+    "country": "ES",
+    "parent": "ES-AR",
+    "name": "Teruel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-TF",
+    "code": "ES-TF",
+    "country": "ES",
+    "parent": "ES-CN",
+    "name": "Santa Cruz de Tenerife"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-TO",
+    "code": "ES-TO",
+    "country": "ES",
+    "parent": "ES-CM",
+    "name": "Toledo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-V",
+    "code": "ES-V",
+    "country": "ES",
+    "parent": "ES-VC",
+    "name": "Valencia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-VA",
+    "code": "ES-VA",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Valladolid"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-VC",
+    "code": "ES-VC",
+    "country": "ES",
+    "parent": "ES",
+    "name": "Valencian Community"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-VI",
+    "code": "ES-VI",
+    "country": "ES",
+    "parent": "ES-PV",
+    "name": "Álava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-Z",
+    "code": "ES-Z",
+    "country": "ES",
+    "parent": "ES-AR",
+    "name": "Zaragoza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ES-ZA",
+    "code": "ES-ZA",
+    "country": "ES",
+    "parent": "ES-CL",
+    "name": "Zamora"
+  }
+]

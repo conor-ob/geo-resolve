@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SV-AH",
+    "code": "SV-AH",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Ahuachapán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-CA",
+    "code": "SV-CA",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Cabañas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-CH",
+    "code": "SV-CH",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Chalatenango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-CU",
+    "code": "SV-CU",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Cuscatlán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-LI",
+    "code": "SV-LI",
+    "country": "SV",
+    "parent": "SV",
+    "name": "La Libertad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-MO",
+    "code": "SV-MO",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Morazán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-PA",
+    "code": "SV-PA",
+    "country": "SV",
+    "parent": "SV",
+    "name": "La Paz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-SA",
+    "code": "SV-SA",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Santa Ana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-SM",
+    "code": "SV-SM",
+    "country": "SV",
+    "parent": "SV",
+    "name": "San Miguel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-SO",
+    "code": "SV-SO",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Sonsonate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-SS",
+    "code": "SV-SS",
+    "country": "SV",
+    "parent": "SV",
+    "name": "San Salvador"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-SV",
+    "code": "SV-SV",
+    "country": "SV",
+    "parent": "SV",
+    "name": "San Vicente"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-UN",
+    "code": "SV-UN",
+    "country": "SV",
+    "parent": "SV",
+    "name": "La Unión"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SV-US",
+    "code": "SV-US",
+    "country": "SV",
+    "parent": "SV",
+    "name": "Usulután"
+  }
+]

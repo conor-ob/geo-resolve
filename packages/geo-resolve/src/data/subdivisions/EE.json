@@ -1,0 +1,754 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "EE-130",
+    "code": "EE-130",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Alutaguse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-141",
+    "code": "EE-141",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Anija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-142",
+    "code": "EE-142",
+    "country": "EE",
+    "parent": "EE-87",
+    "name": "Antsla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-171",
+    "code": "EE-171",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Elva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-184",
+    "code": "EE-184",
+    "country": "EE",
+    "parent": "EE-56",
+    "name": "Haapsalu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-191",
+    "code": "EE-191",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Haljala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-198",
+    "code": "EE-198",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Harku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-205",
+    "code": "EE-205",
+    "country": "EE",
+    "parent": "EE-39",
+    "name": "Hiiumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-214",
+    "code": "EE-214",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Häädemeeste"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-245",
+    "code": "EE-245",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Jõelähtme"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-247",
+    "code": "EE-247",
+    "country": "EE",
+    "parent": "EE-50",
+    "name": "Jõgeva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-251",
+    "code": "EE-251",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Jõhvi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-255",
+    "code": "EE-255",
+    "country": "EE",
+    "parent": "EE-52",
+    "name": "Järva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-272",
+    "code": "EE-272",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Kadrina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-283",
+    "code": "EE-283",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Kambja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-284",
+    "code": "EE-284",
+    "country": "EE",
+    "parent": "EE-64",
+    "name": "Kanepi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-291",
+    "code": "EE-291",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Kastre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-293",
+    "code": "EE-293",
+    "country": "EE",
+    "parent": "EE-71",
+    "name": "Kehtna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-296",
+    "code": "EE-296",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Keila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-303",
+    "code": "EE-303",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Kihnu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-305",
+    "code": "EE-305",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Kiili"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-317",
+    "code": "EE-317",
+    "country": "EE",
+    "parent": "EE-71",
+    "name": "Kohila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-321",
+    "code": "EE-321",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Kohtla-Järve"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-338",
+    "code": "EE-338",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Kose"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-353",
+    "code": "EE-353",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Kuusalu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-37",
+    "code": "EE-37",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Harju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-39",
+    "code": "EE-39",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Hiiu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-424",
+    "code": "EE-424",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Loksa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-430",
+    "code": "EE-430",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Lääneranna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-431",
+    "code": "EE-431",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Lääne-Harju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-432",
+    "code": "EE-432",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Luunja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-441",
+    "code": "EE-441",
+    "country": "EE",
+    "parent": "EE-56",
+    "name": "Lääne-Nigula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-442",
+    "code": "EE-442",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Lüganuse"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-446",
+    "code": "EE-446",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Maardu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-45",
+    "code": "EE-45",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Ida-Virumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-478",
+    "code": "EE-478",
+    "country": "EE",
+    "parent": "EE-74",
+    "name": "Muhu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-480",
+    "code": "EE-480",
+    "country": "EE",
+    "parent": "EE-84",
+    "name": "Mulgi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-486",
+    "code": "EE-486",
+    "country": "EE",
+    "parent": "EE-50",
+    "name": "Mustvee"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-50",
+    "code": "EE-50",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Jõgevamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-503",
+    "code": "EE-503",
+    "country": "EE",
+    "parent": "EE-71",
+    "name": "Märjamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-511",
+    "code": "EE-511",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Narva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-514",
+    "code": "EE-514",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Narva-Jõesuu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-52",
+    "code": "EE-52",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Järvamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-528",
+    "code": "EE-528",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Nõo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-557",
+    "code": "EE-557",
+    "country": "EE",
+    "parent": "EE-81",
+    "name": "Otepää"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-56",
+    "code": "EE-56",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Läänemaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-567",
+    "code": "EE-567",
+    "country": "EE",
+    "parent": "EE-52",
+    "name": "Paide"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-586",
+    "code": "EE-586",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Peipsiääre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-60",
+    "code": "EE-60",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Lääne-Virumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-615",
+    "code": "EE-615",
+    "country": "EE",
+    "parent": "EE-84",
+    "name": "Põhja-Sakala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-618",
+    "code": "EE-618",
+    "country": "EE",
+    "parent": "EE-50",
+    "name": "Põltsamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-622",
+    "code": "EE-622",
+    "country": "EE",
+    "parent": "EE-64",
+    "name": "Põlva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-624",
+    "code": "EE-624",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Pärnu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-638",
+    "code": "EE-638",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Põhja-Pärnumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-64",
+    "code": "EE-64",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Põlvamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-651",
+    "code": "EE-651",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Raasiku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-653",
+    "code": "EE-653",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Rae"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-661",
+    "code": "EE-661",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Rakvere"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-663",
+    "code": "EE-663",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Rakvere²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-668",
+    "code": "EE-668",
+    "country": "EE",
+    "parent": "EE-71",
+    "name": "Rapla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-68",
+    "code": "EE-68",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Pärnumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-689",
+    "code": "EE-689",
+    "country": "EE",
+    "parent": "EE-74",
+    "name": "Ruhnu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-698",
+    "code": "EE-698",
+    "country": "EE",
+    "parent": "EE-87",
+    "name": "Rõuge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-708",
+    "code": "EE-708",
+    "country": "EE",
+    "parent": "EE-64",
+    "name": "Räpina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-71",
+    "code": "EE-71",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Raplamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-712",
+    "code": "EE-712",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Saarde"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-714",
+    "code": "EE-714",
+    "country": "EE",
+    "parent": "EE-74",
+    "name": "Saaremaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-719",
+    "code": "EE-719",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Saku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-726",
+    "code": "EE-726",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Saue"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-732",
+    "code": "EE-732",
+    "country": "EE",
+    "parent": "EE-87",
+    "name": "Setomaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-735",
+    "code": "EE-735",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Sillamäe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-74",
+    "code": "EE-74",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Saare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-784",
+    "code": "EE-784",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Tallinn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-79",
+    "code": "EE-79",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Tartumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-792",
+    "code": "EE-792",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Tapa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-793",
+    "code": "EE-793",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Tartu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-796",
+    "code": "EE-796",
+    "country": "EE",
+    "parent": "EE-79",
+    "name": "Tartu²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-803",
+    "code": "EE-803",
+    "country": "EE",
+    "parent": "EE-45",
+    "name": "Toila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-809",
+    "code": "EE-809",
+    "country": "EE",
+    "parent": "EE-68",
+    "name": "Tori"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-81",
+    "code": "EE-81",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Valgamaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-824",
+    "code": "EE-824",
+    "country": "EE",
+    "parent": "EE-81",
+    "name": "Tõrva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-834",
+    "code": "EE-834",
+    "country": "EE",
+    "parent": "EE-52",
+    "name": "Türi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-84",
+    "code": "EE-84",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Viljandi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-855",
+    "code": "EE-855",
+    "country": "EE",
+    "parent": "EE-81",
+    "name": "Valga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-87",
+    "code": "EE-87",
+    "country": "EE",
+    "parent": "EE",
+    "name": "Võrumaa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-890",
+    "code": "EE-890",
+    "country": "EE",
+    "parent": "EE-37",
+    "name": "Viimsi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-897",
+    "code": "EE-897",
+    "country": "EE",
+    "parent": "EE-84",
+    "name": "Viljandi²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-899",
+    "code": "EE-899",
+    "country": "EE",
+    "parent": "EE-84",
+    "name": "Viljandi³"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-901",
+    "code": "EE-901",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Vinni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-903",
+    "code": "EE-903",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Viru-Nigula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-907",
+    "code": "EE-907",
+    "country": "EE",
+    "parent": "EE-56",
+    "name": "Vormsi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-917",
+    "code": "EE-917",
+    "country": "EE",
+    "parent": "EE-87",
+    "name": "Võru²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-919",
+    "code": "EE-919",
+    "country": "EE",
+    "parent": "EE-87",
+    "name": "Võru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EE-928",
+    "code": "EE-928",
+    "country": "EE",
+    "parent": "EE-60",
+    "name": "Väike-Maarja"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CM-AD",
+    "code": "CM-AD",
+    "country": "CM",
+    "parent": "CM",
+    "name": "Adamawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-CE",
+    "code": "CM-CE",
+    "country": "CM",
+    "parent": "CM",
+    "name": "Centre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-EN",
+    "code": "CM-EN",
+    "country": "CM",
+    "parent": "CM",
+    "name": "Far North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-ES",
+    "code": "CM-ES",
+    "country": "CM",
+    "parent": "CM",
+    "name": "East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-LT",
+    "code": "CM-LT",
+    "country": "CM",
+    "parent": "CM",
+    "name": "Littoral"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-NO",
+    "code": "CM-NO",
+    "country": "CM",
+    "parent": "CM",
+    "name": "North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-NW",
+    "code": "CM-NW",
+    "country": "CM",
+    "parent": "CM",
+    "name": "Northwest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-OU",
+    "code": "CM-OU",
+    "country": "CM",
+    "parent": "CM",
+    "name": "West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-SU",
+    "code": "CM-SU",
+    "country": "CM",
+    "parent": "CM",
+    "name": "South"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CM-SW",
+    "code": "CM-SW",
+    "country": "CM",
+    "parent": "CM",
+    "name": "Southwest"
+  }
+]

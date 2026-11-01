@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "FM-KSA",
+    "code": "FM-KSA",
+    "country": "FM",
+    "parent": "FM",
+    "name": "Kosrae"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FM-PNI",
+    "code": "FM-PNI",
+    "country": "FM",
+    "parent": "FM",
+    "name": "Pohnpei"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FM-TRK",
+    "code": "FM-TRK",
+    "country": "FM",
+    "parent": "FM",
+    "name": "Chuuk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FM-YAP",
+    "code": "FM-YAP",
+    "country": "FM",
+    "parent": "FM",
+    "name": "Yap"
+  }
+]

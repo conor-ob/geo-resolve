@@ -1,0 +1,186 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TD-BA",
+    "code": "TD-BA",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Batha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-BG",
+    "code": "TD-BG",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Bahr el Gazel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-BO",
+    "code": "TD-BO",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Borkou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-CB",
+    "code": "TD-CB",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Chari-Baguirmi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-EE",
+    "code": "TD-EE",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Ennedi-Est"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-EO",
+    "code": "TD-EO",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Ennedi-Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-GR",
+    "code": "TD-GR",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Guéra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-HL",
+    "code": "TD-HL",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Hadjer-Lamis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-KA",
+    "code": "TD-KA",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Kanem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-LC",
+    "code": "TD-LC",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Lac"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-LO",
+    "code": "TD-LO",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Logone Occidental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-LR",
+    "code": "TD-LR",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Logone Oriental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-MA",
+    "code": "TD-MA",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Mandoul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-MC",
+    "code": "TD-MC",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Moyen-Chari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-ME",
+    "code": "TD-ME",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Mayo-Kebbi Est"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-MO",
+    "code": "TD-MO",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Mayo-Kebbi Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-ND",
+    "code": "TD-ND",
+    "country": "TD",
+    "parent": "TD",
+    "name": "N’Djamena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-OD",
+    "code": "TD-OD",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Ouaddaï"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-SA",
+    "code": "TD-SA",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Salamat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-SI",
+    "code": "TD-SI",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Sila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-TA",
+    "code": "TD-TA",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Tandjilé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-TI",
+    "code": "TD-TI",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Tibesti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TD-WF",
+    "code": "TD-WF",
+    "country": "TD",
+    "parent": "TD",
+    "name": "Wadi Fira"
+  }
+]

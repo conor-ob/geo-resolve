@@ -1,0 +1,178 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MN-035",
+    "code": "MN-035",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Orkhon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-037",
+    "code": "MN-037",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Darkhan-Uul"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-039",
+    "code": "MN-039",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Khentii"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-041",
+    "code": "MN-041",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Khövsgöl"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-043",
+    "code": "MN-043",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Khovd"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-046",
+    "code": "MN-046",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Uvs"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-047",
+    "code": "MN-047",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Töv"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-049",
+    "code": "MN-049",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Selenge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-051",
+    "code": "MN-051",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Sükhbaatar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-053",
+    "code": "MN-053",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Ömnögovi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-055",
+    "code": "MN-055",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Övörkhangai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-057",
+    "code": "MN-057",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Zavkhan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-059",
+    "code": "MN-059",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Dundgovi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-061",
+    "code": "MN-061",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Dornod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-063",
+    "code": "MN-063",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Dornogovi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-064",
+    "code": "MN-064",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Govisümber"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-065",
+    "code": "MN-065",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Govi-Altai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-067",
+    "code": "MN-067",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Bulgan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-069",
+    "code": "MN-069",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Bayankhongor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-071",
+    "code": "MN-071",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Bayan-Ölgii"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-073",
+    "code": "MN-073",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Arkhangai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MN-1",
+    "code": "MN-1",
+    "country": "MN",
+    "parent": "MN",
+    "name": "Ulaanbaatar"
+  }
+]

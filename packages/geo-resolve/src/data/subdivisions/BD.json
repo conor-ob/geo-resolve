@@ -1,0 +1,578 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BD-01",
+    "code": "BD-01",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Bandarban"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-02",
+    "code": "BD-02",
+    "country": "BD",
+    "parent": "BD-A",
+    "name": "Barguna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-03",
+    "code": "BD-03",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Bogra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-04",
+    "code": "BD-04",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Brahmanbaria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-05",
+    "code": "BD-05",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Bagerhat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-06",
+    "code": "BD-06",
+    "country": "BD",
+    "parent": "BD-A",
+    "name": "Barisal Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-07",
+    "code": "BD-07",
+    "country": "BD",
+    "parent": "BD-A",
+    "name": "Bhola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-08",
+    "code": "BD-08",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Comilla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-09",
+    "code": "BD-09",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Chandpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-10",
+    "code": "BD-10",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Chittagong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-11",
+    "code": "BD-11",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Cox’s Bazar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-12",
+    "code": "BD-12",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Chuadanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-13",
+    "code": "BD-13",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Dhaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-14",
+    "code": "BD-14",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Dinajpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-15",
+    "code": "BD-15",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Faridpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-16",
+    "code": "BD-16",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Feni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-17",
+    "code": "BD-17",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Gopalganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-18",
+    "code": "BD-18",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Gazipur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-19",
+    "code": "BD-19",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Gaibandha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-20",
+    "code": "BD-20",
+    "country": "BD",
+    "parent": "BD-G",
+    "name": "Habiganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-21",
+    "code": "BD-21",
+    "country": "BD",
+    "parent": "BD-H",
+    "name": "Jamalpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-22",
+    "code": "BD-22",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Jessore"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-23",
+    "code": "BD-23",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Jhenaidah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-24",
+    "code": "BD-24",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Joypurhat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-25",
+    "code": "BD-25",
+    "country": "BD",
+    "parent": "BD-A",
+    "name": "Jhalokati"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-26",
+    "code": "BD-26",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Kishoreganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-27",
+    "code": "BD-27",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Khulna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-28",
+    "code": "BD-28",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Kurigram"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-29",
+    "code": "BD-29",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Khagrachari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-30",
+    "code": "BD-30",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Kushtia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-31",
+    "code": "BD-31",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Lakshmipur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-32",
+    "code": "BD-32",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Lalmonirhat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-33",
+    "code": "BD-33",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Manikganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-34",
+    "code": "BD-34",
+    "country": "BD",
+    "parent": "BD-H",
+    "name": "Mymensingh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-35",
+    "code": "BD-35",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Munshiganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-36",
+    "code": "BD-36",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Madaripur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-37",
+    "code": "BD-37",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Magura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-38",
+    "code": "BD-38",
+    "country": "BD",
+    "parent": "BD-G",
+    "name": "Maulvi Bazar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-39",
+    "code": "BD-39",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Meherpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-40",
+    "code": "BD-40",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Narayanganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-41",
+    "code": "BD-41",
+    "country": "BD",
+    "parent": "BD-H",
+    "name": "Netrokona"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-42",
+    "code": "BD-42",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Narsingdi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-43",
+    "code": "BD-43",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Narail"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-44",
+    "code": "BD-44",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Natore"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-45",
+    "code": "BD-45",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Nawabganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-46",
+    "code": "BD-46",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Nilphamari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-47",
+    "code": "BD-47",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Noakhali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-48",
+    "code": "BD-48",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Naogaon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-49",
+    "code": "BD-49",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Pabna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-50",
+    "code": "BD-50",
+    "country": "BD",
+    "parent": "BD-A",
+    "name": "Pirojpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-51",
+    "code": "BD-51",
+    "country": "BD",
+    "parent": "BD-A",
+    "name": "Patuakhali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-52",
+    "code": "BD-52",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Panchagarh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-53",
+    "code": "BD-53",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Rajbari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-54",
+    "code": "BD-54",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Rajshahi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-55",
+    "code": "BD-55",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Rangpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-56",
+    "code": "BD-56",
+    "country": "BD",
+    "parent": "BD-B",
+    "name": "Rangamati Hill"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-57",
+    "code": "BD-57",
+    "country": "BD",
+    "parent": "BD-H",
+    "name": "Sherpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-58",
+    "code": "BD-58",
+    "country": "BD",
+    "parent": "BD-D",
+    "name": "Satkhira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-59",
+    "code": "BD-59",
+    "country": "BD",
+    "parent": "BD-E",
+    "name": "Sirajganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-60",
+    "code": "BD-60",
+    "country": "BD",
+    "parent": "BD-G",
+    "name": "Sylhet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-61",
+    "code": "BD-61",
+    "country": "BD",
+    "parent": "BD-G",
+    "name": "Sunamganj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-62",
+    "code": "BD-62",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Shariatpur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-63",
+    "code": "BD-63",
+    "country": "BD",
+    "parent": "BD-C",
+    "name": "Tangail"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-64",
+    "code": "BD-64",
+    "country": "BD",
+    "parent": "BD-F",
+    "name": "Thakurgaon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-A",
+    "code": "BD-A",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Barisal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-B",
+    "code": "BD-B",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Chittagong Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-C",
+    "code": "BD-C",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Dhaka Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-D",
+    "code": "BD-D",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Khulna Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-E",
+    "code": "BD-E",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Rajshahi Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-F",
+    "code": "BD-F",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Rangpur Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-G",
+    "code": "BD-G",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Sylhet Division"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BD-H",
+    "code": "BD-H",
+    "country": "BD",
+    "parent": "BD",
+    "name": "Mymensingh Division"
+  }
+]

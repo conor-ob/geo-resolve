@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SG-01",
+    "code": "SG-01",
+    "country": "SG",
+    "parent": "SG",
+    "name": "Central Singapore"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SG-02",
+    "code": "SG-02",
+    "country": "SG",
+    "parent": "SG",
+    "name": "North East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SG-03",
+    "code": "SG-03",
+    "country": "SG",
+    "parent": "SG",
+    "name": "North West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SG-04",
+    "code": "SG-04",
+    "country": "SG",
+    "parent": "SG",
+    "name": "South East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SG-05",
+    "code": "SG-05",
+    "country": "SG",
+    "parent": "SG",
+    "name": "South West"
+  }
+]

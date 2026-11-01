@@ -1,0 +1,378 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "JP-01",
+    "code": "JP-01",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Hokkaidō"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-02",
+    "code": "JP-02",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Aomori"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-03",
+    "code": "JP-03",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Iwate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-04",
+    "code": "JP-04",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Miyagi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-05",
+    "code": "JP-05",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Akita"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-06",
+    "code": "JP-06",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Yamagata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-07",
+    "code": "JP-07",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Fukushima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-08",
+    "code": "JP-08",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Ibaraki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-09",
+    "code": "JP-09",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Tochigi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-10",
+    "code": "JP-10",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Gunma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-11",
+    "code": "JP-11",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Saitama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-12",
+    "code": "JP-12",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Chiba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-13",
+    "code": "JP-13",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Tokyo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-14",
+    "code": "JP-14",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Kanagawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-15",
+    "code": "JP-15",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Niigata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-16",
+    "code": "JP-16",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Toyama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-17",
+    "code": "JP-17",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Ishikawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-18",
+    "code": "JP-18",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Fukui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-19",
+    "code": "JP-19",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Yamanashi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-20",
+    "code": "JP-20",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Nagano"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-21",
+    "code": "JP-21",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Gifu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-22",
+    "code": "JP-22",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Shizuoka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-23",
+    "code": "JP-23",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Aichi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-24",
+    "code": "JP-24",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Mie"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-25",
+    "code": "JP-25",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Shiga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-26",
+    "code": "JP-26",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Kyōto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-27",
+    "code": "JP-27",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Ōsaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-28",
+    "code": "JP-28",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Hyōgo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-29",
+    "code": "JP-29",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Nara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-30",
+    "code": "JP-30",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Wakayama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-31",
+    "code": "JP-31",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Tottori"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-32",
+    "code": "JP-32",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Shimane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-33",
+    "code": "JP-33",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Okayama"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-34",
+    "code": "JP-34",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Hiroshima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-35",
+    "code": "JP-35",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Yamaguchi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-36",
+    "code": "JP-36",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Tokushima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-37",
+    "code": "JP-37",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Kagawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-38",
+    "code": "JP-38",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Ehime"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-39",
+    "code": "JP-39",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Kōchi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-40",
+    "code": "JP-40",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Fukuoka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-41",
+    "code": "JP-41",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Saga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-42",
+    "code": "JP-42",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Nagasaki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-43",
+    "code": "JP-43",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Kumamoto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-44",
+    "code": "JP-44",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Ōita"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-45",
+    "code": "JP-45",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Miyazaki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-46",
+    "code": "JP-46",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Kagoshima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "JP-47",
+    "code": "JP-47",
+    "country": "JP",
+    "parent": "JP",
+    "name": "Okinawa"
+  }
+]

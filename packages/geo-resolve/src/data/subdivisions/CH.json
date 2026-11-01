@@ -1,0 +1,210 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CH-AG",
+    "code": "CH-AG",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Aargau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-AI",
+    "code": "CH-AI",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Appenzell Innerrhoden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-AR",
+    "code": "CH-AR",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Appenzell Ausserrhoden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-BE",
+    "code": "CH-BE",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Bern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-BL",
+    "code": "CH-BL",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Basel-Landschaft"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-BS",
+    "code": "CH-BS",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Basel-Stadt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-FR",
+    "code": "CH-FR",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Fribourg"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-GE",
+    "code": "CH-GE",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Geneva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-GL",
+    "code": "CH-GL",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Glarus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-GR",
+    "code": "CH-GR",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Graubünden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-JU",
+    "code": "CH-JU",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Jura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-LU",
+    "code": "CH-LU",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Lucerne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-NE",
+    "code": "CH-NE",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Neuchâtel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-NW",
+    "code": "CH-NW",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Nidwalden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-OW",
+    "code": "CH-OW",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Obwalden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-SG",
+    "code": "CH-SG",
+    "country": "CH",
+    "parent": "CH",
+    "name": "St. Gallen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-SH",
+    "code": "CH-SH",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Schaffhausen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-SO",
+    "code": "CH-SO",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Solothurn"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-SZ",
+    "code": "CH-SZ",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Schwyz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-TG",
+    "code": "CH-TG",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Thurgau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-TI",
+    "code": "CH-TI",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Ticino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-UR",
+    "code": "CH-UR",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Uri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-VD",
+    "code": "CH-VD",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Vaud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-VS",
+    "code": "CH-VS",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Valais"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-ZG",
+    "code": "CH-ZG",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Zug"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CH-ZH",
+    "code": "CH-ZH",
+    "country": "CH",
+    "parent": "CH",
+    "name": "Zürich"
+  }
+]

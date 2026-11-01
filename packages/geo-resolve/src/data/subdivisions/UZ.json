@@ -1,0 +1,114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "UZ-AN",
+    "code": "UZ-AN",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Andijan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-BU",
+    "code": "UZ-BU",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Bukhara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-FA",
+    "code": "UZ-FA",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Fergana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-JI",
+    "code": "UZ-JI",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Jizzakh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-NG",
+    "code": "UZ-NG",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Namangan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-NW",
+    "code": "UZ-NW",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Navoiy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-QA",
+    "code": "UZ-QA",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Qashqadaryo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-QR",
+    "code": "UZ-QR",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Karakalpakstan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-SA",
+    "code": "UZ-SA",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Samarqand"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-SI",
+    "code": "UZ-SI",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Sirdaryo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-SU",
+    "code": "UZ-SU",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Surxondaryo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-TK",
+    "code": "UZ-TK",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Tashkent"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-TO",
+    "code": "UZ-TO",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Tashkent Province"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UZ-XO",
+    "code": "UZ-XO",
+    "country": "UZ",
+    "parent": "UZ",
+    "name": "Xorazm"
+  }
+]

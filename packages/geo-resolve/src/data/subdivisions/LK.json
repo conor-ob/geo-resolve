@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LK-1",
+    "code": "LK-1",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-11",
+    "code": "LK-11",
+    "country": "LK",
+    "parent": "LK-1",
+    "name": "Colombo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-12",
+    "code": "LK-12",
+    "country": "LK",
+    "parent": "LK-1",
+    "name": "Gampaha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-13",
+    "code": "LK-13",
+    "country": "LK",
+    "parent": "LK-1",
+    "name": "Kalutara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-2",
+    "code": "LK-2",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-21",
+    "code": "LK-21",
+    "country": "LK",
+    "parent": "LK-2",
+    "name": "Kandy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-22",
+    "code": "LK-22",
+    "country": "LK",
+    "parent": "LK-2",
+    "name": "Matale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-23",
+    "code": "LK-23",
+    "country": "LK",
+    "parent": "LK-2",
+    "name": "Nuwara Eliya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-3",
+    "code": "LK-3",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Southern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-31",
+    "code": "LK-31",
+    "country": "LK",
+    "parent": "LK-3",
+    "name": "Galle"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-32",
+    "code": "LK-32",
+    "country": "LK",
+    "parent": "LK-3",
+    "name": "Matara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-33",
+    "code": "LK-33",
+    "country": "LK",
+    "parent": "LK-3",
+    "name": "Hambantota"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-4",
+    "code": "LK-4",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-41",
+    "code": "LK-41",
+    "country": "LK",
+    "parent": "LK-4",
+    "name": "Jaffna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-42",
+    "code": "LK-42",
+    "country": "LK",
+    "parent": "LK-4",
+    "name": "Kilinochchi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-43",
+    "code": "LK-43",
+    "country": "LK",
+    "parent": "LK-4",
+    "name": "Mannar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-44",
+    "code": "LK-44",
+    "country": "LK",
+    "parent": "LK-4",
+    "name": "Vavuniya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-45",
+    "code": "LK-45",
+    "country": "LK",
+    "parent": "LK-4",
+    "name": "Mullaitivu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-5",
+    "code": "LK-5",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-51",
+    "code": "LK-51",
+    "country": "LK",
+    "parent": "LK-5",
+    "name": "Batticaloa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-52",
+    "code": "LK-52",
+    "country": "LK",
+    "parent": "LK-5",
+    "name": "Ampara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-53",
+    "code": "LK-53",
+    "country": "LK",
+    "parent": "LK-5",
+    "name": "Trincomalee"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-6",
+    "code": "LK-6",
+    "country": "LK",
+    "parent": "LK",
+    "name": "North Western"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-61",
+    "code": "LK-61",
+    "country": "LK",
+    "parent": "LK-6",
+    "name": "Kurunegala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-62",
+    "code": "LK-62",
+    "country": "LK",
+    "parent": "LK-6",
+    "name": "Puttalam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-7",
+    "code": "LK-7",
+    "country": "LK",
+    "parent": "LK",
+    "name": "North Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-71",
+    "code": "LK-71",
+    "country": "LK",
+    "parent": "LK-7",
+    "name": "Anuradhapura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-72",
+    "code": "LK-72",
+    "country": "LK",
+    "parent": "LK-7",
+    "name": "Polonnaruwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-8",
+    "code": "LK-8",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Uva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-81",
+    "code": "LK-81",
+    "country": "LK",
+    "parent": "LK-8",
+    "name": "Badulla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-82",
+    "code": "LK-82",
+    "country": "LK",
+    "parent": "LK-8",
+    "name": "Moneragala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-9",
+    "code": "LK-9",
+    "country": "LK",
+    "parent": "LK",
+    "name": "Sabaragamuwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-91",
+    "code": "LK-91",
+    "country": "LK",
+    "parent": "LK-9",
+    "name": "Ratnapura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LK-92",
+    "code": "LK-92",
+    "country": "LK",
+    "parent": "LK-9",
+    "name": "Kegalle"
+  }
+]

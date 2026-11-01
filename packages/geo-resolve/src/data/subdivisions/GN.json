@@ -1,0 +1,330 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "GN-B",
+    "code": "GN-B",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Boké Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-BE",
+    "code": "GN-BE",
+    "country": "GN",
+    "parent": "GN-N",
+    "name": "Beyla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-BF",
+    "code": "GN-BF",
+    "country": "GN",
+    "parent": "GN-B",
+    "name": "Boffa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-BK",
+    "code": "GN-BK",
+    "country": "GN",
+    "parent": "GN-B",
+    "name": "Boké"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-C",
+    "code": "GN-C",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Conakry"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-CO",
+    "code": "GN-CO",
+    "country": "GN",
+    "parent": "GN-D",
+    "name": "Coyah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-D",
+    "code": "GN-D",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Kindia Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-DB",
+    "code": "GN-DB",
+    "country": "GN",
+    "parent": "GN-F",
+    "name": "Dabola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-DI",
+    "code": "GN-DI",
+    "country": "GN",
+    "parent": "GN-F",
+    "name": "Dinguiraye"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-DL",
+    "code": "GN-DL",
+    "country": "GN",
+    "parent": "GN-M",
+    "name": "Dalaba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-DU",
+    "code": "GN-DU",
+    "country": "GN",
+    "parent": "GN-D",
+    "name": "Dubréka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-F",
+    "code": "GN-F",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Faranah Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-FA",
+    "code": "GN-FA",
+    "country": "GN",
+    "parent": "GN-F",
+    "name": "Faranah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-FO",
+    "code": "GN-FO",
+    "country": "GN",
+    "parent": "GN-D",
+    "name": "Forécariah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-FR",
+    "code": "GN-FR",
+    "country": "GN",
+    "parent": "GN-B",
+    "name": "Fria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-GA",
+    "code": "GN-GA",
+    "country": "GN",
+    "parent": "GN-B",
+    "name": "Gaoual"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-GU",
+    "code": "GN-GU",
+    "country": "GN",
+    "parent": "GN-N",
+    "name": "Guéckédou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-K",
+    "code": "GN-K",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Kankan Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KA",
+    "code": "GN-KA",
+    "country": "GN",
+    "parent": "GN-K",
+    "name": "Kankan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KB",
+    "code": "GN-KB",
+    "country": "GN",
+    "parent": "GN-L",
+    "name": "Koubia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KD",
+    "code": "GN-KD",
+    "country": "GN",
+    "parent": "GN-D",
+    "name": "Kindia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KE",
+    "code": "GN-KE",
+    "country": "GN",
+    "parent": "GN-K",
+    "name": "Kérouané"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KN",
+    "code": "GN-KN",
+    "country": "GN",
+    "parent": "GN-B",
+    "name": "Koundara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KO",
+    "code": "GN-KO",
+    "country": "GN",
+    "parent": "GN-K",
+    "name": "Kouroussa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-KS",
+    "code": "GN-KS",
+    "country": "GN",
+    "parent": "GN-F",
+    "name": "Kissidougou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-L",
+    "code": "GN-L",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Labé Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-LA",
+    "code": "GN-LA",
+    "country": "GN",
+    "parent": "GN-L",
+    "name": "Labé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-LE",
+    "code": "GN-LE",
+    "country": "GN",
+    "parent": "GN-L",
+    "name": "Lélouma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-LO",
+    "code": "GN-LO",
+    "country": "GN",
+    "parent": "GN-N",
+    "name": "Lola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-M",
+    "code": "GN-M",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Mamou Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-MC",
+    "code": "GN-MC",
+    "country": "GN",
+    "parent": "GN-N",
+    "name": "Macenta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-MD",
+    "code": "GN-MD",
+    "country": "GN",
+    "parent": "GN-K",
+    "name": "Mandiana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-ML",
+    "code": "GN-ML",
+    "country": "GN",
+    "parent": "GN-L",
+    "name": "Mali"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-MM",
+    "code": "GN-MM",
+    "country": "GN",
+    "parent": "GN-M",
+    "name": "Mamou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-N",
+    "code": "GN-N",
+    "country": "GN",
+    "parent": "GN",
+    "name": "Nzérékoré Region"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-NZ",
+    "code": "GN-NZ",
+    "country": "GN",
+    "parent": "GN-N",
+    "name": "Nzérékoré"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-PI",
+    "code": "GN-PI",
+    "country": "GN",
+    "parent": "GN-M",
+    "name": "Pita"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-SI",
+    "code": "GN-SI",
+    "country": "GN",
+    "parent": "GN-K",
+    "name": "Siguiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-TE",
+    "code": "GN-TE",
+    "country": "GN",
+    "parent": "GN-D",
+    "name": "Télimélé"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-TO",
+    "code": "GN-TO",
+    "country": "GN",
+    "parent": "GN-L",
+    "name": "Tougué"
+  },
+  {
+    "kind": "subdivision",
+    "id": "GN-YO",
+    "code": "GN-YO",
+    "country": "GN",
+    "parent": "GN-N",
+    "name": "Yomou"
+  }
+]

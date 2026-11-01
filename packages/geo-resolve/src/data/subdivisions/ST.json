@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ST-01",
+    "code": "ST-01",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Água Grande"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ST-02",
+    "code": "ST-02",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Cantagalo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ST-03",
+    "code": "ST-03",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Caué"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ST-04",
+    "code": "ST-04",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Lembá"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ST-05",
+    "code": "ST-05",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Lobata"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ST-06",
+    "code": "ST-06",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Mé-Zóchi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ST-P",
+    "code": "ST-P",
+    "country": "ST",
+    "parent": "ST",
+    "name": "Príncipe"
+  }
+]

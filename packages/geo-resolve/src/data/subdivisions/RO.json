@@ -1,0 +1,338 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "RO-AB",
+    "code": "RO-AB",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Alba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-AG",
+    "code": "RO-AG",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Argeș"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-AR",
+    "code": "RO-AR",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Arad"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-B",
+    "code": "RO-B",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Bucharest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BC",
+    "code": "RO-BC",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Bacău"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BH",
+    "code": "RO-BH",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Bihor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BN",
+    "code": "RO-BN",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Bistriţa-Năsăud"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BR",
+    "code": "RO-BR",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Brăila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BT",
+    "code": "RO-BT",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Botoşani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BV",
+    "code": "RO-BV",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Braşov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-BZ",
+    "code": "RO-BZ",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Buzău"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-CJ",
+    "code": "RO-CJ",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Cluj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-CL",
+    "code": "RO-CL",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Călărași"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-CS",
+    "code": "RO-CS",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Caraș-Severin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-CT",
+    "code": "RO-CT",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Constanța"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-CV",
+    "code": "RO-CV",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Covasna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-DB",
+    "code": "RO-DB",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Dâmbovița"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-DJ",
+    "code": "RO-DJ",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Dolj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-GJ",
+    "code": "RO-GJ",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Gorj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-GL",
+    "code": "RO-GL",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Galați"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-GR",
+    "code": "RO-GR",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Giurgiu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-HD",
+    "code": "RO-HD",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Hunedoara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-HR",
+    "code": "RO-HR",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Harghita"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-IF",
+    "code": "RO-IF",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Ilfov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-IL",
+    "code": "RO-IL",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Ialomița"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-IS",
+    "code": "RO-IS",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Iași"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-MH",
+    "code": "RO-MH",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Mehedinți"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-MM",
+    "code": "RO-MM",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Maramureş"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-MS",
+    "code": "RO-MS",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Mureş"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-NT",
+    "code": "RO-NT",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Neamţ"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-OT",
+    "code": "RO-OT",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Olt"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-PH",
+    "code": "RO-PH",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Prahova"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-SB",
+    "code": "RO-SB",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Sibiu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-SJ",
+    "code": "RO-SJ",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Sălaj"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-SM",
+    "code": "RO-SM",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Satu Mare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-SV",
+    "code": "RO-SV",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Suceava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-TL",
+    "code": "RO-TL",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Tulcea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-TM",
+    "code": "RO-TM",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Timiș"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-TR",
+    "code": "RO-TR",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Teleorman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-VL",
+    "code": "RO-VL",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Vâlcea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-VN",
+    "code": "RO-VN",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Vrancea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "RO-VS",
+    "code": "RO-VS",
+    "country": "RO",
+    "parent": "RO",
+    "name": "Vaslui"
+  }
+]

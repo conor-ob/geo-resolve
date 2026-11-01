@@ -1,0 +1,138 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NZ-AUK",
+    "code": "NZ-AUK",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Auckland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-BOP",
+    "code": "NZ-BOP",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Bay of Plenty"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-CAN",
+    "code": "NZ-CAN",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Canterbury"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-CIT",
+    "code": "NZ-CIT",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Chatham Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-GIS",
+    "code": "NZ-GIS",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Gisborne"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-HKB",
+    "code": "NZ-HKB",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Hawke’s Bay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-MBH",
+    "code": "NZ-MBH",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Marl"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-MWT",
+    "code": "NZ-MWT",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Manawatu-Wanganui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-NSN",
+    "code": "NZ-NSN",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Nelson"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-NTL",
+    "code": "NZ-NTL",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Northland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-OTA",
+    "code": "NZ-OTA",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Otago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-STL",
+    "code": "NZ-STL",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Southland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-TAS",
+    "code": "NZ-TAS",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Tasman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-TKI",
+    "code": "NZ-TKI",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Taranaki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-WGN",
+    "code": "NZ-WGN",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Wellington"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-WKO",
+    "code": "NZ-WKO",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "Waikato"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NZ-WTC",
+    "code": "NZ-WTC",
+    "country": "NZ",
+    "parent": "NZ",
+    "name": "West Coast"
+  }
+]

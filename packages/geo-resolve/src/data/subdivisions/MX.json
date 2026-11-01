@@ -1,0 +1,258 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MX-AGU",
+    "code": "MX-AGU",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Aguascalientes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-BCN",
+    "code": "MX-BCN",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Baja California"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-BCS",
+    "code": "MX-BCS",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Baja California Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-CAM",
+    "code": "MX-CAM",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Campeche"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-CHH",
+    "code": "MX-CHH",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Chihuahua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-CHP",
+    "code": "MX-CHP",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Chiapas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-CMX",
+    "code": "MX-CMX",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Ciudad de Mexico"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-COA",
+    "code": "MX-COA",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Coahuila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-COL",
+    "code": "MX-COL",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Colima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-DUR",
+    "code": "MX-DUR",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Durango"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-GRO",
+    "code": "MX-GRO",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Guerrero"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-GUA",
+    "code": "MX-GUA",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Guanajuato"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-HID",
+    "code": "MX-HID",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Hidalgo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-JAL",
+    "code": "MX-JAL",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Jalisco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-MEX",
+    "code": "MX-MEX",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Mexico State"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-MIC",
+    "code": "MX-MIC",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Michoacán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-MOR",
+    "code": "MX-MOR",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Morelos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-NAY",
+    "code": "MX-NAY",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Nayarit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-NLE",
+    "code": "MX-NLE",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Nuevo León"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-OAX",
+    "code": "MX-OAX",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Oaxaca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-PUE",
+    "code": "MX-PUE",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Puebla"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-QUE",
+    "code": "MX-QUE",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Querétaro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-ROO",
+    "code": "MX-ROO",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Quintana Roo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-SIN",
+    "code": "MX-SIN",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Sinaloa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-SLP",
+    "code": "MX-SLP",
+    "country": "MX",
+    "parent": "MX",
+    "name": "San Luis Potosí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-SON",
+    "code": "MX-SON",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Sonora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-TAB",
+    "code": "MX-TAB",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Tabasco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-TAM",
+    "code": "MX-TAM",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Tamaulipas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-TLA",
+    "code": "MX-TLA",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Tlaxcala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-VER",
+    "code": "MX-VER",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Veracruz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-YUC",
+    "code": "MX-YUC",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Yucatán"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MX-ZAC",
+    "code": "MX-ZAC",
+    "country": "MX",
+    "parent": "MX",
+    "name": "Zacatecas"
+  }
+]

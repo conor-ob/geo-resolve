@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MM-01",
+    "code": "MM-01",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Sagaing"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-02",
+    "code": "MM-02",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Bago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-03",
+    "code": "MM-03",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Magway"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-04",
+    "code": "MM-04",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Mandalay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-05",
+    "code": "MM-05",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Tanintharyi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-06",
+    "code": "MM-06",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Yangon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-07",
+    "code": "MM-07",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Ayeyarwady"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-11",
+    "code": "MM-11",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Kachin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-12",
+    "code": "MM-12",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Kayah"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-13",
+    "code": "MM-13",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Kayin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-14",
+    "code": "MM-14",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Chin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-15",
+    "code": "MM-15",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Mon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-16",
+    "code": "MM-16",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Rakhine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-17",
+    "code": "MM-17",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Shan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MM-18",
+    "code": "MM-18",
+    "country": "MM",
+    "parent": "MM",
+    "name": "Naypyidaw"
+  }
+]

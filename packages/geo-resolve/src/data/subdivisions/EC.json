@@ -1,0 +1,194 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "EC-A",
+    "code": "EC-A",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Azuay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-B",
+    "code": "EC-B",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Bolívar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-C",
+    "code": "EC-C",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Carchi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-D",
+    "code": "EC-D",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Orellana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-E",
+    "code": "EC-E",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Esmeraldas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-F",
+    "code": "EC-F",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Cañar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-G",
+    "code": "EC-G",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Guayas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-H",
+    "code": "EC-H",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Chimborazo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-I",
+    "code": "EC-I",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Imbabura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-L",
+    "code": "EC-L",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Loja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-M",
+    "code": "EC-M",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Manabí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-N",
+    "code": "EC-N",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Napo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-O",
+    "code": "EC-O",
+    "country": "EC",
+    "parent": "EC",
+    "name": "El Oro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-P",
+    "code": "EC-P",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Pichincha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-R",
+    "code": "EC-R",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Los Ríos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-S",
+    "code": "EC-S",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Morona-Santiago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-SD",
+    "code": "EC-SD",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Santo Domingo de los Tsáchilas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-SE",
+    "code": "EC-SE",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Santa Elena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-T",
+    "code": "EC-T",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Tungurahua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-U",
+    "code": "EC-U",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Sucumbíos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-W",
+    "code": "EC-W",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Galápagos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-X",
+    "code": "EC-X",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Cotopaxi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-Y",
+    "code": "EC-Y",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Pastaza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "EC-Z",
+    "code": "EC-Z",
+    "country": "EC",
+    "parent": "EC",
+    "name": "Zamora-Chinchipe"
+  }
+]

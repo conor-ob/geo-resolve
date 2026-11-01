@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
-import type { Country } from "geo-resolve";
+import type { Country, Subdivision } from "geo-resolve";
 import { z } from "zod";
 
 export interface BuildOptions {
@@ -26,10 +26,26 @@ const CountrySchema = z.strictObject({
 type Exactly<A, B> =
   (<T>() => T extends A ? 1 : 2) extends <T>() => T extends B ? 1 : 2 ? true : false;
 
-// The published Country type is the source of truth; this fails typechecking if the schema drifts from it.
-true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Country>;
+const SubdivisionCodeSchema = z
+  .string()
+  .regex(/^[A-Z]{2}-[A-Z0-9]{1,3}$/, "must be a Subdivision code");
 
-const RegionValiditySchema = z.object({
+const SubdivisionSchema = z.strictObject({
+  kind: z.literal("subdivision"),
+  id: SubdivisionCodeSchema,
+  code: SubdivisionCodeSchema,
+  country: Alpha2Schema,
+  parent: z.union([Alpha2Schema, SubdivisionCodeSchema]),
+  name: z.string().min(1, "must not be empty"),
+});
+
+// The published Entity types are the source of truth; these fail typechecking if a schema drifts from them.
+// No Source fills `codes` yet, so the schemas reject it until Code systems are built.
+true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Omit<Country, "codes">>;
+true satisfies Exactly<Readonly<z.infer<typeof SubdivisionSchema>>, Omit<Subdivision, "codes">>;
+
+/** A CLDR validity file, which lists codes of one type (regions, Subdivisions) by status. */
+const IdValiditySchema = z.object({
   supplementalData: z.object({
     idValidity: z.object({
       id: z.array(
@@ -75,11 +91,39 @@ function isAssignedByIso(code: string): boolean {
   return !/^(Q[M-Z]|X[A-Z])$/.test(code);
 }
 
+/** An element with no children parses as `""`; this reads it as an element with none. */
+function element<T extends z.ZodType>(schema: T) {
+  return z.preprocess((value) => (value === "" ? {} : value), schema);
+}
+
+const SubdivisionContainmentSchema = z.object({
+  supplementalData: z.object({
+    subdivisionContainment: element(
+      z.object({
+        subgroup: z.array(z.object({ type: z.string(), contains: z.string() })).default([]),
+      }),
+    ),
+  }),
+});
+
+const EnglishSubdivisionNamesSchema = z.object({
+  ldml: z.object({
+    localeDisplayNames: z.object({
+      subdivisions: element(
+        z.object({
+          subdivision: z.array(z.object({ type: z.string(), "#text": z.string() })).default([]),
+        }),
+      ),
+    }),
+  }),
+});
+
 const xml = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "",
   parseTagValue: false,
-  isArray: (name) => ["id", "territoryCodes", "territory"].includes(name),
+  isArray: (name) =>
+    ["id", "territoryCodes", "territory", "subgroup", "subdivision"].includes(name),
 });
 
 async function readSnapshot<T>(sourcesDir: string, path: string, schema: z.ZodType<T>): Promise<T> {
@@ -106,12 +150,26 @@ function expandCodes(list: string): string[] {
     });
 }
 
+/** Turns a CLDR Subdivision code such as `usca` into its Subdivision code, `US-CA`. */
+function subdivisionCode(cldrCode: string): string {
+  return `${cldrCode.slice(0, 2)}-${cldrCode.slice(2)}`.toUpperCase();
+}
+
+/** Turns a CLDR containment `type` into its Parent's Entity `id`: Countries are written as Alpha-2 codes, Subdivisions in lowercase. */
+function parentId(type: string): string {
+  return /^[A-Z]{2}$/.test(type) ? type : subdivisionCode(type);
+}
+
+function byId(a: { id: string }, b: { id: string }): number {
+  return a.id < b.id ? -1 : a.id > b.id ? 1 : 0;
+}
+
 /** Reads the Snapshots in `sourcesDir`, validates every record and writes sorted Data packs to `outDir`. */
 export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void> {
   const validity = await readSnapshot(
     sourcesDir,
     "cldr/common/validity/region.xml",
-    RegionValiditySchema,
+    IdValiditySchema,
   );
   const mappings = await readSnapshot(
     sourcesDir,
@@ -119,6 +177,21 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
     CodeMappingsSchema,
   );
   const english = await readSnapshot(sourcesDir, "cldr/common/main/en.xml", EnglishNamesSchema);
+  const subdivisionValidity = await readSnapshot(
+    sourcesDir,
+    "cldr/common/validity/subdivision.xml",
+    IdValiditySchema,
+  );
+  const containment = await readSnapshot(
+    sourcesDir,
+    "cldr/common/supplemental/subdivisions.xml",
+    SubdivisionContainmentSchema,
+  );
+  const englishSubdivisions = await readSnapshot(
+    sourcesDir,
+    "cldr/common/subdivisions/en.xml",
+    EnglishSubdivisionNamesSchema,
+  );
 
   const codes = new Map(
     mappings.supplementalData.codeMappings.territoryCodes.map((row) => [row.type, row]),
@@ -157,9 +230,123 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
     }
   }
 
+  // Containment also lists codes CLDR has deprecated in favour of a CLDR region (`uspr` for PR); only regular codes are Subdivisions.
+  const parents = new Map<string, string>();
+  for (const { type, contains } of containment.supplementalData.subdivisionContainment.subgroup) {
+    for (const child of contains.split(/\s+/).filter(Boolean)) {
+      const id = subdivisionCode(child);
+      const parent = parentId(type);
+      const existing = parents.get(id);
+      if (existing !== undefined && existing !== parent)
+        problems.push(`Subdivision ${id} has two Parents, ${existing} and ${parent}`);
+      parents.set(id, parent);
+    }
+  }
+  const subdivisionNames = new Map(
+    englishSubdivisions.ldml.localeDisplayNames.subdivisions.subdivision.map((row) => [
+      subdivisionCode(row.type),
+      row["#text"],
+    ]),
+  );
+  const subdivisionIds = subdivisionValidity.supplementalData.idValidity.id
+    .filter((row) => row.type === "subdivision" && row.idStatus === "regular")
+    .flatMap((row) => expandCodes(row["#text"]))
+    .map(subdivisionCode);
+  const countryIds = new Set(countries.map((country) => country.id));
+  const knownSubdivisionIds = new Set(subdivisionIds);
+
+  /** Follows Parents up to the Country at the top, or returns `undefined` when the chain breaks or loops. */
+  function countryOf(id: string): string | undefined {
+    const seen = new Set<string>();
+    for (let current = parents.get(id); current !== undefined; current = parents.get(current)) {
+      if (countryIds.has(current)) return current;
+      if (!knownSubdivisionIds.has(current)) {
+        problems.push(`Subdivision ${id} has a dangling Parent ${current}`);
+        return undefined;
+      }
+      if (seen.has(current)) {
+        problems.push(`Subdivision ${id} has Parents that form a cycle`);
+        return undefined;
+      }
+      seen.add(current);
+    }
+    problems.push(`Subdivision ${id} has no Parent`);
+    return undefined;
+  }
+
+  const subdivisions: Subdivision[] = [];
+  for (const id of subdivisionIds) {
+    const country = countryOf(id);
+    if (country === undefined) continue;
+    if (!id.startsWith(`${country}-`)) {
+      problems.push(`Subdivision ${id} doesn't start with its Country's Alpha-2 code ${country}`);
+      continue;
+    }
+    const record = {
+      kind: "subdivision",
+      id,
+      code: id,
+      country,
+      parent: parents.get(id),
+      name: subdivisionNames.get(id),
+    };
+    const parsed = SubdivisionSchema.safeParse(record);
+    if (parsed.success) subdivisions.push(parsed.data);
+    else problems.push(`Subdivision ${id}:\n${z.prettifyError(parsed.error)}`);
+  }
+
+  const seenIds = new Set<string>();
+  for (const { id } of subdivisions) {
+    if (seenIds.has(id) || countryIds.has(id)) problems.push(`Duplicate id ${id}`);
+    seenIds.add(id);
+  }
+
   if (problems.length > 0) throw new Error(`Invalid data:\n${problems.join("\n")}`);
 
-  countries.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
-  await mkdir(outDir, { recursive: true });
-  await writeFile(join(outDir, "countries.json"), `${JSON.stringify(countries, null, 2)}\n`);
+  countries.sort(byId);
+  subdivisions.sort(byId);
+  await mkdir(join(outDir, "subdivisions"), { recursive: true });
+  await writeJson(join(outDir, "countries.json"), countries);
+  for (const { id } of countries) {
+    const pack = subdivisions.filter((subdivision) => subdivision.country === id);
+    await writeJson(join(outDir, "subdivisions", `${id}.json`), pack);
+    await writeFile(join(outDir, "subdivisions", `${id}.ts`), countrySubdivisionsModule(id));
+  }
+  await writeFile(join(outDir, "subdivisions.ts"), allSubdivisionsModule(countries));
+}
+
+const GENERATED = "// Generated by `@geo-resolve/codegen build` from the Snapshots. Do not edit.";
+
+/** The `geo-resolve/data/subdivisions/<country>` Data pack. */
+function countrySubdivisionsModule(country: string): string {
+  return `${GENERATED}
+import { dataPack } from "../../data-pack.ts";
+import type { Subdivision } from "../../types.ts";
+import subdivisions from "./${country}.json" with { type: "json" };
+
+/** The Subdivisions of the Country ${country}, sorted by \`id\`. */
+export default dataPack(subdivisions as readonly Subdivision[]);
+`;
+}
+
+/**
+ * The `geo-resolve/data/subdivisions` Data pack, built from the per-Country packs so that loading
+ * both shares the same Entities rather than duplicating them.
+ */
+function allSubdivisionsModule(countries: readonly Country[]): string {
+  const imports = countries.map(({ id }) => `import ${id} from "./subdivisions/${id}.ts";`);
+  const spreads = countries.map(({ id }) => `  ...${id},`);
+  return `${GENERATED}
+import { dataPack } from "../data-pack.ts";
+${imports.join("\n")}
+
+/** Every Subdivision, sorted by \`id\`. */
+export default dataPack([
+${spreads.join("\n")}
+]);
+`;
+}
+
+async function writeJson(path: string, value: unknown): Promise<void> {
+  await writeFile(path, `${JSON.stringify(value, null, 2)}\n`);
 }

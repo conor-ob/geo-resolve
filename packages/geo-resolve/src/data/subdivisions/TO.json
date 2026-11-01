@@ -1,0 +1,42 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "TO-01",
+    "code": "TO-01",
+    "country": "TO",
+    "parent": "TO",
+    "name": "ʻEua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TO-02",
+    "code": "TO-02",
+    "country": "TO",
+    "parent": "TO",
+    "name": "Haʻapai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TO-03",
+    "code": "TO-03",
+    "country": "TO",
+    "parent": "TO",
+    "name": "Niuas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TO-04",
+    "code": "TO-04",
+    "country": "TO",
+    "parent": "TO",
+    "name": "Tongatapu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "TO-05",
+    "code": "TO-05",
+    "country": "TO",
+    "parent": "TO",
+    "name": "Vavaʻu"
+  }
+]

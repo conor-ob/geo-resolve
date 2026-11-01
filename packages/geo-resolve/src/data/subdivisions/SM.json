@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "SM-01",
+    "code": "SM-01",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Acquaviva"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-02",
+    "code": "SM-02",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Chiesanuova"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-03",
+    "code": "SM-03",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Domagnano"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-04",
+    "code": "SM-04",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Faetano"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-05",
+    "code": "SM-05",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Fiorentino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-06",
+    "code": "SM-06",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Borgo Maggiore"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-07",
+    "code": "SM-07",
+    "country": "SM",
+    "parent": "SM",
+    "name": "San Marino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-08",
+    "code": "SM-08",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Montegiardino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SM-09",
+    "code": "SM-09",
+    "country": "SM",
+    "parent": "SM",
+    "name": "Serravalle"
+  }
+]

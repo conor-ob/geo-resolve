@@ -1,0 +1,562 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "LT-01",
+    "code": "LT-01",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Akmenė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-02",
+    "code": "LT-02",
+    "country": "LT",
+    "parent": "LT-AL",
+    "name": "Alytus Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-03",
+    "code": "LT-03",
+    "country": "LT",
+    "parent": "LT-AL",
+    "name": "Alytus"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-04",
+    "code": "LT-04",
+    "country": "LT",
+    "parent": "LT-UT",
+    "name": "Anykščiai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-05",
+    "code": "LT-05",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Birštonas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-06",
+    "code": "LT-06",
+    "country": "LT",
+    "parent": "LT-PN",
+    "name": "Biržai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-07",
+    "code": "LT-07",
+    "country": "LT",
+    "parent": "LT-AL",
+    "name": "Druskininkai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-08",
+    "code": "LT-08",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Elektrėnai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-09",
+    "code": "LT-09",
+    "country": "LT",
+    "parent": "LT-UT",
+    "name": "Ignalina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-10",
+    "code": "LT-10",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Jonava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-11",
+    "code": "LT-11",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Joniškis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-12",
+    "code": "LT-12",
+    "country": "LT",
+    "parent": "LT-TA",
+    "name": "Jurbarkas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-13",
+    "code": "LT-13",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Kaišiadorys"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-14",
+    "code": "LT-14",
+    "country": "LT",
+    "parent": "LT-MR",
+    "name": "Kalvarija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-15",
+    "code": "LT-15",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Kauno Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-16",
+    "code": "LT-16",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Kaunas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-17",
+    "code": "LT-17",
+    "country": "LT",
+    "parent": "LT-MR",
+    "name": "Kazlų Rūda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-18",
+    "code": "LT-18",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Kėdainiai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-19",
+    "code": "LT-19",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Kelmė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-20",
+    "code": "LT-20",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Klaipėdos Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-21",
+    "code": "LT-21",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Klaipėda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-22",
+    "code": "LT-22",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Kretinga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-23",
+    "code": "LT-23",
+    "country": "LT",
+    "parent": "LT-PN",
+    "name": "Kupiškis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-24",
+    "code": "LT-24",
+    "country": "LT",
+    "parent": "LT-AL",
+    "name": "Lazdijai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-25",
+    "code": "LT-25",
+    "country": "LT",
+    "parent": "LT-MR",
+    "name": "Marijampolė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-26",
+    "code": "LT-26",
+    "country": "LT",
+    "parent": "LT-TE",
+    "name": "Mažeikiai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-27",
+    "code": "LT-27",
+    "country": "LT",
+    "parent": "LT-UT",
+    "name": "Molėtai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-28",
+    "code": "LT-28",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Neringa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-29",
+    "code": "LT-29",
+    "country": "LT",
+    "parent": "LT-TA",
+    "name": "Pagėgiai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-30",
+    "code": "LT-30",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Pakruojis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-31",
+    "code": "LT-31",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Palanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-32",
+    "code": "LT-32",
+    "country": "LT",
+    "parent": "LT-PN",
+    "name": "Panevėžio Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-33",
+    "code": "LT-33",
+    "country": "LT",
+    "parent": "LT-PN",
+    "name": "Panevėžys"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-34",
+    "code": "LT-34",
+    "country": "LT",
+    "parent": "LT-PN",
+    "name": "Pasvalys"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-35",
+    "code": "LT-35",
+    "country": "LT",
+    "parent": "LT-TE",
+    "name": "Plungė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-36",
+    "code": "LT-36",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Prienai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-37",
+    "code": "LT-37",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Radviliškis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-38",
+    "code": "LT-38",
+    "country": "LT",
+    "parent": "LT-KU",
+    "name": "Raseiniai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-39",
+    "code": "LT-39",
+    "country": "LT",
+    "parent": "LT-TE",
+    "name": "Rietavas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-40",
+    "code": "LT-40",
+    "country": "LT",
+    "parent": "LT-PN",
+    "name": "Rokiškis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-41",
+    "code": "LT-41",
+    "country": "LT",
+    "parent": "LT-MR",
+    "name": "Šakiai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-42",
+    "code": "LT-42",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Šalčininkai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-43",
+    "code": "LT-43",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Šiaulių Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-44",
+    "code": "LT-44",
+    "country": "LT",
+    "parent": "LT-SA",
+    "name": "Šiauliai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-45",
+    "code": "LT-45",
+    "country": "LT",
+    "parent": "LT-TA",
+    "name": "Šilalė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-46",
+    "code": "LT-46",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Šilutė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-47",
+    "code": "LT-47",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Širvintos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-48",
+    "code": "LT-48",
+    "country": "LT",
+    "parent": "LT-KL",
+    "name": "Skuodas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-49",
+    "code": "LT-49",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Švenčionys"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-50",
+    "code": "LT-50",
+    "country": "LT",
+    "parent": "LT-TA",
+    "name": "Tauragė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-51",
+    "code": "LT-51",
+    "country": "LT",
+    "parent": "LT-TE",
+    "name": "Telšiai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-52",
+    "code": "LT-52",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Trakai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-53",
+    "code": "LT-53",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Ukmergė"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-54",
+    "code": "LT-54",
+    "country": "LT",
+    "parent": "LT-UT",
+    "name": "Utena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-55",
+    "code": "LT-55",
+    "country": "LT",
+    "parent": "LT-AL",
+    "name": "Varėna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-56",
+    "code": "LT-56",
+    "country": "LT",
+    "parent": "LT-MR",
+    "name": "Vilkaviškis"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-57",
+    "code": "LT-57",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Vilniaus Municipality"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-58",
+    "code": "LT-58",
+    "country": "LT",
+    "parent": "LT-VL",
+    "name": "Vilnius"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-59",
+    "code": "LT-59",
+    "country": "LT",
+    "parent": "LT-UT",
+    "name": "Visaginas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-60",
+    "code": "LT-60",
+    "country": "LT",
+    "parent": "LT-UT",
+    "name": "Zarasai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-AL",
+    "code": "LT-AL",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Alytus County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-KL",
+    "code": "LT-KL",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Klaipėda County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-KU",
+    "code": "LT-KU",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Kaunas County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-MR",
+    "code": "LT-MR",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Marijampolė County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-PN",
+    "code": "LT-PN",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Panevėžys County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-SA",
+    "code": "LT-SA",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Šiauliai County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-TA",
+    "code": "LT-TA",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Tauragė County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-TE",
+    "code": "LT-TE",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Telšiai County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-UT",
+    "code": "LT-UT",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Utena County"
+  },
+  {
+    "kind": "subdivision",
+    "id": "LT-VL",
+    "code": "LT-VL",
+    "country": "LT",
+    "parent": "LT",
+    "name": "Vilnius County"
+  }
+]

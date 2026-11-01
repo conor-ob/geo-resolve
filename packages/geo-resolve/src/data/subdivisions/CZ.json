@@ -1,0 +1,722 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CZ-10",
+    "code": "CZ-10",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Prague, Hlavní mešto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-20",
+    "code": "CZ-20",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Středočeský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-201",
+    "code": "CZ-201",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Benešov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-202",
+    "code": "CZ-202",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Beroun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-203",
+    "code": "CZ-203",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Kladno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-204",
+    "code": "CZ-204",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Kolín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-205",
+    "code": "CZ-205",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Kutná Hora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-206",
+    "code": "CZ-206",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Mělník"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-207",
+    "code": "CZ-207",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Mladá Boleslav"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-208",
+    "code": "CZ-208",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Nymburk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-209",
+    "code": "CZ-209",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Prague-East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-20A",
+    "code": "CZ-20A",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Prague-West"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-20B",
+    "code": "CZ-20B",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Příbram"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-20C",
+    "code": "CZ-20C",
+    "country": "CZ",
+    "parent": "CZ-20",
+    "name": "Rakovník"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-31",
+    "code": "CZ-31",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Jihočeský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-311",
+    "code": "CZ-311",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "České Budějovice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-312",
+    "code": "CZ-312",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "Český Krumlov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-313",
+    "code": "CZ-313",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "Jindřichův Hradec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-314",
+    "code": "CZ-314",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "Písek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-315",
+    "code": "CZ-315",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "Prachatice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-316",
+    "code": "CZ-316",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "Strakonice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-317",
+    "code": "CZ-317",
+    "country": "CZ",
+    "parent": "CZ-31",
+    "name": "Tábor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-32",
+    "code": "CZ-32",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Plzeňský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-321",
+    "code": "CZ-321",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Domažlice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-322",
+    "code": "CZ-322",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Klatovy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-323",
+    "code": "CZ-323",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Plzeň"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-324",
+    "code": "CZ-324",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Plzeň-South"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-325",
+    "code": "CZ-325",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Plzeň-North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-326",
+    "code": "CZ-326",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Rokycany"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-327",
+    "code": "CZ-327",
+    "country": "CZ",
+    "parent": "CZ-32",
+    "name": "Tachov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-41",
+    "code": "CZ-41",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Karlovarský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-411",
+    "code": "CZ-411",
+    "country": "CZ",
+    "parent": "CZ-41",
+    "name": "Cheb"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-412",
+    "code": "CZ-412",
+    "country": "CZ",
+    "parent": "CZ-41",
+    "name": "Karlovy Vary"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-413",
+    "code": "CZ-413",
+    "country": "CZ",
+    "parent": "CZ-41",
+    "name": "Sokolov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-42",
+    "code": "CZ-42",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Ústecký"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-421",
+    "code": "CZ-421",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Děčín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-422",
+    "code": "CZ-422",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Chomutov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-423",
+    "code": "CZ-423",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Litoměřice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-424",
+    "code": "CZ-424",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Louny"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-425",
+    "code": "CZ-425",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Most"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-426",
+    "code": "CZ-426",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Teplice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-427",
+    "code": "CZ-427",
+    "country": "CZ",
+    "parent": "CZ-42",
+    "name": "Ústí nad Labem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-51",
+    "code": "CZ-51",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Liberecký"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-511",
+    "code": "CZ-511",
+    "country": "CZ",
+    "parent": "CZ-51",
+    "name": "Česká Lípa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-512",
+    "code": "CZ-512",
+    "country": "CZ",
+    "parent": "CZ-51",
+    "name": "Jablonec nad Nisou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-513",
+    "code": "CZ-513",
+    "country": "CZ",
+    "parent": "CZ-51",
+    "name": "Liberec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-514",
+    "code": "CZ-514",
+    "country": "CZ",
+    "parent": "CZ-51",
+    "name": "Semily"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-52",
+    "code": "CZ-52",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Královéhradecký"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-521",
+    "code": "CZ-521",
+    "country": "CZ",
+    "parent": "CZ-52",
+    "name": "Hradec Králové"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-522",
+    "code": "CZ-522",
+    "country": "CZ",
+    "parent": "CZ-52",
+    "name": "Jičín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-523",
+    "code": "CZ-523",
+    "country": "CZ",
+    "parent": "CZ-52",
+    "name": "Náchod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-524",
+    "code": "CZ-524",
+    "country": "CZ",
+    "parent": "CZ-52",
+    "name": "Rychnov nad Kněžnou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-525",
+    "code": "CZ-525",
+    "country": "CZ",
+    "parent": "CZ-52",
+    "name": "Trutnov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-53",
+    "code": "CZ-53",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Pardubický"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-531",
+    "code": "CZ-531",
+    "country": "CZ",
+    "parent": "CZ-53",
+    "name": "Chrudim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-532",
+    "code": "CZ-532",
+    "country": "CZ",
+    "parent": "CZ-53",
+    "name": "Pardubice"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-533",
+    "code": "CZ-533",
+    "country": "CZ",
+    "parent": "CZ-53",
+    "name": "Svitavy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-534",
+    "code": "CZ-534",
+    "country": "CZ",
+    "parent": "CZ-53",
+    "name": "Ústí nad Orlicí"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-63",
+    "code": "CZ-63",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Vysočina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-631",
+    "code": "CZ-631",
+    "country": "CZ",
+    "parent": "CZ-63",
+    "name": "Havlíčkův Brod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-632",
+    "code": "CZ-632",
+    "country": "CZ",
+    "parent": "CZ-63",
+    "name": "Jihlava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-633",
+    "code": "CZ-633",
+    "country": "CZ",
+    "parent": "CZ-63",
+    "name": "Pelhřimov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-634",
+    "code": "CZ-634",
+    "country": "CZ",
+    "parent": "CZ-63",
+    "name": "Třebíč"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-635",
+    "code": "CZ-635",
+    "country": "CZ",
+    "parent": "CZ-63",
+    "name": "Žďár nad Sázavou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-64",
+    "code": "CZ-64",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Jihomoravský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-641",
+    "code": "CZ-641",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Blansko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-642",
+    "code": "CZ-642",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Brno-město"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-643",
+    "code": "CZ-643",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Brno-venkov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-644",
+    "code": "CZ-644",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Břeclav"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-645",
+    "code": "CZ-645",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Hodonín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-646",
+    "code": "CZ-646",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Vyškov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-647",
+    "code": "CZ-647",
+    "country": "CZ",
+    "parent": "CZ-64",
+    "name": "Znojmo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-71",
+    "code": "CZ-71",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Olomoucký"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-711",
+    "code": "CZ-711",
+    "country": "CZ",
+    "parent": "CZ-71",
+    "name": "Jeseník"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-712",
+    "code": "CZ-712",
+    "country": "CZ",
+    "parent": "CZ-71",
+    "name": "Olomouc"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-713",
+    "code": "CZ-713",
+    "country": "CZ",
+    "parent": "CZ-71",
+    "name": "Prostějov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-714",
+    "code": "CZ-714",
+    "country": "CZ",
+    "parent": "CZ-71",
+    "name": "Přerov"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-715",
+    "code": "CZ-715",
+    "country": "CZ",
+    "parent": "CZ-71",
+    "name": "Šumperk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-72",
+    "code": "CZ-72",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Zlínský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-721",
+    "code": "CZ-721",
+    "country": "CZ",
+    "parent": "CZ-72",
+    "name": "Kroměříž"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-722",
+    "code": "CZ-722",
+    "country": "CZ",
+    "parent": "CZ-72",
+    "name": "Uherské Hradiště"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-723",
+    "code": "CZ-723",
+    "country": "CZ",
+    "parent": "CZ-72",
+    "name": "Vsetín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-724",
+    "code": "CZ-724",
+    "country": "CZ",
+    "parent": "CZ-72",
+    "name": "Zlín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-80",
+    "code": "CZ-80",
+    "country": "CZ",
+    "parent": "CZ",
+    "name": "Moravskoslezský"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-801",
+    "code": "CZ-801",
+    "country": "CZ",
+    "parent": "CZ-80",
+    "name": "Bruntál"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-802",
+    "code": "CZ-802",
+    "country": "CZ",
+    "parent": "CZ-80",
+    "name": "Frýdek-Místek"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-803",
+    "code": "CZ-803",
+    "country": "CZ",
+    "parent": "CZ-80",
+    "name": "Karviná"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-804",
+    "code": "CZ-804",
+    "country": "CZ",
+    "parent": "CZ-80",
+    "name": "Nový Jičín"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-805",
+    "code": "CZ-805",
+    "country": "CZ",
+    "parent": "CZ-80",
+    "name": "Opava"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CZ-806",
+    "code": "CZ-806",
+    "country": "CZ",
+    "parent": "CZ-80",
+    "name": "Ostrava"
+  }
+]

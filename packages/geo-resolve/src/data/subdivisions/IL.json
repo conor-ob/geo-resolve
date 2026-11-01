@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "IL-D",
+    "code": "IL-D",
+    "country": "IL",
+    "parent": "IL",
+    "name": "Southern District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IL-HA",
+    "code": "IL-HA",
+    "country": "IL",
+    "parent": "IL",
+    "name": "Haifa District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IL-JM",
+    "code": "IL-JM",
+    "country": "IL",
+    "parent": "IL",
+    "name": "Jerusalem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IL-M",
+    "code": "IL-M",
+    "country": "IL",
+    "parent": "IL",
+    "name": "Central District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IL-TA",
+    "code": "IL-TA",
+    "country": "IL",
+    "parent": "IL",
+    "name": "Tel Aviv District"
+  },
+  {
+    "kind": "subdivision",
+    "id": "IL-Z",
+    "code": "IL-Z",
+    "country": "IL",
+    "parent": "IL",
+    "name": "Northern District"
+  }
+]

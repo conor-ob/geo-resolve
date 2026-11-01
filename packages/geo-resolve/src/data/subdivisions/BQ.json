@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "BQ-BO",
+    "code": "BQ-BO",
+    "country": "BQ",
+    "parent": "BQ",
+    "name": "Bonaire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BQ-SA",
+    "code": "BQ-SA",
+    "country": "BQ",
+    "parent": "BQ",
+    "name": "Saba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "BQ-SE",
+    "code": "BQ-SE",
+    "country": "BQ",
+    "parent": "BQ",
+    "name": "Sint Eustatius"
+  }
+]

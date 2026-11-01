@@ -1,0 +1,298 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "NG-AB",
+    "code": "NG-AB",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Abia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-AD",
+    "code": "NG-AD",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Adamawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-AK",
+    "code": "NG-AK",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Akwa Ibom"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-AN",
+    "code": "NG-AN",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Anambra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-BA",
+    "code": "NG-BA",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Bauchi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-BE",
+    "code": "NG-BE",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Benue"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-BO",
+    "code": "NG-BO",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Borno"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-BY",
+    "code": "NG-BY",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Bayelsa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-CR",
+    "code": "NG-CR",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Cross River"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-DE",
+    "code": "NG-DE",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Delta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-EB",
+    "code": "NG-EB",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Ebonyi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-ED",
+    "code": "NG-ED",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Edo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-EK",
+    "code": "NG-EK",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Ekiti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-EN",
+    "code": "NG-EN",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Enugu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-FC",
+    "code": "NG-FC",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Federal Capital Territory"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-GO",
+    "code": "NG-GO",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Gombe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-IM",
+    "code": "NG-IM",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Imo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-JI",
+    "code": "NG-JI",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Jigawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-KD",
+    "code": "NG-KD",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Kaduna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-KE",
+    "code": "NG-KE",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Kebbi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-KN",
+    "code": "NG-KN",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Kano"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-KO",
+    "code": "NG-KO",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Kogi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-KT",
+    "code": "NG-KT",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Katsina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-KW",
+    "code": "NG-KW",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Kwara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-LA",
+    "code": "NG-LA",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Lagos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-NA",
+    "code": "NG-NA",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Nasarawa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-NI",
+    "code": "NG-NI",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Niger"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-OG",
+    "code": "NG-OG",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Ogun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-ON",
+    "code": "NG-ON",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Ondo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-OS",
+    "code": "NG-OS",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Osun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-OY",
+    "code": "NG-OY",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Oyo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-PL",
+    "code": "NG-PL",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Plateau"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-RI",
+    "code": "NG-RI",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Rivers"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-SO",
+    "code": "NG-SO",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Sokoto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-TA",
+    "code": "NG-TA",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Taraba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-YO",
+    "code": "NG-YO",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Yobe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NG-ZA",
+    "code": "NG-ZA",
+    "country": "NG",
+    "parent": "NG",
+    "name": "Zamfara"
+  }
+]

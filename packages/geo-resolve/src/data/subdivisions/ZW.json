@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "ZW-BU",
+    "code": "ZW-BU",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Bulawayo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-HA",
+    "code": "ZW-HA",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Harare"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MA",
+    "code": "ZW-MA",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Manicaland"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MC",
+    "code": "ZW-MC",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Mashonaland Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-ME",
+    "code": "ZW-ME",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Mashonaland East"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MI",
+    "code": "ZW-MI",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Midlands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MN",
+    "code": "ZW-MN",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Matabeleland North"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MS",
+    "code": "ZW-MS",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Matabeleland South"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MV",
+    "code": "ZW-MV",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Masvingo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "ZW-MW",
+    "code": "ZW-MW",
+    "country": "ZW",
+    "parent": "ZW",
+    "name": "Mashonaland West"
+  }
+]

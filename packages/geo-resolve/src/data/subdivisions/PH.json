@@ -1,0 +1,794 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PH-00",
+    "code": "PH-00",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Metro Manila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-01",
+    "code": "PH-01",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Ilocos"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-02",
+    "code": "PH-02",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Cagayan Valley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-03",
+    "code": "PH-03",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Central Luzon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-05",
+    "code": "PH-05",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Bicol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-06",
+    "code": "PH-06",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Western Visayas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-07",
+    "code": "PH-07",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Central Visayas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-08",
+    "code": "PH-08",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Eastern Visayas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-09",
+    "code": "PH-09",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Zamboanga Peninsula"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-10",
+    "code": "PH-10",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Northern Mindanao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-11",
+    "code": "PH-11",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Davao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-12",
+    "code": "PH-12",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Soccsksargen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-13",
+    "code": "PH-13",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Caraga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-14",
+    "code": "PH-14",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Muslim Mindanao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-15",
+    "code": "PH-15",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Cordillera Administrative"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-40",
+    "code": "PH-40",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Calabarzon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-41",
+    "code": "PH-41",
+    "country": "PH",
+    "parent": "PH",
+    "name": "Mimaropa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ABR",
+    "code": "PH-ABR",
+    "country": "PH",
+    "parent": "PH-15",
+    "name": "Abra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-AGN",
+    "code": "PH-AGN",
+    "country": "PH",
+    "parent": "PH-13",
+    "name": "Agusan del Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-AGS",
+    "code": "PH-AGS",
+    "country": "PH",
+    "parent": "PH-13",
+    "name": "Agusan del Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-AKL",
+    "code": "PH-AKL",
+    "country": "PH",
+    "parent": "PH-06",
+    "name": "Aklan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ALB",
+    "code": "PH-ALB",
+    "country": "PH",
+    "parent": "PH-05",
+    "name": "Albay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ANT",
+    "code": "PH-ANT",
+    "country": "PH",
+    "parent": "PH-06",
+    "name": "Antique"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-APA",
+    "code": "PH-APA",
+    "country": "PH",
+    "parent": "PH-15",
+    "name": "Apayao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-AUR",
+    "code": "PH-AUR",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Aurora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BAN",
+    "code": "PH-BAN",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Bataan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BAS",
+    "code": "PH-BAS",
+    "country": "PH",
+    "parent": "PH-09",
+    "name": "Basilan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BEN",
+    "code": "PH-BEN",
+    "country": "PH",
+    "parent": "PH-15",
+    "name": "Benguet"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BIL",
+    "code": "PH-BIL",
+    "country": "PH",
+    "parent": "PH-08",
+    "name": "Biliran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BOH",
+    "code": "PH-BOH",
+    "country": "PH",
+    "parent": "PH-07",
+    "name": "Bohol"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BTG",
+    "code": "PH-BTG",
+    "country": "PH",
+    "parent": "PH-40",
+    "name": "Batangas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BTN",
+    "code": "PH-BTN",
+    "country": "PH",
+    "parent": "PH-02",
+    "name": "Batanes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BUK",
+    "code": "PH-BUK",
+    "country": "PH",
+    "parent": "PH-10",
+    "name": "Bukidnon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-BUL",
+    "code": "PH-BUL",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Bulacan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAG",
+    "code": "PH-CAG",
+    "country": "PH",
+    "parent": "PH-02",
+    "name": "Cagayan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAM",
+    "code": "PH-CAM",
+    "country": "PH",
+    "parent": "PH-10",
+    "name": "Camiguin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAN",
+    "code": "PH-CAN",
+    "country": "PH",
+    "parent": "PH-05",
+    "name": "Camarines Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAP",
+    "code": "PH-CAP",
+    "country": "PH",
+    "parent": "PH-06",
+    "name": "Capiz"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAS",
+    "code": "PH-CAS",
+    "country": "PH",
+    "parent": "PH-05",
+    "name": "Camarines Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAT",
+    "code": "PH-CAT",
+    "country": "PH",
+    "parent": "PH-05",
+    "name": "Catanduanes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CAV",
+    "code": "PH-CAV",
+    "country": "PH",
+    "parent": "PH-40",
+    "name": "Cavite"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-CEB",
+    "code": "PH-CEB",
+    "country": "PH",
+    "parent": "PH-07",
+    "name": "Cebu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-COM",
+    "code": "PH-COM",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "Compostela Valley"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-DAO",
+    "code": "PH-DAO",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "Davao Oriental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-DAS",
+    "code": "PH-DAS",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "Davao del Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-DAV",
+    "code": "PH-DAV",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "Davao del Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-DIN",
+    "code": "PH-DIN",
+    "country": "PH",
+    "parent": "PH-13",
+    "name": "Dinagat Islands"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-DVO",
+    "code": "PH-DVO",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "Davao Occidental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-EAS",
+    "code": "PH-EAS",
+    "country": "PH",
+    "parent": "PH-08",
+    "name": "Eastern Samar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-GUI",
+    "code": "PH-GUI",
+    "country": "PH",
+    "parent": "PH-06",
+    "name": "Guimaras"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-IFU",
+    "code": "PH-IFU",
+    "country": "PH",
+    "parent": "PH-15",
+    "name": "Ifugao"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ILI",
+    "code": "PH-ILI",
+    "country": "PH",
+    "parent": "PH-06",
+    "name": "Iloilo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ILN",
+    "code": "PH-ILN",
+    "country": "PH",
+    "parent": "PH-01",
+    "name": "Ilocos Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ILS",
+    "code": "PH-ILS",
+    "country": "PH",
+    "parent": "PH-01",
+    "name": "Ilocos Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ISA",
+    "code": "PH-ISA",
+    "country": "PH",
+    "parent": "PH-02",
+    "name": "Isabela"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-KAL",
+    "code": "PH-KAL",
+    "country": "PH",
+    "parent": "PH-15",
+    "name": "Kalinga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-LAG",
+    "code": "PH-LAG",
+    "country": "PH",
+    "parent": "PH-40",
+    "name": "Laguna"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-LAN",
+    "code": "PH-LAN",
+    "country": "PH",
+    "parent": "PH-12",
+    "name": "Lanao del Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-LAS",
+    "code": "PH-LAS",
+    "country": "PH",
+    "parent": "PH-14",
+    "name": "Lanao del Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-LEY",
+    "code": "PH-LEY",
+    "country": "PH",
+    "parent": "PH-08",
+    "name": "Leyte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-LUN",
+    "code": "PH-LUN",
+    "country": "PH",
+    "parent": "PH-01",
+    "name": "La Union"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MAD",
+    "code": "PH-MAD",
+    "country": "PH",
+    "parent": "PH-41",
+    "name": "Marinduque"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MAS",
+    "code": "PH-MAS",
+    "country": "PH",
+    "parent": "PH-05",
+    "name": "Masbate"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MDC",
+    "code": "PH-MDC",
+    "country": "PH",
+    "parent": "PH-41",
+    "name": "Occidental Mindoro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MDR",
+    "code": "PH-MDR",
+    "country": "PH",
+    "parent": "PH-41",
+    "name": "Oriental Mindoro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MGN",
+    "code": "PH-MGN",
+    "country": "PH",
+    "parent": "PH-14",
+    "name": "Maguindanao del Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MGS",
+    "code": "PH-MGS",
+    "country": "PH",
+    "parent": "PH-14",
+    "name": "Maguindanao del Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MOU",
+    "code": "PH-MOU",
+    "country": "PH",
+    "parent": "PH-15",
+    "name": "Mountain"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MSC",
+    "code": "PH-MSC",
+    "country": "PH",
+    "parent": "PH-10",
+    "name": "Misamis Occidental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-MSR",
+    "code": "PH-MSR",
+    "country": "PH",
+    "parent": "PH-10",
+    "name": "Misamis Oriental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-NCO",
+    "code": "PH-NCO",
+    "country": "PH",
+    "parent": "PH-12",
+    "name": "Cotabato"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-NEC",
+    "code": "PH-NEC",
+    "country": "PH",
+    "parent": "PH-06",
+    "name": "Negros Occidental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-NER",
+    "code": "PH-NER",
+    "country": "PH",
+    "parent": "PH-07",
+    "name": "Negros Oriental"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-NSA",
+    "code": "PH-NSA",
+    "country": "PH",
+    "parent": "PH-08",
+    "name": "Northern Samar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-NUE",
+    "code": "PH-NUE",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Nueva Ecija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-NUV",
+    "code": "PH-NUV",
+    "country": "PH",
+    "parent": "PH-02",
+    "name": "Nueva Vizcaya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-PAM",
+    "code": "PH-PAM",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Pampanga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-PAN",
+    "code": "PH-PAN",
+    "country": "PH",
+    "parent": "PH-01",
+    "name": "Pangasinan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-PLW",
+    "code": "PH-PLW",
+    "country": "PH",
+    "parent": "PH-41",
+    "name": "Palawan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-QUE",
+    "code": "PH-QUE",
+    "country": "PH",
+    "parent": "PH-40",
+    "name": "Quezon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-QUI",
+    "code": "PH-QUI",
+    "country": "PH",
+    "parent": "PH-02",
+    "name": "Quirino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-RIZ",
+    "code": "PH-RIZ",
+    "country": "PH",
+    "parent": "PH-40",
+    "name": "Rizal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ROM",
+    "code": "PH-ROM",
+    "country": "PH",
+    "parent": "PH-41",
+    "name": "Romblon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SAR",
+    "code": "PH-SAR",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "Sarangani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SCO",
+    "code": "PH-SCO",
+    "country": "PH",
+    "parent": "PH-11",
+    "name": "South Cotabato"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SIG",
+    "code": "PH-SIG",
+    "country": "PH",
+    "parent": "PH-07",
+    "name": "Siquijor"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SLE",
+    "code": "PH-SLE",
+    "country": "PH",
+    "parent": "PH-08",
+    "name": "Southern Leyte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SLU",
+    "code": "PH-SLU",
+    "country": "PH",
+    "parent": "PH-14",
+    "name": "Sulu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SOR",
+    "code": "PH-SOR",
+    "country": "PH",
+    "parent": "PH-05",
+    "name": "Sorsogon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SUK",
+    "code": "PH-SUK",
+    "country": "PH",
+    "parent": "PH-12",
+    "name": "Sultan Kudarat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SUN",
+    "code": "PH-SUN",
+    "country": "PH",
+    "parent": "PH-13",
+    "name": "Surigao del Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-SUR",
+    "code": "PH-SUR",
+    "country": "PH",
+    "parent": "PH-13",
+    "name": "Surigao del Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-TAR",
+    "code": "PH-TAR",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Tarlac"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-TAW",
+    "code": "PH-TAW",
+    "country": "PH",
+    "parent": "PH-14",
+    "name": "Tawi-Tawi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-WSA",
+    "code": "PH-WSA",
+    "country": "PH",
+    "parent": "PH-08",
+    "name": "Samar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ZAN",
+    "code": "PH-ZAN",
+    "country": "PH",
+    "parent": "PH-09",
+    "name": "Zamboanga del Norte"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ZAS",
+    "code": "PH-ZAS",
+    "country": "PH",
+    "parent": "PH-09",
+    "name": "Zamboanga del Sur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ZMB",
+    "code": "PH-ZMB",
+    "country": "PH",
+    "parent": "PH-03",
+    "name": "Zambales"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PH-ZSI",
+    "code": "PH-ZSI",
+    "country": "PH",
+    "parent": "PH-09",
+    "name": "Zamboanga Sibugay"
+  }
+]

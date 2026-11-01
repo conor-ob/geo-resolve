@@ -1,0 +1,1114 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "UG-101",
+    "code": "UG-101",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kalangala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-102",
+    "code": "UG-102",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kampala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-103",
+    "code": "UG-103",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kiboga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-104",
+    "code": "UG-104",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Luwero"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-105",
+    "code": "UG-105",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Masaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-106",
+    "code": "UG-106",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Mpigi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-107",
+    "code": "UG-107",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Mubende"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-108",
+    "code": "UG-108",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Mukono"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-109",
+    "code": "UG-109",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Nakasongola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-110",
+    "code": "UG-110",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Rakai"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-111",
+    "code": "UG-111",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Sembabule"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-112",
+    "code": "UG-112",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kayunga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-113",
+    "code": "UG-113",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Wakiso"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-114",
+    "code": "UG-114",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Lyantonde"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-115",
+    "code": "UG-115",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Mityana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-116",
+    "code": "UG-116",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Nakaseke"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-117",
+    "code": "UG-117",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Buikwe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-118",
+    "code": "UG-118",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Bukomansibi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-119",
+    "code": "UG-119",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Butambala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-120",
+    "code": "UG-120",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Buvuma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-121",
+    "code": "UG-121",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Gomba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-122",
+    "code": "UG-122",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kalungu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-123",
+    "code": "UG-123",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kyankwanzi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-124",
+    "code": "UG-124",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Lwengo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-125",
+    "code": "UG-125",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kyotera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-126",
+    "code": "UG-126",
+    "country": "UG",
+    "parent": "UG-C",
+    "name": "Kasanda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-201",
+    "code": "UG-201",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Bugiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-202",
+    "code": "UG-202",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Busia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-203",
+    "code": "UG-203",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Iganga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-204",
+    "code": "UG-204",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Jinja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-205",
+    "code": "UG-205",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kamuli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-206",
+    "code": "UG-206",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kapchorwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-207",
+    "code": "UG-207",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Katakwi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-208",
+    "code": "UG-208",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kumi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-209",
+    "code": "UG-209",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Mbale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-210",
+    "code": "UG-210",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Pallisa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-211",
+    "code": "UG-211",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Soroti"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-212",
+    "code": "UG-212",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Tororo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-213",
+    "code": "UG-213",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kaberamaido"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-214",
+    "code": "UG-214",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Mayuge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-215",
+    "code": "UG-215",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Sironko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-216",
+    "code": "UG-216",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Amuria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-217",
+    "code": "UG-217",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Budaka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-218",
+    "code": "UG-218",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Bududa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-219",
+    "code": "UG-219",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Bukedea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-220",
+    "code": "UG-220",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Bukwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-221",
+    "code": "UG-221",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Butaleja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-222",
+    "code": "UG-222",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kaliro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-223",
+    "code": "UG-223",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Manafwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-224",
+    "code": "UG-224",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Namutumba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-225",
+    "code": "UG-225",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Bulambuli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-226",
+    "code": "UG-226",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Buyende"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-227",
+    "code": "UG-227",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kibuku"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-228",
+    "code": "UG-228",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kween"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-229",
+    "code": "UG-229",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Luuka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-230",
+    "code": "UG-230",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Namayingo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-231",
+    "code": "UG-231",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Ngora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-232",
+    "code": "UG-232",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Serere"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-233",
+    "code": "UG-233",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Butebo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-234",
+    "code": "UG-234",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Namisindwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-235",
+    "code": "UG-235",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Bugweri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-236",
+    "code": "UG-236",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kapelebyong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-237",
+    "code": "UG-237",
+    "country": "UG",
+    "parent": "UG-E",
+    "name": "Kalaki"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-301",
+    "code": "UG-301",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Adjumani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-302",
+    "code": "UG-302",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Apac"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-303",
+    "code": "UG-303",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Arua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-304",
+    "code": "UG-304",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Gulu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-305",
+    "code": "UG-305",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Kitgum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-306",
+    "code": "UG-306",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Kotido"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-307",
+    "code": "UG-307",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Lira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-308",
+    "code": "UG-308",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Moroto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-309",
+    "code": "UG-309",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Moyo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-310",
+    "code": "UG-310",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Nebbi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-311",
+    "code": "UG-311",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Nakapiripirit"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-312",
+    "code": "UG-312",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Pader"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-313",
+    "code": "UG-313",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Yumbe"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-314",
+    "code": "UG-314",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Abim"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-315",
+    "code": "UG-315",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Amolatar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-316",
+    "code": "UG-316",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Amuru"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-317",
+    "code": "UG-317",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Dokolo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-318",
+    "code": "UG-318",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Kaabong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-319",
+    "code": "UG-319",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Koboko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-320",
+    "code": "UG-320",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Maracha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-321",
+    "code": "UG-321",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Oyam"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-322",
+    "code": "UG-322",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Agago"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-323",
+    "code": "UG-323",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Alebtong"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-324",
+    "code": "UG-324",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Amudat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-325",
+    "code": "UG-325",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Kole"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-326",
+    "code": "UG-326",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Lamwo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-327",
+    "code": "UG-327",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Napak"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-328",
+    "code": "UG-328",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Nwoya"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-329",
+    "code": "UG-329",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Otuke"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-330",
+    "code": "UG-330",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Zombo²"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-331",
+    "code": "UG-331",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Zombo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-332",
+    "code": "UG-332",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Pakwach"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-333",
+    "code": "UG-333",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Kwania"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-334",
+    "code": "UG-334",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Nabilatuk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-335",
+    "code": "UG-335",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Karenga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-336",
+    "code": "UG-336",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Madi-Okollo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-337",
+    "code": "UG-337",
+    "country": "UG",
+    "parent": "UG-N",
+    "name": "Obongi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-401",
+    "code": "UG-401",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Bundibugyo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-402",
+    "code": "UG-402",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Bushenyi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-403",
+    "code": "UG-403",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Hoima"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-404",
+    "code": "UG-404",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kabale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-405",
+    "code": "UG-405",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kabarole"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-406",
+    "code": "UG-406",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kasese"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-407",
+    "code": "UG-407",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kibaale"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-408",
+    "code": "UG-408",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kisoro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-409",
+    "code": "UG-409",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Masindi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-410",
+    "code": "UG-410",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Mbarara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-411",
+    "code": "UG-411",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Ntungamo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-412",
+    "code": "UG-412",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Rukungiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-413",
+    "code": "UG-413",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kamwenge"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-414",
+    "code": "UG-414",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kanungu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-415",
+    "code": "UG-415",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kyenjojo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-416",
+    "code": "UG-416",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Buliisa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-417",
+    "code": "UG-417",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Ibanda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-418",
+    "code": "UG-418",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Isingiro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-419",
+    "code": "UG-419",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kiruhura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-420",
+    "code": "UG-420",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Buhweju"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-421",
+    "code": "UG-421",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kiryandongo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-422",
+    "code": "UG-422",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kyegegwa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-423",
+    "code": "UG-423",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Mitooma"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-424",
+    "code": "UG-424",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Ntoroko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-425",
+    "code": "UG-425",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Rubirizi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-426",
+    "code": "UG-426",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Sheema"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-427",
+    "code": "UG-427",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kagadi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-428",
+    "code": "UG-428",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kakumiro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-429",
+    "code": "UG-429",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Rubanda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-430",
+    "code": "UG-430",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Bunyangabu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-431",
+    "code": "UG-431",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Rukiga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-432",
+    "code": "UG-432",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kikuube"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-433",
+    "code": "UG-433",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kazo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-434",
+    "code": "UG-434",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Kitagwenda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-435",
+    "code": "UG-435",
+    "country": "UG",
+    "parent": "UG-W",
+    "name": "Rwampara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-C",
+    "code": "UG-C",
+    "country": "UG",
+    "parent": "UG",
+    "name": "Central"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-E",
+    "code": "UG-E",
+    "country": "UG",
+    "parent": "UG",
+    "name": "Eastern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-N",
+    "code": "UG-N",
+    "country": "UG",
+    "parent": "UG",
+    "name": "Northern"
+  },
+  {
+    "kind": "subdivision",
+    "id": "UG-W",
+    "code": "UG-W",
+    "country": "UG",
+    "parent": "UG",
+    "name": "Western"
+  }
+]

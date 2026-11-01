@@ -1,0 +1,202 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "VE-A",
+    "code": "VE-A",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Capital"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-B",
+    "code": "VE-B",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Anzoátegui"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-C",
+    "code": "VE-C",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Apure"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-D",
+    "code": "VE-D",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Aragua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-E",
+    "code": "VE-E",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Barinas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-F",
+    "code": "VE-F",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Bolívar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-G",
+    "code": "VE-G",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Carabobo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-H",
+    "code": "VE-H",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Cojedes"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-I",
+    "code": "VE-I",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Falcón"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-J",
+    "code": "VE-J",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Guárico"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-K",
+    "code": "VE-K",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Lara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-L",
+    "code": "VE-L",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Mérida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-M",
+    "code": "VE-M",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Miranda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-N",
+    "code": "VE-N",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Monagas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-O",
+    "code": "VE-O",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Nueva Esparta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-P",
+    "code": "VE-P",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Portuguesa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-R",
+    "code": "VE-R",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Sucre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-S",
+    "code": "VE-S",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Táchira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-T",
+    "code": "VE-T",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Trujillo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-U",
+    "code": "VE-U",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Yaracuy"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-V",
+    "code": "VE-V",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Zulia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-W",
+    "code": "VE-W",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Federal Dependencies"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-X",
+    "code": "VE-X",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Vargas"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-Y",
+    "code": "VE-Y",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Delta Amacuro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "VE-Z",
+    "code": "VE-Z",
+    "country": "VE",
+    "parent": "VE",
+    "name": "Amazonas"
+  }
+]

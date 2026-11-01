@@ -1,0 +1,546 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MT-01",
+    "code": "MT-01",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Attard"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-02",
+    "code": "MT-02",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Balzan"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-03",
+    "code": "MT-03",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Birgu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-04",
+    "code": "MT-04",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Birkirkara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-05",
+    "code": "MT-05",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Birżebbuġa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-06",
+    "code": "MT-06",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Cospicua"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-07",
+    "code": "MT-07",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Dingli"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-08",
+    "code": "MT-08",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Fgura"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-09",
+    "code": "MT-09",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Floriana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-10",
+    "code": "MT-10",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Fontana"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-11",
+    "code": "MT-11",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Gudja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-12",
+    "code": "MT-12",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Gżira"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-13",
+    "code": "MT-13",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Għajnsielem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-14",
+    "code": "MT-14",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Għarb"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-15",
+    "code": "MT-15",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Għargħur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-16",
+    "code": "MT-16",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Għasri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-17",
+    "code": "MT-17",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Għaxaq"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-18",
+    "code": "MT-18",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Ħamrun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-19",
+    "code": "MT-19",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Iklin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-20",
+    "code": "MT-20",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Senglea"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-21",
+    "code": "MT-21",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Kalkara"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-22",
+    "code": "MT-22",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Kerċem"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-23",
+    "code": "MT-23",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Kirkop"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-24",
+    "code": "MT-24",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Lija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-25",
+    "code": "MT-25",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Luqa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-26",
+    "code": "MT-26",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Marsa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-27",
+    "code": "MT-27",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Marsaskala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-28",
+    "code": "MT-28",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Marsaxlokk"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-29",
+    "code": "MT-29",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Mdina"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-30",
+    "code": "MT-30",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Mellieħa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-31",
+    "code": "MT-31",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Mġarr"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-32",
+    "code": "MT-32",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Mosta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-33",
+    "code": "MT-33",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Mqabba"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-34",
+    "code": "MT-34",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Msida"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-35",
+    "code": "MT-35",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Imtarfa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-36",
+    "code": "MT-36",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Munxar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-37",
+    "code": "MT-37",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Nadur"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-38",
+    "code": "MT-38",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Naxxar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-39",
+    "code": "MT-39",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Paola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-40",
+    "code": "MT-40",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Pembroke"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-41",
+    "code": "MT-41",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Pietà"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-42",
+    "code": "MT-42",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Qala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-43",
+    "code": "MT-43",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Qormi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-44",
+    "code": "MT-44",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Qrendi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-45",
+    "code": "MT-45",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Victoria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-46",
+    "code": "MT-46",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Rabat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-47",
+    "code": "MT-47",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Safi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-48",
+    "code": "MT-48",
+    "country": "MT",
+    "parent": "MT",
+    "name": "St. Julian’s"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-49",
+    "code": "MT-49",
+    "country": "MT",
+    "parent": "MT",
+    "name": "San Ġwann"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-50",
+    "code": "MT-50",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Saint Lawrence"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-51",
+    "code": "MT-51",
+    "country": "MT",
+    "parent": "MT",
+    "name": "St. Paul’s Bay"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-52",
+    "code": "MT-52",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Sannat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-53",
+    "code": "MT-53",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Santa Luċija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-54",
+    "code": "MT-54",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Santa Venera"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-55",
+    "code": "MT-55",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Siġġiewi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-56",
+    "code": "MT-56",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Sliema"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-57",
+    "code": "MT-57",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Swieqi"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-58",
+    "code": "MT-58",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Ta’ Xbiex"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-59",
+    "code": "MT-59",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Tarxien"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-60",
+    "code": "MT-60",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Valletta"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-61",
+    "code": "MT-61",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Xagħra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-62",
+    "code": "MT-62",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Xewkija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-63",
+    "code": "MT-63",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Xgħajra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-64",
+    "code": "MT-64",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Żabbar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-65",
+    "code": "MT-65",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Żebbuġ Gozo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-66",
+    "code": "MT-66",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Żebbuġ"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-67",
+    "code": "MT-67",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Żejtun"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MT-68",
+    "code": "MT-68",
+    "country": "MT",
+    "parent": "MT",
+    "name": "Żurrieq"
+  }
+]

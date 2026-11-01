@@ -1,0 +1,162 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "PT-01",
+    "code": "PT-01",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Aveiro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-02",
+    "code": "PT-02",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Beja"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-03",
+    "code": "PT-03",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Braga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-04",
+    "code": "PT-04",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Bragança"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-05",
+    "code": "PT-05",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Castelo Branco"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-06",
+    "code": "PT-06",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Coimbra"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-07",
+    "code": "PT-07",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Évora"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-08",
+    "code": "PT-08",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Faro"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-09",
+    "code": "PT-09",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Guarda"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-10",
+    "code": "PT-10",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Leiria"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-11",
+    "code": "PT-11",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Lisbon"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-12",
+    "code": "PT-12",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Portalegre"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-13",
+    "code": "PT-13",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Porto"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-14",
+    "code": "PT-14",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Santarém"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-15",
+    "code": "PT-15",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Setúbal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-16",
+    "code": "PT-16",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Viana do Castelo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-17",
+    "code": "PT-17",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Vila Real"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-18",
+    "code": "PT-18",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Viseu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-20",
+    "code": "PT-20",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Azores"
+  },
+  {
+    "kind": "subdivision",
+    "id": "PT-30",
+    "code": "PT-30",
+    "country": "PT",
+    "parent": "PT",
+    "name": "Madeira"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "KH-1",
+    "code": "KH-1",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Banteay Meanchey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-10",
+    "code": "KH-10",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kratié"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-11",
+    "code": "KH-11",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Mondulkiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-12",
+    "code": "KH-12",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Phnom Penh"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-13",
+    "code": "KH-13",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Preah Vihear"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-14",
+    "code": "KH-14",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Prey Veng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-15",
+    "code": "KH-15",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Pursat"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-16",
+    "code": "KH-16",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Ratanakiri"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-17",
+    "code": "KH-17",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Siem Reap"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-18",
+    "code": "KH-18",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Sihanoukville"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-19",
+    "code": "KH-19",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Stung Treng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-2",
+    "code": "KH-2",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Battambang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-20",
+    "code": "KH-20",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Svay Rieng"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-21",
+    "code": "KH-21",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Takéo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-22",
+    "code": "KH-22",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Oddar Meanchey"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-23",
+    "code": "KH-23",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kep"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-24",
+    "code": "KH-24",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Pailin"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-25",
+    "code": "KH-25",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Tbong Khmum"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-3",
+    "code": "KH-3",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kampong Cham"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-4",
+    "code": "KH-4",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kampong Chhnang"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-5",
+    "code": "KH-5",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kampong Speu"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-6",
+    "code": "KH-6",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kampong Thom"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-7",
+    "code": "KH-7",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kampot"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-8",
+    "code": "KH-8",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Kandal"
+  },
+  {
+    "kind": "subdivision",
+    "id": "KH-9",
+    "code": "KH-9",
+    "country": "KH",
+    "parent": "KH",
+    "name": "Koh Kong"
+  }
+]

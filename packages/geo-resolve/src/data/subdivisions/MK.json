@@ -1,0 +1,642 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "MK-101",
+    "code": "MK-101",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Veles"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-102",
+    "code": "MK-102",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Gradsko"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-103",
+    "code": "MK-103",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Demir Kapija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-104",
+    "code": "MK-104",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kavadarci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-105",
+    "code": "MK-105",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Lozovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-106",
+    "code": "MK-106",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Negotino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-107",
+    "code": "MK-107",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Rosoman"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-108",
+    "code": "MK-108",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Sveti Nikole"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-109",
+    "code": "MK-109",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Čaška"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-201",
+    "code": "MK-201",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Berovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-202",
+    "code": "MK-202",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Vinica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-203",
+    "code": "MK-203",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Delčevo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-204",
+    "code": "MK-204",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Zrnovci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-205",
+    "code": "MK-205",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Karbinci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-206",
+    "code": "MK-206",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kočani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-207",
+    "code": "MK-207",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Makedonska Kamenica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-208",
+    "code": "MK-208",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Pehčevo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-209",
+    "code": "MK-209",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Probištip"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-210",
+    "code": "MK-210",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Češinovo-Obleševo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-211",
+    "code": "MK-211",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Štip"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-301",
+    "code": "MK-301",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Vevčani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-303",
+    "code": "MK-303",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Debar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-304",
+    "code": "MK-304",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Debrca"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-307",
+    "code": "MK-307",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kičevo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-308",
+    "code": "MK-308",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Makedonski Brod"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-310",
+    "code": "MK-310",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Ohrid"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-311",
+    "code": "MK-311",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Plasnica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-312",
+    "code": "MK-312",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Struga"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-313",
+    "code": "MK-313",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Centar Župa"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-401",
+    "code": "MK-401",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Bogdanci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-402",
+    "code": "MK-402",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Bosilovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-403",
+    "code": "MK-403",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Valandovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-404",
+    "code": "MK-404",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Vasilevo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-405",
+    "code": "MK-405",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Gevgelija"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-406",
+    "code": "MK-406",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Dojran"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-407",
+    "code": "MK-407",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Konče"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-408",
+    "code": "MK-408",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Novo Selo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-409",
+    "code": "MK-409",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Radoviš"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-410",
+    "code": "MK-410",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Strumica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-501",
+    "code": "MK-501",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Bitola"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-502",
+    "code": "MK-502",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Demir Hisar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-503",
+    "code": "MK-503",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Dolneni"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-504",
+    "code": "MK-504",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Krivogaštani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-505",
+    "code": "MK-505",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kruševo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-506",
+    "code": "MK-506",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Mogila"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-507",
+    "code": "MK-507",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Novaci"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-508",
+    "code": "MK-508",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Prilep"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-509",
+    "code": "MK-509",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Resen"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-601",
+    "code": "MK-601",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Bogovinje"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-602",
+    "code": "MK-602",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Brvenica"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-603",
+    "code": "MK-603",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Vrapčište"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-604",
+    "code": "MK-604",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Gostivar"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-605",
+    "code": "MK-605",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Želino"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-606",
+    "code": "MK-606",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Jegunovce"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-607",
+    "code": "MK-607",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Mavrovo i Rostuše"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-608",
+    "code": "MK-608",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Tearce"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-609",
+    "code": "MK-609",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Tetovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-701",
+    "code": "MK-701",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kratovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-702",
+    "code": "MK-702",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kriva Palanka"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-703",
+    "code": "MK-703",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kumanovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-704",
+    "code": "MK-704",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Lipkovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-705",
+    "code": "MK-705",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Rankovce"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-706",
+    "code": "MK-706",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Staro Nagoričane"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-801",
+    "code": "MK-801",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Aerodrom †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-802",
+    "code": "MK-802",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Aračinovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-803",
+    "code": "MK-803",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Butel †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-804",
+    "code": "MK-804",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Gazi Baba †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-805",
+    "code": "MK-805",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Gjorče Petrov †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-806",
+    "code": "MK-806",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Zelenikovo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-807",
+    "code": "MK-807",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Ilinden"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-808",
+    "code": "MK-808",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Karpoš †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-809",
+    "code": "MK-809",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Kisela Voda †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-810",
+    "code": "MK-810",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Petrovec"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-811",
+    "code": "MK-811",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Saraj †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-812",
+    "code": "MK-812",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Sopište"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-813",
+    "code": "MK-813",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Studeničani"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-814",
+    "code": "MK-814",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Centar †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-815",
+    "code": "MK-815",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Čair †"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-816",
+    "code": "MK-816",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Čučer-Sandevo"
+  },
+  {
+    "kind": "subdivision",
+    "id": "MK-817",
+    "code": "MK-817",
+    "country": "MK",
+    "parent": "MK",
+    "name": "Šuto Orizari †"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "subdivision",
+    "id": "CG-11",
+    "code": "CG-11",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Bouenza"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-12",
+    "code": "CG-12",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Pool"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-13",
+    "code": "CG-13",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Sangha"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-14",
+    "code": "CG-14",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Plateaux"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-15",
+    "code": "CG-15",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Cuvette-Ouest"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-16",
+    "code": "CG-16",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Pointe-Noire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-2",
+    "code": "CG-2",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Lékoumou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-5",
+    "code": "CG-5",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Kouilou"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-7",
+    "code": "CG-7",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Likouala"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-8",
+    "code": "CG-8",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Cuvette"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-9",
+    "code": "CG-9",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Niari"
+  },
+  {
+    "kind": "subdivision",
+    "id": "CG-BZV",
+    "code": "CG-BZV",
+    "country": "CG",
+    "parent": "CG",
+    "name": "Brazzaville"
+  }
+]
