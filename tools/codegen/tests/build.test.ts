@@ -2,7 +2,7 @@ import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { expect, test } from "vite-plus/test";
 import { build } from "../src/build.ts";
-import { outputDir, writeCldrSnapshots, type CldrFixture } from "./fixtures.ts";
+import { outputDir, writeCldrSnapshots, writeOverlay, type CldrFixture } from "./fixtures.ts";
 
 const germanyAndAndorra: CldrFixture = {
   regular: ["DE", "AD"],
@@ -18,7 +18,11 @@ const germanyAndAndorra: CldrFixture = {
 
 async function emitCountries(fixture: CldrFixture): Promise<string> {
   const outDir = await outputDir();
-  await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
+  await build({
+    sourcesDir: await writeCldrSnapshots(fixture),
+    overlayPath: await writeOverlay(),
+    outDir,
+  });
   return readFile(join(outDir, "countries.json"), "utf8");
 }
 
@@ -138,7 +142,11 @@ const spain: CldrFixture = {
 
 async function buildSubdivisions(fixture: CldrFixture, country: string): Promise<unknown> {
   const outDir = await outputDir();
-  await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
+  await build({
+    sourcesDir: await writeCldrSnapshots(fixture),
+    overlayPath: await writeOverlay(),
+    outDir,
+  });
   return JSON.parse(await readFile(join(outDir, "subdivisions", `${country}.json`), "utf8"));
 }
 
@@ -227,7 +235,11 @@ test("emits one Subdivisions Data pack per Country, empty when it has none", asy
     codes: [...spain.codes, { type: "AD", numeric: "020", alpha3: "AND" }],
     names: [...spain.names, { type: "AD", name: "Andorra" }],
   };
-  await build({ sourcesDir: await writeCldrSnapshots(fixture), outDir });
+  await build({
+    sourcesDir: await writeCldrSnapshots(fixture),
+    overlayPath: await writeOverlay(),
+    outDir,
+  });
   const packs = await readdir(join(outDir, "subdivisions"));
   expect(packs.filter((file) => file.endsWith(".json"))).toEqual(["AD.json", "ES.json"]);
   expect(JSON.parse(await readFile(join(outDir, "subdivisions", "AD.json"), "utf8"))).toEqual([]);
@@ -260,5 +272,170 @@ test("fails on Parents that form a cycle", async () => {
   };
   await expect(buildSubdivisions(cyclic, "ES")).rejects.toThrow(
     "Subdivision ES-AL has Parents that form a cycle",
+  );
+});
+
+const serbiaAndMontenegro: CldrFixture = {
+  regular: ["ME", "RS"],
+  codes: [
+    { type: "ME", numeric: "499", alpha3: "MNE" },
+    { type: "RS", numeric: "688", alpha3: "SRB" },
+  ],
+  names: [
+    { type: "ME", name: "Montenegro" },
+    { type: "RS", name: "Serbia" },
+  ],
+};
+
+const yugoslavia = {
+  alpha4: "YUCS",
+  alpha2: "YU",
+  alpha3: "YUG",
+  numeric: "891",
+  name: "Yugoslavia",
+  withdrawn: "2003-07-23",
+  successors: ["CSXX"],
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:YU",
+};
+
+const csxx = {
+  alpha4: "CSXX",
+  alpha2: "CS",
+  alpha3: "SCG",
+  numeric: "891",
+  name: "Serbia and Montenegro",
+  withdrawn: "2006-09-26",
+  successors: ["RS", "ME"],
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:CS",
+};
+
+async function buildWithOverlay(
+  overlay: unknown,
+  fixture: CldrFixture = serbiaAndMontenegro,
+): Promise<string> {
+  const outDir = await outputDir();
+  await build({
+    sourcesDir: await writeCldrSnapshots(fixture),
+    overlayPath: await writeOverlay(overlay),
+    outDir,
+  });
+  return outDir;
+}
+
+async function readPack(outDir: string, file: string): Promise<unknown> {
+  return JSON.parse(await readFile(join(outDir, file), "utf8"));
+}
+
+test("Historic countries pass through from the Overlay, sorted by id, without their citations", async () => {
+  const outDir = await buildWithOverlay({ historicCountries: [yugoslavia, csxx] });
+  expect(await readPack(outDir, "historic-countries.json")).toEqual([
+    {
+      kind: "historic-country",
+      id: "CSXX",
+      alpha4: "CSXX",
+      alpha2: "CS",
+      alpha3: "SCG",
+      numeric: "891",
+      name: "Serbia and Montenegro",
+      withdrawn: "2006-09-26",
+      successors: ["ME", "RS"],
+    },
+    {
+      kind: "historic-country",
+      id: "YUCS",
+      alpha4: "YUCS",
+      alpha2: "YU",
+      alpha3: "YUG",
+      numeric: "891",
+      name: "Yugoslavia",
+      withdrawn: "2003-07-23",
+      successors: ["CSXX"],
+    },
+  ]);
+});
+
+test("fails on a Successor that doesn't resolve to an Entity", async () => {
+  await expect(buildWithOverlay({ historicCountries: [yugoslavia] })).rejects.toThrow(
+    "Historic country YUCS has a dangling Successor CSXX",
+  );
+});
+
+test("fails on a Historic country that doesn't cite its ISO source", async () => {
+  const { citation: _, ...uncited } = csxx;
+  await expect(buildWithOverlay({ historicCountries: [uncited] })).rejects.toThrow(
+    /Overlay is malformed[\s\S]*historicCountries\[0\]\.citation/,
+  );
+});
+
+test("fails on a malformed withdrawal date", async () => {
+  await expect(
+    buildWithOverlay({ historicCountries: [{ ...csxx, withdrawn: "26 September 2006" }] }),
+  ).rejects.toThrow(/Overlay is malformed[\s\S]*withdrawn/);
+});
+
+test("fails on two Historic countries sharing an Alpha-4 code", async () => {
+  await expect(buildWithOverlay({ historicCountries: [csxx, csxx] })).rejects.toThrow(
+    "Duplicate id CSXX",
+  );
+});
+
+const romania: CldrFixture = {
+  regular: ["RO"],
+  codes: [{ type: "RO", numeric: "642", alpha3: "ROU" }],
+  names: [{ type: "RO", name: "Romania" }],
+};
+
+const rom = {
+  country: "RO",
+  code: "ROM",
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:RO",
+};
+
+test("a former code becomes an Alias of its Country, not a Historic country or a field", async () => {
+  const outDir = await buildWithOverlay({ formerCodes: [rom] }, romania);
+  expect(await readPack(outDir, "countries.aliases.json")).toEqual({ RO: ["ROM"] });
+  expect(await readPack(outDir, "countries.json")).toEqual([
+    { kind: "country", id: "RO", alpha2: "RO", alpha3: "ROU", numeric: "642", name: "Romania" },
+  ]);
+  expect(await readPack(outDir, "historic-countries.json")).toEqual([]);
+});
+
+test("a Historic country's ISO formal name is an Alias, not its Name", async () => {
+  const ussr = {
+    alpha4: "SUHH",
+    alpha2: "SU",
+    alpha3: "SUN",
+    numeric: "810",
+    name: "Soviet Union",
+    aliases: ["USSR, Union of Soviet Socialist Republics", "USSR"],
+    withdrawn: "1992",
+    successors: ["RU"],
+    citation: "https://www.iso.org/obp/ui/#iso:code:3166:SU",
+  };
+  const russia: CldrFixture = {
+    regular: ["RU"],
+    codes: [{ type: "RU", numeric: "643", alpha3: "RUS" }],
+    names: [{ type: "RU", name: "Russia" }],
+  };
+  const outDir = await buildWithOverlay({ historicCountries: [ussr] }, russia);
+  expect(await readPack(outDir, "historic-countries.aliases.json")).toEqual({
+    SUHH: ["USSR", "USSR, Union of Soviet Socialist Republics"],
+  });
+  expect(await readPack(outDir, "historic-countries.json")).toEqual([
+    expect.objectContaining({ id: "SUHH", name: "Soviet Union", withdrawn: "1992" }),
+  ]);
+});
+
+test("fails on a withdrawal date that isn't a real date", async () => {
+  await expect(
+    buildWithOverlay({ historicCountries: [{ ...csxx, withdrawn: "2006-13-45" }] }),
+  ).rejects.toThrow(/Overlay is malformed[\s\S]*withdrawn/);
+});
+
+test("fails on a Historic country that lists a Successor twice or succeeds itself", async () => {
+  await expect(
+    buildWithOverlay({ historicCountries: [{ ...csxx, successors: ["RS", "RS", "CSXX"] }] }),
+  ).rejects.toThrow(
+    /Historic country CSXX is its own Successor[\s\S]*Historic country CSXX lists Successor RS twice/,
   );
 });

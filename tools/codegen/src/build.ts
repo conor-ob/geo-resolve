@@ -1,24 +1,28 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
-import type { Country, Subdivision } from "geo-resolve";
+import type { Country, HistoricCountry, Subdivision } from "geo-resolve";
 import { z } from "zod";
 
 export interface BuildOptions {
   /** Directory holding the Snapshots written by `fetch`. */
   sourcesDir: string;
+  /** The hand-maintained Overlay file, applied on top of the Snapshots. */
+  overlayPath: string;
   /** Directory the Data packs are written to. */
   outDir: string;
 }
 
 const Alpha2Schema = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
+const Alpha3Schema = z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code");
+const NumericSchema = z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code");
 
 const CountrySchema = z.strictObject({
   kind: z.literal("country"),
   id: Alpha2Schema,
   alpha2: Alpha2Schema,
-  alpha3: z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code"),
-  numeric: z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code"),
+  alpha3: Alpha3Schema,
+  numeric: NumericSchema,
   name: z.string().min(1, "must not be empty"),
 });
 
@@ -39,10 +43,65 @@ const SubdivisionSchema = z.strictObject({
   name: z.string().min(1, "must not be empty"),
 });
 
+/** True for a real date written as `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, so `2006-13-45` is rejected. */
+function isIso8601Date(value: string): boolean {
+  if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(value)) return false;
+  const [year, month = "01", day = "01"] = value.split("-");
+  const date = new Date(`${year}-${month}-${day}T00:00:00Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().startsWith(`${year}-${month}-${day}`);
+}
+
+const Alpha4Schema = z.string().regex(/^[A-Z]{4}$/, "must be an Alpha-4 code");
+
+const HistoricCountrySchema = z.strictObject({
+  kind: z.literal("historic-country"),
+  id: Alpha4Schema,
+  alpha4: Alpha4Schema,
+  alpha2: Alpha2Schema,
+  alpha3: Alpha3Schema.optional(),
+  numeric: NumericSchema.optional(),
+  name: z.string().min(1, "must not be empty"),
+  withdrawn: z
+    .string()
+    .refine(isIso8601Date, "must be an ISO 8601 date of year, month or day precision"),
+  successors: z.array(z.string()).min(1, "must name at least one Successor").readonly(),
+});
+
 // The published Entity types are the source of truth; these fail typechecking if a schema drifts from them.
 // No Source fills `codes` yet, so the schemas reject it until Code systems are built.
 true satisfies Exactly<Readonly<z.infer<typeof CountrySchema>>, Omit<Country, "codes">>;
 true satisfies Exactly<Readonly<z.infer<typeof SubdivisionSchema>>, Omit<Subdivision, "codes">>;
+true satisfies Exactly<Readonly<z.infer<typeof HistoricCountrySchema>>, HistoricCountry>;
+
+/** The ISO page (a URL) or change notice (such as `ISO 3166-1 Newsletter V-3`) a curated record came from, so a reviewer can verify it. */
+const CitationSchema = z.string().min(1, "must cite the ISO page or change notice");
+
+/** A Historic country as curated in the Overlay: its Entity fields, any Aliases, and a citation. */
+const OverlayHistoricCountrySchema = z.strictObject({
+  ...HistoricCountrySchema.omit({ kind: true, id: true }).shape,
+  aliases: z.array(z.string().min(1, "must not be empty")).default([]),
+  citation: CitationSchema,
+});
+
+/** A code ISO once assigned to a Country that still exists, such as `ROM` for Romania (now `ROU`). */
+const OverlayFormerCodeSchema = z.strictObject({
+  country: Alpha2Schema,
+  code: z.string().regex(/^([A-Z]{2,3}|\d{3})$/, "must be an Alpha-2, Alpha-3 or Numeric code"),
+  citation: CitationSchema,
+});
+
+const OverlaySchema = z.strictObject({
+  historicCountries: z.array(OverlayHistoricCountrySchema).default([]),
+  formerCodes: z.array(OverlayFormerCodeSchema).default([]),
+});
+
+type Overlay = z.infer<typeof OverlaySchema>;
+
+async function readOverlay(path: string): Promise<Overlay> {
+  const parsed = OverlaySchema.safeParse(JSON.parse(await readFile(path, "utf8")));
+  if (!parsed.success) throw new Error(`Overlay is malformed:\n${z.prettifyError(parsed.error)}`);
+  return parsed.data;
+}
 
 /** A CLDR validity file, which lists codes of one type (regions, Subdivisions) by status. */
 const IdValiditySchema = z.object({
@@ -165,7 +224,7 @@ function byId(a: { id: string }, b: { id: string }): number {
 }
 
 /** Reads the Snapshots in `sourcesDir`, validates every record and writes sorted Data packs to `outDir`. */
-export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void> {
+export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): Promise<void> {
   const validity = await readSnapshot(
     sourcesDir,
     "cldr/common/validity/region.xml",
@@ -295,18 +354,64 @@ export async function build({ sourcesDir, outDir }: BuildOptions): Promise<void>
     else problems.push(`Subdivision ${id}:\n${z.prettifyError(parsed.error)}`);
   }
 
-  const seenIds = new Set<string>();
+  const subdivisionIdsSeen = new Set<string>();
   for (const { id } of subdivisions) {
-    if (seenIds.has(id) || countryIds.has(id)) problems.push(`Duplicate id ${id}`);
-    seenIds.add(id);
+    if (subdivisionIdsSeen.has(id) || countryIds.has(id)) problems.push(`Duplicate id ${id}`);
+    subdivisionIdsSeen.add(id);
+  }
+
+  // The Overlay is applied last, so it can refer to any Entity built from the Snapshots.
+  const overlay = await readOverlay(overlayPath);
+  const historicCountries: HistoricCountry[] = overlay.historicCountries.map(
+    ({ aliases: _aliases, citation: _citation, ...record }) =>
+      HistoricCountrySchema.parse({
+        kind: "historic-country",
+        id: record.alpha4,
+        ...record,
+        successors: [...record.successors].sort(),
+      }),
+  );
+  const historicCountryAliases = new Map(
+    overlay.historicCountries.map(({ alpha4, aliases }) => [alpha4, aliases]),
+  );
+  // Ids are unique across Kinds (ADR-0003); Countries and Subdivisions were checked above.
+  const entityIds = new Set([...countryIds, ...subdivisionIdsSeen]);
+  for (const { id } of historicCountries) {
+    if (entityIds.has(id)) problems.push(`Duplicate id ${id}`);
+    entityIds.add(id);
+  }
+  for (const { id, successors } of historicCountries) {
+    for (const [i, successor] of successors.entries()) {
+      if (successor === id) problems.push(`Historic country ${id} is its own Successor`);
+      else if (!entityIds.has(successor))
+        problems.push(`Historic country ${id} has a dangling Successor ${successor}`);
+      // Successors are sorted, so a repeat sits next to its first occurrence.
+      if (successors[i - 1] === successor)
+        problems.push(`Historic country ${id} lists Successor ${successor} twice`);
+    }
+  }
+
+  // Former codes of Countries that still exist are Aliases, not Historic countries (ADR-0003).
+  const countryAliases = new Map<string, string[]>();
+  for (const { country, code } of overlay.formerCodes) {
+    if (!countryIds.has(country))
+      problems.push(`Former code ${code} has a dangling Country ${country}`);
+    countryAliases.set(country, [...(countryAliases.get(country) ?? []), code]);
   }
 
   if (problems.length > 0) throw new Error(`Invalid data:\n${problems.join("\n")}`);
 
   countries.sort(byId);
+  historicCountries.sort(byId);
   subdivisions.sort(byId);
   await mkdir(join(outDir, "subdivisions"), { recursive: true });
   await writeJson(join(outDir, "countries.json"), countries);
+  await writeJson(join(outDir, "countries.aliases.json"), sortedAliases(countryAliases));
+  await writeJson(join(outDir, "historic-countries.json"), historicCountries);
+  await writeJson(
+    join(outDir, "historic-countries.aliases.json"),
+    sortedAliases(historicCountryAliases),
+  );
   for (const { id } of countries) {
     const pack = subdivisions.filter((subdivision) => subdivision.country === id);
     await writeJson(join(outDir, "subdivisions", `${id}.json`), pack);
@@ -345,6 +450,16 @@ export default dataPack([
 ${spreads.join("\n")}
 ]);
 `;
+}
+
+/** Aliases keyed by Entity `id`, with ids and each Entity's Aliases sorted so the output is deterministic. */
+function sortedAliases(aliases: Map<string, string[]>): Record<string, string[]> {
+  return Object.fromEntries(
+    [...aliases]
+      .filter(([, names]) => names.length > 0)
+      .sort(([a], [b]) => byId({ id: a }, { id: b }))
+      .map(([id, names]) => [id, [...new Set(names)].sort()]),
+  );
 }
 
 async function writeJson(path: string, value: unknown): Promise<void> {

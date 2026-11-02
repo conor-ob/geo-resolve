@@ -44,6 +44,14 @@ export async function writeCldrSnapshots(fixture: CldrFixture): Promise<string> 
   return sourcesDir;
 }
 
+/** Writes an Overlay file holding `overlay`, in whatever shape the test gives, and returns its path. */
+export async function writeOverlay(overlay: unknown = {}): Promise<string> {
+  const dir = await mkdtemp(join(tmpdir(), "geo-resolve-overlay-"));
+  const overlayPath = join(dir, "overlay.json");
+  await writeFile(overlayPath, JSON.stringify(overlay));
+  return overlayPath;
+}
+
 export function outputDir(): Promise<string> {
   return mkdtemp(join(tmpdir(), "geo-resolve-out-"));
 }

@@ -1,0 +1,317 @@
+{
+  "historicCountries": [
+    {
+      "alpha4": "AIDJ",
+      "alpha2": "AI",
+      "alpha3": "AFI",
+      "name": "French Afars and Issas",
+      "withdrawn": "1977",
+      "successors": ["DJ"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:AIDJ"
+    },
+    {
+      "alpha4": "ANHH",
+      "alpha2": "AN",
+      "alpha3": "ANT",
+      "numeric": "530",
+      "name": "Netherlands Antilles",
+      "withdrawn": "2010-12-15",
+      "successors": ["BQ", "CW", "SX"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:AN"
+    },
+    {
+      "alpha4": "BQAQ",
+      "alpha2": "BQ",
+      "alpha3": "ATB",
+      "name": "British Antarctic Territory",
+      "withdrawn": "1979",
+      "successors": ["AQ"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:BQAQ"
+    },
+    {
+      "alpha4": "BUMM",
+      "alpha2": "BU",
+      "alpha3": "BUR",
+      "numeric": "104",
+      "name": "Burma",
+      "withdrawn": "1989",
+      "successors": ["MM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:BU"
+    },
+    {
+      "alpha4": "BYAA",
+      "alpha2": "BY",
+      "alpha3": "BYS",
+      "numeric": "112",
+      "name": "Byelorussian SSR",
+      "withdrawn": "1992",
+      "successors": ["BY"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:BYAA"
+    },
+    {
+      "alpha4": "CSHH",
+      "alpha2": "CS",
+      "alpha3": "CSK",
+      "numeric": "200",
+      "name": "Czechoslovakia",
+      "withdrawn": "1993",
+      "successors": ["CZ", "SK"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:CSHH"
+    },
+    {
+      "alpha4": "CSXX",
+      "alpha2": "CS",
+      "alpha3": "SCG",
+      "numeric": "891",
+      "name": "Serbia and Montenegro",
+      "withdrawn": "2006-09-26",
+      "successors": ["ME", "RS"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:CS"
+    },
+    {
+      "alpha4": "CTKI",
+      "alpha2": "CT",
+      "alpha3": "CTE",
+      "numeric": "128",
+      "name": "Canton and Enderbury Islands",
+      "withdrawn": "1984",
+      "successors": ["KI"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:CTKI"
+    },
+    {
+      "alpha4": "DDDE",
+      "alpha2": "DD",
+      "alpha3": "DDR",
+      "numeric": "278",
+      "name": "East Germany",
+      "aliases": ["German Democratic Republic"],
+      "withdrawn": "1990",
+      "successors": ["DE"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:DDDE"
+    },
+    {
+      "alpha4": "DYBJ",
+      "alpha2": "DY",
+      "alpha3": "DHY",
+      "name": "Dahomey",
+      "withdrawn": "1977",
+      "successors": ["BJ"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:DYBJ"
+    },
+    {
+      "alpha4": "FQHH",
+      "alpha2": "FQ",
+      "alpha3": "ATF",
+      "name": "French Southern and Antarctic Territories",
+      "withdrawn": "1979",
+      "successors": ["AQ", "TF"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:FQHH"
+    },
+    {
+      "alpha4": "FXFR",
+      "alpha2": "FX",
+      "alpha3": "FXX",
+      "numeric": "249",
+      "name": "Metropolitan France",
+      "aliases": ["France, Metropolitan"],
+      "withdrawn": "1997",
+      "successors": ["FR"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:FX"
+    },
+    {
+      "alpha4": "GEHH",
+      "alpha2": "GE",
+      "alpha3": "GEL",
+      "name": "Gilbert and Ellice Islands",
+      "withdrawn": "1979",
+      "successors": ["KI", "TV"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:GEHH"
+    },
+    {
+      "alpha4": "HVBF",
+      "alpha2": "HV",
+      "alpha3": "HVO",
+      "numeric": "854",
+      "name": "Upper Volta",
+      "withdrawn": "1984",
+      "successors": ["BF"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:HVBF"
+    },
+    {
+      "alpha4": "JTUM",
+      "alpha2": "JT",
+      "alpha3": "JTN",
+      "numeric": "396",
+      "name": "Johnston Island",
+      "withdrawn": "1986",
+      "successors": ["UM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:JTUM"
+    },
+    {
+      "alpha4": "MIUM",
+      "alpha2": "MI",
+      "alpha3": "MID",
+      "numeric": "488",
+      "name": "Midway Islands",
+      "withdrawn": "1986",
+      "successors": ["UM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:MIUM"
+    },
+    {
+      "alpha4": "NHVU",
+      "alpha2": "NH",
+      "alpha3": "NHB",
+      "name": "New Hebrides",
+      "withdrawn": "1980",
+      "successors": ["VU"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:NHVU"
+    },
+    {
+      "alpha4": "NQAQ",
+      "alpha2": "NQ",
+      "alpha3": "ATN",
+      "numeric": "216",
+      "name": "Dronning Maud Land",
+      "withdrawn": "1983",
+      "successors": ["AQ"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:NQAQ"
+    },
+    {
+      "alpha4": "NTHH",
+      "alpha2": "NT",
+      "alpha3": "NTZ",
+      "numeric": "536",
+      "name": "Neutral Zone",
+      "withdrawn": "1993",
+      "successors": ["IQ", "SA"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:NT"
+    },
+    {
+      "alpha4": "PCHH",
+      "alpha2": "PC",
+      "alpha3": "PCI",
+      "numeric": "582",
+      "name": "Trust Territory of the Pacific Islands",
+      "aliases": ["Pacific Islands (Trust Territory)"],
+      "withdrawn": "1986",
+      "successors": ["FM", "MH", "MP", "PW"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:PCHH"
+    },
+    {
+      "alpha4": "PUUM",
+      "alpha2": "PU",
+      "alpha3": "PUS",
+      "numeric": "849",
+      "name": "United States Miscellaneous Pacific Islands",
+      "withdrawn": "1986",
+      "successors": ["UM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:PUUM"
+    },
+    {
+      "alpha4": "PZPA",
+      "alpha2": "PZ",
+      "alpha3": "PCZ",
+      "name": "Panama Canal Zone",
+      "withdrawn": "1980",
+      "successors": ["PA"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:PZPA"
+    },
+    {
+      "alpha4": "RHZW",
+      "alpha2": "RH",
+      "alpha3": "RHO",
+      "name": "Southern Rhodesia",
+      "withdrawn": "1980",
+      "successors": ["ZW"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:RHZW"
+    },
+    {
+      "alpha4": "SKIN",
+      "alpha2": "SK",
+      "alpha3": "SKM",
+      "name": "Sikkim",
+      "withdrawn": "1975",
+      "successors": ["IN"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:SKIN"
+    },
+    {
+      "alpha4": "SUHH",
+      "alpha2": "SU",
+      "alpha3": "SUN",
+      "numeric": "810",
+      "name": "Soviet Union",
+      "aliases": ["USSR", "USSR, Union of Soviet Socialist Republics"],
+      "withdrawn": "1992",
+      "successors": ["AM", "AZ", "EE", "GE", "KG", "KZ", "LT", "LV", "MD", "RU", "TJ", "TM", "UZ"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:SU"
+    },
+    {
+      "alpha4": "TPTL",
+      "alpha2": "TP",
+      "alpha3": "TMP",
+      "numeric": "626",
+      "name": "East Timor",
+      "withdrawn": "2002",
+      "successors": ["TL"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:TP"
+    },
+    {
+      "alpha4": "VDVN",
+      "alpha2": "VD",
+      "alpha3": "VDR",
+      "name": "North Vietnam",
+      "aliases": ["Viet-Nam, Democratic Republic of"],
+      "withdrawn": "1977",
+      "successors": ["VN"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:VDVN"
+    },
+    {
+      "alpha4": "WKUM",
+      "alpha2": "WK",
+      "alpha3": "WAK",
+      "numeric": "872",
+      "name": "Wake Island",
+      "withdrawn": "1986",
+      "successors": ["UM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:WKUM"
+    },
+    {
+      "alpha4": "YDYE",
+      "alpha2": "YD",
+      "alpha3": "YMD",
+      "numeric": "720",
+      "name": "South Yemen",
+      "aliases": ["Yemen, Democratic"],
+      "withdrawn": "1990",
+      "successors": ["YE"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:YDYE"
+    },
+    {
+      "alpha4": "YUCS",
+      "alpha2": "YU",
+      "alpha3": "YUG",
+      "numeric": "891",
+      "name": "Yugoslavia",
+      "withdrawn": "2003-07-23",
+      "successors": ["CSXX"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:YU"
+    },
+    {
+      "alpha4": "ZRCD",
+      "alpha2": "ZR",
+      "alpha3": "ZAR",
+      "numeric": "180",
+      "name": "Zaire",
+      "withdrawn": "1997",
+      "successors": ["CD"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:ZR"
+    }
+  ],
+  "formerCodes": [
+    {
+      "country": "RO",
+      "code": "ROM",
+      "citation": "ISO 3166-1 Newsletter V-3 (2002-02-01): alpha-3 code element for Romania changed from ROM to ROU"
+    }
+  ]
+}
