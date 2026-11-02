@@ -4,6 +4,8 @@ on:
   pull_request:
   push:
     branches: [main]
+  # Dispatched by the data-update workflow, whose PRs trigger no pull_request runs
+  workflow_dispatch:
 
 permissions:
   contents: read
