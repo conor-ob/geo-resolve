@@ -2,35 +2,18 @@
   "differences": [
     {
       "field": "name",
-      "reason": "CLDR writes & for and, St. for Saint, or a curly apostrophe where ISO writes the words out",
-      "ids": [
-        "AG",
-        "BA",
-        "BL",
-        "CI",
-        "GS",
-        "HM",
-        "KN",
-        "LC",
-        "PM",
-        "SH",
-        "SJ",
-        "ST",
-        "TC",
-        "TT",
-        "VC",
-        "WF"
-      ]
+      "reason": "CLDR writes a curly apostrophe where ISO writes a straight one (Côte d’Ivoire)",
+      "ids": ["CI"]
     },
     {
       "field": "name",
-      "reason": "CLDR qualifies a name to tell it apart from a similar one (Congo - Kinshasa, Hong Kong SAR China, Myanmar (Burma))",
-      "ids": ["CD", "CG", "HK", "MM", "MO"]
+      "reason": "CLDR qualifies a name to tell it apart from a similar one (Congo - Kinshasa, Macao SAR China)",
+      "ids": ["CD", "MO"]
     },
     {
       "field": "name",
       "reason": "CLDR uses the common English name where ISO uses its formal or official short name",
-      "ids": ["BN", "BQ", "CV", "FK", "FM", "MF", "PN", "PS", "RU", "SX", "TF", "UM", "VA", "VI"]
+      "ids": ["BN", "BQ", "FK", "PN", "PS", "VA"]
     },
     {
       "field": "name",
