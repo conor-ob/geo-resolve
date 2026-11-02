@@ -313,5 +313,107 @@
       "code": "ROM",
       "citation": "ISO 3166-1 Newsletter V-3 (2002-02-01): alpha-3 code element for Romania changed from ROM to ROU"
     }
+  ],
+  "sameAs": [
+    {
+      "entities": ["AS", "US-AS"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:AS"
+    },
+    {
+      "entities": ["AW", "NL-AW"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:AW"
+    },
+    {
+      "entities": ["AX", "FI-01"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:AX"
+    },
+    {
+      "entities": ["BL", "FR-BL"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:BL"
+    },
+    {
+      "entities": ["CW", "NL-CW"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:CW"
+    },
+    {
+      "entities": ["GF", "FR-973"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:GF"
+    },
+    {
+      "entities": ["GP", "FR-971"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:GP"
+    },
+    {
+      "entities": ["GU", "US-GU"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:GU"
+    },
+    {
+      "entities": ["HK", "CN-HK"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:HK"
+    },
+    {
+      "entities": ["MF", "FR-MF"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:MF"
+    },
+    {
+      "entities": ["MO", "CN-MO"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:MO"
+    },
+    {
+      "entities": ["MP", "US-MP"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:MP"
+    },
+    {
+      "entities": ["MQ", "FR-972"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:MQ"
+    },
+    {
+      "entities": ["NC", "FR-NC"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:NC"
+    },
+    {
+      "entities": ["PF", "FR-PF"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:PF"
+    },
+    {
+      "entities": ["PM", "FR-PM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:PM"
+    },
+    {
+      "entities": ["PR", "US-PR"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:PR"
+    },
+    {
+      "entities": ["RE", "FR-974"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:RE"
+    },
+    {
+      "entities": ["SX", "NL-SX"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:SX"
+    },
+    {
+      "entities": ["TF", "FR-TF"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:TF"
+    },
+    {
+      "entities": ["TW", "CN-TW"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:TW"
+    },
+    {
+      "entities": ["UM", "US-UM"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:UM"
+    },
+    {
+      "entities": ["VI", "US-VI"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:VI"
+    },
+    {
+      "entities": ["WF", "FR-WF"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:WF"
+    },
+    {
+      "entities": ["YT", "FR-976"],
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:YT"
+    }
   ]
 }

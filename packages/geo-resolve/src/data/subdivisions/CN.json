@@ -101,7 +101,10 @@
     "code": "CN-HK",
     "country": "CN",
     "parent": "CN",
-    "name": "Hong Kong"
+    "name": "Hong Kong",
+    "sameAs": [
+      "HK"
+    ]
   },
   {
     "kind": "subdivision",
@@ -157,7 +160,10 @@
     "code": "CN-MO",
     "country": "CN",
     "parent": "CN",
-    "name": "Macau"
+    "name": "Macau",
+    "sameAs": [
+      "MO"
+    ]
   },
   {
     "kind": "subdivision",
@@ -237,7 +243,10 @@
     "code": "CN-TW",
     "country": "CN",
     "parent": "CN",
-    "name": "Taiwan"
+    "name": "Taiwan",
+    "sameAs": [
+      "TW"
+    ]
   },
   {
     "kind": "subdivision",

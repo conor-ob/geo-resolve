@@ -25,6 +25,17 @@
   },
   {
     "kind": "subdivision",
+    "id": "US-AS",
+    "code": "US-AS",
+    "country": "US",
+    "parent": "US",
+    "name": "American Samoa",
+    "sameAs": [
+      "AS"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "US-AZ",
     "code": "US-AZ",
     "country": "US",
@@ -86,6 +97,17 @@
     "country": "US",
     "parent": "US",
     "name": "Georgia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-GU",
+    "code": "US-GU",
+    "country": "US",
+    "parent": "US",
+    "name": "Guam",
+    "sameAs": [
+      "GU"
+    ]
   },
   {
     "kind": "subdivision",
@@ -201,6 +223,17 @@
   },
   {
     "kind": "subdivision",
+    "id": "US-MP",
+    "code": "US-MP",
+    "country": "US",
+    "parent": "US",
+    "name": "Northern Mariana Islands",
+    "sameAs": [
+      "MP"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "US-MS",
     "code": "US-MS",
     "country": "US",
@@ -313,6 +346,17 @@
   },
   {
     "kind": "subdivision",
+    "id": "US-PR",
+    "code": "US-PR",
+    "country": "US",
+    "parent": "US",
+    "name": "Puerto Rico",
+    "sameAs": [
+      "PR"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "US-RI",
     "code": "US-RI",
     "country": "US",
@@ -353,6 +397,17 @@
   },
   {
     "kind": "subdivision",
+    "id": "US-UM",
+    "code": "US-UM",
+    "country": "US",
+    "parent": "US",
+    "name": "U.S. Outlying Islands",
+    "sameAs": [
+      "UM"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "US-UT",
     "code": "US-UT",
     "country": "US",
@@ -366,6 +421,17 @@
     "country": "US",
     "parent": "US",
     "name": "Virginia"
+  },
+  {
+    "kind": "subdivision",
+    "id": "US-VI",
+    "code": "US-VI",
+    "country": "US",
+    "parent": "US",
+    "name": "U.S. Virgin Islands",
+    "sameAs": [
+      "VI"
+    ]
   },
   {
     "kind": "subdivision",

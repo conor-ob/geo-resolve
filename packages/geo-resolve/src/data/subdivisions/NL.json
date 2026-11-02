@@ -1,6 +1,17 @@
 [
   {
     "kind": "subdivision",
+    "id": "NL-AW",
+    "code": "NL-AW",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Aruba",
+    "sameAs": [
+      "AW"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "NL-BQ1",
     "code": "NL-BQ1",
     "country": "NL",
@@ -22,6 +33,17 @@
     "country": "NL",
     "parent": "NL",
     "name": "Sint Eustatius"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-CW",
+    "code": "NL-CW",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Curaçao",
+    "sameAs": [
+      "CW"
+    ]
   },
   {
     "kind": "subdivision",
@@ -94,6 +116,17 @@
     "country": "NL",
     "parent": "NL",
     "name": "Overijssel"
+  },
+  {
+    "kind": "subdivision",
+    "id": "NL-SX",
+    "code": "NL-SX",
+    "country": "NL",
+    "parent": "NL",
+    "name": "Sint Maarten",
+    "sameAs": [
+      "SX"
+    ]
   },
   {
     "kind": "subdivision",

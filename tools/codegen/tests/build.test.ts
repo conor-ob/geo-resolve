@@ -439,3 +439,122 @@ test("fails on a Historic country that lists a Successor twice or succeeds itsel
     /Historic country CSXX is its own Successor[\s\S]*Historic country CSXX lists Successor RS twice/,
   );
 });
+
+// CLDR deprecates `uspr` because PR has its own region code; ISO still lists both.
+const puertoRico: CldrFixture = {
+  regular: ["PR", "US"],
+  codes: [
+    { type: "PR", numeric: "630", alpha3: "PRI" },
+    { type: "US", numeric: "840", alpha3: "USA" },
+  ],
+  names: [
+    { type: "PR", name: "Puerto Rico" },
+    { type: "US", name: "United States" },
+  ],
+  subdivisions: {
+    regular: ["usca"],
+    deprecated: ["uspr"],
+    containment: [{ type: "US", contains: ["usca", "uspr"] }],
+    names: [
+      { type: "usca", name: "California" },
+      { type: "uspr", name: "Puerto Rico" },
+    ],
+  },
+};
+
+const prSameAs = {
+  entities: ["PR", "US-PR"],
+  citation: "https://www.iso.org/obp/ui/#iso:code:3166:PR",
+};
+
+test("a Same-as link from the Overlay is written on both sides, admitting the Subdivision CLDR deprecates", async () => {
+  const outDir = await buildWithOverlay({ sameAs: [prSameAs] }, puertoRico);
+  expect(await readPack(outDir, "countries.json")).toEqual([
+    {
+      kind: "country",
+      id: "PR",
+      alpha2: "PR",
+      alpha3: "PRI",
+      numeric: "630",
+      name: "Puerto Rico",
+      sameAs: ["US-PR"],
+    },
+    {
+      kind: "country",
+      id: "US",
+      alpha2: "US",
+      alpha3: "USA",
+      numeric: "840",
+      name: "United States",
+    },
+  ]);
+  expect(await readPack(outDir, "subdivisions/US.json")).toEqual([
+    {
+      kind: "subdivision",
+      id: "US-CA",
+      code: "US-CA",
+      country: "US",
+      parent: "US",
+      name: "California",
+    },
+    {
+      kind: "subdivision",
+      id: "US-PR",
+      code: "US-PR",
+      country: "US",
+      parent: "US",
+      name: "Puerto Rico",
+      sameAs: ["PR"],
+    },
+  ]);
+});
+
+test("a Subdivision code CLDR deprecates is not built unless a Same-as link names it", async () => {
+  const outDir = await buildWithOverlay({}, puertoRico);
+  expect(await readPack(outDir, "subdivisions/US.json")).toEqual([
+    expect.objectContaining({ id: "US-CA" }),
+  ]);
+});
+
+test.each([
+  [
+    "a Subdivision that isn't built",
+    ["PR", "US-GU"],
+    "Same-as link PR ↔ US-GU has a dangling Entity US-GU",
+  ],
+  [
+    "a Country that isn't built",
+    ["GU", "US-PR"],
+    "Same-as link GU ↔ US-PR has a dangling Entity GU",
+  ],
+])("fails on a Same-as link to %s", async (_, entities, message) => {
+  await expect(
+    buildWithOverlay({ sameAs: [{ ...prSameAs, entities }] }, puertoRico),
+  ).rejects.toThrow(message);
+});
+
+test("fails on a Same-as link that doesn't cite its ISO source", async () => {
+  const { citation: _, ...uncited } = prSameAs;
+  await expect(buildWithOverlay({ sameAs: [uncited] }, puertoRico)).rejects.toThrow(
+    /Overlay is malformed[\s\S]*sameAs\[0\]\.citation/,
+  );
+});
+
+test("fails on a Same-as link that is listed twice", async () => {
+  await expect(buildWithOverlay({ sameAs: [prSameAs, prSameAs] }, puertoRico)).rejects.toThrow(
+    "Same-as link PR ↔ US-PR is listed twice",
+  );
+});
+
+test.each([
+  ["two Countries", ["PR", "US"]],
+  ["two Subdivisions", ["US-CA", "US-PR"]],
+  ["a Subdivision and a Country", ["US-PR", "PR"]],
+])(
+  "fails on a Same-as link that joins %s, not a Country and a Subdivision",
+  async (_, entities) => {
+    await expect(
+      buildWithOverlay({ sameAs: [{ ...prSameAs, entities }] }, puertoRico),
+    ).rejects.toThrow(/Overlay is malformed[\s\S]*sameAs\[0\]\.entities/);
+  },
+);
