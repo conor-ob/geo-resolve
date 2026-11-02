@@ -1,6 +1,7 @@
 import countries from "./data/countries.ts";
 import { createResolver } from "./resolver.ts";
 
+export type { KnownAlpha2, KnownAlpha3, KnownSubdivisionCode } from "./data/known-codes.ts";
 export { createResolver } from "./resolver.ts";
 export type { Resolver, ResolverOptions } from "./resolver.ts";
 export type {

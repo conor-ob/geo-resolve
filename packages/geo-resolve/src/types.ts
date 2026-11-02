@@ -6,6 +6,7 @@ export type Kind = KnownKind | (string & {});
 
 /** A currently assigned ISO 3166-1 entry. */
 export interface Country {
+  /** The Kind, always `country` for a Country. */
   readonly kind: "country";
   /** The Country's Alpha-2 code. */
   readonly id: string;
@@ -31,6 +32,7 @@ export type Codes = { readonly [system in KnownCodeSystem | (string & {})]?: str
 
 /** A currently assigned ISO 3166-2 entry: a principal administrative division of a Country. */
 export interface Subdivision {
+  /** The Kind, always `subdivision` for a Subdivision. */
   readonly kind: "subdivision";
   /** The Subdivision's Subdivision code. */
   readonly id: string;
@@ -50,6 +52,7 @@ export interface Subdivision {
 
 /** A former ISO 3166-1 entry that has been withdrawn and recorded in ISO 3166-3, such as Yugoslavia. */
 export interface HistoricCountry {
+  /** The Kind, always `historic-country` for a Historic country. */
   readonly kind: "historic-country";
   /** The Historic country's Alpha-4 code. */
   readonly id: string;

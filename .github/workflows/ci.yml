@@ -30,6 +30,10 @@ jobs:
       - run: vp run fmt:check
       - run: vp run typecheck
       - run: vp run test
+      - name: Build the package, failing on publint or attw problems
+        run: vp run geo-resolve#build
+      - name: Fail if the public API differs from the committed API report
+        run: vp run geo-resolve#api:check
       - name: Rebuild Data packs from Snapshots
         run: vp run @geo-resolve/codegen#build
       - name: Fail if the generated Data packs differ from what is committed
@@ -48,3 +52,35 @@ jobs:
           cache: true
       - name: Compare the committed Data packs with the pinned iso-codes release
         run: vp run @geo-resolve/codegen#compare-iso-codes
+
+  smoke:
+    name: Smoke test the packed package in Bun, Deno and a browser bundle
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: smoke
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: voidzero-dev/setup-vp@v1.22.0
+        with:
+          node-version: "24"
+          cache: true
+      - uses: oven-sh/setup-bun@v2.2.0
+        with:
+          bun-version: "1.4.4"
+      - uses: denoland/setup-deno@v2.0.5
+        with:
+          deno-version: "2.9.6"
+      - run: vp run geo-resolve#build
+        working-directory: .
+      - name: Pack the package as it would be published
+        working-directory: packages/geo-resolve
+        run: vp pm pack --out "$RUNNER_TEMP/geo-resolve.tgz"
+      - name: Install the tarball outside the workspace
+        run: npm install --no-package-lock --no-save "$RUNNER_TEMP/geo-resolve.tgz"
+      - name: Bun
+        run: bun smoke.js
+      - name: Deno
+        run: deno run smoke.js
+      - name: Vite browser bundle (built with browser conditions, run headless in Node)
+        run: npx vite build && node dist/smoke.js

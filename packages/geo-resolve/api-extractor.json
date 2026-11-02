@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json",
+  // The built declarations of the default entry. The Data pack subpaths only default-export
+  // arrays of the Entity types declared here, so this report covers their surface too.
+  "mainEntryPointFilePath": "<projectFolder>/dist/index.d.mts",
+  "compiler": {
+    // Only the built declarations are analysed, so the source tsconfig's settings don't apply.
+    "overrideTsconfig": {
+      "compilerOptions": {
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "strict": true,
+        "types": []
+      },
+      "files": ["./dist/index.d.mts"]
+    }
+  },
+  // Committed so every change to the public surface is a reviewable diff (ADR-0006).
+  "apiReport": {
+    "enabled": true,
+    // The report covers what semver covers: the `Known…` unions are tagged `@beta`, being outside
+    // semver, so the public variant leaves them out and a data release doesn't change the report.
+    "reportVariants": ["public"],
+    "reportFolder": "<projectFolder>/",
+    "reportTempFolder": "<projectFolder>/node_modules/.cache/api-extractor/"
+  },
+  "docModel": { "enabled": false },
+  "dtsRollup": { "enabled": false },
+  "tsdocMetadata": { "enabled": false },
+  "messages": {
+    "extractorMessageReporting": {
+      // Only the `Known…` unions carry a release tag (`@beta`); every untagged export is public.
+      "ae-missing-release-tag": { "logLevel": "none" }
+    }
+  }
+}
