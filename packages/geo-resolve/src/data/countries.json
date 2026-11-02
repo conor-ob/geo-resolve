@@ -5,7 +5,11 @@
     "alpha2": "AD",
     "alpha3": "AND",
     "numeric": "020",
-    "name": "Andorra"
+    "name": "Andorra",
+    "codes": {
+      "ioc": "AND",
+      "fifa": "AND"
+    }
   },
   {
     "kind": "country",
@@ -13,7 +17,11 @@
     "alpha2": "AE",
     "alpha3": "ARE",
     "numeric": "784",
-    "name": "United Arab Emirates"
+    "name": "United Arab Emirates",
+    "codes": {
+      "ioc": "UAE",
+      "fifa": "UAE"
+    }
   },
   {
     "kind": "country",
@@ -21,7 +29,11 @@
     "alpha2": "AF",
     "alpha3": "AFG",
     "numeric": "004",
-    "name": "Afghanistan"
+    "name": "Afghanistan",
+    "codes": {
+      "ioc": "AFG",
+      "fifa": "AFG"
+    }
   },
   {
     "kind": "country",
@@ -29,7 +41,11 @@
     "alpha2": "AG",
     "alpha3": "ATG",
     "numeric": "028",
-    "name": "Antigua & Barbuda"
+    "name": "Antigua & Barbuda",
+    "codes": {
+      "ioc": "ANT",
+      "fifa": "ATG"
+    }
   },
   {
     "kind": "country",
@@ -37,7 +53,10 @@
     "alpha2": "AI",
     "alpha3": "AIA",
     "numeric": "660",
-    "name": "Anguilla"
+    "name": "Anguilla",
+    "codes": {
+      "fifa": "AIA"
+    }
   },
   {
     "kind": "country",
@@ -45,7 +64,11 @@
     "alpha2": "AL",
     "alpha3": "ALB",
     "numeric": "008",
-    "name": "Albania"
+    "name": "Albania",
+    "codes": {
+      "ioc": "ALB",
+      "fifa": "ALB"
+    }
   },
   {
     "kind": "country",
@@ -53,7 +76,11 @@
     "alpha2": "AM",
     "alpha3": "ARM",
     "numeric": "051",
-    "name": "Armenia"
+    "name": "Armenia",
+    "codes": {
+      "ioc": "ARM",
+      "fifa": "ARM"
+    }
   },
   {
     "kind": "country",
@@ -61,7 +88,11 @@
     "alpha2": "AO",
     "alpha3": "AGO",
     "numeric": "024",
-    "name": "Angola"
+    "name": "Angola",
+    "codes": {
+      "ioc": "ANG",
+      "fifa": "ANG"
+    }
   },
   {
     "kind": "country",
@@ -77,7 +108,11 @@
     "alpha2": "AR",
     "alpha3": "ARG",
     "numeric": "032",
-    "name": "Argentina"
+    "name": "Argentina",
+    "codes": {
+      "ioc": "ARG",
+      "fifa": "ARG"
+    }
   },
   {
     "kind": "country",
@@ -86,6 +121,10 @@
     "alpha3": "ASM",
     "numeric": "016",
     "name": "American Samoa",
+    "codes": {
+      "ioc": "ASA",
+      "fifa": "ASA"
+    },
     "sameAs": [
       "US-AS"
     ]
@@ -96,7 +135,11 @@
     "alpha2": "AT",
     "alpha3": "AUT",
     "numeric": "040",
-    "name": "Austria"
+    "name": "Austria",
+    "codes": {
+      "ioc": "AUT",
+      "fifa": "AUT"
+    }
   },
   {
     "kind": "country",
@@ -104,7 +147,11 @@
     "alpha2": "AU",
     "alpha3": "AUS",
     "numeric": "036",
-    "name": "Australia"
+    "name": "Australia",
+    "codes": {
+      "ioc": "AUS",
+      "fifa": "AUS"
+    }
   },
   {
     "kind": "country",
@@ -113,6 +160,10 @@
     "alpha3": "ABW",
     "numeric": "533",
     "name": "Aruba",
+    "codes": {
+      "ioc": "ARU",
+      "fifa": "ARU"
+    },
     "sameAs": [
       "NL-AW"
     ]
@@ -134,7 +185,11 @@
     "alpha2": "AZ",
     "alpha3": "AZE",
     "numeric": "031",
-    "name": "Azerbaijan"
+    "name": "Azerbaijan",
+    "codes": {
+      "ioc": "AZE",
+      "fifa": "AZE"
+    }
   },
   {
     "kind": "country",
@@ -142,7 +197,11 @@
     "alpha2": "BA",
     "alpha3": "BIH",
     "numeric": "070",
-    "name": "Bosnia & Herzegovina"
+    "name": "Bosnia & Herzegovina",
+    "codes": {
+      "ioc": "BIH",
+      "fifa": "BIH"
+    }
   },
   {
     "kind": "country",
@@ -150,7 +209,11 @@
     "alpha2": "BB",
     "alpha3": "BRB",
     "numeric": "052",
-    "name": "Barbados"
+    "name": "Barbados",
+    "codes": {
+      "ioc": "BAR",
+      "fifa": "BRB"
+    }
   },
   {
     "kind": "country",
@@ -158,7 +221,11 @@
     "alpha2": "BD",
     "alpha3": "BGD",
     "numeric": "050",
-    "name": "Bangladesh"
+    "name": "Bangladesh",
+    "codes": {
+      "ioc": "BAN",
+      "fifa": "BAN"
+    }
   },
   {
     "kind": "country",
@@ -166,7 +233,11 @@
     "alpha2": "BE",
     "alpha3": "BEL",
     "numeric": "056",
-    "name": "Belgium"
+    "name": "Belgium",
+    "codes": {
+      "ioc": "BEL",
+      "fifa": "BEL"
+    }
   },
   {
     "kind": "country",
@@ -174,7 +245,11 @@
     "alpha2": "BF",
     "alpha3": "BFA",
     "numeric": "854",
-    "name": "Burkina Faso"
+    "name": "Burkina Faso",
+    "codes": {
+      "ioc": "BUR",
+      "fifa": "BFA"
+    }
   },
   {
     "kind": "country",
@@ -182,7 +257,11 @@
     "alpha2": "BG",
     "alpha3": "BGR",
     "numeric": "100",
-    "name": "Bulgaria"
+    "name": "Bulgaria",
+    "codes": {
+      "ioc": "BUL",
+      "fifa": "BUL"
+    }
   },
   {
     "kind": "country",
@@ -190,7 +269,11 @@
     "alpha2": "BH",
     "alpha3": "BHR",
     "numeric": "048",
-    "name": "Bahrain"
+    "name": "Bahrain",
+    "codes": {
+      "ioc": "BRN",
+      "fifa": "BHR"
+    }
   },
   {
     "kind": "country",
@@ -198,7 +281,11 @@
     "alpha2": "BI",
     "alpha3": "BDI",
     "numeric": "108",
-    "name": "Burundi"
+    "name": "Burundi",
+    "codes": {
+      "ioc": "BDI",
+      "fifa": "BDI"
+    }
   },
   {
     "kind": "country",
@@ -206,7 +293,11 @@
     "alpha2": "BJ",
     "alpha3": "BEN",
     "numeric": "204",
-    "name": "Benin"
+    "name": "Benin",
+    "codes": {
+      "ioc": "BEN",
+      "fifa": "BEN"
+    }
   },
   {
     "kind": "country",
@@ -225,7 +316,11 @@
     "alpha2": "BM",
     "alpha3": "BMU",
     "numeric": "060",
-    "name": "Bermuda"
+    "name": "Bermuda",
+    "codes": {
+      "ioc": "BER",
+      "fifa": "BER"
+    }
   },
   {
     "kind": "country",
@@ -233,7 +328,11 @@
     "alpha2": "BN",
     "alpha3": "BRN",
     "numeric": "096",
-    "name": "Brunei"
+    "name": "Brunei",
+    "codes": {
+      "ioc": "BRU",
+      "fifa": "BRU"
+    }
   },
   {
     "kind": "country",
@@ -241,7 +340,11 @@
     "alpha2": "BO",
     "alpha3": "BOL",
     "numeric": "068",
-    "name": "Bolivia"
+    "name": "Bolivia",
+    "codes": {
+      "ioc": "BOL",
+      "fifa": "BOL"
+    }
   },
   {
     "kind": "country",
@@ -257,7 +360,11 @@
     "alpha2": "BR",
     "alpha3": "BRA",
     "numeric": "076",
-    "name": "Brazil"
+    "name": "Brazil",
+    "codes": {
+      "ioc": "BRA",
+      "fifa": "BRA"
+    }
   },
   {
     "kind": "country",
@@ -265,7 +372,11 @@
     "alpha2": "BS",
     "alpha3": "BHS",
     "numeric": "044",
-    "name": "Bahamas"
+    "name": "Bahamas",
+    "codes": {
+      "ioc": "BAH",
+      "fifa": "BAH"
+    }
   },
   {
     "kind": "country",
@@ -273,7 +384,11 @@
     "alpha2": "BT",
     "alpha3": "BTN",
     "numeric": "064",
-    "name": "Bhutan"
+    "name": "Bhutan",
+    "codes": {
+      "ioc": "BHU",
+      "fifa": "BHU"
+    }
   },
   {
     "kind": "country",
@@ -289,7 +404,11 @@
     "alpha2": "BW",
     "alpha3": "BWA",
     "numeric": "072",
-    "name": "Botswana"
+    "name": "Botswana",
+    "codes": {
+      "ioc": "BOT",
+      "fifa": "BOT"
+    }
   },
   {
     "kind": "country",
@@ -297,7 +416,11 @@
     "alpha2": "BY",
     "alpha3": "BLR",
     "numeric": "112",
-    "name": "Belarus"
+    "name": "Belarus",
+    "codes": {
+      "ioc": "BLR",
+      "fifa": "BLR"
+    }
   },
   {
     "kind": "country",
@@ -305,7 +428,11 @@
     "alpha2": "BZ",
     "alpha3": "BLZ",
     "numeric": "084",
-    "name": "Belize"
+    "name": "Belize",
+    "codes": {
+      "ioc": "BIZ",
+      "fifa": "BLZ"
+    }
   },
   {
     "kind": "country",
@@ -313,7 +440,11 @@
     "alpha2": "CA",
     "alpha3": "CAN",
     "numeric": "124",
-    "name": "Canada"
+    "name": "Canada",
+    "codes": {
+      "ioc": "CAN",
+      "fifa": "CAN"
+    }
   },
   {
     "kind": "country",
@@ -329,7 +460,11 @@
     "alpha2": "CD",
     "alpha3": "COD",
     "numeric": "180",
-    "name": "Congo - Kinshasa"
+    "name": "Congo - Kinshasa",
+    "codes": {
+      "ioc": "COD",
+      "fifa": "COD"
+    }
   },
   {
     "kind": "country",
@@ -337,7 +472,11 @@
     "alpha2": "CF",
     "alpha3": "CAF",
     "numeric": "140",
-    "name": "Central African Republic"
+    "name": "Central African Republic",
+    "codes": {
+      "ioc": "CAF",
+      "fifa": "CTA"
+    }
   },
   {
     "kind": "country",
@@ -345,7 +484,11 @@
     "alpha2": "CG",
     "alpha3": "COG",
     "numeric": "178",
-    "name": "Congo - Brazzaville"
+    "name": "Congo - Brazzaville",
+    "codes": {
+      "ioc": "CGO",
+      "fifa": "CGO"
+    }
   },
   {
     "kind": "country",
@@ -353,7 +496,11 @@
     "alpha2": "CH",
     "alpha3": "CHE",
     "numeric": "756",
-    "name": "Switzerland"
+    "name": "Switzerland",
+    "codes": {
+      "ioc": "SUI",
+      "fifa": "SUI"
+    }
   },
   {
     "kind": "country",
@@ -361,7 +508,11 @@
     "alpha2": "CI",
     "alpha3": "CIV",
     "numeric": "384",
-    "name": "Côte d’Ivoire"
+    "name": "Côte d’Ivoire",
+    "codes": {
+      "ioc": "CIV",
+      "fifa": "CIV"
+    }
   },
   {
     "kind": "country",
@@ -369,7 +520,11 @@
     "alpha2": "CK",
     "alpha3": "COK",
     "numeric": "184",
-    "name": "Cook Islands"
+    "name": "Cook Islands",
+    "codes": {
+      "ioc": "COK",
+      "fifa": "COK"
+    }
   },
   {
     "kind": "country",
@@ -377,7 +532,11 @@
     "alpha2": "CL",
     "alpha3": "CHL",
     "numeric": "152",
-    "name": "Chile"
+    "name": "Chile",
+    "codes": {
+      "ioc": "CHI",
+      "fifa": "CHI"
+    }
   },
   {
     "kind": "country",
@@ -385,7 +544,11 @@
     "alpha2": "CM",
     "alpha3": "CMR",
     "numeric": "120",
-    "name": "Cameroon"
+    "name": "Cameroon",
+    "codes": {
+      "ioc": "CMR",
+      "fifa": "CMR"
+    }
   },
   {
     "kind": "country",
@@ -393,7 +556,11 @@
     "alpha2": "CN",
     "alpha3": "CHN",
     "numeric": "156",
-    "name": "China"
+    "name": "China",
+    "codes": {
+      "ioc": "CHN",
+      "fifa": "CHN"
+    }
   },
   {
     "kind": "country",
@@ -401,7 +568,11 @@
     "alpha2": "CO",
     "alpha3": "COL",
     "numeric": "170",
-    "name": "Colombia"
+    "name": "Colombia",
+    "codes": {
+      "ioc": "COL",
+      "fifa": "COL"
+    }
   },
   {
     "kind": "country",
@@ -409,7 +580,11 @@
     "alpha2": "CR",
     "alpha3": "CRI",
     "numeric": "188",
-    "name": "Costa Rica"
+    "name": "Costa Rica",
+    "codes": {
+      "ioc": "CRC",
+      "fifa": "CRC"
+    }
   },
   {
     "kind": "country",
@@ -417,7 +592,11 @@
     "alpha2": "CU",
     "alpha3": "CUB",
     "numeric": "192",
-    "name": "Cuba"
+    "name": "Cuba",
+    "codes": {
+      "ioc": "CUB",
+      "fifa": "CUB"
+    }
   },
   {
     "kind": "country",
@@ -425,7 +604,11 @@
     "alpha2": "CV",
     "alpha3": "CPV",
     "numeric": "132",
-    "name": "Cape Verde"
+    "name": "Cape Verde",
+    "codes": {
+      "ioc": "CPV",
+      "fifa": "CPV"
+    }
   },
   {
     "kind": "country",
@@ -434,6 +617,9 @@
     "alpha3": "CUW",
     "numeric": "531",
     "name": "Curaçao",
+    "codes": {
+      "fifa": "CUW"
+    },
     "sameAs": [
       "NL-CW"
     ]
@@ -452,7 +638,11 @@
     "alpha2": "CY",
     "alpha3": "CYP",
     "numeric": "196",
-    "name": "Cyprus"
+    "name": "Cyprus",
+    "codes": {
+      "ioc": "CYP",
+      "fifa": "CYP"
+    }
   },
   {
     "kind": "country",
@@ -460,7 +650,11 @@
     "alpha2": "CZ",
     "alpha3": "CZE",
     "numeric": "203",
-    "name": "Czechia"
+    "name": "Czechia",
+    "codes": {
+      "ioc": "CZE",
+      "fifa": "CZE"
+    }
   },
   {
     "kind": "country",
@@ -468,7 +662,11 @@
     "alpha2": "DE",
     "alpha3": "DEU",
     "numeric": "276",
-    "name": "Germany"
+    "name": "Germany",
+    "codes": {
+      "ioc": "GER",
+      "fifa": "GER"
+    }
   },
   {
     "kind": "country",
@@ -476,7 +674,11 @@
     "alpha2": "DJ",
     "alpha3": "DJI",
     "numeric": "262",
-    "name": "Djibouti"
+    "name": "Djibouti",
+    "codes": {
+      "ioc": "DJI",
+      "fifa": "DJI"
+    }
   },
   {
     "kind": "country",
@@ -484,7 +686,11 @@
     "alpha2": "DK",
     "alpha3": "DNK",
     "numeric": "208",
-    "name": "Denmark"
+    "name": "Denmark",
+    "codes": {
+      "ioc": "DEN",
+      "fifa": "DEN"
+    }
   },
   {
     "kind": "country",
@@ -492,7 +698,11 @@
     "alpha2": "DM",
     "alpha3": "DMA",
     "numeric": "212",
-    "name": "Dominica"
+    "name": "Dominica",
+    "codes": {
+      "ioc": "DMA",
+      "fifa": "DMA"
+    }
   },
   {
     "kind": "country",
@@ -500,7 +710,11 @@
     "alpha2": "DO",
     "alpha3": "DOM",
     "numeric": "214",
-    "name": "Dominican Republic"
+    "name": "Dominican Republic",
+    "codes": {
+      "ioc": "DOM",
+      "fifa": "DOM"
+    }
   },
   {
     "kind": "country",
@@ -508,7 +722,11 @@
     "alpha2": "DZ",
     "alpha3": "DZA",
     "numeric": "012",
-    "name": "Algeria"
+    "name": "Algeria",
+    "codes": {
+      "ioc": "ALG",
+      "fifa": "ALG"
+    }
   },
   {
     "kind": "country",
@@ -516,7 +734,11 @@
     "alpha2": "EC",
     "alpha3": "ECU",
     "numeric": "218",
-    "name": "Ecuador"
+    "name": "Ecuador",
+    "codes": {
+      "ioc": "ECU",
+      "fifa": "ECU"
+    }
   },
   {
     "kind": "country",
@@ -524,7 +746,11 @@
     "alpha2": "EE",
     "alpha3": "EST",
     "numeric": "233",
-    "name": "Estonia"
+    "name": "Estonia",
+    "codes": {
+      "ioc": "EST",
+      "fifa": "EST"
+    }
   },
   {
     "kind": "country",
@@ -532,7 +758,11 @@
     "alpha2": "EG",
     "alpha3": "EGY",
     "numeric": "818",
-    "name": "Egypt"
+    "name": "Egypt",
+    "codes": {
+      "ioc": "EGY",
+      "fifa": "EGY"
+    }
   },
   {
     "kind": "country",
@@ -548,7 +778,11 @@
     "alpha2": "ER",
     "alpha3": "ERI",
     "numeric": "232",
-    "name": "Eritrea"
+    "name": "Eritrea",
+    "codes": {
+      "ioc": "ERI",
+      "fifa": "ERI"
+    }
   },
   {
     "kind": "country",
@@ -556,7 +790,11 @@
     "alpha2": "ES",
     "alpha3": "ESP",
     "numeric": "724",
-    "name": "Spain"
+    "name": "Spain",
+    "codes": {
+      "ioc": "ESP",
+      "fifa": "ESP"
+    }
   },
   {
     "kind": "country",
@@ -564,7 +802,11 @@
     "alpha2": "ET",
     "alpha3": "ETH",
     "numeric": "231",
-    "name": "Ethiopia"
+    "name": "Ethiopia",
+    "codes": {
+      "ioc": "ETH",
+      "fifa": "ETH"
+    }
   },
   {
     "kind": "country",
@@ -572,7 +814,11 @@
     "alpha2": "FI",
     "alpha3": "FIN",
     "numeric": "246",
-    "name": "Finland"
+    "name": "Finland",
+    "codes": {
+      "ioc": "FIN",
+      "fifa": "FIN"
+    }
   },
   {
     "kind": "country",
@@ -580,7 +826,11 @@
     "alpha2": "FJ",
     "alpha3": "FJI",
     "numeric": "242",
-    "name": "Fiji"
+    "name": "Fiji",
+    "codes": {
+      "ioc": "FIJ",
+      "fifa": "FIJ"
+    }
   },
   {
     "kind": "country",
@@ -588,7 +838,10 @@
     "alpha2": "FK",
     "alpha3": "FLK",
     "numeric": "238",
-    "name": "Falkland Islands"
+    "name": "Falkland Islands",
+    "codes": {
+      "ioc": "FLK"
+    }
   },
   {
     "kind": "country",
@@ -596,7 +849,10 @@
     "alpha2": "FM",
     "alpha3": "FSM",
     "numeric": "583",
-    "name": "Micronesia"
+    "name": "Micronesia",
+    "codes": {
+      "ioc": "FSM"
+    }
   },
   {
     "kind": "country",
@@ -604,7 +860,11 @@
     "alpha2": "FO",
     "alpha3": "FRO",
     "numeric": "234",
-    "name": "Faroe Islands"
+    "name": "Faroe Islands",
+    "codes": {
+      "ioc": "FRO",
+      "fifa": "FRO"
+    }
   },
   {
     "kind": "country",
@@ -612,7 +872,11 @@
     "alpha2": "FR",
     "alpha3": "FRA",
     "numeric": "250",
-    "name": "France"
+    "name": "France",
+    "codes": {
+      "ioc": "FRA",
+      "fifa": "FRA"
+    }
   },
   {
     "kind": "country",
@@ -620,7 +884,11 @@
     "alpha2": "GA",
     "alpha3": "GAB",
     "numeric": "266",
-    "name": "Gabon"
+    "name": "Gabon",
+    "codes": {
+      "ioc": "GAB",
+      "fifa": "GAB"
+    }
   },
   {
     "kind": "country",
@@ -628,7 +896,10 @@
     "alpha2": "GB",
     "alpha3": "GBR",
     "numeric": "826",
-    "name": "United Kingdom"
+    "name": "United Kingdom",
+    "codes": {
+      "ioc": "GBR"
+    }
   },
   {
     "kind": "country",
@@ -636,7 +907,11 @@
     "alpha2": "GD",
     "alpha3": "GRD",
     "numeric": "308",
-    "name": "Grenada"
+    "name": "Grenada",
+    "codes": {
+      "ioc": "GRN",
+      "fifa": "GRN"
+    }
   },
   {
     "kind": "country",
@@ -644,7 +919,11 @@
     "alpha2": "GE",
     "alpha3": "GEO",
     "numeric": "268",
-    "name": "Georgia"
+    "name": "Georgia",
+    "codes": {
+      "ioc": "GEO",
+      "fifa": "GEO"
+    }
   },
   {
     "kind": "country",
@@ -671,7 +950,11 @@
     "alpha2": "GH",
     "alpha3": "GHA",
     "numeric": "288",
-    "name": "Ghana"
+    "name": "Ghana",
+    "codes": {
+      "ioc": "GHA",
+      "fifa": "GHA"
+    }
   },
   {
     "kind": "country",
@@ -679,7 +962,10 @@
     "alpha2": "GI",
     "alpha3": "GIB",
     "numeric": "292",
-    "name": "Gibraltar"
+    "name": "Gibraltar",
+    "codes": {
+      "fifa": "GIB"
+    }
   },
   {
     "kind": "country",
@@ -695,7 +981,11 @@
     "alpha2": "GM",
     "alpha3": "GMB",
     "numeric": "270",
-    "name": "Gambia"
+    "name": "Gambia",
+    "codes": {
+      "ioc": "GAM",
+      "fifa": "GAM"
+    }
   },
   {
     "kind": "country",
@@ -703,7 +993,11 @@
     "alpha2": "GN",
     "alpha3": "GIN",
     "numeric": "324",
-    "name": "Guinea"
+    "name": "Guinea",
+    "codes": {
+      "ioc": "GUI",
+      "fifa": "GUI"
+    }
   },
   {
     "kind": "country",
@@ -722,7 +1016,11 @@
     "alpha2": "GQ",
     "alpha3": "GNQ",
     "numeric": "226",
-    "name": "Equatorial Guinea"
+    "name": "Equatorial Guinea",
+    "codes": {
+      "ioc": "GEQ",
+      "fifa": "EQG"
+    }
   },
   {
     "kind": "country",
@@ -730,7 +1028,11 @@
     "alpha2": "GR",
     "alpha3": "GRC",
     "numeric": "300",
-    "name": "Greece"
+    "name": "Greece",
+    "codes": {
+      "ioc": "GRE",
+      "fifa": "GRE"
+    }
   },
   {
     "kind": "country",
@@ -746,7 +1048,11 @@
     "alpha2": "GT",
     "alpha3": "GTM",
     "numeric": "320",
-    "name": "Guatemala"
+    "name": "Guatemala",
+    "codes": {
+      "ioc": "GUA",
+      "fifa": "GUA"
+    }
   },
   {
     "kind": "country",
@@ -755,6 +1061,10 @@
     "alpha3": "GUM",
     "numeric": "316",
     "name": "Guam",
+    "codes": {
+      "ioc": "GUM",
+      "fifa": "GUM"
+    },
     "sameAs": [
       "US-GU"
     ]
@@ -765,7 +1075,11 @@
     "alpha2": "GW",
     "alpha3": "GNB",
     "numeric": "624",
-    "name": "Guinea-Bissau"
+    "name": "Guinea-Bissau",
+    "codes": {
+      "ioc": "GBS",
+      "fifa": "GNB"
+    }
   },
   {
     "kind": "country",
@@ -773,7 +1087,11 @@
     "alpha2": "GY",
     "alpha3": "GUY",
     "numeric": "328",
-    "name": "Guyana"
+    "name": "Guyana",
+    "codes": {
+      "ioc": "GUY",
+      "fifa": "GUY"
+    }
   },
   {
     "kind": "country",
@@ -782,6 +1100,10 @@
     "alpha3": "HKG",
     "numeric": "344",
     "name": "Hong Kong SAR China",
+    "codes": {
+      "ioc": "HKG",
+      "fifa": "HKG"
+    },
     "sameAs": [
       "CN-HK"
     ]
@@ -800,7 +1122,11 @@
     "alpha2": "HN",
     "alpha3": "HND",
     "numeric": "340",
-    "name": "Honduras"
+    "name": "Honduras",
+    "codes": {
+      "ioc": "HON",
+      "fifa": "HON"
+    }
   },
   {
     "kind": "country",
@@ -808,7 +1134,11 @@
     "alpha2": "HR",
     "alpha3": "HRV",
     "numeric": "191",
-    "name": "Croatia"
+    "name": "Croatia",
+    "codes": {
+      "ioc": "CRO",
+      "fifa": "CRO"
+    }
   },
   {
     "kind": "country",
@@ -816,7 +1146,11 @@
     "alpha2": "HT",
     "alpha3": "HTI",
     "numeric": "332",
-    "name": "Haiti"
+    "name": "Haiti",
+    "codes": {
+      "ioc": "HAI",
+      "fifa": "HAI"
+    }
   },
   {
     "kind": "country",
@@ -824,7 +1158,11 @@
     "alpha2": "HU",
     "alpha3": "HUN",
     "numeric": "348",
-    "name": "Hungary"
+    "name": "Hungary",
+    "codes": {
+      "ioc": "HUN",
+      "fifa": "HUN"
+    }
   },
   {
     "kind": "country",
@@ -832,7 +1170,11 @@
     "alpha2": "ID",
     "alpha3": "IDN",
     "numeric": "360",
-    "name": "Indonesia"
+    "name": "Indonesia",
+    "codes": {
+      "ioc": "INA",
+      "fifa": "IDN"
+    }
   },
   {
     "kind": "country",
@@ -840,7 +1182,11 @@
     "alpha2": "IE",
     "alpha3": "IRL",
     "numeric": "372",
-    "name": "Ireland"
+    "name": "Ireland",
+    "codes": {
+      "ioc": "IRL",
+      "fifa": "IRL"
+    }
   },
   {
     "kind": "country",
@@ -848,7 +1194,11 @@
     "alpha2": "IL",
     "alpha3": "ISR",
     "numeric": "376",
-    "name": "Israel"
+    "name": "Israel",
+    "codes": {
+      "ioc": "ISR",
+      "fifa": "ISR"
+    }
   },
   {
     "kind": "country",
@@ -864,7 +1214,11 @@
     "alpha2": "IN",
     "alpha3": "IND",
     "numeric": "356",
-    "name": "India"
+    "name": "India",
+    "codes": {
+      "ioc": "IND",
+      "fifa": "IND"
+    }
   },
   {
     "kind": "country",
@@ -880,7 +1234,11 @@
     "alpha2": "IQ",
     "alpha3": "IRQ",
     "numeric": "368",
-    "name": "Iraq"
+    "name": "Iraq",
+    "codes": {
+      "ioc": "IRQ",
+      "fifa": "IRQ"
+    }
   },
   {
     "kind": "country",
@@ -888,7 +1246,11 @@
     "alpha2": "IR",
     "alpha3": "IRN",
     "numeric": "364",
-    "name": "Iran"
+    "name": "Iran",
+    "codes": {
+      "ioc": "IRI",
+      "fifa": "IRN"
+    }
   },
   {
     "kind": "country",
@@ -896,7 +1258,11 @@
     "alpha2": "IS",
     "alpha3": "ISL",
     "numeric": "352",
-    "name": "Iceland"
+    "name": "Iceland",
+    "codes": {
+      "ioc": "ISL",
+      "fifa": "ISL"
+    }
   },
   {
     "kind": "country",
@@ -904,7 +1270,11 @@
     "alpha2": "IT",
     "alpha3": "ITA",
     "numeric": "380",
-    "name": "Italy"
+    "name": "Italy",
+    "codes": {
+      "ioc": "ITA",
+      "fifa": "ITA"
+    }
   },
   {
     "kind": "country",
@@ -920,7 +1290,11 @@
     "alpha2": "JM",
     "alpha3": "JAM",
     "numeric": "388",
-    "name": "Jamaica"
+    "name": "Jamaica",
+    "codes": {
+      "ioc": "JAM",
+      "fifa": "JAM"
+    }
   },
   {
     "kind": "country",
@@ -928,7 +1302,11 @@
     "alpha2": "JO",
     "alpha3": "JOR",
     "numeric": "400",
-    "name": "Jordan"
+    "name": "Jordan",
+    "codes": {
+      "ioc": "JOR",
+      "fifa": "JOR"
+    }
   },
   {
     "kind": "country",
@@ -936,7 +1314,11 @@
     "alpha2": "JP",
     "alpha3": "JPN",
     "numeric": "392",
-    "name": "Japan"
+    "name": "Japan",
+    "codes": {
+      "ioc": "JPN",
+      "fifa": "JPN"
+    }
   },
   {
     "kind": "country",
@@ -944,7 +1326,11 @@
     "alpha2": "KE",
     "alpha3": "KEN",
     "numeric": "404",
-    "name": "Kenya"
+    "name": "Kenya",
+    "codes": {
+      "ioc": "KEN",
+      "fifa": "KEN"
+    }
   },
   {
     "kind": "country",
@@ -952,7 +1338,11 @@
     "alpha2": "KG",
     "alpha3": "KGZ",
     "numeric": "417",
-    "name": "Kyrgyzstan"
+    "name": "Kyrgyzstan",
+    "codes": {
+      "ioc": "KGZ",
+      "fifa": "KGZ"
+    }
   },
   {
     "kind": "country",
@@ -960,7 +1350,11 @@
     "alpha2": "KH",
     "alpha3": "KHM",
     "numeric": "116",
-    "name": "Cambodia"
+    "name": "Cambodia",
+    "codes": {
+      "ioc": "CAM",
+      "fifa": "CAM"
+    }
   },
   {
     "kind": "country",
@@ -968,7 +1362,10 @@
     "alpha2": "KI",
     "alpha3": "KIR",
     "numeric": "296",
-    "name": "Kiribati"
+    "name": "Kiribati",
+    "codes": {
+      "ioc": "KIR"
+    }
   },
   {
     "kind": "country",
@@ -976,7 +1373,11 @@
     "alpha2": "KM",
     "alpha3": "COM",
     "numeric": "174",
-    "name": "Comoros"
+    "name": "Comoros",
+    "codes": {
+      "ioc": "COM",
+      "fifa": "COM"
+    }
   },
   {
     "kind": "country",
@@ -984,7 +1385,11 @@
     "alpha2": "KN",
     "alpha3": "KNA",
     "numeric": "659",
-    "name": "St. Kitts & Nevis"
+    "name": "St. Kitts & Nevis",
+    "codes": {
+      "ioc": "SKN",
+      "fifa": "SKN"
+    }
   },
   {
     "kind": "country",
@@ -992,7 +1397,11 @@
     "alpha2": "KP",
     "alpha3": "PRK",
     "numeric": "408",
-    "name": "North Korea"
+    "name": "North Korea",
+    "codes": {
+      "ioc": "PRK",
+      "fifa": "PRK"
+    }
   },
   {
     "kind": "country",
@@ -1000,7 +1409,11 @@
     "alpha2": "KR",
     "alpha3": "KOR",
     "numeric": "410",
-    "name": "South Korea"
+    "name": "South Korea",
+    "codes": {
+      "ioc": "KOR",
+      "fifa": "KOR"
+    }
   },
   {
     "kind": "country",
@@ -1008,7 +1421,11 @@
     "alpha2": "KW",
     "alpha3": "KWT",
     "numeric": "414",
-    "name": "Kuwait"
+    "name": "Kuwait",
+    "codes": {
+      "ioc": "KUW",
+      "fifa": "KUW"
+    }
   },
   {
     "kind": "country",
@@ -1016,7 +1433,11 @@
     "alpha2": "KY",
     "alpha3": "CYM",
     "numeric": "136",
-    "name": "Cayman Islands"
+    "name": "Cayman Islands",
+    "codes": {
+      "ioc": "CAY",
+      "fifa": "CAY"
+    }
   },
   {
     "kind": "country",
@@ -1024,7 +1445,11 @@
     "alpha2": "KZ",
     "alpha3": "KAZ",
     "numeric": "398",
-    "name": "Kazakhstan"
+    "name": "Kazakhstan",
+    "codes": {
+      "ioc": "KAZ",
+      "fifa": "KAZ"
+    }
   },
   {
     "kind": "country",
@@ -1032,7 +1457,11 @@
     "alpha2": "LA",
     "alpha3": "LAO",
     "numeric": "418",
-    "name": "Laos"
+    "name": "Laos",
+    "codes": {
+      "ioc": "LAO",
+      "fifa": "LAO"
+    }
   },
   {
     "kind": "country",
@@ -1040,7 +1469,11 @@
     "alpha2": "LB",
     "alpha3": "LBN",
     "numeric": "422",
-    "name": "Lebanon"
+    "name": "Lebanon",
+    "codes": {
+      "ioc": "LBN",
+      "fifa": "LBN"
+    }
   },
   {
     "kind": "country",
@@ -1048,7 +1481,11 @@
     "alpha2": "LC",
     "alpha3": "LCA",
     "numeric": "662",
-    "name": "St. Lucia"
+    "name": "St. Lucia",
+    "codes": {
+      "ioc": "LCA",
+      "fifa": "LCA"
+    }
   },
   {
     "kind": "country",
@@ -1056,7 +1493,11 @@
     "alpha2": "LI",
     "alpha3": "LIE",
     "numeric": "438",
-    "name": "Liechtenstein"
+    "name": "Liechtenstein",
+    "codes": {
+      "ioc": "LIE",
+      "fifa": "LIE"
+    }
   },
   {
     "kind": "country",
@@ -1064,7 +1505,11 @@
     "alpha2": "LK",
     "alpha3": "LKA",
     "numeric": "144",
-    "name": "Sri Lanka"
+    "name": "Sri Lanka",
+    "codes": {
+      "ioc": "SRI",
+      "fifa": "SRI"
+    }
   },
   {
     "kind": "country",
@@ -1072,7 +1517,11 @@
     "alpha2": "LR",
     "alpha3": "LBR",
     "numeric": "430",
-    "name": "Liberia"
+    "name": "Liberia",
+    "codes": {
+      "ioc": "LBR",
+      "fifa": "LBR"
+    }
   },
   {
     "kind": "country",
@@ -1080,7 +1529,11 @@
     "alpha2": "LS",
     "alpha3": "LSO",
     "numeric": "426",
-    "name": "Lesotho"
+    "name": "Lesotho",
+    "codes": {
+      "ioc": "LES",
+      "fifa": "LES"
+    }
   },
   {
     "kind": "country",
@@ -1088,7 +1541,11 @@
     "alpha2": "LT",
     "alpha3": "LTU",
     "numeric": "440",
-    "name": "Lithuania"
+    "name": "Lithuania",
+    "codes": {
+      "ioc": "LTU",
+      "fifa": "LTU"
+    }
   },
   {
     "kind": "country",
@@ -1096,7 +1553,11 @@
     "alpha2": "LU",
     "alpha3": "LUX",
     "numeric": "442",
-    "name": "Luxembourg"
+    "name": "Luxembourg",
+    "codes": {
+      "ioc": "LUX",
+      "fifa": "LUX"
+    }
   },
   {
     "kind": "country",
@@ -1104,7 +1565,11 @@
     "alpha2": "LV",
     "alpha3": "LVA",
     "numeric": "428",
-    "name": "Latvia"
+    "name": "Latvia",
+    "codes": {
+      "ioc": "LAT",
+      "fifa": "LVA"
+    }
   },
   {
     "kind": "country",
@@ -1112,7 +1577,11 @@
     "alpha2": "LY",
     "alpha3": "LBY",
     "numeric": "434",
-    "name": "Libya"
+    "name": "Libya",
+    "codes": {
+      "ioc": "LBA",
+      "fifa": "LBY"
+    }
   },
   {
     "kind": "country",
@@ -1120,7 +1589,11 @@
     "alpha2": "MA",
     "alpha3": "MAR",
     "numeric": "504",
-    "name": "Morocco"
+    "name": "Morocco",
+    "codes": {
+      "ioc": "MAR",
+      "fifa": "MAR"
+    }
   },
   {
     "kind": "country",
@@ -1128,7 +1601,10 @@
     "alpha2": "MC",
     "alpha3": "MCO",
     "numeric": "492",
-    "name": "Monaco"
+    "name": "Monaco",
+    "codes": {
+      "ioc": "MON"
+    }
   },
   {
     "kind": "country",
@@ -1136,7 +1612,11 @@
     "alpha2": "MD",
     "alpha3": "MDA",
     "numeric": "498",
-    "name": "Moldova"
+    "name": "Moldova",
+    "codes": {
+      "ioc": "MDA",
+      "fifa": "MDA"
+    }
   },
   {
     "kind": "country",
@@ -1144,7 +1624,11 @@
     "alpha2": "ME",
     "alpha3": "MNE",
     "numeric": "499",
-    "name": "Montenegro"
+    "name": "Montenegro",
+    "codes": {
+      "ioc": "MNE",
+      "fifa": "MNE"
+    }
   },
   {
     "kind": "country",
@@ -1163,7 +1647,11 @@
     "alpha2": "MG",
     "alpha3": "MDG",
     "numeric": "450",
-    "name": "Madagascar"
+    "name": "Madagascar",
+    "codes": {
+      "ioc": "MAD",
+      "fifa": "MAD"
+    }
   },
   {
     "kind": "country",
@@ -1171,7 +1659,10 @@
     "alpha2": "MH",
     "alpha3": "MHL",
     "numeric": "584",
-    "name": "Marshall Islands"
+    "name": "Marshall Islands",
+    "codes": {
+      "ioc": "MHL"
+    }
   },
   {
     "kind": "country",
@@ -1179,7 +1670,11 @@
     "alpha2": "MK",
     "alpha3": "MKD",
     "numeric": "807",
-    "name": "North Macedonia"
+    "name": "North Macedonia",
+    "codes": {
+      "ioc": "MKD",
+      "fifa": "MKD"
+    }
   },
   {
     "kind": "country",
@@ -1187,7 +1682,11 @@
     "alpha2": "ML",
     "alpha3": "MLI",
     "numeric": "466",
-    "name": "Mali"
+    "name": "Mali",
+    "codes": {
+      "ioc": "MLI",
+      "fifa": "MLI"
+    }
   },
   {
     "kind": "country",
@@ -1195,7 +1694,11 @@
     "alpha2": "MM",
     "alpha3": "MMR",
     "numeric": "104",
-    "name": "Myanmar (Burma)"
+    "name": "Myanmar (Burma)",
+    "codes": {
+      "ioc": "MYA",
+      "fifa": "MYA"
+    }
   },
   {
     "kind": "country",
@@ -1203,7 +1706,11 @@
     "alpha2": "MN",
     "alpha3": "MNG",
     "numeric": "496",
-    "name": "Mongolia"
+    "name": "Mongolia",
+    "codes": {
+      "ioc": "MGL",
+      "fifa": "MNG"
+    }
   },
   {
     "kind": "country",
@@ -1212,6 +1719,10 @@
     "alpha3": "MAC",
     "numeric": "446",
     "name": "Macao SAR China",
+    "codes": {
+      "ioc": "MAC",
+      "fifa": "MAC"
+    },
     "sameAs": [
       "CN-MO"
     ]
@@ -1244,7 +1755,11 @@
     "alpha2": "MR",
     "alpha3": "MRT",
     "numeric": "478",
-    "name": "Mauritania"
+    "name": "Mauritania",
+    "codes": {
+      "ioc": "MTN",
+      "fifa": "MTN"
+    }
   },
   {
     "kind": "country",
@@ -1252,7 +1767,10 @@
     "alpha2": "MS",
     "alpha3": "MSR",
     "numeric": "500",
-    "name": "Montserrat"
+    "name": "Montserrat",
+    "codes": {
+      "fifa": "MSR"
+    }
   },
   {
     "kind": "country",
@@ -1260,7 +1778,11 @@
     "alpha2": "MT",
     "alpha3": "MLT",
     "numeric": "470",
-    "name": "Malta"
+    "name": "Malta",
+    "codes": {
+      "ioc": "MLT",
+      "fifa": "MLT"
+    }
   },
   {
     "kind": "country",
@@ -1268,7 +1790,11 @@
     "alpha2": "MU",
     "alpha3": "MUS",
     "numeric": "480",
-    "name": "Mauritius"
+    "name": "Mauritius",
+    "codes": {
+      "ioc": "MRI",
+      "fifa": "MRI"
+    }
   },
   {
     "kind": "country",
@@ -1276,7 +1802,11 @@
     "alpha2": "MV",
     "alpha3": "MDV",
     "numeric": "462",
-    "name": "Maldives"
+    "name": "Maldives",
+    "codes": {
+      "ioc": "MDV",
+      "fifa": "MDV"
+    }
   },
   {
     "kind": "country",
@@ -1284,7 +1814,11 @@
     "alpha2": "MW",
     "alpha3": "MWI",
     "numeric": "454",
-    "name": "Malawi"
+    "name": "Malawi",
+    "codes": {
+      "ioc": "MAW",
+      "fifa": "MWI"
+    }
   },
   {
     "kind": "country",
@@ -1292,7 +1826,11 @@
     "alpha2": "MX",
     "alpha3": "MEX",
     "numeric": "484",
-    "name": "Mexico"
+    "name": "Mexico",
+    "codes": {
+      "ioc": "MEX",
+      "fifa": "MEX"
+    }
   },
   {
     "kind": "country",
@@ -1300,7 +1838,11 @@
     "alpha2": "MY",
     "alpha3": "MYS",
     "numeric": "458",
-    "name": "Malaysia"
+    "name": "Malaysia",
+    "codes": {
+      "ioc": "MAS",
+      "fifa": "MAS"
+    }
   },
   {
     "kind": "country",
@@ -1308,7 +1850,11 @@
     "alpha2": "MZ",
     "alpha3": "MOZ",
     "numeric": "508",
-    "name": "Mozambique"
+    "name": "Mozambique",
+    "codes": {
+      "ioc": "MOZ",
+      "fifa": "MOZ"
+    }
   },
   {
     "kind": "country",
@@ -1316,7 +1862,11 @@
     "alpha2": "NA",
     "alpha3": "NAM",
     "numeric": "516",
-    "name": "Namibia"
+    "name": "Namibia",
+    "codes": {
+      "ioc": "NAM",
+      "fifa": "NAM"
+    }
   },
   {
     "kind": "country",
@@ -1325,6 +1875,9 @@
     "alpha3": "NCL",
     "numeric": "540",
     "name": "New Caledonia",
+    "codes": {
+      "fifa": "NCL"
+    },
     "sameAs": [
       "FR-NC"
     ]
@@ -1335,7 +1888,11 @@
     "alpha2": "NE",
     "alpha3": "NER",
     "numeric": "562",
-    "name": "Niger"
+    "name": "Niger",
+    "codes": {
+      "ioc": "NIG",
+      "fifa": "NIG"
+    }
   },
   {
     "kind": "country",
@@ -1351,7 +1908,11 @@
     "alpha2": "NG",
     "alpha3": "NGA",
     "numeric": "566",
-    "name": "Nigeria"
+    "name": "Nigeria",
+    "codes": {
+      "ioc": "NGR",
+      "fifa": "NGA"
+    }
   },
   {
     "kind": "country",
@@ -1359,7 +1920,11 @@
     "alpha2": "NI",
     "alpha3": "NIC",
     "numeric": "558",
-    "name": "Nicaragua"
+    "name": "Nicaragua",
+    "codes": {
+      "ioc": "NCA",
+      "fifa": "NCA"
+    }
   },
   {
     "kind": "country",
@@ -1367,7 +1932,11 @@
     "alpha2": "NL",
     "alpha3": "NLD",
     "numeric": "528",
-    "name": "Netherlands"
+    "name": "Netherlands",
+    "codes": {
+      "ioc": "NED",
+      "fifa": "NED"
+    }
   },
   {
     "kind": "country",
@@ -1375,7 +1944,11 @@
     "alpha2": "NO",
     "alpha3": "NOR",
     "numeric": "578",
-    "name": "Norway"
+    "name": "Norway",
+    "codes": {
+      "ioc": "NOR",
+      "fifa": "NOR"
+    }
   },
   {
     "kind": "country",
@@ -1383,7 +1956,11 @@
     "alpha2": "NP",
     "alpha3": "NPL",
     "numeric": "524",
-    "name": "Nepal"
+    "name": "Nepal",
+    "codes": {
+      "ioc": "NEP",
+      "fifa": "NEP"
+    }
   },
   {
     "kind": "country",
@@ -1391,7 +1968,10 @@
     "alpha2": "NR",
     "alpha3": "NRU",
     "numeric": "520",
-    "name": "Nauru"
+    "name": "Nauru",
+    "codes": {
+      "ioc": "NRU"
+    }
   },
   {
     "kind": "country",
@@ -1407,7 +1987,11 @@
     "alpha2": "NZ",
     "alpha3": "NZL",
     "numeric": "554",
-    "name": "New Zealand"
+    "name": "New Zealand",
+    "codes": {
+      "ioc": "NZL",
+      "fifa": "NZL"
+    }
   },
   {
     "kind": "country",
@@ -1415,7 +1999,11 @@
     "alpha2": "OM",
     "alpha3": "OMN",
     "numeric": "512",
-    "name": "Oman"
+    "name": "Oman",
+    "codes": {
+      "ioc": "OMA",
+      "fifa": "OMA"
+    }
   },
   {
     "kind": "country",
@@ -1423,7 +2011,11 @@
     "alpha2": "PA",
     "alpha3": "PAN",
     "numeric": "591",
-    "name": "Panama"
+    "name": "Panama",
+    "codes": {
+      "ioc": "PAN",
+      "fifa": "PAN"
+    }
   },
   {
     "kind": "country",
@@ -1431,7 +2023,11 @@
     "alpha2": "PE",
     "alpha3": "PER",
     "numeric": "604",
-    "name": "Peru"
+    "name": "Peru",
+    "codes": {
+      "ioc": "PER",
+      "fifa": "PER"
+    }
   },
   {
     "kind": "country",
@@ -1440,6 +2036,9 @@
     "alpha3": "PYF",
     "numeric": "258",
     "name": "French Polynesia",
+    "codes": {
+      "fifa": "TAH"
+    },
     "sameAs": [
       "FR-PF"
     ]
@@ -1450,7 +2049,11 @@
     "alpha2": "PG",
     "alpha3": "PNG",
     "numeric": "598",
-    "name": "Papua New Guinea"
+    "name": "Papua New Guinea",
+    "codes": {
+      "ioc": "PNG",
+      "fifa": "PNG"
+    }
   },
   {
     "kind": "country",
@@ -1458,7 +2061,11 @@
     "alpha2": "PH",
     "alpha3": "PHL",
     "numeric": "608",
-    "name": "Philippines"
+    "name": "Philippines",
+    "codes": {
+      "ioc": "PHI",
+      "fifa": "PHI"
+    }
   },
   {
     "kind": "country",
@@ -1466,7 +2073,11 @@
     "alpha2": "PK",
     "alpha3": "PAK",
     "numeric": "586",
-    "name": "Pakistan"
+    "name": "Pakistan",
+    "codes": {
+      "ioc": "PAK",
+      "fifa": "PAK"
+    }
   },
   {
     "kind": "country",
@@ -1474,7 +2085,11 @@
     "alpha2": "PL",
     "alpha3": "POL",
     "numeric": "616",
-    "name": "Poland"
+    "name": "Poland",
+    "codes": {
+      "ioc": "POL",
+      "fifa": "POL"
+    }
   },
   {
     "kind": "country",
@@ -1502,6 +2117,10 @@
     "alpha3": "PRI",
     "numeric": "630",
     "name": "Puerto Rico",
+    "codes": {
+      "ioc": "PUR",
+      "fifa": "PUR"
+    },
     "sameAs": [
       "US-PR"
     ]
@@ -1512,7 +2131,11 @@
     "alpha2": "PS",
     "alpha3": "PSE",
     "numeric": "275",
-    "name": "Palestinian Territories"
+    "name": "Palestinian Territories",
+    "codes": {
+      "ioc": "PLE",
+      "fifa": "PLE"
+    }
   },
   {
     "kind": "country",
@@ -1520,7 +2143,11 @@
     "alpha2": "PT",
     "alpha3": "PRT",
     "numeric": "620",
-    "name": "Portugal"
+    "name": "Portugal",
+    "codes": {
+      "ioc": "POR",
+      "fifa": "POR"
+    }
   },
   {
     "kind": "country",
@@ -1528,7 +2155,10 @@
     "alpha2": "PW",
     "alpha3": "PLW",
     "numeric": "585",
-    "name": "Palau"
+    "name": "Palau",
+    "codes": {
+      "ioc": "PLW"
+    }
   },
   {
     "kind": "country",
@@ -1536,7 +2166,11 @@
     "alpha2": "PY",
     "alpha3": "PRY",
     "numeric": "600",
-    "name": "Paraguay"
+    "name": "Paraguay",
+    "codes": {
+      "ioc": "PAR",
+      "fifa": "PAR"
+    }
   },
   {
     "kind": "country",
@@ -1544,7 +2178,11 @@
     "alpha2": "QA",
     "alpha3": "QAT",
     "numeric": "634",
-    "name": "Qatar"
+    "name": "Qatar",
+    "codes": {
+      "ioc": "QAT",
+      "fifa": "QAT"
+    }
   },
   {
     "kind": "country",
@@ -1563,7 +2201,11 @@
     "alpha2": "RO",
     "alpha3": "ROU",
     "numeric": "642",
-    "name": "Romania"
+    "name": "Romania",
+    "codes": {
+      "ioc": "ROU",
+      "fifa": "ROU"
+    }
   },
   {
     "kind": "country",
@@ -1571,7 +2213,11 @@
     "alpha2": "RS",
     "alpha3": "SRB",
     "numeric": "688",
-    "name": "Serbia"
+    "name": "Serbia",
+    "codes": {
+      "ioc": "SRB",
+      "fifa": "SRB"
+    }
   },
   {
     "kind": "country",
@@ -1579,7 +2225,11 @@
     "alpha2": "RU",
     "alpha3": "RUS",
     "numeric": "643",
-    "name": "Russia"
+    "name": "Russia",
+    "codes": {
+      "ioc": "RUS",
+      "fifa": "RUS"
+    }
   },
   {
     "kind": "country",
@@ -1587,7 +2237,11 @@
     "alpha2": "RW",
     "alpha3": "RWA",
     "numeric": "646",
-    "name": "Rwanda"
+    "name": "Rwanda",
+    "codes": {
+      "ioc": "RWA",
+      "fifa": "RWA"
+    }
   },
   {
     "kind": "country",
@@ -1595,7 +2249,11 @@
     "alpha2": "SA",
     "alpha3": "SAU",
     "numeric": "682",
-    "name": "Saudi Arabia"
+    "name": "Saudi Arabia",
+    "codes": {
+      "ioc": "KSA",
+      "fifa": "KSA"
+    }
   },
   {
     "kind": "country",
@@ -1603,7 +2261,11 @@
     "alpha2": "SB",
     "alpha3": "SLB",
     "numeric": "090",
-    "name": "Solomon Islands"
+    "name": "Solomon Islands",
+    "codes": {
+      "ioc": "SOL",
+      "fifa": "SOL"
+    }
   },
   {
     "kind": "country",
@@ -1611,7 +2273,11 @@
     "alpha2": "SC",
     "alpha3": "SYC",
     "numeric": "690",
-    "name": "Seychelles"
+    "name": "Seychelles",
+    "codes": {
+      "ioc": "SEY",
+      "fifa": "SEY"
+    }
   },
   {
     "kind": "country",
@@ -1619,7 +2285,11 @@
     "alpha2": "SD",
     "alpha3": "SDN",
     "numeric": "729",
-    "name": "Sudan"
+    "name": "Sudan",
+    "codes": {
+      "ioc": "SUD",
+      "fifa": "SDN"
+    }
   },
   {
     "kind": "country",
@@ -1627,7 +2297,11 @@
     "alpha2": "SE",
     "alpha3": "SWE",
     "numeric": "752",
-    "name": "Sweden"
+    "name": "Sweden",
+    "codes": {
+      "ioc": "SWE",
+      "fifa": "SWE"
+    }
   },
   {
     "kind": "country",
@@ -1635,7 +2309,11 @@
     "alpha2": "SG",
     "alpha3": "SGP",
     "numeric": "702",
-    "name": "Singapore"
+    "name": "Singapore",
+    "codes": {
+      "ioc": "SGP",
+      "fifa": "SGP"
+    }
   },
   {
     "kind": "country",
@@ -1651,7 +2329,11 @@
     "alpha2": "SI",
     "alpha3": "SVN",
     "numeric": "705",
-    "name": "Slovenia"
+    "name": "Slovenia",
+    "codes": {
+      "ioc": "SLO",
+      "fifa": "SVN"
+    }
   },
   {
     "kind": "country",
@@ -1667,7 +2349,11 @@
     "alpha2": "SK",
     "alpha3": "SVK",
     "numeric": "703",
-    "name": "Slovakia"
+    "name": "Slovakia",
+    "codes": {
+      "ioc": "SVK",
+      "fifa": "SVK"
+    }
   },
   {
     "kind": "country",
@@ -1675,7 +2361,11 @@
     "alpha2": "SL",
     "alpha3": "SLE",
     "numeric": "694",
-    "name": "Sierra Leone"
+    "name": "Sierra Leone",
+    "codes": {
+      "ioc": "SLE",
+      "fifa": "SLE"
+    }
   },
   {
     "kind": "country",
@@ -1683,7 +2373,11 @@
     "alpha2": "SM",
     "alpha3": "SMR",
     "numeric": "674",
-    "name": "San Marino"
+    "name": "San Marino",
+    "codes": {
+      "ioc": "SMR",
+      "fifa": "SMR"
+    }
   },
   {
     "kind": "country",
@@ -1691,7 +2385,11 @@
     "alpha2": "SN",
     "alpha3": "SEN",
     "numeric": "686",
-    "name": "Senegal"
+    "name": "Senegal",
+    "codes": {
+      "ioc": "SEN",
+      "fifa": "SEN"
+    }
   },
   {
     "kind": "country",
@@ -1699,7 +2397,11 @@
     "alpha2": "SO",
     "alpha3": "SOM",
     "numeric": "706",
-    "name": "Somalia"
+    "name": "Somalia",
+    "codes": {
+      "ioc": "SOM",
+      "fifa": "SOM"
+    }
   },
   {
     "kind": "country",
@@ -1707,7 +2409,11 @@
     "alpha2": "SR",
     "alpha3": "SUR",
     "numeric": "740",
-    "name": "Suriname"
+    "name": "Suriname",
+    "codes": {
+      "ioc": "SUR",
+      "fifa": "SUR"
+    }
   },
   {
     "kind": "country",
@@ -1715,7 +2421,11 @@
     "alpha2": "SS",
     "alpha3": "SSD",
     "numeric": "728",
-    "name": "South Sudan"
+    "name": "South Sudan",
+    "codes": {
+      "ioc": "SSD",
+      "fifa": "SSD"
+    }
   },
   {
     "kind": "country",
@@ -1723,7 +2433,11 @@
     "alpha2": "ST",
     "alpha3": "STP",
     "numeric": "678",
-    "name": "São Tomé & Príncipe"
+    "name": "São Tomé & Príncipe",
+    "codes": {
+      "ioc": "STP",
+      "fifa": "STP"
+    }
   },
   {
     "kind": "country",
@@ -1731,7 +2445,11 @@
     "alpha2": "SV",
     "alpha3": "SLV",
     "numeric": "222",
-    "name": "El Salvador"
+    "name": "El Salvador",
+    "codes": {
+      "ioc": "ESA",
+      "fifa": "SLV"
+    }
   },
   {
     "kind": "country",
@@ -1750,7 +2468,11 @@
     "alpha2": "SY",
     "alpha3": "SYR",
     "numeric": "760",
-    "name": "Syria"
+    "name": "Syria",
+    "codes": {
+      "ioc": "SYR",
+      "fifa": "SYR"
+    }
   },
   {
     "kind": "country",
@@ -1758,7 +2480,11 @@
     "alpha2": "SZ",
     "alpha3": "SWZ",
     "numeric": "748",
-    "name": "Eswatini"
+    "name": "Eswatini",
+    "codes": {
+      "ioc": "SWZ",
+      "fifa": "SWZ"
+    }
   },
   {
     "kind": "country",
@@ -1766,7 +2492,10 @@
     "alpha2": "TC",
     "alpha3": "TCA",
     "numeric": "796",
-    "name": "Turks & Caicos Islands"
+    "name": "Turks & Caicos Islands",
+    "codes": {
+      "fifa": "TCA"
+    }
   },
   {
     "kind": "country",
@@ -1774,7 +2503,11 @@
     "alpha2": "TD",
     "alpha3": "TCD",
     "numeric": "148",
-    "name": "Chad"
+    "name": "Chad",
+    "codes": {
+      "ioc": "CHA",
+      "fifa": "CHA"
+    }
   },
   {
     "kind": "country",
@@ -1793,7 +2526,11 @@
     "alpha2": "TG",
     "alpha3": "TGO",
     "numeric": "768",
-    "name": "Togo"
+    "name": "Togo",
+    "codes": {
+      "ioc": "TOG",
+      "fifa": "TOG"
+    }
   },
   {
     "kind": "country",
@@ -1801,7 +2538,11 @@
     "alpha2": "TH",
     "alpha3": "THA",
     "numeric": "764",
-    "name": "Thailand"
+    "name": "Thailand",
+    "codes": {
+      "ioc": "THA",
+      "fifa": "THA"
+    }
   },
   {
     "kind": "country",
@@ -1809,7 +2550,11 @@
     "alpha2": "TJ",
     "alpha3": "TJK",
     "numeric": "762",
-    "name": "Tajikistan"
+    "name": "Tajikistan",
+    "codes": {
+      "ioc": "TJK",
+      "fifa": "TJK"
+    }
   },
   {
     "kind": "country",
@@ -1825,7 +2570,11 @@
     "alpha2": "TL",
     "alpha3": "TLS",
     "numeric": "626",
-    "name": "Timor-Leste"
+    "name": "Timor-Leste",
+    "codes": {
+      "ioc": "TLS",
+      "fifa": "TLS"
+    }
   },
   {
     "kind": "country",
@@ -1833,7 +2582,11 @@
     "alpha2": "TM",
     "alpha3": "TKM",
     "numeric": "795",
-    "name": "Turkmenistan"
+    "name": "Turkmenistan",
+    "codes": {
+      "ioc": "TKM",
+      "fifa": "TKM"
+    }
   },
   {
     "kind": "country",
@@ -1841,7 +2594,11 @@
     "alpha2": "TN",
     "alpha3": "TUN",
     "numeric": "788",
-    "name": "Tunisia"
+    "name": "Tunisia",
+    "codes": {
+      "ioc": "TUN",
+      "fifa": "TUN"
+    }
   },
   {
     "kind": "country",
@@ -1849,7 +2606,11 @@
     "alpha2": "TO",
     "alpha3": "TON",
     "numeric": "776",
-    "name": "Tonga"
+    "name": "Tonga",
+    "codes": {
+      "ioc": "TGA",
+      "fifa": "TGA"
+    }
   },
   {
     "kind": "country",
@@ -1857,7 +2618,11 @@
     "alpha2": "TR",
     "alpha3": "TUR",
     "numeric": "792",
-    "name": "Türkiye"
+    "name": "Türkiye",
+    "codes": {
+      "ioc": "TUR",
+      "fifa": "TUR"
+    }
   },
   {
     "kind": "country",
@@ -1865,7 +2630,11 @@
     "alpha2": "TT",
     "alpha3": "TTO",
     "numeric": "780",
-    "name": "Trinidad & Tobago"
+    "name": "Trinidad & Tobago",
+    "codes": {
+      "ioc": "TTO",
+      "fifa": "TRI"
+    }
   },
   {
     "kind": "country",
@@ -1873,7 +2642,10 @@
     "alpha2": "TV",
     "alpha3": "TUV",
     "numeric": "798",
-    "name": "Tuvalu"
+    "name": "Tuvalu",
+    "codes": {
+      "ioc": "TUV"
+    }
   },
   {
     "kind": "country",
@@ -1882,6 +2654,10 @@
     "alpha3": "TWN",
     "numeric": "158",
     "name": "Taiwan",
+    "codes": {
+      "ioc": "TPE",
+      "fifa": "TPE"
+    },
     "sameAs": [
       "CN-TW"
     ]
@@ -1892,7 +2668,11 @@
     "alpha2": "TZ",
     "alpha3": "TZA",
     "numeric": "834",
-    "name": "Tanzania"
+    "name": "Tanzania",
+    "codes": {
+      "ioc": "TAN",
+      "fifa": "TAN"
+    }
   },
   {
     "kind": "country",
@@ -1900,7 +2680,11 @@
     "alpha2": "UA",
     "alpha3": "UKR",
     "numeric": "804",
-    "name": "Ukraine"
+    "name": "Ukraine",
+    "codes": {
+      "ioc": "UKR",
+      "fifa": "UKR"
+    }
   },
   {
     "kind": "country",
@@ -1908,7 +2692,11 @@
     "alpha2": "UG",
     "alpha3": "UGA",
     "numeric": "800",
-    "name": "Uganda"
+    "name": "Uganda",
+    "codes": {
+      "ioc": "UGA",
+      "fifa": "UGA"
+    }
   },
   {
     "kind": "country",
@@ -1927,7 +2715,11 @@
     "alpha2": "US",
     "alpha3": "USA",
     "numeric": "840",
-    "name": "United States"
+    "name": "United States",
+    "codes": {
+      "ioc": "USA",
+      "fifa": "USA"
+    }
   },
   {
     "kind": "country",
@@ -1935,7 +2727,11 @@
     "alpha2": "UY",
     "alpha3": "URY",
     "numeric": "858",
-    "name": "Uruguay"
+    "name": "Uruguay",
+    "codes": {
+      "ioc": "URU",
+      "fifa": "URU"
+    }
   },
   {
     "kind": "country",
@@ -1943,7 +2739,11 @@
     "alpha2": "UZ",
     "alpha3": "UZB",
     "numeric": "860",
-    "name": "Uzbekistan"
+    "name": "Uzbekistan",
+    "codes": {
+      "ioc": "UZB",
+      "fifa": "UZB"
+    }
   },
   {
     "kind": "country",
@@ -1959,7 +2759,11 @@
     "alpha2": "VC",
     "alpha3": "VCT",
     "numeric": "670",
-    "name": "St. Vincent & Grenadines"
+    "name": "St. Vincent & Grenadines",
+    "codes": {
+      "ioc": "VIN",
+      "fifa": "VIN"
+    }
   },
   {
     "kind": "country",
@@ -1967,7 +2771,11 @@
     "alpha2": "VE",
     "alpha3": "VEN",
     "numeric": "862",
-    "name": "Venezuela"
+    "name": "Venezuela",
+    "codes": {
+      "ioc": "VEN",
+      "fifa": "VEN"
+    }
   },
   {
     "kind": "country",
@@ -1975,7 +2783,11 @@
     "alpha2": "VG",
     "alpha3": "VGB",
     "numeric": "092",
-    "name": "British Virgin Islands"
+    "name": "British Virgin Islands",
+    "codes": {
+      "ioc": "IVB",
+      "fifa": "VGB"
+    }
   },
   {
     "kind": "country",
@@ -1984,6 +2796,10 @@
     "alpha3": "VIR",
     "numeric": "850",
     "name": "U.S. Virgin Islands",
+    "codes": {
+      "ioc": "ISV",
+      "fifa": "VIR"
+    },
     "sameAs": [
       "US-VI"
     ]
@@ -1994,7 +2810,11 @@
     "alpha2": "VN",
     "alpha3": "VNM",
     "numeric": "704",
-    "name": "Vietnam"
+    "name": "Vietnam",
+    "codes": {
+      "ioc": "VIE",
+      "fifa": "VIE"
+    }
   },
   {
     "kind": "country",
@@ -2002,7 +2822,11 @@
     "alpha2": "VU",
     "alpha3": "VUT",
     "numeric": "548",
-    "name": "Vanuatu"
+    "name": "Vanuatu",
+    "codes": {
+      "ioc": "VAN",
+      "fifa": "VAN"
+    }
   },
   {
     "kind": "country",
@@ -2021,7 +2845,11 @@
     "alpha2": "WS",
     "alpha3": "WSM",
     "numeric": "882",
-    "name": "Samoa"
+    "name": "Samoa",
+    "codes": {
+      "ioc": "SAM",
+      "fifa": "SAM"
+    }
   },
   {
     "kind": "country",
@@ -2029,7 +2857,11 @@
     "alpha2": "YE",
     "alpha3": "YEM",
     "numeric": "887",
-    "name": "Yemen"
+    "name": "Yemen",
+    "codes": {
+      "ioc": "YEM",
+      "fifa": "YEM"
+    }
   },
   {
     "kind": "country",
@@ -2048,7 +2880,11 @@
     "alpha2": "ZA",
     "alpha3": "ZAF",
     "numeric": "710",
-    "name": "South Africa"
+    "name": "South Africa",
+    "codes": {
+      "ioc": "RSA",
+      "fifa": "RSA"
+    }
   },
   {
     "kind": "country",
@@ -2056,7 +2892,11 @@
     "alpha2": "ZM",
     "alpha3": "ZMB",
     "numeric": "894",
-    "name": "Zambia"
+    "name": "Zambia",
+    "codes": {
+      "ioc": "ZAM",
+      "fifa": "ZAM"
+    }
   },
   {
     "kind": "country",
@@ -2064,6 +2904,10 @@
     "alpha2": "ZW",
     "alpha3": "ZWE",
     "numeric": "716",
-    "name": "Zimbabwe"
+    "name": "Zimbabwe",
+    "codes": {
+      "ioc": "ZIM",
+      "fifa": "ZIM"
+    }
   }
 ]

@@ -8,6 +8,7 @@ const germany = {
   alpha3: "DEU",
   numeric: "276",
   name: "Germany",
+  codes: { ioc: "GER", fifa: "GER" },
 };
 
 test.each(["DE", "DEU", "276", "Germany"])("resolves %s to the Country Germany", (input) => {
@@ -89,8 +90,8 @@ test.each([
   ["AQ", "ATA", "010", "Antarctica"],
 ])("every code scheme of %s resolves to the same Country", (alpha2, alpha3, numeric, name) => {
   for (const input of [alpha2, alpha3, numeric, name]) {
-    // PR and AX also carry a Same-as link, which this test isn't about; `toEqual` skips an `undefined` field.
-    expect({ ...resolve(input), sameAs: undefined }).toEqual({
+    // Same-as links and Code system codes aren't what this test is about; `toEqual` skips an `undefined` field.
+    expect({ ...resolve(input), sameAs: undefined, codes: undefined }).toEqual({
       kind: "country",
       id: alpha2,
       alpha2,

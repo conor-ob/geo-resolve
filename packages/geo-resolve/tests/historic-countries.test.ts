@@ -73,6 +73,7 @@ const romania = {
   alpha3: "ROU",
   numeric: "642",
   name: "Romania",
+  codes: { ioc: "ROU", fifa: "ROU" },
 };
 
 test("a former code of a Country that still exists resolves to the Country, not a Historic country", () => {

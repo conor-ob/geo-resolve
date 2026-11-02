@@ -427,5 +427,131 @@
       "parent": "FR-6AE",
       "citation": "https://www.iso.org/obp/ui/#iso:code:3166:FR"
     }
+  ],
+  "wikidataItems": [
+    {
+      "country": "AQ",
+      "item": "Q51",
+      "reason": "AQ is also on Q10372207, the Antarctic Treaty area; Q51 is Antarctica"
+    },
+    {
+      "country": "CY",
+      "item": "Q229",
+      "reason": "CY is also on Q644636, the island of Cyprus; Q229 is the Republic of Cyprus, which holds its IOC code"
+    },
+    {
+      "country": "NL",
+      "item": "Q55",
+      "reason": "ISO's NL is on Q29999, the Kingdom of the Netherlands, and deprecated on Q55, the Netherlands, which holds its IOC code and Aliases (Holland)"
+    }
+  ],
+  "fifaAssociations": [
+    {
+      "association": "Q1289049",
+      "entity": null,
+      "reason": "Football Federation of Kosovo: Kosovo has no Entity until it is admitted as a Territory (#18), and Wikidata's KVX disagrees with FIFA's KOS. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "association": "Q2082037",
+      "entity": "PF",
+      "reason": "Tahitian Football Federation: Wikidata's jurisdiction, Tahiti, has no ISO code, so its country, FR, would get TAH; the association covers French Polynesia"
+    },
+    {
+      "association": "Q2353192",
+      "entity": null,
+      "reason": "Bonaire Football Federation: a CONCACAF member, not a FIFA member, although Wikidata says it is. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "association": "Q2553771",
+      "entity": null,
+      "reason": "Football Committee of Saint Martin: a CONCACAF member, not a FIFA member, although Wikidata says it is. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "association": "Q2603242",
+      "entity": null,
+      "reason": "Sint Maarten Soccer Association: a CONCACAF member, not a FIFA member, although Wikidata says it is. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "association": "Q2604199",
+      "entity": null,
+      "reason": "Guadeloupean League of Football: a CONCACAF member, not a FIFA member, although Wikidata says it is. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "association": "Q568669",
+      "entity": "CD",
+      "reason": "Congolese Association Football Federation (COD) is the DR Congo's association; Wikidata gives the Republic of the Congo as its country"
+    },
+    {
+      "association": "Q623658",
+      "entity": null,
+      "reason": "Northern Mariana Islands Football Association: an EAFF member, not a FIFA member, although Wikidata says it is. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "association": "Q9500",
+      "entity": "GB-ENG",
+      "reason": "The Football Association: Wikidata's jurisdiction also names Jersey, Guernsey and the Isle of Man, whose clubs it governs, but FIFA's ENG is England (ADR-0012)"
+    }
+  ],
+  "codes": [
+    {
+      "entity": "DE",
+      "system": "fifa",
+      "code": "GER",
+      "reason": "Wikidata gives the German Football Association no FIFA code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "GB-NIR",
+      "system": "fifa",
+      "code": "NIR",
+      "reason": "Wikidata gives the Irish Football Association IRL, the Republic of Ireland's code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "MT",
+      "system": "fifa",
+      "code": "MLT",
+      "reason": "Wikidata gives the Malta Football Association ARM, Armenia's code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "NL",
+      "system": "fifa",
+      "code": "NED",
+      "reason": "Wikidata gives the Royal Dutch Football Association BLR, Belarus's code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "SE",
+      "system": "fifa",
+      "code": "SWE",
+      "reason": "Wikidata gives the Swedish Football Association GEO, Georgia's code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "SG",
+      "system": "fifa",
+      "code": "SGP",
+      "reason": "Wikidata gives the Football Association of Singapore SIN, its former code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "SK",
+      "system": "fifa",
+      "code": "SVK",
+      "reason": "Wikidata gives the Slovak Football Association FRO, the Faroe Islands' code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "SM",
+      "system": "fifa",
+      "code": "SMR",
+      "reason": "Wikidata gives the San Marino Football Federation no FIFA code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "TD",
+      "system": "fifa",
+      "code": "CHA",
+      "reason": "Wikidata gives the Chadian Football Federation TCD, Chad's Alpha-3 code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "UA",
+      "system": "fifa",
+      "code": "UKR",
+      "reason": "Wikidata gives the Ukrainian Association of Football GRE, Greece's code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    }
   ]
 }

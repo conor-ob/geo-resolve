@@ -25,6 +25,7 @@ test("a Same-as link joins both sides, and each keeps its own codes and Parent",
     alpha3: "PRI",
     numeric: "630",
     name: "Puerto Rico",
+    codes: { ioc: "PUR", fifa: "PUR" },
     sameAs: ["US-PR"],
   });
   expect(resolver.resolve("US-PR")).toEqual({
