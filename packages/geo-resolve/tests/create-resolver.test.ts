@@ -122,7 +122,7 @@ test("Data packs and their Entities are frozen", () => {
   expect(Object.isFrozen(countries)).toBe(true);
 });
 
-test("the default entry still resolves Countries only", () => {
+test("the default entry resolves Countries and Territories only", () => {
   expect(resolve("Georgia")?.id).toBe("GE");
   expect(resolve("US-CA")).toBeNull();
   expect(resolve("California")).toBeNull();

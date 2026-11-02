@@ -9,6 +9,7 @@ export default defineConfig({
       "src/data/historic-countries.ts",
       "src/data/subdivisions.ts",
       "src/data/subdivisions/*.ts",
+      "src/data/territories.ts",
     ],
     dts: {
       generator: "tsgo",

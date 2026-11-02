@@ -26,7 +26,7 @@ export function createResolver(input: ResolverOptions): Resolver;
 export type DataPack = readonly Entity[];
 
 // @public
-export type Entity = Country | Subdivision | HistoricCountry;
+export type Entity = Country | Subdivision | HistoricCountry | Territory;
 
 // @public
 export interface HistoricCountry {
@@ -87,6 +87,15 @@ export interface Subdivision {
     readonly kind: "subdivision";
     readonly name: string;
     readonly parent: string;
+    readonly sameAs?: readonly string[];
+}
+
+// @public
+export interface Territory {
+    readonly codes: Codes;
+    readonly id: string;
+    readonly kind: "territory";
+    readonly name: string;
     readonly sameAs?: readonly string[];
 }
 

@@ -11,6 +11,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | Country | CLDR | 249 |
 | Subdivision | CLDR | 5046 |
 | Historic country | Overlay | 31 |
+| Territory | Overlay | 1 |
 
 ## Aliases
 
@@ -926,6 +927,11 @@ Every Entity has one English Name, from the Source given for its Kind.
 | WF | Wallis and Futuna Islands | Wikidata Q35555 |
 | WS | Independent State of Samoa | Wikidata Q683 |
 | WS | Western Samoa | Wikidata Q683 |
+| XK | KV | Wikidata Q1246 |
+| XK | Kosova | Wikidata Q1246 |
+| XK | RKS | Wikidata Q1246 |
+| XK | Republic of Kosovo | Wikidata Q1246 |
+| XK | XKX | Wikidata Q1246 |
 | YDYE | Yemen, Democratic | Overlay |
 | YE | Rep. Yemen | Wikidata Q805 |
 | YE | Republic of Yemen | Wikidata Q805 |
@@ -1191,6 +1197,8 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | VU | vut | a code of VU |
 | WS | SAM | a code of WS |
 | WS | ws | a code of WS |
+| XK | KOS | a code of XK |
+| XK | XK | a code of XK |
 | YE | ye | a code of YE |
 | ZA | RSA | a code of ZA |
 | ZA | SA | a code of SA |
@@ -1611,6 +1619,8 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | VU | IOC | VAN | Wikidata Q686 |
 | WS | FIFA | SAM | Wikidata Q2468903 |
 | WS | IOC | SAM | Wikidata Q683 |
+| XK | FIFA | KOS | Overlay |
+| XK | IOC | KOS | Wikidata Q1246 |
 | YE | FIFA | YEM | Wikidata Q625790 |
 | YE | IOC | YEM | Wikidata Q805 |
 | ZA | FIFA | RSA | Wikidata Q833624 |

@@ -41,6 +41,10 @@
       "geo-resolve:source": "./src/data/subdivisions.ts",
       "default": "./dist/data/subdivisions.mjs"
     },
+    "./data/territories": {
+      "geo-resolve:source": "./src/data/territories.ts",
+      "default": "./dist/data/territories.mjs"
+    },
     "./data/subdivisions/*": {
       "geo-resolve:source": "./src/data/subdivisions/*.ts",
       "default": "./dist/data/subdivisions/*.mjs"
@@ -52,6 +56,7 @@
       "./data/countries": "./dist/data/countries.mjs",
       "./data/historic-countries": "./dist/data/historic-countries.mjs",
       "./data/subdivisions": "./dist/data/subdivisions.mjs",
+      "./data/territories": "./dist/data/territories.mjs",
       "./data/subdivisions/*": "./dist/data/subdivisions/*.mjs"
     },
     "access": "public"
