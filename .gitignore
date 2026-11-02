@@ -9,3 +9,8 @@ dist
 
 # AI agent worktrees
 .claude/worktrees/
+
+# Editor config: share only the project-wide VS Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
