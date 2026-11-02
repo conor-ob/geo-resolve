@@ -583,3 +583,46 @@ test.each([
     ).rejects.toThrow(/Overlay is malformed[\s\S]*sameAs\[0\]\.entities/);
   },
 );
+
+const isoSpain = "https://www.iso.org/obp/ui/#iso:code:3166:ES";
+
+test("an Overlay Parent correction overrides the Parent CLDR gives a Subdivision", async () => {
+  const overlay = { parents: [{ subdivision: "ES-GR", parent: "ES", citation: isoSpain }] };
+  const outDir = await buildWithOverlay(overlay, spain);
+  const subdivisions = (await readPack(outDir, "subdivisions/ES.json")) as { id: string }[];
+  expect(subdivisions.find(({ id }) => id === "ES-GR")).toMatchObject({ parent: "ES" });
+  expect(subdivisions.find(({ id }) => id === "ES-AL")).toMatchObject({ parent: "ES-AN" });
+});
+
+test.each([
+  [
+    "a Subdivision CLDR doesn't list",
+    { subdivision: "ES-XX", parent: "ES", citation: isoSpain },
+    "Parent correction for ES-XX has a dangling Subdivision",
+  ],
+  [
+    "a Parent that isn't an Entity",
+    { subdivision: "ES-GR", parent: "ES-XX", citation: isoSpain },
+    "Subdivision ES-GR has a dangling Parent ES-XX",
+  ],
+  [
+    "a Parent CLDR already gives",
+    { subdivision: "ES-GR", parent: "ES-AN", citation: isoSpain },
+    "Parent correction for ES-GR matches CLDR, so it is no longer needed",
+  ],
+])("fails on a Parent correction for %s", async (_, correction, message) => {
+  await expect(buildWithOverlay({ parents: [correction] }, spain)).rejects.toThrow(message);
+});
+
+test("fails on a Parent correction that doesn't cite its ISO source", async () => {
+  await expect(
+    buildWithOverlay({ parents: [{ subdivision: "ES-GR", parent: "ES" }] }, spain),
+  ).rejects.toThrow(/Overlay is malformed[\s\S]*citation/);
+});
+
+test("fails on two Parent corrections for one Subdivision", async () => {
+  const correction = { subdivision: "ES-GR", parent: "ES", citation: isoSpain };
+  await expect(
+    buildWithOverlay({ parents: [correction, { ...correction, parent: "ES-MD" }] }, spain),
+  ).rejects.toThrow("Subdivision ES-GR has two Parent corrections");
+});

@@ -415,5 +415,17 @@
       "entities": ["YT", "FR-976"],
       "citation": "https://www.iso.org/obp/ui/#iso:code:3166:YT"
     }
+  ],
+  "parents": [
+    {
+      "subdivision": "FR-67",
+      "parent": "FR-6AE",
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:FR"
+    },
+    {
+      "subdivision": "FR-68",
+      "parent": "FR-6AE",
+      "citation": "https://www.iso.org/obp/ui/#iso:code:3166:FR"
+    }
   ]
 }
