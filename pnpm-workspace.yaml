@@ -5,8 +5,11 @@ packages:
 catalogMode: prefer
 
 catalog:
+  "@arethetypeswrong/core": 0.18.5
+  "@microsoft/api-extractor": 7.60.1
   "@types/node": ^22
   fast-xml-parser: 5.11.2
+  publint: 0.3.25
   typescript: ^7.0.2
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0

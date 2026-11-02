@@ -1,0 +1,9 @@
+{
+  "name": "geo-resolve-smoke",
+  "private": true,
+  "description": "Imports the packed geo-resolve tarball in Bun, Deno and a Vite browser bundle (ADR-0010). Outside the workspace on purpose, so it sees only what is published.",
+  "type": "module",
+  "devDependencies": {
+    "vite": "8.3.5"
+  }
+}

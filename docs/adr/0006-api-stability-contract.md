@@ -8,4 +8,4 @@ geo-resolve is meant to be depended on for years, and ISO changes several times 
 - **Entities are read-only.** Adding a field is minor; removing or renaming one is major.
 - **Only documented subpaths are importable**, enforced by the `exports` map. Generated indexes and internal modules are never reachable.
 
-This is enforced in CI: API Extractor's report (`geo-resolve.api.md`) is committed so every change to the public surface appears as a reviewable diff, and `@arethetypeswrong/cli` and `publint` check the package before publishing.
+This is enforced in CI: API Extractor's report (`geo-resolve.public.api.md`) is committed so every change to the public surface appears as a reviewable diff, and `vp pack` runs arethetypeswrong (`@arethetypeswrong/core`) and `publint` on the package, failing the build on any problem.

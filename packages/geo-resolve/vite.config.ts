@@ -17,6 +17,8 @@ export default defineConfig({
     // the published exports (`publishConfig.exports`) point at `dist` only.
     exports: {
       devExports: "geo-resolve:source",
+      // Only the default entry and the Data packs are importable (ADR-0006).
+      packageJson: false,
       // One pattern covers the per-Country Subdivisions packs, so a Country added by a data
       // release is exported without regenerating ~250 entries here.
       customExports(exports, { isPublish }) {
@@ -35,6 +37,9 @@ export default defineConfig({
         ]);
       },
     },
+    // Check the package as published: fail the build on a packaging or types-resolution problem.
+    publint: { level: "error" },
+    attw: { profile: "esm-only", level: "error" },
   },
   // Tests import the package by name, as a consumer does, and run against its source.
   ssr: {

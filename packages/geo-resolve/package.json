@@ -41,7 +41,6 @@
       "geo-resolve:source": "./src/data/subdivisions.ts",
       "default": "./dist/data/subdivisions.mjs"
     },
-    "./package.json": "./package.json",
     "./data/subdivisions/*": {
       "geo-resolve:source": "./src/data/subdivisions/*.ts",
       "default": "./dist/data/subdivisions/*.mjs"
@@ -53,18 +52,22 @@
       "./data/countries": "./dist/data/countries.mjs",
       "./data/historic-countries": "./dist/data/historic-countries.mjs",
       "./data/subdivisions": "./dist/data/subdivisions.mjs",
-      "./package.json": "./package.json",
       "./data/subdivisions/*": "./dist/data/subdivisions/*.mjs"
     },
     "access": "public"
   },
   "scripts": {
     "build": "vp pack",
+    "api:check": "api-extractor run",
+    "api:update": "api-extractor run --local",
     "typecheck": "tsc -p .",
     "test": "vp test run"
   },
   "devDependencies": {
+    "@arethetypeswrong/core": "catalog:",
+    "@microsoft/api-extractor": "catalog:",
     "@types/node": "catalog:",
+    "publint": "catalog:",
     "typescript": "catalog:",
     "vite-plus": "catalog:"
   },
