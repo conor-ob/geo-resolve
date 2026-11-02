@@ -533,7 +533,10 @@
     "code": "GB-ENG",
     "country": "GB",
     "parent": "GB",
-    "name": "England"
+    "name": "England",
+    "codes": {
+      "fifa": "ENG"
+    }
   },
   {
     "kind": "subdivision",
@@ -1053,7 +1056,10 @@
     "code": "GB-NIR",
     "country": "GB",
     "parent": "GB",
-    "name": "Northern Ireland"
+    "name": "Northern Ireland",
+    "codes": {
+      "fifa": "NIR"
+    }
   },
   {
     "kind": "subdivision",
@@ -1317,7 +1323,10 @@
     "code": "GB-SCT",
     "country": "GB",
     "parent": "GB",
-    "name": "Scotland"
+    "name": "Scotland",
+    "codes": {
+      "fifa": "SCO"
+    }
   },
   {
     "kind": "subdivision",
@@ -1661,7 +1670,10 @@
     "code": "GB-WLS",
     "country": "GB",
     "parent": "GB",
-    "name": "Wales"
+    "name": "Wales",
+    "codes": {
+      "fifa": "WAL"
+    }
   },
   {
     "kind": "subdivision",

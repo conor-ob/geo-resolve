@@ -1,6 +1,6 @@
 import { aliasesOf } from "./data-pack.ts";
 import { normalise } from "./normalise.ts";
-import type { DataPack, Entity, Kind, ResolveOptions } from "./types.ts";
+import type { Country, DataPack, Entity, Kind, ResolveOptions, Subdivision } from "./types.ts";
 
 /** What a Resolver is built from. */
 export interface ResolverOptions {
@@ -51,9 +51,16 @@ function matchKeys(entity: Entity): string[] {
 function ownKeys(entity: Entity): string[] {
   switch (entity.kind) {
     case "country":
-      return [entity.id, entity.alpha2, entity.alpha3, entity.numeric, entity.name];
+      return [
+        entity.id,
+        entity.alpha2,
+        entity.alpha3,
+        entity.numeric,
+        entity.name,
+        ...codeSystemCodes(entity),
+      ];
     case "subdivision":
-      return [entity.id, entity.code, entity.name];
+      return [entity.id, entity.code, entity.name, ...codeSystemCodes(entity)];
     case "historic-country":
       return [
         entity.id,
@@ -67,6 +74,11 @@ function ownKeys(entity: Entity): string[] {
       // A Kind this version doesn't know, from a hand-built pack, never matches.
       return [];
   }
+}
+
+/** An Entity's codes in every Code system, including ones this version doesn't know, from a newer or hand-built pack. */
+function codeSystemCodes(entity: Country | Subdivision): string[] {
+  return Object.values(entity.codes ?? {}).filter((code) => typeof code === "string");
 }
 
 /** Builds an independent Resolver over the Entities in `data`. Its index is built on first use and is private to it. */

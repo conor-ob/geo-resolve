@@ -10,6 +10,7 @@ function check(actual, expected, what) {
 
 check(resolve("Germany")?.id, "DE", "the default entry resolves a Country");
 check(toAlpha3("de"), "DEU", "the default entry converts codes");
+check(resolve("GER")?.id, "DE", "the default entry resolves Code system codes");
 const resolver = createResolver({ data: [countries, historicCountries, usSubdivisions] });
 check(resolver.resolve("California")?.id, "US-CA", "a per-Country Subdivisions pack loads");
 check(resolver.resolve("YUCS")?.name, "Yugoslavia", "the Historic countries pack loads");

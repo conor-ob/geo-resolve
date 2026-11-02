@@ -1,6 +1,14 @@
 import { mkdir, mkdtemp, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
+import {
+  COVERAGE_PROPERTIES,
+  serialiseSparqlResults,
+  WIKIDATA_QUERIES,
+  wikidataSnapshotPath,
+  type SparqlRow,
+  type WikidataSnapshot,
+} from "../src/wikidata.ts";
 
 export interface CldrFixture {
   /** Region codes CLDR marks as regular, written as CLDR writes them (ranges such as `AC~G` allowed). */
@@ -26,8 +34,27 @@ export interface SubdivisionFixture {
   names: { type: string; name: string }[];
 }
 
-/** Writes CLDR Snapshots laid out as `fetch` writes them, and returns the Snapshot directory. */
-export async function writeCldrSnapshots(fixture: CldrFixture): Promise<string> {
+/** Wikidata query results, with items written as ids such as `Q183`. Every Snapshot is empty unless given. */
+export interface WikidataFixture {
+  /** Items holding an Alpha-2 code; a statement is current unless marked deprecated or ended. */
+  items?: { item: string; alpha2: string; deprecated?: boolean; ended?: boolean }[];
+  ioc?: { item: string; ioc: string }[];
+  aliases?: { item: string; alias: string }[];
+  /** FIFA associations, one row per area each covers by `property`. */
+  fifa?: {
+    association: string;
+    fifa: string;
+    property?: (typeof COVERAGE_PROPERTIES)[number];
+    area?: string;
+    subdivision?: string;
+  }[];
+}
+
+/** Writes CLDR and Wikidata Snapshots laid out as `fetch` writes them, and returns the Snapshot directory. */
+export async function writeCldrSnapshots(
+  fixture: CldrFixture,
+  wikidata: WikidataFixture = {},
+): Promise<string> {
   const sourcesDir = await mkdtemp(join(tmpdir(), "geo-resolve-sources-"));
   const files = {
     "cldr/common/validity/region.xml": regionValidity(fixture),
@@ -36,6 +63,7 @@ export async function writeCldrSnapshots(fixture: CldrFixture): Promise<string> 
     "cldr/common/validity/subdivision.xml": subdivisionValidity(fixture),
     "cldr/common/supplemental/subdivisions.xml": subdivisionContainment(fixture),
     "cldr/common/subdivisions/en.xml": englishSubdivisionNames(fixture),
+    ...wikidataSnapshots(wikidata),
   };
   for (const [path, contents] of Object.entries(files)) {
     await mkdir(dirname(join(sourcesDir, path)), { recursive: true });
@@ -173,4 +201,42 @@ ${rows.join("\n")}
 	</localeDisplayNames>
 </ldml>
 `;
+}
+
+const ENTITY = "http://www.wikidata.org/entity/";
+
+function wikidataSnapshots({
+  items = [],
+  ioc = [],
+  aliases = [],
+  fifa = [],
+}: WikidataFixture): Record<string, string> {
+  const item = (id: string) => ({ type: "uri", value: `${ENTITY}${id}` });
+  const literal = (value: string) => ({ type: "literal", value });
+  const rows: Record<WikidataSnapshot, SparqlRow[]> = {
+    items: items.map((row) => ({
+      item: item(row.item),
+      alpha2: literal(row.alpha2),
+      rank: literal(`http://wikiba.se/ontology#${row.deprecated ? "Deprecated" : "Normal"}Rank`),
+      ended: literal(String(row.ended ?? false)),
+    })),
+    ioc: ioc.map((row) => ({ item: item(row.item), ioc: literal(row.ioc) })),
+    aliases: aliases.map((row) => ({
+      item: item(row.item),
+      alias: { ...literal(row.alias), "xml:lang": "en" },
+    })),
+    fifa: fifa.map((row) => ({
+      association: item(row.association),
+      fifa: literal(row.fifa),
+      ...(row.property === undefined ? {} : { property: literal(row.property) }),
+      ...(row.area === undefined ? {} : { area: item(row.area) }),
+      ...(row.subdivision === undefined ? {} : { subdivision: literal(row.subdivision) }),
+    })),
+  };
+  return Object.fromEntries(
+    (Object.keys(WIKIDATA_QUERIES) as WikidataSnapshot[]).map((snapshot) => [
+      wikidataSnapshotPath(snapshot),
+      serialiseSparqlResults(Object.keys(rows[snapshot][0] ?? {}), rows[snapshot]),
+    ]),
+  );
 }
