@@ -37,7 +37,7 @@ An Entity that ISO names as replacing a Historic country when its code was withd
 _Avoid_: replacement, new code, successor state (the political sense, which can differ)
 
 **Territory**:
-A country-level unit that ISO 3166 doesn't list but that at least two shipped Code systems treat as a peer of Countries, such as Kosovo (XK). It has no ISO codes and no Subdivisions.
+A country-level unit that ISO 3166 doesn't list as a Country but that CLDR lists as a region and at least two shipped Code systems treat as a peer of Countries, such as Kosovo (XK). It has no ISO codes and no Subdivisions.
 _Avoid_: partially recognised state, non-ISO country
 
 **Same-as link**:

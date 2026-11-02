@@ -1,0 +1,11 @@
+[
+  {
+    "kind": "territory",
+    "id": "XK",
+    "name": "Kosovo",
+    "codes": {
+      "ioc": "KOS",
+      "fifa": "KOS"
+    }
+  }
+]

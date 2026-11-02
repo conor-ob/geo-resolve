@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
-import type { Country, HistoricCountry, Subdivision } from "geo-resolve";
+import type { Country, HistoricCountry, Subdivision, Territory } from "geo-resolve";
 import { z } from "zod";
 import { COVERAGE_PROPERTIES, ItemIdSchema, readWikidata } from "./wikidata.ts";
 
@@ -24,9 +24,10 @@ const NumericSchema = z.string().regex(/^\d{3}$/, "must be a three-digit Numeric
 const CodeSystemCodeSchema = z.string().regex(/^[A-Z]{3}$/, "must be three capital letters");
 
 /** An Entity's codes in non-ISO Code systems, named for their Code system (ADR-0003). */
-const CodesSchema = z
-  .strictObject({ ioc: CodeSystemCodeSchema.optional(), fifa: CodeSystemCodeSchema.optional() })
-  .optional();
+const CodesSchema = z.strictObject({
+  ioc: CodeSystemCodeSchema.optional(),
+  fifa: CodeSystemCodeSchema.optional(),
+});
 
 /** The `id`s of the Entities an Entity is joined to by Same-as links. */
 const SameAsSchema = z.array(z.string()).readonly().optional();
@@ -38,7 +39,7 @@ const CountrySchema = z.strictObject({
   alpha3: Alpha3Schema,
   numeric: NumericSchema,
   name: z.string().min(1, "must not be empty"),
-  codes: CodesSchema,
+  codes: CodesSchema.optional(),
   sameAs: SameAsSchema,
 });
 
@@ -57,7 +58,7 @@ const SubdivisionSchema = z.strictObject({
   country: Alpha2Schema,
   parent: z.union([Alpha2Schema, SubdivisionCodeSchema]),
   name: z.string().min(1, "must not be empty"),
-  codes: CodesSchema,
+  codes: CodesSchema.optional(),
   sameAs: SameAsSchema,
 });
 
@@ -68,6 +69,17 @@ function isIso8601Date(value: string): boolean {
   const date = new Date(`${year}-${month}-${day}T00:00:00Z`);
   return !Number.isNaN(date.getTime()) && date.toISOString().startsWith(`${year}-${month}-${day}`);
 }
+
+/** A user-assigned ISO 3166-1 code, which ISO never assigns itself, so it can't collide with a Country (ADR-0012). */
+const UserAssignedCodeSchema = z.string().regex(/^X[A-Z]$/, "must be a user-assigned code, XA–XZ");
+
+const TerritorySchema = z.strictObject({
+  kind: z.literal("territory"),
+  id: UserAssignedCodeSchema,
+  name: z.string().min(1, "must not be empty"),
+  codes: CodesSchema,
+  sameAs: SameAsSchema,
+});
 
 const Alpha4Schema = z.string().regex(/^[A-Z]{4}$/, "must be an Alpha-4 code");
 
@@ -96,7 +108,13 @@ true satisfies Exactly<
   Readonly<Omit<z.infer<typeof SubdivisionSchema>, "codes">>,
   Omit<Subdivision, "codes">
 >;
-true satisfies z.infer<typeof CodesSchema> extends Country["codes"] ? true : false;
+true satisfies Exactly<
+  Readonly<Omit<z.infer<typeof TerritorySchema>, "codes">>,
+  Omit<Territory, "codes">
+>;
+true satisfies z.infer<typeof CodesSchema> extends Country["codes"] & Territory["codes"]
+  ? true
+  : false;
 true satisfies Exactly<Readonly<z.infer<typeof HistoricCountrySchema>>, HistoricCountry>;
 
 /** The ISO page (a URL) or change notice (such as `ISO 3166-1 Newsletter V-3`) a curated record came from, so a reviewer can verify it. */
@@ -163,6 +181,17 @@ const OverlayFifaAssociationSchema = z.strictObject({
   reason: ReasonSchema,
 });
 
+/**
+ * A Territory admitted under ADR-0012: its `id` and English Name, and the Code systems that code it as a peer of
+ * Countries, which `build` checks against the codes it joins.
+ */
+const OverlayTerritorySchema = z.strictObject({
+  id: UserAssignedCodeSchema,
+  name: z.string().min(1, "must not be empty"),
+  codeSystems: z.array(z.enum(["ioc", "fifa"])),
+  reason: ReasonSchema,
+});
+
 const OverlaySchema = z.strictObject({
   historicCountries: z.array(OverlayHistoricCountrySchema).default([]),
   formerCodes: z.array(OverlayFormerCodeSchema).default([]),
@@ -171,6 +200,7 @@ const OverlaySchema = z.strictObject({
   wikidataItems: z.array(OverlayWikidataItemSchema).default([]),
   codes: z.array(OverlayCodeSchema).default([]),
   fifaAssociations: z.array(OverlayFifaAssociationSchema).default([]),
+  territories: z.array(OverlayTerritorySchema).default([]),
 });
 
 type Overlay = z.infer<typeof OverlaySchema>;
@@ -521,6 +551,25 @@ export async function build({
     }
   }
 
+  // A Territory has no ISO Country entry but is a CLDR region of its own (ADR-0012). Its user-assigned id can't be a
+  // Country's, so a Country with its Name is how ISO would list it. Subdivisions may share its ground or Name: ISO
+  // lists Kosovo as the Serbian Subdivision RS-KM, with a district RS-25 named Kosovo.
+  const regularRegions = new Set(regularCodes);
+  const countryIdsByName = new Map(countries.map(({ id, name }) => [matchKey(name), id]));
+  const territoryIds = new Set<string>();
+  for (const { id, name } of overlay.territories) {
+    if (entityIds.has(id)) problems.push(`Duplicate id ${id}`);
+    if (!regularRegions.has(id))
+      problems.push(`Territory ${id} isn't a CLDR region, so it has no localised Names`);
+    const listed = countryIdsByName.get(matchKey(name));
+    if (listed !== undefined)
+      problems.push(
+        `Territory ${id} ${name} is listed by ISO as the Country ${listed}, so it isn't a Territory`,
+      );
+    entityIds.add(id);
+    territoryIds.add(id);
+  }
+
   // Former codes of Countries that still exist are Aliases, not Historic countries (ADR-0003).
   const countryAliases = new Map<string, string[]>();
   /** Every Alias with the Source it came from, for the build report. */
@@ -539,7 +588,7 @@ export async function build({
   const wikidata = await readWikidata(sourcesDir);
   const currentItems = new Map<string, string[]>();
   for (const { item, alpha2, current } of wikidata.items) {
-    if (current && countryIds.has(alpha2))
+    if (current && (countryIds.has(alpha2) || territoryIds.has(alpha2)))
       currentItems.set(alpha2, [...(currentItems.get(alpha2) ?? []), item]);
   }
   const pinnedItems = new Map<string, string>();
@@ -557,7 +606,7 @@ export async function build({
       );
     pinnedItems.set(country, item);
   }
-  /** The item each Country's Code system codes and Aliases are read from. */
+  /** The item each Country's or Territory's Code system codes and Aliases are read from. */
   const countryItems = new Map<string, string>();
   for (const [country, items] of currentItems) {
     if (pinnedItems.has(country)) continue;
@@ -569,17 +618,20 @@ export async function build({
   }
   for (const [country, item] of pinnedItems) countryItems.set(country, item);
   const itemCountries = new Map([...countryItems].map(([country, item]) => [item, country]));
-  /** The Country each current item denotes, for reading which area a FIFA association covers. */
+  /** The Country or Territory each current item denotes, for reading which area a FIFA association covers. */
   const areaCountries = new Map(itemCountries);
   for (const [country, items] of currentItems) {
     for (const item of items) areaCountries.set(item, country);
   }
 
+  /** The Entities that can hold Code system codes: every Kind but Historic countries (ADR-0003). */
+  const codeHolderIds = new Set([...countryIds, ...subdivisionIdsSeen, ...territoryIds]);
+
   // Overlay corrections replace whatever Wikidata gives an Entity in that Code system.
   const corrections = new Map<string, { code: string; replaced: Set<string> }>();
   for (const { entity, system, code } of overlay.codes) {
     const name = CODE_SYSTEM_NAMES[system];
-    if (!countryIds.has(entity) && !subdivisionIdsSeen.has(entity))
+    if (!codeHolderIds.has(entity))
       problems.push(`${name} code correction has a dangling Entity ${entity}`);
     else if (corrections.has(`${entity} ${system}`))
       problems.push(`${entity} has two ${name} code corrections`);
@@ -633,7 +685,7 @@ export async function build({
   for (const { association, entity } of overlay.fifaAssociations) {
     if (!fifaAssociations.has(association))
       problems.push(`FIFA association ${association} in the Overlay isn't in the Snapshot`);
-    else if (entity !== null && !countryIds.has(entity) && !subdivisionIdsSeen.has(entity))
+    else if (entity !== null && !codeHolderIds.has(entity))
       problems.push(`FIFA association ${association} has a dangling Entity ${entity}`);
     associationEntities.set(association, entity);
   }
@@ -682,13 +734,15 @@ export async function build({
         );
     }
   }
+  /** The Code system codes joined to an Entity, or `undefined` when it has none. */
+  function codesOf(id: string): Record<string, string> | undefined {
+    const codes = codeSystems.get(id);
+    return codes && Object.fromEntries([...codes].map(([system, { code }]) => [system, code]));
+  }
   function withCodes<T extends Country | Subdivision>(entity: T): T {
-    const codes = codeSystems.get(entity.id);
+    const codes = codesOf(entity.id);
     if (codes === undefined) return entity;
-    const record = {
-      ...entity,
-      codes: Object.fromEntries([...codes].map(([system, { code }]) => [system, code])),
-    };
+    const record = { ...entity, codes };
     const parsed = (entity.kind === "country" ? CountrySchema : SubdivisionSchema).safeParse(
       record,
     );
@@ -696,6 +750,32 @@ export async function build({
     return record;
   }
   const countriesWithCodes = countries.map(withCodes);
+
+  // At least two shipped Code systems must code a Territory as a peer of Countries (ADR-0012), and they must be the
+  // ones the Overlay admits it for, so a Code system dropping it is noticed.
+  const territories: Territory[] = [];
+  for (const { id, name, codeSystems: admittedFor } of overlay.territories) {
+    const coded = CODE_SYSTEMS.filter((system) => codeSystems.get(id)?.has(system));
+    if (coded.length < 2)
+      problems.push(
+        `Territory ${id} is coded by ${codeSystemNames(coded)}, but needs at least two shipped Code systems to be admitted`,
+      );
+    else if (
+      coded.length !== new Set(admittedFor).size ||
+      coded.some((system) => !admittedFor.includes(system))
+    )
+      problems.push(
+        `Territory ${id} is admitted for its ${codeSystemNames(admittedFor)} codes, but is coded by ${codeSystemNames(coded)}`,
+      );
+    const parsed = TerritorySchema.safeParse({
+      kind: "territory",
+      id,
+      name,
+      codes: codesOf(id) ?? {},
+    });
+    if (parsed.success) territories.push(parsed.data);
+    else problems.push(`Territory ${id}:\n${z.prettifyError(parsed.error)}`);
+  }
 
   // Wikidata Aliases are names only: one that is a code would shadow the code's own Entity, and one that names a
   // Historic country would map it to a current Country, which geo-resolve never does (ADR-0003).
@@ -711,6 +791,7 @@ export async function build({
     for (const code of [alpha4, alpha2, alpha3, numeric])
       if (code !== undefined) holdsCode(code, id);
   }
+  for (const id of territoryIds) holdsCode(id, id);
   for (const [id, codes] of codeSystems) for (const { code } of codes.values()) holdsCode(code, id);
   const historicNames = new Map<string, string>();
   for (const { id, name } of historicCountries)
@@ -719,10 +800,13 @@ export async function build({
     for (const alias of aliases)
       historicNames.set(matchKey(alias), `an Alias of the Historic country ${id}`);
   }
-  const countryNames = new Map(countries.map(({ id, name }) => [id, name]));
+  const entityNames = new Map(
+    [...countries, ...overlay.territories].map(({ id, name }) => [id, name]),
+  );
+  const territoryAliases = new Map<string, string[]>();
   const droppedAliases: { id: string; alias: string; reason: string }[] = [];
   for (const [country, item] of [...countryItems].sort(([a], [b]) => (a < b ? -1 : 1))) {
-    const keys = new Set([matchKey(countryNames.get(country)!)]);
+    const keys = new Set([matchKey(entityNames.get(country)!)]);
     const aliases = wikidata.aliases
       .filter((row) => row.item === item)
       .map(({ alias }) => alias)
@@ -741,7 +825,8 @@ export async function build({
         droppedAliases.push({ id: country, alias, reason });
         continue;
       }
-      countryAliases.set(country, [...(countryAliases.get(country) ?? []), alias]);
+      const target = territoryIds.has(country) ? territoryAliases : countryAliases;
+      target.set(country, [...(target.get(country) ?? []), alias]);
       aliasSources.push({ id: country, alias, source: `Wikidata ${item}` });
     }
   }
@@ -752,6 +837,7 @@ export async function build({
   countriesWithCodes.sort(byId);
   historicCountries.sort(byId);
   subdivisionsWithCodes.sort(byId);
+  territories.sort(byId);
   await mkdir(join(outDir, "subdivisions"), { recursive: true });
   await writeJson(join(outDir, "countries.json"), countriesWithCodes.map(withSameAs));
   await writeJson(join(outDir, "countries.aliases.json"), sortedAliases(countryAliases));
@@ -760,6 +846,8 @@ export async function build({
     join(outDir, "historic-countries.aliases.json"),
     sortedAliases(historicCountryAliases),
   );
+  await writeJson(join(outDir, "territories.json"), territories);
+  await writeJson(join(outDir, "territories.aliases.json"), sortedAliases(territoryAliases));
   for (const { id } of countries) {
     const pack = subdivisionsWithCodes
       .filter((subdivision) => subdivision.country === id)
@@ -776,6 +864,7 @@ export async function build({
         countries: countriesWithCodes,
         subdivisions,
         historicCountries,
+        territories,
         aliasSources,
         droppedAliases,
         codeSystems,
@@ -788,6 +877,11 @@ const CODE_SYSTEMS = ["ioc", "fifa"] as const;
 type CodeSystem = (typeof CODE_SYSTEMS)[number];
 
 const CODE_SYSTEM_NAMES: Record<CodeSystem, string> = { ioc: "IOC", fifa: "FIFA" };
+/** Code systems named for a build problem, such as `IOC and FIFA`. */
+function codeSystemNames(systems: readonly CodeSystem[]): string {
+  return systems.map((system) => CODE_SYSTEM_NAMES[system]).join(" and ") || "no Code system";
+}
+
 const CODE_SYSTEM_ARTICLES: Record<CodeSystem, string> = { ioc: "an", fifa: "a" };
 
 const GENERATED = "// Generated by `@geo-resolve/codegen build` from the Snapshots. Do not edit.";
@@ -822,6 +916,7 @@ function buildReport({
   countries,
   subdivisions,
   historicCountries,
+  territories,
   aliasSources,
   droppedAliases,
   codeSystems,
@@ -829,6 +924,7 @@ function buildReport({
   countries: readonly Country[];
   subdivisions: readonly Subdivision[];
   historicCountries: readonly HistoricCountry[];
+  territories: readonly Territory[];
   aliasSources: readonly { id: string; alias: string; source: string }[];
   droppedAliases: readonly { id: string; alias: string; reason: string }[];
   codeSystems: ReadonlyMap<string, ReadonlyMap<CodeSystem, { code: string; source: string }>>;
@@ -841,6 +937,7 @@ function buildReport({
         ["Country", "CLDR", String(countries.length)],
         ["Subdivision", "CLDR", String(subdivisions.length)],
         ["Historic country", "Overlay", String(historicCountries.length)],
+        ["Territory", "Overlay", String(territories.length)],
       ],
     )}`,
     `## Aliases\n\n${table(

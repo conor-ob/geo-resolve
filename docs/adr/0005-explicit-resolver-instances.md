@@ -11,7 +11,7 @@ import de from "geo-resolve/locales/de";
 const resolver = createResolver({ data: [countries, subdivisions], locales: [de] });
 ```
 
-The package's default entry exports functions bound to a ready-made Resolver with Countries and English only, so `import { resolve } from "geo-resolve"` stays a one-liner.
+The package's default entry exports functions bound to a ready-made Resolver with Countries, Territories (ADR-0012) and English only, so `import { resolve } from "geo-resolve"` stays a one-liner.
 
 ## Considered Options
 

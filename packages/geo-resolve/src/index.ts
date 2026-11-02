@@ -1,4 +1,5 @@
 import countries from "./data/countries.ts";
+import territories from "./data/territories.ts";
 import { createResolver } from "./resolver.ts";
 
 export type { KnownAlpha2, KnownAlpha3, KnownSubdivisionCode } from "./data/known-codes.ts";
@@ -15,10 +16,11 @@ export type {
   KnownKind,
   ResolveOptions,
   Subdivision,
+  Territory,
 } from "./types.ts";
 
-// The default entry resolves Countries in English only; other Data packs are opt-in (ADR-0005).
-const resolver = createResolver({ data: [countries] });
+// The default entry resolves Countries and Territories in English only; other Data packs are opt-in (ADR-0005).
+const resolver = createResolver({ data: [countries, territories] });
 
 /** Resolves an Input to the single Entity it denotes, or `null` when there is none or it is ambiguous. */
 export const resolve = resolver.resolve;

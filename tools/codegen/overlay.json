@@ -447,11 +447,6 @@
   ],
   "fifaAssociations": [
     {
-      "association": "Q1289049",
-      "entity": null,
-      "reason": "Football Federation of Kosovo: Kosovo has no Entity until it is admitted as a Territory (#18), and Wikidata's KVX disagrees with FIFA's KOS. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
-    },
-    {
       "association": "Q2082037",
       "entity": "PF",
       "reason": "Tahitian Football Federation: Wikidata's jurisdiction, Tahiti, has no ISO code, so its country, FR, would get TAH; the association covers French Polynesia"
@@ -552,6 +547,20 @@
       "system": "fifa",
       "code": "UKR",
       "reason": "Wikidata gives the Ukrainian Association of Football GRE, Greece's code. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    },
+    {
+      "entity": "XK",
+      "system": "fifa",
+      "code": "KOS",
+      "reason": "Wikidata gives the Football Federation of Kosovo KVX, which disagrees with FIFA's KOS. Checked against Wikipedia's List of FIFA country codes (https://en.wikipedia.org/wiki/List_of_FIFA_country_codes)"
+    }
+  ],
+  "territories": [
+    {
+      "id": "XK",
+      "name": "Kosovo",
+      "codeSystems": ["ioc", "fifa"],
+      "reason": "ISO 3166-1 has no Country entry for Kosovo (ISO 3166-2 lists it as the Serbian Subdivision RS-KM), but CLDR lists it as the region XK, and the IOC and FIFA both code it KOS as a peer of Countries (ADR-0012)"
     }
   ]
 }

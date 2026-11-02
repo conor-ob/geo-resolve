@@ -1,6 +1,14 @@
 import { aliasesOf } from "./data-pack.ts";
 import { normalise } from "./normalise.ts";
-import type { Country, DataPack, Entity, Kind, ResolveOptions, Subdivision } from "./types.ts";
+import type {
+  Country,
+  DataPack,
+  Entity,
+  Kind,
+  ResolveOptions,
+  Subdivision,
+  Territory,
+} from "./types.ts";
 
 /** What a Resolver is built from. */
 export interface ResolverOptions {
@@ -70,6 +78,8 @@ function ownKeys(entity: Entity): string[] {
         entity.numeric,
         entity.name,
       ].filter((key) => key !== undefined);
+    case "territory":
+      return [entity.id, entity.name, ...codeSystemCodes(entity)];
     default:
       // A Kind this version doesn't know, from a hand-built pack, never matches.
       return [];
@@ -77,7 +87,7 @@ function ownKeys(entity: Entity): string[] {
 }
 
 /** An Entity's codes in every Code system, including ones this version doesn't know, from a newer or hand-built pack. */
-function codeSystemCodes(entity: Country | Subdivision): string[] {
+function codeSystemCodes(entity: Country | Subdivision | Territory): string[] {
   return Object.values(entity.codes ?? {}).filter((code) => typeof code === "string");
 }
 

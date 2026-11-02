@@ -72,8 +72,26 @@ export interface HistoricCountry {
   readonly successors: readonly string[];
 }
 
+/**
+ * A country-level unit that ISO 3166 doesn't list as a Country but that CLDR lists as a region and at least two
+ * shipped Code systems treat as a peer of Countries, such as Kosovo (ADR-0012). It has no ISO codes, no Parent and no
+ * Subdivisions.
+ */
+export interface Territory {
+  /** The Kind, always `territory` for a Territory. */
+  readonly kind: "territory";
+  /** The user-assigned code permissive Sources use for it, such as `XK`. Never an ISO 3166 code. */
+  readonly id: string;
+  /** The English Name, such as `Kosovo`. */
+  readonly name: string;
+  /** Codes in non-ISO Code systems, such as the IOC's `KOS` for `XK`. */
+  readonly codes: Codes;
+  /** The `id`s of Entities that denote the same territory. */
+  readonly sameAs?: readonly string[];
+}
+
 /** A geographic unit geo-resolve can resolve an Input to. */
-export type Entity = Country | Subdivision | HistoricCountry;
+export type Entity = Country | Subdivision | HistoricCountry | Territory;
 
 /** A separately importable bundle of Entities, such as all Subdivisions or one Country's Subdivisions. */
 export type DataPack = readonly Entity[];
