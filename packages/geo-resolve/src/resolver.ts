@@ -1,3 +1,4 @@
+import { aliasesOf } from "./data-pack.ts";
 import { normalise } from "./normalise.ts";
 import type { DataPack, Entity, Kind, ResolveOptions } from "./types.ts";
 
@@ -41,13 +42,27 @@ interface Index {
   readonly byId: ReadonlyMap<string, Entity>;
 }
 
-/** The codes and Name an Input can match an Entity by. A bare Subdivision code suffix is not one. */
+/** The codes, Name and Aliases an Input can match an Entity by. A bare Subdivision code suffix is not one. */
 function matchKeys(entity: Entity): string[] {
+  return [...ownKeys(entity), ...aliasesOf(entity)];
+}
+
+/** The codes and Name an Input can match an Entity by, read from the Entity itself. */
+function ownKeys(entity: Entity): string[] {
   switch (entity.kind) {
     case "country":
       return [entity.id, entity.alpha2, entity.alpha3, entity.numeric, entity.name];
     case "subdivision":
       return [entity.id, entity.code, entity.name];
+    case "historic-country":
+      return [
+        entity.id,
+        entity.alpha4,
+        entity.alpha2,
+        entity.alpha3,
+        entity.numeric,
+        entity.name,
+      ].filter((key) => key !== undefined);
     default:
       // A Kind this version doesn't know, from a hand-built pack, never matches.
       return [];
@@ -132,11 +147,11 @@ export function createResolver({ data }: ResolverOptions): Resolver {
     },
     toAlpha3(input, options) {
       const entity = resolve(input, options);
-      return entity !== null && "alpha3" in entity ? entity.alpha3 : null;
+      return entity !== null && "alpha3" in entity ? (entity.alpha3 ?? null) : null;
     },
     toNumeric(input, options) {
       const entity = resolve(input, options);
-      return entity !== null && "numeric" in entity ? entity.numeric : null;
+      return entity !== null && "numeric" in entity ? (entity.numeric ?? null) : null;
     },
     toSubdivisionCode(input, options) {
       const entity = resolve(input, options);

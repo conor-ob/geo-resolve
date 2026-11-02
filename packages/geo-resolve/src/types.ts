@@ -44,8 +44,29 @@ export interface Subdivision {
   readonly codes?: Codes;
 }
 
+/** A former ISO 3166-1 entry that has been withdrawn and recorded in ISO 3166-3, such as Yugoslavia. */
+export interface HistoricCountry {
+  readonly kind: "historic-country";
+  /** The Historic country's Alpha-4 code. */
+  readonly id: string;
+  /** The ISO 3166-3 alpha-4 code, such as `YUCS`. Unique, unlike the former Alpha-2 code, which ISO may reassign. */
+  readonly alpha4: string;
+  /** The former ISO 3166-1 alpha-2 code, such as `YU`. */
+  readonly alpha2: string;
+  /** The former ISO 3166-1 alpha-3 code, such as `YUG`, where ISO assigned one. */
+  readonly alpha3?: string;
+  /** The former ISO 3166-1 numeric code as a three-digit string, such as `891`, where ISO assigned one. */
+  readonly numeric?: string;
+  /** The English common short Name, such as `Yugoslavia`. */
+  readonly name: string;
+  /** When ISO withdrew the code, as an ISO 8601 date only as precise as ISO published it: `1977` or `2003-07-23`. */
+  readonly withdrawn: string;
+  /** The `id`s of the Entities ISO names as replacing it, which may themselves be Historic countries (`YUCS` → `CSXX`). */
+  readonly successors: readonly string[];
+}
+
 /** A geographic unit geo-resolve can resolve an Input to. */
-export type Entity = Country | Subdivision;
+export type Entity = Country | Subdivision | HistoricCountry;
 
 /** A separately importable bundle of Entities, such as all Subdivisions or one Country's Subdivisions. */
 export type DataPack = readonly Entity[];
