@@ -22,9 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BRANCH: chore/data-update
+      TITLE: "chore(data): update snapshots from cldr and wikidata"
       GH_TOKEN: ${{ github.token }}
     steps:
+      # Always from main, so a manual run from another branch can't base the PR on it
       - uses: actions/checkout@v7.0.1
+        with:
+          ref: main
       - uses: voidzero-dev/setup-vp@v1.22.0
         with:
           node-version-file: .nvmrc
@@ -33,30 +37,35 @@ jobs:
         run: vp run @geo-resolve/codegen#fetch
       - name: Rebuild Data packs from Snapshots
         run: vp run @geo-resolve/codegen#build
-      - name: Stop if the Snapshots are unchanged
-        id: changes
+      - name: Commit the changes to the data-update branch if the Snapshots changed
+        id: commit
         run: |
-          git status --porcelain
-          if [ -n "$(git status --porcelain -- tools/codegen/sources)" ]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          if [ -z "$(git status --porcelain -- tools/codegen/sources)" ]; then
+            echo "The Snapshots are unchanged."
+            exit 0
           fi
-      - name: Commit the changes to the data-update branch
-        if: steps.changes.outputs.changed == 'true'
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
           git add -A
-          git commit -m "chore(data): update snapshots from cldr and wikidata"
+          git commit -m "$TITLE"
+          # Skip the push, and the CI run it needs, when the open PR already has these exact changes
+          if git fetch --depth 1 origin "$BRANCH" && git diff --quiet FETCH_HEAD HEAD; then
+            echo "The data-update branch already has these changes."
+            exit 0
+          fi
           git push --force origin "$BRANCH"
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
       - name: Open or update the PR with the build report diff
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.commit.outputs.pushed == 'true'
         run: |
           body="$RUNNER_TEMP/body.md"
           diff="$RUNNER_TEMP/build-report.diff"
           git diff HEAD~1 -- tools/codegen/build-report.md > "$diff"
           {
             echo "The weekly data update (ADR-0008) found upstream changes in the Snapshots. Review the changes before merging."
+            echo
+            echo "This branch is rebuilt from main on every run, so put any Overlay or allowlist fixes in a separate PR."
             echo
             echo "## Build report diff"
             echo
@@ -75,9 +84,8 @@ jobs:
           if [ -n "$pr" ]; then
             gh pr edit "$pr" --body-file "$body"
           else
-            gh pr create --head "$BRANCH" --base main \
-              --title "chore(data): update snapshots from cldr and wikidata" --body-file "$body"
+            gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body"
           fi
       - name: Run CI on the PR branch
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.commit.outputs.pushed == 'true'
         run: gh workflow run ci.yml --ref "$BRANCH"
