@@ -1,0 +1,91 @@
+name: Data update
+
+# The weekly data update (ADR-0008): refresh the Snapshots, rebuild the Data packs and open a PR for review.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  # To dispatch CI on the PR branch, since pushes and PRs made with the workflow token trigger no workflows
+  actions: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Fetch Snapshots and open a data-update PR
+    runs-on: ubuntu-latest
+    env:
+      BRANCH: chore/data-update
+      TITLE: "chore(data): update snapshots from cldr and wikidata"
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      # Always from main, so a manual run from another branch can't base the PR on it
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: main
+      - uses: voidzero-dev/setup-vp@v1.22.0
+        with:
+          node-version-file: .nvmrc
+          cache: true
+      - name: Fetch Snapshots from CLDR and Wikidata
+        run: vp run @geo-resolve/codegen#fetch
+      - name: Rebuild Data packs from Snapshots
+        run: vp run @geo-resolve/codegen#build
+      - name: Commit the changes to the data-update branch if the Snapshots changed
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain -- tools/codegen/sources)" ]; then
+            echo "The Snapshots are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add -A
+          git commit -m "$TITLE"
+          # Skip the push, and the CI run it needs, when the open PR already has these exact changes
+          if git fetch --depth 1 origin "$BRANCH" && git diff --quiet FETCH_HEAD HEAD; then
+            echo "The data-update branch already has these changes."
+            exit 0
+          fi
+          git push --force origin "$BRANCH"
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+      - name: Open or update the PR with the build report diff
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          body="$RUNNER_TEMP/body.md"
+          diff="$RUNNER_TEMP/build-report.diff"
+          git diff HEAD~1 -- tools/codegen/build-report.md > "$diff"
+          {
+            echo "The weekly data update (ADR-0008) found upstream changes in the Snapshots. Review the changes before merging."
+            echo
+            echo "This branch is rebuilt from main on every run, so put any Overlay or allowlist fixes in a separate PR."
+            echo
+            echo "## Build report diff"
+            echo
+            if [ ! -s "$diff" ]; then
+              echo "The build report is unchanged."
+            # GitHub caps a PR body at 65536 characters
+            elif [ "$(wc -c < "$diff")" -gt 60000 ]; then
+              echo "The diff is too long to show here; see \`tools/codegen/build-report.md\` in the changed files."
+            else
+              echo '````diff'
+              cat "$diff"
+              echo '````'
+            fi
+          } > "$body"
+          pr=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --body-file "$body"
+          else
+            gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body"
+          fi
+      - name: Run CI on the PR branch
+        if: steps.commit.outputs.pushed == 'true'
+        run: gh workflow run ci.yaml --ref "$BRANCH"
