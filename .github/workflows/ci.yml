@@ -36,3 +36,15 @@ jobs:
         run: |
           git status --porcelain
           test -z "$(git status --porcelain)"
+
+  iso-codes:
+    name: Check data packs against ISO 3166
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: voidzero-dev/setup-vp@v1.22.0
+        with:
+          node-version: "24"
+          cache: true
+      - name: Compare the committed Data packs with the pinned iso-codes release
+        run: vp run @geo-resolve/codegen#compare-iso-codes

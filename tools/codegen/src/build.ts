@@ -101,10 +101,18 @@ const OverlaySameAsSchema = z.strictObject({
   citation: CitationSchema,
 });
 
+/** The Parent ISO gives a Subdivision where CLDR lags, such as FR-67, which ISO moved from Grand Est to Alsace. */
+const OverlayParentSchema = z.strictObject({
+  subdivision: SubdivisionCodeSchema,
+  parent: z.union([Alpha2Schema, SubdivisionCodeSchema]),
+  citation: CitationSchema,
+});
+
 const OverlaySchema = z.strictObject({
   historicCountries: z.array(OverlayHistoricCountrySchema).default([]),
   formerCodes: z.array(OverlayFormerCodeSchema).default([]),
   sameAs: z.array(OverlaySameAsSchema).default([]),
+  parents: z.array(OverlayParentSchema).default([]),
 });
 
 type Overlay = z.infer<typeof OverlaySchema>;
@@ -314,6 +322,22 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
       parents.set(id, parent);
     }
   }
+
+  const overlay = await readOverlay(overlayPath);
+
+  // Parent corrections replace CLDR's Parent before the hierarchy is checked, so a corrected Parent must resolve too.
+  const corrected = new Set<string>();
+  for (const { subdivision, parent } of overlay.parents) {
+    if (corrected.has(subdivision))
+      problems.push(`Subdivision ${subdivision} has two Parent corrections`);
+    else if (!parents.has(subdivision))
+      problems.push(`Parent correction for ${subdivision} has a dangling Subdivision`);
+    else if (parents.get(subdivision) === parent)
+      problems.push(`Parent correction for ${subdivision} matches CLDR, so it is no longer needed`);
+    corrected.add(subdivision);
+    parents.set(subdivision, parent);
+  }
+
   const subdivisionNames = new Map(
     englishSubdivisions.ldml.localeDisplayNames.subdivisions.subdivision.map((row) => [
       subdivisionCode(row.type),
@@ -378,9 +402,7 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
     subdivisionIdsSeen.add(id);
   }
 
-  // The Overlay is applied last, so it can refer to any Entity built from the Snapshots.
-  const overlay = await readOverlay(overlayPath);
-
+  // The rest of the Overlay is applied last, so it can refer to any Entity built from the Snapshots.
   // Same-as links join a Country and a Subdivision, and are written on both sides so neither can be one-sided.
   const sameAs = new Map<string, string[]>();
   for (const { entities } of overlay.sameAs) {

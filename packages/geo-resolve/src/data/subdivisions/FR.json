@@ -548,7 +548,7 @@
     "id": "FR-67",
     "code": "FR-67",
     "country": "FR",
-    "parent": "FR-GES",
+    "parent": "FR-6AE",
     "name": "Bas-Rhin"
   },
   {
@@ -556,7 +556,7 @@
     "id": "FR-68",
     "code": "FR-68",
     "country": "FR",
-    "parent": "FR-GES",
+    "parent": "FR-6AE",
     "name": "Haut-Rhin"
   },
   {
