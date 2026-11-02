@@ -277,10 +277,6 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
     .filter((row) => row.type === "region" && row.idStatus === "regular")
     .flatMap((row) => expandCodes(row["#text"]));
 
-  // The Overlay is applied last, but Same-as links also decide which Subdivisions CLDR deprecates are built.
-  const overlay = await readOverlay(overlayPath);
-  const sameAsIds = new Set(overlay.sameAs.flatMap(({ entities }) => entities));
-
   const problems: string[] = [];
   const countries: Country[] = [];
   for (const alpha2 of regularCodes.filter(isAssignedByIso)) {
@@ -305,8 +301,8 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
     }
   }
 
-  // Containment also lists codes CLDR has deprecated in favour of a CLDR region (`uspr` for PR). Only regular codes are
-  // Subdivisions, unless a Same-as link names one: ISO still lists it, so it is built and joined to the Country.
+  // CLDR deprecates some codes ISO still lists, because the place has its own region code (`uspr` for PR), but keeps
+  // them in containment; codes ISO withdrew drop out of it. So a deprecated code that containment lists is a Subdivision.
   const parents = new Map<string, string>();
   for (const { type, contains } of containment.supplementalData.subdivisionContainment.subgroup) {
     for (const child of contains.split(/\s+/).filter(Boolean)) {
@@ -331,7 +327,7 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
       .map(subdivisionCode);
   const subdivisionIds = [
     ...subdivisionIdsWithStatus("regular"),
-    ...subdivisionIdsWithStatus("deprecated").filter((id) => sameAsIds.has(id)),
+    ...subdivisionIdsWithStatus("deprecated").filter((id) => parents.has(id)),
   ];
   const countryIds = new Set(countries.map((country) => country.id));
   const knownSubdivisionIds = new Set(subdivisionIds);
@@ -381,6 +377,9 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
     if (subdivisionIdsSeen.has(id) || countryIds.has(id)) problems.push(`Duplicate id ${id}`);
     subdivisionIdsSeen.add(id);
   }
+
+  // The Overlay is applied last, so it can refer to any Entity built from the Snapshots.
+  const overlay = await readOverlay(overlayPath);
 
   // Same-as links join a Country and a Subdivision, and are written on both sides so neither can be one-sided.
   const sameAs = new Map<string, string[]>();

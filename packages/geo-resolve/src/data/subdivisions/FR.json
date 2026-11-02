@@ -883,6 +883,14 @@
   },
   {
     "kind": "subdivision",
+    "id": "FR-CP",
+    "code": "FR-CP",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Clipperton Island"
+  },
+  {
+    "kind": "subdivision",
     "id": "FR-CVL",
     "code": "FR-CVL",
     "country": "FR",

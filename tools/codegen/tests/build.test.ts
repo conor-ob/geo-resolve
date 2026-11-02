@@ -509,10 +509,35 @@ test("a Same-as link from the Overlay is written on both sides, admitting the Su
   ]);
 });
 
-test("a Subdivision code CLDR deprecates is not built unless a Same-as link names it", async () => {
-  const outDir = await buildWithOverlay({}, puertoRico);
-  expect(await readPack(outDir, "subdivisions/US.json")).toEqual([
-    expect.objectContaining({ id: "US-CA" }),
+// CLDR deprecates `shta` because TA has its own region code, though TA isn't a Country; `shxx` stands for a code ISO withdrew.
+const saintHelena: CldrFixture = {
+  regular: ["SH"],
+  codes: [{ type: "SH", numeric: "654", alpha3: "SHN" }],
+  names: [{ type: "SH", name: "St. Helena" }],
+  subdivisions: {
+    regular: ["shhl"],
+    deprecated: ["shta", "shxx"],
+    containment: [{ type: "SH", contains: ["shhl", "shta"] }],
+    names: [
+      { type: "shhl", name: "Saint Helena" },
+      { type: "shta", name: "Tristan da Cunha" },
+      { type: "shxx", name: "Withdrawn" },
+    ],
+  },
+};
+
+test("a Subdivision code CLDR deprecates but still lists in containment is built, with or without a Same-as link", async () => {
+  const outDir = await buildWithOverlay({}, saintHelena);
+  expect(await readPack(outDir, "subdivisions/SH.json")).toEqual([
+    expect.objectContaining({ id: "SH-HL" }),
+    {
+      kind: "subdivision",
+      id: "SH-TA",
+      code: "SH-TA",
+      country: "SH",
+      parent: "SH",
+      name: "Tristan da Cunha",
+    },
   ]);
 });
 
