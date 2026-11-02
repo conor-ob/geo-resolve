@@ -797,7 +797,10 @@
     "code": "FR-971",
     "country": "FR",
     "parent": "FR",
-    "name": "Guadeloupe"
+    "name": "Guadeloupe",
+    "sameAs": [
+      "GP"
+    ]
   },
   {
     "kind": "subdivision",
@@ -805,7 +808,10 @@
     "code": "FR-972",
     "country": "FR",
     "parent": "FR",
-    "name": "Martinique"
+    "name": "Martinique",
+    "sameAs": [
+      "MQ"
+    ]
   },
   {
     "kind": "subdivision",
@@ -813,7 +819,10 @@
     "code": "FR-973",
     "country": "FR",
     "parent": "FR",
-    "name": "Guyane (française)"
+    "name": "Guyane (française)",
+    "sameAs": [
+      "GF"
+    ]
   },
   {
     "kind": "subdivision",
@@ -821,7 +830,10 @@
     "code": "FR-974",
     "country": "FR",
     "parent": "FR",
-    "name": "La Réunion"
+    "name": "La Réunion",
+    "sameAs": [
+      "RE"
+    ]
   },
   {
     "kind": "subdivision",
@@ -829,7 +841,10 @@
     "code": "FR-976",
     "country": "FR",
     "parent": "FR",
-    "name": "Mayotte"
+    "name": "Mayotte",
+    "sameAs": [
+      "YT"
+    ]
   },
   {
     "kind": "subdivision",
@@ -849,11 +864,30 @@
   },
   {
     "kind": "subdivision",
+    "id": "FR-BL",
+    "code": "FR-BL",
+    "country": "FR",
+    "parent": "FR",
+    "name": "St. Barthélemy",
+    "sameAs": [
+      "BL"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "FR-BRE",
     "code": "FR-BRE",
     "country": "FR",
     "parent": "FR",
     "name": "Brittany"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-CP",
+    "code": "FR-CP",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Clipperton Island"
   },
   {
     "kind": "subdivision",
@@ -889,11 +923,33 @@
   },
   {
     "kind": "subdivision",
+    "id": "FR-MF",
+    "code": "FR-MF",
+    "country": "FR",
+    "parent": "FR",
+    "name": "St. Martin",
+    "sameAs": [
+      "MF"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "FR-NAQ",
     "code": "FR-NAQ",
     "country": "FR",
     "parent": "FR",
     "name": "Nouvelle-Aquitaine"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-NC",
+    "code": "FR-NC",
+    "country": "FR",
+    "parent": "FR",
+    "name": "New Caledonia",
+    "sameAs": [
+      "NC"
+    ]
   },
   {
     "kind": "subdivision",
@@ -926,5 +982,49 @@
     "country": "FR",
     "parent": "FR",
     "name": "Pays-de-la-Loire"
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-PF",
+    "code": "FR-PF",
+    "country": "FR",
+    "parent": "FR",
+    "name": "French Polynesia",
+    "sameAs": [
+      "PF"
+    ]
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-PM",
+    "code": "FR-PM",
+    "country": "FR",
+    "parent": "FR",
+    "name": "St. Pierre & Miquelon",
+    "sameAs": [
+      "PM"
+    ]
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-TF",
+    "code": "FR-TF",
+    "country": "FR",
+    "parent": "FR",
+    "name": "French Southern and Antarctic Lands",
+    "sameAs": [
+      "TF"
+    ]
+  },
+  {
+    "kind": "subdivision",
+    "id": "FR-WF",
+    "code": "FR-WF",
+    "country": "FR",
+    "parent": "FR",
+    "name": "Wallis & Futuna",
+    "sameAs": [
+      "WF"
+    ]
   }
 ]

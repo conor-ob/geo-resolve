@@ -14,5 +14,13 @@
     "country": "SH",
     "parent": "SH",
     "name": "Saint Helena"
+  },
+  {
+    "kind": "subdivision",
+    "id": "SH-TA",
+    "code": "SH-TA",
+    "country": "SH",
+    "parent": "SH",
+    "name": "Tristan da Cunha"
   }
 ]

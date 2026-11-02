@@ -85,7 +85,10 @@
     "alpha2": "AS",
     "alpha3": "ASM",
     "numeric": "016",
-    "name": "American Samoa"
+    "name": "American Samoa",
+    "sameAs": [
+      "US-AS"
+    ]
   },
   {
     "kind": "country",
@@ -109,7 +112,10 @@
     "alpha2": "AW",
     "alpha3": "ABW",
     "numeric": "533",
-    "name": "Aruba"
+    "name": "Aruba",
+    "sameAs": [
+      "NL-AW"
+    ]
   },
   {
     "kind": "country",
@@ -117,7 +123,10 @@
     "alpha2": "AX",
     "alpha3": "ALA",
     "numeric": "248",
-    "name": "Åland Islands"
+    "name": "Åland Islands",
+    "sameAs": [
+      "FI-01"
+    ]
   },
   {
     "kind": "country",
@@ -205,7 +214,10 @@
     "alpha2": "BL",
     "alpha3": "BLM",
     "numeric": "652",
-    "name": "St. Barthélemy"
+    "name": "St. Barthélemy",
+    "sameAs": [
+      "FR-BL"
+    ]
   },
   {
     "kind": "country",
@@ -421,7 +433,10 @@
     "alpha2": "CW",
     "alpha3": "CUW",
     "numeric": "531",
-    "name": "Curaçao"
+    "name": "Curaçao",
+    "sameAs": [
+      "NL-CW"
+    ]
   },
   {
     "kind": "country",
@@ -637,7 +652,10 @@
     "alpha2": "GF",
     "alpha3": "GUF",
     "numeric": "254",
-    "name": "French Guiana"
+    "name": "French Guiana",
+    "sameAs": [
+      "FR-973"
+    ]
   },
   {
     "kind": "country",
@@ -693,7 +711,10 @@
     "alpha2": "GP",
     "alpha3": "GLP",
     "numeric": "312",
-    "name": "Guadeloupe"
+    "name": "Guadeloupe",
+    "sameAs": [
+      "FR-971"
+    ]
   },
   {
     "kind": "country",
@@ -733,7 +754,10 @@
     "alpha2": "GU",
     "alpha3": "GUM",
     "numeric": "316",
-    "name": "Guam"
+    "name": "Guam",
+    "sameAs": [
+      "US-GU"
+    ]
   },
   {
     "kind": "country",
@@ -757,7 +781,10 @@
     "alpha2": "HK",
     "alpha3": "HKG",
     "numeric": "344",
-    "name": "Hong Kong SAR China"
+    "name": "Hong Kong SAR China",
+    "sameAs": [
+      "CN-HK"
+    ]
   },
   {
     "kind": "country",
@@ -1125,7 +1152,10 @@
     "alpha2": "MF",
     "alpha3": "MAF",
     "numeric": "663",
-    "name": "St. Martin"
+    "name": "St. Martin",
+    "sameAs": [
+      "FR-MF"
+    ]
   },
   {
     "kind": "country",
@@ -1181,7 +1211,10 @@
     "alpha2": "MO",
     "alpha3": "MAC",
     "numeric": "446",
-    "name": "Macao SAR China"
+    "name": "Macao SAR China",
+    "sameAs": [
+      "CN-MO"
+    ]
   },
   {
     "kind": "country",
@@ -1189,7 +1222,10 @@
     "alpha2": "MP",
     "alpha3": "MNP",
     "numeric": "580",
-    "name": "Northern Mariana Islands"
+    "name": "Northern Mariana Islands",
+    "sameAs": [
+      "US-MP"
+    ]
   },
   {
     "kind": "country",
@@ -1197,7 +1233,10 @@
     "alpha2": "MQ",
     "alpha3": "MTQ",
     "numeric": "474",
-    "name": "Martinique"
+    "name": "Martinique",
+    "sameAs": [
+      "FR-972"
+    ]
   },
   {
     "kind": "country",
@@ -1285,7 +1324,10 @@
     "alpha2": "NC",
     "alpha3": "NCL",
     "numeric": "540",
-    "name": "New Caledonia"
+    "name": "New Caledonia",
+    "sameAs": [
+      "FR-NC"
+    ]
   },
   {
     "kind": "country",
@@ -1397,7 +1439,10 @@
     "alpha2": "PF",
     "alpha3": "PYF",
     "numeric": "258",
-    "name": "French Polynesia"
+    "name": "French Polynesia",
+    "sameAs": [
+      "FR-PF"
+    ]
   },
   {
     "kind": "country",
@@ -1437,7 +1482,10 @@
     "alpha2": "PM",
     "alpha3": "SPM",
     "numeric": "666",
-    "name": "St. Pierre & Miquelon"
+    "name": "St. Pierre & Miquelon",
+    "sameAs": [
+      "FR-PM"
+    ]
   },
   {
     "kind": "country",
@@ -1453,7 +1501,10 @@
     "alpha2": "PR",
     "alpha3": "PRI",
     "numeric": "630",
-    "name": "Puerto Rico"
+    "name": "Puerto Rico",
+    "sameAs": [
+      "US-PR"
+    ]
   },
   {
     "kind": "country",
@@ -1501,7 +1552,10 @@
     "alpha2": "RE",
     "alpha3": "REU",
     "numeric": "638",
-    "name": "Réunion"
+    "name": "Réunion",
+    "sameAs": [
+      "FR-974"
+    ]
   },
   {
     "kind": "country",
@@ -1685,7 +1739,10 @@
     "alpha2": "SX",
     "alpha3": "SXM",
     "numeric": "534",
-    "name": "Sint Maarten"
+    "name": "Sint Maarten",
+    "sameAs": [
+      "NL-SX"
+    ]
   },
   {
     "kind": "country",
@@ -1725,7 +1782,10 @@
     "alpha2": "TF",
     "alpha3": "ATF",
     "numeric": "260",
-    "name": "French Southern and Antarctic Lands"
+    "name": "French Southern and Antarctic Lands",
+    "sameAs": [
+      "FR-TF"
+    ]
   },
   {
     "kind": "country",
@@ -1821,7 +1881,10 @@
     "alpha2": "TW",
     "alpha3": "TWN",
     "numeric": "158",
-    "name": "Taiwan"
+    "name": "Taiwan",
+    "sameAs": [
+      "CN-TW"
+    ]
   },
   {
     "kind": "country",
@@ -1853,7 +1916,10 @@
     "alpha2": "UM",
     "alpha3": "UMI",
     "numeric": "581",
-    "name": "U.S. Outlying Islands"
+    "name": "U.S. Outlying Islands",
+    "sameAs": [
+      "US-UM"
+    ]
   },
   {
     "kind": "country",
@@ -1917,7 +1983,10 @@
     "alpha2": "VI",
     "alpha3": "VIR",
     "numeric": "850",
-    "name": "U.S. Virgin Islands"
+    "name": "U.S. Virgin Islands",
+    "sameAs": [
+      "US-VI"
+    ]
   },
   {
     "kind": "country",
@@ -1941,7 +2010,10 @@
     "alpha2": "WF",
     "alpha3": "WLF",
     "numeric": "876",
-    "name": "Wallis & Futuna"
+    "name": "Wallis & Futuna",
+    "sameAs": [
+      "FR-WF"
+    ]
   },
   {
     "kind": "country",
@@ -1965,7 +2037,10 @@
     "alpha2": "YT",
     "alpha3": "MYT",
     "numeric": "175",
-    "name": "Mayotte"
+    "name": "Mayotte",
+    "sameAs": [
+      "FR-976"
+    ]
   },
   {
     "kind": "country",

@@ -209,3 +209,8 @@ test("within terminates on Parents that loop in a hand-built pack", () => {
   ];
   expect(createResolver({ data: [looping] }).resolve("A", { within: "XX-C" })).toBeNull();
 });
+
+test("Subdivisions ISO lists that CLDR deprecates for having their own region code resolve", () => {
+  expect(resolver.resolve("SH-TA")?.name).toBe("Tristan da Cunha");
+  expect(resolver.resolve("FR-CP")?.name).toBe("Clipperton Island");
+});

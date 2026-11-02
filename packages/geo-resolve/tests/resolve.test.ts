@@ -89,6 +89,14 @@ test.each([
   ["AQ", "ATA", "010", "Antarctica"],
 ])("every code scheme of %s resolves to the same Country", (alpha2, alpha3, numeric, name) => {
   for (const input of [alpha2, alpha3, numeric, name]) {
-    expect(resolve(input)).toEqual({ kind: "country", id: alpha2, alpha2, alpha3, numeric, name });
+    // PR and AX also carry a Same-as link, which this test isn't about; `toEqual` skips an `undefined` field.
+    expect({ ...resolve(input), sameAs: undefined }).toEqual({
+      kind: "country",
+      id: alpha2,
+      alpha2,
+      alpha3,
+      numeric,
+      name,
+    });
   }
 });

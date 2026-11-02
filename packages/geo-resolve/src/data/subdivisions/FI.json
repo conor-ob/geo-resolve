@@ -1,6 +1,17 @@
 [
   {
     "kind": "subdivision",
+    "id": "FI-01",
+    "code": "FI-01",
+    "country": "FI",
+    "parent": "FI",
+    "name": "Åland Islands",
+    "sameAs": [
+      "AX"
+    ]
+  },
+  {
+    "kind": "subdivision",
     "id": "FI-02",
     "code": "FI-02",
     "country": "FI",

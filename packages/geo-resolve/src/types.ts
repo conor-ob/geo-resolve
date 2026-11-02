@@ -19,6 +19,8 @@ export interface Country {
   readonly name: string;
   /** Codes in non-ISO Code systems, such as the IOC's `GER` for `DE`. */
   readonly codes?: Codes;
+  /** The `id`s of Entities ISO lists separately that denote the same territory, such as `US-PR` for `PR`. */
+  readonly sameAs?: readonly string[];
 }
 
 /** The Code systems geo-resolve ships today. May grow in a minor release (ADR-0006). */
@@ -42,6 +44,8 @@ export interface Subdivision {
   readonly name: string;
   /** Codes in non-ISO Code systems, such as FIFA's `ENG` for `GB-ENG`. */
   readonly codes?: Codes;
+  /** The `id`s of Entities ISO lists separately that denote the same territory, such as `PR` for `US-PR`. */
+  readonly sameAs?: readonly string[];
 }
 
 /** A former ISO 3166-1 entry that has been withdrawn and recorded in ISO 3166-3, such as Yugoslavia. */

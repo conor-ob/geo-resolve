@@ -17,6 +17,9 @@ const Alpha2Schema = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
 const Alpha3Schema = z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code");
 const NumericSchema = z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code");
 
+/** The `id`s of the Entities an Entity is joined to by Same-as links. */
+const SameAsSchema = z.array(z.string()).readonly().optional();
+
 const CountrySchema = z.strictObject({
   kind: z.literal("country"),
   id: Alpha2Schema,
@@ -24,6 +27,7 @@ const CountrySchema = z.strictObject({
   alpha3: Alpha3Schema,
   numeric: NumericSchema,
   name: z.string().min(1, "must not be empty"),
+  sameAs: SameAsSchema,
 });
 
 /** True only when `A` and `B` are identical, including which fields are optional. */
@@ -41,6 +45,7 @@ const SubdivisionSchema = z.strictObject({
   country: Alpha2Schema,
   parent: z.union([Alpha2Schema, SubdivisionCodeSchema]),
   name: z.string().min(1, "must not be empty"),
+  sameAs: SameAsSchema,
 });
 
 /** True for a real date written as `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, so `2006-13-45` is rejected. */
@@ -90,9 +95,16 @@ const OverlayFormerCodeSchema = z.strictObject({
   citation: CitationSchema,
 });
 
+/** A Country and a Subdivision ISO lists separately that denote the same territory, such as `PR` and `US-PR`. */
+const OverlaySameAsSchema = z.strictObject({
+  entities: z.tuple([Alpha2Schema, SubdivisionCodeSchema]),
+  citation: CitationSchema,
+});
+
 const OverlaySchema = z.strictObject({
   historicCountries: z.array(OverlayHistoricCountrySchema).default([]),
   formerCodes: z.array(OverlayFormerCodeSchema).default([]),
+  sameAs: z.array(OverlaySameAsSchema).default([]),
 });
 
 type Overlay = z.infer<typeof OverlaySchema>;
@@ -289,7 +301,8 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
     }
   }
 
-  // Containment also lists codes CLDR has deprecated in favour of a CLDR region (`uspr` for PR); only regular codes are Subdivisions.
+  // CLDR deprecates some codes ISO still lists, because the place has its own region code (`uspr` for PR), but keeps
+  // them in containment; codes ISO withdrew drop out of it. So a deprecated code that containment lists is a Subdivision.
   const parents = new Map<string, string>();
   for (const { type, contains } of containment.supplementalData.subdivisionContainment.subgroup) {
     for (const child of contains.split(/\s+/).filter(Boolean)) {
@@ -307,10 +320,15 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
       row["#text"],
     ]),
   );
-  const subdivisionIds = subdivisionValidity.supplementalData.idValidity.id
-    .filter((row) => row.type === "subdivision" && row.idStatus === "regular")
-    .flatMap((row) => expandCodes(row["#text"]))
-    .map(subdivisionCode);
+  const subdivisionIdsWithStatus = (status: string) =>
+    subdivisionValidity.supplementalData.idValidity.id
+      .filter((row) => row.type === "subdivision" && row.idStatus === status)
+      .flatMap((row) => expandCodes(row["#text"]))
+      .map(subdivisionCode);
+  const subdivisionIds = [
+    ...subdivisionIdsWithStatus("regular"),
+    ...subdivisionIdsWithStatus("deprecated").filter((id) => parents.has(id)),
+  ];
   const countryIds = new Set(countries.map((country) => country.id));
   const knownSubdivisionIds = new Set(subdivisionIds);
 
@@ -362,6 +380,33 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
 
   // The Overlay is applied last, so it can refer to any Entity built from the Snapshots.
   const overlay = await readOverlay(overlayPath);
+
+  // Same-as links join a Country and a Subdivision, and are written on both sides so neither can be one-sided.
+  const sameAs = new Map<string, string[]>();
+  for (const { entities } of overlay.sameAs) {
+    const [country, subdivision] = entities;
+    const dangling = [
+      ...(countryIds.has(country) ? [] : [country]),
+      ...(subdivisionIdsSeen.has(subdivision) ? [] : [subdivision]),
+    ];
+    if (dangling.length > 0) {
+      problems.push(
+        `Same-as link ${country} ↔ ${subdivision} has a dangling Entity ${dangling.join(", ")}`,
+      );
+      continue;
+    }
+    if (sameAs.get(country)?.includes(subdivision)) {
+      problems.push(`Same-as link ${country} ↔ ${subdivision} is listed twice`);
+      continue;
+    }
+    sameAs.set(country, [...(sameAs.get(country) ?? []), subdivision]);
+    sameAs.set(subdivision, [...(sameAs.get(subdivision) ?? []), country]);
+  }
+  function withSameAs<T extends Country | Subdivision>(entity: T): T {
+    const links = sameAs.get(entity.id);
+    return links === undefined ? entity : { ...entity, sameAs: [...links].sort() };
+  }
+
   const historicCountries: HistoricCountry[] = overlay.historicCountries.map(
     ({ aliases: _aliases, citation: _citation, ...record }) =>
       HistoricCountrySchema.parse({
@@ -405,7 +450,7 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
   historicCountries.sort(byId);
   subdivisions.sort(byId);
   await mkdir(join(outDir, "subdivisions"), { recursive: true });
-  await writeJson(join(outDir, "countries.json"), countries);
+  await writeJson(join(outDir, "countries.json"), countries.map(withSameAs));
   await writeJson(join(outDir, "countries.aliases.json"), sortedAliases(countryAliases));
   await writeJson(join(outDir, "historic-countries.json"), historicCountries);
   await writeJson(
@@ -413,7 +458,7 @@ export async function build({ sourcesDir, overlayPath, outDir }: BuildOptions): 
     sortedAliases(historicCountryAliases),
   );
   for (const { id } of countries) {
-    const pack = subdivisions.filter((subdivision) => subdivision.country === id);
+    const pack = subdivisions.filter((subdivision) => subdivision.country === id).map(withSameAs);
     await writeJson(join(outDir, "subdivisions", `${id}.json`), pack);
     await writeFile(join(outDir, "subdivisions", `${id}.ts`), countrySubdivisionsModule(id));
   }
