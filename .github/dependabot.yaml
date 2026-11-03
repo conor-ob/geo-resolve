@@ -1,0 +1,58 @@
+version: 2
+
+updates:
+  # The pnpm workspace. Versions live in the catalog in pnpm-workspace.yaml.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: chore
+      include: scope
+    ignore:
+      # Types track the oldest supported Node major (engines: >=22.18.0).
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+    groups:
+      # The vite override (npm:@voidzero-dev/vite-plus-core@…) must always
+      # match vite-plus, so they move together, majors included. `vite` is
+      # listed too in case Dependabot names the alias by its key.
+      vite-plus:
+        patterns:
+          - vite-plus
+          - "@voidzero-dev/vite-plus-core"
+          - vite
+      minor-and-patch:
+        update-types: [minor, patch]
+
+  # The smoke test sits outside the workspace on purpose (ADR-0010).
+  - package-ecosystem: npm
+    directory: /smoke
+    schedule:
+      interval: weekly
+      day: monday
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: ci
+      include: scope
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
