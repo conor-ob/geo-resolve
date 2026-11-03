@@ -28,20 +28,8 @@ updates:
       minor-and-patch:
         update-types: [minor, patch]
 
-  # The smoke test sits outside the workspace on purpose (ADR-0010).
-  - package-ecosystem: npm
-    directory: /smoke
-    schedule:
-      interval: weekly
-      day: monday
-    cooldown:
-      default-days: 7
-    commit-message:
-      prefix: chore
-      include: scope
-    groups:
-      minor-and-patch:
-        update-types: [minor, patch]
+  # No entry for /smoke: its vite pin is bumped by hand. Dependabot refuses to update a directory under
+  # pnpm-workspace.yaml, even one outside the workspace like the smoke test (ADR-0010).
 
   - package-ecosystem: github-actions
     directory: /
