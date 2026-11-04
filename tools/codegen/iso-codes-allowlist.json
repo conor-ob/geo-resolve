@@ -22,7 +22,7 @@
     },
     {
       "field": "numeric",
-      "reason": "ISO's Online Browsing Platform gives no Numeric code for this Historic country (the field is blank), and the code iso-codes gives is a Successor's",
+      "reason": "This Historic country was withdrawn before ISO 3166 added Numeric codes in its 1981 edition, so ISO's Online Browsing Platform gives it none; iso-codes gives the code its Successor kept",
       "ids": ["AIDJ", "DYBJ", "GEHH", "NHVU", "RHZW"]
     },
     {
