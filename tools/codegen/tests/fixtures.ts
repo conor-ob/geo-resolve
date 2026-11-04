@@ -51,7 +51,7 @@ export interface WikidataFixture {
 }
 
 /** Writes CLDR and Wikidata Snapshots laid out as `fetch` writes them, and returns the Snapshot directory. */
-export async function writeCldrSnapshots(
+export async function writeSnapshots(
   fixture: CldrFixture,
   wikidata: WikidataFixture = {},
 ): Promise<string> {

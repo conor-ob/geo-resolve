@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { expect, test } from "vite-plus/test";
 import { build } from "../src/build.ts";
 import { compareWithIsoCodes, type IsoCodes } from "../src/iso-codes.ts";
-import { outputDir, writeCldrSnapshots, writeOverlay, type CldrFixture } from "./fixtures.ts";
+import { outputDir, writeSnapshots, writeOverlay, type CldrFixture } from "./fixtures.ts";
 
 // Every record here is made up for the test; none is copied from iso-codes.
 const spain: CldrFixture = {
@@ -76,7 +76,7 @@ function matchingIsoCodes(): {
 async function compare(isoCodes: IsoCodes, allowlist: unknown = { differences: [] }) {
   const dataDir = await outputDir();
   await build({
-    sourcesDir: await writeCldrSnapshots(spain),
+    sourcesDir: await writeSnapshots(spain),
     overlayPath: await writeOverlay({ historicCountries: [oldSpain] }),
     outDir: dataDir,
   });
