@@ -1,9 +1,20 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
-import type { Country, HistoricCountry, Subdivision, Territory } from "geo-resolve";
+import type {
+  Country,
+  HistoricCountry,
+  KnownCodeSystem,
+  Subdivision,
+  Territory,
+} from "geo-resolve";
 import { z } from "zod";
-import { COVERAGE_PROPERTIES, ItemIdSchema, readWikidata } from "./wikidata.ts";
+import {
+  COVERAGE_PROPERTIES,
+  ItemIdSchema,
+  readWikidata,
+  type WikidataSnapshot,
+} from "./wikidata.ts";
 
 export interface BuildOptions {
   /** Directory holding the Snapshots written by `fetch`. */
@@ -20,14 +31,25 @@ const Alpha2Schema = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
 const Alpha3Schema = z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code");
 const NumericSchema = z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code");
 
+/**
+ * The Code systems geo-resolve builds, keyed as in an Entity's `codes`, in the order the build report lists them,
+ * with the name the report gives each and the article that name takes.
+ */
+const CODE_SYSTEMS = {
+  ioc: { name: "IOC", article: "an" },
+  fifa: { name: "FIFA", article: "a" },
+} as const satisfies Record<KnownCodeSystem, { name: string; article: "a" | "an" }>;
+type CodeSystem = keyof typeof CODE_SYSTEMS;
+const CODE_SYSTEM_KEYS = Object.keys(CODE_SYSTEMS) as [CodeSystem, ...CodeSystem[]];
+
 /** A code in a non-ISO Code system, such as the IOC's `GER`. */
 const CodeSystemCodeSchema = z.string().regex(/^[A-Z]{3}$/, "must be three capital letters");
 
+/** A Code system's key, such as `ioc`. */
+const CodeSystemSchema = z.enum(CODE_SYSTEM_KEYS);
+
 /** An Entity's codes in non-ISO Code systems, named for their Code system (ADR-0003). */
-const CodesSchema = z.strictObject({
-  ioc: CodeSystemCodeSchema.optional(),
-  fifa: CodeSystemCodeSchema.optional(),
-});
+const CodesSchema = z.partialRecord(CodeSystemSchema, CodeSystemCodeSchema);
 
 /** The `id`s of the Entities an Entity is joined to by Same-as links. */
 const SameAsSchema = z.array(z.string()).readonly().optional();
@@ -99,7 +121,7 @@ const HistoricCountrySchema = z.strictObject({
 
 // The published Entity types are the source of truth; these fail typechecking if a schema drifts from them.
 // `Codes` is an open union of Code systems (the same on every Kind), so the schema, which names only the shipped
-// ones, need only fit it.
+// ones, need only fit it. Those are exactly `KnownCodeSystem`, each with a Wikidata query to read its codes from.
 true satisfies Exactly<
   Readonly<Omit<z.infer<typeof CountrySchema>, "codes">>,
   Omit<Country, "codes">
@@ -116,6 +138,8 @@ true satisfies z.infer<typeof CodesSchema> extends Country["codes"] & Territory[
   ? true
   : false;
 true satisfies Exactly<Readonly<z.infer<typeof HistoricCountrySchema>>, HistoricCountry>;
+true satisfies Exactly<CodeSystem, KnownCodeSystem>;
+true satisfies CodeSystem extends WikidataSnapshot ? true : false;
 
 /** The ISO page (a URL) or change notice (such as `ISO 3166-1 Newsletter V-3`) a curated record came from, so a reviewer can verify it. */
 const CitationSchema = z.string().min(1, "must cite the ISO page or change notice");
@@ -166,7 +190,7 @@ const EntityIdSchema = z.union([Alpha2Schema, SubdivisionCodeSchema]);
 /** A code the Overlay gives an Entity in a Code system, replacing any Wikidata gives it, such as FIFA's NIR for GB-NIR. */
 const OverlayCodeSchema = z.strictObject({
   entity: EntityIdSchema,
-  system: z.enum(["ioc", "fifa"]),
+  system: CodeSystemSchema,
   code: CodeSystemCodeSchema,
   reason: ReasonSchema,
 });
@@ -188,7 +212,7 @@ const OverlayFifaAssociationSchema = z.strictObject({
 const OverlayTerritorySchema = z.strictObject({
   id: UserAssignedCodeSchema,
   name: z.string().min(1, "must not be empty"),
-  codeSystems: z.array(z.enum(["ioc", "fifa"])),
+  codeSystems: z.array(CodeSystemSchema),
   reason: ReasonSchema,
 });
 
@@ -630,7 +654,7 @@ export async function build({
   // Overlay corrections replace whatever Wikidata gives an Entity in that Code system.
   const corrections = new Map<string, { code: string; replaced: Set<string> }>();
   for (const { entity, system, code } of overlay.codes) {
-    const name = CODE_SYSTEM_NAMES[system];
+    const name = CODE_SYSTEMS[system].name;
     if (!codeHolderIds.has(entity))
       problems.push(`${name} code correction has a dangling Entity ${entity}`);
     else if (corrections.has(`${entity} ${system}`))
@@ -650,7 +674,7 @@ export async function build({
     const existing = codes.get(system);
     if (existing !== undefined && existing.code !== code)
       problems.push(
-        `${id} has two ${CODE_SYSTEM_NAMES[system]} codes, ${existing.code} and ${code}`,
+        `${id} has two ${CODE_SYSTEMS[system].name} codes, ${existing.code} and ${code}`,
       );
     codes.set(system, existing ?? { code, source });
     codeSystems.set(id, codes);
@@ -716,12 +740,12 @@ export async function build({
     const correction = corrections.get(`${entity} ${system}`);
     if (correction?.replaced.size === 1 && correction.replaced.has(code))
       problems.push(
-        `${CODE_SYSTEM_NAMES[system]} code correction for ${entity} matches Wikidata, so it is no longer needed`,
+        `${CODE_SYSTEMS[system].name} code correction for ${entity} matches Wikidata, so it is no longer needed`,
       );
     addCode(entity, system, code, "Overlay");
   }
 
-  for (const system of CODE_SYSTEMS) {
+  for (const system of CODE_SYSTEM_KEYS) {
     const holders = new Map<string, string[]>();
     for (const [id, codes] of codeSystems) {
       const code = codes.get(system)?.code;
@@ -730,7 +754,7 @@ export async function build({
     for (const [code, ids] of holders) {
       if (ids.length > 1)
         problems.push(
-          `${CODE_SYSTEM_NAMES[system]} code ${code} is on more than one Entity, ${ids.sort().join(" and ")}`,
+          `${CODE_SYSTEMS[system].name} code ${code} is on more than one Entity, ${ids.sort().join(" and ")}`,
         );
     }
   }
@@ -755,7 +779,7 @@ export async function build({
   // ones the Overlay admits it for, so a Code system dropping it is noticed.
   const territories: Territory[] = [];
   for (const { id, name, codeSystems: admittedFor } of overlay.territories) {
-    const coded = CODE_SYSTEMS.filter((system) => codeSystems.get(id)?.has(system));
+    const coded = CODE_SYSTEM_KEYS.filter((system) => codeSystems.get(id)?.has(system));
     if (coded.length < 2)
       problems.push(
         `Territory ${id} is coded by ${codeSystemNames(coded)}, but needs at least two shipped Code systems to be admitted`,
@@ -872,17 +896,10 @@ export async function build({
     );
 }
 
-/** The Code systems geo-resolve builds, in the order the build report lists them. */
-const CODE_SYSTEMS = ["ioc", "fifa"] as const;
-type CodeSystem = (typeof CODE_SYSTEMS)[number];
-
-const CODE_SYSTEM_NAMES: Record<CodeSystem, string> = { ioc: "IOC", fifa: "FIFA" };
 /** Code systems named for a build problem, such as `IOC and FIFA`. */
 function codeSystemNames(systems: readonly CodeSystem[]): string {
-  return systems.map((system) => CODE_SYSTEM_NAMES[system]).join(" and ") || "no Code system";
+  return systems.map((system) => CODE_SYSTEMS[system].name).join(" and ") || "no Code system";
 }
-
-const CODE_SYSTEM_ARTICLES: Record<CodeSystem, string> = { ioc: "an", fifa: "a" };
 
 const GENERATED = "// Generated by `@geo-resolve/codegen build` from the Snapshots. Do not edit.";
 
@@ -952,21 +969,21 @@ function buildReport({
       ["Entity", "Code system", "Code", "Source"],
       [...codeSystems]
         .flatMap(([id, codes]) =>
-          CODE_SYSTEMS.flatMap((system) => {
+          CODE_SYSTEM_KEYS.flatMap((system) => {
             const entry = codes.get(system);
             return entry === undefined
               ? []
-              : [[id, CODE_SYSTEM_NAMES[system], entry.code, entry.source]];
+              : [[id, CODE_SYSTEMS[system].name, entry.code, entry.source]];
           }),
         )
         .sort(byCells),
     )}`,
   ];
-  for (const system of CODE_SYSTEMS) {
+  for (const system of CODE_SYSTEM_KEYS) {
     const without = countries.filter(({ id }) => !codeSystems.get(id)?.has(system));
     sections.push(
-      `## ${CODE_SYSTEM_NAMES[system]} coverage\n\n` +
-        `${countries.length - without.length} of ${countries.length} Countries have ${CODE_SYSTEM_ARTICLES[system]} ${CODE_SYSTEM_NAMES[system]} code. ` +
+      `## ${CODE_SYSTEMS[system].name} coverage\n\n` +
+        `${countries.length - without.length} of ${countries.length} Countries have ${CODE_SYSTEMS[system].article} ${CODE_SYSTEMS[system].name} code. ` +
         `The ${without.length} without one:\n\n` +
         without.map(({ id, name }) => `- ${id} ${name}`).join("\n"),
     );
