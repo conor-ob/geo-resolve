@@ -2,7 +2,7 @@ import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { expect, test } from "vite-plus/test";
 import { build } from "../src/build.ts";
-import { outputDir, writeCldrSnapshots, writeOverlay, type CldrFixture } from "./fixtures.ts";
+import { outputDir, writeSnapshots, writeOverlay, type CldrFixture } from "./fixtures.ts";
 
 const germanyAndAndorra: CldrFixture = {
   regular: ["DE", "AD"],
@@ -19,7 +19,7 @@ const germanyAndAndorra: CldrFixture = {
 async function emitCountries(fixture: CldrFixture): Promise<string> {
   const outDir = await outputDir();
   await build({
-    sourcesDir: await writeCldrSnapshots(fixture),
+    sourcesDir: await writeSnapshots(fixture),
     overlayPath: await writeOverlay(),
     outDir,
   });
@@ -143,7 +143,7 @@ const spain: CldrFixture = {
 async function buildSubdivisions(fixture: CldrFixture, country: string): Promise<unknown> {
   const outDir = await outputDir();
   await build({
-    sourcesDir: await writeCldrSnapshots(fixture),
+    sourcesDir: await writeSnapshots(fixture),
     overlayPath: await writeOverlay(),
     outDir,
   });
@@ -236,7 +236,7 @@ test("emits one Subdivisions Data pack per Country, empty when it has none", asy
     names: [...spain.names, { type: "AD", name: "Andorra" }],
   };
   await build({
-    sourcesDir: await writeCldrSnapshots(fixture),
+    sourcesDir: await writeSnapshots(fixture),
     overlayPath: await writeOverlay(),
     outDir,
   });
@@ -254,7 +254,7 @@ test("emits the Known code unions, sorted, as a module outside semver", async ()
     names: [...spain.names, { type: "AD", name: "Andorra" }],
   };
   await build({
-    sourcesDir: await writeCldrSnapshots(fixture),
+    sourcesDir: await writeSnapshots(fixture),
     overlayPath: await writeOverlay(),
     outDir,
   });
@@ -362,7 +362,7 @@ async function buildWithOverlay(
 ): Promise<string> {
   const outDir = await outputDir();
   await build({
-    sourcesDir: await writeCldrSnapshots(fixture),
+    sourcesDir: await writeSnapshots(fixture),
     overlayPath: await writeOverlay(overlay),
     outDir,
   });

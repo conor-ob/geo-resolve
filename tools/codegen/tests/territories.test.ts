@@ -4,7 +4,7 @@ import { expect, test } from "vite-plus/test";
 import { build } from "../src/build.ts";
 import {
   outputDir,
-  writeCldrSnapshots,
+  writeSnapshots,
   writeOverlay,
   type CldrFixture,
   type WikidataFixture,
@@ -67,7 +67,7 @@ async function buildTerritories({
   const outDir = await outputDir();
   const reportPath = join(outDir, "report.md");
   await build({
-    sourcesDir: await writeCldrSnapshots(cldr, wikidata),
+    sourcesDir: await writeSnapshots(cldr, wikidata),
     overlayPath: await writeOverlay(overlay),
     outDir,
     reportPath,
