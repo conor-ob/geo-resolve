@@ -22,7 +22,7 @@
     },
     {
       "field": "numeric",
-      "reason": "The Overlay has no Numeric code for this Historic country yet; it must be curated from an ISO page or change notice, not copied from iso-codes",
+      "reason": "ISO's Online Browsing Platform gives no Numeric code for this Historic country (the field is blank), and the code iso-codes gives is a Successor's",
       "ids": ["AIDJ", "DYBJ", "GEHH", "NHVU", "RHZW"]
     },
     {
