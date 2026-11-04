@@ -9,17 +9,21 @@ import type {
   Territory,
 } from "geo-resolve";
 import { z } from "zod";
+import {
+  CODE_SYSTEM_KEYS,
+  CodeSystemCodeSchema,
+  codeSystemNames,
+  CodeSystemSchema,
+  type CodeSystem,
+} from "./code-systems.ts";
 import { append } from "./lists.ts";
 import { buildReport, GENERATED } from "./report.ts";
 import {
-  CODE_SYSTEM_KEYS,
-  CODE_SYSTEMS,
   ItemIdSchema,
   joinWikidata,
   matchKey,
   readWikidata,
   type AliasSource,
-  type CodeSystem,
   type WikidataSnapshot,
 } from "./wikidata.ts";
 
@@ -37,12 +41,6 @@ export interface BuildOptions {
 const Alpha2Schema = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
 const Alpha3Schema = z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code");
 const NumericSchema = z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code");
-
-/** A code in a non-ISO Code system, such as the IOC's `GER`. */
-const CodeSystemCodeSchema = z.string().regex(/^[A-Z]{3}$/, "must be three capital letters");
-
-/** A Code system's key, such as `ioc`. */
-const CodeSystemSchema = z.enum(CODE_SYSTEM_KEYS);
 
 /** An Entity's codes in non-ISO Code systems, named for their Code system (ADR-0003). */
 const CodesSchema = z.partialRecord(CodeSystemSchema, CodeSystemCodeSchema);
@@ -709,11 +707,6 @@ export async function build({
         codeSystems,
       }),
     );
-}
-
-/** Code systems named for a build problem, such as `IOC and FIFA`. */
-function codeSystemNames(systems: readonly CodeSystem[]): string {
-  return systems.map((system) => CODE_SYSTEMS[system].name).join(" and ") || "no Code system";
 }
 
 /** The `geo-resolve/data/subdivisions/<country>` Data pack. */

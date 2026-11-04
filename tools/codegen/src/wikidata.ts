@@ -1,8 +1,9 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { Country, HistoricCountry, KnownCodeSystem, Subdivision } from "geo-resolve";
+import type { Country, HistoricCountry, Subdivision } from "geo-resolve";
 import { z } from "zod";
 import type { Overlay } from "./build.ts";
+import { CODE_SYSTEM_KEYS, CODE_SYSTEMS, type CodeSystem } from "./code-systems.ts";
 import { append } from "./lists.ts";
 
 /**
@@ -181,17 +182,6 @@ export async function readWikidata(sourcesDir: string): Promise<Wikidata> {
     ),
   };
 }
-
-/**
- * The Code systems geo-resolve builds, keyed as in an Entity's `codes`, in the order the build report lists them,
- * with the name the report gives each and the article that name takes.
- */
-export const CODE_SYSTEMS = {
-  ioc: { name: "IOC", article: "an" },
-  fifa: { name: "FIFA", article: "a" },
-} as const satisfies Record<KnownCodeSystem, { name: string; article: "a" | "an" }>;
-export type CodeSystem = keyof typeof CODE_SYSTEMS;
-export const CODE_SYSTEM_KEYS = Object.keys(CODE_SYSTEMS) as [CodeSystem, ...CodeSystem[]];
 
 /** A Code system code, with the Source it came from. */
 export interface SourcedCode {
