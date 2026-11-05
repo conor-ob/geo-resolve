@@ -51,6 +51,9 @@ export type KnownCodeSystem = "ioc" | "fifa";
 export type KnownKind = "country" | "subdivision" | "historic-country" | "territory";
 
 // @public
+export type KnownScheme = "alpha2" | "alpha3" | "numeric" | "subdivision-code" | "alpha4" | KnownCodeSystem;
+
+// @public
 export const resolve: (input: string, options?: ResolveOptions) => Entity | null;
 
 // @public
@@ -58,6 +61,7 @@ export const resolveAll: (input: string, options?: ResolveOptions) => Entity[];
 
 // @public
 export interface ResolveOptions {
+    readonly from?: readonly Scheme[];
     readonly kinds?: readonly Kind[];
     readonly within?: string;
 }
@@ -77,6 +81,9 @@ export interface Resolver {
 export interface ResolverOptions {
     readonly data: readonly DataPack[];
 }
+
+// @public
+export type Scheme = KnownScheme | (string & {});
 
 // @public
 export interface Subdivision {

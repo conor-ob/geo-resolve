@@ -1,4 +1,4 @@
-import { aliasesOf } from "./data-pack.ts";
+import { aliasesOf, formerCodesOf } from "./data-pack.ts";
 import { normalise } from "./normalise.ts";
 import type {
   Country,
@@ -6,6 +6,7 @@ import type {
   Entity,
   Kind,
   ResolveOptions,
+  Scheme,
   Subdivision,
   Territory,
 } from "./types.ts";
@@ -44,42 +45,65 @@ function byKindThenId(a: Entity, b: Entity): number {
   );
 }
 
-/** A Resolver's lookups: Candidates by normalised match key, and Entities by `id` for walking Parents. */
+/** One way an Input can match an Entity: through a code in a Scheme, or through a Name or Alias (no Scheme). */
+interface Match {
+  readonly entity: Entity;
+  readonly scheme: Scheme | undefined;
+}
+
+/** A Resolver's lookups: Matches by normalised match key, and Entities by `id` for walking Parents. */
 interface Index {
-  readonly byKey: ReadonlyMap<string, Entity[]>;
+  readonly byKey: ReadonlyMap<string, Match[]>;
   readonly byId: ReadonlyMap<string, Entity>;
 }
 
-/** The codes, Name and Aliases an Input can match an Entity by. A bare Subdivision code suffix is not one. */
-function matchKeys(entity: Entity): string[] {
-  return [...ownKeys(entity), ...aliasesOf(entity)];
+/** A key an Input can match an Entity by, with the Scheme it is a code in, if any. */
+type MatchKey = readonly [key: string, scheme: Scheme | undefined];
+
+/** The codes, Name, former codes and Aliases an Input can match an Entity by. A bare Subdivision code suffix is not one. */
+function matchKeys(entity: Entity): MatchKey[] {
+  return [
+    ...ownKeys(entity),
+    ...Object.entries(formerCodesOf(entity)).flatMap(([scheme, codes = []]) =>
+      codes.map((code): MatchKey => [code, scheme]),
+    ),
+    ...aliasesOf(entity).map((alias): MatchKey => [alias, undefined]),
+  ];
 }
 
-/** The codes and Name an Input can match an Entity by, read from the Entity itself. */
-function ownKeys(entity: Entity): string[] {
+/** The codes and Name an Input can match an Entity by, read from the Entity itself. An `id` is in its Kind's id Scheme. */
+function ownKeys(entity: Entity): MatchKey[] {
   switch (entity.kind) {
     case "country":
       return [
-        entity.id,
-        entity.alpha2,
-        entity.alpha3,
-        entity.numeric,
-        entity.name,
-        ...codeSystemCodes(entity),
+        [entity.id, "alpha2"],
+        [entity.alpha2, "alpha2"],
+        [entity.alpha3, "alpha3"],
+        [entity.numeric, "numeric"],
+        [entity.name, undefined],
+        ...codeSystemKeys(entity),
       ];
     case "subdivision":
-      return [entity.id, entity.code, entity.name, ...codeSystemCodes(entity)];
-    case "historic-country":
       return [
-        entity.id,
-        entity.alpha4,
-        entity.alpha2,
-        entity.alpha3,
-        entity.numeric,
-        entity.name,
-      ].filter((key) => key !== undefined);
+        [entity.id, "subdivision-code"],
+        [entity.code, "subdivision-code"],
+        [entity.name, undefined],
+        ...codeSystemKeys(entity),
+      ];
+    case "historic-country": {
+      const keys: MatchKey[] = [
+        [entity.id, "alpha4"],
+        [entity.alpha4, "alpha4"],
+        [entity.alpha2, "alpha2"],
+        [entity.name, undefined],
+      ];
+      if (entity.alpha3 !== undefined) keys.push([entity.alpha3, "alpha3"]);
+      if (entity.numeric !== undefined) keys.push([entity.numeric, "numeric"]);
+      return keys;
+    }
     case "territory":
-      return [entity.id, entity.name, ...codeSystemCodes(entity)];
+      // A Territory's `id` is user-assigned, not an ISO code, so it is in no Scheme (ADR-0012).
+      return [[entity.id, undefined], [entity.name, undefined], ...codeSystemKeys(entity)];
     default:
       // A Kind this version doesn't know, from a hand-built pack, never matches.
       return [];
@@ -87,8 +111,10 @@ function ownKeys(entity: Entity): string[] {
 }
 
 /** An Entity's codes in every Code system, including ones this version doesn't know, from a newer or hand-built pack. */
-function codeSystemCodes(entity: Country | Subdivision | Territory): string[] {
-  return Object.values(entity.codes ?? {}).filter((code) => typeof code === "string");
+function codeSystemKeys(entity: Country | Subdivision | Territory): MatchKey[] {
+  return Object.entries(entity.codes ?? {}).flatMap(([system, code]): MatchKey[] =>
+    typeof code === "string" ? [[code, system]] : [],
+  );
 }
 
 /** Builds an independent Resolver over the Entities in `data`. Its index is built on first use and is private to it. */
@@ -98,19 +124,19 @@ export function createResolver({ data }: ResolverOptions): Resolver {
   let index: Index | undefined;
 
   function buildIndex(): Index {
-    const byKey = new Map<string, Entity[]>();
+    const byKey = new Map<string, Match[]>();
     const byId = new Map<string, Entity>();
     for (const entity of new Set(packs.flat())) {
       // Shipped Data packs are frozen already; hand-built ones aren't.
       const frozen = Object.freeze(entity);
       byId.set(frozen.id, frozen);
-      for (const key of new Set(matchKeys(frozen).map(normalise))) {
-        const candidates = byKey.get(key) ?? [];
-        candidates.push(frozen);
-        byKey.set(key, candidates);
+      for (const [key, scheme] of matchKeys(frozen)) {
+        const normalised = normalise(key);
+        const matches = byKey.get(normalised) ?? [];
+        matches.push({ entity: frozen, scheme });
+        byKey.set(normalised, matches);
       }
     }
-    for (const candidates of byKey.values()) candidates.sort(byKindThenId);
     return { byKey, byId };
   }
 
@@ -133,17 +159,22 @@ export function createResolver({ data }: ResolverOptions): Resolver {
 
   function resolveAll(input: string, options: ResolveOptions = {}): Entity[] {
     const { byKey, byId } = (index ??= buildIndex());
-    const { kinds, within } = options;
+    const { kinds, within, from } = options;
+    const matchesFrom = ({ scheme }: Match) =>
+      from === undefined || (scheme !== undefined && from.includes(scheme));
     const key = normalise(input);
-    const candidates = new Set(byKey.get(key));
+    const candidates = new Set(
+      byKey
+        .get(key)
+        ?.filter(matchesFrom)
+        .map(({ entity }) => entity),
+    );
     if (within !== undefined) {
       // A bare suffix ("CA") matches as the full Subdivision code in the Country of `within` ("US-CA").
       const suffixCode = normalise(`${within.split("-")[0]}-${key}`);
-      for (const entity of byKey.get(suffixCode) ?? []) {
+      for (const match of byKey.get(suffixCode) ?? []) {
         // The key may also be a Name; only the Subdivision code counts.
-        if (entity.kind === "subdivision" && normalise(entity.code) === suffixCode) {
-          candidates.add(entity);
-        }
+        if (match.scheme === "subdivision-code" && matchesFrom(match)) candidates.add(match.entity);
       }
     }
     return [...candidates]

@@ -10,12 +10,15 @@ import {
   toSubdivisionCode,
   type Codes,
   type Kind,
+  type KnownCodeSystem,
+  type KnownScheme,
   type KnownAlpha2,
   type KnownAlpha3,
   type KnownSubdivisionCode,
   type ResolveOptions,
   type Resolver,
   type ResolverOptions,
+  type Scheme,
 } from "geo-resolve";
 
 // Checked by `typecheck`: these assert the public types ADR-0006 promises, not runtime behaviour.
@@ -52,7 +55,13 @@ test("every function takes one required argument plus one optional options objec
   expectTypeOf(createResolver).parameters.toEqualTypeOf<[ResolverOptions]>();
 });
 
-test("Kind and the Codes keys are open to values a later release may add", () => {
+test("Kind, the Codes keys and Scheme are open to values a later release may add", () => {
   expectTypeOf<"region">().toExtend<Kind>();
   expectTypeOf<{ unsd: "276" }>().toExtend<Codes>();
+  expectTypeOf<"cctld">().toExtend<Scheme>();
+});
+
+test("every shipped Code system is a Scheme, so a new one needs no change to from", () => {
+  expectTypeOf<KnownCodeSystem>().toExtend<KnownScheme>();
+  expectTypeOf<ResolveOptions["from"]>().toEqualTypeOf<readonly Scheme[] | undefined>();
 });
