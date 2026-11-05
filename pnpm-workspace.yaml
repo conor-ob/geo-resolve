@@ -6,6 +6,7 @@ catalogMode: prefer
 
 catalog:
   "@arethetypeswrong/core": 0.18.5
+  "@changesets/cli": 3.0.3
   "@microsoft/api-extractor": 7.60.1
   "@types/node": ^22
   fast-xml-parser: 5.11.2
@@ -14,6 +15,11 @@ catalog:
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
   zod: 4.6.7
+catalogs:
+  # TypeDoc needs the TypeScript JavaScript API, which TypeScript 7 doesn't ship, so it runs on TypeScript 6.
+  typedoc:
+    typedoc: 0.28.20
+    typescript: 6.0.3
 overrides:
   vite@*: "catalog:"
 peerDependencyRules:

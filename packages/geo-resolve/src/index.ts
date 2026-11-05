@@ -1,3 +1,11 @@
+/**
+ * Resolves loose ISO 3166 references (codes, Names and Aliases) to the Entity they denote.
+ *
+ * The functions exported here are bound to a Resolver over Countries and Territories, in English. To resolve
+ * Subdivisions or Historic countries, import their Data packs and build a Resolver with {@link createResolver}.
+ *
+ * @packageDocumentation
+ */
 import countries from "./data/countries.ts";
 import territories from "./data/territories.ts";
 import { createResolver } from "./resolver.ts";

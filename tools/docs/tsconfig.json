@@ -1,0 +1,9 @@
+{
+  // The published package's source only, without its tests or build config, which TypeScript 6 needn't check.
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": [],
+    "customConditions": ["geo-resolve:source"]
+  },
+  "include": ["../../packages/geo-resolve/src"]
+}

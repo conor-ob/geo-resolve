@@ -1,0 +1,13 @@
+{
+  "name": "@geo-resolve/docs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "typedoc"
+  },
+  "devDependencies": {
+    "typedoc": "catalog:typedoc",
+    "typescript": "catalog:typedoc"
+  }
+}
