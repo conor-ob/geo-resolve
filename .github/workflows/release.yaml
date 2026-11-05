@@ -1,0 +1,57 @@
+name: Release
+
+# Changesets drives releases. On every push to main, changesets/action opens or updates the version PR while
+# changesets are pending. Once that PR is merged, it runs stage-release.sh, which stages the new version on npm
+# through trusted publishing (no token) and pushes its git tag. The version goes live only when the maintainer
+# approves it with 2FA, with `npm stage approve` or on the package's Staged Packages tab on npmjs.com.
+#
+# npm's trusted publisher for geo-resolve names this file (release.yaml) and the `npm` environment, and only
+# allows staging, so a plain `npm publish` from here is refused.
+on:
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Open the version PR or stage the release
+    runs-on: ubuntu-latest
+    environment: npm
+    permissions:
+      # To push the version PR branch and the release tag
+      contents: write
+      pull-requests: write
+      # For trusted publishing and provenance
+      id-token: write
+      # To dispatch CI on the version PR, since PRs made with the workflow token trigger no workflows
+      actions: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          # With tags, so stage-release.sh can tell a version is already staged
+          fetch-depth: 0
+      - uses: voidzero-dev/setup-vp@v1.22.0
+        with:
+          node-version-file: .nvmrc
+          cache: true
+      - name: Install npm 11.19.1, since `npm stage` needs 11.15.0 or later
+        # Outside the repository, where the root package.json's devEngines (pnpm) would make npm refuse
+        working-directory: ${{ runner.temp }}
+        run: npm install --global npm@11.19.1
+      - uses: changesets/action@v2.1.2
+        id: changesets
+        with:
+          version-script: vp run version-packages
+          publish-script: .github/scripts/stage-release.sh
+          commit-message: "chore(release): version packages"
+          pr-title: "chore(release): version packages"
+      - name: Run CI on the version PR
+        if: steps.changesets.outputs.pr-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ci.yaml --ref changeset-release/main

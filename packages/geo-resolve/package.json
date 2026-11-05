@@ -20,7 +20,8 @@
     "directory": "packages/geo-resolve"
   },
   "files": [
-    "dist"
+    "dist",
+    "NOTICE.md"
   ],
   "type": "module",
   "sideEffects": false,

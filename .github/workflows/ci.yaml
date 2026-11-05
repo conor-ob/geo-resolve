@@ -36,6 +36,8 @@ jobs:
         run: vp run geo-resolve#build
       - name: Fail if the public API differs from the committed API report
         run: vp run geo-resolve#api:check
+      - name: Build the API reference, failing on any TypeDoc warning, such as an undocumented export
+        run: vp run @geo-resolve/docs#build
       - name: Rebuild Data packs from Snapshots
         run: vp run @geo-resolve/codegen#build
       - name: Fail if the generated Data packs differ from what is committed
@@ -78,6 +80,8 @@ jobs:
       - name: Pack the package as it would be published
         working-directory: packages/geo-resolve
         run: vp pm pack --out "$RUNNER_TEMP/geo-resolve.tgz"
+      - name: Fail unless the tarball has the licence and the data attribution
+        run: tar -tzf "$RUNNER_TEMP/geo-resolve.tgz" package/LICENSE package/NOTICE.md
       - name: Install the tarball outside the workspace
         run: npm install --no-package-lock --no-save "$RUNNER_TEMP/geo-resolve.tgz"
       - name: Bun

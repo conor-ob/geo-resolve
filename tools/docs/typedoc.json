@@ -1,0 +1,24 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "geo-resolve",
+  "tsconfig": "./tsconfig.json",
+  // The default entry and the Data packs the README lists. The per-Country Subdivisions packs share one shape.
+  "entryPoints": [
+    "../../packages/geo-resolve/src/index.ts",
+    "../../packages/geo-resolve/src/data/countries.ts",
+    "../../packages/geo-resolve/src/data/subdivisions.ts",
+    "../../packages/geo-resolve/src/data/historic-countries.ts",
+    "../../packages/geo-resolve/src/data/territories.ts"
+  ],
+  "readme": "../../packages/geo-resolve/README.md",
+  "out": "./dist",
+  "excludePrivate": true,
+  "excludeInternal": true,
+  // Fails the build on any undocumented export or broken link, so every public export keeps its TSDoc.
+  "treatWarningsAsErrors": true,
+  "validation": {
+    "notExported": true,
+    "invalidLink": true,
+    "notDocumented": true
+  }
+}
