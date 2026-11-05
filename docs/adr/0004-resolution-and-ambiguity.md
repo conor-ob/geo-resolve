@@ -6,11 +6,12 @@ Loose Inputs are often ambiguous, and surfacing that is the main thing geo-resol
 - `resolveAll(input, options)` returns every Candidate, in a deterministic order, so callers can tell "not found" from "ambiguous" and choose for themselves.
 - `to*` helpers (`toAlpha2`, `toAlpha3`, `toNumeric`, `toSubdivisionCode`, `toName`) resolve any Input and return one field. They are named for what they return, not for what they accept: a `resolveAlpha2`-style name would be ambiguous between "parse as" and "convert to".
 
-**There are no hidden tie-break rules.** If more than one Candidate remains after applying the caller's options, the Input is ambiguous and `resolve` returns `null`. The caller narrows the search with three options:
+**There are no hidden tie-break rules.** If more than one Candidate remains after applying the caller's options, the Input is ambiguous and `resolve` returns `null`. The caller narrows the search with four options:
 
 - `kinds` limits which Kinds are considered.
 - `within` limits Candidates to Entities under one Country or Subdivision, and lets a bare Subdivision code suffix match.
 - `locale` limits Name and Alias matching to one Locale. By default, Names match in every Locale loaded into the Resolver (see ADR-0009).
+- `from` limits matching to codes in the listed Schemes, for a caller who knows which Scheme their data uses.
 
 ```ts
 resolve("Georgia"); // null: Country GE and Subdivision US-GA
@@ -22,9 +23,14 @@ resolve("CA"); // Country CA: Subdivision codes only match in full (US-CA)
 resolve("CA", { within: "US" }); // Subdivision US-CA
 resolve("CS"); // null: Historic countries CSHH and CSXX
 resolve("CSXX"); // Historic country Serbia and Montenegro
+resolve("BRN"); // null: Country BH (IOC) and Country BN (Alpha-3)
+resolve("BRN", { from: ["alpha3"] }); // Country BN
+resolve("BRN", { from: ["ioc"] }); // Country BH
 ```
 
 `within` takes an Entity `id` only: an Alpha-2 code (`"US"`) or a Subdivision code (`"ES-AN"`), never an Alpha-3 code, Numeric code or Name. It exists to remove ambiguity, so its own value must be unambiguous, which an `id` always is; accepting a loose Input would make `within: "Georgia"` ambiguous in turn. Callers holding a loose value resolve it first and pass `.id`. `within` keeps only Entities under the given one at any depth (`within: "ES"` finds provinces nested under autonomous communities) and so drops every other Country (`resolve("Georgia", { within: "US" })` is US-GA). Bare Subdivision code suffixes match relative to the Country (`"CA"` within `"US"` is US-CA). An `id` that doesn't exist, or that has been withdrawn, matches nothing and `resolve` returns `null` rather than throwing, so a data release that withdraws a code can't make callers' code start throwing (ADR-0007).
+
+`from` narrows rather than validates: it says which Schemes the Input's code is in, and never rejects an Input for its shape. With `from`, Names and Aliases never match, since they belong to no Scheme, and nor does a Territory's user-assigned `id` (`"XK"`), which is not an ISO code; Kosovo still matches by its Code system codes (`resolve("KOS", { from: ["ioc"] })`). Former codes count under the Scheme that issued them: a Historic country's former Alpha-3 code (`"ANT"` for ANHH) and a continuing Country's former code (`"ROM"` for RO, see ADR-0003) are both `alpha3`. Under `within`, a bare Subdivision code suffix counts as a Subdivision code. An unknown Scheme, or an empty list, matches nothing rather than throwing, as `within` does with an unknown `id`. `locale` may be passed with `from`, and then has no effect, since `from` already excludes Names and Aliases. Every shipped Code system matches by default, without `from`; `from` is how a caller opts out of the ones they don't mean.
 
 Every non-null result is one the caller's options made unique. Adding an Entity or Locale in a release can turn a result into `null` (now ambiguous), but never into a different Entity, which suits the data semver policy (ADR-0007).
 
@@ -32,7 +38,10 @@ Every non-null result is one the caller's options made unique. Adding an Entity 
 
 - **Fixed precedence by default (Country, then Subdivision, then Historic country; most recently withdrawn wins)**: rejected. It silently answers a question the caller never asked. A mistaken `resolve("Georgia")` returns a confident wrong answer rather than `null`, and the result can change when a release adds an Entity or Name that outranks the old one.
 - **A `prefer` option ranking Kinds** (`prefer: ["country"]` resolves "Georgia" as GE but still resolves "Texas" as US-TX): deferred. It overlaps with `kinds` in a way every user would have to learn, it breaks the guarantee above (a newly added preferred-Kind Entity can change a result to a different Entity), and callers can already express it with `resolve(x, { kinds: ["country"] }) ?? resolve(x, { kinds: ["subdivision"] })`.
-- **A `from` option for strict parsing** (`from: "alpha2"` rejects anything that isn't an Alpha-2 code): deferred. It serves validation, which callers can do by checking the Input's shape before resolving.
+- **ISO Schemes outrank Code systems** (`resolve("BRN")` is Brunei because BRN is its Alpha-3 code): rejected, for the same reasons as fixed Kind precedence. A caller resolving an IOC dataset gets Brunei for Bahrain, a confident wrong answer, and `from` already lets a caller who knows the Scheme say so.
+- **Opt-in Code systems** (a noisy Code system matches only when listed in `from`): rejected. It adds a per-Code-system rule every caller must learn, and turns `from` from a filter into a switch on what can match at all.
+- **`resolveAll` reporting the key or Scheme each Candidate matched on**: deferred. `from` serves the same need for `resolve` and the `to*` helpers too, and changing `resolveAll`'s return shape would need a new function.
+- **A `from` option for strict parsing** (`from: "alpha2"` rejects anything that isn't an Alpha-2 code): rejected in favour of `from` as narrowing, above. Validation is something callers can do by checking the Input's shape before resolving.
 
 - **`within` accepting an Entity object or several ids** (`within: us`, `within: ["GB", "IE"]`): deferred for the same reason.
 

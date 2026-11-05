@@ -14,7 +14,9 @@ export type {
   Kind,
   KnownCodeSystem,
   KnownKind,
+  KnownScheme,
   ResolveOptions,
+  Scheme,
   Subdivision,
   Territory,
 } from "./types.ts";

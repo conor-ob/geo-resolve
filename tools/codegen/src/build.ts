@@ -17,7 +17,7 @@ import {
   type CodeSystem,
 } from "./code-systems.ts";
 import { append } from "./lists.ts";
-import { buildReport, GENERATED } from "./report.ts";
+import { buildReport, GENERATED, type FormerCodeScheme, type FormerCodeSource } from "./report.ts";
 import {
   ItemIdSchema,
   joinWikidata,
@@ -588,16 +588,23 @@ export async function build({
     territoryIds.add(id);
   }
 
-  // Former codes of Countries that still exist are Aliases, not Historic countries (ADR-0003).
-  const countryAliases = new Map<string, string[]>();
-  /** Every Alias with the Source it came from, for the build report. */
-  const aliasSources: AliasSource[] = [];
+  // Former codes of Countries that still exist count under the Scheme that issued them, not as Aliases or Historic
+  // countries (ADR-0003). The code's shape says which: the schema admits only Alpha-2, Alpha-3 and Numeric codes.
+  const countryFormerCodes = new Map<string, Map<FormerCodeScheme, string[]>>();
+  /** Every former code with its Scheme, for the build report. */
+  const formerCodeSources: FormerCodeSource[] = [];
   for (const { country, code } of overlay.formerCodes) {
     if (!countryIds.has(country))
       problems.push(`Former code ${code} has a dangling Country ${country}`);
-    append(countryAliases, country, code);
-    aliasSources.push({ id: country, alias: code, source: "Overlay" });
+    const scheme = formerCodeScheme(code);
+    const schemes = countryFormerCodes.get(country) ?? new Map<FormerCodeScheme, string[]>();
+    append(schemes, scheme, code);
+    countryFormerCodes.set(country, schemes);
+    formerCodeSources.push({ id: country, scheme, code });
   }
+  const countryAliases = new Map<string, string[]>();
+  /** Every Alias with the Source it came from, for the build report. */
+  const aliasSources: AliasSource[] = [];
   for (const [id, aliases] of historicCountryAliases) {
     for (const alias of aliases) aliasSources.push({ id, alias, source: "Overlay" });
   }
@@ -678,6 +685,10 @@ export async function build({
   await mkdir(join(outDir, "subdivisions"), { recursive: true });
   await writeJson(join(outDir, "countries.json"), countriesWithCodes.map(withSameAs));
   await writeJson(join(outDir, "countries.aliases.json"), sortedAliases(countryAliases));
+  await writeJson(
+    join(outDir, "countries.former-codes.json"),
+    sortedFormerCodes(countryFormerCodes),
+  );
   await writeJson(join(outDir, "historic-countries.json"), historicCountries);
   await writeJson(
     join(outDir, "historic-countries.aliases.json"),
@@ -703,6 +714,7 @@ export async function build({
         historicCountries,
         territories,
         aliasSources,
+        formerCodes: formerCodeSources,
         droppedAliases,
         codeSystems,
       }),
@@ -773,6 +785,29 @@ function knownUnion(name: string, description: string, codes: readonly string[])
  * @beta
  */
 export type ${name} =\n${members.join("\n")};`;
+}
+
+/** The Scheme a former code is in, read from its shape: two letters, three letters or three digits. */
+function formerCodeScheme(code: string): FormerCodeScheme {
+  return /^\d{3}$/.test(code) ? "numeric" : code.length === 2 ? "alpha2" : "alpha3";
+}
+
+/** Former codes by Country `id`, then by Scheme, each sorted, for stable generated output. */
+function sortedFormerCodes(
+  formerCodes: Map<string, Map<FormerCodeScheme, string[]>>,
+): Record<string, Partial<Record<FormerCodeScheme, string[]>>> {
+  return Object.fromEntries(
+    [...formerCodes]
+      .sort(([a], [b]) => (a < b ? -1 : 1))
+      .map(([id, schemes]) => [
+        id,
+        Object.fromEntries(
+          [...schemes]
+            .sort(([a], [b]) => (a < b ? -1 : 1))
+            .map(([scheme, codes]) => [scheme, [...codes].sort()]),
+        ),
+      ]),
+  );
 }
 
 /** Aliases keyed by Entity `id`, with ids and each Entity's Aliases sorted so the output is deterministic. */

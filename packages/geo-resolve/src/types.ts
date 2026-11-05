@@ -27,6 +27,18 @@ export interface Country {
 /** The Code systems geo-resolve ships today. May grow in a minor release (ADR-0006). */
 export type KnownCodeSystem = "ioc" | "fifa";
 
+/** The Schemes geo-resolve ships today: the ISO code types and every shipped Code system. May grow in a minor release (ADR-0006). */
+export type KnownScheme =
+  | "alpha2"
+  | "alpha3"
+  | "numeric"
+  | "subdivision-code"
+  | "alpha4"
+  | KnownCodeSystem;
+
+/** The system a code belongs to: an ISO code type or a Code system. Handle unknown values: new Schemes may be added in a minor release. */
+export type Scheme = KnownScheme | (string & {});
+
 /** An Entity's codes in non-ISO Code systems, keyed by Code system. Handle unknown keys: new Code systems may be added in a minor release. */
 export type Codes = { readonly [system in KnownCodeSystem | (string & {})]?: string };
 
@@ -105,4 +117,12 @@ export interface ResolveOptions {
    * and let a bare Subdivision code suffix (`"CA"` within `"US"`) match. An unknown or withdrawn `id` matches nothing.
    */
   readonly within?: string;
+  /**
+   * Only match codes in these Schemes, so a code two Schemes share can be settled (`"BRN"` from `["alpha3"]` is
+   * Brunei, from `["ioc"]` Bahrain). Names and Aliases never match; nor does a Territory's user-assigned `id`
+   * (`"XK"`), which belongs to no Scheme. Former codes count under the Scheme that issued them (`"ROM"` is
+   * `alpha3`), and a bare Subdivision code suffix matched under `within` counts as `subdivision-code`. Combines
+   * with `kinds` and `within` as a further filter. An unknown Scheme, or an empty list, matches nothing.
+   */
+  readonly from?: readonly Scheme[];
 }

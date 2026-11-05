@@ -438,9 +438,12 @@ const rom = {
   citation: "https://www.iso.org/obp/ui/#iso:code:3166:RO",
 };
 
-test("a former code becomes an Alias of its Country, not a Historic country or a field", async () => {
+test("a former code is recorded under the Scheme that issued it, not as an Alias, a Historic country or a field", async () => {
   const outDir = await buildWithOverlay({ formerCodes: [rom] }, romania);
-  expect(await readPack(outDir, "countries.aliases.json")).toEqual({ RO: ["ROM"] });
+  expect(await readPack(outDir, "countries.former-codes.json")).toEqual({
+    RO: { alpha3: ["ROM"] },
+  });
+  expect(await readPack(outDir, "countries.aliases.json")).toEqual({});
   expect(await readPack(outDir, "countries.json")).toEqual([
     { kind: "country", id: "RO", alpha2: "RO", alpha3: "ROU", numeric: "642", name: "Romania" },
   ]);

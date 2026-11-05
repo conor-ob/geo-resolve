@@ -749,7 +749,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | RE | Reunion Island | Wikidata Q17070 |
 | RE | Île de Bourbon | Wikidata Q17070 |
 | RE | Île de La Réunion | Wikidata Q17070 |
-| RO | ROM | Overlay |
 | RO | Roumania | Wikidata Q218 |
 | RO | Rumania | Wikidata Q218 |
 | RS | Republic of Serbia | Wikidata Q403 |
@@ -943,6 +942,14 @@ Every Entity has one English Name, from the Source given for its Kind.
 | ZW | Republic of Zimbabwe | Wikidata Q954 |
 | ZW | Rhodesia | Wikidata Q954 |
 | ZW | Zimbabwe Rhodesia | Wikidata Q954 |
+
+## Former codes
+
+Former codes of Countries that still exist, from the Overlay. Each counts under the Scheme that issued it.
+
+| Entity | Scheme | Code |
+| --- | --- | --- |
+| RO | alpha3 | ROM |
 
 ## Wikidata Aliases dropped
 

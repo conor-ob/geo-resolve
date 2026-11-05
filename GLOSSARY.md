@@ -68,6 +68,10 @@ The four-letter ISO 3166-3 code that uniquely identifies a Historic country, suc
 A non-ISO scheme that also assigns codes to Entities, such as IOC or FIFA codes.
 _Avoid_: standard (ISO 3166 is the standard)
 
+**Scheme**:
+The system a code belongs to: one of the ISO code types (Alpha-2, Alpha-3, Numeric, Subdivision or Alpha-4 code) or a Code system. A former code belongs to the Scheme that issued it, so ROM is an Alpha-3 code. Names and Aliases belong to no Scheme.
+_Avoid_: code type, format
+
 **Name**:
 The label of an Entity in a given Locale. Every Entity has an English name.
 

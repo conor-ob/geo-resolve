@@ -432,7 +432,7 @@ test("the build report states the Source of each Name, Alias and Code system cod
     { cldr: netherlands, overlay },
   );
   expect(report).toContain("| Country | CLDR | 1 |");
-  expect(report).toContain("| NL | HOL | Overlay |");
+  expect(report).toContain("| NL | alpha3 | HOL |");
   expect(report).toContain("| NL | Holland | Wikidata Q55 |");
   expect(report).toContain("| NL | IOC | NED | Wikidata Q55 |");
   expect(report).toContain("| NL | FIFA | NED | Overlay |");
