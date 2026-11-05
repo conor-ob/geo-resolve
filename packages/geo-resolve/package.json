@@ -3,10 +3,24 @@
   "version": "0.1.0",
   "description": "Resolve loose ISO 3166 references (codes, names, aliases) to the place they denote.",
   "keywords": [
+    "alpha-2",
+    "alpha-3",
+    "countries",
     "country",
+    "country-codes",
+    "country-names",
     "geo",
     "iso-3166",
-    "subdivision"
+    "iso-3166-1",
+    "iso-3166-2",
+    "iso-3166-3",
+    "iso3166",
+    "lookup",
+    "normalize",
+    "resolve",
+    "subdivision",
+    "subdivisions",
+    "typescript"
   ],
   "homepage": "https://github.com/conor-ob/geo-resolve#readme",
   "bugs": {
