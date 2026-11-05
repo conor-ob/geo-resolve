@@ -1,6 +1,6 @@
 # geo-resolve
 
-Resolve loose ISO 3166 references (codes, names, aliases) to the place they denote.
+Look up countries, subdivisions and territories by ISO 3166 code, name or alias, and convert between Alpha-2, Alpha-3 and numeric codes.
 
 See the [package README](packages/geo-resolve/README.md) for installation and usage. Design decisions are recorded in [`docs/adr`](docs/adr), and the domain terms in [`GLOSSARY.md`](GLOSSARY.md).
 

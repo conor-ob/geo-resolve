@@ -1,6 +1,6 @@
 # geo-resolve
 
-Resolve loose ISO 3166 references (codes, names, aliases) to the place they denote.
+Look up countries, subdivisions and territories by ISO 3166 code, name or alias, and convert between Alpha-2, Alpha-3 and numeric codes.
 
 ```ts
 import { resolve, toAlpha3 } from "geo-resolve";
