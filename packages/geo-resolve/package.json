@@ -1,6 +1,6 @@
 {
   "name": "geo-resolve",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Resolve loose ISO 3166 references (codes, names, aliases) to the place they denote.",
   "keywords": [
     "country",
