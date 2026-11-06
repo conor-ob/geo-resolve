@@ -1,5 +1,11 @@
 # geo-resolve
 
+## 0.1.1
+
+### Patch Changes
+
+- 0040166: Add npm keywords and a plainer description so the package is easier to find.
+
 ## 0.1.0
 
 ### Minor Changes
