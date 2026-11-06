@@ -80,7 +80,7 @@ An additional label that should resolve to an Entity but is not its Name, such a
 _Avoid_: nickname, synonym
 
 **Locale**:
-A language (and optionally script or region) for which Names and Aliases are available, identified by a CLDR locale identifier such as de or pt-BR.
+A language (and optionally script or region) for which Names and Aliases are available, identified by a CLDR locale identifier such as de or pt-BR. English is always available; other Locales are loaded by choice.
 _Avoid_: language (when the variant matters)
 
 ## Resolution
@@ -111,7 +111,7 @@ An upstream dataset that Entities, codes, Names or Aliases are built from: Unico
 _Avoid_: provider, feed
 
 **Snapshot**:
-A fixed copy of a Source kept in the repository, from which a release is built.
+A fixed copy of a Source, or of the part of it that is used, kept in the repository, from which a release is built.
 _Avoid_: cache, dump
 
 **Overlay**:
