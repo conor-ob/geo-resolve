@@ -575,6 +575,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MK | Republic of Macedonia | Wikidata Q221 |
 | MK | Republic of North Macedonia | Wikidata Q221 |
 | ML | Republic of Mali | Wikidata Q912 |
+| MM | Birmania | Wikidata Q836 |
 | MM | Myanmar | Wikidata Q836 |
 | MM | Republic of the Union of Myanmar | Wikidata Q836 |
 | MM | Union of Burma | Wikidata Q836 |
@@ -856,8 +857,8 @@ Every Entity has one English Name, from the Source given for its Kind.
 | TZ | United Republic of Tanganyika and Zanzibar | Wikidata Q924 |
 | TZ | United Republic of Tanzania | Wikidata Q924 |
 | UA | Ukr. | Wikidata Q212 |
-| UA | Ukraina | Wikidata Q212 |
 | UA | Ukrainia | Wikidata Q212 |
+| UA | Ukraïna | Wikidata Q212 |
 | UG | Ouganda | Wikidata Q1036 |
 | UG | Pearl of Africa | Wikidata Q1036 |
 | UG | Republic of Uganda | Wikidata Q1036 |
@@ -1094,6 +1095,8 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | MK | MK | a code of MK |
 | MK | MKD | a code of MK |
 | ML | ml | a code of ML |
+| MM | MM | a code of MM |
+| MM | MMR | a code of MM |
 | MP | ISO 3166-1:MP | not a name |
 | MP | MP | a code of MP |
 | MP | US-MP | a code of US-MP |
@@ -1113,8 +1116,6 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | NI | NCA | a code of NI |
 | NI | NI | a code of NI |
 | NI | NIC | a code of NI |
-| NL | NL | a code of NL |
-| NL | NLD | a code of NL |
 | NU | nu | a code of NU |
 | NZ | nz | a code of NZ |
 | OM | om | a code of OM |
