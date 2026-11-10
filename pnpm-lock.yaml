@@ -183,7 +183,7 @@ catalogs:
       specifier: 0.3.25
       version: 0.3.25
     typescript:
-      specifier: ^7.0.2
+      specifier: 7.0.2
       version: 7.0.2
     vite-plus:
       specifier: 1.4.0
