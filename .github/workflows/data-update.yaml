@@ -46,6 +46,21 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # A changeset, so merging releases the new data (ADR-0007): patch when only Aliases changed, otherwise minor
+          data_changes=$(git status --porcelain --untracked-files=all -- packages/geo-resolve/src/data | awk '{ print $NF }')
+          if [ -n "$data_changes" ]; then
+            bump=minor
+            if ! echo "$data_changes" | grep -qv '\.aliases\.json$'; then
+              bump=patch
+            fi
+            {
+              echo "---"
+              echo "\"geo-resolve\": $bump"
+              echo "---"
+              echo
+              echo "Update the data from the latest CLDR and Wikidata Snapshots."
+            } > .changeset/data-update.md
+          fi
           git switch -C "$BRANCH"
           git add -A
           git commit -m "$TITLE"
@@ -67,6 +82,10 @@ jobs:
             echo
             echo "This branch is rebuilt from main on every run, so put any Overlay or allowlist fixes in a separate PR."
             echo
+            if [ -f .changeset/data-update.md ]; then
+              echo "It adds a $(sed -n 's/^"geo-resolve": //p' .changeset/data-update.md) changeset. Check the bump against ADR-0007, and list any ISO 3166 change notices in it, before merging."
+              echo
+            fi
             echo "## Build report diff"
             echo
             if [ ! -s "$diff" ]; then
