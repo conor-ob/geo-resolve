@@ -1,0 +1,29 @@
+name: Issue closed
+
+# Triage-state labels (docs/agents/triage-labels.md) say where an open issue is in the triage flow, so they go
+# stale once it closes. Remove them on close. Category labels and `wontfix`, which records why an issue was
+# closed, stay.
+on:
+  issues:
+    types: [closed]
+
+permissions:
+  issues: write
+
+jobs:
+  strip-triage-labels:
+    name: Remove triage-state labels
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      NUMBER: ${{ github.event.issue.number }}
+    steps:
+      - name: Remove the triage-state labels the issue has
+        run: |
+          labels=$(jq -r '[.issue.labels[].name
+            | select(. == "needs-triage" or . == "needs-info" or . == "ready-for-agent" or . == "ready-for-human")]
+            | join(",")' "$GITHUB_EVENT_PATH")
+          if [ -n "$labels" ]; then
+            gh issue edit "$NUMBER" --remove-label "$labels"
+          fi
