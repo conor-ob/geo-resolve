@@ -1,6 +1,6 @@
 {
   "name": "geo-resolve",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Look up countries, subdivisions and territories by ISO 3166 code, name or alias, and convert between Alpha-2, Alpha-3 and numeric codes.",
   "keywords": [
     "alpha-2",
