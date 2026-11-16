@@ -42,7 +42,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AL | Republika Popullore Socialiste e Shqiperise | Wikidata Q222 |
 | AL | Republika Popullore e Shqiperise | Wikidata Q222 |
 | AL | Shqipërisë | Wikidata Q222 |
-| AM | Hayastan | Wikidata Q399 |
 | AM | Hayastani Hanrapetut’yun | Wikidata Q399 |
 | AM | Republic of Armenia | Wikidata Q399 |
 | AM | Հայաստան | Wikidata Q399 |
@@ -74,9 +73,8 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AW | Island of Aruba | Wikidata Q21203 |
 | AX | Aaland | Wikidata Q5689 |
 | AX | Aaland Islands | Wikidata Q5689 |
-| AX | Ahvenanmaa | Wikidata Q5689 |
-| AX | Aland | Wikidata Q5689 |
 | AX | Aland Isles | Wikidata Q5689 |
+| AX | Åland | Wikidata Q5689 |
 | AX | Åland region | Wikidata Q5689 |
 | AZ | Republic of Azerbaijan | Wikidata Q227 |
 | BA | B&H | Wikidata Q225 |
@@ -159,8 +157,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BY | Respublika Bielaruś | Wikidata Q184 |
 | BY | White Russia | Wikidata Q184 |
 | BY | White Ruthenia | Wikidata Q184 |
-| CC | Cocos Islands | Wikidata Q36004 |
-| CC | Keeling Islands | Wikidata Q36004 |
 | CC | Territory of the Cocos (Keeling) Islands | Wikidata Q36004 |
 | CD | Congo (Kinshasa) | Wikidata Q974 |
 | CD | D.R.C. | Wikidata Q974 |
@@ -172,10 +168,8 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CD | Democratic Republic of Congo | Wikidata Q974 |
 | CD | Democratic Republic of the Congo | Wikidata Q974 |
 | CF | Central Africa | Wikidata Q929 |
-| CG | Congo | Wikidata Q971 |
 | CG | Congo (Brazzaville) | Wikidata Q971 |
 | CG | Congo Republic | Wikidata Q971 |
-| CG | Congo-Brazzaville | Wikidata Q971 |
 | CG | Rep. Congo | Wikidata Q971 |
 | CG | Republic of Congo | Wikidata Q971 |
 | CG | Republic of the Congo | Wikidata Q971 |
@@ -282,8 +276,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FJ | Republic of the Fiji Islands | Wikidata Q712 |
 | FJ | Viti | Wikidata Q712 |
 | FK | Falklands | Wikidata Q9648 |
-| FK | Islas Malvinas | Wikidata Q9648 |
-| FK | Malvinas | Wikidata Q9648 |
 | FK | Malvinas Islands | Wikidata Q9648 |
 | FM | Fed. Sts. Micronesia | Wikidata Q702 |
 | FM | Fed. Sts. of Micronesia | Wikidata Q702 |
@@ -309,14 +301,11 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FO | Farre Is. | Wikidata Q4628 |
 | FO | Farre Isl. | Wikidata Q4628 |
 | FO | Farre Islands | Wikidata Q4628 |
-| FO | Foroyar | Wikidata Q4628 |
 | FO | Fær Øer | Wikidata Q4628 |
 | FO | Færeyjar | Wikidata Q4628 |
 | FO | Færoes | Wikidata Q4628 |
 | FO | Færøer | Wikidata Q4628 |
-| FO | Færøerne | Wikidata Q4628 |
 | FO | Færøyene | Wikidata Q4628 |
-| FO | Føroyar | Wikidata Q4628 |
 | FO | Sheep Islands | Wikidata Q4628 |
 | FO | the Faeroe Islands | Wikidata Q4628 |
 | FO | the Faroe Islands | Wikidata Q4628 |
@@ -349,7 +338,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GG | XA-GG | Wikidata Q25230 |
 | GL | Greenlandia | Wikidata Q223 |
 | GL | Groenland | Wikidata Q223 |
-| GL | Kalaallit Nunaat | Wikidata Q223 |
 | GM | Islamic Republic of the Gambia | Wikidata Q1005 |
 | GM | Republic of the Gambia | Wikidata Q1005 |
 | GM | The Gambia | Wikidata Q1005 |
@@ -359,9 +347,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GP | Gwadloup | Wikidata Q17012 |
 | GP | Karukera | Wikidata Q17012 |
 | GQ | Republic of Equatorial Guinea | Wikidata Q983 |
-| GR | Ellada | Wikidata Q41 |
 | GR | Greek Republic | Wikidata Q41 |
-| GR | Hellas | Wikidata Q41 |
 | GR | Hellas, Greece | Wikidata Q41 |
 | GR | Hellenic Republic | Wikidata Q41 |
 | GR | el | Wikidata Q41 |
@@ -423,7 +409,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | IN | Republic of India | Wikidata Q668 |
 | IN | Tenjiku | Wikidata Q668 |
 | IN | Tianzhu | Wikidata Q668 |
-| IO | BIOT | Wikidata Q43448 |
 | IO | The British Indian Ocean Territory | Wikidata Q43448 |
 | IQ | Republic of Iraq | Wikidata Q796 |
 | IR | Islamic Rep. Iran | Wikidata Q794 |
@@ -503,7 +488,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | KR | Silla | Wikidata Q884 |
 | KW | State of Kuwait | Wikidata Q817 |
 | KY | Caymans | Wikidata Q5785 |
-| KZ | Qazaqstan | Wikidata Q232 |
 | KZ | Republic of Kazakhstan | Wikidata Q232 |
 | KZ | Republic of Qazaqstan | Wikidata Q232 |
 | LA | Lao PDR | Wikidata Q819 |
@@ -592,11 +576,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MO | Macau SAR, China | Wikidata Q14773 |
 | MO | Macau Special Administrative Region | Wikidata Q14773 |
 | MO | Macau Special Administrative Region of the People's Republic of China | Wikidata Q14773 |
-| MP | CNMI | Wikidata Q16644 |
 | MP | Commonwealth of the Northern Maria Islands | Wikidata Q16644 |
 | MP | Commonwealth of the Northern Mariana Islands | Wikidata Q16644 |
-| MP | NMI | Wikidata Q16644 |
 | MP | Northern Marianas | Wikidata Q16644 |
+| MP | nmi | Wikidata Q16644 |
 | MP | the Northern Mariana Islands | Wikidata Q16644 |
 | MQ | Jouanacaëra | Wikidata Q17054 |
 | MQ | Madiana | Wikidata Q17054 |
@@ -804,12 +787,9 @@ Every Entity has one English Name, from the Source given for its Kind.
 | SX | Sint Maarten (Dutch part) | Wikidata Q26273 |
 | SX | Sint Martin | Wikidata Q26273 |
 | SX | St Martin | Wikidata Q26273 |
-| SX | St. Maarten | Wikidata Q26273 |
 | SY | Syrian Arab Republic | Wikidata Q858 |
 | SY | Sūriyā | Wikidata Q858 |
-| SZ | Kingdom of Eswatini | Wikidata Q1050 |
 | SZ | Kingdom of Swaziland | Wikidata Q1050 |
-| SZ | Swaziland | Wikidata Q1050 |
 | SZ | Umbuso weSwatini | Wikidata Q1050 |
 | TC | TCI | Wikidata Q18221 |
 | TC | Turks & Caicos | Wikidata Q18221 |
@@ -920,18 +900,13 @@ Every Entity has one English Name, from the Source given for its Kind.
 | VI | the United States Virgin Islands | Wikidata Q11703 |
 | VN | SRV | Wikidata Q881 |
 | VN | Socialist Republic of Viet Nam | Wikidata Q881 |
-| VN | Socialist Republic of Vietnam | Wikidata Q881 |
-| VN | Viet Nam | Wikidata Q881 |
 | VU | Republic of Vanuatu | Wikidata Q686 |
 | WF | Wallis and Futuna | Wikidata Q35555 |
 | WF | Wallis and Futuna Islands | Wikidata Q35555 |
 | WS | Independent State of Samoa | Wikidata Q683 |
 | WS | Western Samoa | Wikidata Q683 |
-| XK | KV | Wikidata Q1246 |
-| XK | Kosova | Wikidata Q1246 |
 | XK | RKS | Wikidata Q1246 |
 | XK | Republic of Kosovo | Wikidata Q1246 |
-| XK | XKX | Wikidata Q1246 |
 | YDYE | Yemen, Democratic | Overlay |
 | YE | Rep. Yemen | Wikidata Q805 |
 | YE | Republic of Yemen | Wikidata Q805 |
@@ -959,14 +934,12 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | Entity | Alias | Dropped as |
 | --- | --- | --- |
 | AE | ae | a code of AE |
-| AI | AIA | a code of AI |
 | AI | ai | a code of AI and AIDJ |
 | AO | ao | a code of AO |
 | AS | ISO 3166-1:AS | not a name |
 | AS | as | a code of AS |
 | AW | aw | a code of AW |
 | AX | ax | a code of AX |
-| AZ | AZE | a code of AZ |
 | BA | ba | a code of BA |
 | BB | BAR | a code of BB |
 | BB | bb | a code of BB |
@@ -990,7 +963,6 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | CD | COD | a code of CD |
 | CD | cd | a code of CD |
 | CF | cf | a code of CF |
-| CG | CGO | a code of CG |
 | CG | cg | a code of CG |
 | CI | ci | a code of CI |
 | CK | ck | a code of CK |
@@ -1012,8 +984,6 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | ET | et | a code of ET |
 | FI | fi | a code of FI |
 | FJ | fj | a code of FJ |
-| FK | FK | a code of FK |
-| FK | FLK | a code of FK |
 | FM | FSM | a code of FM |
 | FM | fm | a code of FM |
 | FO | Atlantic/Faroe | not a name |
@@ -1026,8 +996,6 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | GG | gg | a code of GG |
 | GI | Gib | a code of GI |
 | GI | gi | a code of GI |
-| GL | GL | a code of GL |
-| GL | GRL | a code of GL |
 | GN | GUI | a code of GN |
 | GN | gn | a code of GN |
 | GP | 971 | not a name |
@@ -1038,19 +1006,13 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | GS | gs | a code of GS |
 | GT | GT | a code of GT |
 | GT | GTM | a code of GT |
-| GU | GU | a code of GU |
-| GU | GUM | a code of GU |
 | GU | ISO 3166-1:GU | not a name |
-| GU | US-GU | a code of US-GU |
 | GW | GBS | a code of GW |
 | GW | gw | a code of GW |
 | GY | gy | a code of GY |
 | HM | hm | a code of HM |
 | HN | HON | a code of HN |
 | HN | hn | a code of HN |
-| HR | CRO | a code of HR |
-| HR | HR | a code of HR |
-| HR | HRV | a code of HR |
 | HR | RH | a code of RHZW |
 | HT | HAI | a code of HT |
 | HT | ht | a code of HT |
@@ -1058,7 +1020,6 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | IL | ISR | a code of IL |
 | IL | il | a code of IL |
 | IO | io | a code of IO |
-| IO | 🇮🇴 | not a name |
 | IQ | iq | a code of IQ |
 | IR | IRI | a code of IR |
 | IR | ir | a code of IR |
@@ -1098,11 +1059,9 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | MM | MM | a code of MM |
 | MM | MMR | a code of MM |
 | MP | ISO 3166-1:MP | not a name |
-| MP | MP | a code of MP |
-| MP | US-MP | a code of US-MP |
+| MP | mp | a code of MP |
 | MR | mr | a code of MR |
-| MS | MS | a code of MS |
-| MS | MSR | a code of MS |
+| MS | ms | a code of MS |
 | MU | MRI | a code of MU |
 | MU | MU | a code of MU |
 | MV | MDV | a code of MV |
@@ -1155,13 +1114,11 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | SL | sl | a code of SL |
 | SM | sm | a code of SM |
 | SR | sr | a code of SR |
-| SS | SSD | a code of SS |
 | SS | ss | a code of SS |
 | ST | st | a code of ST |
 | SV | ESA | a code of SV |
 | SV | sv | a code of SV |
 | SX | NL-SX | a code of NL-SX |
-| SX | SX | a code of SX |
 | SX | sxm | a code of SX |
 | SZ | sz | a code of SZ |
 | TC | tc | a code of TC |
@@ -1174,11 +1131,8 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | TJ | tj | a code of TJ |
 | TK | tk | a code of TK |
 | TL | East Timor | the Name of the Historic country TPTL |
-| TL | TL | a code of TL |
-| TM | TKM | a code of TM |
 | TM | tm | a code of TM |
 | TN | tn | a code of TN |
-| TO | TGA | a code of TO |
 | TO | to | a code of TO |
 | TT | tt | a code of TT |
 | TV | TUV | a code of TV |
@@ -1198,15 +1152,12 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | VG | IVB | a code of VG |
 | VG | vg | a code of VG |
 | VN | VIE | a code of VN |
-| VN | VN | a code of VN |
 | VN | VNM | a code of VN |
 | VU | VAN | a code of VU |
 | VU | vu | a code of VU |
 | VU | vut | a code of VU |
 | WS | SAM | a code of WS |
 | WS | ws | a code of WS |
-| XK | KOS | a code of XK |
-| XK | XK | a code of XK |
 | YE | ye | a code of YE |
 | ZA | RSA | a code of ZA |
 | ZA | SA | a code of SA |
