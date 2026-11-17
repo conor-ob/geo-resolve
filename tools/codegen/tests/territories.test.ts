@@ -90,6 +90,19 @@ test("a Territory is built from the Overlay, with the Code system codes and Alia
   expect(countries.map(({ id }: { id: string }) => id)).toEqual(["DE"]);
 });
 
+test("an Overlay adds and removes a Territory's Aliases, which ship in the Territories aliases Data pack", async () => {
+  const { aliases, report } = await buildTerritories({
+    overlay: {
+      ...kosovoOverlay,
+      addedAliases: [{ entity: "XK", alias: "Kosova", reason: "the Albanian Name" }],
+      removedAliases: [{ entity: "XK", alias: "Republic of Kosovo", reason: "test" }],
+    },
+  });
+  expect(aliases).toEqual({ XK: ["Kosova"] });
+  expect(report).toContain("| XK | Kosova | Overlay |");
+  expect(report).toContain("| XK | Republic of Kosovo | removed by the Overlay: test |");
+});
+
 test("the build report states the Source of a Territory's Name and codes", async () => {
   const { report } = await buildTerritories();
   expect(report).toContain("| Territory | Overlay | 1 |");

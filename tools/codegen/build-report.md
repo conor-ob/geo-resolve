@@ -50,7 +50,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AM | Հայաստան | Wikidata Q399 |
 | AO | Ngola | Wikidata Q916 |
 | AO | Republic of Angola | Wikidata Q916 |
-| AO | Ꜵ | Wikidata Q916 |
 | AR | Argentine Republic | Wikidata Q414 |
 | AR | Republic of Argentina | Wikidata Q414 |
 | AR | Republica Argentina | Wikidata Q414 |
@@ -189,6 +188,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CD | Kongo-Kinshasa | Wikidata Q974 |
 | CF | CAR | Wikidata Q929 |
 | CF | Central Africa | Wikidata Q929 |
+| CG | Congo | Wikidata Q971 |
 | CG | Congo (Brazzaville) | Wikidata Q971 |
 | CG | Congo (Republic) | CLDR |
 | CG | Congo Republic | Wikidata Q971 |
@@ -411,7 +411,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GR | Hellas | Wikidata Q41 |
 | GR | Hellas, Greece | Wikidata Q41 |
 | GR | Hellenic Republic | Wikidata Q41 |
-| GR | el | Wikidata Q41 |
 | GS | SGSSI | Wikidata Q35086 |
 | GS | South Georgia | Wikidata Q35086 |
 | GS | South Georgia and South Sandwich Islands | Wikidata Q35086 |
@@ -588,8 +587,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | LK | Serendib | Wikidata Q854 |
 | LK | Srilanka | Wikidata Q854 |
 | LK | Taprobane | Wikidata Q854 |
-| LK | ce | Wikidata Q854 |
-| LK | lke | Wikidata Q854 |
 | LR | Liber | Wikidata Q1014 |
 | LR | Republic of Liberia | Wikidata Q1014 |
 | LS | Kingdom of Lesotho | Wikidata Q1013 |
@@ -688,7 +685,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MU | Republic of Mauritius | Wikidata Q1027 |
 | MV | Republic of Maldives | Wikidata Q826 |
 | MW | Republic of Malawi | Wikidata Q1020 |
-| MX | MXN | Wikidata Q96 |
 | MX | Mexican Republic | Wikidata Q96 |
 | MX | Mexican United States | Wikidata Q96 |
 | MX | US of M | Wikidata Q96 |
@@ -823,7 +819,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PY | Heart of South America | Wikidata Q733 |
 | PY | Republic of Paraguay | Wikidata Q733 |
 | QA | State of Qatar | Wikidata Q846 |
-| RE | .re | Wikidata Q17070 |
 | RE | Bourbon Island | Wikidata Q17070 |
 | RE | La Reunion | Wikidata Q17070 |
 | RE | La Réunion Island | Wikidata Q17070 |
@@ -1051,7 +1046,7 @@ Former codes of Countries that still exist, from the Overlay. Each counts under 
 
 ## Aliases dropped
 
-A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as being a code or naming a Historic country, is not an Alias.
+A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as being a code or naming a Historic country, is not an Alias. Nor is one the Overlay removes, with the Overlay's reason.
 
 | Entity | Alias | Dropped as |
 | --- | --- | --- |
@@ -1075,6 +1070,7 @@ A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as bei
 | AO | AGO | a code of AO |
 | AO | ANG | a code of AO |
 | AO | AO | a code of AO |
+| AO | Ꜵ | removed by the Overlay: a lone Latin ligature (U+A734), not a name, from a multilingual (mul) Wikidata alias |
 | AQ | AQ | a code of AQ |
 | AQ | ATA | a code of AQ |
 | AR | AR | a code of AR |
@@ -1154,14 +1150,13 @@ A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as bei
 | CC | CCK | a code of CC |
 | CD | CD | a code of CD |
 | CD | COD | a code of CD |
-| CD | Congo | also an Alias of CG |
+| CD | Congo | removed by the Overlay: ISO 3166's short name for CG, so CG keeps it rather than both losing it as a shared Alias (ADR-0013) |
 | CD | Zaire | the Name of the Historic country ZRCD |
 | CF | CAF | a code of CF |
 | CF | CF | a code of CF |
 | CG | CG | a code of CG |
 | CG | CGO | a code of CG |
 | CG | COG | a code of CG |
-| CG | Congo | also an Alias of CD |
 | CH | CH | a code of CH |
 | CH | CHE | a code of CH |
 | CH | SUI | a code of CH |
@@ -1274,6 +1269,7 @@ A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as bei
 | GR | GR | a code of GR |
 | GR | GRC | a code of GR |
 | GR | GRE | a code of GR |
+| GR | el | removed by the Overlay: the ISO 639-1 language code for Greek, not a name of the Country |
 | GS | GS | a code of GS |
 | GS | SGS | a code of GS |
 | GT | GT | a code of GT |
@@ -1384,6 +1380,8 @@ A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as bei
 | LK | LK | a code of LK |
 | LK | LKA | a code of LK |
 | LK | SRI | a code of LK |
+| LK | ce | removed by the Overlay: a lowercase code (CE, Sri Lanka's former FIPS 10-4 code), not a name of the Country |
+| LK | lke | removed by the Overlay: a lowercase code-like label, not a name of the Country |
 | LK | 錫蘭 | not in Latin script |
 | LR | LBR | a code of LR |
 | LR | LR | a code of LR |
@@ -1455,6 +1453,7 @@ A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as bei
 | MW | MWI | a code of MW |
 | MX | MEX | a code of MX |
 | MX | MX | a code of MX |
+| MX | MXN | removed by the Overlay: the ISO 4217 currency code of the Mexican peso, not a name of the Country |
 | MY | MAS | a code of MY |
 | MY | MY | a code of MY |
 | MY | MYS | a code of MY |
@@ -1525,6 +1524,7 @@ A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as bei
 | PY | PY | a code of PY |
 | QA | QA | a code of QA |
 | QA | QAT | a code of QA |
+| RE | .re | removed by the Overlay: the country-code top-level domain of Réunion, not a name |
 | RE | ISO 3166-1:RE | not a name |
 | RE | RE | a code of RE |
 | RE | REU | a code of RE |

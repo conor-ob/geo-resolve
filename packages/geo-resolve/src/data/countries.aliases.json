@@ -46,8 +46,7 @@
   ],
   "AO": [
     "Ngola",
-    "Republic of Angola",
-    "Ꜵ"
+    "Republic of Angola"
   ],
   "AR": [
     "Argentine Republic",
@@ -246,6 +245,7 @@
     "Central Africa"
   ],
   "CG": [
+    "Congo",
     "Congo (Brazzaville)",
     "Congo (Republic)",
     "Congo Republic",
@@ -555,8 +555,7 @@
     "Greek Republic",
     "Hellas",
     "Hellas, Greece",
-    "Hellenic Republic",
-    "el"
+    "Hellenic Republic"
   ],
   "GS": [
     "SGSSI",
@@ -812,9 +811,7 @@
     "Lanka, Sri",
     "Serendib",
     "Srilanka",
-    "Taprobane",
-    "ce",
-    "lke"
+    "Taprobane"
   ],
   "LR": [
     "Liber",
@@ -967,7 +964,6 @@
     "Republic of Malawi"
   ],
   "MX": [
-    "MXN",
     "Mexican Republic",
     "Mexican United States",
     "US of M",
@@ -1161,7 +1157,6 @@
     "State of Qatar"
   ],
   "RE": [
-    ".re",
     "Bourbon Island",
     "La Reunion",
     "La Réunion Island",

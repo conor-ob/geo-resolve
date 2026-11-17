@@ -10,6 +10,7 @@ test.each([
   ["Malvinas", "FK"],
   ["Kosova", "XK"],
   ["CNMI", "MP"],
+  ["Congo", "CG"],
   ["Congo-Brazzaville", "CG"],
   ["Hellas", "GR"],
 ])("resolves the well-known Alias %j to %s", (input, id) => {
