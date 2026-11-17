@@ -239,6 +239,11 @@ function isLatin(alias: string): boolean {
   return /^[\p{Script=Latin}\P{L}]*$/u.test(alias);
 }
 
+/** Keys an Overlay removal by Entity and match key, so it matches the Alias whatever its case or accents. */
+function removalKey(entity: string, alias: string): string {
+  return `${entity}\t${matchKey(alias)}`;
+}
+
 /** How many capital letters an Alias has, to choose between Aliases that differ only in case. */
 function countCapitals(alias: string): number {
   return alias.match(/\p{Lu}/gu)?.length ?? 0;
@@ -475,7 +480,7 @@ export function joinWikidata({
   for (const { entity, alias, reason } of overlay.removedAliases) {
     const label = `Overlay removal of ${alias}`;
     const problem = notAliasHolder(label, entity);
-    const key = `${entity}\t${matchKey(alias)}`;
+    const key = removalKey(entity, alias);
     if (problem !== undefined) problems.push(problem);
     else if (removals.has(key)) problems.push(`${label} from ${entity} is listed twice`);
     else removals.set(key, { entity, alias, reason, matched: false });
@@ -553,7 +558,7 @@ export function joinWikidata({
             ? `a code of ${[...new Set(holders)].sort().join(" and ")}`
             : (historicNames.get(key) ??
               (named.length > 0 ? `the Name of ${named.sort().join(" and ")}` : undefined));
-      const removal = removals.get(`${country}\t${key}`);
+      const removal = removals.get(removalKey(country, row.alias));
       if (removal !== undefined) removal.matched = true;
       if (source === "Overlay") {
         // A reviewer added it, so breaking a rule fails the build rather than quietly dropping it.

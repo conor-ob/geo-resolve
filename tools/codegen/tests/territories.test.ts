@@ -94,7 +94,7 @@ test("an Overlay adds and removes a Territory's Aliases, which ship in the Terri
   const { aliases, report } = await buildTerritories({
     overlay: {
       ...kosovoOverlay,
-      addedAliases: [{ entity: "XK", alias: "Kosova", reason: "the Albanian Name" }],
+      addedAliases: [{ entity: "XK", alias: "Kosova", reason: "the Albanian form" }],
       removedAliases: [{ entity: "XK", alias: "Republic of Kosovo", reason: "test" }],
     },
   });

@@ -211,7 +211,7 @@ const OverlayTerritorySchema = z.strictObject({
 });
 
 /**
- * An Alias the Overlay gives or takes from a Country or Territory, keyed by its `id`. Alpha-4 codes are admitted only
+ * An Alias the Overlay adds to or removes from the Country or Territory whose `id` is `entity`. Alpha-4 codes are admitted only
  * so an entry for a Historic country, whose Aliases are listed on it, fails with a clear message.
  */
 const OverlayAliasSchema = z.strictObject({
