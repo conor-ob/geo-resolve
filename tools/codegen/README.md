@@ -12,7 +12,7 @@ Builds the Data packs in `packages/geo-resolve/src/data` from committed Snapshot
 4. Applies the Alias rules (`src/alias-rules.ts`, ADR-0013) to Wikidata's labels, CLDR's variant and short names (ADR-0014) and the Overlay's additions and removals.
 5. Writes the Data packs and `build-report.md`, or throws once with every problem found.
 
-`fetch-snapshots` (`src/fetch.ts`) refreshes `sources/`; `alias-changes` and `compare-iso-codes` are checks the data-update and CI workflows run.
+`src/fetch.ts` refreshes `sources/` from CLDR and Wikidata; the other commands in `src/cli.ts` are checks the CI and data-update workflows run.
 
 ## Tests
 
