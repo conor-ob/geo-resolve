@@ -1,6 +1,7 @@
 import type { Country, HistoricCountry, Subdivision, Territory } from "geo-resolve";
 import { CODE_SYSTEM_KEYS, CODE_SYSTEMS, type CodeSystem } from "./code-systems.ts";
-import type { AliasSource, DroppedAlias, SourcedCode } from "./wikidata.ts";
+import type { AliasSource, DroppedAlias } from "./alias-rules.ts";
+import type { SourcedCode } from "./wikidata.ts";
 
 /** The Schemes a former code of a Country that still exists can be in. */
 export type FormerCodeScheme = "alpha2" | "alpha3" | "numeric";

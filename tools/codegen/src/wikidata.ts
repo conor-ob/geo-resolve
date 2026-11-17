@@ -1,10 +1,11 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { Country, HistoricCountry, Subdivision } from "geo-resolve";
+import type { Country, Subdivision } from "geo-resolve";
+import type { AliasCandidate } from "./alias-rules.ts";
 import { z } from "zod";
 import { CODE_SYSTEM_KEYS, CODE_SYSTEMS, type CodeSystem } from "./code-systems.ts";
 import { append } from "./lists.ts";
-import type { Overlay, SameAsLinks } from "./overlay.ts";
+import type { Overlay } from "./overlay.ts";
 import { ItemIdSchema } from "./schemas.ts";
 
 /**
@@ -141,6 +142,7 @@ export const COVERAGE_PROPERTIES = ["P1001", "P2541", "P17"] as const;
 
 /** The languages Aliases are read in, English first, so its spelling wins over a multilingual (`mul`) one. */
 export const ALIAS_LANGUAGES = ["en", "mul"] as const;
+export type AliasLanguage = (typeof ALIAS_LANGUAGES)[number];
 
 /** The Wikidata Snapshots, validated and with item URIs shortened to ids such as `Q183`. */
 export interface Wikidata {
@@ -148,7 +150,7 @@ export interface Wikidata {
   items: { item: string; alpha2: string; current: boolean }[];
   ioc: { item: string; ioc: string }[];
   /** Labels and aliases, with whether each is English (`en`) or multilingual (`mul`). */
-  aliases: { item: string; alias: string; lang: (typeof ALIAS_LANGUAGES)[number] }[];
+  aliases: { item: string; alias: string; lang: AliasLanguage }[];
   fifa: {
     association: string;
     fifa: string;
@@ -202,28 +204,12 @@ export interface SourcedCode {
   source: string;
 }
 
-/** An Alias, with the Source it came from, for the build report. */
-export interface AliasSource {
-  id: string;
-  alias: string;
-  source: string;
-}
-
-/** A Wikidata or CLDR Alias that isn't an Alias of its Entity, because a rule or the Overlay drops it, with why, for the build report. */
-export interface DroppedAlias {
-  id: string;
-  alias: string;
-  reason: string;
-}
-
-/** What Wikidata gives the Entities built from CLDR and the Overlay, with the Aliases that pass the Alias rules. */
+/** What Wikidata gives the Entities built from CLDR and the Overlay. */
 export interface WikidataJoin {
   /** Each Entity's Code system codes, Overlay code corrections applied. */
   codes: Map<string, Map<CodeSystem, SourcedCode>>;
-  /** The Aliases of each Country and Territory, from Wikidata, CLDR and the Overlay. */
-  aliases: AliasSource[];
-  /** The Aliases the Alias rules or the Overlay dropped. */
-  droppedAliases: DroppedAlias[];
+  /** The labels of the item each Country and Territory is read from, for the Alias rules. */
+  aliasCandidates: AliasCandidate[];
 }
 
 /** Must match the package's own normalisation, so the build compares Aliases and codes as `resolve` will. */
@@ -231,50 +217,22 @@ export function matchKey(input: string): string {
   return input.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().trim().replace(/\s+/g, " ");
 }
 
-/** Whether an Alias reads as a name: letters with spaces and punctuation, not a flag, time zone or calling code. */
-function isName(alias: string): boolean {
-  return /^[\p{L}\p{M} .,'’‘&()\-–]+$/u.test(alias);
-}
-
-/** Whether every letter of an Alias is Latin script, as a multilingual (`mul`) one must be to read as English. */
-function isLatin(alias: string): boolean {
-  return /^[\p{Script=Latin}\P{L}]*$/u.test(alias);
-}
-
-/** Keys an Overlay removal by Entity and match key, so it matches the Alias whatever its case or accents. */
-function removalKey(entity: string, alias: string): string {
-  return `${entity}\t${matchKey(alias)}`;
-}
-
-/** How many capital letters an Alias has, to choose between Aliases that differ only in case. */
-function countCapitals(alias: string): number {
-  return alias.match(/\p{Lu}/gu)?.length ?? 0;
-}
-
 /**
- * Joins Wikidata's Code system codes and Aliases to the Entities built from CLDR and the Overlay (ADR-0001), and
- * applies the Alias rules to Wikidata's Aliases and CLDR's variant and short English names alike, adding every problem it
- * finds to `problems` rather than stopping at the first.
+ * Joins Wikidata's Code system codes and labels to the Entities built from CLDR and the Overlay (ADR-0001), adding
+ * every problem it finds to `problems` rather than stopping at the first. The labels are only candidates: the Alias
+ * rules decide which ship.
  */
 export function joinWikidata({
   countries,
   subdivisions,
-  historicCountries,
   overlay,
-  sameAs,
   wikidata,
-  cldrAliases,
   problems,
 }: {
   countries: readonly Country[];
   subdivisions: readonly Subdivision[];
-  historicCountries: readonly HistoricCountry[];
-  overlay: Overlay;
-  /** The Same-as links `build` validated, on both sides. */
-  sameAs: SameAsLinks;
+  overlay: Pick<Overlay, "wikidataItems" | "codes" | "fifaAssociations" | "territories">;
   wikidata: Wikidata;
-  /** CLDR's variant and short English names (ADR-0014), keyed by Entity `id`. */
-  cldrAliases: ReadonlyMap<string, readonly string[]>;
   problems: string[];
 }): WikidataJoin {
   const countryIds = new Set(countries.map(({ id }) => id));
@@ -429,178 +387,12 @@ export function joinWikidata({
     }
   }
 
-  // Aliases are names only: one that is a code would shadow the code's own Entity, and one that names a
-  // Historic country would map it to a current Country, which geo-resolve never does (ADR-0003).
-  const codeHolders = new Map<string, string[]>();
-  const holdsCode = (code: string, id: string) => append(codeHolders, matchKey(code), id);
-  for (const { id, alpha2, alpha3, numeric } of countries)
-    for (const code of [alpha2, alpha3, numeric]) holdsCode(code, id);
-  for (const { id, code } of subdivisions) holdsCode(code, id);
-  for (const { id, alpha4, alpha2, alpha3, numeric } of historicCountries) {
-    for (const code of [alpha4, alpha2, alpha3, numeric])
-      if (code !== undefined) holdsCode(code, id);
-  }
-  for (const id of territoryIds) holdsCode(id, id);
-  for (const [id, codes] of codeSystems) for (const { code } of codes.values()) holdsCode(code, id);
-  const historicNames = new Map<string, string>();
-  for (const { id, name } of historicCountries)
-    historicNames.set(matchKey(name), `the Name of the Historic country ${id}`);
-  for (const { alpha4, aliases } of overlay.historicCountries) {
-    for (const alias of aliases)
-      historicNames.set(matchKey(alias), `an Alias of the Historic country ${alpha4}`);
-  }
-  const entityNames = new Map(
-    [...countries, ...overlay.territories].map(({ id, name }) => [id, name]),
-  );
-  // An Alias that is a different Entity's Name, or another Entity's Alias, would make a common Input an Ambiguous
-  // input, which the default English Resolver never has (ADR-0013), unless a Same-as link joins the two Entities.
-  const nameHolders = new Map<string, string[]>();
-  for (const { id, name } of [...countries, ...overlay.territories, ...subdivisions])
-    append(nameHolders, matchKey(name), id);
-  const unlinked = (id: string, others: readonly string[]) =>
-    others.filter((other) => other !== id && !sameAs.get(id)?.includes(other));
-  // Overlay removals take an Alias from the Sources before the shared-Alias check below, so removing a shared Alias
-  // from all but one Entity gives it back to that one (ADR-0013).
-  // Each one must match an Alias from the Sources that no rule drops, so a stale removal is noticed when upstream
-  // fixes the label.
-  const historicCountryIds = new Set(historicCountries.map(({ id }) => id));
-  /** Why an Overlay Alias entry's Entity can't hold Aliases from the Sources, or `undefined` when it can. */
-  const notAliasHolder = (label: string, entity: string) =>
-    historicCountryIds.has(entity)
-      ? `${label} is for the Historic country ${entity}; edit the Aliases listed on it instead`
-      : !entityNames.has(entity)
-        ? `${label} has a dangling Entity ${entity}`
-        : undefined;
-  const removals = new Map<
-    string,
-    { entity: string; alias: string; reason: string; matched: boolean }
-  >();
-  for (const { entity, alias, reason } of overlay.removedAliases) {
-    const label = `Overlay removal of ${alias}`;
-    const problem = notAliasHolder(label, entity);
-    const key = removalKey(entity, alias);
-    if (problem !== undefined) problems.push(problem);
-    else if (removals.has(key)) problems.push(`${label} from ${entity} is listed twice`);
-    else removals.set(key, { entity, alias, reason, matched: false });
-  }
-  // Overlay additions give a Country or Territory an Alias the Sources lack, such as one Wikidata dropped. They must
-  // pass the same rules, so the Overlay can't make an Input ambiguous either.
-  const additions = new Map<string, string[]>();
-  for (const { entity, alias } of overlay.addedAliases) {
-    const label = `Overlay Alias ${alias}`;
-    const problem = notAliasHolder(label, entity);
-    if (problem !== undefined) problems.push(problem);
-    else if (additions.get(entity)?.some((other) => matchKey(other) === matchKey(alias)))
-      problems.push(`${label} for ${entity} is listed twice`);
-    else append(additions, entity, alias);
-  }
-  const aliases: AliasSource[] = [];
-  const droppedAliases: DroppedAlias[] = [];
-  for (const country of [...entityNames.keys()].sort()) {
-    const item = countryItems.get(country);
-    const keys = new Set([matchKey(entityNames.get(country)!)]);
-    // CLDR's Names win over Wikidata rows with the same match key, as CLDR curates them, so the report attributes
-    // them to CLDR. Among Wikidata rows, the language ALIAS_LANGUAGES ranks first wins, so an English spelling ships
-    // over a multilingual one that differs in accents.
-    const rank = (lang: (typeof ALIAS_LANGUAGES)[number]) => ALIAS_LANGUAGES.indexOf(lang);
-    const cldrRows = (cldrAliases.get(country) ?? []).map((alias) => ({
-      alias,
-      lang: "en" as const,
-      source: "CLDR",
-    }));
-    const itemAliases = wikidata.aliases
-      .filter((row) => item !== undefined && row.item === item)
-      .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1))
-      .map((row) => ({ ...row, source: `Wikidata ${item}` }));
-    const overlayRows = (additions.get(country) ?? []).map((alias) => ({
-      alias,
-      lang: "en" as const,
-      source: "Overlay",
-    }));
-    /** The match keys of the Overlay's additions, which a Source giving the same Alias makes stale. */
-    const added = new Map(overlayRows.map(({ alias }) => [matchKey(alias), alias]));
-    for (const row of [...overlayRows, ...cldrRows, ...itemAliases]) {
-      const key = matchKey(row.alias);
-      if (keys.has(key)) {
-        if (row.source === "Overlay")
-          problems.push(`Overlay Alias ${row.alias} for ${country} is its Name`);
-        else if (added.has(key)) {
-          problems.push(
-            `Overlay Alias ${added.get(key)} for ${country} is also from ${row.source}, so it is no longer needed`,
-          );
-          added.delete(key);
-        }
-        continue;
-      }
-      keys.add(key);
-      // Rows that differ only in case, in any language, ship the one with the most capitals, ties going to the
-      // order above, so the casing that ships doesn't depend on which variants upstream happens to keep. Case only,
-      // not the whole match key, so an English spelling still wins on accents. The row that took the match key still
-      // decides the script rule by its language, as casing never changes a script. A CLDR name ships as CLDR writes it.
-      const { alias } =
-        row.source === "CLDR" || row.source === "Overlay"
-          ? row
-          : itemAliases
-              .filter((other) => other.alias.toLowerCase() === row.alias.toLowerCase())
-              .reduce((best, other) =>
-                countCapitals(other.alias) > countCapitals(best.alias) ? other : best,
-              );
-      const { lang, source } = row;
-      const holders = codeHolders.get(key);
-      const named = unlinked(country, nameHolders.get(key) ?? []);
-      const reason = !isName(alias)
-        ? "not a name"
-        : lang === "mul" && !isLatin(alias)
-          ? "not in Latin script"
-          : holders !== undefined
-            ? `a code of ${[...new Set(holders)].sort().join(" and ")}`
-            : (historicNames.get(key) ??
-              (named.length > 0 ? `the Name of ${named.sort().join(" and ")}` : undefined));
-      const removal = removals.get(removalKey(country, row.alias));
-      if (removal !== undefined) removal.matched = true;
-      if (source === "Overlay") {
-        // A reviewer added it, so breaking a rule fails the build rather than quietly dropping it.
-        if (removal !== undefined)
-          problems.push(`Overlay Alias ${alias} for ${country} is also removed by the Overlay`);
-        else if (reason !== undefined)
-          problems.push(`Overlay Alias ${alias} for ${country} is ${reason}`);
-        else aliases.push({ id: country, alias, source });
-      } else if (reason !== undefined) {
-        if (removal !== undefined)
-          problems.push(
-            `Overlay removal of ${removal.alias} from ${country} matches an Alias already dropped as ${reason}, so it is no longer needed`,
-          );
-        droppedAliases.push({ id: country, alias, reason });
-      } else if (removal !== undefined)
-        droppedAliases.push({
-          id: country,
-          alias,
-          reason: `removed by the Overlay: ${removal.reason}`,
-        });
-      else aliases.push({ id: country, alias, source });
-    }
+  const aliasCandidates: AliasCandidate[] = [];
+  for (const { item, alias, lang } of wikidata.aliases) {
+    const id = itemCountries.get(item);
+    if (id !== undefined)
+      aliasCandidates.push({ id, alias, origin: { source: "Wikidata", item, lang } });
   }
 
-  for (const { entity, alias, matched } of removals.values()) {
-    if (!matched)
-      problems.push(
-        `Overlay removal of ${alias} from ${entity} matches no Alias from the Sources, so it is no longer needed`,
-      );
-  }
-
-  const aliasHolders = new Map<string, string[]>();
-  for (const { id, alias } of aliases) append(aliasHolders, matchKey(alias), id);
-  const unshared = aliases.filter(({ id, alias, source }) => {
-    const shared = unlinked(id, aliasHolders.get(matchKey(alias))!);
-    if (shared.length === 0) return true;
-    if (source === "Overlay")
-      problems.push(
-        `Overlay Alias ${alias} for ${id} is also an Alias of ${shared.sort().join(" and ")}`,
-      );
-    else
-      droppedAliases.push({ id, alias, reason: `also an Alias of ${shared.sort().join(" and ")}` });
-    return false;
-  });
-
-  return { codes: codeSystems, aliases: unshared, droppedAliases };
+  return { codes: codeSystems, aliasCandidates };
 }

@@ -13,7 +13,8 @@ import {
   SubdivisionSchema,
   TerritorySchema,
 } from "./schemas.ts";
-import { joinWikidata, matchKey, readWikidata, type AliasSource } from "./wikidata.ts";
+import { applyAliasRules, type AliasCandidate, type AliasSource } from "./alias-rules.ts";
+import { joinWikidata, matchKey, readWikidata } from "./wikidata.ts";
 
 export interface BuildOptions {
   /** Directory holding the Snapshots written by `fetch`. */
@@ -63,8 +64,8 @@ const EnglishNamesSchema = z.object({
   }),
 });
 
-/** The `alt` forms of CLDR English territory names that are Aliases of their Entity (ADR-0014). */
-const CLDR_ALIAS_ALTS = ["variant", "short"];
+/** The `alt` forms of CLDR's English region names that are Aliases of their Entity (ADR-0014). */
+const CLDR_ALIAS_ALTS: readonly string[] = ["variant", "short"];
 
 /**
  * ISO 3166-1 codes that CLDR lists as regular regions but that ISO doesn't assign to a Country:
@@ -395,20 +396,12 @@ export async function build({
     for (const alias of aliases) aliasSources.push({ id, alias, source: "Overlay" });
   }
 
-  // Wikidata supplies Code system codes and Aliases only, joined to the Entities built above (ADR-0001). CLDR's
-  // variant and short English names are Aliases too, under the same rules (ADR-0014).
-  const {
-    codes: codeSystems,
-    aliases: joinedAliases,
-    droppedAliases,
-  } = joinWikidata({
+  // Wikidata supplies Code system codes and Alias candidates only, joined to the Entities built above (ADR-0001).
+  const { codes: codeSystems, aliasCandidates } = joinWikidata({
     countries,
     subdivisions,
-    historicCountries,
     overlay,
-    sameAs,
     wikidata: await readWikidata(sourcesDir),
-    cldrAliases,
     problems,
   });
   /** The Code system codes joined to an Entity, or `undefined` when it has none. */
@@ -454,6 +447,27 @@ export async function build({
     else problems.push(`Territory ${id}:\n${z.prettifyError(parsed.error)}`);
   }
 
+  const subdivisionsWithCodes = subdivisions.map(withCodes);
+
+  // CLDR's variant and short English names are Alias candidates too, under the same rules as Wikidata's (ADR-0014).
+  const { aliases: joinedAliases, dropped: droppedAliases } = applyAliasRules({
+    entities: {
+      countries: countriesWithCodes,
+      territories,
+      subdivisions: subdivisionsWithCodes,
+      historicCountries,
+      historicAliases: historicCountryAliases,
+      sameAs,
+    },
+    candidates: [
+      ...[...cldrAliases].flatMap(([id, aliases]) =>
+        aliases.map((alias): AliasCandidate => ({ id, alias, origin: { source: "CLDR" } })),
+      ),
+      ...aliasCandidates,
+    ],
+    overlay,
+    problems,
+  });
   const territoryAliases = new Map<string, string[]>();
   for (const source of joinedAliases) {
     append(
@@ -463,7 +477,6 @@ export async function build({
     );
     aliasSources.push(source);
   }
-  const subdivisionsWithCodes = subdivisions.map(withCodes);
 
   if (problems.length > 0) throw new Error(`Invalid data:\n${problems.join("\n")}`);
 
