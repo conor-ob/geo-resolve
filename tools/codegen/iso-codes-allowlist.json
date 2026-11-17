@@ -7,13 +7,13 @@
     },
     {
       "field": "name",
-      "reason": "CLDR qualifies a name to tell it apart from a similar one (Congo - Kinshasa, Macao SAR China)",
-      "ids": ["CD", "MO"]
+      "reason": "CLDR qualifies a name to tell it apart from a similar one (Congo - Kinshasa)",
+      "ids": ["CD"]
     },
     {
       "field": "name",
       "reason": "CLDR uses the common English name where ISO uses its formal or official short name",
-      "ids": ["BN", "BQ", "FK", "PN", "PS", "VA"]
+      "ids": ["BQ", "FK", "PS", "VA"]
     },
     {
       "field": "name",

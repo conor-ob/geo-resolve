@@ -2,6 +2,7 @@ import { mkdir, mkdtemp, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import {
+  ALIAS_LANGUAGES,
   COVERAGE_PROPERTIES,
   serialiseSparqlResults,
   WIKIDATA_QUERIES,
@@ -39,7 +40,8 @@ export interface WikidataFixture {
   /** Items holding an Alpha-2 code; a statement is current unless marked deprecated or ended. */
   items?: { item: string; alpha2: string; deprecated?: boolean; ended?: boolean }[];
   ioc?: { item: string; ioc: string }[];
-  aliases?: { item: string; alias: string }[];
+  /** Labels and aliases, in English unless `lang` says otherwise. */
+  aliases?: { item: string; alias: string; lang?: (typeof ALIAS_LANGUAGES)[number] }[];
   /** FIFA associations, one row per area each covers by `property`. */
   fifa?: {
     association: string;
@@ -221,9 +223,10 @@ function wikidataSnapshots({
       ended: literal(String(row.ended ?? false)),
     })),
     ioc: ioc.map((row) => ({ item: item(row.item), ioc: literal(row.ioc) })),
-    aliases: aliases.map((row) => ({
+    aliases: aliases.map(({ lang = "en", ...row }) => ({
       item: item(row.item),
-      alias: { ...literal(row.alias), "xml:lang": "en" },
+      alias: { ...literal(row.alias), "xml:lang": lang },
+      lang: literal(lang),
     })),
     fifa: fifa.map((row) => ({
       association: item(row.association),

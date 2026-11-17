@@ -18,20 +18,27 @@ export const WIKIDATA_QUERIES = {
   BIND(EXISTS { ?statement pq:P582 [] } || EXISTS { ?item wdt:P576 [] } AS ?ended)
 } ORDER BY ?alpha2 ?item`,
 
-  /** Current IOC codes (P984) of items holding an Alpha-2 code. */
-  ioc: `SELECT ?item ?ioc WHERE {
+  /**
+   * Current IOC codes (P984) of items holding an Alpha-2 code. `DISTINCT`, since an item holding a former Alpha-2
+   * code too, such as Myanmar (MM and BU), matches once per code.
+   */
+  ioc: `SELECT DISTINCT ?item ?ioc WHERE {
   ?item p:P297 [] ; p:P984 ?statement .
   ?statement ps:P984 ?ioc ; wikibase:rank ?rank .
   FILTER(?rank != wikibase:DeprecatedRank)
   FILTER NOT EXISTS { ?statement pq:P582 [] }
 } ORDER BY ?item ?ioc`,
 
-  /** English labels and aliases of items holding an Alpha-2 code. */
-  aliases: `SELECT ?item ?alias WHERE {
+  /**
+   * English and multilingual (`mul`) labels and aliases of items holding an Alpha-2 code. Wikidata keeps a name that
+   * reads the same in every language under `mul` only, not `en`. `DISTINCT`, as for `ioc`.
+   */
+  aliases: `SELECT DISTINCT ?item ?alias ?lang WHERE {
   ?item p:P297 [] .
   { ?item rdfs:label ?alias } UNION { ?item skos:altLabel ?alias }
-  FILTER(LANG(?alias) = "en")
-} ORDER BY ?item ?alias`,
+  BIND(LANG(?alias) AS ?lang)
+  FILTER(?lang IN ("en", "mul"))
+} ORDER BY ?item ?alias ?lang`,
 
   /**
    * FIFA codes (P3441) of current FIFA members (P463 FIFA, Q253414) that aren't teams (Q12973014), with the
@@ -130,12 +137,16 @@ export const ItemIdSchema = z.string().regex(/^Q\d+$/, "must be a Wikidata item 
 /** The FIFA association properties that say which area it covers, most specific first. */
 export const COVERAGE_PROPERTIES = ["P1001", "P2541", "P17"] as const;
 
+/** The languages Aliases are read in, English first, so its spelling wins over a multilingual (`mul`) one. */
+export const ALIAS_LANGUAGES = ["en", "mul"] as const;
+
 /** The Wikidata Snapshots, validated and with item URIs shortened to ids such as `Q183`. */
 export interface Wikidata {
   /** Items holding an Alpha-2 code, with whether that statement is deprecated or the item or statement has ended. */
   items: { item: string; alpha2: string; current: boolean }[];
   ioc: { item: string; ioc: string }[];
-  aliases: { item: string; alias: string }[];
+  /** Labels and aliases, with whether each is English (`en`) or multilingual (`mul`). */
+  aliases: { item: string; alias: string; lang: (typeof ALIAS_LANGUAGES)[number] }[];
   fifa: {
     association: string;
     fifa: string;
@@ -167,7 +178,7 @@ export async function readWikidata(sourcesDir: string): Promise<Wikidata> {
     aliases: await readRows(
       sourcesDir,
       "aliases",
-      z.object({ item: ItemIdSchema, alias: z.string() }),
+      z.object({ item: ItemIdSchema, alias: z.string(), lang: z.enum(ALIAS_LANGUAGES) }),
     ),
     fifa: await readRows(
       sourcesDir,
@@ -221,6 +232,11 @@ export function matchKey(input: string): string {
 /** Whether an Alias reads as a name: letters with spaces and punctuation, not a flag, time zone or calling code. */
 function isName(alias: string): boolean {
   return /^[\p{L}\p{M} .,'’‘&()\-–]+$/u.test(alias);
+}
+
+/** Whether every letter of an Alias is Latin script, as a multilingual (`mul`) one must be to read as English. */
+function isLatin(alias: string): boolean {
+  return /^[\p{Script=Latin}\P{L}]*$/u.test(alias);
 }
 
 /**
@@ -421,20 +437,23 @@ export function joinWikidata({
   const droppedAliases: DroppedAlias[] = [];
   for (const [country, item] of [...countryItems].sort(([a], [b]) => (a < b ? -1 : 1))) {
     const keys = new Set([matchKey(entityNames.get(country)!)]);
+    // Rows in the language ALIAS_LANGUAGES ranks first win over others with the same match key.
+    const rank = (lang: (typeof ALIAS_LANGUAGES)[number]) => ALIAS_LANGUAGES.indexOf(lang);
     const itemAliases = wikidata.aliases
       .filter((row) => row.item === item)
-      .map(({ alias }) => alias)
-      .sort();
-    for (const alias of itemAliases) {
+      .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1));
+    for (const { alias, lang } of itemAliases) {
       const key = matchKey(alias);
       if (keys.has(key)) continue;
       keys.add(key);
       const holders = codeHolders.get(key);
       const reason = !isName(alias)
         ? "not a name"
-        : holders === undefined
-          ? historicNames.get(key)
-          : `a code of ${[...new Set(holders)].sort().join(" and ")}`;
+        : lang === "mul" && !isLatin(alias)
+          ? "not in Latin script"
+          : holders === undefined
+            ? historicNames.get(key)
+            : `a code of ${[...new Set(holders)].sort().join(" and ")}`;
       if (reason !== undefined) droppedAliases.push({ id: country, alias, reason });
       else aliases.push({ id: country, alias, source: `Wikidata ${item}` });
     }

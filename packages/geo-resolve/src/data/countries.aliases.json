@@ -21,6 +21,7 @@
     "Afghaunistaun"
   ],
   "AG": [
+    "A&B",
     "Antigua and Barbuda",
     "Antigua-Barbuda",
     "Antigua–Barbuda"
@@ -34,6 +35,7 @@
     "Republic of Albania",
     "Republika Popullore Socialiste e Shqiperise",
     "Republika Popullore e Shqiperise",
+    "Republika e Shqipërisë",
     "Shqipërisë"
   ],
   "AM": [
@@ -44,7 +46,8 @@
   ],
   "AO": [
     "Ngola",
-    "Republic of Angola"
+    "Republic of Angola",
+    "Ꜵ"
   ],
   "AR": [
     "Argentine Republic",
@@ -84,11 +87,13 @@
     "Aaland",
     "Aaland Islands",
     "Ahvenanmaa",
-    "Aland",
     "Aland Isles",
+    "Åland",
     "Åland region"
   ],
   "AZ": [
+    "Azərbaycan",
+    "Azərbaycan Respublikası",
     "Republic of Azerbaijan"
   ],
   "BA": [
@@ -117,6 +122,7 @@
     "Republic of Bulgaria"
   ],
   "BH": [
+    "Bahrein",
     "Bahrein Islands",
     "Dawlat al-Bahrain",
     "Kingdom of Bahrain",
@@ -141,6 +147,7 @@
     "Saint Barts",
     "Saint Bartz",
     "Saint-Barthélémy",
+    "St Barth",
     "St barthelemy",
     "St barths",
     "St barts",
@@ -156,6 +163,7 @@
     "Barmudas",
     "Bermoothes",
     "Bermuda Islands",
+    "Bermudas",
     "Bermudian Islands",
     "Colony of Bermuda",
     "Devil's Isles",
@@ -165,10 +173,12 @@
     "Summer's Isles",
     "Summers' Isles",
     "Territory of Bermuda",
+    "The Somers Island",
     "The Somers Isles",
     "Virgineola"
   ],
   "BN": [
+    "Brunei Darussalam",
     "Nation of Brunei, the Abode of Peace",
     "Negara Brunei Darussalam"
   ],
@@ -182,6 +192,7 @@
     "Bonaire, Saint Eustatius and Saba"
   ],
   "BR": [
+    "Brasil",
     "Federative Republic of Brazil"
   ],
   "BS": [
@@ -215,17 +226,22 @@
     "Territory of the Cocos (Keeling) Islands"
   ],
   "CD": [
+    "Congo",
     "Congo (Kinshasa)",
+    "Congo-Kinshasa",
     "D.R.C.",
     "DR Congo",
+    "DR Kongo",
     "DRC",
     "Dem. Rep. Congo",
     "Dem. Republic of Congo",
     "Dem. Republic of the Congo",
     "Democratic Republic of Congo",
-    "Democratic Republic of the Congo"
+    "Democratic Republic of the Congo",
+    "Kongo-Kinshasa"
   ],
   "CF": [
+    "CAR",
     "Central Africa"
   ],
   "CG": [
@@ -240,6 +256,7 @@
   ],
   "CH": [
     "Confoederatio Helvetica",
+    "Schweizerische Eidgenossenschaft",
     "Swiss",
     "Swiss Confederation"
   ],
@@ -259,7 +276,8 @@
     "Hervey Islands"
   ],
   "CL": [
-    "Republic of Chile"
+    "Republic of Chile",
+    "República de Chile"
   ],
   "CM": [
     "Republic of Cameroon"
@@ -269,9 +287,11 @@
     "Communist China",
     "P.R.C.",
     "PR China",
+    "PRC",
     "People's Republic of China",
     "Red China",
     "The PRC",
+    "Zhongguo",
     "the People's Republic of China"
   ],
   "CO": [
@@ -285,6 +305,7 @@
     "Republic of Cuba"
   ],
   "CV": [
+    "Cabo Verde",
     "Cape Verde Islands",
     "Republic of Cabo Verde",
     "Republic of Cape Verde"
@@ -296,7 +317,8 @@
     "Curaçoa",
     "Curaςao",
     "Curocao",
-    "Island Territory of Curaçao"
+    "Island Territory of Curaçao",
+    "Kòrsou"
   ],
   "CX": [
     "Christmas Island, Other Territories",
@@ -309,8 +331,10 @@
     "Republic of Cyprus"
   ],
   "CZ": [
+    "CZR",
     "Czech Republic",
-    "the Czech Republic"
+    "the Czech Republic",
+    "Česká republika"
   ],
   "DE": [
     "BRD",
@@ -324,6 +348,7 @@
     "Republic of Djibouti"
   ],
   "DK": [
+    "DEK",
     "Danemark",
     "Dania",
     "Danmark",
@@ -338,6 +363,7 @@
     "Wai‘tu kubuli"
   ],
   "DO": [
+    "DR",
     "DomRep",
     "Dominicana",
     "RD",
@@ -352,9 +378,11 @@
     "Republic of Ecuador",
     "Republic of Equator",
     "Republic of the Equator",
+    "República del Ecuador",
     "The Ecuadorian State"
   ],
   "EE": [
+    "Eesti",
     "Eesti Vabariik",
     "Estland",
     "Republic of Estonia"
@@ -387,7 +415,8 @@
     "Land of Thousand Lakes",
     "Republic of Finland",
     "Republiken Finland",
-    "Suomen tasavalta"
+    "Suomen tasavalta",
+    "Suomi"
   ],
   "FJ": [
     "Fijī Gaṇarājya",
@@ -419,6 +448,7 @@
     "Faeroyene",
     "Far Oer",
     "Fareo islands",
+    "Faroe",
     "Faroe Island",
     "Faroe Isles",
     "Faroer",
@@ -429,6 +459,7 @@
     "Farre Is.",
     "Farre Isl.",
     "Farre Islands",
+    "Feroe",
     "Foroyar",
     "Fær Øer",
     "Færeyjar",
@@ -442,17 +473,27 @@
     "the Faroe Islands"
   ],
   "FR": [
-    "French Republic"
+    "Francia",
+    "French Republic",
+    "République française"
   ],
   "GA": [
     "Gabonese Republic",
     "Republique Gabonaise"
   ],
   "GB": [
+    "Britain",
     "G B",
+    "G. B.",
+    "G. B. R.",
+    "G.B.",
+    "G.B.R.",
     "Great Britain",
     "Great Britain and Northern Ireland",
     "U K",
+    "U. K.",
+    "U.K.",
+    "UK",
     "United Kingdom of Great Britain and Northern Ireland",
     "the UK",
     "the United Kingdom",
@@ -467,17 +508,23 @@
   "GF": [
     "Guiana",
     "Guiana, France",
-    "Guyane"
+    "Guyane",
+    "Guyane française"
   ],
   "GG": [
+    "Bailiwick of Guernsey",
     "Bailliage de Guernesey",
     "Bailliage dé Guernési",
     "GB-GSY",
     "GBG",
     "Giernési",
     "Great Britain Guernsey",
+    "Guernesey",
     "Lisia",
     "XA-GG"
+  ],
+  "GH": [
+    "Republic of Ghana"
   ],
   "GL": [
     "Greenlandia",
@@ -517,10 +564,12 @@
     "South Sandwich Islands"
   ],
   "GT": [
-    "Republic of Guatemala"
+    "Republic of Guatemala",
+    "República de Guatemala"
   ],
   "GU": [
     "Guahan",
+    "Guaján",
     "Guam (USA)",
     "Island of Guam",
     "Territory of Guam"
@@ -563,12 +612,17 @@
     "Republic of Haiti"
   ],
   "ID": [
-    "Republic of Indonesia"
+    "Republic of Indonesia",
+    "Republik Indonesia"
   ],
   "IE": [
+    "Hibernia",
     "Irish Republic",
+    "Irlanda",
+    "Irlandia",
     "Republic of Ireland",
-    "Southern Ireland"
+    "Southern Ireland",
+    "Éire"
   ],
   "IL": [
     "State of Israel",
@@ -587,6 +641,7 @@
   ],
   "IN": [
     "Al Hind",
+    "Bharat",
     "Bharat Ganarajya",
     "Bharata",
     "Bharatvarsh",
@@ -615,10 +670,12 @@
     "Ysland"
   ],
   "IT": [
+    "Italia",
     "Italian Republic",
     "Republic of Italy"
   ],
   "JE": [
+    "Bailiwick of Jersey",
     "Bailliage de Jerri",
     "Bailliage de Jersey",
     "Balliwick of Jersey",
@@ -646,9 +703,13 @@
   "JP": [
     "Iapan",
     "Iapon",
+    "JA",
+    "JAP",
     "Land of Rising Sun",
     "Land of the Rising Sun",
+    "Nihon",
     "Nihon-koku",
+    "Nippon",
     "Nippon-koku",
     "State of Japan"
   ],
@@ -661,6 +722,7 @@
   "KH": [
     "Camboya",
     "Campuchia",
+    "KKH",
     "Kambodzha",
     "Kamboja",
     "Kampuchea",
@@ -695,7 +757,8 @@
     "DPR Korea",
     "DPRK",
     "Democratic People's Republic of Korea",
-    "N. Korea"
+    "N. Korea",
+    "NK"
   ],
   "KR": [
     "Choson",
@@ -704,6 +767,7 @@
     "Hanguk",
     "Korea (South)",
     "Korea Republic",
+    "ROK",
     "Rep. Korea",
     "Republic of Korea",
     "S. Korea",
@@ -742,6 +806,7 @@
   ],
   "LK": [
     "Ceylan",
+    "Ceylon",
     "Democratic Socialist Republic of Sri Lanka",
     "Lanka, Sri",
     "Serendib",
@@ -759,10 +824,12 @@
     "The Mountain Kingdom"
   ],
   "LT": [
+    "Lietuvos Respublika",
     "Republic of Lithuania"
   ],
   "LU": [
-    "Grand Duchy of Luxembourg"
+    "Grand Duchy of Luxembourg",
+    "Luxemburg"
   ],
   "LV": [
     "Latveja",
@@ -803,6 +870,7 @@
   ],
   "MF": [
     "Collectivity of Saint Martin",
+    "Saint Martin",
     "Saint Martin (France)",
     "Saint Martin (French part)",
     "Saint-Martin",
@@ -830,6 +898,7 @@
     "Republic of Mali"
   ],
   "MM": [
+    "Birma",
     "Birmania",
     "Myanmar",
     "Republic of the Union of Myanmar",
@@ -841,6 +910,7 @@
   ],
   "MO": [
     "Aomen",
+    "Macao",
     "Macao S.A.R.",
     "Macao SAR",
     "Macao SAR, China",
@@ -856,8 +926,8 @@
     "CNMI",
     "Commonwealth of the Northern Maria Islands",
     "Commonwealth of the Northern Mariana Islands",
-    "NMI",
     "Northern Marianas",
+    "nmi",
     "the Northern Mariana Islands"
   ],
   "MQ": [
@@ -918,7 +988,9 @@
     "Republic of Namibia"
   ],
   "NC": [
+    "Kanaky",
     "New Cal",
+    "Nouvelle-Calédonie",
     "Territory of New Caledonia and Dependencies"
   ],
   "NE": [
@@ -928,14 +1000,17 @@
     "The Niger"
   ],
   "NF": [
+    "Norfolk",
     "Norfolk Island, Australia",
     "Norfolk Island, Other Territories",
     "Norfolk Island, Other Territories, Australia",
     "Territory of Norfolk Island"
   ],
   "NG": [
+    "FRN",
     "Federal Republic of Nigeria",
-    "Naija"
+    "Naija",
+    "RFN"
   ],
   "NI": [
     "Republic of Nicaragua"
@@ -988,8 +1063,10 @@
     "Republic of Nauru"
   ],
   "NZ": [
+    "Aotearoa",
     "Aotearoa New Zealand",
-    "Dominion of New Zealand"
+    "Dominion of New Zealand",
+    "Niu Tīreni"
   ],
   "OM": [
     "Sultanate of Oman",
@@ -1006,6 +1083,7 @@
     "French Establishments in Oceania",
     "French Oceania",
     "French Settlements in Oceania",
+    "Polynésie française",
     "Territory of French Polynesia"
   ],
   "PG": [
@@ -1024,13 +1102,17 @@
     "Tây Hồi"
   ],
   "PL": [
+    "Polonia",
     "Republic of Poland"
   ],
   "PM": [
     "Saint Pierre & Miquelon",
     "Saint Pierre and Miquelon",
+    "Saint Pierre et Miquelon",
     "Saint-Pierre & Miquelon",
     "Saint-Pierre and Miquelon",
+    "Saint-Pierre et Miquelon",
+    "Saint-Pierre-et-Miquelon",
     "St Pierre & Miquelon",
     "St Pierre and Miquelon",
     "St-Pierre & Miquelon",
@@ -1041,6 +1123,7 @@
   ],
   "PN": [
     "Occas Island",
+    "Pitcairn",
     "Pitcairn, Henderson, Ducie and Oeno Islands"
   ],
   "PR": [
@@ -1060,7 +1143,8 @@
     "State of Palestine"
   ],
   "PT": [
-    "Portuguese Republic"
+    "Portuguese Republic",
+    "República Portuguesa"
   ],
   "PW": [
     "Belau",
@@ -1092,9 +1176,11 @@
     "Rumania"
   ],
   "RS": [
-    "Republic of Serbia"
+    "Republic of Serbia",
+    "Republika Srbija"
   ],
   "RU": [
+    "RF",
     "Russian Federation"
   ],
   "RW": [
@@ -1129,6 +1215,7 @@
     "Lion City",
     "Republic of Singapore",
     "S'pore",
+    "SIN",
     "Singapore City"
   ],
   "SH": [
@@ -1138,6 +1225,7 @@
   ],
   "SI": [
     "Republic of Slovenia",
+    "Republika Slovenija",
     "Slovenija"
   ],
   "SJ": [
@@ -1183,6 +1271,7 @@
     "Saint Martin (Dutch part)",
     "Sint Maarten (Dutch part)",
     "Sint Martin",
+    "Sint-Maarten",
     "St Martin",
     "St. Maarten"
   ],
@@ -1206,7 +1295,8 @@
     "Republic of Chad"
   ],
   "TF": [
-    "French Southern Territories"
+    "French Southern Territories",
+    "TAAF"
   ],
   "TG": [
     "Togolese Republic"
@@ -1216,6 +1306,7 @@
     "Kingdom of Thailand",
     "Prathet Thai",
     "Ratcha-anachak Thai",
+    "Siam",
     "Thai",
     "The Kingdom of Siam",
     "The Kingdom of Thailand"
@@ -1228,7 +1319,8 @@
     "Union Islands"
   ],
   "TL": [
-    "Democratic Republic of Timor-Leste"
+    "Democratic Republic of Timor-Leste",
+    "Timor Leste"
   ],
   "TM": [
     "Turkmenia"
@@ -1293,11 +1385,14 @@
   ],
   "US": [
     "'Murica",
+    "EUA",
     "Merica",
     "Murica",
     "U. S.",
     "U. S. A.",
+    "U.S.",
     "U.S. of America",
+    "U.S.A.",
     "US of A",
     "US of America",
     "United States of America",
@@ -1322,6 +1417,7 @@
   ],
   "VA": [
     "Città del Vaticano",
+    "Civitas Vaticana",
     "Holy See",
     "Papal State",
     "State of Vatican City",
@@ -1342,21 +1438,25 @@
   "VE": [
     "BR Venezuela",
     "Bolivarian Republic of Venezuela",
-    "Republic of Venezuela"
+    "Republic of Venezuela",
+    "Vzla"
   ],
   "VG": [
     "B.V.I.",
+    "BVI",
     "Virgin Islands of the United Kingdom",
     "Virgin Islands, United Kingdom"
   ],
   "VI": [
     "American Virgin Islands",
     "US Virgin Islands",
+    "USVI",
     "United States Virgin Islands",
     "Virgin Islands of the United States",
     "the United States Virgin Islands"
   ],
   "VN": [
+    "Cộng hòa Xã hội chủ nghĩa Việt Nam",
     "SRV",
     "Socialist Republic of Viet Nam",
     "Socialist Republic of Vietnam",
@@ -1367,7 +1467,9 @@
   ],
   "WF": [
     "Wallis and Futuna",
-    "Wallis and Futuna Islands"
+    "Wallis and Futuna Islands",
+    "Wallis et Futuna",
+    "Wallis-et-Futuna"
   ],
   "WS": [
     "Independent State of Samoa",
