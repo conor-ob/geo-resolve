@@ -115,7 +115,7 @@ A fixed copy of a Source kept in the repository, from which a release is built.
 _Avoid_: cache, dump
 
 **Overlay**:
-A small hand-maintained set of additions and corrections applied on top of the Sources, such as extra Aliases.
+A small hand-maintained set of additions and corrections applied on top of the Sources, such as Historic countries, Aliases added to or removed from any Country or Territory, and Code system code corrections. Every entry must still apply to what the Sources give, so a stale one fails the build.
 _Avoid_: patch, overrides
 
 **Data pack**:

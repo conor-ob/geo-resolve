@@ -69,7 +69,7 @@ export function buildReport({
       ["Entity", "Scheme", "Code"],
       formerCodes.map(({ id, scheme, code }) => [id, scheme, code]).sort(byCells),
     )}`,
-    `## Aliases dropped\n\nA Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as being a code or naming a Historic country, is not an Alias.\n\n${table(
+    `## Aliases dropped\n\nA Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as being a code or naming a Historic country, is not an Alias. Nor is one the Overlay removes, with the Overlay's reason.\n\n${table(
       ["Entity", "Alias", "Dropped as"],
       droppedAliases.map(({ id, alias, reason }) => [id, alias, reason]).sort(byCells),
     )}`,

@@ -207,7 +207,7 @@ export interface AliasSource {
   source: string;
 }
 
-/** A Wikidata or CLDR Alias that isn't an Alias of its Entity, with why, for the build report. */
+/** A Wikidata or CLDR Alias that isn't an Alias of its Entity, because a rule or the Overlay drops it, with why, for the build report. */
 export interface DroppedAlias {
   id: string;
   alias: string;
@@ -218,9 +218,9 @@ export interface DroppedAlias {
 export interface WikidataJoin {
   /** Each Entity's Code system codes, Overlay code corrections applied. */
   codes: Map<string, Map<CodeSystem, SourcedCode>>;
-  /** The Aliases of each Country and Territory, from Wikidata and CLDR. */
+  /** The Aliases of each Country and Territory, from Wikidata, CLDR and the Overlay. */
   aliases: AliasSource[];
-  /** The Aliases the Alias filters dropped. */
+  /** The Aliases the Alias rules or the Overlay dropped. */
   droppedAliases: DroppedAlias[];
 }
 
@@ -237,6 +237,11 @@ function isName(alias: string): boolean {
 /** Whether every letter of an Alias is Latin script, as a multilingual (`mul`) one must be to read as English. */
 function isLatin(alias: string): boolean {
   return /^[\p{Script=Latin}\P{L}]*$/u.test(alias);
+}
+
+/** Keys an Overlay removal by Entity and match key, so it matches the Alias whatever its case or accents. */
+function removalKey(entity: string, alias: string): string {
+  return `${entity}\t${matchKey(alias)}`;
 }
 
 /** How many capital letters an Alias has, to choose between Aliases that differ only in case. */
@@ -456,6 +461,41 @@ export function joinWikidata({
   }
   const unlinked = (id: string, others: readonly string[]) =>
     others.filter((other) => other !== id && !sameAs.get(id)?.includes(other));
+  // Overlay removals take an Alias from the Sources before the shared-Alias check below, so removing a shared Alias
+  // from all but one Entity gives it back to that one (ADR-0013).
+  // Each one must match an Alias from the Sources that no rule drops, so a stale removal is noticed when upstream
+  // fixes the label.
+  const historicCountryIds = new Set(historicCountries.map(({ id }) => id));
+  /** Why an Overlay Alias entry's Entity can't hold Aliases from the Sources, or `undefined` when it can. */
+  const notAliasHolder = (label: string, entity: string) =>
+    historicCountryIds.has(entity)
+      ? `${label} is for the Historic country ${entity}; edit the Aliases listed on it instead`
+      : !entityNames.has(entity)
+        ? `${label} has a dangling Entity ${entity}`
+        : undefined;
+  const removals = new Map<
+    string,
+    { entity: string; alias: string; reason: string; matched: boolean }
+  >();
+  for (const { entity, alias, reason } of overlay.removedAliases) {
+    const label = `Overlay removal of ${alias}`;
+    const problem = notAliasHolder(label, entity);
+    const key = removalKey(entity, alias);
+    if (problem !== undefined) problems.push(problem);
+    else if (removals.has(key)) problems.push(`${label} from ${entity} is listed twice`);
+    else removals.set(key, { entity, alias, reason, matched: false });
+  }
+  // Overlay additions give a Country or Territory an Alias the Sources lack, such as one Wikidata dropped. They must
+  // pass the same rules, so the Overlay can't make an Input ambiguous either.
+  const additions = new Map<string, string[]>();
+  for (const { entity, alias } of overlay.addedAliases) {
+    const label = `Overlay Alias ${alias}`;
+    const problem = notAliasHolder(label, entity);
+    if (problem !== undefined) problems.push(problem);
+    else if (additions.get(entity)?.some((other) => matchKey(other) === matchKey(alias)))
+      problems.push(`${label} for ${entity} is listed twice`);
+    else append(additions, entity, alias);
+  }
   const aliases: AliasSource[] = [];
   const droppedAliases: DroppedAlias[] = [];
   for (const country of [...entityNames.keys()].sort()) {
@@ -474,16 +514,33 @@ export function joinWikidata({
       .filter((row) => item !== undefined && row.item === item)
       .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1))
       .map((row) => ({ ...row, source: `Wikidata ${item}` }));
-    for (const row of [...cldrRows, ...itemAliases]) {
+    const overlayRows = (additions.get(country) ?? []).map((alias) => ({
+      alias,
+      lang: "en" as const,
+      source: "Overlay",
+    }));
+    /** The match keys of the Overlay's additions, which a Source giving the same Alias makes stale. */
+    const added = new Map(overlayRows.map(({ alias }) => [matchKey(alias), alias]));
+    for (const row of [...overlayRows, ...cldrRows, ...itemAliases]) {
       const key = matchKey(row.alias);
-      if (keys.has(key)) continue;
+      if (keys.has(key)) {
+        if (row.source === "Overlay")
+          problems.push(`Overlay Alias ${row.alias} for ${country} is its Name`);
+        else if (added.has(key)) {
+          problems.push(
+            `Overlay Alias ${added.get(key)} for ${country} is also from ${row.source}, so it is no longer needed`,
+          );
+          added.delete(key);
+        }
+        continue;
+      }
       keys.add(key);
       // Rows that differ only in case, in any language, ship the one with the most capitals, ties going to the
       // order above, so the casing that ships doesn't depend on which variants upstream happens to keep. Case only,
       // not the whole match key, so an English spelling still wins on accents. The row that took the match key still
       // decides the script rule by its language, as casing never changes a script. A CLDR name ships as CLDR writes it.
       const { alias } =
-        row.source === "CLDR"
+        row.source === "CLDR" || row.source === "Overlay"
           ? row
           : itemAliases
               .filter((other) => other.alias.toLowerCase() === row.alias.toLowerCase())
@@ -501,17 +558,49 @@ export function joinWikidata({
             ? `a code of ${[...new Set(holders)].sort().join(" and ")}`
             : (historicNames.get(key) ??
               (named.length > 0 ? `the Name of ${named.sort().join(" and ")}` : undefined));
-      if (reason !== undefined) droppedAliases.push({ id: country, alias, reason });
+      const removal = removals.get(removalKey(country, row.alias));
+      if (removal !== undefined) removal.matched = true;
+      if (source === "Overlay") {
+        // A reviewer added it, so breaking a rule fails the build rather than quietly dropping it.
+        if (removal !== undefined)
+          problems.push(`Overlay Alias ${alias} for ${country} is also removed by the Overlay`);
+        else if (reason !== undefined)
+          problems.push(`Overlay Alias ${alias} for ${country} is ${reason}`);
+        else aliases.push({ id: country, alias, source });
+      } else if (reason !== undefined) {
+        if (removal !== undefined)
+          problems.push(
+            `Overlay removal of ${removal.alias} from ${country} matches an Alias already dropped as ${reason}, so it is no longer needed`,
+          );
+        droppedAliases.push({ id: country, alias, reason });
+      } else if (removal !== undefined)
+        droppedAliases.push({
+          id: country,
+          alias,
+          reason: `removed by the Overlay: ${removal.reason}`,
+        });
       else aliases.push({ id: country, alias, source });
     }
   }
 
+  for (const { entity, alias, matched } of removals.values()) {
+    if (!matched)
+      problems.push(
+        `Overlay removal of ${alias} from ${entity} matches no Alias from the Sources, so it is no longer needed`,
+      );
+  }
+
   const aliasHolders = new Map<string, string[]>();
   for (const { id, alias } of aliases) append(aliasHolders, matchKey(alias), id);
-  const unshared = aliases.filter(({ id, alias }) => {
+  const unshared = aliases.filter(({ id, alias, source }) => {
     const shared = unlinked(id, aliasHolders.get(matchKey(alias))!);
     if (shared.length === 0) return true;
-    droppedAliases.push({ id, alias, reason: `also an Alias of ${shared.sort().join(" and ")}` });
+    if (source === "Overlay")
+      problems.push(
+        `Overlay Alias ${alias} for ${id} is also an Alias of ${shared.sort().join(" and ")}`,
+      );
+    else
+      droppedAliases.push({ id, alias, reason: `also an Alias of ${shared.sort().join(" and ")}` });
     return false;
   });
 

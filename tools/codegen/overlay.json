@@ -562,5 +562,42 @@
       "codeSystems": ["ioc", "fifa"],
       "reason": "ISO 3166-1 has no Country entry for Kosovo (ISO 3166-2 lists it as the Serbian Subdivision RS-KM), but CLDR lists it as the region XK, and the IOC and FIFA both code it KOS as a peer of Countries (ADR-0012)"
     }
+  ],
+  "removedAliases": [
+    {
+      "entity": "AO",
+      "alias": "Ꜵ",
+      "reason": "a lone Latin ligature (U+A734), not a name, from a multilingual (mul) Wikidata alias"
+    },
+    {
+      "entity": "CD",
+      "alias": "Congo",
+      "reason": "ISO 3166's short name for CG, so CG keeps it rather than both losing it as a shared Alias (ADR-0013)"
+    },
+    {
+      "entity": "GR",
+      "alias": "el",
+      "reason": "the ISO 639-1 language code for Greek, not a name of the Country"
+    },
+    {
+      "entity": "LK",
+      "alias": "ce",
+      "reason": "a lowercase code (CE, Sri Lanka's former FIPS 10-4 code), not a name of the Country"
+    },
+    {
+      "entity": "LK",
+      "alias": "lke",
+      "reason": "a lowercase code-like label, not a name of the Country"
+    },
+    {
+      "entity": "MX",
+      "alias": "MXN",
+      "reason": "the ISO 4217 currency code of the Mexican peso, not a name of the Country"
+    },
+    {
+      "entity": "RE",
+      "alias": ".re",
+      "reason": "the country-code top-level domain of Réunion, not a name"
+    }
   ]
 }

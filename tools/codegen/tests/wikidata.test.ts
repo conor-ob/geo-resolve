@@ -599,33 +599,32 @@ test("a Wikidata Alias is dropped when it is another Entity's Name, unless a Sam
   expect(linked.aliases).toEqual({ PR: ["Porto Rico"] });
 });
 
+const congo: CldrFixture = {
+  regular: ["CD", "CG"],
+  codes: [
+    { type: "CD", numeric: "180", alpha3: "COD" },
+    { type: "CG", numeric: "178", alpha3: "COG" },
+  ],
+  names: [
+    { type: "CD", name: "Congo - Kinshasa" },
+    { type: "CG", name: "Congo - Brazzaville" },
+  ],
+};
+const congoAliases: WikidataFixture = {
+  items: [
+    { item: "Q974", alpha2: "CD" },
+    { item: "Q971", alpha2: "CG" },
+  ],
+  aliases: [
+    { item: "Q974", alias: "Congo", lang: "mul" },
+    { item: "Q974", alias: "DR Congo" },
+    { item: "Q971", alias: "Congo" },
+    { item: "Q971", alias: "Congo-Brazzaville" },
+  ],
+};
+
 test("a Wikidata Alias of more than one Entity is dropped from each, so it can't make an Input ambiguous", async () => {
-  const congo: CldrFixture = {
-    regular: ["CD", "CG"],
-    codes: [
-      { type: "CD", numeric: "180", alpha3: "COD" },
-      { type: "CG", numeric: "178", alpha3: "COG" },
-    ],
-    names: [
-      { type: "CD", name: "Congo - Kinshasa" },
-      { type: "CG", name: "Congo - Brazzaville" },
-    ],
-  };
-  const { aliases, report } = await buildWith(
-    {
-      items: [
-        { item: "Q974", alpha2: "CD" },
-        { item: "Q971", alpha2: "CG" },
-      ],
-      aliases: [
-        { item: "Q974", alias: "Congo", lang: "mul" },
-        { item: "Q974", alias: "DR Congo" },
-        { item: "Q971", alias: "Congo" },
-        { item: "Q971", alias: "Congo-Brazzaville" },
-      ],
-    },
-    { cldr: congo },
-  );
+  const { aliases, report } = await buildWith(congoAliases, { cldr: congo });
   expect(aliases).toEqual({ CD: ["DR Congo"], CG: ["Congo-Brazzaville"] });
   expect(report).toContain("| CD | Congo | also an Alias of CG |");
   expect(report).toContain("| CG | Congo | also an Alias of CD |");
@@ -699,4 +698,160 @@ test("a CLDR short English name is an Alias too, but other alt forms aren't", as
   );
   expect(aliases).toEqual({ BA: ["Bosnia"] });
   expect(report).toContain("| BA | Bosnia | CLDR |");
+});
+
+const greece: CldrFixture = {
+  regular: ["GR"],
+  codes: [{ type: "GR", numeric: "300", alpha3: "GRC" }],
+  names: [{ type: "GR", name: "Greece" }],
+};
+const greeceAliases: WikidataFixture = {
+  items: [{ item: "Q41", alpha2: "GR" }],
+  aliases: [
+    { item: "Q41", alias: "Hellas" },
+    { item: "Q41", alias: "el" },
+  ],
+};
+
+test("an Overlay removes an Alias from the Sources, and the report gives its reason", async () => {
+  const overlay = {
+    removedAliases: [{ entity: "GR", alias: "EL", reason: "the language code for Greek" }],
+  };
+  const { aliases, report } = await buildWith(greeceAliases, { cldr: greece, overlay });
+  expect(aliases).toEqual({ GR: ["Hellas"] });
+  expect(report).toContain("| GR | el | removed by the Overlay: the language code for Greek |");
+});
+
+test("an Overlay removing a shared Alias from one Entity gives it back to the other", async () => {
+  const overlay = {
+    removedAliases: [{ entity: "CD", alias: "Congo", reason: "ISO's short name for CG" }],
+  };
+  const { aliases, report } = await buildWith(congoAliases, { cldr: congo, overlay });
+  expect(aliases).toEqual({ CD: ["DR Congo"], CG: ["Congo", "Congo-Brazzaville"] });
+  expect(report).toContain("| CD | Congo | removed by the Overlay: ISO's short name for CG |");
+});
+
+const southernRhodesia = {
+  alpha4: "RHZW",
+  alpha2: "RH",
+  name: "Southern Rhodesia",
+  withdrawn: "1980",
+  successors: ["GR"],
+  aliases: ["Rhodesia"],
+  citation: "test",
+};
+
+test.each([
+  [
+    "a removal that matches no Alias from the Sources",
+    { removedAliases: [{ entity: "GR", alias: "Hellenic Republic", reason: "x" }] },
+    "Overlay removal of Hellenic Republic from GR matches no Alias from the Sources, so it is no longer needed",
+  ],
+  [
+    "a removal of an Alias a rule already drops",
+    { removedAliases: [{ entity: "GR", alias: "GRC", reason: "x" }] },
+    "Overlay removal of GRC from GR matches an Alias already dropped as a code of GR, so it is no longer needed",
+  ],
+  [
+    "a removal for an unknown Entity",
+    { removedAliases: [{ entity: "ZZ", alias: "el", reason: "x" }] },
+    "Overlay removal of el has a dangling Entity ZZ",
+  ],
+  [
+    "a removal for a Historic country",
+    {
+      historicCountries: [southernRhodesia],
+      removedAliases: [{ entity: "RHZW", alias: "Rhodesia", reason: "x" }],
+    },
+    "Overlay removal of Rhodesia is for the Historic country RHZW; edit the Aliases listed on it instead",
+  ],
+  [
+    "a removal listed twice",
+    {
+      removedAliases: [
+        { entity: "GR", alias: "el", reason: "x" },
+        { entity: "GR", alias: "EL", reason: "y" },
+      ],
+    },
+    "Overlay removal of EL from GR is listed twice",
+  ],
+  [
+    "a removal with no reason",
+    { removedAliases: [{ entity: "GR", alias: "el", reason: "" }] },
+    "must give a reason",
+  ],
+])("fails on an Overlay with %s", async (_, overlay, message) => {
+  await expect(
+    buildWith(
+      { ...greeceAliases, aliases: [...greeceAliases.aliases!, { item: "Q41", alias: "GRC" }] },
+      { cldr: greece, overlay },
+    ),
+  ).rejects.toThrow(message);
+});
+
+test("an Overlay adds an Alias to a current Country, and the report gives the Overlay as its Source", async () => {
+  const overlay = {
+    addedAliases: [{ entity: "GR", alias: "Hellenic Republic", reason: "Wikidata dropped it" }],
+  };
+  const { aliases, report } = await buildWith(greeceAliases, { cldr: greece, overlay });
+  expect(aliases).toEqual({ GR: ["Hellas", "Hellenic Republic", "el"] });
+  expect(report).toContain("| GR | Hellenic Republic | Overlay |");
+});
+
+test.each([
+  [
+    "an addition the Sources already give",
+    { addedAliases: [{ entity: "GR", alias: "HELLAS", reason: "x" }] },
+    "Overlay Alias HELLAS for GR is also from Wikidata Q41, so it is no longer needed",
+  ],
+  [
+    "an addition that is the Entity's Name",
+    { addedAliases: [{ entity: "GR", alias: "greece", reason: "x" }] },
+    "Overlay Alias greece for GR is its Name",
+  ],
+  [
+    "an addition that is a code",
+    { addedAliases: [{ entity: "GR", alias: "GRC", reason: "x" }] },
+    "Overlay Alias GRC for GR is a code of GR",
+  ],
+  [
+    "an addition that is another Entity's Alias",
+    {
+      addedAliases: [
+        { entity: "GR", alias: "Hellenic Republic", reason: "x" },
+        { entity: "AD", alias: "Hellenic Republic", reason: "x" },
+      ],
+    },
+    "Overlay Alias Hellenic Republic for AD is also an Alias of GR",
+  ],
+  [
+    "an addition that is also removed",
+    {
+      addedAliases: [{ entity: "GR", alias: "Hellenic Republic", reason: "x" }],
+      removedAliases: [{ entity: "GR", alias: "Hellenic Republic", reason: "x" }],
+    },
+    "Overlay Alias Hellenic Republic for GR is also removed by the Overlay",
+  ],
+  [
+    "an addition for an unknown Entity",
+    { addedAliases: [{ entity: "ZZ", alias: "Zed", reason: "x" }] },
+    "Overlay Alias Zed has a dangling Entity ZZ",
+  ],
+  [
+    "an addition for a Historic country",
+    {
+      historicCountries: [southernRhodesia],
+      addedAliases: [{ entity: "RHZW", alias: "Rhodesia", reason: "x" }],
+    },
+    "Overlay Alias Rhodesia is for the Historic country RHZW; edit the Aliases listed on it instead",
+  ],
+])("fails on an Overlay with %s", async (_, overlay, message) => {
+  const cldr: CldrFixture = {
+    regular: [...greece.regular, ...germanyAndAndorra.regular],
+    codes: [...greece.codes, ...germanyAndAndorra.codes],
+    names: [...greece.names, ...germanyAndAndorra.names],
+  };
+  await expect(
+    buildWith({ ...greeceAliases, aliases: greeceAliases.aliases }, { cldr, overlay }),
+  ).rejects.toThrow(message);
 });

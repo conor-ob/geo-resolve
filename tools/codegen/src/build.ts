@@ -210,6 +210,16 @@ const OverlayTerritorySchema = z.strictObject({
   reason: ReasonSchema,
 });
 
+/**
+ * An Alias the Overlay adds to or removes from the Country or Territory whose `id` is `entity`. Alpha-4 codes are admitted only
+ * so an entry for a Historic country, whose Aliases are listed on it, fails with a clear message.
+ */
+const OverlayAliasSchema = z.strictObject({
+  entity: z.union([Alpha2Schema, Alpha4Schema]),
+  alias: z.string().min(1, "must not be empty"),
+  reason: ReasonSchema,
+});
+
 const OverlaySchema = z.strictObject({
   historicCountries: z.array(OverlayHistoricCountrySchema).default([]),
   formerCodes: z.array(OverlayFormerCodeSchema).default([]),
@@ -219,6 +229,8 @@ const OverlaySchema = z.strictObject({
   codes: z.array(OverlayCodeSchema).default([]),
   fifaAssociations: z.array(OverlayFifaAssociationSchema).default([]),
   territories: z.array(OverlayTerritorySchema).default([]),
+  addedAliases: z.array(OverlayAliasSchema).default([]),
+  removedAliases: z.array(OverlayAliasSchema).default([]),
 });
 
 export type Overlay = z.infer<typeof OverlaySchema>;
