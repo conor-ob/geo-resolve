@@ -7,7 +7,7 @@
     "fetch-snapshots": "node src/cli.ts fetch",
     "build": "node src/cli.ts build",
     "compare-iso-codes": "node src/cli.ts compare-iso-codes",
-    "alias-changes": "node src/cli.ts alias-changes",
+    "data-update": "node src/cli.ts data-update",
     "typecheck": "tsc -p .",
     "test": "vp test run"
   },
