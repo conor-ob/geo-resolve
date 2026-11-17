@@ -45,6 +45,14 @@ jobs:
           git status --porcelain
           test -z "$(git status --porcelain)"
 
+  workflows:
+    name: Lint the GitHub Actions workflows
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      # actionlint, with shellcheck on every `run:` script
+      - uses: raven-actions/actionlint@v2.2.0
+
   iso-codes:
     name: Check data packs against ISO 3166
     runs-on: ubuntu-latest

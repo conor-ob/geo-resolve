@@ -35,7 +35,7 @@ jobs:
           node-version-file: .nvmrc
           cache: true
       - name: Fetch Snapshots from CLDR and Wikidata
-        run: vp run @geo-resolve/codegen#fetch
+        run: vp run @geo-resolve/codegen#fetch-snapshots
       - name: Keep main's Data packs, to compare their Aliases with the rebuilt ones
         run: cp -R packages/geo-resolve/src/data "$RUNNER_TEMP/data-before"
       - name: Rebuild Data packs from Snapshots
@@ -71,9 +71,9 @@ jobs:
           # None when the Aliases are flagged, so a maintainer chooses the bump.
           data_changes=$(git status --porcelain --untracked-files=all -- packages/geo-resolve/src/data | awk '{ print $NF }')
           if [ -n "$data_changes" ] && [ ! -s "$RUNNER_TEMP/alias-warning.md" ]; then
-            bump=minor
+            bump="minor"
             if ! echo "$data_changes" | grep -qv '\.aliases\.json$'; then
-              bump=patch
+              bump="patch"
             fi
             {
               echo "---"
