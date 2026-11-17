@@ -1,6 +1,6 @@
 # Aliases are not filtered by language of origin
 
-A Locale's Aliases are the labels Wikidata lists for the Entity in that Locale's language, whatever language they come from. English Aliases already hold endonyms people type in English text ("Danmark", "Sakartvelo", "Misr", "Kalaallit Nunaat") and names from other languages ("Birmania", "Giordania", "Camboya", "Danemark"). geo-resolve keeps both, and doesn't try to tell them apart.
+A Locale's Aliases are the labels Wikidata lists for the Entity in that Locale's language, whatever language they come from, together with CLDR's variant and short names (ADR-0014) and any the Overlay adds. English Aliases already hold endonyms people type in English text ("Danmark", "Sakartvelo", "Misr", "Kalaallit Nunaat") and names from other languages ("Birmania", "Giordania", "Camboya", "Danemark"). geo-resolve keeps both, and doesn't try to tell them apart.
 
 Aliases are dropped by rule only when they would do harm, the same rules in every Locale:
 
