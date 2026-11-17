@@ -32,6 +32,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AF | Afghanisthan | Wikidata Q889 |
 | AF | Afghaunistan | Wikidata Q889 |
 | AF | Afghaunistaun | Wikidata Q889 |
+| AG | A&B | Wikidata Q781 |
 | AG | Antigua and Barbuda | Wikidata Q781 |
 | AG | Antigua-Barbuda | Wikidata Q781 |
 | AG | Antigua–Barbuda | Wikidata Q781 |
@@ -41,6 +42,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AL | Republic of Albania | Wikidata Q222 |
 | AL | Republika Popullore Socialiste e Shqiperise | Wikidata Q222 |
 | AL | Republika Popullore e Shqiperise | Wikidata Q222 |
+| AL | Republika e Shqipërisë | Wikidata Q222 |
 | AL | Shqipërisë | Wikidata Q222 |
 | AM | Hayastan | Wikidata Q399 |
 | AM | Hayastani Hanrapetut’yun | Wikidata Q399 |
@@ -48,6 +50,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AM | Հայաստան | Wikidata Q399 |
 | AO | Ngola | Wikidata Q916 |
 | AO | Republic of Angola | Wikidata Q916 |
+| AO | Ꜵ | Wikidata Q916 |
 | AR | Argentine Republic | Wikidata Q414 |
 | AR | Republic of Argentina | Wikidata Q414 |
 | AR | Republica Argentina | Wikidata Q414 |
@@ -75,9 +78,11 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AX | Aaland | Wikidata Q5689 |
 | AX | Aaland Islands | Wikidata Q5689 |
 | AX | Ahvenanmaa | Wikidata Q5689 |
-| AX | Aland | Wikidata Q5689 |
 | AX | Aland Isles | Wikidata Q5689 |
+| AX | Åland | Wikidata Q5689 |
 | AX | Åland region | Wikidata Q5689 |
+| AZ | Azərbaycan | Wikidata Q227 |
+| AZ | Azərbaycan Respublikası | Wikidata Q227 |
 | AZ | Republic of Azerbaijan | Wikidata Q227 |
 | BA | B&H | Wikidata Q225 |
 | BA | Bosnia and Hercegovina | Wikidata Q225 |
@@ -92,6 +97,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BF | Republic of Burkina Faso | Wikidata Q965 |
 | BG | Bulgarian Republic | Wikidata Q219 |
 | BG | Republic of Bulgaria | Wikidata Q219 |
+| BH | Bahrein | Wikidata Q398 |
 | BH | Bahrein Islands | Wikidata Q398 |
 | BH | Dawlat al-Bahrain | Wikidata Q398 |
 | BH | Kingdom of Bahrain | Wikidata Q398 |
@@ -110,6 +116,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BL | Saint Barts | Wikidata Q25362 |
 | BL | Saint Bartz | Wikidata Q25362 |
 | BL | Saint-Barthélémy | Wikidata Q25362 |
+| BL | St Barth | Wikidata Q25362 |
 | BL | St barthelemy | Wikidata Q25362 |
 | BL | St barths | Wikidata Q25362 |
 | BL | St barts | Wikidata Q25362 |
@@ -123,6 +130,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BM | Barmudas | Wikidata Q23635 |
 | BM | Bermoothes | Wikidata Q23635 |
 | BM | Bermuda Islands | Wikidata Q23635 |
+| BM | Bermudas | Wikidata Q23635 |
 | BM | Bermudian Islands | Wikidata Q23635 |
 | BM | Colony of Bermuda | Wikidata Q23635 |
 | BM | Devil's Isles | Wikidata Q23635 |
@@ -132,8 +140,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BM | Summer's Isles | Wikidata Q23635 |
 | BM | Summers' Isles | Wikidata Q23635 |
 | BM | Territory of Bermuda | Wikidata Q23635 |
+| BM | The Somers Island | Wikidata Q23635 |
 | BM | The Somers Isles | Wikidata Q23635 |
 | BM | Virgineola | Wikidata Q23635 |
+| BN | Brunei Darussalam | Wikidata Q921 |
 | BN | Nation of Brunei, the Abode of Peace | Wikidata Q921 |
 | BN | Negara Brunei Darussalam | Wikidata Q921 |
 | BO | Bolivia (Plurinational State of) | Wikidata Q750 |
@@ -141,6 +151,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BO | Republic of Bolivia | Wikidata Q750 |
 | BQ | BES islands | Wikidata Q27561 |
 | BQ | Bonaire, Saint Eustatius and Saba | Wikidata Q27561 |
+| BR | Brasil | Wikidata Q155 |
 | BR | Federative Republic of Brazil | Wikidata Q155 |
 | BS | Bahama Islands | Wikidata Q778 |
 | BS | Bahamas, The | Wikidata Q778 |
@@ -162,15 +173,20 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CC | Cocos Islands | Wikidata Q36004 |
 | CC | Keeling Islands | Wikidata Q36004 |
 | CC | Territory of the Cocos (Keeling) Islands | Wikidata Q36004 |
+| CD | Congo | Wikidata Q974 |
 | CD | Congo (Kinshasa) | Wikidata Q974 |
+| CD | Congo-Kinshasa | Wikidata Q974 |
 | CD | D.R.C. | Wikidata Q974 |
 | CD | DR Congo | Wikidata Q974 |
+| CD | DR Kongo | Wikidata Q974 |
 | CD | DRC | Wikidata Q974 |
 | CD | Dem. Rep. Congo | Wikidata Q974 |
 | CD | Dem. Republic of Congo | Wikidata Q974 |
 | CD | Dem. Republic of the Congo | Wikidata Q974 |
 | CD | Democratic Republic of Congo | Wikidata Q974 |
 | CD | Democratic Republic of the Congo | Wikidata Q974 |
+| CD | Kongo-Kinshasa | Wikidata Q974 |
+| CF | CAR | Wikidata Q929 |
 | CF | Central Africa | Wikidata Q929 |
 | CG | Congo | Wikidata Q971 |
 | CG | Congo (Brazzaville) | Wikidata Q971 |
@@ -181,6 +197,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CG | Republic of the Congo | Wikidata Q971 |
 | CG | Republique du Congo | Wikidata Q971 |
 | CH | Confoederatio Helvetica | Wikidata Q39 |
+| CH | Schweizerische Eidgenossenschaft | Wikidata Q39 |
 | CH | Swiss | Wikidata Q39 |
 | CH | Swiss Confederation | Wikidata Q39 |
 | CI | Cote Ivoire | Wikidata Q1008 |
@@ -195,19 +212,23 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CK | Cook Group | Wikidata Q26988 |
 | CK | Hervey Islands | Wikidata Q26988 |
 | CL | Republic of Chile | Wikidata Q298 |
+| CL | República de Chile | Wikidata Q298 |
 | CM | Republic of Cameroon | Wikidata Q1009 |
 | CN | China PR | Wikidata Q148 |
 | CN | Communist China | Wikidata Q148 |
 | CN | P.R.C. | Wikidata Q148 |
 | CN | PR China | Wikidata Q148 |
+| CN | PRC | Wikidata Q148 |
 | CN | People's Republic of China | Wikidata Q148 |
 | CN | Red China | Wikidata Q148 |
 | CN | The PRC | Wikidata Q148 |
+| CN | Zhongguo | Wikidata Q148 |
 | CN | the People's Republic of China | Wikidata Q148 |
 | CO | Republic of Colombia | Wikidata Q739 |
 | CO | The Republic of Colombia | Wikidata Q739 |
 | CR | Republic of Costa Rica | Wikidata Q800 |
 | CU | Republic of Cuba | Wikidata Q241 |
+| CV | Cabo Verde | Wikidata Q1011 |
 | CV | Cape Verde Islands | Wikidata Q1011 |
 | CV | Republic of Cabo Verde | Wikidata Q1011 |
 | CV | Republic of Cape Verde | Wikidata Q1011 |
@@ -218,14 +239,17 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CW | Curaςao | Wikidata Q25279 |
 | CW | Curocao | Wikidata Q25279 |
 | CW | Island Territory of Curaçao | Wikidata Q25279 |
+| CW | Kòrsou | Wikidata Q25279 |
 | CX | Christmas Island, Other Territories | Wikidata Q31063 |
 | CX | Christmas Island, Other Territories, Australia | Wikidata Q31063 |
 | CX | Territory of Christmas Island | Wikidata Q31063 |
 | CY | Greek Administration of Southern Cyprus | Wikidata Q229 |
 | CY | Greek Cypriot State | Wikidata Q229 |
 | CY | Republic of Cyprus | Wikidata Q229 |
+| CZ | CZR | Wikidata Q213 |
 | CZ | Czech Republic | Wikidata Q213 |
 | CZ | the Czech Republic | Wikidata Q213 |
+| CZ | Česká republika | Wikidata Q213 |
 | DDDE | German Democratic Republic | Overlay |
 | DE | BRD | Wikidata Q183 |
 | DE | FRG | Wikidata Q183 |
@@ -234,6 +258,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | DJ | Jabuuti | Wikidata Q977 |
 | DJ | Jībūtī | Wikidata Q977 |
 | DJ | Republic of Djibouti | Wikidata Q977 |
+| DK | DEK | Wikidata Q35 |
 | DK | Danemark | Wikidata Q35 |
 | DK | Dania | Wikidata Q35 |
 | DK | Danmark | Wikidata Q35 |
@@ -244,6 +269,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | DM | The Commonwealth of Dominica | Wikidata Q784 |
 | DM | Wai'tu kubuli | Wikidata Q784 |
 | DM | Wai‘tu kubuli | Wikidata Q784 |
+| DO | DR | Wikidata Q786 |
 | DO | DomRep | Wikidata Q786 |
 | DO | Dominicana | Wikidata Q786 |
 | DO | RD | Wikidata Q786 |
@@ -254,7 +280,9 @@ Every Entity has one English Name, from the Source given for its Kind.
 | EC | Republic of Ecuador | Wikidata Q736 |
 | EC | Republic of Equator | Wikidata Q736 |
 | EC | Republic of the Equator | Wikidata Q736 |
+| EC | República del Ecuador | Wikidata Q736 |
 | EC | The Ecuadorian State | Wikidata Q736 |
+| EE | Eesti | Wikidata Q191 |
 | EE | Eesti Vabariik | Wikidata Q191 |
 | EE | Estland | Wikidata Q191 |
 | EE | Republic of Estonia | Wikidata Q191 |
@@ -276,6 +304,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FI | Republic of Finland | Wikidata Q33 |
 | FI | Republiken Finland | Wikidata Q33 |
 | FI | Suomen tasavalta | Wikidata Q33 |
+| FI | Suomi | Wikidata Q33 |
 | FJ | Fijī Gaṇarājya | Wikidata Q712 |
 | FJ | Matanitu Tugalala o Viti | Wikidata Q712 |
 | FJ | Republic of Fiji | Wikidata Q712 |
@@ -299,6 +328,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FO | Faeroyene | Wikidata Q4628 |
 | FO | Far Oer | Wikidata Q4628 |
 | FO | Fareo islands | Wikidata Q4628 |
+| FO | Faroe | Wikidata Q4628 |
 | FO | Faroe Island | Wikidata Q4628 |
 | FO | Faroe Isles | Wikidata Q4628 |
 | FO | Faroer | Wikidata Q4628 |
@@ -309,6 +339,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FO | Farre Is. | Wikidata Q4628 |
 | FO | Farre Isl. | Wikidata Q4628 |
 | FO | Farre Islands | Wikidata Q4628 |
+| FO | Feroe | Wikidata Q4628 |
 | FO | Foroyar | Wikidata Q4628 |
 | FO | Fær Øer | Wikidata Q4628 |
 | FO | Færeyjar | Wikidata Q4628 |
@@ -320,14 +351,24 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FO | Sheep Islands | Wikidata Q4628 |
 | FO | the Faeroe Islands | Wikidata Q4628 |
 | FO | the Faroe Islands | Wikidata Q4628 |
+| FR | Francia | Wikidata Q142 |
 | FR | French Republic | Wikidata Q142 |
+| FR | République française | Wikidata Q142 |
 | FXFR | France, Metropolitan | Overlay |
 | GA | Gabonese Republic | Wikidata Q1000 |
 | GA | Republique Gabonaise | Wikidata Q1000 |
+| GB | Britain | Wikidata Q145 |
 | GB | G B | Wikidata Q145 |
+| GB | G. B. | Wikidata Q145 |
+| GB | G. B. R. | Wikidata Q145 |
+| GB | G.B. | Wikidata Q145 |
+| GB | G.B.R. | Wikidata Q145 |
 | GB | Great Britain | Wikidata Q145 |
 | GB | Great Britain and Northern Ireland | Wikidata Q145 |
 | GB | U K | Wikidata Q145 |
+| GB | U. K. | Wikidata Q145 |
+| GB | U.K. | Wikidata Q145 |
+| GB | UK | Wikidata Q145 |
 | GB | United Kingdom of Great Britain and Northern Ireland | Wikidata Q145 |
 | GB | the UK | Wikidata Q145 |
 | GB | the United Kingdom | Wikidata Q145 |
@@ -339,14 +380,18 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GF | Guiana | Wikidata Q3769 |
 | GF | Guiana, France | Wikidata Q3769 |
 | GF | Guyane | Wikidata Q3769 |
+| GF | Guyane française | Wikidata Q3769 |
+| GG | Bailiwick of Guernsey | Wikidata Q25230 |
 | GG | Bailliage de Guernesey | Wikidata Q25230 |
 | GG | Bailliage dé Guernési | Wikidata Q25230 |
 | GG | GB-GSY | Wikidata Q25230 |
 | GG | GBG | Wikidata Q25230 |
 | GG | Giernési | Wikidata Q25230 |
 | GG | Great Britain Guernsey | Wikidata Q25230 |
+| GG | Guernesey | Wikidata Q25230 |
 | GG | Lisia | Wikidata Q25230 |
 | GG | XA-GG | Wikidata Q25230 |
+| GH | Republic of Ghana | Wikidata Q117 |
 | GL | Greenlandia | Wikidata Q223 |
 | GL | Groenland | Wikidata Q223 |
 | GL | Kalaallit Nunaat | Wikidata Q223 |
@@ -371,7 +416,9 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GS | South Georgia and the South Sandwich Islands | Wikidata Q35086 |
 | GS | South Sandwich Islands | Wikidata Q35086 |
 | GT | Republic of Guatemala | Wikidata Q774 |
+| GT | República de Guatemala | Wikidata Q774 |
 | GU | Guahan | Wikidata Q16635 |
+| GU | Guaján | Wikidata Q16635 |
 | GU | Guam (USA) | Wikidata Q16635 |
 | GU | Island of Guam | Wikidata Q16635 |
 | GU | Territory of Guam | Wikidata Q16635 |
@@ -399,9 +446,14 @@ Every Entity has one English Name, from the Source given for its Kind.
 | HT | Hayti | Wikidata Q790 |
 | HT | Republic of Haiti | Wikidata Q790 |
 | ID | Republic of Indonesia | Wikidata Q252 |
+| ID | Republik Indonesia | Wikidata Q252 |
+| IE | Hibernia | Wikidata Q27 |
 | IE | Irish Republic | Wikidata Q27 |
+| IE | Irlanda | Wikidata Q27 |
+| IE | Irlandia | Wikidata Q27 |
 | IE | Republic of Ireland | Wikidata Q27 |
 | IE | Southern Ireland | Wikidata Q27 |
+| IE | Éire | Wikidata Q27 |
 | IL | State of Israel | Wikidata Q801 |
 | IL | Yisrael | Wikidata Q801 |
 | IM | I. M. | Wikidata Q9676 |
@@ -414,6 +466,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | IM | Manx | Wikidata Q9676 |
 | IM | the Isle of Man | Wikidata Q9676 |
 | IN | Al Hind | Wikidata Q668 |
+| IN | Bharat | Wikidata Q668 |
 | IN | Bharat Ganarajya | Wikidata Q668 |
 | IN | Bharata | Wikidata Q668 |
 | IN | Bharatvarsh | Wikidata Q668 |
@@ -432,8 +485,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | IS | Isl. | Wikidata Q189 |
 | IS | Republic of Iceland | Wikidata Q189 |
 | IS | Ysland | Wikidata Q189 |
+| IT | Italia | Wikidata Q38 |
 | IT | Italian Republic | Wikidata Q38 |
 | IT | Republic of Italy | Wikidata Q38 |
+| JE | Bailiwick of Jersey | Wikidata Q785 |
 | JE | Bailliage de Jerri | Wikidata Q785 |
 | JE | Bailliage de Jersey | Wikidata Q785 |
 | JE | Balliwick of Jersey | Wikidata Q785 |
@@ -455,15 +510,20 @@ Every Entity has one English Name, from the Source given for its Kind.
 | JO | Yarden | Wikidata Q810 |
 | JP | Iapan | Wikidata Q17 |
 | JP | Iapon | Wikidata Q17 |
+| JP | JA | Wikidata Q17 |
+| JP | JAP | Wikidata Q17 |
 | JP | Land of Rising Sun | Wikidata Q17 |
 | JP | Land of the Rising Sun | Wikidata Q17 |
+| JP | Nihon | Wikidata Q17 |
 | JP | Nihon-koku | Wikidata Q17 |
+| JP | Nippon | Wikidata Q17 |
 | JP | Nippon-koku | Wikidata Q17 |
 | JP | State of Japan | Wikidata Q17 |
 | KE | Republic of Kenya | Wikidata Q114 |
 | KG | Kyrgyz Republic | Wikidata Q813 |
 | KH | Camboya | Wikidata Q424 |
 | KH | Campuchia | Wikidata Q424 |
+| KH | KKH | Wikidata Q424 |
 | KH | Kambodzha | Wikidata Q424 |
 | KH | Kamboja | Wikidata Q424 |
 | KH | Kampuchea | Wikidata Q424 |
@@ -491,12 +551,14 @@ Every Entity has one English Name, from the Source given for its Kind.
 | KP | DPRK | Wikidata Q423 |
 | KP | Democratic People's Republic of Korea | Wikidata Q423 |
 | KP | N. Korea | Wikidata Q423 |
+| KP | NK | Wikidata Q423 |
 | KR | Choson | Wikidata Q884 |
 | KR | Daehan Minguk | Wikidata Q884 |
 | KR | Daehanminguk | Wikidata Q884 |
 | KR | Hanguk | Wikidata Q884 |
 | KR | Korea (South) | Wikidata Q884 |
 | KR | Korea Republic | Wikidata Q884 |
+| KR | ROK | Wikidata Q884 |
 | KR | Rep. Korea | Wikidata Q884 |
 | KR | Republic of Korea | Wikidata Q884 |
 | KR | S. Korea | Wikidata Q884 |
@@ -519,6 +581,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | LI | FL | Wikidata Q347 |
 | LI | Principality of Liechtenstein | Wikidata Q347 |
 | LK | Ceylan | Wikidata Q854 |
+| LK | Ceylon | Wikidata Q854 |
 | LK | Democratic Socialist Republic of Sri Lanka | Wikidata Q854 |
 | LK | Lanka, Sri | Wikidata Q854 |
 | LK | Serendib | Wikidata Q854 |
@@ -530,8 +593,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | LR | Republic of Liberia | Wikidata Q1014 |
 | LS | Kingdom of Lesotho | Wikidata Q1013 |
 | LS | The Mountain Kingdom | Wikidata Q1013 |
+| LT | Lietuvos Respublika | Wikidata Q37 |
 | LT | Republic of Lithuania | Wikidata Q37 |
 | LU | Grand Duchy of Luxembourg | Wikidata Q32 |
+| LU | Luxemburg | Wikidata Q32 |
 | LV | Latveja | Wikidata Q211 |
 | LV | Latvejas Republika | Wikidata Q211 |
 | LV | Latvian Republic | Wikidata Q211 |
@@ -558,6 +623,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MD | Republica Moldova | Wikidata Q217 |
 | ME | Republic of Montenegro | Wikidata Q236 |
 | MF | Collectivity of Saint Martin | Wikidata Q126125 |
+| MF | Saint Martin | Wikidata Q126125 |
 | MF | Saint Martin (France) | Wikidata Q126125 |
 | MF | Saint Martin (French part) | Wikidata Q126125 |
 | MF | Saint-Martin | Wikidata Q126125 |
@@ -575,6 +641,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MK | Republic of Macedonia | Wikidata Q221 |
 | MK | Republic of North Macedonia | Wikidata Q221 |
 | ML | Republic of Mali | Wikidata Q912 |
+| MM | Birma | Wikidata Q836 |
 | MM | Birmania | Wikidata Q836 |
 | MM | Myanmar | Wikidata Q836 |
 | MM | Republic of the Union of Myanmar | Wikidata Q836 |
@@ -582,6 +649,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MN | Mongol State | Wikidata Q711 |
 | MN | State of Mongolia | Wikidata Q711 |
 | MO | Aomen | Wikidata Q14773 |
+| MO | Macao | Wikidata Q14773 |
 | MO | Macao S.A.R. | Wikidata Q14773 |
 | MO | Macao SAR | Wikidata Q14773 |
 | MO | Macao SAR, China | Wikidata Q14773 |
@@ -595,8 +663,8 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MP | CNMI | Wikidata Q16644 |
 | MP | Commonwealth of the Northern Maria Islands | Wikidata Q16644 |
 | MP | Commonwealth of the Northern Mariana Islands | Wikidata Q16644 |
-| MP | NMI | Wikidata Q16644 |
 | MP | Northern Marianas | Wikidata Q16644 |
+| MP | nmi | Wikidata Q16644 |
 | MP | the Northern Mariana Islands | Wikidata Q16644 |
 | MQ | Jouanacaëra | Wikidata Q17054 |
 | MQ | Madiana | Wikidata Q17054 |
@@ -633,18 +701,23 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MZ | Republic of Mozambique | Wikidata Q1029 |
 | MZ | República de Moçambique | Wikidata Q1029 |
 | NA | Republic of Namibia | Wikidata Q1030 |
+| NC | Kanaky | Wikidata Q33788 |
 | NC | New Cal | Wikidata Q33788 |
+| NC | Nouvelle-Calédonie | Wikidata Q33788 |
 | NC | Territory of New Caledonia and Dependencies | Wikidata Q33788 |
 | NE | Republic Niger | Wikidata Q1032 |
 | NE | Republic of Niger | Wikidata Q1032 |
 | NE | Republic of the Niger | Wikidata Q1032 |
 | NE | The Niger | Wikidata Q1032 |
+| NF | Norfolk | Wikidata Q31057 |
 | NF | Norfolk Island, Australia | Wikidata Q31057 |
 | NF | Norfolk Island, Other Territories | Wikidata Q31057 |
 | NF | Norfolk Island, Other Territories, Australia | Wikidata Q31057 |
 | NF | Territory of Norfolk Island | Wikidata Q31057 |
+| NG | FRN | Wikidata Q1033 |
 | NG | Federal Republic of Nigeria | Wikidata Q1033 |
 | NG | Naija | Wikidata Q1033 |
+| NG | RFN | Wikidata Q1033 |
 | NI | Republic of Nicaragua | Wikidata Q811 |
 | NL | Holland | Wikidata Q55 |
 | NL | Nederland | Wikidata Q55 |
@@ -685,8 +758,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | NR | Pleasant Island | Wikidata Q697 |
 | NR | Republic of Naoero | Wikidata Q697 |
 | NR | Republic of Nauru | Wikidata Q697 |
+| NZ | Aotearoa | Wikidata Q664 |
 | NZ | Aotearoa New Zealand | Wikidata Q664 |
 | NZ | Dominion of New Zealand | Wikidata Q664 |
+| NZ | Niu Tīreni | Wikidata Q664 |
 | OM | Sultanate of Oman | Wikidata Q842 |
 | OM | Uman | Wikidata Q842 |
 | PA | Republic of Panama | Wikidata Q804 |
@@ -696,6 +771,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PF | French Establishments in Oceania | Wikidata Q30971 |
 | PF | French Oceania | Wikidata Q30971 |
 | PF | French Settlements in Oceania | Wikidata Q30971 |
+| PF | Polynésie française | Wikidata Q30971 |
 | PF | Territory of French Polynesia | Wikidata Q30971 |
 | PG | Independent State of Papua New Guinea | Wikidata Q691 |
 | PH | Philippine Islands | Wikidata Q928 |
@@ -706,11 +782,15 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PK | Islamic Republic of Pakistan | Wikidata Q843 |
 | PK | Republic of Pakistan | Wikidata Q843 |
 | PK | Tây Hồi | Wikidata Q843 |
+| PL | Polonia | Wikidata Q36 |
 | PL | Republic of Poland | Wikidata Q36 |
 | PM | Saint Pierre & Miquelon | Wikidata Q34617 |
 | PM | Saint Pierre and Miquelon | Wikidata Q34617 |
+| PM | Saint Pierre et Miquelon | Wikidata Q34617 |
 | PM | Saint-Pierre & Miquelon | Wikidata Q34617 |
 | PM | Saint-Pierre and Miquelon | Wikidata Q34617 |
+| PM | Saint-Pierre et Miquelon | Wikidata Q34617 |
+| PM | Saint-Pierre-et-Miquelon | Wikidata Q34617 |
 | PM | St Pierre & Miquelon | Wikidata Q34617 |
 | PM | St Pierre and Miquelon | Wikidata Q34617 |
 | PM | St-Pierre & Miquelon | Wikidata Q34617 |
@@ -719,6 +799,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PM | St.-Pierre and Miquelon | Wikidata Q34617 |
 | PM | Territorial Collectivity of Saint Pierre and Miquelon | Wikidata Q34617 |
 | PN | Occas Island | Wikidata Q35672 |
+| PN | Pitcairn | Wikidata Q35672 |
 | PN | Pitcairn, Henderson, Ducie and Oeno Islands | Wikidata Q35672 |
 | PR | Borikén | Wikidata Q1183 |
 | PR | Borinquen | Wikidata Q1183 |
@@ -733,6 +814,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PS | Palestine | Wikidata Q219060 |
 | PS | State of Palestine | Wikidata Q219060 |
 | PT | Portuguese Republic | Wikidata Q45 |
+| PT | República Portuguesa | Wikidata Q45 |
 | PW | Belau | Wikidata Q695 |
 | PW | Peeloo | Wikidata Q695 |
 | PW | Pelew | Wikidata Q695 |
@@ -753,6 +835,8 @@ Every Entity has one English Name, from the Source given for its Kind.
 | RO | Roumania | Wikidata Q218 |
 | RO | Rumania | Wikidata Q218 |
 | RS | Republic of Serbia | Wikidata Q403 |
+| RS | Republika Srbija | Wikidata Q403 |
+| RU | RF | Wikidata Q159 |
 | RU | Russian Federation | Wikidata Q159 |
 | RW | Republic of Rwanda | Wikidata Q1037 |
 | RW | The Land of a Thousand Hills | Wikidata Q1037 |
@@ -773,11 +857,13 @@ Every Entity has one English Name, from the Source given for its Kind.
 | SG | Lion City | Wikidata Q334 |
 | SG | Republic of Singapore | Wikidata Q334 |
 | SG | S'pore | Wikidata Q334 |
+| SG | SIN | Wikidata Q334 |
 | SG | Singapore City | Wikidata Q334 |
 | SH | Saint Helena and Dependencies | Wikidata Q192184 |
 | SH | Saint Helena, Ascension and Tristan da Cunha | Wikidata Q192184 |
 | SH | Saint Helena, Ascension, and Tristan da Cunha | Wikidata Q192184 |
 | SI | Republic of Slovenia | Wikidata Q215 |
+| SI | Republika Slovenija | Wikidata Q215 |
 | SI | Slovenija | Wikidata Q215 |
 | SJ | Svalbard and Jan Mayen | Wikidata Q842829 |
 | SK | Slovak Republic | Wikidata Q214 |
@@ -803,6 +889,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | SX | Saint Martin (Dutch part) | Wikidata Q26273 |
 | SX | Sint Maarten (Dutch part) | Wikidata Q26273 |
 | SX | Sint Martin | Wikidata Q26273 |
+| SX | Sint-Maarten | Wikidata Q26273 |
 | SX | St Martin | Wikidata Q26273 |
 | SX | St. Maarten | Wikidata Q26273 |
 | SY | Syrian Arab Republic | Wikidata Q858 |
@@ -817,11 +904,13 @@ Every Entity has one English Name, from the Source given for its Kind.
 | TC | Turks and Caicos Islands | Wikidata Q18221 |
 | TD | Republic of Chad | Wikidata Q657 |
 | TF | French Southern Territories | Wikidata Q129003 |
+| TF | TAAF | Wikidata Q129003 |
 | TG | Togolese Republic | Wikidata Q945 |
 | TH | Kingdom of Siam | Wikidata Q869 |
 | TH | Kingdom of Thailand | Wikidata Q869 |
 | TH | Prathet Thai | Wikidata Q869 |
 | TH | Ratcha-anachak Thai | Wikidata Q869 |
+| TH | Siam | Wikidata Q869 |
 | TH | Thai | Wikidata Q869 |
 | TH | The Kingdom of Siam | Wikidata Q869 |
 | TH | The Kingdom of Thailand | Wikidata Q869 |
@@ -829,6 +918,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | TK | Tokelau Islands | Wikidata Q36823 |
 | TK | Union Islands | Wikidata Q36823 |
 | TL | Democratic Republic of Timor-Leste | Wikidata Q574 |
+| TL | Timor Leste | Wikidata Q574 |
 | TM | Turkmenia | Wikidata Q874 |
 | TN | Republic of Tunisia | Wikidata Q948 |
 | TN | Tunisian Republic | Wikidata Q948 |
@@ -869,11 +959,14 @@ Every Entity has one English Name, from the Source given for its Kind.
 | UM | USMOI | Wikidata Q16645 |
 | UM | United States Minor Outlying Islands | Wikidata Q16645 |
 | US | 'Murica | Wikidata Q30 |
+| US | EUA | Wikidata Q30 |
 | US | Merica | Wikidata Q30 |
 | US | Murica | Wikidata Q30 |
 | US | U. S. | Wikidata Q30 |
 | US | U. S. A. | Wikidata Q30 |
+| US | U.S. | Wikidata Q30 |
 | US | U.S. of America | Wikidata Q30 |
+| US | U.S.A. | Wikidata Q30 |
 | US | US of A | Wikidata Q30 |
 | US | US of America | Wikidata Q30 |
 | US | United States of America | Wikidata Q30 |
@@ -892,6 +985,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | UY | Oriental Republic of Uruguay | Wikidata Q77 |
 | UZ | Republic of Uzbekistan | Wikidata Q265 |
 | VA | Città del Vaticano | Wikidata Q237 |
+| VA | Civitas Vaticana | Wikidata Q237 |
 | VA | Holy See | Wikidata Q237 |
 | VA | Papal State | Wikidata Q237 |
 | VA | State of Vatican City | Wikidata Q237 |
@@ -910,14 +1004,18 @@ Every Entity has one English Name, from the Source given for its Kind.
 | VE | BR Venezuela | Wikidata Q717 |
 | VE | Bolivarian Republic of Venezuela | Wikidata Q717 |
 | VE | Republic of Venezuela | Wikidata Q717 |
+| VE | Vzla | Wikidata Q717 |
 | VG | B.V.I. | Wikidata Q25305 |
+| VG | BVI | Wikidata Q25305 |
 | VG | Virgin Islands of the United Kingdom | Wikidata Q25305 |
 | VG | Virgin Islands, United Kingdom | Wikidata Q25305 |
 | VI | American Virgin Islands | Wikidata Q11703 |
 | VI | US Virgin Islands | Wikidata Q11703 |
+| VI | USVI | Wikidata Q11703 |
 | VI | United States Virgin Islands | Wikidata Q11703 |
 | VI | Virgin Islands of the United States | Wikidata Q11703 |
 | VI | the United States Virgin Islands | Wikidata Q11703 |
+| VN | Cộng hòa Xã hội chủ nghĩa Việt Nam | Wikidata Q881 |
 | VN | SRV | Wikidata Q881 |
 | VN | Socialist Republic of Viet Nam | Wikidata Q881 |
 | VN | Socialist Republic of Vietnam | Wikidata Q881 |
@@ -925,6 +1023,8 @@ Every Entity has one English Name, from the Source given for its Kind.
 | VU | Republic of Vanuatu | Wikidata Q686 |
 | WF | Wallis and Futuna | Wikidata Q35555 |
 | WF | Wallis and Futuna Islands | Wikidata Q35555 |
+| WF | Wallis et Futuna | Wikidata Q35555 |
+| WF | Wallis-et-Futuna | Wikidata Q35555 |
 | WS | Independent State of Samoa | Wikidata Q683 |
 | WS | Western Samoa | Wikidata Q683 |
 | XK | KV | Wikidata Q1246 |
@@ -958,83 +1058,224 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 
 | Entity | Alias | Dropped as |
 | --- | --- | --- |
+| AD | AD | a code of AD |
+| AD | AND | a code of AD |
+| AE | ARE | a code of AE |
+| AE | UAE | a code of AE |
 | AE | ae | a code of AE |
+| AF | AF | a code of AF |
+| AF | AFG | a code of AF |
+| AG | AG | a code of AG |
+| AG | ANT | a code of AG and ANHH |
+| AG | ATG | a code of AG |
 | AI | AIA | a code of AI |
 | AI | ai | a code of AI and AIDJ |
+| AI | 🇦🇮 | not a name |
+| AL | AL | a code of AL |
+| AL | ALB | a code of AL |
+| AM | AM | a code of AM |
+| AM | ARM | a code of AM |
+| AO | AGO | a code of AO |
+| AO | ANG | a code of AO |
 | AO | ao | a code of AO |
+| AQ | AQ | a code of AQ |
+| AQ | ATA | a code of AQ |
+| AR | AR | a code of AR |
+| AR | ARG | a code of AR |
+| AS | ASA | a code of AS |
+| AS | ASM | a code of AS |
 | AS | ISO 3166-1:AS | not a name |
+| AS | US-AS | a code of US-AS |
 | AS | as | a code of AS |
+| AT | AT | a code of AT |
+| AT | AUT | a code of AT |
+| AU | AU | a code of AU |
+| AU | AUS | a code of AU |
+| AW | ARU | a code of AW |
 | AW | aw | a code of AW |
+| AX | ALA | a code of AX |
 | AX | ax | a code of AX |
+| AZ | AZ | a code of AZ |
 | AZ | AZE | a code of AZ |
+| BA | BiH | a code of BA |
 | BA | ba | a code of BA |
 | BB | BAR | a code of BB |
+| BB | BRB | a code of BB |
 | BB | bb | a code of BB |
+| BD | BAN | a code of BD |
+| BD | BGD | a code of BD |
 | BD | bd | a code of BD |
+| BE | BE | a code of BE |
+| BE | BEL | a code of BE |
+| BF | BFA | a code of BF |
 | BF | Republic of Upper Volta (-1984) | not a name |
 | BF | bf | a code of BF |
+| BG | BG | a code of BG |
+| BG | BGR | a code of BG |
+| BG | BUL | a code of BG |
+| BH | BAH | a code of BS |
+| BH | BHR | a code of BH |
 | BH | ISO 3166-1:BH | not a name |
 | BH | bh | a code of BH |
+| BI | BDI | a code of BI |
 | BI | bi | a code of BI |
+| BJ | BEN | a code of BJ |
+| BJ | BJ | a code of BJ |
+| BJ | Dahomey | the Name of the Historic country DYBJ |
+| BL | BL | a code of BL |
+| BL | BLM | a code of BL |
+| BL | FR-BL | a code of FR-BL |
+| BL | ISO 3166-1:BL | not a name |
 | BM | Atlantic/Bermuda | not a name |
+| BM | BMU | a code of BM |
 | BM | bm | a code of BM |
+| BN | BRN | a code of BH and BN |
+| BN | BRU | a code of BN |
 | BN | bn | a code of BN |
+| BO | BO | a code of BO |
+| BO | BOL | a code of BO |
+| BQ | BES | a code of BQ |
+| BQ | BQ | a code of BQ and BQAQ |
+| BR | BR | a code of BR |
+| BR | BRA | a code of BR |
+| BS | BAH | a code of BS |
+| BS | BHS | a code of BS |
 | BS | bs | a code of BS |
 | BT | BHU | a code of BT |
+| BV | BV | a code of BV |
+| BV | BVT | a code of BV |
+| BW | BOT | a code of BW |
+| BW | BWA | a code of BW |
 | BW | bw | a code of BW |
+| BY | BLR | a code of BY |
 | BY | by | a code of BY and BYAA |
+| BZ | BLZ | a code of BZ |
 | BZ | bz | a code of BZ |
 | CA | CA | a code of CA |
 | CA | CAN | a code of CA |
+| CC | CCK | a code of CC |
 | CC | cc | a code of CC |
 | CD | COD | a code of CD |
+| CD | Zaire | the Name of the Historic country ZRCD |
 | CD | cd | a code of CD |
+| CF | CAF | a code of CF |
 | CF | cf | a code of CF |
 | CG | CGO | a code of CG |
+| CG | COG | a code of CG |
 | CG | cg | a code of CG |
+| CH | CH | a code of CH |
+| CH | CHE | a code of CH |
+| CH | SUI | a code of CH |
+| CI | CIV | a code of CI |
 | CI | ci | a code of CI |
+| CK | COK | a code of CK |
 | CK | ck | a code of CK |
 | CL | CHI | a code of CL |
+| CL | CHL | a code of CL |
+| CL | CL | a code of CL |
+| CM | CAM | a code of KH |
+| CM | CM | a code of CM |
+| CM | CMR | a code of CM |
 | CN | cn | a code of CN |
+| CO | CO | a code of CO |
+| CO | COL | a code of CO |
+| CR | CRC | a code of CR |
+| CR | CRI | a code of CR |
 | CR | cr | a code of CR |
+| CU | CUB | a code of CU |
 | CU | cu | a code of CU |
+| CV | CPV | a code of CV |
+| CV | CV | a code of CV |
+| CW | CUW | a code of CW |
+| CW | CW | a code of CW |
 | CW | ISO 3166-1:CW | not a name |
+| CX | CXR | a code of CX |
 | CX | cx | a code of CX |
+| CY | CY | a code of CY |
+| CY | CYP | a code of CY |
+| CZ | CZ | a code of CZ |
+| CZ | CZE | a code of CZ |
 | DE | DE | a code of DE |
 | DE | DEU | a code of DE |
+| DE | GER | a code of DE |
+| DJ | DJI | a code of DJ |
 | DJ | dj | a code of DJ |
+| DK | DEN | a code of DK |
+| DK | DNK | a code of DK |
 | DK | TAN | a code of TZ |
 | DK | dk | a code of DK |
+| DM | DMA | a code of DM |
 | DM | DOM | a code of DO |
 | DM | dm | a code of DM |
+| DO | DO | a code of DO |
+| DO | DOM | a code of DO |
+| DZ | ALG | a code of DZ |
+| DZ | DZ | a code of DZ |
+| DZ | DZA | a code of DZ |
+| EC | EC | a code of EC |
+| EC | ECU | a code of EC |
+| EE | EST | a code of EE |
 | EE | ee | a code of EE |
+| EG | EG | a code of EG |
+| EG | EGY | a code of EG |
+| EH | EH | a code of EH |
+| EH | ESH | a code of EH |
+| ER | ERI | a code of ER |
+| ER | IRI | a code of IR |
 | ER | er | a code of ER |
+| ES | ES | a code of ES |
+| ES | ESP | a code of ES |
+| ET | ETH | a code of ET |
 | ET | et | a code of ET |
+| FI | FIN | a code of FI |
 | FI | fi | a code of FI |
+| FJ | FIJ | a code of FJ |
 | FJ | fj | a code of FJ |
 | FK | FK | a code of FK |
 | FK | FLK | a code of FK |
 | FM | FSM | a code of FM |
 | FM | fm | a code of FM |
 | FO | Atlantic/Faroe | not a name |
+| FO | FRO | a code of FO |
 | FO | fo | a code of FO |
 | FO | 🇫🇴 | not a name |
+| FR | FR | a code of FR |
+| FR | FRA | a code of FR |
 | GA | GAB | a code of GA |
 | GA | ga | a code of GA |
+| GB | GB | a code of GB |
+| GB | GBR | a code of GB |
+| GB | Британия | not in Latin script |
+| GD | GRD | a code of GD |
 | GD | GRN | a code of GD |
 | GD | gd | a code of GD |
+| GE | GE | a code of GE and GEHH |
+| GE | GEO | a code of GE |
+| GF | GF | a code of GF |
+| GF | GUF | a code of GF |
+| GG | GGY | a code of GG |
 | GG | gg | a code of GG |
+| GH | GH | a code of GH |
+| GH | GHA | a code of GH |
 | GI | Gib | a code of GI |
 | GI | gi | a code of GI |
 | GL | GL | a code of GL |
 | GL | GRL | a code of GL |
+| GM | GAM | a code of GM |
+| GM | GM | a code of GM |
+| GM | GMB | a code of GM |
+| GN | GIN | a code of GN |
 | GN | GUI | a code of GN |
 | GN | gn | a code of GN |
 | GP | 971 | not a name |
 | GP | gp | a code of GP |
 | GQ | GEQ | a code of GQ |
+| GQ | GNQ | a code of GQ |
 | GQ | gq | a code of GQ |
+| GR | GRC | a code of GR |
+| GR | GRE | a code of GR |
 | GR | gr | a code of GR |
+| GS | SGS | a code of GS |
 | GS | gs | a code of GS |
 | GT | GT | a code of GT |
 | GT | GTM | a code of GT |
@@ -1043,9 +1284,18 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | GU | ISO 3166-1:GU | not a name |
 | GU | US-GU | a code of US-GU |
 | GW | GBS | a code of GW |
+| GW | GNB | a code of GW |
 | GW | gw | a code of GW |
+| GY | GUY | a code of GY |
 | GY | gy | a code of GY |
+| HK | HK | a code of HK |
+| HK | HKG | a code of HK |
+| HK | 香港 | not in Latin script |
+| HK | 香港特別行政區 | not in Latin script |
+| HK | 香港特區 | not in Latin script |
+| HM | HMD | a code of HM |
 | HM | hm | a code of HM |
+| HN | HND | a code of HN |
 | HN | HON | a code of HN |
 | HN | hn | a code of HN |
 | HR | CRO | a code of HR |
@@ -1053,133 +1303,313 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | HR | HRV | a code of HR |
 | HR | RH | a code of RHZW |
 | HT | HAI | a code of HT |
+| HT | HTI | a code of HT |
 | HT | ht | a code of HT |
+| HU | HU | a code of HU |
+| HU | HUN | a code of HU |
+| ID | IDN | a code of ID |
+| ID | INA | a code of ID |
 | ID | id | a code of ID |
+| ID | 印尼 | not in Latin script |
+| IE | IE | a code of IE |
+| IE | IR | a code of IR |
+| IE | IRL | a code of IE |
 | IL | ISR | a code of IL |
 | IL | il | a code of IL |
+| IM | IM | a code of IM |
+| IM | IMN | a code of IM |
+| IM | 🇮🇲 | not a name |
+| IN | IN | a code of IN |
+| IN | IND | a code of IN |
+| IN | 印度共和国 | not in Latin script |
+| IN | 印度共和國 | not in Latin script |
+| IO | IOT | a code of IO |
 | IO | io | a code of IO |
 | IO | 🇮🇴 | not a name |
+| IQ | IRQ | a code of IQ |
 | IQ | iq | a code of IQ |
 | IR | IRI | a code of IR |
+| IR | IRN | a code of IR |
 | IR | ir | a code of IR |
+| IS | IS | a code of IS |
+| IS | ISL | a code of IS |
+| IT | IT | a code of IT |
+| IT | ITA | a code of IT |
+| JE | JEY | a code of JE |
 | JE | je | a code of JE |
+| JM | JAM | a code of JM |
+| JM | JM | a code of JM |
 | JO | ISO 3166-1:JO | not a name |
+| JO | JO | a code of JO |
+| JO | JOR | a code of JO |
+| JP | JP | a code of JP |
+| JP | JPN | a code of JP |
+| JP | 日本国 | not in Latin script |
+| JP | 日本國 | not in Latin script |
+| KE | KEN | a code of KE |
 | KE | ke | a code of KE |
+| KG | KGZ | a code of KG |
 | KG | kg | a code of KG |
+| KH | KHM | a code of KH |
 | KH | kh | a code of KH |
+| KI | KIR | a code of KI |
 | KI | ki | a code of KI |
+| KM | COM | a code of KM |
 | KM | km | a code of KM |
+| KN | KN | a code of KN |
+| KN | KNA | a code of KN |
+| KN | SKN | a code of KN |
+| KP | PRK | a code of KP |
 | KP | kp | a code of KP |
+| KR | KOR | a code of KR |
+| KR | KR | a code of KR |
+| KR | SK | a code of SK and SKIN |
+| KW | KUW | a code of KW |
+| KW | KWT | a code of KW |
 | KW | kw | a code of KW |
 | KY | CAY | a code of KY |
+| KY | CYM | a code of KY |
 | KY | ky | a code of KY |
+| KZ | KAZ | a code of KZ |
 | KZ | kz | a code of KZ |
+| LA | LAO | a code of LA |
 | LA | la | a code of LA |
+| LB | LBN | a code of LB |
 | LB | lb | a code of LB |
 | LC | lc | a code of LC |
 | LC | lca | a code of LC |
+| LI | LIE | a code of LI |
 | LI | li | a code of LI |
+| LK | LKA | a code of LK |
 | LK | SRI | a code of LK |
 | LK | lk | a code of LK |
+| LK | 錫蘭 | not in Latin script |
+| LR | LBR | a code of LR |
 | LR | lr | a code of LR |
 | LS | LES | a code of LS |
 | LS | ls | a code of LS |
+| LT | LR | a code of LR |
+| LT | LT | a code of LT |
+| LT | LTU | a code of LT |
+| LT | 🇱🇹 | not a name |
+| LU | LU | a code of LU |
+| LU | LUX | a code of LU |
+| LV | LAT | a code of LV |
+| LV | LVA | a code of LV |
 | LV | lv | a code of LV |
 | LY | LBA | a code of LY |
+| LY | LBY | a code of LY |
 | LY | ly | a code of LY |
+| MA | MA | a code of MA |
+| MA | MAR | a code of MA |
+| MC | MCO | a code of MC |
+| MC | MON | a code of MC |
 | MC | mc | a code of MC |
+| MD | MD | a code of MD |
+| MD | MDA | a code of MD |
+| ME | ME | a code of ME |
+| ME | MNE | a code of ME |
 | MF | FR-MF | a code of FR-MF |
+| MF | MAF | a code of MF |
 | MF | mf | a code of MF |
+| MG | MAD | a code of MG |
+| MG | MDG | a code of MG |
 | MG | mg | a code of MG |
+| MH | MHL | a code of MH |
 | MH | mh | a code of MH |
 | MK | MK | a code of MK |
 | MK | MKD | a code of MK |
+| ML | MLI | a code of ML |
 | ML | ml | a code of ML |
+| MM | BUR | a code of BF and BUMM |
+| MM | Burma | the Name of the Historic country BUMM |
 | MM | MM | a code of MM |
 | MM | MMR | a code of MM |
+| MM | MYA | a code of MM |
+| MN | MN | a code of MN |
+| MN | MNG | a code of MN |
+| MO | MAC | a code of MO |
+| MO | MO | a code of MO |
 | MP | ISO 3166-1:MP | not a name |
-| MP | MP | a code of MP |
+| MP | MNP | a code of MP |
 | MP | US-MP | a code of US-MP |
+| MP | mp | a code of MP |
+| MQ | MQ | a code of MQ |
+| MQ | MTQ | a code of MQ |
+| MR | MRT | a code of MR |
+| MR | MTN | a code of MR |
 | MR | mr | a code of MR |
-| MS | MS | a code of MS |
 | MS | MSR | a code of MS |
+| MS | ms | a code of MS |
+| MT | MLT | a code of MT |
+| MT | MT | a code of MT |
 | MU | MRI | a code of MU |
 | MU | MU | a code of MU |
 | MV | MDV | a code of MV |
 | MV | mv | a code of MV |
 | MW | MAW | a code of MW |
+| MW | MWI | a code of MW |
 | MW | mw | a code of MW |
+| MX | MEX | a code of MX |
 | MX | mx | a code of MX |
+| MY | MAS | a code of MY |
+| MY | MY | a code of MY |
+| MY | MYS | a code of MY |
+| MZ | MOZ | a code of MZ |
 | MZ | mz | a code of MZ |
+| NA | NAM | a code of NA |
 | NA | na | a code of NA |
+| NC | FR-NC | a code of FR-NC |
+| NC | NC | a code of NC |
+| NC | NCL | a code of NC |
 | NE | ne | a code of NE |
+| NF | NF | a code of NF |
+| NF | NFK | a code of NF |
+| NG | NG | a code of NG |
+| NG | NGA | a code of NG |
+| NG | NGR | a code of NG |
 | NI | NCA | a code of NI |
 | NI | NI | a code of NI |
 | NI | NIC | a code of NI |
+| NL | NED | a code of NL |
+| NL | NL | a code of NL |
+| NL | NLD | a code of NL |
+| NO | NO | a code of NO |
+| NO | NOR | a code of NO |
+| NP | NEP | a code of NP |
+| NP | NP | a code of NP |
+| NP | NPL | a code of NP |
+| NU | NIU | a code of NU |
 | NU | nu | a code of NU |
+| NZ | NZL | a code of NZ |
 | NZ | nz | a code of NZ |
 | OM | om | a code of OM |
 | OM | omn | a code of OM |
+| PA | PAN | a code of PA |
 | PA | pa | a code of PA |
 | PE | pe | a code of PE |
 | PE | per | a code of PE |
+| PF | PYF | a code of PF |
 | PF | pf | a code of PF |
+| PG | PNG | a code of PG |
+| PG | pg | a code of PG |
+| PH | PH | a code of PH |
+| PH | PHI | a code of PH |
+| PH | PHL | a code of PH |
+| PK | PAK | a code of PK |
 | PK | pk | a code of PK |
+| PL | PL | a code of PL |
+| PL | POL | a code of PL |
 | PM | FR-PM | a code of FR-PM |
+| PM | SPM | a code of PM |
 | PM | pm | a code of PM |
+| PN | PCN | a code of PN |
 | PN | pn | a code of PN |
+| PR | ISO 3166-1:PR | not a name |
+| PR | PR | a code of PR |
+| PR | PRI | a code of PR |
+| PR | PUR | a code of PR |
+| PR | US-PR | a code of US-PR |
 | PS | PSE | a code of PS |
 | PT | POR | a code of PT |
+| PT | PRT | a code of PT |
+| PT | PT | a code of PT |
+| PT | 🇵🇹 | not a name |
 | PW | pw | a code of PW |
+| PY | PAR | a code of PY |
+| PY | PRY | a code of PY |
+| PY | PY | a code of PY |
 | QA | qa | a code of QA |
 | QA | qat | a code of QA |
 | RE | ISO 3166-1:RE | not a name |
+| RE | REU | a code of RE |
 | RE | re | a code of RE |
+| RO | RO | a code of RO |
+| RO | ROU | a code of RO |
 | RS | RS | a code of RS |
+| RU | RU | a code of RU |
+| RU | RUS | a code of RU |
+| RU | РФ | not in Latin script |
+| RW | RW | a code of RW |
+| RW | RWA | a code of RW |
+| SA | KSA | a code of SA |
+| SA | SA | a code of SA |
+| SA | SAU | a code of SA |
 | SB | SOL | a code of SB |
 | SB | sb | a code of SB |
 | SC | SEY | a code of SC |
+| SC | SYC | a code of SC |
 | SC | sc | a code of SC |
 | SD | SUD | a code of SD |
 | SD | sd | a code of SD |
+| SE | SWE | a code of SE |
 | SE | se | a code of SE |
+| SG | SGP | a code of SG |
 | SG | sg | a code of SG |
+| SH | SH | a code of SH |
+| SH | SHN | a code of SH |
 | SI | si | a code of SI |
 | SI | slo | a code of SI |
 | SI | svn | a code of SI |
+| SJ | SJM | a code of SJ |
 | SJ | sj | a code of SJ |
 | SJ | 🇸🇯 | not a name |
 | SK | SK | a code of SK and SKIN |
+| SK | SR | a code of SR |
 | SK | SVK | a code of SK |
 | SL | SLE | a code of SL |
 | SL | sl | a code of SL |
+| SM | SMR | a code of SM |
 | SM | sm | a code of SM |
+| SN | SEN | a code of SN |
+| SN | SN | a code of SN |
+| SR | SUR | a code of SR |
 | SR | sr | a code of SR |
 | SS | SSD | a code of SS |
 | SS | ss | a code of SS |
+| ST | STP | a code of ST |
 | ST | st | a code of ST |
 | SV | ESA | a code of SV |
+| SV | SLV | a code of SV |
 | SV | sv | a code of SV |
 | SX | NL-SX | a code of NL-SX |
 | SX | SX | a code of SX |
 | SX | sxm | a code of SX |
+| SY | SY | a code of SY |
+| SY | SYR | a code of SY |
+| SZ | SWZ | a code of SZ |
 | SZ | sz | a code of SZ |
+| TC | TCA | a code of TC |
 | TC | tc | a code of TC |
 | TD | CHA | a code of TD |
 | TD | GUM | a code of GU |
+| TD | TCD | a code of TD |
 | TD | td | a code of TD |
+| TF | ATF | a code of FQHH and TF |
 | TF | tf | a code of TF |
+| TF | 🇹🇫 | not a name |
+| TG | TGO | a code of TG |
+| TG | TOG | a code of TG |
 | TG | tg | a code of TG |
+| TH | THA | a code of TH |
 | TH | th | a code of TH |
+| TJ | TJK | a code of TJ |
 | TJ | tj | a code of TJ |
+| TK | TKL | a code of TK |
 | TK | tk | a code of TK |
 | TL | East Timor | the Name of the Historic country TPTL |
 | TL | TL | a code of TL |
 | TM | TKM | a code of TM |
 | TM | tm | a code of TM |
+| TN | TUN | a code of TN |
 | TN | tn | a code of TN |
 | TO | TGA | a code of TO |
+| TO | TON | a code of TO |
 | TO | to | a code of TO |
+| TR | TR | a code of TR |
+| TR | TUR | a code of TR |
+| TT | TRI | a code of TT |
+| TT | TTO | a code of TT |
 | TT | tt | a code of TT |
 | TV | TUV | a code of TV |
 | TV | tv | a code of TV |
@@ -1187,31 +1617,68 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | TW | TWN | a code of TW |
 | TZ | tz | a code of TZ |
 | TZ | tza | a code of TZ |
+| UA | UA | a code of UA |
+| UA | UKR | a code of UA |
+| UA | 🇺🇦 | not a name |
 | UG | +256 | not a name |
+| UG | UGA | a code of UG |
 | UG | ug | a code of UG |
+| UM | ISO 3166-2:UM | not a name |
+| UM | UMI | a code of UM |
 | UM | US-UM | a code of US-UM |
 | UM | um | a code of UM |
+| US | US | a code of US |
+| US | USA | a code of US |
 | UY | URU | a code of UY |
+| UY | URY | a code of UY |
 | UY | uy | a code of UY |
+| UZ | UZ | a code of UZ |
+| UZ | UZB | a code of UZ |
+| VA | VA | a code of VA |
+| VA | VAT | a code of VA |
 | VC | vc | a code of VC |
 | VC | vct | a code of VC |
+| VE | VE | a code of VE |
+| VE | VEN | a code of VE |
 | VG | IVB | a code of VG |
+| VG | VGB | a code of VG |
 | VG | vg | a code of VG |
+| VI | ISV | a code of VI |
+| VI | US-VI | a code of US-VI |
+| VI | VI | a code of VI |
+| VI | VIR | a code of VI |
+| VI | Ⅵ | not a name |
 | VN | VIE | a code of VN |
 | VN | VN | a code of VN |
 | VN | VNM | a code of VN |
+| VN | 越南社会主义共和国 | not in Latin script |
+| VN | 越南社會主義共和國 | not in Latin script |
 | VU | VAN | a code of VU |
 | VU | vu | a code of VU |
 | VU | vut | a code of VU |
+| WF | WF | a code of WF |
+| WF | WLF | a code of WF |
 | WS | SAM | a code of WS |
 | WS | ws | a code of WS |
 | XK | KOS | a code of XK |
 | XK | XK | a code of XK |
+| XK | 🇽🇰 | not a name |
+| YE | YEM | a code of YE |
 | YE | ye | a code of YE |
+| YT | MYT | a code of YT |
+| YT | YT | a code of YT |
 | ZA | RSA | a code of ZA |
 | ZA | SA | a code of SA |
+| ZA | ZA | a code of ZA |
 | ZA | zaf | a code of ZA |
+| ZM | ZAM | a code of ZM |
+| ZM | ZM | a code of ZM |
+| ZM | ZMB | a code of ZM |
 | ZW | Southern Rhodesia | the Name of the Historic country RHZW |
+| ZW | ZIM | a code of ZW |
+| ZW | ZW | a code of ZW |
+| ZW | ZWE | a code of ZW |
+| ZW | 🇿🇼 | not a name |
 
 ## Code system codes
 

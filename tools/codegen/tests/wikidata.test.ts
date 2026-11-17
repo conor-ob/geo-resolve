@@ -453,3 +453,46 @@ test("a Wikidata Alias that isn't a name, such as a flag, a time zone or a calli
   expect(aliases).toEqual({ DE: ["Bundesrepublik Deutschland", "Deutschland (BRD)"] });
   expect(report).toContain("| DE | Europe/Berlin | not a name |");
 });
+
+test("multilingual (mul) Wikidata labels and aliases become Aliases, except those not in Latin script", async () => {
+  const vietnam: CldrFixture = {
+    regular: ["VN"],
+    codes: [{ type: "VN", numeric: "704", alpha3: "VNM" }],
+    names: [{ type: "VN", name: "Vietnam" }],
+  };
+  const { aliases, report } = await buildWith(
+    {
+      items: [{ item: "Q881", alpha2: "VN" }],
+      aliases: [
+        { item: "Q881", alias: "Vietnam" },
+        { item: "Q881", alias: "Viet Nam", lang: "mul" },
+        { item: "Q881", alias: "Việt Nam", lang: "mul" },
+        { item: "Q881", alias: "Socialist Republic of Vietnam" },
+        { item: "Q881", alias: "Socialist Republic of Vietnam", lang: "mul" },
+        { item: "Q881", alias: "越南社會主義共和國", lang: "mul" },
+      ],
+    },
+    { cldr: vietnam },
+  );
+  expect(aliases).toEqual({ VN: ["Socialist Republic of Vietnam", "Viet Nam"] });
+  expect(report).toContain("| VN | 越南社會主義共和國 | not in Latin script |");
+});
+
+test("an English Wikidata Alias keeps its spelling over a multilingual (mul) one with the same match key", async () => {
+  const zambia: CldrFixture = {
+    regular: ["ZM"],
+    codes: [{ type: "ZM", numeric: "894", alpha3: "ZMB" }],
+    names: [{ type: "ZM", name: "Zambia" }],
+  };
+  const { aliases } = await buildWith(
+    {
+      items: [{ item: "Q953", alpha2: "ZM" }],
+      aliases: [
+        { item: "Q953", alias: "Zed" },
+        { item: "Q953", alias: "ZED", lang: "mul" },
+      ],
+    },
+    { cldr: zambia },
+  );
+  expect(aliases).toEqual({ ZM: ["Zed"] });
+});
