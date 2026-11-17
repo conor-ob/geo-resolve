@@ -545,3 +545,88 @@ test("an English Wikidata Alias outside Latin script still ships when a multilin
   );
   expect(aliases).toEqual({ GR: ["ΕΛΛΆΔΑ"] });
 });
+
+test("a Wikidata Alias is dropped when it is another Entity's Name, unless a Same-as link joins the two", async () => {
+  const unitedStates: CldrFixture = {
+    regular: ["PR", "US"],
+    codes: [
+      { type: "PR", numeric: "630", alpha3: "PRI" },
+      { type: "US", numeric: "840", alpha3: "USA" },
+    ],
+    names: [
+      { type: "PR", name: "Puerto Rico" },
+      { type: "US", name: "United States" },
+    ],
+    subdivisions: {
+      regular: ["usca", "uspr"],
+      containment: [{ type: "US", contains: ["usca", "uspr"] }],
+      names: [
+        { type: "usca", name: "California" },
+        { type: "uspr", name: "Puerto Rico" },
+      ],
+    },
+  };
+  const wikidata: WikidataFixture = {
+    items: [
+      { item: "Q1183", alpha2: "PR" },
+      { item: "Q30", alpha2: "US" },
+    ],
+    aliases: [
+      { item: "Q30", alias: "California" },
+      { item: "Q30", alias: "puerto rico" },
+      { item: "Q30", alias: "USA" },
+      { item: "Q30", alias: "America" },
+    ],
+  };
+  const { aliases, report } = await buildWith(wikidata, { cldr: unitedStates });
+  expect(aliases).toEqual({ US: ["America"] });
+  expect(report).toContain("| US | California | the Name of US-CA |");
+  expect(report).toContain("| US | puerto rico | the Name of PR and US-PR |");
+
+  const overlay = {
+    sameAs: [{ entities: ["PR", "US-PR"], citation: "test" }],
+  };
+  const linked = await buildWith(
+    {
+      ...wikidata,
+      aliases: [
+        { item: "Q1183", alias: "Puerto Rico" },
+        { item: "Q1183", alias: "Porto Rico" },
+      ],
+    },
+    { cldr: unitedStates, overlay },
+  );
+  expect(linked.aliases).toEqual({ PR: ["Porto Rico"] });
+});
+
+test("a Wikidata Alias of more than one Entity is dropped from each, so it can't make an Input ambiguous", async () => {
+  const congo: CldrFixture = {
+    regular: ["CD", "CG"],
+    codes: [
+      { type: "CD", numeric: "180", alpha3: "COD" },
+      { type: "CG", numeric: "178", alpha3: "COG" },
+    ],
+    names: [
+      { type: "CD", name: "Congo - Kinshasa" },
+      { type: "CG", name: "Congo - Brazzaville" },
+    ],
+  };
+  const { aliases, report } = await buildWith(
+    {
+      items: [
+        { item: "Q974", alpha2: "CD" },
+        { item: "Q971", alpha2: "CG" },
+      ],
+      aliases: [
+        { item: "Q974", alias: "Congo", lang: "mul" },
+        { item: "Q974", alias: "DR Congo" },
+        { item: "Q971", alias: "Congo" },
+        { item: "Q971", alias: "Congo-Brazzaville" },
+      ],
+    },
+    { cldr: congo },
+  );
+  expect(aliases).toEqual({ CD: ["DR Congo"], CG: ["Congo-Brazzaville"] });
+  expect(report).toContain("| CD | Congo | also an Alias of CG |");
+  expect(report).toContain("| CG | Congo | also an Alias of CD |");
+});
