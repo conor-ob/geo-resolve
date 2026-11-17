@@ -1,4 +1,5 @@
 import { fileURLToPath } from "node:url";
+import { checkAliasChanges } from "./alias-changes.ts";
 import { build } from "./build.ts";
 import { fetchSnapshots } from "./fetch.ts";
 import { compareWithIsoCodes, fetchIsoCodes } from "./iso-codes.ts";
@@ -14,7 +15,19 @@ if (command === "fetch") await fetchSnapshots({ sourcesDir });
 else if (command === "build") await build({ sourcesDir, overlayPath, outDir, reportPath });
 else if (command === "compare-iso-codes")
   await compareWithIsoCodes({ dataDir: outDir, isoCodes: await fetchIsoCodes(), allowlistPath });
-else {
-  console.error("Usage: node src/cli.ts <fetch|build|compare-iso-codes>");
+else if (command === "alias-changes" && process.argv.length === 5) {
+  const [beforeDir, warningPath] = process.argv.slice(3) as [string, string];
+  const { added, removed, flagged } = await checkAliasChanges({
+    beforeDir,
+    afterDir: outDir,
+    warningPath,
+  });
+  console.log(
+    `${added.length} Aliases added, ${removed.length} removed${flagged ? `: flagged, see ${warningPath}` : ""}`,
+  );
+} else {
+  console.error(
+    "Usage: node src/cli.ts <fetch|build|compare-iso-codes|alias-changes <before-dir> <warning-path>>",
+  );
   process.exitCode = 1;
 }

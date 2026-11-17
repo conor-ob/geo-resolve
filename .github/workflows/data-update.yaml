@@ -22,6 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BRANCH: chore/data-update
+      ALIAS_LABEL: alias-removals
       TITLE: "chore(data): update snapshots from cldr and wikidata"
       GH_TOKEN: ${{ github.token }}
     steps:
@@ -35,8 +36,15 @@ jobs:
           cache: true
       - name: Fetch Snapshots from CLDR and Wikidata
         run: vp run @geo-resolve/codegen#fetch
+      - name: Keep main's Data packs, to compare their Aliases with the rebuilt ones
+        run: cp -R packages/geo-resolve/src/data "$RUNNER_TEMP/data-before"
       - name: Rebuild Data packs from Snapshots
         run: vp run @geo-resolve/codegen#build
+      # Writes alias-warning.md only when a run removes more than ALIAS_REMOVAL_THRESHOLD (in
+      # tools/codegen/src/alias-changes.ts) Aliases more than it adds: much more likely an upstream or query artefact
+      # than a correction
+      - name: Check for a large one-sided removal of Aliases
+        run: vp run @geo-resolve/codegen#alias-changes "$RUNNER_TEMP/data-before" "$RUNNER_TEMP/alias-warning.md"
       - name: Commit the changes to the data-update branch if the Snapshots changed
         id: commit
         run: |
@@ -46,9 +54,10 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # A changeset, so merging releases the new data (ADR-0007): patch when only Aliases changed, otherwise minor
+          # A changeset, so merging releases the new data (ADR-0007): patch when only Aliases changed, otherwise minor.
+          # None when the Aliases are flagged, so a maintainer chooses the bump.
           data_changes=$(git status --porcelain --untracked-files=all -- packages/geo-resolve/src/data | awk '{ print $NF }')
-          if [ -n "$data_changes" ]; then
+          if [ -n "$data_changes" ] && [ ! -s "$RUNNER_TEMP/alias-warning.md" ]; then
             bump=minor
             if ! echo "$data_changes" | grep -qv '\.aliases\.json$'; then
               bump=patch
@@ -76,8 +85,15 @@ jobs:
         run: |
           body="$RUNNER_TEMP/body.md"
           diff="$RUNNER_TEMP/build-report.diff"
+          warning="$RUNNER_TEMP/alias-warning.md"
           git diff HEAD~1 -- tools/codegen/build-report.md > "$diff"
           {
+            if [ -s "$warning" ]; then
+              cat "$warning"
+              echo ">"
+              echo "> So this PR adds no changeset: a maintainer needs to choose the bump under ADR-0007 and add a changeset to this branch just before merging, since each run rebuilds the branch from main."
+              echo
+            fi
             echo "The weekly data update (ADR-0008) found upstream changes in the Snapshots. Review the changes before merging."
             echo
             echo "This branch is rebuilt from main on every run, so put any Overlay or allowlist fixes in a separate PR."
@@ -91,7 +107,7 @@ jobs:
             if [ ! -s "$diff" ]; then
               echo "The build report is unchanged."
             # GitHub caps a PR body at 65536 characters
-            elif [ "$(wc -c < "$diff")" -gt 60000 ]; then
+            elif [ "$(wc -c < "$diff")" -gt $((60000 - $(cat "$warning" 2>/dev/null | wc -c))) ]; then
               echo "The diff is too long to show here; see \`tools/codegen/build-report.md\` in the changed files."
             else
               echo '````diff'
@@ -103,7 +119,14 @@ jobs:
           if [ -n "$pr" ]; then
             gh pr edit "$pr" --body-file "$body"
           else
-            gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body"
+            pr=$(gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body")
+          fi
+          if [ -s "$warning" ]; then
+            gh label create "$ALIAS_LABEL" --force --color D93F0B --description "A data update that removes many more Aliases than it adds"
+            gh pr edit "$pr" --add-label "$ALIAS_LABEL"
+          # An earlier run on this PR may have flagged it
+          elif gh pr view "$pr" --json labels --jq '.labels[].name' | grep -qx "$ALIAS_LABEL"; then
+            gh pr edit "$pr" --remove-label "$ALIAS_LABEL"
           fi
       - name: Run CI on the PR branch
         if: steps.commit.outputs.pushed == 'true'
