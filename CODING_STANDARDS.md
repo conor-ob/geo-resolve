@@ -12,7 +12,7 @@ Judgement calls a reviewer checks in every diff. Anything a tool can check lives
 - Every file codegen reads is parsed with a zod schema named `…Schema`, never cast.
 - `build` collects every problem into its `problems` list and fails once at the end, so one run reports them all.
 - Every Overlay entry must still change what the Sources give; a stale entry is a problem, so upstream fixes are noticed.
-- Logic shared with `packages/geo-resolve` (normalising an Input, what an Input matches) is reached through the package's public interface, never copied.
+- Logic shared with `packages/geo-resolve` (normalising an Input, what an Input matches) is imported from the package, never copied: through its public interface, or its own modules re-exported by `tools/codegen/src/package.ts`.
 - Logic in a GitHub Actions workflow beyond a one-line command lives in a `tools/codegen` command with a Vitest test; the workflow only runs it.
 
 ## Style
