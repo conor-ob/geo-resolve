@@ -137,13 +137,16 @@ export const ItemIdSchema = z.string().regex(/^Q\d+$/, "must be a Wikidata item 
 /** The FIFA association properties that say which area it covers, most specific first. */
 export const COVERAGE_PROPERTIES = ["P1001", "P2541", "P17"] as const;
 
+/** The languages Aliases are read in, English first, so its spelling wins over a multilingual (`mul`) one. */
+export const ALIAS_LANGUAGES = ["en", "mul"] as const;
+
 /** The Wikidata Snapshots, validated and with item URIs shortened to ids such as `Q183`. */
 export interface Wikidata {
   /** Items holding an Alpha-2 code, with whether that statement is deprecated or the item or statement has ended. */
   items: { item: string; alpha2: string; current: boolean }[];
   ioc: { item: string; ioc: string }[];
   /** Labels and aliases, with whether each is English (`en`) or multilingual (`mul`). */
-  aliases: { item: string; alias: string; lang: "en" | "mul" }[];
+  aliases: { item: string; alias: string; lang: (typeof ALIAS_LANGUAGES)[number] }[];
   fifa: {
     association: string;
     fifa: string;
@@ -175,7 +178,7 @@ export async function readWikidata(sourcesDir: string): Promise<Wikidata> {
     aliases: await readRows(
       sourcesDir,
       "aliases",
-      z.object({ item: ItemIdSchema, alias: z.string(), lang: z.enum(["en", "mul"]) }),
+      z.object({ item: ItemIdSchema, alias: z.string(), lang: z.enum(ALIAS_LANGUAGES) }),
     ),
     fifa: await readRows(
       sourcesDir,
@@ -434,12 +437,11 @@ export function joinWikidata({
   const droppedAliases: DroppedAlias[] = [];
   for (const [country, item] of [...countryItems].sort(([a], [b]) => (a < b ? -1 : 1))) {
     const keys = new Set([matchKey(entityNames.get(country)!)]);
-    // English rows come first, so an English spelling wins over a multilingual one with the same match key.
+    // Rows in the language ALIAS_LANGUAGES ranks first win over others with the same match key.
+    const rank = (lang: (typeof ALIAS_LANGUAGES)[number]) => ALIAS_LANGUAGES.indexOf(lang);
     const itemAliases = wikidata.aliases
       .filter((row) => row.item === item)
-      .sort((a, b) =>
-        a.lang !== b.lang ? (a.lang < b.lang ? -1 : 1) : a.alias < b.alias ? -1 : 1,
-      );
+      .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1));
     for (const { alias, lang } of itemAliases) {
       const key = matchKey(alias);
       if (keys.has(key)) continue;
