@@ -1,31 +1,19 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
-import type {
-  Country,
-  HistoricCountry,
-  KnownCodeSystem,
-  Subdivision,
-  Territory,
-} from "geo-resolve";
+import type { Country, HistoricCountry, Subdivision, Territory } from "geo-resolve";
 import { z } from "zod";
-import {
-  CODE_SYSTEM_KEYS,
-  CodeSystemCodeSchema,
-  codeSystemNames,
-  CodeSystemSchema,
-  type CodeSystem,
-} from "./code-systems.ts";
+import { CODE_SYSTEM_KEYS, codeSystemNames } from "./code-systems.ts";
 import { append } from "./lists.ts";
+import { linkSameAs, readOverlay } from "./overlay.ts";
 import { buildReport, GENERATED, type FormerCodeScheme, type FormerCodeSource } from "./report.ts";
 import {
-  ItemIdSchema,
-  joinWikidata,
-  matchKey,
-  readWikidata,
-  type AliasSource,
-  type WikidataSnapshot,
-} from "./wikidata.ts";
+  CountrySchema,
+  HistoricCountrySchema,
+  SubdivisionSchema,
+  TerritorySchema,
+} from "./schemas.ts";
+import { joinWikidata, matchKey, readWikidata, type AliasSource } from "./wikidata.ts";
 
 export interface BuildOptions {
   /** Directory holding the Snapshots written by `fetch`. */
@@ -36,209 +24,6 @@ export interface BuildOptions {
   outDir: string;
   /** Where to write the build report, which isn't shipped. Omitted, none is written. */
   reportPath?: string;
-}
-
-const Alpha2Schema = z.string().regex(/^[A-Z]{2}$/, "must be an Alpha-2 code");
-const Alpha3Schema = z.string().regex(/^[A-Z]{3}$/, "must be an Alpha-3 code");
-const NumericSchema = z.string().regex(/^\d{3}$/, "must be a three-digit Numeric code");
-
-/** An Entity's codes in non-ISO Code systems, named for their Code system (ADR-0003). */
-const CodesSchema = z.partialRecord(CodeSystemSchema, CodeSystemCodeSchema);
-
-/** The `id`s of the Entities an Entity is joined to by Same-as links. */
-const SameAsSchema = z.array(z.string()).readonly().optional();
-
-const CountrySchema = z.strictObject({
-  kind: z.literal("country"),
-  id: Alpha2Schema,
-  alpha2: Alpha2Schema,
-  alpha3: Alpha3Schema,
-  numeric: NumericSchema,
-  name: z.string().min(1, "must not be empty"),
-  codes: CodesSchema.optional(),
-  sameAs: SameAsSchema,
-});
-
-/** True only when `A` and `B` are identical, including which fields are optional. */
-type Exactly<A, B> =
-  (<T>() => T extends A ? 1 : 2) extends <T>() => T extends B ? 1 : 2 ? true : false;
-
-const SubdivisionCodeSchema = z
-  .string()
-  .regex(/^[A-Z]{2}-[A-Z0-9]{1,3}$/, "must be a Subdivision code");
-
-const SubdivisionSchema = z.strictObject({
-  kind: z.literal("subdivision"),
-  id: SubdivisionCodeSchema,
-  code: SubdivisionCodeSchema,
-  country: Alpha2Schema,
-  parent: z.union([Alpha2Schema, SubdivisionCodeSchema]),
-  name: z.string().min(1, "must not be empty"),
-  codes: CodesSchema.optional(),
-  sameAs: SameAsSchema,
-});
-
-/** True for a real date written as `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, so `2006-13-45` is rejected. */
-function isIso8601Date(value: string): boolean {
-  if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(value)) return false;
-  const [year, month = "01", day = "01"] = value.split("-");
-  const date = new Date(`${year}-${month}-${day}T00:00:00Z`);
-  return !Number.isNaN(date.getTime()) && date.toISOString().startsWith(`${year}-${month}-${day}`);
-}
-
-/** A user-assigned ISO 3166-1 code, which ISO never assigns itself, so it can't collide with a Country (ADR-0012). */
-const UserAssignedCodeSchema = z.string().regex(/^X[A-Z]$/, "must be a user-assigned code, XA–XZ");
-
-const TerritorySchema = z.strictObject({
-  kind: z.literal("territory"),
-  id: UserAssignedCodeSchema,
-  name: z.string().min(1, "must not be empty"),
-  codes: CodesSchema,
-  sameAs: SameAsSchema,
-});
-
-const Alpha4Schema = z.string().regex(/^[A-Z]{4}$/, "must be an Alpha-4 code");
-
-const HistoricCountrySchema = z.strictObject({
-  kind: z.literal("historic-country"),
-  id: Alpha4Schema,
-  alpha4: Alpha4Schema,
-  alpha2: Alpha2Schema,
-  alpha3: Alpha3Schema.optional(),
-  numeric: NumericSchema.optional(),
-  name: z.string().min(1, "must not be empty"),
-  withdrawn: z
-    .string()
-    .refine(isIso8601Date, "must be an ISO 8601 date of year, month or day precision"),
-  successors: z.array(z.string()).min(1, "must name at least one Successor").readonly(),
-});
-
-// The published Entity types are the source of truth; these fail typechecking if a schema drifts from them.
-// `Codes` is an open union of Code systems (the same on every Kind), so the schema, which names only the shipped
-// ones, need only fit it. Those are exactly `KnownCodeSystem`, each with a Wikidata query to read its codes from.
-true satisfies Exactly<
-  Readonly<Omit<z.infer<typeof CountrySchema>, "codes">>,
-  Omit<Country, "codes">
->;
-true satisfies Exactly<
-  Readonly<Omit<z.infer<typeof SubdivisionSchema>, "codes">>,
-  Omit<Subdivision, "codes">
->;
-true satisfies Exactly<
-  Readonly<Omit<z.infer<typeof TerritorySchema>, "codes">>,
-  Omit<Territory, "codes">
->;
-true satisfies z.infer<typeof CodesSchema> extends Country["codes"] & Territory["codes"]
-  ? true
-  : false;
-true satisfies Exactly<Readonly<z.infer<typeof HistoricCountrySchema>>, HistoricCountry>;
-true satisfies Exactly<CodeSystem, KnownCodeSystem>;
-true satisfies CodeSystem extends WikidataSnapshot ? true : false;
-
-/** The ISO page (a URL) or change notice (such as `ISO 3166-1 Newsletter V-3`) a curated record came from, so a reviewer can verify it. */
-const CitationSchema = z.string().min(1, "must cite the ISO page or change notice");
-
-/** A Historic country as curated in the Overlay: its Entity fields, any Aliases, and a citation. */
-const OverlayHistoricCountrySchema = z.strictObject({
-  ...HistoricCountrySchema.omit({ kind: true, id: true }).shape,
-  aliases: z.array(z.string().min(1, "must not be empty")).default([]),
-  citation: CitationSchema,
-});
-
-/** A code ISO once assigned to a Country that still exists, such as `ROM` for Romania (now `ROU`). */
-const OverlayFormerCodeSchema = z.strictObject({
-  country: Alpha2Schema,
-  code: z.string().regex(/^([A-Z]{2,3}|\d{3})$/, "must be an Alpha-2, Alpha-3 or Numeric code"),
-  citation: CitationSchema,
-});
-
-/** A Country and a Subdivision ISO lists separately that denote the same territory, such as `PR` and `US-PR`. */
-const OverlaySameAsSchema = z.strictObject({
-  entities: z.tuple([Alpha2Schema, SubdivisionCodeSchema]),
-  citation: CitationSchema,
-});
-
-/** The Parent ISO gives a Subdivision where CLDR lags, such as FR-67, which ISO moved from Grand Est to Alsace. */
-const OverlayParentSchema = z.strictObject({
-  subdivision: SubdivisionCodeSchema,
-  parent: z.union([Alpha2Schema, SubdivisionCodeSchema]),
-  citation: CitationSchema,
-});
-
-/** Why an Overlay entry corrects a Source, so a reviewer can check it without re-deriving it. */
-const ReasonSchema = z.string().min(1, "must give a reason");
-
-/**
- * The Wikidata item a Country's Code system codes and Aliases are read from, where its Alpha-2 code is on more than
- * one current item (AQ, CY) or on an item other than the one holding the rest (NL is on Q29999, the Kingdom of the
- * Netherlands, but Q55, the Netherlands, holds its other codes).
- */
-const OverlayWikidataItemSchema = z.strictObject({
-  country: Alpha2Schema,
-  item: ItemIdSchema,
-  reason: ReasonSchema,
-});
-
-const EntityIdSchema = z.union([Alpha2Schema, SubdivisionCodeSchema]);
-
-/** A code the Overlay gives an Entity in a Code system, replacing any Wikidata gives it, such as FIFA's NIR for GB-NIR. */
-const OverlayCodeSchema = z.strictObject({
-  entity: EntityIdSchema,
-  system: CodeSystemSchema,
-  code: CodeSystemCodeSchema,
-  reason: ReasonSchema,
-});
-
-/**
- * The Entity whose territory a FIFA association covers, where Wikidata's jurisdiction, operating area and country
- * name several Entities or none (ADR-0012), or `null` to omit the association, such as one that isn't a FIFA member.
- */
-const OverlayFifaAssociationSchema = z.strictObject({
-  association: ItemIdSchema,
-  entity: EntityIdSchema.nullable(),
-  reason: ReasonSchema,
-});
-
-/**
- * A Territory admitted under ADR-0012: its `id` and English Name, and the Code systems that code it as a peer of
- * Countries, which `build` checks against the codes it joins.
- */
-const OverlayTerritorySchema = z.strictObject({
-  id: UserAssignedCodeSchema,
-  name: z.string().min(1, "must not be empty"),
-  codeSystems: z.array(CodeSystemSchema),
-  reason: ReasonSchema,
-});
-
-/**
- * An Alias the Overlay adds to or removes from the Country or Territory whose `id` is `entity`. Alpha-4 codes are admitted only
- * so an entry for a Historic country, whose Aliases are listed on it, fails with a clear message.
- */
-const OverlayAliasSchema = z.strictObject({
-  entity: z.union([Alpha2Schema, Alpha4Schema]),
-  alias: z.string().min(1, "must not be empty"),
-  reason: ReasonSchema,
-});
-
-const OverlaySchema = z.strictObject({
-  historicCountries: z.array(OverlayHistoricCountrySchema).default([]),
-  formerCodes: z.array(OverlayFormerCodeSchema).default([]),
-  sameAs: z.array(OverlaySameAsSchema).default([]),
-  parents: z.array(OverlayParentSchema).default([]),
-  wikidataItems: z.array(OverlayWikidataItemSchema).default([]),
-  codes: z.array(OverlayCodeSchema).default([]),
-  fifaAssociations: z.array(OverlayFifaAssociationSchema).default([]),
-  territories: z.array(OverlayTerritorySchema).default([]),
-  addedAliases: z.array(OverlayAliasSchema).default([]),
-  removedAliases: z.array(OverlayAliasSchema).default([]),
-});
-
-export type Overlay = z.infer<typeof OverlaySchema>;
-
-async function readOverlay(path: string): Promise<Overlay> {
-  const parsed = OverlaySchema.safeParse(JSON.parse(await readFile(path, "utf8")));
-  if (!parsed.success) throw new Error(`Overlay is malformed:\n${z.prettifyError(parsed.error)}`);
-  return parsed.data;
 }
 
 /** A CLDR validity file, which lists codes of one type (regions, Subdivisions) by status. */
@@ -535,29 +320,10 @@ export async function build({
 
   // The rest of the Overlay is applied last, so it can refer to any Entity built from the Snapshots.
   // Same-as links join a Country and a Subdivision, and are written on both sides so neither can be one-sided.
-  const sameAs = new Map<string, string[]>();
-  for (const { entities } of overlay.sameAs) {
-    const [country, subdivision] = entities;
-    const dangling = [
-      ...(countryIds.has(country) ? [] : [country]),
-      ...(subdivisionIdsSeen.has(subdivision) ? [] : [subdivision]),
-    ];
-    if (dangling.length > 0) {
-      problems.push(
-        `Same-as link ${country} ↔ ${subdivision} has a dangling Entity ${dangling.join(", ")}`,
-      );
-      continue;
-    }
-    if (sameAs.get(country)?.includes(subdivision)) {
-      problems.push(`Same-as link ${country} ↔ ${subdivision} is listed twice`);
-      continue;
-    }
-    append(sameAs, country, subdivision);
-    append(sameAs, subdivision, country);
-  }
+  const sameAs = linkSameAs(overlay, { countryIds, subdivisionIds: subdivisionIdsSeen }, problems);
   function withSameAs<T extends Country | Subdivision>(entity: T): T {
     const links = sameAs.get(entity.id);
-    return links === undefined ? entity : { ...entity, sameAs: [...links].sort() };
+    return links === undefined ? entity : { ...entity, sameAs: links };
   }
 
   const historicCountries: HistoricCountry[] = overlay.historicCountries.map(
@@ -640,6 +406,7 @@ export async function build({
     subdivisions,
     historicCountries,
     overlay,
+    sameAs,
     wikidata: await readWikidata(sourcesDir),
     cldrAliases,
     problems,

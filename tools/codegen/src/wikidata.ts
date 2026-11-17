@@ -2,9 +2,10 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { Country, HistoricCountry, Subdivision } from "geo-resolve";
 import { z } from "zod";
-import type { Overlay } from "./build.ts";
 import { CODE_SYSTEM_KEYS, CODE_SYSTEMS, type CodeSystem } from "./code-systems.ts";
 import { append } from "./lists.ts";
+import type { Overlay, SameAsLinks } from "./overlay.ts";
+import { ItemIdSchema } from "./schemas.ts";
 
 /**
  * The Wikidata SPARQL queries `fetch` runs, keyed by the Snapshot each writes under `wikidata/`. Wikidata is read
@@ -61,6 +62,9 @@ export const WIKIDATA_QUERIES = {
 } as const;
 
 export type WikidataSnapshot = keyof typeof WIKIDATA_QUERIES;
+
+// Every shipped Code system has a query to read its codes from.
+true satisfies CodeSystem extends WikidataSnapshot ? true : false;
 
 /** Where a Wikidata Snapshot sits under the Snapshot directory. */
 export function wikidataSnapshotPath(snapshot: WikidataSnapshot): string {
@@ -131,8 +135,6 @@ async function readRows<T extends z.ZodType>(
     throw new Error(`Snapshot ${path} is malformed:\n${z.prettifyError(rows.error)}`);
   return rows.data;
 }
-
-export const ItemIdSchema = z.string().regex(/^Q\d+$/, "must be a Wikidata item id");
 
 /** The FIFA association properties that say which area it covers, most specific first. */
 export const COVERAGE_PROPERTIES = ["P1001", "P2541", "P17"] as const;
@@ -259,6 +261,7 @@ export function joinWikidata({
   subdivisions,
   historicCountries,
   overlay,
+  sameAs,
   wikidata,
   cldrAliases,
   problems,
@@ -267,6 +270,8 @@ export function joinWikidata({
   subdivisions: readonly Subdivision[];
   historicCountries: readonly HistoricCountry[];
   overlay: Overlay;
+  /** The Same-as links `build` validated, on both sides. */
+  sameAs: SameAsLinks;
   wikidata: Wikidata;
   /** CLDR's variant and short English names (ADR-0014), keyed by Entity `id`. */
   cldrAliases: ReadonlyMap<string, readonly string[]>;
@@ -452,13 +457,6 @@ export function joinWikidata({
   const nameHolders = new Map<string, string[]>();
   for (const { id, name } of [...countries, ...overlay.territories, ...subdivisions])
     append(nameHolders, matchKey(name), id);
-  const sameAs = new Map<string, string[]>();
-  for (const {
-    entities: [country, subdivision],
-  } of overlay.sameAs) {
-    append(sameAs, country, subdivision);
-    append(sameAs, subdivision, country);
-  }
   const unlinked = (id: string, others: readonly string[]) =>
     others.filter((other) => other !== id && !sameAs.get(id)?.includes(other));
   // Overlay removals take an Alias from the Sources before the shared-Alias check below, so removing a shared Alias
