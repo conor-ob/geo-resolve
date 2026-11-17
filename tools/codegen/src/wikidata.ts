@@ -212,11 +212,6 @@ export interface WikidataJoin {
   aliasCandidates: AliasCandidate[];
 }
 
-/** Must match the package's own normalisation, so the build compares Aliases and codes as `resolve` will. */
-export function matchKey(input: string): string {
-  return input.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().trim().replace(/\s+/g, " ");
-}
-
 /**
  * Joins Wikidata's Code system codes and labels to the Entities built from CLDR and the Overlay (ADR-0001), adding
  * every problem it finds to `problems` rather than stopping at the first. The labels are only candidates: the Alias

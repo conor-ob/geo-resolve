@@ -9,7 +9,7 @@ Builds the Data packs in `packages/geo-resolve/src/data` from committed Snapshot
 1. Reads the CLDR Snapshots under `sources/cldr` and builds Countries, Subdivisions and their Parents.
 2. Reads `overlay.json` (`src/overlay.ts`): Historic countries, Same-as links, Parent and code corrections, Territories, Alias edits.
 3. Joins Wikidata (`src/wikidata.ts`): picks each Country's item, joins IOC and FIFA codes, and collects its labels as Alias candidates.
-4. Applies the Alias rules (`src/alias-rules.ts`, ADR-0013) to Wikidata's labels, CLDR's variant and short names (ADR-0014) and the Overlay's additions and removals.
+4. Applies the Alias rules (`src/alias-rules.ts`, ADR-0013) to Wikidata's labels, CLDR's variant and short names (ADR-0014) and the Overlay's additions and removals. The rules ask a Resolver what each candidate already matches, built from the package's own modules (`src/package.ts`), so they match exactly as `resolve` does.
 5. Writes the Data packs and `build-report.md`, or throws once with every problem found.
 
 `src/fetch.ts` refreshes `sources/` from CLDR and Wikidata; the other commands in `src/cli.ts` are checks the CI and data-update workflows run.
