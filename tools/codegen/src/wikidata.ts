@@ -239,6 +239,11 @@ function isLatin(alias: string): boolean {
   return /^[\p{Script=Latin}\P{L}]*$/u.test(alias);
 }
 
+/** How many capital letters an Alias has, to choose between Aliases that differ only in case. */
+function countCapitals(alias: string): number {
+  return alias.match(/\p{Lu}/gu)?.length ?? 0;
+}
+
 /**
  * Joins Wikidata's Code system codes and Aliases to the Entities built from CLDR and the Overlay (ADR-0001), adding
  * every problem it finds to `problems` rather than stopping at the first.
@@ -437,15 +442,26 @@ export function joinWikidata({
   const droppedAliases: DroppedAlias[] = [];
   for (const [country, item] of [...countryItems].sort(([a], [b]) => (a < b ? -1 : 1))) {
     const keys = new Set([matchKey(entityNames.get(country)!)]);
-    // Rows in the language ALIAS_LANGUAGES ranks first win over others with the same match key.
+    // Rows in the language ALIAS_LANGUAGES ranks first win over others with the same match key, so an English
+    // spelling ships over a multilingual one that differs in accents.
     const rank = (lang: (typeof ALIAS_LANGUAGES)[number]) => ALIAS_LANGUAGES.indexOf(lang);
     const itemAliases = wikidata.aliases
       .filter((row) => row.item === item)
       .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1));
-    for (const { alias, lang } of itemAliases) {
-      const key = matchKey(alias);
+    for (const row of itemAliases) {
+      const key = matchKey(row.alias);
       if (keys.has(key)) continue;
       keys.add(key);
+      // Rows that differ only in case, in any language, ship the one with the most capitals, ties going to the
+      // order above, so the casing that ships doesn't depend on which variants upstream happens to keep. Case only,
+      // not the whole match key, so an English spelling still wins on accents. The row that took the match key still
+      // decides the script rule by its language, as casing never changes a script.
+      const { alias } = itemAliases
+        .filter((other) => other.alias.toLowerCase() === row.alias.toLowerCase())
+        .reduce((best, other) =>
+          countCapitals(other.alias) > countCapitals(best.alias) ? other : best,
+        );
+      const { lang } = row;
       const holders = codeHolders.get(key);
       const reason = !isName(alias)
         ? "not a name"

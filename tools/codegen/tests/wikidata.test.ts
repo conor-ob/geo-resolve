@@ -478,21 +478,70 @@ test("multilingual (mul) Wikidata labels and aliases become Aliases, except thos
   expect(report).toContain("| VN | 越南社會主義共和國 | not in Latin script |");
 });
 
-test("an English Wikidata Alias keeps its spelling over a multilingual (mul) one with the same match key", async () => {
-  const zambia: CldrFixture = {
-    regular: ["ZM"],
-    codes: [{ type: "ZM", numeric: "894", alpha3: "ZMB" }],
-    names: [{ type: "ZM", name: "Zambia" }],
+test("an English Wikidata Alias keeps its spelling over a multilingual (mul) one that differs in accents", async () => {
+  const aland: CldrFixture = {
+    regular: ["AX"],
+    codes: [{ type: "AX", numeric: "248", alpha3: "ALA" }],
+    names: [{ type: "AX", name: "Åland Islands" }],
   };
   const { aliases } = await buildWith(
     {
-      items: [{ item: "Q953", alpha2: "ZM" }],
+      items: [{ item: "Q5689", alpha2: "AX" }],
       aliases: [
-        { item: "Q953", alias: "Zed" },
-        { item: "Q953", alias: "ZED", lang: "mul" },
+        { item: "Q5689", alias: "Åland", lang: "mul" },
+        { item: "Q5689", alias: "Aland" },
       ],
     },
-    { cldr: zambia },
+    { cldr: aland },
   );
-  expect(aliases).toEqual({ ZM: ["Zed"] });
+  expect(aliases).toEqual({ AX: ["Aland"] });
+});
+
+const northernMarianaIslands: CldrFixture = {
+  regular: ["MP"],
+  codes: [{ type: "MP", numeric: "580", alpha3: "MNP" }],
+  names: [{ type: "MP", name: "Northern Mariana Islands" }],
+};
+const northernMarianaIslandsAliases: WikidataFixture["aliases"] = [
+  { item: "Q16644", alias: "nmi" },
+  { item: "Q16644", alias: "Nmi" },
+  { item: "Q16644", alias: "NMI", lang: "mul" },
+  { item: "Q16644", alias: "mp" },
+  { item: "Q16644", alias: "MP", lang: "mul" },
+];
+
+test.each([
+  ["in order", northernMarianaIslandsAliases],
+  ["reversed", [...northernMarianaIslandsAliases].reverse()],
+])(
+  "Wikidata Aliases that differ only in case ship the variant with the most capitals, whatever their language: %s",
+  async (_, aliasRows) => {
+    const { aliases, report } = await buildWith(
+      { items: [{ item: "Q16644", alpha2: "MP" }], aliases: aliasRows },
+      { cldr: northernMarianaIslands },
+    );
+    expect(aliases).toEqual({ MP: ["NMI"] });
+    expect(report).toContain("| MP | NMI | Wikidata Q16644 |");
+    expect(report).toContain("| MP | MP | a code of MP |");
+    expect(report).not.toMatch(/\| MP \| (nmi|Nmi|mp) \|/);
+  },
+);
+
+test("an English Wikidata Alias outside Latin script still ships when a multilingual (mul) one differs only in case", async () => {
+  const greece: CldrFixture = {
+    regular: ["GR"],
+    codes: [{ type: "GR", numeric: "300", alpha3: "GRC" }],
+    names: [{ type: "GR", name: "Greece" }],
+  };
+  const { aliases } = await buildWith(
+    {
+      items: [{ item: "Q41", alpha2: "GR" }],
+      aliases: [
+        { item: "Q41", alias: "Ελλάδα" },
+        { item: "Q41", alias: "ΕΛΛΆΔΑ", lang: "mul" },
+      ],
+    },
+    { cldr: greece },
+  );
+  expect(aliases).toEqual({ GR: ["ΕΛΛΆΔΑ"] });
 });
