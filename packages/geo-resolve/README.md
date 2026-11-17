@@ -256,8 +256,8 @@ Every export is documented with TSDoc, so your editor shows the reference as you
 
 geo-resolve is MIT licensed. Its data is built only from two Sources, both under permissive licences:
 
-- [Unicode CLDR](https://cldr.unicode.org), under the [Unicode License v3](https://www.unicode.org/license.txt), is the primary Source for Country and Subdivision codes, English Names and the Parent hierarchy.
-- [Wikidata](https://www.wikidata.org), under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), supplies IOC and FIFA codes and Aliases.
+- [Unicode CLDR](https://cldr.unicode.org), under the [Unicode License v3](https://www.unicode.org/license.txt), is the primary Source for Country and Subdivision codes, English Names, the Parent hierarchy and some English Aliases.
+- [Wikidata](https://www.wikidata.org), under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), supplies IOC and FIFA codes and most Aliases.
 
 Historic countries and the former codes of current Countries are curated by hand from ISO's public pages and change notices. ISO's own dataset is a paid product and isn't used. The package's `NOTICE.md` gives the attribution, and is included in every release.
 

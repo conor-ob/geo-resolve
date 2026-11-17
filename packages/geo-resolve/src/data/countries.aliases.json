@@ -98,6 +98,7 @@
   ],
   "BA": [
     "B&H",
+    "Bosnia",
     "Bosnia and Hercegovina",
     "Bosnia and Herzegovina",
     "Bosnia-Herzegovina"
@@ -226,6 +227,7 @@
     "Territory of the Cocos (Keeling) Islands"
   ],
   "CD": [
+    "Congo (DRC)",
     "Congo (Kinshasa)",
     "Congo-Kinshasa",
     "D.R.C.",
@@ -245,6 +247,7 @@
   ],
   "CG": [
     "Congo (Brazzaville)",
+    "Congo (Republic)",
     "Congo Republic",
     "Congo-Brazzaville",
     "Rep. Congo",
@@ -424,6 +427,7 @@
     "Viti"
   ],
   "FK": [
+    "Falkland Islands (Islas Malvinas)",
     "Falklands",
     "Islas Malvinas",
     "Malvinas",
@@ -591,6 +595,7 @@
   ],
   "HM": [
     "HIMI",
+    "Heard & McDonald Islands",
     "Heard Island and McDonald Islands",
     "Heard and Macdonald Islands",
     "Heard and McDonald Islands",
@@ -1214,7 +1219,8 @@
   "SH": [
     "Saint Helena and Dependencies",
     "Saint Helena, Ascension and Tristan da Cunha",
-    "Saint Helena, Ascension, and Tristan da Cunha"
+    "Saint Helena, Ascension, and Tristan da Cunha",
+    "St. Helena"
   ],
   "SI": [
     "Republic of Slovenia",

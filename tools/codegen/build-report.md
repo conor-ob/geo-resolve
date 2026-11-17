@@ -85,6 +85,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | AZ | Azərbaycan Respublikası | Wikidata Q227 |
 | AZ | Republic of Azerbaijan | Wikidata Q227 |
 | BA | B&H | Wikidata Q225 |
+| BA | Bosnia | CLDR |
 | BA | Bosnia and Hercegovina | Wikidata Q225 |
 | BA | Bosnia and Herzegovina | Wikidata Q225 |
 | BA | Bosnia-Herzegovina | Wikidata Q225 |
@@ -170,9 +171,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | BY | Respublika Bielaruś | Wikidata Q184 |
 | BY | White Russia | Wikidata Q184 |
 | BY | White Ruthenia | Wikidata Q184 |
-| CC | Cocos Islands | Wikidata Q36004 |
+| CC | Cocos Islands | CLDR |
 | CC | Keeling Islands | Wikidata Q36004 |
 | CC | Territory of the Cocos (Keeling) Islands | Wikidata Q36004 |
+| CD | Congo (DRC) | CLDR |
 | CD | Congo (Kinshasa) | Wikidata Q974 |
 | CD | Congo-Kinshasa | Wikidata Q974 |
 | CD | D.R.C. | Wikidata Q974 |
@@ -188,6 +190,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CF | CAR | Wikidata Q929 |
 | CF | Central Africa | Wikidata Q929 |
 | CG | Congo (Brazzaville) | Wikidata Q971 |
+| CG | Congo (Republic) | CLDR |
 | CG | Congo Republic | Wikidata Q971 |
 | CG | Congo-Brazzaville | Wikidata Q971 |
 | CG | Rep. Congo | Wikidata Q971 |
@@ -202,7 +205,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CI | Cote d'Ivoire | Wikidata Q1008 |
 | CI | Cote d'lvoire | Wikidata Q1008 |
 | CI | Cote-d'Ivoire | Wikidata Q1008 |
-| CI | Ivory Coast | Wikidata Q1008 |
+| CI | Ivory Coast | CLDR |
 | CI | Republic of Cote d'Ivoire | Wikidata Q1008 |
 | CI | Republic of Ivory Coast | Wikidata Q1008 |
 | CI | Republic of the Ivory Coast | Wikidata Q1008 |
@@ -226,7 +229,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CO | The Republic of Colombia | Wikidata Q739 |
 | CR | Republic of Costa Rica | Wikidata Q800 |
 | CU | Republic of Cuba | Wikidata Q241 |
-| CV | Cabo Verde | Wikidata Q1011 |
+| CV | Cabo Verde | CLDR |
 | CV | Cape Verde Islands | Wikidata Q1011 |
 | CV | Republic of Cabo Verde | Wikidata Q1011 |
 | CV | Republic of Cape Verde | Wikidata Q1011 |
@@ -245,7 +248,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CY | Greek Cypriot State | Wikidata Q229 |
 | CY | Republic of Cyprus | Wikidata Q229 |
 | CZ | CZR | Wikidata Q213 |
-| CZ | Czech Republic | Wikidata Q213 |
+| CZ | Czech Republic | CLDR |
 | CZ | the Czech Republic | Wikidata Q213 |
 | CZ | Česká republika | Wikidata Q213 |
 | DDDE | German Democratic Republic | Overlay |
@@ -308,6 +311,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | FJ | Republic of Fiji | Wikidata Q712 |
 | FJ | Republic of the Fiji Islands | Wikidata Q712 |
 | FJ | Viti | Wikidata Q712 |
+| FK | Falkland Islands (Islas Malvinas) | CLDR |
 | FK | Falklands | Wikidata Q9648 |
 | FK | Islas Malvinas | Wikidata Q9648 |
 | FK | Malvinas | Wikidata Q9648 |
@@ -366,7 +370,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GB | U K | Wikidata Q145 |
 | GB | U. K. | Wikidata Q145 |
 | GB | U.K. | Wikidata Q145 |
-| GB | UK | Wikidata Q145 |
+| GB | UK | CLDR |
 | GB | United Kingdom of Great Britain and Northern Ireland | Wikidata Q145 |
 | GB | the UK | Wikidata Q145 |
 | GB | the United Kingdom | Wikidata Q145 |
@@ -424,7 +428,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | GY | Co-operative Republic of Guyana | Wikidata Q734 |
 | GY | Republic of Guyana | Wikidata Q734 |
 | HK | HKSAR | Wikidata Q8646 |
-| HK | Hong Kong | Wikidata Q8646 |
+| HK | Hong Kong | CLDR |
 | HK | Hong Kong SAR | Wikidata Q8646 |
 | HK | Hong Kong SAR, China | Wikidata Q8646 |
 | HK | Hong Kong Special Administrative Region | Wikidata Q8646 |
@@ -432,6 +436,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | HK | Hong Kong, China | Wikidata Q8646 |
 | HK | Hongkong | Wikidata Q8646 |
 | HM | HIMI | Wikidata Q131198 |
+| HM | Heard & McDonald Islands | CLDR |
 | HM | Heard Island and McDonald Islands | Wikidata Q131198 |
 | HM | Heard and Macdonald Islands | Wikidata Q131198 |
 | HM | Heard and McDonald Islands | Wikidata Q131198 |
@@ -637,13 +642,13 @@ Every Entity has one English Name, from the Source given for its Kind.
 | ML | Republic of Mali | Wikidata Q912 |
 | MM | Birma | Wikidata Q836 |
 | MM | Birmania | Wikidata Q836 |
-| MM | Myanmar | Wikidata Q836 |
+| MM | Myanmar | CLDR |
 | MM | Republic of the Union of Myanmar | Wikidata Q836 |
 | MM | Union of Burma | Wikidata Q836 |
 | MN | Mongol State | Wikidata Q711 |
 | MN | State of Mongolia | Wikidata Q711 |
 | MO | Aomen | Wikidata Q14773 |
-| MO | Macao | Wikidata Q14773 |
+| MO | Macao | CLDR |
 | MO | Macao S.A.R. | Wikidata Q14773 |
 | MO | Macao SAR | Wikidata Q14773 |
 | MO | Macao SAR, China | Wikidata Q14773 |
@@ -747,12 +752,12 @@ Every Entity has one English Name, from the Source given for its Kind.
 | NP | Pai-pou | Wikidata Q837 |
 | NP | Palpa | Wikidata Q837 |
 | NP | Palpou | Wikidata Q837 |
-| NR | Naoero | Wikidata Q697 |
+| NR | Naoero | CLDR |
 | NR | Pleasant Island | Wikidata Q697 |
 | NR | Republic of Naoero | Wikidata Q697 |
 | NR | Republic of Nauru | Wikidata Q697 |
 | NZ | Aotearoa | Wikidata Q664 |
-| NZ | Aotearoa New Zealand | Wikidata Q664 |
+| NZ | Aotearoa New Zealand | CLDR |
 | NZ | Dominion of New Zealand | Wikidata Q664 |
 | NZ | Niu Tīreni | Wikidata Q664 |
 | OM | Sultanate of Oman | Wikidata Q842 |
@@ -792,7 +797,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PM | St.-Pierre and Miquelon | Wikidata Q34617 |
 | PM | Territorial Collectivity of Saint Pierre and Miquelon | Wikidata Q34617 |
 | PN | Occas Island | Wikidata Q35672 |
-| PN | Pitcairn | Wikidata Q35672 |
+| PN | Pitcairn | CLDR |
 | PN | Pitcairn, Henderson, Ducie and Oeno Islands | Wikidata Q35672 |
 | PR | Borikén | Wikidata Q1183 |
 | PR | Borinquen | Wikidata Q1183 |
@@ -804,7 +809,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | PR | Porto Rico | Wikidata Q1183 |
 | PR | Territory of Porto Rico | Wikidata Q1183 |
 | PR | Territory of Puerto Rico | Wikidata Q1183 |
-| PS | Palestine | Wikidata Q219060 |
+| PS | Palestine | CLDR |
 | PS | State of Palestine | Wikidata Q219060 |
 | PT | Portuguese Republic | Wikidata Q45 |
 | PT | República Portuguesa | Wikidata Q45 |
@@ -855,6 +860,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | SH | Saint Helena and Dependencies | Wikidata Q192184 |
 | SH | Saint Helena, Ascension and Tristan da Cunha | Wikidata Q192184 |
 | SH | Saint Helena, Ascension, and Tristan da Cunha | Wikidata Q192184 |
+| SH | St. Helena | CLDR |
 | SI | Republic of Slovenia | Wikidata Q215 |
 | SI | Republika Slovenija | Wikidata Q215 |
 | SI | Slovenija | Wikidata Q215 |
@@ -887,14 +893,14 @@ Every Entity has one English Name, from the Source given for its Kind.
 | SY | Sūriyā | Wikidata Q858 |
 | SZ | Kingdom of Eswatini | Wikidata Q1050 |
 | SZ | Kingdom of Swaziland | Wikidata Q1050 |
-| SZ | Swaziland | Wikidata Q1050 |
+| SZ | Swaziland | CLDR |
 | SZ | Umbuso weSwatini | Wikidata Q1050 |
 | TC | TCI | Wikidata Q18221 |
 | TC | Turks & Caicos | Wikidata Q18221 |
 | TC | Turks and Caicos | Wikidata Q18221 |
 | TC | Turks and Caicos Islands | Wikidata Q18221 |
 | TD | Republic of Chad | Wikidata Q657 |
-| TF | French Southern Territories | Wikidata Q129003 |
+| TF | French Southern Territories | CLDR |
 | TF | TAAF | Wikidata Q129003 |
 | TG | Togolese Republic | Wikidata Q945 |
 | TH | Kingdom of Siam | Wikidata Q869 |
@@ -918,7 +924,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | TO | Tonga Islands | Wikidata Q678 |
 | TR | Republic of Turkey | Wikidata Q43 |
 | TR | Republic of Türkiye | Wikidata Q43 |
-| TR | Turkey | Wikidata Q43 |
+| TR | Turkey | CLDR |
 | TT | Republic of Trinidad and Tobago | Wikidata Q754 |
 | TT | Trinidad and Tobago | Wikidata Q754 |
 | TV | Ellice Islands | Wikidata Q672 |
@@ -1043,9 +1049,9 @@ Former codes of Countries that still exist, from the Overlay. Each counts under 
 | --- | --- | --- |
 | RO | alpha3 | ROM |
 
-## Wikidata Aliases dropped
+## Aliases dropped
 
-A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
+A Wikidata Alias or CLDR alternative name that breaks an Alias rule, such as being a code or naming a Historic country, is not an Alias.
 
 | Entity | Alias | Dropped as |
 | --- | --- | --- |
