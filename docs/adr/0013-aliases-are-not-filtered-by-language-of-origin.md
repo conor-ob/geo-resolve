@@ -7,6 +7,8 @@ Aliases are dropped by rule only when they would do harm, the same rules in ever
 - They are not name-shaped, are a code, or name a Historic country.
 - They equal the Entity's own Name in that Locale.
 - They equal a different Entity's Name in the same Locale, unless a Same-as link joins the two ("Hong Kong" stays an Alias of HK). Such an Alias would make a common Input an Ambiguous input, which, as ADR-0009 promises, the default English Resolver never has.
+- They are an Alias of more than one Entity in the same Locale, for the same reason. The Alias is dropped from every Entity holding it ("Congo" from both CD and CG), since the build can't tell which one the Input means; the Overlay can give it back to one.
+- They are a multilingual (`mul`) Wikidata label or alias not in Latin script. `mul` holds names that read the same in every language, so the English build reads it as well as `en`, but it also holds native-script forms (越南社會主義共和國 for Vietnam) no English Input would use. This filters by script, not language: a Latin-script `mul` name is kept whatever its language.
 
 Anything else that is wrong (a vandalised or junk label the rules don't catch) is removed by hand through the Overlay, so the fix is reviewed and survives the weekly data update.
 
@@ -21,4 +23,4 @@ A foreign name can't make `resolve` return a wrong Entity: an Input that matches
 
 ## Consequences
 
-Names like "Birmania" keep resolving for English-only callers, which is harmless and helps with messy input. Reviewers of data-update PRs check new Aliases for harm (clashes, junk, vandalism), not for language. The Overlay needs a way to remove an Alias from any Entity, and the English build needs the same clash rule as the Locale packs.
+Names like "Birmania" keep resolving for English-only callers, which is harmless and helps with messy input. Reviewers of data-update PRs check new Aliases for harm (clashes, junk, vandalism), not for language. The Overlay needs a way to remove an Alias from any Entity, and to give a dropped shared Alias back to one Entity. The English build applies the clash rules above, and `packages/geo-resolve/tests/unambiguous-aliases.test.ts` checks that every shipped Alias denotes one Entity, so an upstream edit that slips past the rules turns CI red.

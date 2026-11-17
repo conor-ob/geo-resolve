@@ -173,7 +173,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CC | Cocos Islands | Wikidata Q36004 |
 | CC | Keeling Islands | Wikidata Q36004 |
 | CC | Territory of the Cocos (Keeling) Islands | Wikidata Q36004 |
-| CD | Congo | Wikidata Q974 |
 | CD | Congo (Kinshasa) | Wikidata Q974 |
 | CD | Congo-Kinshasa | Wikidata Q974 |
 | CD | D.R.C. | Wikidata Q974 |
@@ -188,7 +187,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | CD | Kongo-Kinshasa | Wikidata Q974 |
 | CF | CAR | Wikidata Q929 |
 | CF | Central Africa | Wikidata Q929 |
-| CG | Congo | Wikidata Q971 |
 | CG | Congo (Brazzaville) | Wikidata Q971 |
 | CG | Congo Republic | Wikidata Q971 |
 | CG | Congo-Brazzaville | Wikidata Q971 |
@@ -501,7 +499,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | JE | Jersey I. | Wikidata Q785 |
 | JE | Jersey Island | Wikidata Q785 |
 | JM | Commonwealth of Jamaica | Wikidata Q766 |
-| JM | JA | Wikidata Q766 |
 | JO | Giordania | Wikidata Q810 |
 | JO | HKJ | Wikidata Q810 |
 | JO | Hashemite Kingdom of Jordan | Wikidata Q810 |
@@ -510,7 +507,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | JO | Yarden | Wikidata Q810 |
 | JP | Iapan | Wikidata Q17 |
 | JP | Iapon | Wikidata Q17 |
-| JP | JA | Wikidata Q17 |
 | JP | JAP | Wikidata Q17 |
 | JP | Land of Rising Sun | Wikidata Q17 |
 | JP | Land of the Rising Sun | Wikidata Q17 |
@@ -623,11 +619,9 @@ Every Entity has one English Name, from the Source given for its Kind.
 | MD | Republica Moldova | Wikidata Q217 |
 | ME | Republic of Montenegro | Wikidata Q236 |
 | MF | Collectivity of Saint Martin | Wikidata Q126125 |
-| MF | Saint Martin | Wikidata Q126125 |
 | MF | Saint Martin (France) | Wikidata Q126125 |
 | MF | Saint Martin (French part) | Wikidata Q126125 |
 | MF | Saint-Martin | Wikidata Q126125 |
-| MF | St Martin | Wikidata Q126125 |
 | MF | St. Martin (French part) | Wikidata Q126125 |
 | MG | Malagascar | Wikidata Q1019 |
 | MG | Malagaskar | Wikidata Q1019 |
@@ -709,7 +703,6 @@ Every Entity has one English Name, from the Source given for its Kind.
 | NE | Republic of Niger | Wikidata Q1032 |
 | NE | Republic of the Niger | Wikidata Q1032 |
 | NE | The Niger | Wikidata Q1032 |
-| NF | Norfolk | Wikidata Q31057 |
 | NF | Norfolk Island, Australia | Wikidata Q31057 |
 | NF | Norfolk Island, Other Territories | Wikidata Q31057 |
 | NF | Norfolk Island, Other Territories, Australia | Wikidata Q31057 |
@@ -885,12 +878,10 @@ Every Entity has one English Name, from the Source given for its Kind.
 | SUHH | USSR, Union of Soviet Socialist Republics | Overlay |
 | SV | Republic of El Salvador | Wikidata Q792 |
 | SV | Salvador | Wikidata Q792 |
-| SX | Saint Martin | Wikidata Q26273 |
 | SX | Saint Martin (Dutch part) | Wikidata Q26273 |
 | SX | Sint Maarten (Dutch part) | Wikidata Q26273 |
 | SX | Sint Martin | Wikidata Q26273 |
 | SX | Sint-Maarten | Wikidata Q26273 |
-| SX | St Martin | Wikidata Q26273 |
 | SX | St. Maarten | Wikidata Q26273 |
 | SY | Syrian Arab Republic | Wikidata Q858 |
 | SY | Sūriyā | Wikidata Q858 |
@@ -1157,12 +1148,14 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | CC | CCK | a code of CC |
 | CD | CD | a code of CD |
 | CD | COD | a code of CD |
+| CD | Congo | also an Alias of CG |
 | CD | Zaire | the Name of the Historic country ZRCD |
 | CF | CAF | a code of CF |
 | CF | CF | a code of CF |
 | CG | CG | a code of CG |
 | CG | CGO | a code of CG |
 | CG | COG | a code of CG |
+| CG | Congo | also an Alias of CD |
 | CH | CH | a code of CH |
 | CH | CHE | a code of CH |
 | CH | SUI | a code of CH |
@@ -1337,11 +1330,13 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | IT | ITA | a code of IT |
 | JE | JE | a code of JE |
 | JE | JEY | a code of JE |
+| JM | JA | also an Alias of JP |
 | JM | JAM | a code of JM |
 | JM | JM | a code of JM |
 | JO | ISO 3166-1:JO | not a name |
 | JO | JO | a code of JO |
 | JO | JOR | a code of JO |
+| JP | JA | also an Alias of JM |
 | JP | JP | a code of JP |
 | JP | JPN | a code of JP |
 | JP | 日本国 | not in Latin script |
@@ -1412,6 +1407,8 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | MF | FR-MF | a code of FR-MF |
 | MF | MAF | a code of MF |
 | MF | MF | a code of MF |
+| MF | Saint Martin | also an Alias of SX |
+| MF | St Martin | also an Alias of SX |
 | MG | MAD | a code of MG |
 | MG | MDG | a code of MG |
 | MG | MG | a code of MG |
@@ -1465,6 +1462,7 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | NE | ne | a code of NE |
 | NF | NF | a code of NF |
 | NF | NFK | a code of NF |
+| NF | Norfolk | the Name of GB-NFK |
 | NG | NG | a code of NG |
 | NG | NGA | a code of NG |
 | NG | NGR | a code of NG |
@@ -1575,6 +1573,8 @@ A Wikidata Alias that is a code, or names a Historic country, is not an Alias.
 | SX | NL-SX | a code of NL-SX |
 | SX | SX | a code of SX |
 | SX | SXM | a code of SX |
+| SX | Saint Martin | also an Alias of MF |
+| SX | St Martin | also an Alias of MF |
 | SY | SY | a code of SY |
 | SY | SYR | a code of SY |
 | SZ | SWZ | a code of SZ |

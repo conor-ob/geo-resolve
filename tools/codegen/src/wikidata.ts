@@ -438,6 +438,20 @@ export function joinWikidata({
   const entityNames = new Map(
     [...countries, ...overlay.territories].map(({ id, name }) => [id, name]),
   );
+  // An Alias that is a different Entity's Name, or another Entity's Alias, would make a common Input an Ambiguous
+  // input, which the default English Resolver never has (ADR-0013), unless a Same-as link joins the two Entities.
+  const nameHolders = new Map<string, string[]>();
+  for (const { id, name } of [...countries, ...overlay.territories, ...subdivisions])
+    append(nameHolders, matchKey(name), id);
+  const sameAs = new Map<string, string[]>();
+  for (const {
+    entities: [country, subdivision],
+  } of overlay.sameAs) {
+    append(sameAs, country, subdivision);
+    append(sameAs, subdivision, country);
+  }
+  const unlinked = (id: string, others: readonly string[]) =>
+    others.filter((other) => other !== id && !sameAs.get(id)?.includes(other));
   const aliases: AliasSource[] = [];
   const droppedAliases: DroppedAlias[] = [];
   for (const [country, item] of [...countryItems].sort(([a], [b]) => (a < b ? -1 : 1))) {
@@ -463,17 +477,28 @@ export function joinWikidata({
         );
       const { lang } = row;
       const holders = codeHolders.get(key);
+      const named = unlinked(country, nameHolders.get(key) ?? []);
       const reason = !isName(alias)
         ? "not a name"
         : lang === "mul" && !isLatin(alias)
           ? "not in Latin script"
-          : holders === undefined
-            ? historicNames.get(key)
-            : `a code of ${[...new Set(holders)].sort().join(" and ")}`;
+          : holders !== undefined
+            ? `a code of ${[...new Set(holders)].sort().join(" and ")}`
+            : (historicNames.get(key) ??
+              (named.length > 0 ? `the Name of ${named.sort().join(" and ")}` : undefined));
       if (reason !== undefined) droppedAliases.push({ id: country, alias, reason });
       else aliases.push({ id: country, alias, source: `Wikidata ${item}` });
     }
   }
 
-  return { codes: codeSystems, aliases, droppedAliases };
+  const aliasHolders = new Map<string, string[]>();
+  for (const { id, alias } of aliases) append(aliasHolders, matchKey(alias), id);
+  const unshared = aliases.filter(({ id, alias }) => {
+    const shared = unlinked(id, aliasHolders.get(matchKey(alias))!);
+    if (shared.length === 0) return true;
+    droppedAliases.push({ id, alias, reason: `also an Alias of ${shared.sort().join(" and ")}` });
+    return false;
+  });
+
+  return { codes: codeSystems, aliases: unshared, droppedAliases };
 }

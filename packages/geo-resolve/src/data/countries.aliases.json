@@ -226,7 +226,6 @@
     "Territory of the Cocos (Keeling) Islands"
   ],
   "CD": [
-    "Congo",
     "Congo (Kinshasa)",
     "Congo-Kinshasa",
     "D.R.C.",
@@ -245,7 +244,6 @@
     "Central Africa"
   ],
   "CG": [
-    "Congo",
     "Congo (Brazzaville)",
     "Congo Republic",
     "Congo-Brazzaville",
@@ -689,8 +687,7 @@
     "Jersey Island"
   ],
   "JM": [
-    "Commonwealth of Jamaica",
-    "JA"
+    "Commonwealth of Jamaica"
   ],
   "JO": [
     "Giordania",
@@ -703,7 +700,6 @@
   "JP": [
     "Iapan",
     "Iapon",
-    "JA",
     "JAP",
     "Land of Rising Sun",
     "Land of the Rising Sun",
@@ -870,11 +866,9 @@
   ],
   "MF": [
     "Collectivity of Saint Martin",
-    "Saint Martin",
     "Saint Martin (France)",
     "Saint Martin (French part)",
     "Saint-Martin",
-    "St Martin",
     "St. Martin (French part)"
   ],
   "MG": [
@@ -1000,7 +994,6 @@
     "The Niger"
   ],
   "NF": [
-    "Norfolk",
     "Norfolk Island, Australia",
     "Norfolk Island, Other Territories",
     "Norfolk Island, Other Territories, Australia",
@@ -1267,12 +1260,10 @@
     "Salvador"
   ],
   "SX": [
-    "Saint Martin",
     "Saint Martin (Dutch part)",
     "Sint Maarten (Dutch part)",
     "Sint Martin",
     "Sint-Maarten",
-    "St Martin",
     "St. Maarten"
   ],
   "SY": [
