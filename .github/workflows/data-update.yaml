@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BRANCH: chore/data-update
-      ALIAS_LABEL: alias-removals
+      ALIAS_REMOVALS_LABEL: alias-removals
       TITLE: "chore(data): update snapshots from cldr and wikidata"
       GH_TOKEN: ${{ github.token }}
     steps:
@@ -40,8 +40,8 @@ jobs:
         run: cp -R packages/geo-resolve/src/data "$RUNNER_TEMP/data-before"
       - name: Rebuild Data packs from Snapshots
         run: vp run @geo-resolve/codegen#build
-      # Writes alias-warning.md only when a run removes more than ALIAS_REMOVAL_THRESHOLD (in
-      # tools/codegen/src/alias-changes.ts) Aliases more than it adds: much more likely an upstream or query artefact
+      # Writes alias-warning.md only when a run removes over ALIAS_REMOVAL_THRESHOLD (in
+      # tools/codegen/src/alias-changes.ts) more Aliases than it adds: much more likely an upstream or query artefact
       # than a correction
       - name: Check for a large one-sided removal of Aliases
         run: vp run @geo-resolve/codegen#alias-changes "$RUNNER_TEMP/data-before" "$RUNNER_TEMP/alias-warning.md"
@@ -122,11 +122,11 @@ jobs:
             pr=$(gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body")
           fi
           if [ -s "$warning" ]; then
-            gh label create "$ALIAS_LABEL" --force --color D93F0B --description "A data update that removes many more Aliases than it adds"
-            gh pr edit "$pr" --add-label "$ALIAS_LABEL"
+            gh label create "$ALIAS_REMOVALS_LABEL" --force --color D93F0B --description "A data update that removes many more Aliases than it adds"
+            gh pr edit "$pr" --add-label "$ALIAS_REMOVALS_LABEL"
           # An earlier run on this PR may have flagged it
-          elif gh pr view "$pr" --json labels --jq '.labels[].name' | grep -qx "$ALIAS_LABEL"; then
-            gh pr edit "$pr" --remove-label "$ALIAS_LABEL"
+          elif gh pr view "$pr" --json labels --jq '.labels[].name' | grep -qx "$ALIAS_REMOVALS_LABEL"; then
+            gh pr edit "$pr" --remove-label "$ALIAS_REMOVALS_LABEL"
           fi
       - name: Run CI on the PR branch
         if: steps.commit.outputs.pushed == 'true'

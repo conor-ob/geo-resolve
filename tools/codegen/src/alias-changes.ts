@@ -3,8 +3,8 @@ import { join } from "node:path";
 
 /**
  * How many more Aliases a data update may remove than it adds before it is flagged. A correction removes a few; a mass
- * one-sided removal is much more likely an upstream or query artefact than a correction (ADR-0007), so a person checks
- * it and chooses the release bump.
+ * one-sided removal is much more likely an upstream or query artefact than the correction a patch release is for
+ * (ADR-0007), so a person checks it and chooses the release bump.
  */
 export const ALIAS_REMOVAL_THRESHOLD = 20;
 
@@ -17,6 +17,7 @@ export interface EntityAlias {
   alias: string;
 }
 
+/** The Aliases a data update adds and removes, and whether the removals are enough to flag it. */
 export interface AliasChanges {
   added: EntityAlias[];
   removed: EntityAlias[];
