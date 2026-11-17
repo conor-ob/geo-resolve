@@ -1,6 +1,14 @@
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { checkAliasChanges } from "./alias-changes.ts";
 import { build } from "./build.ts";
+import {
+  assessDataUpdate,
+  dataUpdateChangeset,
+  dataUpdatePrBody,
+  SNAPSHOT_SOURCES,
+  type SnapshotSource,
+} from "./data-update.ts";
 import { fetchSnapshots } from "./fetch.ts";
 import { compareWithIsoCodes, fetchIsoCodes } from "./iso-codes.ts";
 
@@ -15,19 +23,40 @@ if (command === "fetch") await fetchSnapshots({ sourcesDir });
 else if (command === "build") await build({ sourcesDir, overlayPath, outDir, reportPath });
 else if (command === "compare-iso-codes")
   await compareWithIsoCodes({ dataDir: outDir, isoCodes: await fetchIsoCodes(), allowlistPath });
-else if (command === "alias-changes" && process.argv.length === 5) {
-  const [beforeDir, warningPath] = process.argv.slice(3) as [string, string];
-  const { added, removed, flagged } = await checkAliasChanges({
+else if (command === "data-update" && process.argv.length >= 6) {
+  const [beforeDir, diffPath, updateDir, ...sources] = process.argv.slice(3) as [
+    string,
+    string,
+    string,
+    ...string[],
+  ];
+  const unknown = sources.filter(
+    (source) => !(SNAPSHOT_SOURCES as readonly string[]).includes(source),
+  );
+  if (unknown.length > 0) throw new Error(`Unknown Source ${unknown.join(", ")}`);
+  const update = await assessDataUpdate({
     beforeDir,
     afterDir: outDir,
-    warningPath,
+    sources: sources as SnapshotSource[],
   });
+  await mkdir(updateDir, { recursive: true });
+  const changeset = dataUpdateChangeset(update);
+  if (changeset !== null) await writeFile(join(updateDir, "changeset.md"), changeset);
+  await writeFile(
+    join(updateDir, "body.md"),
+    dataUpdatePrBody(update, await readFile(diffPath, "utf8")),
+  );
+  await writeFile(
+    join(updateDir, "update.json"),
+    `${JSON.stringify({ bump: update.bump, flagged: update.aliases.flagged })}\n`,
+  );
+  const { added, removed, flagged } = update.aliases;
   console.log(
-    `${added.length} Aliases added, ${removed.length} removed${flagged ? `: flagged, see ${warningPath}` : ""}`,
+    `${added.length} Aliases added, ${removed.length} removed${flagged ? " (flagged)" : ""}; changeset: ${changeset === null ? "none" : update.bump}`,
   );
 } else {
   console.error(
-    "Usage: node src/cli.ts <fetch|build|compare-iso-codes|alias-changes <before-dir> <warning-path>>",
+    "Usage: node src/cli.ts <fetch|build|compare-iso-codes|data-update <before-dir> <build-report-diff> <out-dir> [CLDR] [Wikidata]>",
   );
   process.exitCode = 1;
 }

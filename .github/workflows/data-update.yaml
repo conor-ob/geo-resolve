@@ -36,53 +36,35 @@ jobs:
           cache: true
       - name: Fetch Snapshots from CLDR and Wikidata
         run: vp run @geo-resolve/codegen#fetch-snapshots
-      - name: Keep main's Data packs, to compare their Aliases with the rebuilt ones
+      - name: Keep main's Data packs, to compare with the rebuilt ones
         run: cp -R packages/geo-resolve/src/data "$RUNNER_TEMP/data-before"
       - name: Rebuild Data packs from Snapshots
         run: vp run @geo-resolve/codegen#build
-      # Writes alias-warning.md only when a run removes over ALIAS_REMOVAL_THRESHOLD (in
-      # tools/codegen/src/alias-changes.ts) more Aliases than it adds: much more likely an upstream or query artefact
-      # than a correction
-      - name: Check for a large one-sided removal of Aliases
-        run: vp run @geo-resolve/codegen#alias-changes "$RUNNER_TEMP/data-before" "$RUNNER_TEMP/alias-warning.md"
-      - name: Commit the changes to the data-update branch if the Snapshots changed
-        id: commit
+      # Decides everything the PR carries in tools/codegen/src/data-update.ts, where it is tested: the Aliases added
+      # and removed, a flag when removals outnumber additions by over ALIAS_REMOVAL_THRESHOLD, the changeset bump
+      # under ADR-0007 (none when flagged), and the PR body
+      - name: Assess the update if the Snapshots changed
+        id: assess
         run: |
           if [ -z "$(git status --porcelain -- tools/codegen/sources)" ]; then
             echo "The Snapshots are unchanged."
             exit 0
           fi
-          # Name only the Sources whose Snapshots changed, in the changeset and the PR body
-          cldr=$(git status --porcelain -- tools/codegen/sources/cldr)
-          wikidata=$(git status --porcelain -- tools/codegen/sources/wikidata)
-          if [ -n "$cldr" ] && [ -n "$wikidata" ]; then
-            snapshots="CLDR and Wikidata Snapshots"
-          elif [ -n "$cldr" ]; then
-            snapshots="CLDR Snapshot"
-          elif [ -n "$wikidata" ]; then
-            snapshots="Wikidata Snapshot"
-          else
-            snapshots="Snapshots"
+          sources=()
+          if [ -n "$(git status --porcelain -- tools/codegen/sources/cldr)" ]; then sources+=(CLDR); fi
+          if [ -n "$(git status --porcelain -- tools/codegen/sources/wikidata)" ]; then sources+=(Wikidata); fi
+          git diff -- tools/codegen/build-report.md > "$RUNNER_TEMP/build-report.diff"
+          vp run @geo-resolve/codegen#data-update "$RUNNER_TEMP/data-before" "$RUNNER_TEMP/build-report.diff" "$RUNNER_TEMP/update" "${sources[@]}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Commit the changes to the data-update branch
+        id: commit
+        if: steps.assess.outputs.changed == 'true'
+        run: |
+          if [ -f "$RUNNER_TEMP/update/changeset.md" ]; then
+            cp "$RUNNER_TEMP/update/changeset.md" .changeset/data-update.md
           fi
-          echo "snapshots=$snapshots" >> "$GITHUB_OUTPUT"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # A changeset, so merging releases the new data (ADR-0007): patch when only Aliases changed, otherwise minor.
-          # None when the Aliases are flagged, so a maintainer chooses the bump.
-          data_changes=$(git status --porcelain --untracked-files=all -- packages/geo-resolve/src/data | awk '{ print $NF }')
-          if [ -n "$data_changes" ] && [ ! -s "$RUNNER_TEMP/alias-warning.md" ]; then
-            bump="minor"
-            if ! echo "$data_changes" | grep -qv '\.aliases\.json$'; then
-              bump="patch"
-            fi
-            {
-              echo "---"
-              echo "\"geo-resolve\": $bump"
-              echo "---"
-              echo
-              echo "Update the data from the latest $snapshots."
-            } > .changeset/data-update.md
-          fi
           git switch -C "$BRANCH"
           git add -A
           git commit -m "$TITLE"
@@ -93,50 +75,17 @@ jobs:
           fi
           git push --force origin "$BRANCH"
           echo "pushed=true" >> "$GITHUB_OUTPUT"
-      - name: Open or update the PR with the build report diff
+      - name: Open or update the PR
         if: steps.commit.outputs.pushed == 'true'
-        env:
-          SNAPSHOTS: ${{ steps.commit.outputs.snapshots }}
         run: |
-          body="$RUNNER_TEMP/body.md"
-          diff="$RUNNER_TEMP/build-report.diff"
-          warning="$RUNNER_TEMP/alias-warning.md"
-          git diff HEAD~1 -- tools/codegen/build-report.md > "$diff"
-          {
-            if [ -s "$warning" ]; then
-              cat "$warning"
-              echo ">"
-              echo "> So this PR adds no changeset: a maintainer needs to choose the bump under ADR-0007 and add a changeset to this branch just before merging, since each run rebuilds the branch from main."
-              echo
-            fi
-            echo "The weekly data update (ADR-0008) found upstream changes in the $SNAPSHOTS. Review the changes before merging."
-            echo
-            echo "This branch is rebuilt from main on every run, so put any Overlay or allowlist fixes in a separate PR."
-            echo
-            if [ -f .changeset/data-update.md ]; then
-              echo "It adds a $(sed -n 's/^"geo-resolve": //p' .changeset/data-update.md) changeset. Check the bump against ADR-0007, and list any ISO 3166 change notices in it, before merging."
-              echo
-            fi
-            echo "## Build report diff"
-            echo
-            if [ ! -s "$diff" ]; then
-              echo "The build report is unchanged."
-            # GitHub caps a PR body at 65536 characters
-            elif [ "$(wc -c < "$diff")" -gt $((60000 - $(cat "$warning" 2>/dev/null | wc -c))) ]; then
-              echo "The diff is too long to show here; see \`tools/codegen/build-report.md\` in the changed files."
-            else
-              echo '````diff'
-              cat "$diff"
-              echo '````'
-            fi
-          } > "$body"
+          body="$RUNNER_TEMP/update/body.md"
           pr=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
           if [ -n "$pr" ]; then
             gh pr edit "$pr" --body-file "$body"
           else
             pr=$(gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body")
           fi
-          if [ -s "$warning" ]; then
+          if [ "$(jq -r .flagged "$RUNNER_TEMP/update/update.json")" = "true" ]; then
             gh label create "$ALIAS_REMOVALS_LABEL" --force --color D93F0B --description "A data update that removes many more Aliases than it adds"
             gh pr edit "$pr" --add-label "$ALIAS_REMOVALS_LABEL"
           # An earlier run on this PR may have flagged it
