@@ -1,7 +1,15 @@
-import type { Country, HistoricCountry, Subdivision, Territory } from "geo-resolve";
+import type {
+  Country,
+  Entity,
+  HistoricCountry,
+  KnownScheme,
+  Subdivision,
+  Territory,
+} from "geo-resolve";
 import { append } from "./lists.ts";
 import type { Overlay, SameAsLinks } from "./overlay.ts";
-import { matchKey, type AliasLanguage } from "./wikidata.ts";
+import { createResolver, dataPack, normalise, type FormerCodes } from "./package.ts";
+import type { AliasLanguage } from "./wikidata.ts";
 
 /** Where an Alias candidate came from: a CLDR variant or short name (ADR-0014), or a Wikidata label in one language. */
 export type AliasOrigin =
@@ -38,7 +46,40 @@ export interface AliasRuleEntities {
   historicCountries: readonly HistoricCountry[];
   /** The Aliases the Overlay lists on each Historic country, by `id`. */
   historicAliases: ReadonlyMap<string, readonly string[]>;
+  /** The former codes of Countries that still exist, by `id` (ADR-0003). */
+  formerCodes: ReadonlyMap<string, FormerCodes>;
   sameAs: SameAsLinks;
+}
+
+/** Every Scheme an Input can match a code in, so a Resolver query can tell codes from Names and Aliases. */
+const SCHEMES = Object.keys({
+  alpha2: true,
+  alpha3: true,
+  numeric: true,
+  "subdivision-code": true,
+  alpha4: true,
+  ioc: true,
+  fifa: true,
+} satisfies Record<KnownScheme, true>);
+
+/**
+ * A Resolver over copies of `entities`, with the Aliases and former codes in `aliases` and `formerCodes` keyed by
+ * `id`. Copies, since a Data pack freezes its Entities and records their Aliases against them.
+ */
+function resolverOver(
+  entities: readonly Entity[],
+  aliases: ReadonlyMap<string, readonly string[]>,
+  formerCodes: ReadonlyMap<string, FormerCodes>,
+) {
+  return createResolver({
+    data: [
+      dataPack(
+        entities.map((entity) => ({ ...entity })),
+        Object.fromEntries(aliases),
+        Object.fromEntries(formerCodes),
+      ),
+    ],
+  });
 }
 
 /** The Aliases each Country and Territory ships, and the candidates the rules or the Overlay dropped. */
@@ -67,7 +108,7 @@ function isLatin(alias: string): boolean {
 
 /** Keys an Overlay entry by Entity and match key, so it matches the Alias whatever its case or accents. */
 function entityAliasKey(entity: string, alias: string): string {
-  return `${entity}\t${matchKey(alias)}`;
+  return `${entity}\t${normalise(alias)}`;
 }
 
 /** How many capital letters an Alias has, to choose between Aliases that differ only in case. */
@@ -98,39 +139,48 @@ export function applyAliasRules({
   overlay: Pick<Overlay, "addedAliases" | "removedAliases">;
   problems: string[];
 }): AliasRulesResult {
-  const { countries, territories, subdivisions, historicCountries, historicAliases, sameAs } =
-    entities;
+  const {
+    countries,
+    territories,
+    subdivisions,
+    historicCountries,
+    historicAliases,
+    formerCodes,
+    sameAs,
+  } = entities;
 
-  // Aliases are names only: one that is a code would shadow the code's own Entity, and one that names a
-  // Historic country would map it to a current Country, which geo-resolve never does (ADR-0003).
-  const codeHolders = new Map<string, string[]>();
-  const holdsCode = (code: string, id: string) => append(codeHolders, matchKey(code), id);
-  for (const { id, alpha2, alpha3, numeric } of countries)
-    for (const code of [alpha2, alpha3, numeric]) holdsCode(code, id);
-  for (const { id, code } of subdivisions) holdsCode(code, id);
-  for (const { id, alpha4, alpha2, alpha3, numeric } of historicCountries) {
-    for (const code of [alpha4, alpha2, alpha3, numeric])
-      if (code !== undefined) holdsCode(code, id);
-  }
-  for (const { id } of territories) holdsCode(id, id);
-  for (const { id, codes } of [...countries, ...subdivisions, ...territories])
-    for (const code of Object.values(codes ?? {})) if (code !== undefined) holdsCode(code, id);
-  const historicNames = new Map<string, string>();
-  for (const { id, name } of historicCountries)
-    historicNames.set(matchKey(name), `the Name of the Historic country ${id}`);
-  for (const [id, aliases] of historicAliases) {
-    for (const alias of aliases)
-      historicNames.set(matchKey(alias), `an Alias of the Historic country ${id}`);
-  }
+  // The rules ask a Resolver what a candidate would match, so they apply exactly the matching `resolve` does:
+  // every code (former codes included), Name and Historic country Alias the Data packs ship.
+  const allEntities = [...countries, ...territories, ...subdivisions, ...historicCountries];
+  const withoutAliases = resolverOver(allEntities, historicAliases, formerCodes);
   const entityNames = new Map([...countries, ...territories].map(({ id, name }) => [id, name]));
-  // An Alias that is a different Entity's Name, or another Entity's Alias, would make a common Input an Ambiguous
-  // input, which the default English Resolver never has (ADR-0013), unless a Same-as link joins the two Entities.
-  const nameHolders = new Map<string, string[]>();
-  for (const { id, name } of [...countries, ...territories, ...subdivisions])
-    append(nameHolders, matchKey(name), id);
   /** The Entities in `others` other than `id` and those a Same-as link joins to it. */
   const unlinked = (id: string, others: readonly string[]) =>
     others.filter((other) => other !== id && !sameAs.get(id)?.includes(other));
+  // Aliases are names only: one that is a code would shadow the code's own Entity, and one that names a
+  // Historic country would map it to a current Country, which geo-resolve never does (ADR-0003). One that is another
+  // Entity's Name would make a common Input an Ambiguous input, which the default English Resolver never has
+  // (ADR-0013), unless a Same-as link joins the two Entities.
+  /** Why `alias` can't be an Alias of the Entity with this `id`, judged by what it already matches, or `undefined`. */
+  const matchReason = (id: string, alias: string): string | undefined => {
+    const coded = new Set(withoutAliases.resolveAll(alias, { from: SCHEMES }));
+    const key = normalise(alias);
+    // A Territory's `id` is in no Scheme (ADR-0012), but is still a code.
+    const matched = withoutAliases.resolveAll(alias);
+    for (const entity of matched)
+      if (entity.kind === "territory" && normalise(entity.id) === key) coded.add(entity);
+    if (coded.size > 0) return `a code of ${joinIds([...coded].map(({ id }) => id))}`;
+    const historic = matched.find(({ kind }) => kind === "historic-country");
+    if (historic !== undefined)
+      return normalise(historic.name) === key
+        ? `the Name of the Historic country ${historic.id}`
+        : `an Alias of the Historic country ${historic.id}`;
+    const named = unlinked(
+      id,
+      matched.map((entity) => entity.id),
+    );
+    return named.length > 0 ? `the Name of ${joinIds(named)}` : undefined;
+  };
 
   // Overlay removals take an Alias from the Sources before the shared-Alias check below, so removing a shared Alias
   // from all but one Entity gives it back to that one (ADR-0013). Each one must match an Alias from the Sources that
@@ -180,17 +230,17 @@ export function applyAliasRules({
   const aliases: AliasSource[] = [];
   const dropped: DroppedAlias[] = [];
   for (const id of [...entityNames.keys()].sort()) {
-    const keys = new Set([matchKey(entityNames.get(id)!)]);
+    const keys = new Set([normalise(entityNames.get(id)!)]);
     const fromSources = (byEntity.get(id) ?? [])
       .slice()
       .sort((a, b) => rank(a) - rank(b) || (a.alias < b.alias ? -1 : 1));
     const wikidataRows = fromSources.filter(({ origin }) => origin.source === "Wikidata");
     /** The Overlay's additions still waiting for a Source to give the same Alias, which makes them stale. */
     const pending = new Map(
-      (additions.get(id) ?? []).map((row) => [matchKey(row.alias), row.alias]),
+      (additions.get(id) ?? []).map((row) => [normalise(row.alias), row.alias]),
     );
     for (const row of [...(additions.get(id) ?? []), ...fromSources]) {
-      const key = matchKey(row.alias);
+      const key = normalise(row.alias);
       if (keys.has(key)) {
         if (row.origin.source === "Overlay")
           problems.push(`Overlay Alias ${row.alias} for ${id} is its Name`);
@@ -216,16 +266,11 @@ export function applyAliasRules({
                 countCapitals(other.alias) > countCapitals(best.alias) ? other : best,
               ).alias
           : row.alias;
-      const holders = codeHolders.get(key);
-      const named = unlinked(id, nameHolders.get(key) ?? []);
       const reason = !isName(alias)
         ? "not a name"
         : row.origin.source === "Wikidata" && row.origin.lang === "mul" && !isLatin(alias)
           ? "not in Latin script"
-          : holders !== undefined
-            ? `a code of ${joinIds(holders)}`
-            : (historicNames.get(key) ??
-              (named.length > 0 ? `the Name of ${joinIds(named)}` : undefined));
+          : matchReason(id, alias);
       const removal = removals.get(entityAliasKey(id, row.alias));
       if (removal !== undefined) removal.matched = true;
       const source = sourceLabel(row);
@@ -255,10 +300,17 @@ export function applyAliasRules({
       );
   }
 
-  const aliasHolders = new Map<string, string[]>();
-  for (const { id, alias } of aliases) append(aliasHolders, matchKey(alias), id);
+  // A Resolver over every Entity with the Aliases that passed: an Alias that still has a Candidate other than its own
+  // Entity and those Same-as links join it to is an Alias of more than one Entity, and is dropped from each.
+  const kept = new Map<string, string[]>();
+  for (const { id, alias } of aliases) append(kept, id, alias);
+  for (const [id, names] of historicAliases) kept.set(id, [...names]);
+  const withAliases = resolverOver(allEntities, kept, formerCodes);
   const unshared = aliases.filter(({ id, alias, source }) => {
-    const shared = unlinked(id, aliasHolders.get(matchKey(alias))!);
+    const shared = unlinked(
+      id,
+      withAliases.resolveAll(alias).map((entity) => entity.id),
+    );
     if (shared.length === 0) return true;
     if (source === "Overlay")
       problems.push(`Overlay Alias ${alias} for ${id} is also an Alias of ${joinIds(shared)}`);

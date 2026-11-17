@@ -70,6 +70,7 @@ function rules({
       subdivisions: [],
       historicCountries: [],
       historicAliases: new Map(),
+      formerCodes: new Map(),
       sameAs: new Map(),
       ...entities,
     },
@@ -113,6 +114,18 @@ test("a candidate is dropped when it is any Entity's code or a Historic country'
     { id: "ZA", alias: "Southern Rhodesia", reason: "the Name of the Historic country RHZW" },
     { id: "ZA", alias: "zaf", reason: "a code of ZA" },
   ]);
+});
+
+test("a candidate is dropped when it is a former code of a Country that still exists", () => {
+  const { aliases, dropped } = rules({
+    entities: {
+      countries: [country("RO", "Romania", "ROU", "642"), country("MD", "Moldova", "MDA", "498")],
+      formerCodes: new Map([["RO", { alpha3: ["ROM"] }]]),
+    },
+    candidates: [wikidata("MD", "Q217", "Rom"), wikidata("MD", "Q217", "Republic of Moldova")],
+  });
+  expect(aliases).toEqual({ MD: ["Republic of Moldova"] });
+  expect(dropped).toEqual([{ id: "MD", alias: "Rom", reason: "a code of RO" }]);
 });
 
 const germany = country("DE", "Germany", "DEU", "276");

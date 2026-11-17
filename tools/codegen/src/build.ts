@@ -14,7 +14,8 @@ import {
   TerritorySchema,
 } from "./schemas.ts";
 import { applyAliasRules, type AliasCandidate, type AliasSource } from "./alias-rules.ts";
-import { joinWikidata, matchKey, readWikidata } from "./wikidata.ts";
+import { normalise } from "./package.ts";
+import { joinWikidata, readWikidata } from "./wikidata.ts";
 
 export interface BuildOptions {
   /** Directory holding the Snapshots written by `fetch`. */
@@ -360,13 +361,13 @@ export async function build({
   // Country's, so a Country with its Name is how ISO would list it. Subdivisions may share its ground or Name: ISO
   // lists Kosovo as the Serbian Subdivision RS-KM, with a district RS-25 named Kosovo.
   const regularRegions = new Set(regularCodes);
-  const countryIdsByName = new Map(countries.map(({ id, name }) => [matchKey(name), id]));
+  const countryIdsByName = new Map(countries.map(({ id, name }) => [normalise(name), id]));
   const territoryIds = new Set<string>();
   for (const { id, name } of overlay.territories) {
     if (entityIds.has(id)) problems.push(`Duplicate id ${id}`);
     if (!regularRegions.has(id))
       problems.push(`Territory ${id} isn't a CLDR region, so it has no localised Names`);
-    const listed = countryIdsByName.get(matchKey(name));
+    const listed = countryIdsByName.get(normalise(name));
     if (listed !== undefined)
       problems.push(
         `Territory ${id} ${name} is listed by ISO as the Country ${listed}, so it isn't a Territory`,
@@ -457,6 +458,9 @@ export async function build({
       subdivisions: subdivisionsWithCodes,
       historicCountries,
       historicAliases: historicCountryAliases,
+      formerCodes: new Map(
+        [...countryFormerCodes].map(([id, schemes]) => [id, Object.fromEntries(schemes)]),
+      ),
       sameAs,
     },
     candidates: [
