@@ -630,3 +630,73 @@ test("a Wikidata Alias of more than one Entity is dropped from each, so it can't
   expect(report).toContain("| CD | Congo | also an Alias of CG |");
   expect(report).toContain("| CG | Congo | also an Alias of CD |");
 });
+
+const eswatini: CldrFixture = {
+  regular: ["SZ"],
+  codes: [{ type: "SZ", numeric: "748", alpha3: "SWZ" }],
+  names: [
+    { type: "SZ", name: "Eswatini" },
+    { type: "SZ", name: "Swaziland", alt: "variant" },
+  ],
+};
+
+test("a CLDR variant English name is an Alias from CLDR, even with no Wikidata Alias", async () => {
+  const { aliases, report } = await buildWith(
+    { items: [{ item: "Q1050", alpha2: "SZ" }] },
+    { cldr: eswatini },
+  );
+  expect(aliases).toEqual({ SZ: ["Swaziland"] });
+  expect(report).toContain("| SZ | Swaziland | CLDR |");
+});
+
+test("a CLDR variant English name ships over the same Wikidata Alias, and is dropped like one when it breaks an Alias rule", async () => {
+  const turkey: CldrFixture = {
+    regular: ["SZ", "TR"],
+    codes: [...eswatini.codes, { type: "TR", numeric: "792", alpha3: "TUR" }],
+    names: [
+      ...eswatini.names,
+      { type: "TR", name: "Türkiye" },
+      { type: "TR", name: "Eswatini", alt: "variant" },
+    ],
+  };
+  const { aliases, report } = await buildWith(
+    {
+      items: [
+        { item: "Q1050", alpha2: "SZ" },
+        { item: "Q43", alpha2: "TR" },
+      ],
+      aliases: [
+        { item: "Q1050", alias: "SWAZILAND" },
+        { item: "Q1050", alias: "Swaziland", lang: "mul" },
+      ],
+    },
+    { cldr: turkey },
+  );
+  expect(aliases).toEqual({ SZ: ["Swaziland"] });
+  expect(report).toContain("| SZ | Swaziland | CLDR |");
+  expect(report).not.toContain("| SZ | Swaziland | Wikidata");
+  expect(report).toContain("| TR | Eswatini | the Name of SZ |");
+});
+
+test("a CLDR short English name is an Alias too, but other alt forms aren't", async () => {
+  const { aliases, report } = await buildWith(
+    {},
+    {
+      cldr: {
+        regular: ["BA", "IO"],
+        codes: [
+          { type: "BA", numeric: "070", alpha3: "BIH" },
+          { type: "IO", numeric: "086", alpha3: "IOT" },
+        ],
+        names: [
+          { type: "BA", name: "Bosnia & Herzegovina" },
+          { type: "BA", name: "Bosnia", alt: "short" },
+          { type: "IO", name: "British Indian Ocean Territory" },
+          { type: "IO", name: "Chagos Archipelago", alt: "chagos" },
+        ],
+      },
+    },
+  );
+  expect(aliases).toEqual({ BA: ["Bosnia"] });
+  expect(report).toContain("| BA | Bosnia | CLDR |");
+});

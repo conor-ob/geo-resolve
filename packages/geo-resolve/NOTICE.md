@@ -4,7 +4,7 @@ geo-resolve's code is licensed under the MIT License (see `LICENSE`). Its data i
 
 ## Unicode CLDR
 
-Country and Subdivision codes, English Names and the Parent hierarchy are derived from the Unicode Common Locale Data Repository (CLDR) (<https://github.com/unicode-org/cldr>), under the Unicode License v3:
+Country and Subdivision codes, English Names, the Parent hierarchy and some English Aliases are derived from the Unicode Common Locale Data Repository (CLDR) (<https://github.com/unicode-org/cldr>), under the Unicode License v3:
 
 ```text
 UNICODE LICENSE V3
@@ -52,7 +52,7 @@ SPDX-License-Identifier: Unicode-3.0
 
 ## Wikidata
 
-IOC and FIFA codes and Aliases are derived from Wikidata (<https://www.wikidata.org>), whose structured data is dedicated to the public domain under CC0 1.0 (<https://creativecommons.org/publicdomain/zero/1.0/>). No attribution is required; it is given here as a courtesy.
+IOC and FIFA codes and most Aliases are derived from Wikidata (<https://www.wikidata.org>), whose structured data is dedicated to the public domain under CC0 1.0 (<https://creativecommons.org/publicdomain/zero/1.0/>). No attribution is required; it is given here as a courtesy.
 
 ## ISO 3166
 

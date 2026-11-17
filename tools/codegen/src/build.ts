@@ -266,6 +266,9 @@ const EnglishNamesSchema = z.object({
   }),
 });
 
+/** The `alt` forms of CLDR English territory names that are Aliases of their Entity (ADR-0014). */
+const CLDR_ALIAS_ALTS = ["variant", "short"];
+
 /**
  * ISO 3166-1 codes that CLDR lists as regular regions but that ISO doesn't assign to a Country:
  * the exceptionally reserved codes (AC, CP, CQ, DG, EA, IC, TA) and the user-assigned ranges
@@ -391,6 +394,11 @@ export async function build({
       .filter((row) => row.alt === undefined)
       .map((row) => [row.type, row["#text"]]),
   );
+  const cldrAliases = new Map<string, string[]>();
+  for (const row of english.ldml.localeDisplayNames.territories.territory) {
+    if (row.alt !== undefined && CLDR_ALIAS_ALTS.includes(row.alt))
+      append(cldrAliases, row.type, row["#text"]);
+  }
 
   const regularCodes = validity.supplementalData.idValidity.id
     .filter((row) => row.type === "region" && row.idStatus === "regular")
@@ -609,10 +617,11 @@ export async function build({
     for (const alias of aliases) aliasSources.push({ id, alias, source: "Overlay" });
   }
 
-  // Wikidata supplies Code system codes and Aliases only, joined to the Entities built above (ADR-0001).
+  // Wikidata supplies Code system codes and Aliases only, joined to the Entities built above (ADR-0001). CLDR's
+  // variant and short English names are Aliases too, under the same rules (ADR-0014).
   const {
     codes: codeSystems,
-    aliases: wikidataAliases,
+    aliases: joinedAliases,
     droppedAliases,
   } = joinWikidata({
     countries,
@@ -620,6 +629,7 @@ export async function build({
     historicCountries,
     overlay,
     wikidata: await readWikidata(sourcesDir),
+    cldrAliases,
     problems,
   });
   /** The Code system codes joined to an Entity, or `undefined` when it has none. */
@@ -666,7 +676,7 @@ export async function build({
   }
 
   const territoryAliases = new Map<string, string[]>();
-  for (const source of wikidataAliases) {
+  for (const source of joinedAliases) {
     append(
       territoryIds.has(source.id) ? territoryAliases : countryAliases,
       source.id,

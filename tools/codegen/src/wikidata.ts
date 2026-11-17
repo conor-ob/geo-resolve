@@ -207,20 +207,20 @@ export interface AliasSource {
   source: string;
 }
 
-/** A Wikidata Alias that isn't an Alias of its Entity, with why, for the build report. */
+/** A Wikidata or CLDR Alias that isn't an Alias of its Entity, with why, for the build report. */
 export interface DroppedAlias {
   id: string;
   alias: string;
   reason: string;
 }
 
-/** What Wikidata gives the Entities built from CLDR and the Overlay. */
+/** What Wikidata gives the Entities built from CLDR and the Overlay, with the Aliases that pass the Alias rules. */
 export interface WikidataJoin {
   /** Each Entity's Code system codes, Overlay code corrections applied. */
   codes: Map<string, Map<CodeSystem, SourcedCode>>;
-  /** The Wikidata Aliases of each Country and Territory. */
+  /** The Aliases of each Country and Territory, from Wikidata and CLDR. */
   aliases: AliasSource[];
-  /** The Wikidata Aliases the Alias filters dropped. */
+  /** The Aliases the Alias filters dropped. */
   droppedAliases: DroppedAlias[];
 }
 
@@ -245,8 +245,9 @@ function countCapitals(alias: string): number {
 }
 
 /**
- * Joins Wikidata's Code system codes and Aliases to the Entities built from CLDR and the Overlay (ADR-0001), adding
- * every problem it finds to `problems` rather than stopping at the first.
+ * Joins Wikidata's Code system codes and Aliases to the Entities built from CLDR and the Overlay (ADR-0001), and
+ * applies the Alias rules to Wikidata's Aliases and CLDR's variant and short English names alike, adding every problem it
+ * finds to `problems` rather than stopping at the first.
  */
 export function joinWikidata({
   countries,
@@ -254,6 +255,7 @@ export function joinWikidata({
   historicCountries,
   overlay,
   wikidata,
+  cldrAliases,
   problems,
 }: {
   countries: readonly Country[];
@@ -261,6 +263,8 @@ export function joinWikidata({
   historicCountries: readonly HistoricCountry[];
   overlay: Overlay;
   wikidata: Wikidata;
+  /** CLDR's variant and short English names (ADR-0014), keyed by Entity `id`. */
+  cldrAliases: ReadonlyMap<string, readonly string[]>;
   problems: string[];
 }): WikidataJoin {
   const countryIds = new Set(countries.map(({ id }) => id));
@@ -415,7 +419,7 @@ export function joinWikidata({
     }
   }
 
-  // Wikidata Aliases are names only: one that is a code would shadow the code's own Entity, and one that names a
+  // Aliases are names only: one that is a code would shadow the code's own Entity, and one that names a
   // Historic country would map it to a current Country, which geo-resolve never does (ADR-0003).
   const codeHolders = new Map<string, string[]>();
   const holdsCode = (code: string, id: string) => append(codeHolders, matchKey(code), id);
@@ -454,28 +458,39 @@ export function joinWikidata({
     others.filter((other) => other !== id && !sameAs.get(id)?.includes(other));
   const aliases: AliasSource[] = [];
   const droppedAliases: DroppedAlias[] = [];
-  for (const [country, item] of [...countryItems].sort(([a], [b]) => (a < b ? -1 : 1))) {
+  for (const country of [...entityNames.keys()].sort()) {
+    const item = countryItems.get(country);
     const keys = new Set([matchKey(entityNames.get(country)!)]);
-    // Rows in the language ALIAS_LANGUAGES ranks first win over others with the same match key, so an English
-    // spelling ships over a multilingual one that differs in accents.
+    // CLDR's Names win over Wikidata rows with the same match key, as CLDR curates them, so the report attributes
+    // them to CLDR. Among Wikidata rows, the language ALIAS_LANGUAGES ranks first wins, so an English spelling ships
+    // over a multilingual one that differs in accents.
     const rank = (lang: (typeof ALIAS_LANGUAGES)[number]) => ALIAS_LANGUAGES.indexOf(lang);
+    const cldrRows = (cldrAliases.get(country) ?? []).map((alias) => ({
+      alias,
+      lang: "en" as const,
+      source: "CLDR",
+    }));
     const itemAliases = wikidata.aliases
-      .filter((row) => row.item === item)
-      .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1));
-    for (const row of itemAliases) {
+      .filter((row) => item !== undefined && row.item === item)
+      .sort((a, b) => rank(a.lang) - rank(b.lang) || (a.alias < b.alias ? -1 : 1))
+      .map((row) => ({ ...row, source: `Wikidata ${item}` }));
+    for (const row of [...cldrRows, ...itemAliases]) {
       const key = matchKey(row.alias);
       if (keys.has(key)) continue;
       keys.add(key);
       // Rows that differ only in case, in any language, ship the one with the most capitals, ties going to the
       // order above, so the casing that ships doesn't depend on which variants upstream happens to keep. Case only,
       // not the whole match key, so an English spelling still wins on accents. The row that took the match key still
-      // decides the script rule by its language, as casing never changes a script.
-      const { alias } = itemAliases
-        .filter((other) => other.alias.toLowerCase() === row.alias.toLowerCase())
-        .reduce((best, other) =>
-          countCapitals(other.alias) > countCapitals(best.alias) ? other : best,
-        );
-      const { lang } = row;
+      // decides the script rule by its language, as casing never changes a script. A CLDR name ships as CLDR writes it.
+      const { alias } =
+        row.source === "CLDR"
+          ? row
+          : itemAliases
+              .filter((other) => other.alias.toLowerCase() === row.alias.toLowerCase())
+              .reduce((best, other) =>
+                countCapitals(other.alias) > countCapitals(best.alias) ? other : best,
+              );
+      const { lang, source } = row;
       const holders = codeHolders.get(key);
       const named = unlinked(country, nameHolders.get(key) ?? []);
       const reason = !isName(alias)
@@ -487,7 +502,7 @@ export function joinWikidata({
             : (historicNames.get(key) ??
               (named.length > 0 ? `the Name of ${named.sort().join(" and ")}` : undefined));
       if (reason !== undefined) droppedAliases.push({ id: country, alias, reason });
-      else aliases.push({ id: country, alias, source: `Wikidata ${item}` });
+      else aliases.push({ id: country, alias, source });
     }
   }
 
