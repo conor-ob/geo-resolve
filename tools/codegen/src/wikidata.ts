@@ -18,8 +18,11 @@ export const WIKIDATA_QUERIES = {
   BIND(EXISTS { ?statement pq:P582 [] } || EXISTS { ?item wdt:P576 [] } AS ?ended)
 } ORDER BY ?alpha2 ?item`,
 
-  /** Current IOC codes (P984) of items holding an Alpha-2 code. */
-  ioc: `SELECT ?item ?ioc WHERE {
+  /**
+   * Current IOC codes (P984) of items holding an Alpha-2 code. `DISTINCT`, since an item holding a former Alpha-2
+   * code too, such as Myanmar (MM and BU), matches once per code.
+   */
+  ioc: `SELECT DISTINCT ?item ?ioc WHERE {
   ?item p:P297 [] ; p:P984 ?statement .
   ?statement ps:P984 ?ioc ; wikibase:rank ?rank .
   FILTER(?rank != wikibase:DeprecatedRank)
@@ -28,9 +31,9 @@ export const WIKIDATA_QUERIES = {
 
   /**
    * English and multilingual (`mul`) labels and aliases of items holding an Alpha-2 code. Wikidata keeps a name that
-   * reads the same in every language under `mul` only, not `en`.
+   * reads the same in every language under `mul` only, not `en`. `DISTINCT`, as for `ioc`.
    */
-  aliases: `SELECT ?item ?alias ?lang WHERE {
+  aliases: `SELECT DISTINCT ?item ?alias ?lang WHERE {
   ?item p:P297 [] .
   { ?item rdfs:label ?alias } UNION { ?item skos:altLabel ?alias }
   BIND(LANG(?alias) AS ?lang)
