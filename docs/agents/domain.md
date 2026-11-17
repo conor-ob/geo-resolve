@@ -49,3 +49,5 @@ If the concept you need isn't in the glossary yet, that's a signal: either you'r
 If your output contradicts an existing ADR, surface it explicitly rather than silently overriding:
 
 > _Contradicts ADR-0007 (event-sourced orders), but worth reopening because…_
+
+When a new ADR widens, narrows or replaces part of an older one, edit the older ADR in the same PR: correct the sentence that is no longer true and name the newer ADR beside it ("ADR-0012 narrows this scope: …"). A reader of the older ADR must not have to know the newer one exists.
