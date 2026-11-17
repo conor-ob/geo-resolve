@@ -52,6 +52,19 @@ jobs:
             echo "The Snapshots are unchanged."
             exit 0
           fi
+          # Name only the Sources whose Snapshots changed, in the changeset and the PR body
+          cldr=$(git status --porcelain -- tools/codegen/sources/cldr)
+          wikidata=$(git status --porcelain -- tools/codegen/sources/wikidata)
+          if [ -n "$cldr" ] && [ -n "$wikidata" ]; then
+            snapshots="CLDR and Wikidata Snapshots"
+          elif [ -n "$cldr" ]; then
+            snapshots="CLDR Snapshot"
+          elif [ -n "$wikidata" ]; then
+            snapshots="Wikidata Snapshot"
+          else
+            snapshots="Snapshots"
+          fi
+          echo "snapshots=$snapshots" >> "$GITHUB_OUTPUT"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # A changeset, so merging releases the new data (ADR-0007): patch when only Aliases changed, otherwise minor.
@@ -67,7 +80,7 @@ jobs:
               echo "\"geo-resolve\": $bump"
               echo "---"
               echo
-              echo "Update the data from the latest CLDR and Wikidata Snapshots."
+              echo "Update the data from the latest $snapshots."
             } > .changeset/data-update.md
           fi
           git switch -C "$BRANCH"
@@ -82,6 +95,8 @@ jobs:
           echo "pushed=true" >> "$GITHUB_OUTPUT"
       - name: Open or update the PR with the build report diff
         if: steps.commit.outputs.pushed == 'true'
+        env:
+          SNAPSHOTS: ${{ steps.commit.outputs.snapshots }}
         run: |
           body="$RUNNER_TEMP/body.md"
           diff="$RUNNER_TEMP/build-report.diff"
@@ -94,7 +109,7 @@ jobs:
               echo "> So this PR adds no changeset: a maintainer needs to choose the bump under ADR-0007 and add a changeset to this branch just before merging, since each run rebuilds the branch from main."
               echo
             fi
-            echo "The weekly data update (ADR-0008) found upstream changes in the Snapshots. Review the changes before merging."
+            echo "The weekly data update (ADR-0008) found upstream changes in the $SNAPSHOTS. Review the changes before merging."
             echo
             echo "This branch is rebuilt from main on every run, so put any Overlay or allowlist fixes in a separate PR."
             echo
