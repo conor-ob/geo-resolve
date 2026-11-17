@@ -76,7 +76,7 @@ _Avoid_: code type, format
 The label of an Entity in a given Locale. Every Entity has an English name.
 
 **Alias**:
-An additional label that should resolve to an Entity but is not its Name, such as Holland for the Netherlands.
+An additional label that should resolve to an Entity but is not its Name, such as Holland for the Netherlands. A Locale's Aliases may come from any language ("Birmania" is an English Alias of Myanmar); they are dropped for clashing or being junk, not for their language (ADR-0013).
 _Avoid_: nickname, synonym
 
 **Locale**:
