@@ -1,12 +1,14 @@
 name: Release
 
-# Changesets drives releases. On every push to main, changesets/action opens or updates the version PR while
-# changesets are pending. Once that PR is merged, it runs stage-release.sh, which stages the new version on npm
-# through trusted publishing (no token) and pushes its git tag. The version goes live only when the maintainer
-# approves it with 2FA, with `npm stage approve` or on the package's Staged Packages tab on npmjs.com.
+# Changesets drives releases. On every push to main, the version job opens or updates the version PR while changesets
+# are pending. Once that PR is merged, the version on main has no tag yet, so the stage job runs stage-release.sh,
+# which stages the new version on npm through trusted publishing (no token), then pushes its git tag and creates its
+# GitHub release. The version goes live only when the maintainer approves it with 2FA, with `npm stage approve` or on
+# the package's Staged Packages tab on npmjs.com.
 #
-# npm's trusted publisher for geo-resolve names this file (release.yaml) and the `npm` environment, and only
-# allows staging, so a plain `npm publish` from here is refused.
+# npm's trusted publisher for geo-resolve names this file (release.yaml) and the `npm` environment, and only allows
+# staging, so a plain `npm publish` from here is refused. Only the stage job targets that environment, because GitHub
+# records a deployment for every job that does: so there is one per release, not one per push to main.
 on:
   push:
     branches: [main]
@@ -18,18 +20,62 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  release:
-    name: Open the version PR or stage the release
+  version:
+    name: Open the version PR or decide whether to stage a release
+    runs-on: ubuntu-latest
+    permissions:
+      # To push the version PR branch
+      contents: write
+      pull-requests: write
+      # To dispatch CI on the version PR, since PRs made with the workflow token trigger no workflows
+      actions: write
+    outputs:
+      stage: ${{ steps.due.outputs.stage }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          # With tags, so the due step can tell a version is already staged
+          fetch-depth: 0
+      - uses: voidzero-dev/setup-vp@v1.22.0
+        with:
+          node-version-file: .nvmrc
+          cache: true
+      - uses: changesets/action@v2.1.2
+        id: changesets
+        with:
+          version-script: vp run version-packages
+          commit-message: "chore(release): version packages"
+          pr-title: "chore(release): version packages"
+      - name: Run CI on the version PR
+        if: steps.changesets.outputs.pr-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ci.yaml --ref changeset-release/main
+      # A release is due once no changesets are pending and the version on main has no tag, that is, right after the
+      # version PR is merged. stage-release.sh checks again, and also skips a version already on npm.
+      - name: Decide whether a release is due
+        id: due
+        if: steps.changesets.outputs.hasChangesets == 'false'
+        run: |
+          tag="geo-resolve@$(node -p 'require("./packages/geo-resolve/package.json").version')"
+          if git rev-parse --quiet --verify "refs/tags/$tag" >/dev/null; then
+            echo "$tag is already tagged, so there is nothing to stage."
+          else
+            echo "$tag has no tag, so the stage job will stage it."
+            echo "stage=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  stage:
+    name: Stage the release on npm
+    needs: version
+    if: needs.version.outputs.stage == 'true'
     runs-on: ubuntu-latest
     environment: npm
     permissions:
-      # To push the version PR branch and the release tag
+      # To push the release tag and create the GitHub release
       contents: write
-      pull-requests: write
       # For trusted publishing and provenance
       id-token: write
-      # To dispatch CI on the version PR, since PRs made with the workflow token trigger no workflows
-      actions: write
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -43,15 +89,8 @@ jobs:
         # Outside the repository, where the root package.json's devEngines (pnpm) would make npm refuse
         working-directory: ${{ runner.temp }}
         run: npm install --global npm@11.19.1
+      # With no changesets pending, changesets/action goes straight to the publish script, then pushes the tag that
+      # script reports and creates the GitHub release
       - uses: changesets/action@v2.1.2
-        id: changesets
         with:
-          version-script: vp run version-packages
           publish-script: .github/scripts/stage-release.sh
-          commit-message: "chore(release): version packages"
-          pr-title: "chore(release): version packages"
-      - name: Run CI on the version PR
-        if: steps.changesets.outputs.pr-number != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run ci.yaml --ref changeset-release/main
