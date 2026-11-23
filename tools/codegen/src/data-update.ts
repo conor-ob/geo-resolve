@@ -152,6 +152,15 @@ function snapshotsLabel({ sources }: DataUpdate): string {
 }
 
 /**
+ * The data-update PR's title, and its commit message once squash-merged, naming only the Sources whose Snapshots
+ * changed, such as `chore(data): update snapshots from cldr and wikidata`.
+ */
+export function dataUpdateTitle({ sources }: DataUpdate): string {
+  const from = sources.length === 0 ? "" : ` from ${sources.join(" and ").toLowerCase()}`;
+  return `chore(data): update snapshots${from}`;
+}
+
+/**
  * The changeset that releases a data update (ADR-0007), or `null` when no Data pack changed, or when its Aliases are
  * flagged, so a maintainer chooses the bump.
  */

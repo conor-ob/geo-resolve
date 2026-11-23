@@ -23,7 +23,6 @@ jobs:
     env:
       BRANCH: chore/data-update
       ALIAS_REMOVALS_LABEL: alias-removals
-      TITLE: "chore(data): update snapshots from cldr and wikidata"
       GH_TOKEN: ${{ github.token }}
     steps:
       # Always from main, so a manual run from another branch can't base the PR on it
@@ -42,7 +41,7 @@ jobs:
         run: vp run @geo-resolve/codegen#build
       # Decides everything the PR carries in tools/codegen/src/data-update.ts, where it is tested: the Aliases added
       # and removed, a flag when removals outnumber additions by over ALIAS_REMOVAL_THRESHOLD, the changeset bump
-      # under ADR-0007 (none when flagged), and the PR body
+      # under ADR-0007 (none when flagged), and the PR title and body, which name only the changed Sources
       - name: Assess the update if the Snapshots changed
         id: assess
         run: |
@@ -67,7 +66,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
           git add -A
-          git commit -m "$TITLE"
+          git commit -m "$(cat "$RUNNER_TEMP/update/title.txt")"
           # Skip the push, and the CI run it needs, when the open PR already has these exact changes
           if git fetch --depth 1 origin "$BRANCH" && git diff --quiet FETCH_HEAD HEAD; then
             echo "The data-update branch already has these changes."
@@ -78,12 +77,13 @@ jobs:
       - name: Open or update the PR
         if: steps.commit.outputs.pushed == 'true'
         run: |
+          title=$(cat "$RUNNER_TEMP/update/title.txt")
           body="$RUNNER_TEMP/update/body.md"
           pr=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
           if [ -n "$pr" ]; then
-            gh pr edit "$pr" --body-file "$body"
+            gh pr edit "$pr" --title "$title" --body-file "$body"
           else
-            pr=$(gh pr create --head "$BRANCH" --base main --title "$TITLE" --body-file "$body")
+            pr=$(gh pr create --head "$BRANCH" --base main --title "$title" --body-file "$body")
           fi
           if [ "$(jq -r .flagged "$RUNNER_TEMP/update/update.json")" = "true" ]; then
             gh label create "$ALIAS_REMOVALS_LABEL" --force --color D93F0B --description "A data update that removes many more Aliases than it adds"
