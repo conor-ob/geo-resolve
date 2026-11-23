@@ -442,7 +442,7 @@
     {
       "country": "NL",
       "item": "Q55",
-      "reason": "ISO's NL is on Q29999, the Kingdom of the Netherlands, and deprecated on Q55, the Netherlands, which holds its IOC code and Aliases (Holland)"
+      "reason": "NL is on Q29999, the Kingdom of the Netherlands, as well as Q55, the Netherlands, which holds its IOC code and Aliases (Holland); Wikidata has ranked Q55's NL both deprecated and normal"
     }
   ],
   "fifaAssociations": [

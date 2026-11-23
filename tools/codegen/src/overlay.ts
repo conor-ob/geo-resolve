@@ -49,8 +49,9 @@ const ReasonSchema = z.string().min(1, "must give a reason");
 
 /**
  * The Wikidata item a Country's Code system codes and Aliases are read from, where its Alpha-2 code is on more than
- * one current item (AQ, CY) or on an item other than the one holding the rest (NL is on Q29999, the Kingdom of the
- * Netherlands, but Q55, the Netherlands, holds its other codes).
+ * one item and the build can't tell which holds the rest: AQ and CY are on two current items, and NL is on Q29999, the
+ * Kingdom of the Netherlands, as well as Q55, the Netherlands, which holds its other codes. Wikidata has ranked Q55's NL
+ * both deprecated and normal, so the pin holds whichever it is.
  */
 const OverlayWikidataItemSchema = z.strictObject({
   country: Alpha2Schema,
