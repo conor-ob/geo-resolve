@@ -23,6 +23,8 @@ jobs:
     env:
       BRANCH: chore/data-update
       ALIAS_REMOVALS_LABEL: alias-removals
+      # Requested as a reviewer whenever the PR is opened or updated, so a data update notifies the maintainer
+      REVIEWER: ${{ github.repository_owner }}
       GH_TOKEN: ${{ github.token }}
     steps:
       # Always from main, so a manual run from another branch can't base the PR on it
@@ -83,9 +85,9 @@ jobs:
           body="$RUNNER_TEMP/update/body.md"
           pr=$(gh pr list --head "$BRANCH" --base main --state open --json number --jq '.[0].number')
           if [ -n "$pr" ]; then
-            gh pr edit "$pr" --title "$title" --body-file "$body"
+            gh pr edit "$pr" --title "$title" --body-file "$body" --add-reviewer "$REVIEWER"
           else
-            pr=$(gh pr create --head "$BRANCH" --base main --title "$title" --body-file "$body")
+            pr=$(gh pr create --head "$BRANCH" --base main --title "$title" --body-file "$body" --reviewer "$REVIEWER")
           fi
           if [ "$(jq -r .flagged "$RUNNER_TEMP/update/update.json")" = "true" ]; then
             gh label create "$ALIAS_REMOVALS_LABEL" --force --color D93F0B --description "A data update that removes many more Aliases than it adds"
