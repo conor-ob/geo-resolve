@@ -24,13 +24,9 @@ if (command === "fetch") await fetchSnapshots({ sourcesDir });
 else if (command === "build") await build({ sourcesDir, overlayPath, outDir, reportPath });
 else if (command === "compare-iso-codes")
   await compareWithIsoCodes({ dataDir: outDir, isoCodes: await fetchIsoCodes(), allowlistPath });
-else if (command === "data-update" && process.argv.length >= 6) {
-  const [beforeDir, diffPath, updateDir, ...sources] = process.argv.slice(3) as [
-    string,
-    string,
-    string,
-    ...string[],
-  ];
+else if (command === "data-update" && process.argv.length >= 7) {
+  const [beforeDir, buildReportDiffPath, snapshotDiffPath, updateDir, ...sources] =
+    process.argv.slice(3) as [string, string, string, string, ...string[]];
   const unknown = sources.filter(
     (source) => !(SNAPSHOT_SOURCES as readonly string[]).includes(source),
   );
@@ -46,7 +42,10 @@ else if (command === "data-update" && process.argv.length >= 6) {
   await writeFile(join(updateDir, "title.txt"), `${dataUpdateTitle(update)}\n`);
   await writeFile(
     join(updateDir, "body.md"),
-    dataUpdatePrBody(update, await readFile(diffPath, "utf8")),
+    dataUpdatePrBody(update, {
+      buildReportDiff: await readFile(buildReportDiffPath, "utf8"),
+      snapshotDiff: await readFile(snapshotDiffPath, "utf8"),
+    }),
   );
   await writeFile(
     join(updateDir, "update.json"),
@@ -58,7 +57,7 @@ else if (command === "data-update" && process.argv.length >= 6) {
   );
 } else {
   console.error(
-    "Usage: node src/cli.ts <fetch|build|compare-iso-codes|data-update <before-dir> <build-report-diff> <out-dir> [CLDR] [Wikidata]>",
+    "Usage: node src/cli.ts <fetch|build|compare-iso-codes|data-update <before-dir> <build-report-diff> <snapshot-diff> <out-dir> [CLDR] [Wikidata]>",
   );
   process.exitCode = 1;
 }

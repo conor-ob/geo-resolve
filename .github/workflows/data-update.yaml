@@ -41,7 +41,8 @@ jobs:
         run: vp run @geo-resolve/codegen#build
       # Decides everything the PR carries in tools/codegen/src/data-update.ts, where it is tested: the Aliases added
       # and removed, a flag when removals outnumber additions by over ALIAS_REMOVAL_THRESHOLD, the changeset bump
-      # under ADR-0007 (none when flagged), and the PR title and body, which name only the changed Sources
+      # under ADR-0007 (none when flagged), and the PR title and body, which name only the changed Sources and show
+      # the build report and Snapshot diffs
       - name: Assess the update if the Snapshots changed
         id: assess
         run: |
@@ -53,7 +54,8 @@ jobs:
           if [ -n "$(git status --porcelain -- tools/codegen/sources/cldr)" ]; then sources+=(CLDR); fi
           if [ -n "$(git status --porcelain -- tools/codegen/sources/wikidata)" ]; then sources+=(Wikidata); fi
           git diff -- tools/codegen/build-report.md > "$RUNNER_TEMP/build-report.diff"
-          vp run @geo-resolve/codegen#data-update "$RUNNER_TEMP/data-before" "$RUNNER_TEMP/build-report.diff" "$RUNNER_TEMP/update" "${sources[@]}"
+          git diff -- tools/codegen/sources > "$RUNNER_TEMP/snapshots.diff"
+          vp run @geo-resolve/codegen#data-update "$RUNNER_TEMP/data-before" "$RUNNER_TEMP/build-report.diff" "$RUNNER_TEMP/snapshots.diff" "$RUNNER_TEMP/update" "${sources[@]}"
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Commit the changes to the data-update branch
         id: commit

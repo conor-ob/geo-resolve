@@ -213,8 +213,55 @@ function removalWarning({ added, removed }: AliasChanges): string {
     .concat("\n");
 }
 
-/** The data-update PR's body (ADR-0008): any removal warning, what to review, the changeset bump and the build report diff. */
-export function dataUpdatePrBody(update: DataUpdate, buildReportDiff: string): string {
+/** The changed lines in each file of a `git diff`, in the order the diff gives the files. */
+function diffStat(diff: string): { path: string; added: number; removed: number }[] {
+  const files: { path: string; added: number; removed: number }[] = [];
+  for (const line of diff.split("\n")) {
+    const header = /^diff --git a\/(.+) b\//.exec(line);
+    if (header) files.push({ path: header[1]!, added: 0, removed: 0 });
+    else if (files.length === 0 || line.startsWith("+++ ") || line.startsWith("--- ")) continue;
+    else if (line.startsWith("+")) files.at(-1)!.added++;
+    else if (line.startsWith("-")) files.at(-1)!.removed++;
+  }
+  return files;
+}
+
+/** A diff as a fenced Markdown code block. */
+function diffBlock(diff: string): string {
+  return `\`\`\`\`diff\n${diff.replace(/\n$/, "")}\n\`\`\`\``;
+}
+
+/**
+ * The PR body's Snapshot changes section: the lines changed in each Snapshot file and, when it fits in `room`
+ * characters, the Snapshot diff itself, folded. It shows upstream changes the build report doesn't, such as a
+ * statement's rank changing on an item the Overlay pins.
+ */
+function snapshotSection(snapshotDiff: string, room: number): string {
+  const stat = diffStat(snapshotDiff);
+  if (stat.length === 0) return "";
+  const table = [
+    "| Snapshot file | Lines added | Lines removed |",
+    "| --- | --- | --- |",
+    ...stat.map(({ path, added, removed }) => `| \`${path}\` | ${added} | ${removed} |`),
+  ].join("\n");
+  const details = `<details>\n<summary>Snapshot diff</summary>\n\n${diffBlock(snapshotDiff)}\n\n</details>`;
+  const intro =
+    "Check these for changes the build report doesn't show, such as a rank change on an item the Overlay pins.";
+  const body =
+    table.length + details.length + 2 <= room
+      ? `${table}\n\n${details}`
+      : `${table}\n\nThe diff is too long to show here; see \`tools/codegen/sources\` in the changed files.`;
+  return `## Snapshot changes\n\n${intro}\n\n${body}\n`;
+}
+
+/**
+ * The data-update PR's body (ADR-0008): any removal warning, what to review, the changeset bump, the build report diff
+ * and the Snapshot changes, given each as a `git diff`.
+ */
+export function dataUpdatePrBody(
+  update: DataUpdate,
+  { buildReportDiff, snapshotDiff }: { buildReportDiff: string; snapshotDiff: string },
+): string {
   const warning = update.aliases.flagged ? `${removalWarning(update.aliases)}\n` : "";
   const changeset = dataUpdateChangeset(update);
   const diff =
@@ -222,7 +269,8 @@ export function dataUpdatePrBody(update: DataUpdate, buildReportDiff: string): s
       ? "The build report is unchanged."
       : buildReportDiff.length > MAX_BODY_DIFF - warning.length
         ? "The diff is too long to show here; see `tools/codegen/build-report.md` in the changed files."
-        : `\`\`\`\`diff\n${buildReportDiff.replace(/\n$/, "")}\n\`\`\`\``;
+        : diffBlock(buildReportDiff);
+  const snapshots = snapshotSection(snapshotDiff, MAX_BODY_DIFF - warning.length - diff.length);
   return [
     warning,
     `The weekly data update (ADR-0008) found upstream changes in the ${snapshotsLabel(update)}. Review the changes before merging.\n\n`,
@@ -232,5 +280,6 @@ export function dataUpdatePrBody(update: DataUpdate, buildReportDiff: string): s
       ? ""
       : `It adds a ${update.bump} changeset. Check the bump against ADR-0007, and list any ISO 3166 change notices in it, before merging.\n\n`,
     `## Build report diff\n\n${diff}\n`,
+    snapshots === "" ? "" : `\n${snapshots}`,
   ].join("");
 }

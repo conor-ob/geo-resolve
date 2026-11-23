@@ -42,6 +42,9 @@ function manyAliases(count: number): string[] {
   return Array.from({ length: count }, (_, i) => `Andorra alias ${i + 1}`);
 }
 
+/** No build report or Snapshot changes, for a PR body test about something else. */
+const noDiffs = { buildReportDiff: "", snapshotDiff: "" };
+
 const germany = {
   kind: "country",
   id: "DE",
@@ -74,7 +77,7 @@ test("flags a run that removes more than 20 Aliases more than it adds, and gives
   expect(update.aliases.removed).toHaveLength(22);
   expect(update.aliases.flagged).toBe(true);
   expect(dataUpdateChangeset(update)).toBeNull();
-  const body = dataUpdatePrBody(update, "");
+  const body = dataUpdatePrBody(update, noDiffs);
   expect(body).toMatch(/^> \[!WARNING\]\n> This run removes 22 Aliases and adds 1\./);
   expect(body).toContain("> | XK | Kosova |");
   expect(body).toContain("> | AD | Andorra alias 22 |");
@@ -89,7 +92,7 @@ test("does not flag a run whose removals outnumber its additions by exactly 20",
     { "countries.aliases.json": {} },
   );
   expect(update.aliases.flagged).toBe(false);
-  expect(dataUpdatePrBody(update, "")).not.toContain("[!WARNING]");
+  expect(dataUpdatePrBody(update, noDiffs)).not.toContain("[!WARNING]");
 });
 
 test("lists at most 500 removed Aliases, so the warning fits in a PR body", async () => {
@@ -97,7 +100,7 @@ test("lists at most 500 removed Aliases, so the warning fits in a PR body", asyn
     { "countries.aliases.json": { AD: manyAliases(600) } },
     { "countries.aliases.json": {} },
   );
-  const body = dataUpdatePrBody(update, "");
+  const body = dataUpdatePrBody(update, noDiffs);
   expect(body.match(/^> \| AD \|/gm)).toHaveLength(500);
   expect(body).toContain("> And 100 more; see the build report diff.\n");
 });
@@ -207,7 +210,7 @@ test.each<[SnapshotSource[], string, string]>([
     sources,
   );
   expect(dataUpdateChangeset(update)).toContain(`from the latest ${label}.`);
-  expect(dataUpdatePrBody(update, "")).toContain(`upstream changes in the ${label}.`);
+  expect(dataUpdatePrBody(update, noDiffs)).toContain(`upstream changes in the ${label}.`);
   expect(dataUpdateTitle(update)).toBe(title);
 });
 
@@ -216,14 +219,63 @@ test("the PR body points reviewers at ADR-0013, states the bump and shows the bu
     { "countries.aliases.json": {} },
     { "countries.aliases.json": { DE: ["BRD"] } },
   );
-  const body = dataUpdatePrBody(update, "-old\n+new\n");
+  const body = dataUpdatePrBody(update, { ...noDiffs, buildReportDiff: "-old\n+new\n" });
   expect(body).toContain(
     "not for their language: a foreign name in an English Locale is kept (ADR-0013)",
   );
   expect(body).toContain("It adds a patch changeset.");
   expect(body).toContain("## Build report diff\n\n````diff\n-old\n+new\n````\n");
-  expect(dataUpdatePrBody(update, "")).toContain("The build report is unchanged.");
-  expect(dataUpdatePrBody(update, `+${"x".repeat(60_001)}\n`)).toContain(
-    "The diff is too long to show here",
+  expect(dataUpdatePrBody(update, noDiffs)).toContain("The build report is unchanged.");
+  expect(
+    dataUpdatePrBody(update, { ...noDiffs, buildReportDiff: `+${"x".repeat(60_001)}\n` }),
+  ).toContain("The diff is too long to show here");
+});
+
+/** A `git diff` of one Snapshot file, changing the rank on NL's Alpha-2 statement on Q55. */
+const rankDiff = [
+  "diff --git a/tools/codegen/sources/wikidata/items.json b/tools/codegen/sources/wikidata/items.json",
+  "index 170a172..30cb7d7 100644",
+  "--- a/tools/codegen/sources/wikidata/items.json",
+  "+++ b/tools/codegen/sources/wikidata/items.json",
+  "@@ -191,1 +191,1 @@",
+  '-{"item":"Q55","alpha2":"NL","rank":"DeprecatedRank"},',
+  '+{"item":"Q55","alpha2":"NL","rank":"NormalRank"},',
+  "",
+].join("\n");
+
+test("the PR body shows the Snapshot changes the build report doesn't, folded", async () => {
+  const update = await assess({ "countries.json": [germany] }, { "countries.json": [germany] });
+  const body = dataUpdatePrBody(update, { buildReportDiff: "", snapshotDiff: rankDiff });
+  expect(body).toContain("The build report is unchanged.\n\n## Snapshot changes\n\n");
+  expect(body).toContain("| `tools/codegen/sources/wikidata/items.json` | 1 | 1 |\n");
+  expect(body).toContain(
+    "<details>\n<summary>Snapshot diff</summary>\n\n````diff\ndiff --git a/tools/codegen/sources/wikidata/items.json",
   );
+  expect(body).toContain(
+    '+{"item":"Q55","alpha2":"NL","rank":"NormalRank"},\n````\n\n</details>\n',
+  );
+  expect(dataUpdatePrBody(update, noDiffs)).not.toContain("## Snapshot changes");
+});
+
+test("the PR body counts each Snapshot file's lines, and leaves out a Snapshot diff too long for it", async () => {
+  const update = await assess({ "countries.json": [germany] }, { "countries.json": [germany] });
+  const cldrDiff = [
+    "diff --git a/tools/codegen/sources/cldr/territories.json b/tools/codegen/sources/cldr/territories.json",
+    "--- a/tools/codegen/sources/cldr/territories.json",
+    "+++ b/tools/codegen/sources/cldr/territories.json",
+    "@@ -1,1 +1,3 @@",
+    ` ${"x".repeat(60_000)}`,
+    "+a",
+    "+b",
+    "",
+  ].join("\n");
+  const body = dataUpdatePrBody(update, { buildReportDiff: "", snapshotDiff: rankDiff + cldrDiff });
+  expect(body).toContain(
+    "| `tools/codegen/sources/wikidata/items.json` | 1 | 1 |\n| `tools/codegen/sources/cldr/territories.json` | 2 | 0 |\n",
+  );
+  expect(body).not.toContain("<details>");
+  expect(body).toContain(
+    "The diff is too long to show here; see `tools/codegen/sources` in the changed files.",
+  );
+  expect(body.length).toBeLessThan(65_536);
 });
