@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# The publish script changesets/action runs on main once no changesets are pending, that is, after the version PR
+# The publish script changesets/action runs in the release workflow's stage job, after the version PR
 # is merged. It stages geo-resolve on npm through trusted publishing, then tags the release. Staging doesn't make
 # the version live: the maintainer approves it with 2FA (see "Releasing" in the README).
 set -euo pipefail
@@ -7,7 +7,7 @@ set -euo pipefail
 version=$(node -p 'require("./packages/geo-resolve/package.json").version')
 tag="geo-resolve@$version"
 
-# Every push to main runs this, so skip a version already staged (tagged) or published.
+# The workflow runs this only for an untagged version, but skip a version already staged (tagged) or published anyway.
 if git rev-parse --quiet --verify "refs/tags/$tag" >/dev/null; then
   echo "$tag is already tagged, so an earlier run staged it."
 elif (cd "$RUNNER_TEMP" && npm view "$tag" version 2>/dev/null | grep -q .); then
