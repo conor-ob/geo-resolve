@@ -144,11 +144,51 @@ test.each<[string, DataFiles, DataFiles, "patch" | "minor" | null]>([
 ])("the bump is right when %s", async (_, before, after, bump) => {
   const update = await assess(before, after);
   expect(update.bump).toBe(bump);
-  expect(dataUpdateChangeset(update)).toBe(
-    bump === null
-      ? null
-      : `---\n"geo-resolve": ${bump}\n---\n\nUpdate the data from the latest Wikidata Snapshot.\n`,
+  const changeset = dataUpdateChangeset(update);
+  if (bump === null) expect(changeset).toBeNull();
+  else
+    expect(
+      changeset?.startsWith(
+        `---\n"geo-resolve": ${bump}\n---\n\nUpdate the data from the latest Wikidata Snapshot.\n`,
+      ),
+    ).toBe(true);
+});
+
+test("the changeset names the Aliases a run adds and removes", async () => {
+  const update = await assess(
+    { "countries.aliases.json": { NL: ["Holland", "Nederland"], DE: ["Deutschland"] } },
+    { "countries.aliases.json": { NL: ["Holland", "Olanda"], DE: ["BRD", "Deutschland"] } },
   );
+  expect(dataUpdateChangeset(update)).toBe(
+    [
+      "---",
+      '"geo-resolve": patch',
+      "---",
+      "",
+      "Update the data from the latest Wikidata Snapshot.",
+      "",
+      '- Adds 2 Aliases: "BRD" (DE) and "Olanda" (NL).',
+      '- Removes 1 Alias: "Nederland" (NL).',
+      "",
+    ].join("\n"),
+  );
+});
+
+test("the changeset names at most 20 added Aliases, and only says what else changed when no Alias did", async () => {
+  const many = await assess(
+    { "countries.aliases.json": {} },
+    { "countries.aliases.json": { AD: manyAliases(23) } },
+  );
+  const changeset = dataUpdateChangeset(many) ?? "";
+  expect(changeset).toContain('- Adds 23 Aliases: "Andorra alias 1" (AD), ');
+  expect(changeset.match(/" \(AD\)/g)).toHaveLength(20);
+  expect(changeset).toContain(" and 3 more.\n");
+  expect(changeset).not.toContain("Removes");
+  const nameOnly = await assess(
+    { "countries.json": [germany] },
+    { "countries.json": [{ ...germany, name: "Federal Republic of Germany" }] },
+  );
+  expect(dataUpdateChangeset(nameOnly)).toMatch(/Wikidata Snapshot\.\n$/);
 });
 
 test.each<[SnapshotSource[], string, string]>([
