@@ -5,6 +5,7 @@ import {
   assessDataUpdate,
   dataUpdateChangeset,
   dataUpdatePrBody,
+  dataUpdateTitle,
   type SnapshotSource,
 } from "../src/data-update.ts";
 import { outputDir } from "./fixtures.ts";
@@ -150,12 +151,16 @@ test.each<[string, DataFiles, DataFiles, "patch" | "minor" | null]>([
   );
 });
 
-test.each<[SnapshotSource[], string]>([
-  [["CLDR"], "CLDR Snapshot"],
-  [["Wikidata"], "Wikidata Snapshot"],
-  [["Wikidata", "CLDR"], "CLDR and Wikidata Snapshots"],
-  [[], "Snapshots"],
-])("names only the Sources whose Snapshots changed: %j", async (sources, label) => {
+test.each<[SnapshotSource[], string, string]>([
+  [["CLDR"], "CLDR Snapshot", "chore(data): update snapshots from cldr"],
+  [["Wikidata"], "Wikidata Snapshot", "chore(data): update snapshots from wikidata"],
+  [
+    ["Wikidata", "CLDR"],
+    "CLDR and Wikidata Snapshots",
+    "chore(data): update snapshots from cldr and wikidata",
+  ],
+  [[], "Snapshots", "chore(data): update snapshots"],
+])("names only the Sources whose Snapshots changed: %j", async (sources, label, title) => {
   const update = await assess(
     { "countries.aliases.json": {} },
     { "countries.aliases.json": { DE: ["BRD"] } },
@@ -163,6 +168,7 @@ test.each<[SnapshotSource[], string]>([
   );
   expect(dataUpdateChangeset(update)).toContain(`from the latest ${label}.`);
   expect(dataUpdatePrBody(update, "")).toContain(`upstream changes in the ${label}.`);
+  expect(dataUpdateTitle(update)).toBe(title);
 });
 
 test("the PR body points reviewers at ADR-0013, states the bump and shows the build report diff", async () => {

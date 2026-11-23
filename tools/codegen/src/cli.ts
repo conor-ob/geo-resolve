@@ -6,6 +6,7 @@ import {
   assessDataUpdate,
   dataUpdateChangeset,
   dataUpdatePrBody,
+  dataUpdateTitle,
   SNAPSHOT_SOURCES,
   type SnapshotSource,
 } from "./data-update.ts";
@@ -42,6 +43,7 @@ else if (command === "data-update" && process.argv.length >= 6) {
   await mkdir(updateDir, { recursive: true });
   const changeset = dataUpdateChangeset(update);
   if (changeset !== null) await writeFile(join(updateDir, "changeset.md"), changeset);
+  await writeFile(join(updateDir, "title.txt"), `${dataUpdateTitle(update)}\n`);
   await writeFile(
     join(updateDir, "body.md"),
     dataUpdatePrBody(update, await readFile(diffPath, "utf8")),
