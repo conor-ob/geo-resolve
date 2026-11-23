@@ -12,6 +12,9 @@ export const ALIAS_REMOVAL_THRESHOLD = 20;
 /** How many removed Aliases a warning lists, so it fits in a PR body with room for the build report diff. */
 const MAX_LISTED_REMOVALS = 500;
 
+/** How many added, and how many removed, Aliases a changeset names, so the release notes stay readable. */
+const MAX_CHANGESET_ALIASES = 20;
+
 /** GitHub caps a PR body at 65536 characters; this leaves room for the text around the build report diff. */
 const MAX_BODY_DIFF = 60_000;
 
@@ -160,13 +163,31 @@ export function dataUpdateTitle({ sources }: DataUpdate): string {
   return `chore(data): update snapshots${from}`;
 }
 
+/** A changeset line naming some Aliases, such as `- Adds 2 Aliases: "BRD" (DE) and "Olanda" (NL).` */
+function aliasesLine(verb: string, aliases: readonly EntityAlias[]): string {
+  const named = aliases
+    .slice(0, MAX_CHANGESET_ALIASES)
+    .map(({ id, alias }) => `"${alias}" (${id})`);
+  const more = aliases.length - named.length;
+  if (more > 0) named.push(`${more} more`);
+  const list =
+    named.length === 1 ? named[0] : `${named.slice(0, -1).join(", ")} and ${named.at(-1)}`;
+  return `- ${verb} ${aliases.length} Alias${aliases.length === 1 ? "" : "es"}: ${list}.`;
+}
+
 /**
- * The changeset that releases a data update (ADR-0007), or `null` when no Data pack changed, or when its Aliases are
- * flagged, so a maintainer chooses the bump.
+ * The changeset that releases a data update (ADR-0007), naming the Aliases it adds and removes, or `null` when no Data
+ * pack changed, or when its Aliases are flagged, so a maintainer chooses the bump.
  */
 export function dataUpdateChangeset(update: DataUpdate): string | null {
   if (update.bump === null || update.aliases.flagged) return null;
-  return `---\n"geo-resolve": ${update.bump}\n---\n\nUpdate the data from the latest ${snapshotsLabel(update)}.\n`;
+  const { added, removed } = update.aliases;
+  const lines = [
+    ...(added.length > 0 ? [aliasesLine("Adds", added)] : []),
+    ...(removed.length > 0 ? [aliasesLine("Removes", removed)] : []),
+  ];
+  const details = lines.length > 0 ? `\n${lines.join("\n")}\n` : "";
+  return `---\n"geo-resolve": ${update.bump}\n---\n\nUpdate the data from the latest ${snapshotsLabel(update)}.\n${details}`;
 }
 
 /** A Markdown warning, as a GitHub alert, that lists the removed Aliases. */
