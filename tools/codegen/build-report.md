@@ -716,6 +716,7 @@ Every Entity has one English Name, from the Source given for its Kind.
 | NL | Holland | Wikidata Q55 |
 | NL | Nederland | Wikidata Q55 |
 | NL | Nederlanden | Wikidata Q55 |
+| NL | Olanda | Wikidata Q55 |
 | NL | de Nederlanden | Wikidata Q55 |
 | NL | the Netherlands | Wikidata Q55 |
 | NO | Kingdom of Norway | Wikidata Q20 |
