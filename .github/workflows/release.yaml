@@ -51,14 +51,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run ci.yaml --ref changeset-release/main
-      # So the version PR notifies the maintainer, since changesets/action requests no reviewers
-      - name: Request the maintainer's review on the version PR
-        if: steps.changesets.outputs.pr-number != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR: ${{ steps.changesets.outputs.pr-number }}
-          REVIEWER: ${{ github.repository_owner }}
-        run: gh pr edit "$PR" --add-reviewer "$REVIEWER"
       # A release is due once no changesets are pending and the version on main has no tag, that is, right after the
       # version PR is merged. stage-release.sh checks again, and also skips a version already on npm.
       - name: Decide whether a release is due
