@@ -10,9 +10,13 @@ on:
 permissions:
   contents: read
 
+# PR runs share a group per branch, so a new push cancels the stale run.
+# Each main commit gets its own group, so no main run is ever cancelled:
+# GitHub keeps one waiting run per group and cancels it when another queues,
+# and a cancelled run on main would skip that commit's Railway deploy.
 concurrency:
-  group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.ref || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   check:
