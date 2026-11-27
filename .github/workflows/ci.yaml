@@ -37,9 +37,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: true
-      - name: Lint
+      # vp check is Vite+'s read-only bundle of the format check and lint
+      # rules. Called directly: the lint script runs lint rules only
+      - name: Format and lint
         if: ${{ !cancelled() && steps.install.outcome == 'success' }}
-        run: vp run lint
+        run: vp check
       - name: Typecheck
         if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: vp run typecheck
