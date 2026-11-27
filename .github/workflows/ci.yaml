@@ -1,10 +1,11 @@
-name: CI
+name: ⚡️ CI
 
 on:
-  pull_request:
   push:
     branches: [main]
-  # Dispatched by the data-update workflow, whose PRs trigger no pull_request runs
+  pull_request:
+    branches: [main]
+  # Dispatched by the data-update and release workflows, whose PRs trigger no pull_request runs
   workflow_dispatch:
 
 permissions:
@@ -18,87 +19,135 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.ref || github.sha }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
+# Every new job must be added to the gate's `needs:`.
 jobs:
-  check:
-    name: Check (Node ${{ matrix.node }})
+  node:
+    name: 🟢 Node (${{ matrix.node }})
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
         node: ["22", "24", "26"]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: voidzero-dev/setup-vp@cab1ab9eaff52d4857875f4f2c016e36af8f2c76 # v1.22.0
+      - name: Install deps
+        id: install
+        uses: voidzero-dev/setup-vp@cab1ab9eaff52d4857875f4f2c016e36af8f2c76 # v1.22.0
         with:
           node-version: ${{ matrix.node }}
           cache: true
-      - run: vp run lint
-      - run: vp run fmt:check
-      - run: vp run typecheck
-      - run: vp run test
-      - name: Build the package, failing on publint or attw problems
+      - name: Lint
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: vp run lint
+      - name: Typecheck
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: vp run typecheck
+      - name: Test
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: vp run test
+      # Fails on publint or attw problems
+      - name: Build
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: vp run geo-resolve#build
-      - name: Fail if the public API differs from the committed API report
+      - name: API report
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: vp run geo-resolve#api:check
-      - name: Build the API reference, failing on any TypeDoc warning, such as an undocumented export
+      # Fails on any TypeDoc warning, such as an undocumented export
+      - name: Docs build
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: vp run @geo-resolve/docs#build
-      - name: Rebuild Data packs from Snapshots
-        run: vp run @geo-resolve/codegen#build
-      - name: Fail if the generated Data packs differ from what is committed
+      # Rebuilds the Data packs from Snapshots and fails if they differ from what is committed
+      - name: Data pack diff
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: |
+          vp run @geo-resolve/codegen#build
           git status --porcelain
           test -z "$(git status --porcelain)"
 
   workflows:
-    name: Lint the GitHub Actions workflows
+    name: 🎬 Workflows
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       # actionlint, with shellcheck on every `run:` script
-      - uses: raven-actions/actionlint@3d39aea434753780c3b3d4a1a31c854b4dbf49d7 # v2.2.0
+      - name: Lint
+        uses: raven-actions/actionlint@3d39aea434753780c3b3d4a1a31c854b4dbf49d7 # v2.2.0
 
   iso-codes:
-    name: Check data packs against ISO 3166
+    name: 🌍 ISO 3166
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: voidzero-dev/setup-vp@cab1ab9eaff52d4857875f4f2c016e36af8f2c76 # v1.22.0
+      - name: Install deps
+        uses: voidzero-dev/setup-vp@cab1ab9eaff52d4857875f4f2c016e36af8f2c76 # v1.22.0
         with:
           node-version-file: .nvmrc
           cache: true
-      - name: Compare the committed Data packs with the pinned iso-codes release
+      # Compares the committed Data packs with the pinned iso-codes release
+      - name: Compare
         run: vp run @geo-resolve/codegen#compare-iso-codes
 
   smoke:
-    name: Smoke test the packed package in Bun, Deno and a browser bundle
+    name: 💨 Smoke
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: smoke
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: voidzero-dev/setup-vp@cab1ab9eaff52d4857875f4f2c016e36af8f2c76 # v1.22.0
+      - name: Install deps
+        uses: voidzero-dev/setup-vp@cab1ab9eaff52d4857875f4f2c016e36af8f2c76 # v1.22.0
         with:
           node-version-file: .nvmrc
           cache: true
-      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+      - name: Install Bun
+        uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
         with:
           bun-version: "1.4.4"
-      - uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
+      - name: Install Deno
+        uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
         with:
           deno-version: "2.9.6"
-      - run: vp run geo-resolve#build
+      - name: Build
+        run: vp run geo-resolve#build
         working-directory: .
-      - name: Pack the package as it would be published
+      # As it would be published
+      - name: Pack
         working-directory: packages/geo-resolve
         run: vp pm pack --out "$RUNNER_TEMP/geo-resolve.tgz"
-      - name: Fail unless the tarball has the licence and the data attribution
+      # Fails unless the tarball has the licence and the data attribution
+      - name: Check tarball
         run: tar -tzf "$RUNNER_TEMP/geo-resolve.tgz" package/LICENSE package/NOTICE.md
-      - name: Install the tarball outside the workspace
+      # Outside the workspace
+      - name: Install tarball
         run: npm install --no-package-lock --no-save "$RUNNER_TEMP/geo-resolve.tgz"
       - name: Bun
         run: bun smoke.js
       - name: Deno
         run: deno run smoke.js
-      - name: Vite browser bundle (built with browser conditions, run headless in Node)
+      # Built with browser conditions, run headless in Node
+      - name: Vite browser bundle
         run: npx vite build && node dist/smoke.js
+
+  gate:
+    name: 🚦 Gate
+    if: always()
+    needs: [node, workflows, iso-codes, smoke]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # always(), since a step's default success() skips it on a cancelled run and the gate would pass unchecked.
+      # A skipped job counts as fine.
+      - name: Gate
+        if: always()
+        env:
+          FAILED: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}
+        run: |
+          if [ "$FAILED" = "true" ]; then
+            echo "A job failed or was cancelled."
+            exit 1
+          fi

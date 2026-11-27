@@ -15,7 +15,6 @@ This is a pnpm workspace using [Vite+](https://viteplus.dev):
 ```bash
 vp install
 vp run lint
-vp run fmt:check
 vp run typecheck
 vp run test
 vp run @geo-resolve/docs#build
