@@ -120,7 +120,7 @@ jobs:
         working-directory: packages/geo-resolve
         run: vp pm pack --out "$RUNNER_TEMP/geo-resolve.tgz"
       # Fails unless the tarball has the licence and the data attribution
-      - name: Check tarball
+      - name: Verify tarball
         run: tar -tzf "$RUNNER_TEMP/geo-resolve.tgz" package/LICENSE package/NOTICE.md
       # Outside the workspace
       - name: Install tarball
@@ -146,8 +146,4 @@ jobs:
         if: always()
         env:
           FAILED: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}
-        run: |
-          if [ "$FAILED" = "true" ]; then
-            echo "A job failed or was cancelled."
-            exit 1
-          fi
+        run: test "$FAILED" != true
