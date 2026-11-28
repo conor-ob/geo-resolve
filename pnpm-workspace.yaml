@@ -4,7 +4,7 @@ packages:
 
 catalogMode: prefer
 
-# Guard: a dependency update that leaves a package outside a peer's range fails the install.
+# A dependency update that leaves a package outside a peer's range fails the install.
 strictPeerDependencies: true
 
 catalog:
@@ -24,8 +24,8 @@ catalogs:
     typedoc: 0.28.20
     typescript: 6.0.3
 # Strict-peers exceptions. vite-plus's core stands in for Vite: every `vite` resolves to the catalog's core
-# alias, and the peer rules accept it. Without the override a second Vite is installed (#116). The single-core
-# Guard (.github/scripts/check-single-core.sh) checks the alias and vite-plus agree.
+# alias, and the peer rules accept it. Without the override a second Vite is installed (#116).
+# .github/scripts/check-single-vite-plus-core.sh checks the alias and vite-plus agree.
 overrides:
   vite@*: "catalog:"
 peerDependencyRules:

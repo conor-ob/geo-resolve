@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Guard: fails unless the lockfile resolves exactly one @voidzero-dev/vite-plus-core version. vite-plus and the
+# Fails unless the lockfile resolves exactly one @voidzero-dev/vite-plus-core version. vite-plus and the
 # `vite` alias in pnpm-workspace.yaml must move together, and a split update still installs and passes the other
 # checks while carrying two cores (#116). Takes the lockfile path, pnpm-lock.yaml by default.
 set -euo pipefail
