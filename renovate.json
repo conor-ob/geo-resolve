@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>conor-ob/renovate-config",
+    "github>conor-ob/renovate-config:vite-plus",
+    "github>conor-ob/renovate-config:library"
+  ],
+  "packageRules": [
+    {
+      "description": "Repo exception: the typedoc catalog stays on TypeScript 6, because TypeDoc needs the TypeScript JavaScript API, which TypeScript 7 doesn't ship. Its majors wait on the Dependency Dashboard for approval, once TypeDoc supports the new major, instead of opening a PR that fails CI.",
+      "matchDepTypes": ["pnpm.catalog.typedoc"],
+      "matchPackageNames": ["typescript"],
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}

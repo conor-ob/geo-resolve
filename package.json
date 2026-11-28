@@ -9,7 +9,7 @@
     "fmt:check": "vp fmt --check",
     "typecheck": "vp run -r typecheck",
     "test": "vp run -r test",
-    "check": "vp run lint && vp run fmt:check && vp run typecheck && vp run test && vp run geo-resolve#build && vp run geo-resolve#api:check && vp run @geo-resolve/docs#build && vp run @geo-resolve/codegen#build && git diff --exit-code -- packages/geo-resolve/src/data tools/codegen/build-report.md && test -z \"$(git status --porcelain --untracked-files=all -- packages/geo-resolve/src/data)\" && vp run @geo-resolve/codegen#compare-iso-codes",
+    "check": ".github/scripts/check-single-vite-plus-core.sh && vp run lint && vp run fmt:check && vp run typecheck && vp run test && vp run geo-resolve#build && vp run geo-resolve#api:check && vp run @geo-resolve/docs#build && vp run @geo-resolve/codegen#build && git diff --exit-code -- packages/geo-resolve/src/data tools/codegen/build-report.md && test -z \"$(git status --porcelain --untracked-files=all -- packages/geo-resolve/src/data)\" && vp run @geo-resolve/codegen#compare-iso-codes",
     "changeset": "changeset",
     "version-packages": "changeset version && vp fmt"
   },

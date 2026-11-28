@@ -37,6 +37,10 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: true
+      # Fails when vite-plus and the vite alias resolve to different cores
+      - name: Single vite-plus core
+        if: ${{ !cancelled() }}
+        run: .github/scripts/check-single-vite-plus-core.sh
       # vp check is Vite+'s read-only bundle of the format check and lint
       # rules. Called directly: the lint script runs lint rules only
       - name: Format and lint
